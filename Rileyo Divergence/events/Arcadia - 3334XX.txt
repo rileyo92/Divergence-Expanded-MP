@@ -1,0 +1,655 @@
+
+######################## Flavor event - formation
+
+country_event = {
+
+	id = 333452
+	title = "ARC12.T"
+	desc = "ARC12.D"   
+	news = yes
+	news_desc_long = "ARC12_NEWS_LONG"
+	news_desc_medium = "ARC12_NEWS_MEDIUM"
+	news_desc_short = "ARC12_NEWS_SHORT"
+
+	is_triggered_only = yes
+	
+	major = yes
+	
+
+	option = {  
+      name = "333452.A"
+		  prestige = 5
+	}
+}
+
+######################## Capital choosing event
+
+country_event = {
+
+	id = 333453
+	title = "ARC13.T"
+	desc = "ARC13.D"       
+	picture = "Capitol"
+
+	is_triggered_only = yes
+	
+
+	option = {        
+      name = "333453.A"
+      treasury = -50000
+		capital_scope = {
+      any_pop = {
+			 militancy = 2
+			 consciousness = 2
+			 ideology = {
+			 	 value = reactionary
+				  factor = 0.1
+			 }
+		  }
+     }
+		any_pop = {
+			 ideology = {
+			 	 value = liberal
+				  factor = 0.05
+			 } 
+			scaled_militancy = {
+					ideology = liberal
+					factor = -1
+			} 
+			scaled_consciousness = {
+					ideology = liberal
+					factor = 1
+			}
+    }                
+		    capital = 219
+				prestige = 30	
+		    219 = {
+				    life_rating = 5
+				    change_province_name = "Tripolis"
+				    state_scope = {
+					     change_region_name = "Tripolis"
+				    }            
+			   }     
+		    222 = {
+				    life_rating = 2
+			   }
+		    ai_chance = { 
+		       factor = 100
+		    }          
+	}
+  option = {        
+      name = "333453.B"
+            treasury = -50000
+		capital_scope = {
+      any_pop = {
+			 militancy = 2
+			 consciousness = 2
+			 ideology = {
+			 	 value = reactionary
+				  factor = 0.1
+			 }
+		  }
+     }
+		any_pop = {
+			 ideology = {
+			 	 value = liberal
+				  factor = 0.1
+			 } 
+			scaled_militancy = {
+					ideology = liberal
+					factor = -2
+			} 
+			scaled_consciousness = {
+					ideology = liberal
+					factor = 2
+			}
+    } 
+		    capital = 178
+				prestige = 30	
+		    178 = {
+				    life_rating = 5
+				    change_province_name = "Tripolis"
+				    state_scope = {
+					     change_region_name = "Tripolis"
+				    }            
+			   } 
+		    ai_chance = { 
+		       factor = 30
+		    }           
+	}
+  option = {        
+      name = "333453.C"
+     capital_scope = {
+      any_pop = {
+			 militancy = -2
+			 consciousness = -2
+			 ideology = {
+			 	 value = reactionary
+				  factor = 0.05
+			 }
+		  }
+     }
+        prestige = 20
+        capital_scope = { life_rating = 5 }
+		    ai_chance = { 
+		       factor = 30
+		    }
+		any_pop = {
+			limit = {
+				is_primary_culture = no
+			}
+			militancy = 1
+      consciousness = 2 
+			scaled_militancy = {
+					ideology = liberal
+					factor = 2
+			} 
+			scaled_consciousness = {
+					ideology = liberal
+					factor = 3
+			}          
+		}    
+		any_pop = {
+			limit = {
+				is_primary_culture = yes
+			} 
+          
+			 ideology = {
+			 	 value = reactionary
+				  factor = 0.05
+			 }
+			scaled_militancy = {
+					ideology = liberal
+					factor = 2
+			} 
+			scaled_consciousness = {
+					ideology = liberal
+					factor = 3
+			}          
+			scaled_militancy = {
+					ideology = reactionary
+					factor = -1
+			} 
+			scaled_militancy = {
+					ideology = fascist
+					factor = -1
+			}    
+			scaled_militancy = {
+					ideology = conservative
+					factor = -1
+			} 
+			scaled_consciousness = {
+					ideology = reactionary
+					factor = -1
+			} 
+			scaled_consciousness = {
+					ideology = fascist
+					factor = -1
+			}    
+			scaled_consciousness = {
+					ideology = conservative
+					factor = -1
+			}  
+		}                         
+	}  
+}
+
+
+country_event = {
+
+	id = 333456
+
+	title = "ARC16.T"
+	desc = "ARC16.D"
+	
+	is_triggered_only = yes
+	major = yes
+
+	option = {
+		name = "333456.A"
+    prestige = 25
+      set_country_flag = plantagenian_arcadia
+      set_country_flag = septiman_arcadia
+      set_country_flag = vinlandic_arcadia 
+        clr_country_flag = vinlandic_refusal
+        clr_country_flag = septiman_refusal 
+        clr_country_flag = plantagenian_refusal 
+        clr_country_flag = vinlandic_arcadia_trial
+        clr_country_flag = septiman_arcadia_trial
+        clr_country_flag = plantagenian_arcadia_trial 
+		any_pop = {
+    	  ideology = {
+			 	 value = liberal
+				  factor = 0.05
+			 }  
+			scaled_consciousness = {
+					ideology = liberal
+					factor = 2
+				}	
+     		scaled_militancy = {
+					ideology = liberal
+					factor = -2
+				}        
+		}       		
+	}
+}
+
+country_event = {
+
+	id = 333457
+
+	title = "ARC17.T"
+	desc = "ARC17.D"
+	
+	is_triggered_only = yes
+	major = yes
+
+	option = {
+		name = "333457.A"
+    prestige = -25
+		any_pop = {
+			limit = {
+				is_primary_culture = no
+			}
+			militancy = 1
+      consciousness = 2
+			scaled_militancy = {
+					ideology = liberal
+					factor = 2
+			} 
+			scaled_consciousness = {
+					ideology = liberal
+					factor = 3
+			}          
+		}    
+		any_pop = {
+			limit = {
+				is_primary_culture = yes
+			} 
+          
+			 ideology = {
+			 	 value = reactionary
+				  factor = 0.05
+			 }
+			scaled_militancy = {
+					ideology = liberal
+					factor = 2
+			} 
+			scaled_consciousness = {
+					ideology = liberal
+					factor = 3
+			} 
+		}         		
+	}
+}
+
+################### The annexation event AKA what you don't do yourself
+
+country_event = {
+	id = 333458
+	title = "EVTNAME11101"
+	desc = "EVTDESC11101"
+	picture = "Celebration"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA11101"
+		any_country = {
+			limit = {
+				OR = {
+					is_sphere_leader_of = THIS
+					is_our_vassal = THIS
+				}
+				NOT = { tag = FROM }
+			}
+			relation = {
+				who = FROM
+				value = -25
+			}
+			casus_belli = {
+				target = FROM
+				type = humiliate
+				months = 24
+			}
+			casus_belli = {
+				target = FROM
+				type = free_peoples
+				months = 24
+			}
+		}
+		FROM = { inherit = THIS }	
+		ai_chance = {
+			factor = 85
+			modifier = {
+				factor = 0
+				is_greater_power = yes
+				NOT = { has_country_flag = wants_to_unify }
+			}
+			modifier = {
+				factor = 100
+                vassal_of = from
+			}
+			modifier = {
+				factor = 100
+                any_country = {
+				   limit = {
+				    owns = 564
+					}
+				}	
+			}
+			
+			modifier = {
+				factor = 2
+				OR = {
+					alliance_with = FROM
+					relation = { who = FROM value = 100 }
+				}
+			}
+			modifier = {
+				factor = 0.1
+				government = fascist_dictatorship
+				FROM = { government = proletarian_dictatorship }
+			}
+			modifier = {
+				factor = 0.1
+				government = proletarian_dictatorship
+				FROM = { government = fascist_dictatorship }
+			}
+		}
+	}
+	
+	option = {
+		name = "EVTOPTB11101"
+		clr_country_flag = wants_to_unify
+		prestige = 1
+		leave_alliance = FROM
+		relation = {
+			who = FROM
+			value = -200
+		}
+		FROM = {
+			diplomatic_influence = {
+				who = THIS
+				value = -200
+			}
+		}
+		any_pop = {
+			limit = { is_primary_culture = yes }
+			militancy = 3
+			consciousness = 2
+		}
+		ai_chance = {
+			factor = 25
+			modifier = {
+				factor = 0
+				has_country_flag = wants_to_unify
+			}
+			modifier = {
+				factor = 0.75
+				is_secondary_power = no
+			}
+			modifier = {
+				factor = 0.75
+				part_of_sphere = no
+			}
+			modifier = {
+				factor = 1.5
+				truce_with = FROM
+			}
+			modifier = {
+				factor = 1.5
+				NOT = {
+					relation = { who = FROM value = 0 }
+				}
+			}
+			modifier = {
+				factor = 0.25
+				in_sphere = FROM
+			} 
+			modifier = {
+				factor = 0.25
+				government = fascist_dictatorship
+				FROM = { government = fascist_dictatorship }
+			}
+			modifier = {
+				factor = 0.25
+				government = proletarian_dictatorship
+				FROM = { government = proletarian_dictatorship }
+			}
+			modifier = {
+				factor = 0.25
+				OR = {
+					government = democracy
+					government = prussian_constitutionalism
+					government = hms_government
+				}
+				FROM = {
+					OR = {
+						government = democracy
+						government = prussian_constitutionalism
+						government = hms_government
+					}
+				}
+			}
+		}
+	}
+}
+
+country_event = { 
+	id = 333470
+	title = "DNGARC1.T"
+	desc = "DNGARC1.D"
+	picture = "ARC_WEST"
+	
+	is_triggered_only = yes 
+	
+	option = { 
+	name = "333470.A"
+	NA_30 = { add_core = THIS }
+	NA_15 = { add_core = THIS }
+	NA_14 = { add_core = THIS }
+	NA_13 = { add_core = THIS }
+	NA_5 = { add_core = THIS }
+	NA_6 = { add_core = THIS }
+	DNG = { country_event = 333471 }
+	}
+}
+
+country_event = { 
+	id = 333471
+	title = "DNGARC2.T"
+	desc = "DNGARC2.D"
+	picture = "ARC_WEST"
+	
+	is_triggered_only = yes 
+	
+	option = { 
+	name = "333471.A"
+	any_owned = { 
+	limit = { is_core = ARC }
+	remove_core = DNG 
+	secede_province = ARC 
+		}
+	any_country = {
+		any_owned = { 
+			limit = { is_core = ARC }
+			remove_core = DNG 
+			secede_province = ARC 
+			}
+		}
+	FROM = { country_event = 333473 }
+	money = 1000000
+	ai_chance = { 
+	factor = 70 
+	modifier = { 
+	factor = 0.9 
+	NOT = { relation = { who = ARC value = 0 } }
+			}
+	modifier = { 
+	factor = 0.8
+	NOT = { relation = { who = ARC value = -50 } }
+			}
+	modifier = { 
+	factor = 0.7
+	NOT = { relation = { who = ARC value = -100 } }
+			}
+	modifier = { 
+	factor = 0.6
+	NOT = { relation = { who = ARC value = -150 } }
+			}
+	modifier = { 
+	factor = 0.8
+	NOT = { in_sphere = FROM }
+			}
+	modifier = { 
+	factor = 1.2
+	NOT = { in_sphere = THIS }
+			}
+	modifier = { 
+	factor = 0.7
+	rank = 16
+			}
+	modifier = { 
+	factor = 1.1 
+	relation = { who = ARC value = 50 }
+			}
+	modifier = { 
+	factor = 1.2
+	relation = { who = ARC value = 100 }
+			}
+	modifier = { 
+	factor = 1.3
+	relation = { who = ARC value = 150 }
+			}
+	modifier = {
+				factor = 2
+				ARC = { brigades_compare = 2 }
+			}
+			modifier = {
+				factor = 0.5
+				NOT = {
+					ARC = { brigades_compare = 1 }
+				}
+			}
+		}
+	}
+	
+	option = { 
+	name = "333471.B"
+	prestige = 15 
+	FROM = { country_event = 333472 }
+	}
+}
+
+country_event = { 
+	id = 333472
+	title = "DNGARC3.T"
+	desc = "DNGARC3.D"
+	picture = "ARC_WEST"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "333472.A"
+		war_exhaustion = -20
+		relation = { who = FROM value = -200 }
+		diplomatic_influence = { who = FROM value = -200 }
+		leave_alliance = FROM
+		war = {
+			target = FROM
+			attacker_goal = {
+				casus_belli = acquire_all_cores
+				country = THIS
+			}
+		}
+		any_pop = {
+			limit = { has_pop_culture = qingqiuan  }
+			militancy = 6
+		}
+		ai_chance = {
+			factor = 100
+		}
+	}
+
+	option = {
+	name = "333472.B"
+		prestige_factor = -0.2
+		any_pop = {
+			consciousness = 1
+			militancy = 1
+		}
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+country_event = { 
+	id = 333473
+	title = "DNGARC4.T"
+	desc = "DNGARC4.D"
+	major = yes 
+	
+	is_triggered_only = yes
+	
+	option = { 
+	name = "333473.A"
+	prestige = 25 
+	money = -1000000
+	random_owned = { 
+		limit = {
+			owner = { has_country_flag = vinlandic_arcadia }
+		}
+		owner = { country_event = 333474 }
+		}
+
+	}
+} 
+
+country_event = { 
+	id = 333474 #Xiazhou not concerned by this act
+	title = "DNGARC5.T"
+	desc = "DNGARC5.D"
+	picture = "Qingqiu_VIN"
+	
+	is_triggered_only = yes 
+
+	option = { 
+	name = "333474.A"
+	any_pop = { limit = { culture = qingqiuan } consciousness = 7 militancy = 3 }
+	DNG_4 = { add_core = DNG }
+	DNG_5 = { add_core = DNG }
+	}
+}
+
+########################
+country_event = { 
+	id = 333500
+	title = "BrS.T"
+	desc = "BrS.D"
+	
+	trigger = { 
+	tag = PLA 
+	year = 1847 
+	slavery = yes_slavery
+	}
+	
+	fire_only_once = yes 
+	
+	mean_time_to_happen = { 
+	months = 15 
+	}
+	
+	option = { 
+	name = "333500.A"
+	prestige = 2 
+	any_pop = {
+			consciousness = 2
+			dominant_issue = {
+				factor = 0.075
+				value = no_slavery
+			}
+		}
+	}
+}

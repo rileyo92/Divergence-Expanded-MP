@@ -1,0 +1,24 @@
+army = {
+  name = "Bulgarian Liberation Army"
+  location = 809
+  regiment = {
+		name= "1. BLD"
+		type = infantry
+		home = 809
+	}
+  regiment = {
+		name= "2. BLD"
+		type = infantry
+		home = 804
+	}
+  regiment = {
+		name= "3. BLD"
+		type = infantry
+		home = 812
+	}
+  regiment = {
+		name= "4. BLD"
+		type = hussar
+		home = 813
+	}
+}

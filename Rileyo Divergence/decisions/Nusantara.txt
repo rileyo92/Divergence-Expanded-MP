@@ -1,0 +1,438 @@
+political_decisions = {
+	unite_malay_peninsular = {
+		potential = {
+			primary_culture = malay
+			NOT = { has_country_flag = malay_peninsular }
+		}
+		allow = {
+			JOH = { all_core = { owned_by = THIS } }
+		}
+		effect = {
+			set_country_flag = malay_peninsular
+			add_accepted_culture = dayak
+			add_accepted_culture = acehnese
+			add_accepted_culture = tionghoa
+			ATJ = { all_core = { add_core = THIS } }
+			LFG = { all_core = { add_core = THIS } }
+			BRU = { all_core = { add_core = THIS } }
+			KLM = { all_core = { add_core = THIS } }
+			KTI = { all_core = { add_core = THIS } }
+			1352 = { add_core = THIS }
+			1354 = { add_core = THIS }
+			1397 = { add_core = THIS }
+		}
+	}
+
+	unite_sumatra = {
+		potential = {
+			primary_culture = acehnese
+			NOT = { has_country_flag = sumatra }
+		}
+		allow = {
+			ATJ = { all_core = { owned_by = THIS } }
+		}
+		effect = {
+			set_country_flag = sumatra
+			add_accepted_culture = malay
+			add_accepted_culture = dayak
+			add_accepted_culture = javan
+			add_accepted_culture = tionghoa
+			JOH = { all_core = { add_core = THIS } }
+			LFG = { all_core = { add_core = THIS } }
+			BRU = { all_core = { add_core = THIS } }
+			KLM = { all_core = { add_core = THIS } }
+			KTI = { all_core = { add_core = THIS } }
+			JAV = { all_core = { add_core = THIS } }
+			1397 = { add_core = THIS }
+			1320 = { add_core = THIS }
+			2244 = { add_core = THIS }
+		}
+	}
+
+	unite_borneo = {
+		potential = {
+			OR = {
+				primary_culture = dayak
+				primary_culture = tionghoa
+				tag = SUL
+			}
+			NOT = { has_country_flag = borneo }
+		}
+		allow = {
+			LFG = { all_core = { owned_by = THIS } }
+			BRU = { all_core = { owned_by = THIS } }
+			KLM = { all_core = { owned_by = THIS } }
+			KTI = { all_core = { owned_by = THIS } }
+			owns = 1397
+		}
+		effect = {
+			set_country_flag = borneo
+			add_accepted_culture = malay
+			add_accepted_culture = acehnese
+			add_accepted_culture = javan
+			add_accepted_culture = filipino
+			add_accepted_culture = tionghoa
+			add_accepted_culture = moluccan
+			JOH = { all_core = { add_core = THIS } }
+			ATJ = { all_core = { add_core = THIS } }
+			SUL = { all_core = { add_core = THIS } }
+			JAV = { all_core = { add_core = THIS } }
+			NET_1430 = { add_core = THIS }
+			NET_1433 = { add_core = THIS }
+		}
+	}
+
+	unite_java = {
+		potential = {
+			primary_culture = javan
+			NOT = { has_country_flag = java }
+		}
+		allow = {
+			JAV = { all_core = { owned_by = THIS } }
+		}
+		effect = {
+			set_country_flag = java
+			add_accepted_culture = acehnese
+			add_accepted_culture = dayak
+			add_accepted_culture = tionghoa
+			add_accepted_culture = moluccan
+			ATJ = { all_core = { add_core = THIS } }
+			LFG = { all_core = { add_core = THIS } }
+			BRU = { all_core = { add_core = THIS } }
+			KLM = { all_core = { add_core = THIS } }
+			KTI = { all_core = { add_core = THIS } }
+			1352 = { add_core = THIS }
+			MKS = { all_core = { add_core = THIS } }
+			BAL = { all_core = { add_core = THIS } }
+		}
+	}
+
+	unite_moluccas = {
+		potential = {
+			OR = {
+				primary_culture = moluccan
+				primary_culture = melanesian
+				tag = BAL
+			}
+			NOT = { has_country_flag = moluccas }
+		}
+		allow = {
+			MKS = { all_core = { owned_by = THIS } }
+			BAL = { all_core = { owned_by = THIS } }
+		}
+		effect = {
+			set_country_flag = moluccas
+			add_accepted_culture = javan
+			add_accepted_culture = dayak
+			add_accepted_culture = tionghoa
+			add_accepted_culture = moluccan
+			add_accepted_culture = melanesian
+			add_accepted_culture = filipino
+			JAV = { all_core = { add_core = THIS } }
+			LFG = { all_core = { add_core = THIS } }
+			BRU = { all_core = { add_core = THIS } }
+			KLM = { all_core = { add_core = THIS } }
+			KTI = { all_core = { add_core = THIS } }
+			SUL = { all_core = { add_core = THIS } }
+			NET_1451 = { add_core = THIS }
+			AST_2529 = { add_core = THIS }
+			GER_2531 = { add_core = THIS }
+		}
+	}
+
+	unite_philippines = {
+		potential = {
+			primary_culture = filipino
+			NOT = { has_country_flag = philippines }
+		}
+		allow = {
+			TON = { all_core = { owned_by = THIS } }
+		}
+		effect = {
+			set_country_flag = philippines
+			add_accepted_culture = dayak
+			add_accepted_culture = tionghoa
+			add_accepted_culture = moluccan
+			add_accepted_culture = melanesian
+			add_accepted_culture = min
+			MKS = { all_core = { add_core = THIS } }
+			LFG = { all_core = { add_core = THIS } }
+			BRU = { all_core = { add_core = THIS } }
+			KLM = { all_core = { add_core = THIS } }
+			KTI = { all_core = { add_core = THIS } }
+			SUL = { all_core = { add_core = THIS } }
+			CHI_2562 = { add_core = THIS }
+		}
+	}
+
+	form_nusantara_special = {
+		potential = {
+			NOT = {	NUS = { exists = yes }	}
+			OR = {
+				has_country_flag = malay_peninsular
+				has_country_flag = borneo
+				has_country_flag = sumatra
+				has_country_flag = java
+				has_country_flag = moluccas
+			}
+		}
+		allow = {
+			NOT = { war = yes }
+			NOT = { is_vassal = yes }
+			rank = 20
+			THIS = { all_core = { owned_by = THIS } }
+		}
+		effect = {
+			prestige = 20
+			change_tag = NUS
+			add_accepted_culture = javan
+			add_accepted_culture = malay
+			add_accepted_culture = acehnese
+			add_accepted_culture = dayak
+			add_accepted_culture = moluccan
+			any_country = {
+				limit = {
+					NOT = {
+						is_greater_power = yes
+					}
+					is_culture_group = THIS
+					in_sphere = THIS
+				}
+				country_event = 11101
+			}
+			1453 = { add_core = NUS }
+			1454 = { add_core = NUS }
+			1452 = { add_core = NUS }
+			1560 = { add_core = NUS }
+			2531 = { add_core = NUS }
+			2529 = { add_core = NUS }
+			2530 = { add_core = NUS }
+			2528 = { add_core = NUS }
+			2537 = { add_core = NUS }
+			1531 = { add_core = NUS }
+			1423 = { add_core = NUS }
+			1422 = { add_core = NUS }
+			1424 = { add_core = NUS }
+			1429 = { add_core = NUS }
+			1425 = { add_core = NUS }
+			1462 = { add_core = NUS }
+			1463 = { add_core = NUS }
+			2565 = { add_core = NUS }
+			1460 = { add_core = NUS }
+			1459 = { add_core = NUS }
+			1461 = { add_core = NUS }
+			1457 = { add_core = NUS }
+			1458 = { add_core = NUS }
+			1455 = { add_core = NUS }
+			1456 = { add_core = NUS }
+			2562 = { add_core = NUS }
+			1485 = { add_core = NUS }
+			1379 = { add_core = NUS }
+			1378 = { add_core = NUS }
+			1368 = { add_core = NUS }
+			1381 = { add_core = NUS }
+			1380 = { add_core = NUS }
+			1382 = { add_core = NUS }
+			1383 = { add_core = NUS }
+			1367 = { add_core = NUS }
+			1364 = { add_core = NUS }
+			2244 = { add_core = NUS }
+			2406 = { add_core = NUS }
+		}
+	}
+
+	form_nusantara = {
+		potential = {
+			NOT = {	NUS = { exists = yes }	}
+			OR = {
+				is_culture_group = austronesian
+				tag = LFG
+			}
+		}
+
+		allow = {
+			NOT = { war = yes }
+			NOT = { is_vassal = yes }
+			rank = 20
+			NUS = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			prestige = 20
+			change_tag = NUS
+			add_accepted_culture = javan
+			add_accepted_culture = malay
+			add_accepted_culture = acehnese
+			add_accepted_culture = dayak
+			add_accepted_culture = moluccan
+			any_country = {
+				limit = {
+					NOT = {
+						is_greater_power = yes
+					}
+					is_culture_group = THIS
+					in_sphere = THIS
+				}
+				country_event = 11101
+			}
+			1453 = { add_core = NUS }
+			1454 = { add_core = NUS }
+			1452 = { add_core = NUS }
+			1560 = { add_core = NUS }
+			2531 = { add_core = NUS }
+			2529 = { add_core = NUS }
+			2530 = { add_core = NUS }
+			2528 = { add_core = NUS }
+			2537 = { add_core = NUS }
+			1531 = { add_core = NUS }
+			1423 = { add_core = NUS }
+			1422 = { add_core = NUS }
+			1424 = { add_core = NUS }
+			1429 = { add_core = NUS }
+			1425 = { add_core = NUS }
+			1462 = { add_core = NUS }
+			1463 = { add_core = NUS }
+			2565 = { add_core = NUS }
+			1460 = { add_core = NUS }
+			1459 = { add_core = NUS }
+			1461 = { add_core = NUS }
+			1457 = { add_core = NUS }
+			1458 = { add_core = NUS }
+			1455 = { add_core = NUS }
+			1456 = { add_core = NUS }
+			2562 = { add_core = NUS }
+			1485 = { add_core = NUS }
+			1379 = { add_core = NUS }
+			1378 = { add_core = NUS }
+			1368 = { add_core = NUS }
+			1381 = { add_core = NUS }
+			1380 = { add_core = NUS }
+			1382 = { add_core = NUS }
+			1383 = { add_core = NUS }
+			1367 = { add_core = NUS }
+			1364 = { add_core = NUS }
+			2244 = { add_core = NUS }
+			2406 = { add_core = NUS }
+		}
+	}
+
+	claim_greater_nusantara = {
+		potential = {
+			tag = NUS
+			NOT = { has_country_flag = greater_nusantara_claimed }
+		}
+
+		allow = {
+			is_greater_power = yes
+			NOT = { war = yes }
+			NUS = {
+				all_core = {
+						owned_by = THIS
+					}
+				}
+		}
+		effect = {
+			prestige = 15
+			set_country_flag = greater_nusantara_claimed
+			add_accepted_culture = champa
+			add_accepted_culture = melanesian
+			add_accepted_culture = filipino
+			add_accepted_culture = min
+			2123 = { add_core = NUS }
+			2124 = { add_core = NUS }
+			2120 = { add_core = NUS }
+			2121 = { add_core = NUS }
+			2115 = { add_core = NUS }
+			2119 = { add_core = NUS }
+			2122 = { add_core = NUS }
+			2116 = { add_core = NUS }
+			2118 = { add_core = NUS }
+			2117 = { add_core = NUS }
+			2126 = { add_core = NUS }
+			2125 = { add_core = NUS }
+			2127 = { add_core = NUS }
+			2539 = { add_core = NUS }
+			2534 = { add_core = NUS }
+			2536 = { add_core = NUS }
+			2535 = { add_core = NUS }
+			1097 = { add_core = NUS }
+			2508 = { add_core = NUS }
+			2509 = { add_core = NUS }
+			2571 = { add_core = NUS }
+			2510 = { add_core = NUS }
+			2511 = { add_core = NUS }
+			2512 = { add_core = NUS }
+			2516 = { add_core = NUS }
+			2515 = { add_core = NUS }
+			2514 = { add_core = NUS }
+			2513 = { add_core = NUS }
+			2518 = { add_core = NUS }
+			2519 = { add_core = NUS }
+			2579 = { add_core = NUS }
+			2517 = { add_core = NUS }
+			2521 = { add_core = NUS }
+			1654 = { add_core = NUS }
+			2525 = { add_core = NUS }
+			2524 = { add_core = NUS }
+			610 = { add_core = NUS }
+			2522 = { add_core = NUS }
+			2527 = { add_core = NUS }
+			2523 = { add_core = NUS }
+			2541 = { add_core = NUS }
+			2454 = { add_core = NUS }
+			2520 = { add_core = NUS }
+			2540 = { add_core = NUS }
+			2548 = { add_core = NUS }
+			2543 = { add_core = NUS }
+			2542 = { add_core = NUS }
+			2544 = { add_core = NUS }
+			2547 = { add_core = NUS }
+			2546 = { add_core = NUS }
+			2545 = { add_core = NUS }
+			801 = { add_core = NUS }
+			2553 = { add_core = NUS }
+			2552 = { add_core = NUS }
+			2336 = { add_core = NUS }
+			2551 = { add_core = NUS }
+			686 = { add_core = NUS }
+			2526 = { add_core = NUS }
+			2623 = { add_core = NUS }
+			658 = { add_core = NUS }
+		}
+	}
+
+	greater_nusantara_acquired = {
+		potential = {
+			tag = NUS
+			has_country_flag = greater_nusantara_claimed
+			NOT = { has_country_flag = greater_nusantara_acquired }
+		}
+
+		allow = {
+			is_greater_power = yes
+			NOT = { war = yes }
+			NUS = {
+				all_core = {
+						owned_by = THIS
+					}
+				}
+		}
+		effect = {
+			prestige = 25
+			set_country_flag = greater_nusantara_acquired
+			add_accepted_culture = malagasy
+			add_accepted_culture = polynesian
+			add_accepted_culture = hawaiian
+			add_accepted_culture = maori
+			add_accepted_culture = aborigine
+		}
+	}
+}

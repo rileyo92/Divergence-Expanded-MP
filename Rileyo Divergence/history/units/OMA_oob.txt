@@ -1,0 +1,41 @@
+leader = {
+	name = "Fahd bin Mahmoud"
+	type = land
+	date = 1836.1.1
+	personality = defence_1.1
+	background = attack_1.1
+}
+
+leader = {
+	name = "Said bin Taimur"
+	type = sea
+	date = 1836.1.1
+	personality = defence_1.1
+	background = attack_1.1
+}
+
+army = {
+	name = "Army of the Sultan of Muscat"
+	location = 1166
+
+	regiment = {
+		name= "1. Askaris"
+		type = infantry
+		home = 1166
+	}
+}
+
+navy = {
+	name = "Red Sea Fleet"
+	location = 1166
+	ship = {
+		name= "Transport Flotilla"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "Transport Flotilla"
+		type = clipper_transport
+	}
+
+}

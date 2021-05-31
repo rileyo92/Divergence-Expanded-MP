@@ -1,0 +1,234 @@
+
+
+country_event = {
+
+	id = 46423
+
+	title = "EVTNAME46423"
+	desc = "EVTDESC46423"
+	picture = "Administration"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA46423"
+		set_country_flag = thepath_tobe_chosen1
+	}
+}
+
+country_event = {
+
+	id = 46424
+
+	title = "EVTNAME46424"
+	desc = "EVTDESC46424"
+	picture = "Administration"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA46424"
+		set_country_flag = thepath_tobe_chosen2
+	}
+}
+
+country_event = {
+
+	id = 46425
+
+	title = "EVTNAME46423"
+	desc = "EVTDESC46425"
+	picture = "Administration"
+	
+	trigger = {
+		has_country_flag = thepath_tobe_chosen1
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	option = {
+		name = "EVTOPTA46425"
+		clr_country_flag = thepath_tobe_chosen1
+		any_pop = {
+			limit = {
+				culture = mexican
+			}
+			militancy = 2
+      			consciousness = 2
+		}
+		random_list = {
+			30 = { 
+				government = democracy
+				political_reform = appointed
+				political_reform = landed_voting
+				political_reform = yes_meeting
+				political_reform = state_press
+				political_reform = no_trade_unions
+				political_reform = first_past_the_post
+				political_reform = non_secret_ballots
+			}
+			20 = { 
+				government = democracy
+				political_reform = state_equal_weight
+				political_reform = universal_weighted_voting
+				political_reform = yes_meeting
+				political_reform = free_press
+				political_reform = all_trade_unions
+				political_reform = first_past_the_post
+				political_reform = gerrymandering
+			}
+			40 = { 
+				government = presidential_dictatorship
+				political_reform = none_voting
+				political_reform = party_appointed
+				political_reform = no_meeting
+				political_reform = state_press
+				political_reform = no_trade_unions
+				political_reform = first_past_the_post
+				political_reform = underground_parties 
+			}
+			5 = { 
+				government = prussian_constitutionalism
+				political_reform = appointed
+				political_reform = wealth_voting
+				political_reform = yes_meeting
+				political_reform = censored_press
+				political_reform = no_trade_unions
+				political_reform = first_past_the_post
+				political_reform = non_secret_ballots
+			}
+			5 = { 
+				government = hms_government
+				political_reform = state_equal_weight
+				political_reform = universal_weighted_voting
+				political_reform = yes_meeting
+				political_reform = censored_press
+				political_reform = no_trade_unions
+				political_reform = first_past_the_post
+				political_reform = non_secret_ballots
+			}
+		}
+	}
+}
+
+country_event = {
+
+	id = 46426
+
+	title = "EVTNAME46424"
+	desc = "EVTDESC46425"
+	picture = "Administration"
+	
+	trigger = {
+		has_country_flag = thepath_tobe_chosen2
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	option = {
+		name = "EVTOPTA46425"
+		clr_country_flag = thepath_tobe_chosen2
+		any_pop = {
+			limit = {
+				culture = mexican
+			}
+			militancy = 3
+      			consciousness = 3
+		}
+		random_list = {
+			50 = { 
+				government = democracy
+				political_reform = appointed
+				political_reform = wealth_voting
+				political_reform = yes_meeting
+				political_reform = censored_press
+				political_reform = no_trade_unions
+				political_reform = first_past_the_post
+				political_reform = non_secret_ballots
+			}
+			50 = { 
+				government = prussian_constitutionalism
+				political_reform = appointed
+				political_reform = landed_voting
+				political_reform = yes_meeting
+				political_reform = state_press
+				political_reform = no_trade_unions
+				political_reform = first_past_the_post
+				political_reform = non_secret_ballots
+			}
+		}
+	}
+}
+
+country_event = {
+
+	id = 46417
+
+	title = "EVTNAME46417"
+	desc = "EVTDESC46417"
+	picture = "Administration"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA46417"
+
+		any_owned = {
+			limit = {
+				is_core = UCA
+			}
+			remove_core = THIS
+			secede_province = UCA
+		}
+
+		UCA = { country_event = 46423 }
+	}
+}
+
+country_event = {
+
+	id = 46418
+
+	title = "EVTNAME46418"
+	desc = "EVTDESC46418"
+	picture = "Administration"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA46418"
+
+		any_owned = {
+			limit = {
+				is_core = NIC
+			}
+			remove_core = THIS
+			secede_province = NIC
+		}
+
+		any_owned = {
+			limit = {
+				is_core = PNM
+			}
+			remove_core = THIS
+			secede_province = PNM
+		}
+		
+		any_owned = {
+			limit = {
+				is_core = ELS
+			}
+			remove_core = THIS
+			secede_province = ELS
+		}
+
+		NIC = { country_event = 46423 }
+		PNM = { country_event = 46423 }
+		ELS = { country_event = 46423 }
+
+	}
+}

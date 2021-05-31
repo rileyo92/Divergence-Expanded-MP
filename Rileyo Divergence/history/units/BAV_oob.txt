@@ -1,0 +1,60 @@
+leader = {
+	name = "Anselm Polke"
+	type = land
+	date = 1836.1.1
+	personality = defence_1.1
+	background = attack_1.1
+}
+
+leader = {
+	name = "Kurt Dietrich"
+	type = land
+	date = 1836.1.1
+	personality = defence_1.1
+	background = attack_1.1
+}
+
+army = {
+	name = "I. Korps"
+	location = 599
+	regiment = {
+		name= "1. Kgl. Bayer. Infanteriebrigade"
+		type = infantry
+		home = 595
+	}
+
+	regiment = {
+		name= "2. Kgl. Bayer. Infanteriebrigade"
+		type = infantry
+		home = 595
+	}
+
+	regiment = {
+		name= "3. Kgl. Bayer. Infanteriebrigade"
+		type = infantry
+		home = 595
+	}
+
+	regiment = {
+		name= "4. Kgl. Bayer. Infanteriebrigade"
+		type = artillery
+		home = 599
+	}
+
+}
+
+army = {
+	name = "II. Korps"
+	location = 595
+	regiment = {
+		name= "5. Kgl. Bayer. Infanteriebrigade"
+		type = infantry
+		home = 599
+	}
+
+	regiment = {
+		name= "6. Kgl. Bayer. Infanteriebrigade"
+		type = infantry
+		home = 599
+	}
+}

@@ -1,0 +1,118 @@
+country_event = { #Future of Gran Colombia Event
+  id = 500011
+  title = "500011.T"
+  desc = "500011.DE"
+  picture = "administration"
+
+  is_triggered_only = yes
+
+  #Qingqiu Option
+  option = {
+    name = "500011.A"
+    set_country_flag = clm_qingqiu_focus
+    badboy = 15
+    DNG_1 = { add_core = CLM }
+    DNG_2 = { add_core = CLM }
+    DNG_3 = { add_core = CLM }
+    DNG_4 = { add_core = CLM }
+    DNG_5 = { add_core = CLM }
+    DNG_88 = { add_core = CLM }
+    NA_5 =  { add_core = CLM }
+    NA_6 =  { add_core = CLM }
+    NA_10 = { add_core = CLM }
+    NA_11 = { add_core = CLM }
+    NA_13 =  { add_core = CLM }
+    NA_14 =  { add_core = CLM }
+    NA_15 =  { add_core = CLM }
+    NA_17 = { add_core = CLM }
+    NA_2598 = { add_core = CLM }
+    ai_chance = {
+				factor = 20
+		}
+  }
+
+  #Plantegnia Option
+  option = {
+    name = "500011.B"
+    set_country_flag = clm_plantagenia_focus
+    badboy = 15
+    PLA_3 = {add_core = CLM}
+    PLA_4 = {add_core = CLM}
+    PLA_5 = {add_core = CLM}
+    PLA_6 = {add_core = CLM}
+    PLA_7 = {add_core = CLM}
+    PLA_8 = {add_core = CLM}
+    PLA_9 = {add_core = CLM}
+    NA_1 =  {add_core = CLM}
+    NA_2 =  {add_core = CLM}
+    NA_3 =  {add_core = CLM}
+    NA_4 =  {add_core = CLM}
+    NA_7 =  {add_core = CLM}
+    199 =  {add_core = CLM}
+    200 =  {add_core = CLM}
+    ai_chance = {
+				factor = 20
+		}
+  }
+
+  #Inca Option
+  option = {
+    name = "500011.C"
+    set_country_flag = clm_inca_focus
+    badboy = 15
+    BOL_2321 = { add_core = CLM }
+    BOL_2305 = { add_core = CLM }
+    INC_2308 = { add_core = CLM }
+    ARG_2368 = { add_core = CLM }
+    ARG_2387 = { add_core = CLM }
+    CHL_2322 = { add_core = CLM }
+    INC_2389 = { add_core = CLM }
+    CHL_2322 = { add_core = CLM }
+    SA_6 = { add_core = CLM }
+    SA_9 = { add_core = CLM }
+    INC_2324 = { add_core = CLM }
+    ai_chance = {
+				factor = 20
+		}
+  }
+
+  #Amazonie Option
+  option = {
+    name = "500011.D"
+    set_country_flag = clm_amazonie_focus
+    badboy = 15
+    SA_1 = {add_core = CLM}
+    SA_2 = {add_core = CLM}
+    SA_3 = {add_core = CLM}
+    AMA_1 = {add_core = CLM}
+    AMA_2 = {add_core = CLM}
+    AMA_3 = {add_core = CLM}
+    AMA_4 = {add_core = CLM}
+    AMA_5 = {add_core = CLM}
+    AMA_2410 = {add_core = CLM}
+    LOT_1 = {add_core = CLM}
+    ai_chance = {
+				factor = 20
+		}
+  }
+
+  #Liberty Option
+  option = {
+    name = "500011.E"
+    set_country_flag = clm_liberty_focus
+    nationalvalue = nv_liberty
+    government = democracy
+    political_reform = universal_voting
+    political_reform = population_equal_weight
+    political_reform = yes_meeting
+    political_reform = press_rights
+    political_reform = non_socialist
+    political_reform = secret_ballots
+    political_reform = all_voting_pops
+    political_reform = open_borders
+    election = yes
+    ai_chance = {
+				factor = 20
+		}
+  }
+}

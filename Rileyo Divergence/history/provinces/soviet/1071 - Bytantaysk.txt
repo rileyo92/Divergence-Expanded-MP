@@ -1,0 +1,8 @@
+owner = ABU
+controller = ABU
+add_core = PER
+add_core = ARY
+add_core = ABU
+add_core = NEJ
+trade_goods = fish
+life_rating = 35

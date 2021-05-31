@@ -1,0 +1,255 @@
+political_decisions = {
+	#Macedonia path
+	restore_macedonia = {
+		potential = {
+			tag = MAC
+			primary_culture = greek
+			NOT = { has_country_flag = macedon_greece }
+			NOT = { has_country_flag = macedon_serb }
+		}
+		allow = {
+			OR = {
+				AND = {
+					NOT = { is_vassal = yes }
+					NOT = { war = yes }
+					834 = { owned_by = THIS }
+					832 = { owned_by = THIS }
+					839 = { owned_by = THIS }
+				}
+				has_country_flag = help_greece
+			}
+		}
+		effect = {
+			prestige = 10
+			GRE = {
+				all_core = {
+					add_core = THIS
+				}
+			}
+ 			TUR_859 = { add_core = THIS }
+			TUR_860 = { add_core = THIS }
+			set_country_flag = macedon_greece
+		}
+	}
+
+	macedi_idea = {
+		potential = {
+			tag = MAC
+			NOT = { is_vassal = yes }
+			NOT = { has_country_flag = macedi_idea }
+			has_country_flag = macedon_greece
+		}
+		allow = {
+			NOT = {
+				TUR = { is_greater_power = yes }
+			}
+			NOT = { war = yes }
+			all_core = {
+				owned_by = THIS
+			}
+			NOT = {
+				GRE = { exists = yes }
+			}
+		}
+		effect = {
+			prestige = 20
+			TUR_869 = { add_core = THIS }
+			TUR_863 = { add_core = THIS }
+			TUR_884 = { add_core = THIS }
+			TUR_881 = { add_core = THIS }
+			set_country_flag = macedi_idea
+			capital = 860
+		}
+	}
+
+	macedonian_ambition = {
+		potential = {
+			tag = MAC
+			has_country_flag = macedi_idea
+			NOT = { has_country_flag = great_macedonian_ambition }
+		}
+		allow = {
+			nationalism_n_imperialism = 1
+			TUR = {
+				 all_core = {
+				 		OR = {
+							is_core = SYR
+							is_core = EGY
+							is_core = NEJ
+							owned_by = MAC
+						}
+				 }
+			}
+		}
+		effect = {
+			badboy = 10
+			casus_belli = {
+				target = IRQ
+				type = conquest
+				months = 24
+			}
+			war = {
+				target = IRQ
+				attacker_goal = {
+					casus_belli = conquest
+				}
+			}
+			set_country_flag = great_macedonian_ambition
+		}
+	}
+
+	mac_to_india = {
+		potential = {
+			tag = MAC
+			has_country_flag = great_macedonian_ambition
+			NOT = { has_country_flag = indian_ambition }
+		}
+		allow = {
+			PER = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						is_core = TAJ
+					}
+				}
+			}
+			IRQ = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						empty = yes
+						is_core = SYR
+						is_core = HAL
+					}
+				}
+			}
+		}
+		effect = {
+			set_country_flag = indian_ambition
+			badboy = 20
+			any_owned_province = { add_core = THIS }
+			PAN_1233 = { add_core = THIS }
+			PAN_1227 = { add_core = THIS }
+			SIN_1288 = { add_core = THIS }
+		}
+	}
+
+	macedon_egypt_invasion = {
+		potential = {
+			tag = MAC
+			has_country_flag = great_macedonian_ambition
+			NOT = { accepted_culture = coptic }
+		}
+		allow = {
+			SYR = {
+				all_core = {
+					OR = {
+						owned_by = MAC
+						empty = yes
+					}
+				}
+			}
+		}
+		effect = {
+			badboy = 10
+			add_accepted_culture = coptic
+			casus_belli = {
+					target = EGY
+					type = conquest
+					months = 24
+			 }
+				war = {
+					target = EGY
+					attacker_goal = {
+						casus_belli = conquest
+					}
+				}
+		}
+	}
+
+	mac_accept_christian_caucassians = {
+		potential = {
+			tag = MAC
+			NOT = { accepted_culture = armenian }
+			has_country_flag = macedi_idea
+		}
+		allow = {
+			nationalism_n_imperialism = 1
+		}
+		effect = {
+			add_accepted_culture = armenian
+			add_accepted_culture = georgian
+			add_accepted_culture = ossetian
+			add_accepted_culture = assyrian
+		}
+	}
+
+	mac_accept_turks_kurds = {
+		potential = {
+			tag = MAC
+			NOT = { accepted_culture = turkish }
+			has_country_flag = macedi_idea
+		}
+		allow = {
+			revolution_n_counterrevolution = 1
+		}
+		effect = {
+			add_accepted_culture = turkish
+			add_accepted_culture = kurdish
+		}
+	}
+
+	#Greek path - see Greece decisions
+	become_greece_mac = {
+		potential = {
+			tag = MAC
+			NOT = { has_country_flag = macedon_greece }
+			primary_culture = greek
+		}
+		allow = {
+			GRE = { exists = no }
+			834 = { owned_by = THIS }
+			832 = { owned_by = THIS }
+			839 = { owned_by = THIS }
+		}
+		effect = {
+			prestige = 10
+			change_tag = GRE
+		}
+	}
+
+	#Bulgarian Path - partly shared with Bulgaria
+	to_north = {
+			potential = {
+				tag = MAC
+				NOT = { has_country_flag = macedon_greece }
+				NOT = { has_country_flag = macedon_serb }
+			}
+			allow = {
+				NOT = {
+					BUL = { exists = yes }
+				}
+				NOT = { is_vassal = yes }
+				NOT = { war = yes }
+				BUL = {
+					all_core = {
+						OR = {
+							owned_by = THIS
+							is_core = WAL
+						}
+					}
+				}
+			}
+			effect = {
+				prestige = 10
+				BUL = {
+					all_core = {
+						add_core = THIS
+					}
+				}
+				primary_culture = bulgarian
+				add_accepted_culture = greek
+				set_country_flag = macedon_serb
+			}
+	}
+}

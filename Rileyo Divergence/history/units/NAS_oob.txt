@@ -1,0 +1,18 @@
+leader = {
+	name = "Johann von Nassau"
+	type = land
+	date = 1836.1.1
+	personality = defence_1.1
+	background = attack_1.1
+}
+
+army = {
+	name = "Groﬂherzogliche Armee"
+	location = 2560
+	regiment = {
+		name= "1. Groﬂherzogliche Infanterie"
+		type = infantry
+		home = 2560
+	}
+
+}

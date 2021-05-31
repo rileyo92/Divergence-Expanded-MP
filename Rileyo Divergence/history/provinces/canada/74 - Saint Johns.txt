@@ -1,0 +1,6 @@
+owner = VIN
+controller = VIN
+add_core = VIN
+trade_goods = fish
+terrain = forest
+life_rating = 35

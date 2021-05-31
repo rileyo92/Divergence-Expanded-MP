@@ -1,0 +1,6 @@
+owner = FUN
+controller = FUN
+add_core = FUN
+add_core = EGY
+trade_goods = fruit
+life_rating = 30

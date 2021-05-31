@@ -1,0 +1,24 @@
+leader = {
+	name = "Erik van Holt"
+	type = land
+	date = 1836.1.1
+	personality = defence_1.1
+	background = attack_1.1
+}
+
+army = {
+	name = "Armée de Griqualand"
+	location = 2574
+	regiment = {
+		name= "1. Infanterie"
+		type = infantry
+		home = 2082
+	}
+
+	regiment = {
+		name= "2. Infanterie"
+		type = infantry
+		home = 2074
+	}
+}
+

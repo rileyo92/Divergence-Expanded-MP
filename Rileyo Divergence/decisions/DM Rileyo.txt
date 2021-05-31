@@ -1,0 +1,742 @@
+political_decisions = {
+
+  dual_monarchy_direction = {
+    potential = {
+      tag = DUA
+      NOT = { has_global_flag = choice_pokemon }
+    }
+    allow = {
+      tag = DUA
+    }
+    effect = {
+      set_global_flag = choice_pokemon
+      country_event = 650201
+    }
+  }
+
+  #Integrate Culture decisions
+  dm_integrate_breton = {
+    potential = {
+      OR = {
+        tag = DUA
+        AND = {
+          tag = TRP
+          mass_politics = 1
+        }
+      }
+      NOT = { accepted_culture = breton }
+      NOT = { has_global_flag = enacted_anglois_schooling }
+    }
+    allow = {
+      state_n_government = 1
+      BRT = {
+        all_core = { owned_by = THIS }
+      }
+    }
+    effect = {
+      prestige = 5
+      add_accepted_culture = breton
+    }
+  }
+
+  dm_integrate_welsh = {
+    potential = {
+      OR = {
+        tag = DUA
+        AND = {
+          tag = TRP
+          mass_politics = 1
+        }
+      }
+      NOT = { accepted_culture = welsh }
+      NOT = { has_global_flag = enacted_anglois_schooling }
+      OR = {
+        has_country_flag = english_integration
+        has_country_flag = dual_integration
+      }
+    }
+    allow = {
+      state_n_government = 1
+      WLS = {
+        all_core = { owned_by = THIS }
+      }
+    }
+    effect = {
+      prestige = 5
+      add_accepted_culture = welsh
+    }
+  }
+
+  dm_anglois_success = {
+    potential = {
+      OR = {
+        tag = DUA
+        tag = TRP
+      }
+      NOT = { has_country_flag = dm_anglois_integrated }
+      OR = {
+        has_country_flag = dual_integration
+        AND = {
+          tag = TRP
+          revolution_n_counterrevolution = 1
+        }
+        mass_politics = 1
+      }
+    }
+    allow = {
+      year = 1865
+    }
+    effect = {
+      prestige = 10
+      add_accepted_culture = english
+      add_accepted_culture = french
+      set_country_flag = dm_anglois_integrated
+    }
+  }
+
+  integrating_irish = {
+    potential = {
+      OR = {
+        tag = DUA
+        AND = {
+          tag = TRP
+          mass_politics = 1
+        }
+      }
+      NOT = { accepted_culture = irish }
+      NOT = { has_global_flag = enacted_anglois_schooling }
+      OR = {
+        tag = TRP
+        has_country_flag = english_integration
+        has_country_flag = dual_integration
+      }
+    }
+    allow = {
+      nationalism_n_imperialism = 1
+      IRE = {
+        all_core = { owned_by = THIS }
+      }
+    }
+    effect = {
+      prestige = 5
+      add_accepted_culture = irish
+    }
+  }
+
+  integrating_scottish = {
+    potential = {
+      tag = DUA
+      NOT = { accepted_culture = scottish }
+      NOT = { has_global_flag = enacted_anglois_schooling }
+      NOT = { has_country_flag = french_integration }
+      accepted_culture = english
+    }
+    allow = {
+      nationalism_n_imperialism = 1
+      SCO = {
+        all_core = { owned_by = THIS }
+      }
+    }
+    effect = {
+      prestige = 5
+      add_accepted_culture = scottish
+      add_accepted_culture = icelandic
+      SCO = {
+        all_core = { add_core = THIS }
+      }
+    }
+  }
+
+  integrating_provencal = {
+    potential = {
+      OR = {
+        tag = DUA
+        AND = {
+          tag = TRP
+          mass_politics = 1
+        }
+      }
+      NOT = { accepted_culture = provencal }
+      NOT = { has_global_flag = enacted_anglois_schooling }
+      NOT = { has_country_flag = english_integration }
+      accepted_culture = french
+    }
+    allow = {
+      nationalism_n_imperialism = 1
+      OCC = {
+        all_core = { owned_by = THIS }
+      }
+    }
+    effect = {
+      prestige = 5
+      add_accepted_culture = provencal
+      OCC = {
+        all_core = { add_core = THIS }
+      }
+    }
+  }
+
+  integrating_basque = {
+    potential = {
+      tag = DUA
+      NOT = { accepted_culture = basque }
+      NOT = { has_global_flag = enacted_anglois_schooling }
+      accepted_culture = provencal
+    }
+    allow = {
+      NAV = {
+        all_core = { owned_by = THIS }
+      }
+    }
+    effect = {
+      prestige = 5
+      add_accepted_culture = basque
+      NAV = {
+        all_core = { add_core = THIS }
+      }
+    }
+  }
+
+  dm_integrate_burgundy = {
+    potential = {
+      tag = DUA
+      NOT = { accepted_culture = burgundian }
+      NOT = { has_global_flag = enacted_anglois_schooling }
+      has_country_flag = french_integration
+    }
+    allow = {
+      FRA = { all_core = { owned_by = THIS } }
+      LRR = { all_core = { owned_by = THIS } }
+      revolution_n_counterrevolution = 1
+    }
+
+    effect = {
+      prestige = 5
+      add_accepted_culture = burgundian
+      LRR = {
+        all_core = { add_core = THIS }
+      }
+    }
+  }
+
+  dm_integrate_beornia = {
+    potential = {
+      tag = DUA
+      NOT = { accepted_culture = beornian }
+      NOT = { has_global_flag = enacted_anglois_schooling }
+      has_country_flag = english_integration
+    }
+    allow = {
+      NAN = {
+        all_core = {
+          OR = {
+            owned_by = THIS
+            empty = yes
+          }
+        }
+      }
+      NAN = { exists = no }
+      HBE = { exists = no }
+      revolution_n_counterrevolution = 1
+    }
+
+    effect = {
+      prestige = 5
+      add_accepted_culture = beornian
+      NAN = {
+        all_core = { add_core = THIS }
+      }
+    }
+  }
+
+  #Expansion decisions
+  pas_de_calais = {
+	picture = Pas_de_Calais
+	potential = {
+    OR = {
+			tag = DUA
+      tag = TRP
+    }
+			NOT = {
+				has_country_flag = pale_calais
+			}
+		}
+		allow = {
+			is_greater_power = yes
+			NOT = { war = yes }
+			owns = 400
+		}
+
+		effect = {
+			prestige = 5
+			set_country_flag = pale_calais
+			FRA_399 = {
+				remove_core = BRG
+      }
+    }
+  }
+
+  form_franche_comte = {
+		picture = apanage
+		potential = {
+      OR = {
+  			tag = DUA
+        tag = TRP
+      }
+			NOT = { has_country_flag = franchecomte }
+      NOT = { has_country_flag = english_integration }
+		}
+		allow = {
+			is_greater_power = yes
+			NOT = { war = yes }
+			owns = 428
+		}
+		effect = {
+			prestige = 5
+			set_country_flag = franchecomte
+			FRA_428 = {
+				add_core = THIS
+			}
+		}
+	}
+
+  integrate_scotland = {
+    potential = {
+      tag = DUA
+      has_country_flag = english_integration
+      NOT = { has_country_flag = scotland_acc }
+    }
+    allow = {
+      SCO = {
+        all_core = { owned_by = THIS }
+      }
+    }
+    effect = {
+      SCO = {
+        all_core = { add_core = THIS }
+      }
+      set_country_flag = scotland_acc
+    }
+  }
+
+  meddle_in_italy = {
+		picture = DUA_italy
+		potential = {
+			tag = DUA
+			NOT = { has_country_flag = meddle_in_italy }
+      NOT = { has_country_flag = english_integration }
+		}
+		allow = {
+			PRV = { exists = no }
+			NOT = { war = yes }
+			is_greater_power = yes
+			PRV = {
+				all_core = { owned_by = THIS }
+			}
+		}
+		effect = {
+			prestige = 5
+			relation = { who = ARA value = -200 }
+			set_country_flag = meddle_in_italy
+			PRV = {
+				all_core = {
+					add_core = DUA
+				}
+			}
+			any_owned = {
+			   limit = { is_core = PRV }
+			   remove_core = PRV
+      }
+		}
+	}
+
+  dm_control_over_savoie = {
+    picture = DUA_italy
+    potential = {
+			tag = DUA
+			has_country_flag = meddle_in_italy
+      NOT = { has_country_flag = english_integration }
+      NOT = { has_country_flag = savoie_crisis }
+      NOT = { has_global_flag = savoy_cores }
+      ARP = { exists = no }
+		}
+    allow = {
+      nationalism_n_imperialism = 1
+    }
+    effect = {
+      set_country_flag = savoie_crisis
+      badboy = 7.5
+      465 = {
+        add_core = THIS
+      }
+      466 = {
+        add_core = THIS
+      }
+      609 = {
+        add_core = THIS
+      }
+      721 = {
+        add_core = THIS
+      }
+    }
+  }
+
+  dm_claim_atlantic_isles = {
+    potential = {
+      tag = DUA
+      has_country_flag = english_integration
+      NOT = { has_country_flag = dm_atlantic_claims }
+      accepted_culture = icelandic
+    }
+    allow = {
+      revolution_n_counterrevolution = 1
+    }
+    effect = {
+      badboy = 5
+      DEN_251 = {
+        add_core = THIS
+      }
+      SCA_252 = {
+        add_core = THIS
+      }
+      POR_2134 = {
+        add_core = THIS
+      }
+      ENG_2132 = {
+        add_core = THIS
+      }
+      SA_8 = {
+        add_core = THIS
+      }
+      set_country_flag = dm_atlantic_claims
+    }
+  }
+
+  dm_claim_beornia = {
+    potential = {
+      tag = DUA
+      has_country_flag = english_integration
+      NOT = { has_country_flag = dm_beornia_claims }
+    }
+    allow = {
+      revolution_n_counterrevolution = 1
+    }
+    effect = {
+      badboy = 15
+      NAN = {
+        all_core = {
+          add_core = THIS
+        }
+      }
+      set_country_flag = dm_beornia_claims
+    }
+  }
+
+  #Education decisions
+  anglois_language_schooling = {
+
+		potential = {
+			tag = DUA
+			has_country_flag = dual_integration
+			NOT = { has_global_flag = enacted_anglois_schooling }
+      accepted_culture = english
+      accepted_culture = french
+		}
+
+		allow = {
+			war = no
+			invention = biased_multiculturalism
+			invention = social_darwinism
+		}
+
+		effect = {
+		set_global_flag = enacted_anglois_schooling
+    prestige = 50
+    remove_accepted_culture = breton
+    remove_accepted_culture = provencal
+    remove_accepted_culture = basque
+    remove_accepted_culture = welsh
+    remove_accepted_culture = irish
+    remove_accepted_culture = scottish
+    remove_accepted_culture = icelandic
+    any_owned = {
+      limit = {
+        is_core = SCO
+      }
+      remove_core = SCO
+      remove_core = SCA
+      add_core = DUA
+    }
+    any_owned = {
+      limit = {
+        is_core = ICL
+      }
+      remove_core = ICL
+      remove_core = SCA
+      add_core = DUA
+    }
+    any_owned = {
+      limit = {
+        is_core = GRN
+      }
+      remove_core = GRN
+      remove_core = SCA
+      add_core = DUA
+    }
+    any_owned = {
+      limit = {
+        is_core = FRA
+      }
+      remove_core = BRG
+      add_core = DUA
+    }
+    any_owned = {
+      limit = {
+        is_core = LRR
+      }
+      remove_core = LRR
+      remove_core = BRG
+      add_core = DUA
+    }
+    any_owned = {
+      limit = {
+        is_core = ARP
+      }
+      remove_core = ARP
+      remove_core = BRG
+      remove_core = ITA
+      remove_core = SAR
+      remove_core = GEN
+      add_core = DUA
+    }
+    any_owned = {
+      limit = {
+        is_core = NAV
+      }
+      remove_core = NAV
+      remove_core = SPA
+      remove_core = IBR
+      add_core = DUA
+    }
+    any_owned = {
+      limit = {
+        province_id = 464
+        province_id = 498
+        province_id = 499
+        province_id = 500
+        province_id = 501
+      }
+      remove_core = CAT
+      remove_core = ARA
+      remove_core = ARI
+      remove_core = SPA
+      remove_core = IBR
+      add_core = DUA
+    }
+    any_owned = {
+      limit = {
+        is_core = DUA
+      }
+      add_province_modifier = {
+        name = anglois_cultural_unity
+        duration = -1
+      }
+    }
+	}
+  }
+  english_language_schooling = {
+
+		potential = {
+			tag = DUA
+			has_country_flag = english_integration
+			NOT = { has_global_flag = enacted_anglois_schooling }
+      accepted_culture = scottish
+		}
+
+		allow = {
+			war = no
+			invention = biased_multiculturalism
+			invention = social_darwinism
+		}
+
+		effect = {
+		set_global_flag = enacted_anglois_schooling
+    prestige = 25
+    primary_culture = english
+    add_accepted_culture = anglois
+    remove_accepted_culture = breton
+    remove_accepted_culture = welsh
+    remove_accepted_culture = irish
+    remove_accepted_culture = scottish
+    remove_accepted_culture = icelandic
+    remove_accepted_culture = beornian
+    any_owned = {
+      limit = {
+        is_core = SCO
+      }
+      remove_core = SCO
+      remove_core = SCA
+      add_core = DUA
+    }
+    any_owned = {
+      limit = {
+        is_core = ICL
+      }
+      remove_core = ICL
+      remove_core = SCA
+      add_core = DUA
+    }
+    any_owned = {
+      limit = {
+        is_core = GRN
+      }
+      remove_core = GRN
+      remove_core = SCA
+      add_core = DUA
+    }
+    any_owned = {
+      limit = {
+        is_core = NAN
+      }
+      remove_core = NAN
+      remove_core = HBE
+      add_core = DUA
+    }
+    any_owned = {
+      limit = {
+        province_id = 399
+        province_id = 400
+        province_id = 401
+        province_id = 404
+      }
+      remove_core = BRG
+      add_core = DUA
+    }
+    any_owned = {
+      limit = {
+        province_id = 2134
+        province_id = 2135
+        province_id = 2136
+        province_id = 1876
+      }
+      remove_core = SPA
+      remove_core = IBR
+      remove_core = POR
+      add_core = DUA
+    }
+    any_owned = {
+      limit = {
+        province_id = 1955
+        province_id = 1954
+        province_id = 2129
+        province_id = 2130
+        province_id = 2132
+      }
+      remove_core = SPA
+      remove_core = IBR
+      remove_core = BRG
+      remove_core = SCA
+      add_core = DUA
+    }
+    any_owned = {
+  				limit = {
+  					is_core = DUA
+  				}
+  				add_province_modifier = {
+  					name = anglois_cultural_unity
+  					duration = -1
+  				}
+  			}
+		}
+	}
+
+  french_language_schooling = {
+
+		potential = {
+			tag = DUA
+			has_country_flag = french_integration
+			NOT = { has_global_flag = enacted_anglois_schooling }
+      accepted_culture = provencal
+		}
+
+		allow = {
+			war = no
+			invention = biased_multiculturalism
+			invention = social_darwinism
+		}
+
+		effect = {
+		  set_global_flag = enacted_anglois_schooling
+      prestige = 25
+      primary_culture = french
+      add_accepted_culture = anglois
+      remove_accepted_culture = breton
+      remove_accepted_culture = provencal
+      remove_accepted_culture = basque
+      remove_accepted_culture = burgundian
+      any_owned = {
+        limit = {
+          is_core = FRA
+        }
+        remove_core = BRG
+        add_core = DUA
+      }
+      any_owned = {
+        limit = {
+          is_core = LRR
+        }
+        remove_core = LRR
+        remove_core = BRG
+        add_core = DUA
+      }
+      any_owned = {
+        limit = {
+          is_core = WLL
+        }
+        remove_core = WLL
+        remove_core = BRG
+        add_core = DUA
+      }
+      any_owned = {
+        limit = {
+          is_core = ARP
+        }
+        remove_core = ARP
+        remove_core = BRG
+        remove_core = ITA
+        remove_core = SAR
+        remove_core = GEN
+        add_core = DUA
+      }
+      any_owned = {
+        limit = {
+          is_core = NAV
+        }
+        remove_core = NAV
+        remove_core = SPA
+        remove_core = IBR
+        add_core = DUA
+      }
+      any_owned = {
+        limit = {
+          is_core = CAT
+        }
+        remove_core = CAT
+        remove_core = ARA
+        remove_core = ARI
+        remove_core = SPA
+        remove_core = IBR
+        add_core = DUA
+      }
+      any_owned = {
+    				limit = {
+    					is_core = DUA
+    				}
+    				add_province_modifier = {
+    					name = anglois_cultural_unity
+    					duration = -1
+    				}
+    			}
+    }
+  }
+}

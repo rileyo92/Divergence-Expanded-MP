@@ -1,0 +1,515 @@
+political_decisions = {
+
+  dominium_maris_baltici = {
+		potential = {
+			tag = SCA
+      NOT = { has_country_flag = north_sea_empire }
+			NOT = { has_country_flag = baltic_claimed }
+		}
+		allow = {
+			owns = 354
+			owns = 546
+			state_n_government = 1
+		}
+		effect = {
+			prestige = 10
+			badboy = 8
+			PRU = { all_core = { add_core = THIS } }
+      LIT_698 = { add_core = THIS }
+      add_accepted_culture = latvian
+			set_country_flag = baltic_claimed
+		}
+	}
+
+	lithuania_kidnapping = {
+		potential = {
+			tag = SCA
+      NOT = { has_country_flag = north_sea_empire }
+			has_country_flag = baltic_claimed
+      accepted_culture = latvian
+			NOT = { has_country_flag = lol_gg }
+		}
+		allow = {
+			owns = 365
+			owns = 698
+			owns = 354
+			owns = 357
+			nationalism_n_imperialism = 1
+		}
+		effect = {
+			set_country_flag = lol_gg
+      add_accepted_culture = lithuanian
+      LIT_698 = { add_core = THIS }
+      RUS_360 = { add_core = THIS }
+      947 = { add_core = THIS }
+      938 = { add_core = THIS }
+		}
+	}
+
+	reclaimPOM = {
+		potential = {
+			tag = SCA
+      NOT = { has_country_flag = north_sea_empire }
+      NOT = { has_country_flag = sca_arctic_route }
+			NOT = {
+				544 = { is_core  = THIS }
+				has_country_flag = lol_rekt
+			}
+		}
+		allow = {
+			war_policy = jingoism
+		}
+		effect = {
+			set_country_flag = lol_rekt
+			PRU_690 = { add_core = THIS }
+			PRU_546 = { add_core = THIS }
+			badboy = 10
+		}
+	}
+
+  integrate_pomeranians = {
+		potential = {
+			tag = SCA
+      owns = 544
+			owns = 369
+			NOT = { has_country_flag = north_integration }
+		}
+		allow = {
+			citizens_rights = all_voting_pops
+			state_n_government = 1
+		}
+		effect = {
+			prestige = 20
+			set_country_flag = north_integration
+			add_accepted_culture = pomeranian
+			any_pop = {
+				limit = {
+					culture = scandinavian
+				}
+				militancy = 3
+				consciousness = 3
+				ideology = {
+					factor = 0.2
+					value = reactionary
+				}
+			}
+			any_pop = {
+				limit = {
+					culture = pomeranian
+				}
+				consciousness = -1
+				militancy = -3
+				ideology = {
+					factor = 0.1
+					value = liberal
+				}
+			}
+		}
+	}
+
+	nordtyskland = {
+		potential = {
+			tag = SCA
+			is_greater_power = yes
+			has_country_flag = north_integration
+			NOT = { has_country_flag = nordtyskland }
+      NOT = { has_country_flag = north_sea_empire }
+      NOT = { has_country_flag = sca_arctic_route }
+		}
+
+		allow = {
+      nationalism_n_imperialism = 1
+      369 = {
+				OR = {
+					owned_by = THIS
+					owner = {
+						in_sphere = THIS
+					}
+					owner = {
+						vassal_of = THIS
+					}
+				}
+			}
+			546 = {
+				OR = {
+					owned_by = THIS
+					owner = {
+						in_sphere = THIS
+					}
+					owner = {
+						vassal_of = THIS
+					}
+				}
+			}
+			549 = {
+				OR = {
+					owned_by = THIS
+					owner = {
+						in_sphere = THIS
+					}
+					owner = {
+						vassal_of = THIS
+					}
+				}
+			}
+			553 = {
+				OR = {
+					owned_by = THIS
+					owner = {
+						in_sphere = THIS
+					}
+					owner = {
+						vassal_of = THIS
+					}
+				}
+			}
+			536 = {
+				OR = {
+					owned_by = THIS
+					owner = {
+						in_sphere = THIS
+					}
+					owner = {
+						vassal_of = THIS
+					}
+				}
+			}
+			534 = {
+				OR = {
+					owned_by = THIS
+					owner = {
+						in_sphere = THIS
+					}
+					owner = {
+						vassal_of = THIS
+					}
+				}
+			}
+      539 = {
+				OR = {
+					owned_by = THIS
+					owner = {
+						in_sphere = THIS
+					}
+					owner = {
+						vassal_of = THIS
+					}
+				}
+			}
+      540 = {
+				OR = {
+					owned_by = THIS
+					owner = {
+						in_sphere = THIS
+					}
+					owner = {
+						vassal_of = THIS
+					}
+				}
+			}
+      585 = {
+				OR = {
+					owned_by = THIS
+					owner = {
+						in_sphere = THIS
+					}
+					owner = {
+						vassal_of = THIS
+					}
+				}
+			}
+		}
+
+		effect = {
+      PRU_575 = { add_core = THIS }	#Nordrhein
+      HES_566 = { add_core = THIS }	#Hessen
+      PRU_581 = { add_core = THIS }	#Westphalia
+      HAN_534 = { add_core = THIS }	#East Frisia
+      HAM_528 = { add_core = THIS }	#Hanover
+      PRU_546 = { add_core = THIS }	#Pomerania
+      SAX_1 = { add_core = THIS }		#Thuringia
+      HOL_369 = { add_core = THIS }	#Holstein
+      PRU_553 = { add_core = THIS }	#Anhalt
+      PRU_549 = { add_core = THIS }	#Brandenburg
+      SAX_558 = { add_core = THIS }	#Saxony
+      add_accepted_culture = north_german
+      add_accepted_culture = pomeranian
+      remove_accepted_culture = scottish
+      SCO = { all_core = { remove_core = THIS } }
+			any_country = {
+				limit = {
+					primary_culture = north_german
+					in_sphere = THIS
+				}
+				country_event = 11101
+			}
+      set_country_flag = nordtyskland
+		}
+	}
+
+  north_sea_empire = {
+		potential = {
+			tag = SCA
+			NOT = { has_country_flag = north_sea_empire }
+      NOT = { has_country_flag = sca_arctic_route }
+		}
+
+		allow = {
+      war = no
+      nationalism_n_imperialism = 1
+			281 = { owned_by = THIS }
+      284 = { owned_by = THIS }
+			290 = { owned_by = THIS }
+			292 = { owned_by = THIS }
+			278 = { owned_by = THIS }
+			269 = { owned_by = THIS }
+      267 = { owned_by = THIS }
+		}
+
+		effect = {
+			set_country_flag = north_sea_empire
+			prestige = 50
+      primary_culture = icelandic
+			add_accepted_culture = scandinavian
+      add_accepted_culture = english
+      remove_accepted_culture = finnish
+      remove_accepted_culture = estonian
+      remove_accepted_culture = latvian
+      remove_accepted_culture = lithuanian
+			ENL = { all_core = { add_core = THIS } }
+      EST = { all_core = { remove_core = THIS } }
+      LAT = { all_core = { remove_core = THIS } }
+      LIT = { all_core = { remove_core = THIS } }
+		}
+	}
+
+  integrate_welsh_sca = {
+    potential = {
+      tag = SCA
+      has_country_flag = north_sea_empire
+      NOT = { accepted_culture = welsh }
+    }
+    allow = {
+      revolution_n_counterrevolution = 1
+      WLS = { all_core = { owned_by = THIS } }
+    }
+    effect = {
+      prestige = 10
+      add_accepted_culture = welsh
+    }
+  }
+
+  integrate_irish_sca = {
+    potential = {
+      tag = SCA
+      has_country_flag = north_sea_empire
+      NOT = { accepted_culture = irish }
+    }
+    allow = {
+      revolution_n_counterrevolution = 1
+      IRE = { all_core = { owned_by = THIS } }
+    }
+    effect = {
+      prestige = 10
+      add_accepted_culture = irish
+    }
+  }
+
+  integrate_anglois_sca = {
+    potential = {
+      tag = SCA
+      has_country_flag = north_sea_empire
+      NOT = { accepted_culture = anglois }
+    }
+    allow = {
+      mass_politics = 1
+    }
+    effect = {
+      prestige = 10
+      add_accepted_culture = anglois
+    }
+  }
+
+  white_sea_dominace_sca = {
+    potential = {
+      tag = SCA
+      NOT = { has_country_flag = north_sea_empire }
+      NOT = { has_country_flag = sca_arctic_route }
+    }
+    allow = {
+      nationalism_n_imperialism = 1
+      994 = {
+				OR = {
+					owned_by = THIS
+					owner = {
+						in_sphere = THIS
+					}
+					owner = {
+						vassal_of = THIS
+					}
+				}
+			}
+      1003 = {
+				OR = {
+					owned_by = THIS
+					owner = {
+						in_sphere = THIS
+					}
+					owner = {
+						vassal_of = THIS
+					}
+				}
+			}
+      995 = {
+				OR = {
+					owned_by = THIS
+					owner = {
+						in_sphere = THIS
+					}
+					owner = {
+						vassal_of = THIS
+					}
+				}
+			}
+      981 = {
+				OR = {
+					owned_by = THIS
+					owner = {
+						in_sphere = THIS
+					}
+					owner = {
+						vassal_of = THIS
+					}
+				}
+			}
+      985 = {
+				OR = {
+					owned_by = THIS
+					owner = {
+						in_sphere = THIS
+					}
+					owner = {
+						vassal_of = THIS
+					}
+				}
+			}
+    }
+    effect = {
+      prestige = 15
+      set_country_flag = sca_arctic_route
+      add_accepted_culture = novgorodian
+      add_accepted_culture = ugrian
+      remove_accepted_culture = pomeranian
+      RUS_994 = { add_core = THIS }
+      RUS_1003 = { add_core = THIS }
+      RUS_339 = { add_core = THIS }
+      RUS_981 = { add_core = THIS }
+      RUS_2589 = { add_core = THIS }
+      RUS_990 = { add_core = THIS }
+      2700 = { add_core = THIS }
+      2689 = { add_core = THIS }
+      2685 = { add_core = THIS }
+      RUS_1065 = { add_core = THIS }
+      any_country = {
+				limit = {
+          OR = {
+					     primary_culture = novgorodian
+               primary_culture = ugrian
+          }
+					in_sphere = THIS
+				}
+				country_event = 11101
+			}
+    }
+  }
+  sca_claim_vinland = {
+    potential = {
+      tag = SCA
+      has_country_flag = sca_arctic_route
+      NOT = { accepted_culture = vinlander }
+    }
+    allow = {
+      revolution_n_counterrevolution = 1
+      251 = { owned_by = THIS }
+    }
+    effect = {
+      add_accepted_culture = vinlander
+      add_accepted_culture = ayitian
+      add_accepted_culture = inuit
+      VIN = { all_core = { add_core = THIS } }
+    }
+  }
+
+  sca_claim_siberia = {
+    potential = {
+      tag = SCA
+      has_country_flag = sca_arctic_route
+      NOT = { has_country_flag = sca_siberia }
+    }
+    allow = {
+      revolution_n_counterrevolution = 1
+      2613 = { owned_by = THIS }
+      2685 = { owned_by = THIS }
+      2687 = { owned_by = THIS }
+    }
+    effect = {
+      add_accepted_culture = inuit
+      add_accepted_culture = siberian
+      YKT = { all_core = { add_core = SCA } }
+      RUS_1182 = {
+        add_core = SCA
+      }
+      RUS_1184 = {
+        add_core = SCA
+      }
+      RUS_2685 = {
+        add_core = SCA
+      }
+      RUS_1065 = {
+        add_core = SCA
+      }
+      RUS_1064 = {
+        add_core = SCA
+      }
+      RUS_1469 = {
+        add_core = SCA
+      }
+      RUS_1070 = {
+        add_core = SCA
+      }
+      RUS_2615 = {
+        add_core = SCA
+      }
+      RUS_1075 = {
+        add_core = SCA
+      }
+      RUS_2694 = {
+        add_core = SCA
+      }
+      RUS_2653 = {
+        add_core = SCA
+      }
+      RUS_2621 = {
+        add_core = SCA
+      }
+      RUS_1069 = {
+        add_core = SCA
+      }
+      RUS_1079 = {
+        add_core = SCA
+      }
+      RUS_1072 = {
+        add_core = SCA
+      }
+      RUS_2618 = {
+        add_core = SCA
+      }
+      RUS_1074 = {
+        add_core = SCA
+      }
+      RUS_2590 = {
+        add_core = SCA
+      }
+    }
+  }
+}

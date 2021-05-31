@@ -1,0 +1,7 @@
+owner = DNG
+controller = DNG
+add_core = OCE
+add_core = DNG
+trade_goods = cattle
+life_rating = 35
+colonial = 1

@@ -1,0 +1,613 @@
+political_decisions = {
+	#Vinland decisions
+	vin_manifest_destiny = {
+		potential = {
+			tag = VIN
+			NOT = { has_country_flag = vin_manifest_destiny }
+		}
+		allow = {
+			all_core = {
+				owned_by = THIS
+			}
+			state_n_government = 1
+		}
+		effect = {
+			set_country_flag = vin_manifest_destiny
+			NA_30 = {
+				add_core = VIN
+			}
+			NA_15 = {
+				add_core = VIN
+			}
+			NA_14 = {
+				add_core = VIN
+			}
+			DNG_5 = {
+				add_core = VIN
+			}
+			NA_13 = {
+				add_core = VIN
+			}
+			NA_11 = {
+				add_core = VIN
+			}
+			NA_10 = {
+				add_core = VIN
+			}
+			NA_17 = {
+				add_core = VIN
+			}
+			NBG_6 = {
+				add_core = VIN
+			}
+			NBG_4 = {
+				add_core = VIN
+			}
+			DNG_4 = {
+				add_core = VIN
+			}
+			NBG_1 = {
+				add_core = VIN
+			}
+			NA_9 = {
+				add_core = VIN
+			}
+			NA_12 = {
+				add_core = VIN
+			}
+			NBG_2 = { add_core = VIN }
+			add_accepted_culture = rohnnst
+		}
+	}
+
+	return_to_scandi = {
+		potential = {
+			OR = {
+				tag = VIN
+				tag = SFJ
+			}
+			NOT = { has_country_flag = returned_home }
+		}
+		allow = {
+			OR = {
+				AND = {
+					owns = 367
+					owns = 371
+					owns = 372
+				}
+				AND = {
+					owns = 310
+					owns = 313
+					owns = 305
+				}
+			}
+		}
+		effect = {
+			set_country_flag = returned_home
+			add_accepted_culture = scandinavian
+			add_accepted_culture = icelandic
+			DEN_251 = { add_core = THIS }
+			SCA_252 = { add_core = THIS }
+			SWE_309 = { add_core = THIS }
+			SWE_313 = { add_core = THIS }
+			SWE_308 = { add_core = THIS }
+			DEN_372 = { add_core = THIS }
+			DEN_367 = { add_core = THIS }
+			SCH_370 = { add_core = THIS }
+		}
+	}
+
+	form_arcadia_vinland = { # Vinland
+    picture = "UniteARC"
+		potential = {
+			tag = VIN
+      NOT = { ARC = { exists = yes } }
+			has_country_flag = vin_manifest_destiny
+			NOT = { has_country_flag = returned_home }
+		}
+		allow = {
+      war = no
+			all_core = {
+				OR = {
+					empty = yes
+					owned_by = THIS
+					owner = {
+						OR = {
+							in_sphere = THIS
+							vassal_of = THIS
+						}
+					}
+				}
+			}
+      NOT = { PLA = { is_greater_power = yes } }
+      NOT = { NBG = { is_greater_power = yes } }
+			nationalism_n_imperialism = 1
+		}
+		effect = {
+			prestige = 20
+			add_accepted_culture = septiman
+			add_accepted_culture = afro_frankish
+			VIN = { all_core = { add_core = ARC	} }
+			NBG_5 = { add_core = ARC }
+			PLA_1 = { add_core = ARC }
+			change_tag = ARC
+			any_country = {
+				limit = {
+					tag = NBG
+					OR = {
+						in_sphere = THIS
+						vassal_of = THIS
+					}
+				}
+				country_event = 333458
+			}
+			country_event = 333452
+			set_country_flag = vinlandic_arcadia
+			add_country_modifier = {
+				name = the_homestead_act
+				duration = -1
+			}
+		}
+  }
+
+	#Belgium Confederacy decisions
+	nbg_manifest_destiny = { # Seven Republics
+		potential = {
+			tag = NBG
+			NOT = { has_country_flag = nbg_manifest_destiny }
+		}
+		allow = {
+			all_core = {
+				owned_by = THIS
+			}
+			state_n_government = 1
+		}
+		effect = {
+			set_country_flag = nbg_manifest_destiny
+			NA_16 = {
+				add_core = NBG
+			}
+			PLA_3 = {
+				add_core = NBG
+			}
+			PLA_4 = {
+				add_core = NBG
+			}
+			PLA_5 = {
+				add_core = NBG
+			}
+			PLA_6 = {
+				add_core = NBG
+			}
+			PLA_7 = {
+				add_core = NBG
+			}
+			PLA_8 = {
+				add_core = NBG
+			}
+			PLA_9 = {
+				add_core = NBG
+			}
+			NA_1 = {
+				add_core = NBG
+			}
+			NA_2 = {
+				add_core = NBG
+			}
+			VIN_9 = {
+				add_core = NBG
+			}
+			VIN_2 = {
+				add_core = NBG
+			}
+			VIN_3 = {
+				add_core = NBG
+			}
+			VIN_6 = {
+				add_core = NBG
+			}
+			VIN_60 = {
+				add_core = NBG
+			}
+			VIN_5 = {
+				add_core = NBG
+			}
+			VIN_1 = {
+				add_core = NBG
+			}
+			VIN_10 = {
+				add_core = NBG
+			}
+			VIN_50 = { add_core = NBG }
+			VIN_71 = { add_core = NBG }
+			VIN_163 = { add_core = NBG }
+			VIN_2595 = { add_core = NBG }
+			VIN_8 = { add_core = NBG }
+			VIN_175 = { add_core = NBG }
+		}
+	}
+
+	reform_netherlands_belgium = {
+		potential = {
+			tag = NBG
+		}
+		allow = {
+			NOT = { NET = { exists = yes } }
+			NOT = { war = yes }
+			NET = {
+				all_core = {
+					owned_by = THIS
+				}
+			}
+		}
+		effect = {
+			prestige = 20
+			change_tag = NET
+			primary_culture = dutch
+			add_accepted_culture = septiman
+			capital = 375
+			set_country_flag = septiman_netherlands
+		}
+	}
+
+	form_arcadia_septiman = {
+    picture = "UniteARC"
+		potential = {
+			tag = NBG
+      NOT = { ARC = { exists = yes } }
+			has_country_flag = nbg_manifest_destiny
+		}
+		allow = {
+			all_core = {
+					OR = {
+						owned_by = THIS
+						is_core = ATS
+						owner = {
+							OR = {
+								in_sphere = THIS
+						 		vassal_of = THIS
+					 		}
+						}
+					}
+			}
+			nationalism_n_imperialism = 1
+		}
+		effect = {
+				prestige = 20
+				add_accepted_culture = vinlander
+				add_accepted_culture = plantagenian
+				VIN = { all_core = { add_core = ARC	} }
+				PLA = { all_core = { add_core = ARC	} }
+				NBG = { all_core = { add_core = ARC	} }
+        change_tag = ARC
+			  any_country = {
+					limit = {
+						OR = {
+          		tag = PLA
+          		tag = VIN
+		  				tag = ATS
+          	}
+				    OR = {
+							in_sphere = THIS
+							vassal_of = THIS
+						}
+					}
+					country_event = 333458
+			  }
+				country_event = 333452
+				set_country_flag = septiman_arcadia
+				add_country_modifier = {
+				  name = the_homestead_act
+				  duration = -1
+			  }
+		}
+  }
+
+
+	#Plantagenia
+	pla_manifest_destiny = {
+	picture = Destiny_PLA
+		potential = {
+			tag = PLA
+			NOT = { has_country_flag = pla_manifest_destiny }
+		}
+		allow = {
+			all_core = {
+				owned_by = THIS
+			}
+			state_n_government = 1
+		}
+		effect = {
+			set_country_flag = pla_manifest_destiny
+			TEX_134 = { add_core = PLA }
+			NBG_4 = {
+				add_core = PLA
+			}
+			NA_8 = {
+				add_core = PLA
+			}
+			NA_16 = {
+				add_core = PLA
+			}
+			NA_109 = {
+				add_core = PLA
+			}
+			MEX_103 = {
+				add_core = PLA
+			}
+			NA_5 = {
+				add_core = PLA
+			}
+			NA_6 = {
+				add_core = PLA
+			}
+			NA_15 = {
+				add_core = PLA
+			}
+			TEX_132 = {
+				add_core = PLA
+			}
+			MEX_2138 = {
+				add_core = PLA
+			}
+			MEX_2142 = {
+				add_core = PLA
+			}
+			MEX_90 = {
+				add_core = PLA
+			}
+			NBG_4 = { add_core = PLA }
+		}
+	}
+
+	form_triple_monarchy = {
+		potential = {
+			tag = PLA
+		}
+		allow = {
+			owns = 425
+			owns = 418
+			owns = 436
+			owns = 300
+			owns = 297
+			owns = 291
+		}
+		effect = {
+			PLA = { all_core = { add_core = DUA } }
+			DUA = { all_core = { add_core = TRP } }
+			prestige = 50
+			change_tag = TRP
+			primary_culture = anglois
+			add_accepted_culture = plantagenian
+			capital = 425
+		}
+	}
+
+	form_arcadia_plantagenia = {
+    picture = "UniteARC"
+		potential = {
+			tag = PLA
+      NOT = { ARC = { exists = yes } }
+			has_country_flag = pla_manifest_destiny
+		}
+		allow = {
+			all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+						     OR = {
+							   in_sphere = THIS
+							   vassal_of = THIS
+							   }
+						}
+					}
+			}
+      NOT = {
+				VIN = {
+					OR = {
+						is_greater_power = yes
+						NOT = { has_country_flag = returned_home }
+					}
+				}
+			}
+      NOT = { NBG = { is_greater_power = yes } }
+			nationalism_n_imperialism = 1
+		}
+		effect = {
+				add_accepted_culture = septiman
+				add_accepted_culture = lusitanian
+				prestige = 20
+				PLA = { all_core = { add_core = ARC	} }
+				NBG_1 = { add_core = ARC	}
+				NBG_3 = { add_core = ARC	}
+				NBG_7 = { add_core = ARC	}
+				NBG_2 = { add_core = ARC	}
+				NBG_247 = { add_core = ARC	}
+        change_tag = ARC
+			  any_country = {
+				limit = {
+					OR = {
+          	tag = NBG
+          	tag = LST
+		  			tag = ATS
+          }
+				    OR = {
+					in_sphere = THIS
+					vassal_of = THIS
+					}
+				}
+				country_event = 333458
+			  }
+				country_event = 333452
+
+				set_country_flag = plantagenian_arcadia
+				add_country_modifier = {
+				  name = the_homestead_act
+				  duration = -1
+			  }
+		}
+  }
+
+  #Arcadian Expansion
+	annex_vinland_arc = {
+		picture = "Vinland"
+		potential = {
+			tag = ARC
+			has_country_flag = plantagenian_arcadia
+			NOT = { has_country_flag = vinland_arc }
+			NOT = { has_country_flag = qingqiu_arc }
+			NOT = { has_country_flag = mexico_arc }
+		}
+		allow = {
+			revolution_n_counterrevolution = 1
+			NBG = { all_core = { owned_by = THIS } }
+		}
+		effect = {
+			add_accepted_culture = vinlander
+			VIN = {
+				all_core = {
+					limit = { continent = north_america }
+					add_core = THIS
+				}
+			}
+			set_country_flag = vinland_arc
+		}
+	}
+
+	annex_qingqiu_arc = {
+		potential = {
+			tag = ARC
+			NOT = { has_country_flag = vinland_arc }
+			NOT = { has_country_flag = qingqiu_arc }
+			NOT = { has_country_flag = mexico_arc }
+			NOT = { has_country_flag = plantagenia_arc }
+		}
+		allow = {
+			revolution_n_counterrevolution = 1
+		}
+		effect = {
+			add_accepted_culture = qingqiuan
+			add_accepted_culture = kaiganese
+			DNG = {
+				all_core = {
+					limit = {
+						continent = north_america
+						NOT = { is_core = LST }
+					}
+					add_core = THIS
+				}
+			}
+			KKN = { all_core = { add_core = THIS } }
+			set_country_flag = qingqiu_arc
+		}
+	}
+
+	annex_plantagenia_arc = {
+		potential = {
+			tag = ARC
+			has_country_flag = vinlandic_arcadia
+			NOT = { has_country_flag = qingqiu_arc }
+			NOT = { has_country_flag = plantagenia_arc }
+		}
+		allow = {
+			revolution_n_counterrevolution = 1
+			NBG = { all_core = { owned_by = THIS } }
+		}
+		effect = {
+			add_accepted_culture = plantagenian
+			add_accepted_culture = cherokee
+			add_accepted_culture = sioux
+			PLA = {
+				all_core = {
+					limit = { continent = north_america }
+					add_core = THIS
+				}
+			}
+			set_country_flag = plantagenia_arc
+		}
+	}
+
+	annex_mexico_arc = {
+		potential = {
+			tag = ARC
+			has_country_flag = plantagenia_arc
+			NOT = { has_country_flag = mexico_arc }
+			NOT = { has_country_flag = vinland_arc }
+			NOT = { has_country_flag = qingqiu_arc }
+			NOT = { has_country_flag = plantagenia_arc }
+		}
+		allow = {
+			revolution_n_counterrevolution = 1
+			LST = { all_core = { owned_by = THIS } }
+		}
+		effect = {
+			add_accepted_culture = mexican
+			MEX = {
+				all_core = {
+					limit = { NOT = { is_core = UCA } }
+					add_core = THIS
+				}
+			}
+			set_country_flag = mexico_arc
+		}
+	}
+
+	conquer_lusitania = {
+		picture = "lusitania"
+		potential = {
+			OR = {
+				AND = {
+					tag = ARC
+					accepted_culture = plantagenian
+				}
+				tag = DNG
+			}
+			NOT = { accepted_culture = lusitanian }
+			NOT = { has_country_flag = plantagenian_arcadia }
+			NOT = { has_country_flag = arc_dng_claimed_lusitania }
+		}
+		allow = {
+			OR = {
+				AND = {
+					tag = ARC
+					mass_politics = 1
+				}
+				AND = {
+					tag = DNG
+					nationalism_n_imperialism = 1
+				}
+			}
+		}
+		effect = {
+			add_accepted_culture = lusitanian
+			set_country_flag = arc_dng_claimed_lusitania
+			badboy = 5
+			LST = { all_core = { add_core = THIS } }
+		}
+	}
+
+  ###################################################################
+
+	Western_border_treaty = {
+		picture = Manifest_Destiny_ARC
+
+	potential = {
+		tag = ARC
+		NOT = { DNG = { rank = 8 } }
+		NOT = { has_country_flag = manifest_destiny_arc }
+		NOT = { has_country_flag = qingqiu_arc }
+		has_country_flag = panarcadianism
+	}
+	allow = {
+		DNG = { NOT = { war = yes }}
+		NOT = { war = yes }
+		money = 1000000
+	}
+	effect = {
+		prestige = 5
+		badboy = 10
+		country_event = 333470
+		set_country_flag = manifest_destiny_arc
+		}
+	}
+}

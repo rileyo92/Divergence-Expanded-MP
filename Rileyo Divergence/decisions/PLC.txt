@@ -1,0 +1,420 @@
+political_decisions = {
+  act_of_union = {
+		potential = {
+			tag = PLC
+			NOT = { has_country_flag = lublin_new }
+			OR = {
+				LIT = { substate_of = PLC }
+				BLR = { substate_of = PLC }
+				UKR = { substate_of = PLC }
+				PRU = { substate_of = PLC }
+			}
+		}
+		allow = {
+      state_n_government = 1
+			OR = {
+				LIT = { substate_of = PLC }
+				BLR = { substate_of = PLC }
+				UKR = { substate_of = PLC }
+				PRU = { substate_of = PLC }
+			}
+			OR = {
+				LIT = { substate_of = PLC }
+				BLR = { exists = no }
+			}
+			OR = {
+				BLR = { substate_of = PLC }
+				BLR = { exists = no }
+			}
+			OR = {
+				UKR = { substate_of = PLC }
+				UKR = { exists = no }
+			}
+			OR = {
+				PRU = { substate_of = PLC }
+				PRU = { exists = no }
+			}
+			war = no
+			690 = { owned_by = THIS }
+		}
+
+		effect = {
+			prestige = 30
+			badboy = 5
+			any_country = {
+				limit = {
+					OR = {
+						tag = LIT
+						tag = BLR
+						tag = UKR
+						tag = PRU
+					}
+					substate_of = THIS
+				}
+				annex_to = THIS
+			}
+			any_pop = {
+				limit = {
+					OR = {
+					  has_pop_culture = pomeranian
+					  has_pop_culture = russian
+					}
+				}
+				militancy = 6
+			}
+			relation = { who = MUS value = -200 }
+			relation = { who = RUS value = -200 }
+			set_country_flag = lublin_new
+		}
+	}
+
+  baltic_cultures = {
+  		potential = {
+  			tag = PLC
+  			has_country_flag = lublin_new
+  			NOT = { has_country_flag = my_latvian_brother }
+  		}
+  		allow = {
+  			war = no
+  			OR = {
+  				citizens_rights = culture_voting_only
+  				citizens_rights = all_voting_pops
+  			}
+  			nationalism_n_imperialism = 1
+  			owns = 354
+        owns = 357
+  		}
+  		effect = {
+  			set_country_flag = my_latvian_brother
+  			prestige = 10
+  			add_accepted_culture = latvian
+        add_accepted_culture = pomeranian
+        RUS_354 = { add_core = THIS }
+  		}
+  	}
+
+  	treaty_hadiach = {
+  		picture = "treaty_hadiach"
+  		potential = {
+        tag = PLC
+  			has_country_flag = lublin_new
+  	    NOT = { has_country_flag = treaty_hadiach }
+        NOT = { has_country_flag = jagiellonian }
+        NOT = { has_country_flag = lesser_jagiellonian }
+  		}
+  		allow = {
+        citizens_rights = all_voting_pops
+  			NOT = { religious_policy = moralism }
+  			revolution_n_counterrevolution = 1
+  			owns = 958
+  			owns = 718
+  			owns = 946
+  		}
+  		effect = {
+  			set_country_flag = treaty_hadiach
+  			prestige = 20
+  			add_accepted_culture = ruthenian
+  			any_pop = {
+  				limit = {
+  					culture = polish
+  				}
+  				militancy = 3
+  				consciousness = 3
+  				ideology = {
+  					factor = 0.2
+  					value = reactionary
+  				}
+  			}
+  			any_pop = {
+  				limit = {
+  					culture = ruthenian
+  				}
+  				consciousness = 1
+  				militancy = -5
+  				ideology = {
+  					factor = 0.1
+  					value = liberal
+  				}
+  			}
+  		}
+  	}
+
+  integrate_estonia_plc = {
+    potential = {
+      tag = PLC
+      has_country_flag = treaty_hadiach
+      has_country_flag = my_latvian_brother
+      NOT = { accepted_culture = estonian }
+    }
+    allow = {
+      EST = { all_core = { owned_by = THIS } }
+    }
+    effect = {
+      add_accepted_culture = estonian
+      EST = { all_core = { add_core = THIS } }
+    }
+  }
+
+  tame_crimea_plc = {
+    potential = {
+      tag = PLC
+      has_country_flag = treaty_hadiach
+      NOT = { accepted_culture = crimean }
+    }
+    allow = {
+      owns = 968
+      owns = 967
+      owns = 979
+    }
+    effect = {
+      add_accepted_culture = crimean
+      CRI = { all_core = { add_core = THIS } }
+    }
+  }
+
+  plc_integrate_moldova = {
+    potential = {
+      tag = PLC
+      NOT = { ROM = { exists = yes } }
+      NOT = { has_country_flag = moldova_integrated }
+    }
+    allow = {
+      nationalism_n_imperialism = 1
+      MOL = {
+        all_core = {
+          OR = {
+            owner = {
+              OR = {
+              in_sphere = THIS
+              vassal_of = THIS
+              }
+            }
+          }
+        }
+      }
+    }
+    effect = {
+      set_country_flag = moldova_integrated
+      MOL = { all_core = { add_core = THIS } }
+      any_country = {
+        limit = {
+          tag = MOL
+        }
+        annex_to = THIS
+      }
+    }
+  }
+
+  reform_lesser_jagiellonian_union = {
+    potential = {
+      OR = {
+        tag = HUN
+        tag = PLC
+        tag = SLV
+      }
+      NOT = { has_country_flag = jagiellonian }
+      NOT = { has_country_flag = lesser_jagiellonian }
+      NOT = { has_country_flag = treaty_hadiach }
+      NOT = { has_country_flag = hun_balkans }
+    }
+    allow = {
+      nationalism_n_imperialism = 1
+      SLV = {
+        all_core = {
+          owned_by = THIS
+        }
+      }
+      HUN = {
+        all_core = {
+          OR = {
+            owned_by = THIS
+            is_core = YUG
+            is_core = AUS
+            is_core = WAL
+            is_core = MOL
+          }
+        }
+      }
+      POL = {
+        all_core = {
+          OR = {
+            owned_by = THIS
+            is_core = PRU
+            is_core = RUT
+          }
+        }
+      }
+    }
+    effect = {
+      set_country_flag = jagiellonian
+      SLV = {
+        any_core = {
+          add_core = THIS
+        }
+      }
+      HUN = {
+        any_core = {
+          limit = {
+            NOT = { is_core = YUG }
+            NOT = { is_core = WAL }
+            NOT = { is_core = AUS }
+            NOT = { is_core = MOL }
+          }
+          add_core = THIS
+        }
+      }
+      POL = {
+        any_core = {
+          add_core = THIS
+        }
+      }
+      add_accepted_culture = slovak
+      add_accepted_culture = hungarian
+      add_accepted_culture = polish
+      remove_accepted_culture = south_german
+      remove_accepted_culture = croat
+      remove_accepted_culture = estonian
+      remove_accepted_culture = ruthenian
+    }
+  }
+
+
+  reform_jagiellonian_union = {
+    potential = {
+      OR = {
+        tag = HUN
+        tag = PLC
+        tag = BOH
+        tag = SLV
+        AND = {
+          tag = WSF
+          NOT = { accepted_culture = ruthenian }
+        }
+      }
+      NOT = { has_country_flag = jagiellonian }
+      NOT = { has_country_flag = treaty_hadiach }
+      NOT = { has_country_flag = hun_balkans }
+    }
+    allow = {
+      revolution_n_counterrevolution = 1
+      BOH = {
+        all_core = {
+          OR = {
+            owned_by = THIS
+            AND = {
+              is_core = GER
+              NOT = { is_core = SAX }
+            }
+          }
+        }
+      }
+      SLV = {
+        all_core = {
+          owned_by = THIS
+        }
+      }
+      HUN = {
+        all_core = {
+          OR = {
+            owned_by = THIS
+            is_core = YUG
+            is_core = AUS
+            is_core = WAL
+            is_core = MOL
+          }
+        }
+      }
+      POL = {
+        all_core = {
+          OR = {
+            owned_by = THIS
+            is_core = PRU
+            is_core = RUT
+          }
+        }
+      }
+      LIT = {
+        all_core = {
+          OR = {
+            owned_by = THIS
+            is_core = RUT
+          }
+        }
+      }
+    }
+    effect = {
+      set_country_flag = jagiellonian
+      BOH = {
+        any_core = {
+          limit = {
+            NOT = { is_core = GER }
+          }
+          add_core = THIS
+        }
+      }
+      SAX = {
+        any_core = {
+          limit = {
+            is_core = BOH
+          }
+          add_core = THIS
+        }
+      }
+      SLV = {
+        any_core = {
+          add_core = THIS
+        }
+      }
+      HUN = {
+        any_core = {
+          limit = {
+            NOT = { is_core = YUG }
+            NOT = { is_core = WAL }
+            NOT = { is_core = AUS }
+            NOT = { is_core = MOL }
+          }
+          add_core = THIS
+        }
+      }
+      POL = {
+        any_core = {
+          add_core = THIS
+        }
+      }
+      LIT = {
+        any_core = {
+          add_core = THIS
+        }
+      }
+      add_accepted_culture = czech
+      add_accepted_culture = slovak
+      add_accepted_culture = hungarian
+      add_accepted_culture = polish
+      add_accepted_culture = lithuanian
+      remove_accepted_culture = south_german
+      remove_accepted_culture = croat
+      remove_accepted_culture = estonian
+      remove_accepted_culture = ruthenian
+    }
+  }
+
+
+  jagiellonian_integrate_romania = {
+    potential = {
+      OR = {
+        has_country_flag = jagiellonian
+        has_country_flag = lesser_jagiellonian
+      }
+      NOT = { accepted_culture = Romanian }
+      NOT = { primary_culture = czech }
+    }
+    allow = {
+      ROM = { all_core = { owned_by = THIS } }
+    }
+    effect = {
+      add_accepted_culture = romanian
+      ROM = { all_core = { add_core = THIS } }
+    }
+  }
+
+}

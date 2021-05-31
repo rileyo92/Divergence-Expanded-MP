@@ -1,0 +1,98 @@
+political_decisions = {
+
+  #Shonaland
+  conquer_kazembe_sho = {
+    potential = {
+      tag = SHO
+      NOT = { has_country_flag = kazembe_conquest }
+    }
+    allow = {
+      KZB = {
+        all_core = {
+          OR = {
+            owned_by = THIS
+            empty = yes
+          }
+        }
+      }
+    }
+    effect = {
+      KZB = { all_core = { add_core = THIS } }
+      set_country_flag = kazembe_conquest
+      add_accepted_culture = south_forest_bantu
+    }
+  }
+
+  sieze_mozambique_sho = {
+    potential = {
+      tag = SHO
+      NOT = { has_country_flag = mozambique }
+    }
+    allow = {
+      owns = 2073
+      owns = 2049
+      owns = 2051
+      owns = 2057
+      owns = 2060
+    }
+    effect = {
+      set_country_flag = mozambique
+      add_accepted_culture = makua
+      POR_2049 = { add_core = THIS }
+      POR_2053 = { add_core = THIS }
+      POR_2060 = { add_core = THIS }
+      SHO_2071 = { add_core = THIS }
+      SCA_2059 = { add_core = THIS }
+    }
+  }
+
+  #Zulu/Xhosa/Suazi
+  unite_the_nguni_tribes = {
+    potential = {
+      primary_culture = nguni
+      NOT = { has_country_flag = nguni_tribes }
+    }
+    allow = {
+      XHO = { all_core = { owned_by = THIS } }
+      ZUL = { all_core = { owned_by = THIS } }
+      SUA = { all_core = { owned_by = THIS } }
+    }
+    effect = {
+      set_country_flag = nguni_tribes
+      XHO = { all_core = { add_core = THIS } }
+      ZUL = { all_core = { add_core = THIS } }
+      SUA = { all_core = { add_core = THIS } }
+    }
+  }
+
+  integrate_the_sothos = {
+    potential = {
+      primary_culture = nguni
+      has_country_flag = nguni_tribes
+      NOT = { has_country_flag = sotho_tswana }
+    }
+    allow = {
+      BSH = { all_core = { owned_by = THIS } }
+    }
+    effect = {
+      set_country_flag = sotho_tswana
+      add_accepted_culture = sotho
+      BSH = { all_core = { add_core = THIS } }
+    }
+  }
+
+  #Matabele/Basotho
+  #All
+  integrate_the_basstards_unciv = {
+    potential = {
+      primary_culture = nguni
+      NOT = { accepted_culture = afro_south_african }
+    }
+    allow = {
+      civilized  = yes
+    }
+    effect = {
+      add_accepted_culture = afro_south_african
+    }
+  }
+}

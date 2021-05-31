@@ -1,0 +1,9 @@
+owner = NFL
+controller = NFL
+add_core = NFL
+add_core = MAT
+add_core = BTV
+add_core = SAF
+trade_goods = cattle
+terrain = savanna
+life_rating = 35

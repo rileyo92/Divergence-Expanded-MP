@@ -1,0 +1,41 @@
+leader = {
+	name = "Arslan Khan Nogai "
+	type = land
+	date = 1836.1.1
+	personality = defence_1.1
+	background = attack_1.1
+}
+
+army = {
+	name = "Army of the Nogai Khanate"
+	location = 1182
+	regiment = {
+		name= "1.Yomud"
+		type = hussar
+		home = 1182
+	}
+
+	regiment = {
+		name= "2.Yomud"
+		type = hussar
+		home = 1182
+	}
+	
+	regiment = {
+		name= "3.Yomud"
+		type = hussar
+		home = 1182
+	}
+	
+	regiment = {
+		name= "4.Yomud"
+		type = hussar
+		home = 1182
+	}
+	
+	regiment = {
+		name= "5.Yomud"
+		type = hussar
+		home = 1060
+	}
+}

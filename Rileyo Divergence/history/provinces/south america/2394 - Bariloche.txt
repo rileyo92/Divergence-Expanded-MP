@@ -1,0 +1,1 @@
+add_core = PTGcolonial = 1trade_goods = woolterrain = steppelife_rating = 15

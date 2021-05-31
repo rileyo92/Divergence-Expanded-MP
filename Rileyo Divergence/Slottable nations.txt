@@ -1,0 +1,81 @@
+#As of 2.04 "Africa"
+#
+#Vinland
+#Belgium Confederacy
+#Plantagenia
+#Gran Colombia
+#Qingqiu
+#Inca
+#Amazonie
+#Lothraginia
+#Beornia
+#Spain
+#Aragon
+#Dual Monarchy
+#Burgundy
+#Bohemia
+#Scandinavia
+#Poland-Lithuania
+#Hungary
+#Muscovy
+#Ottomans
+#Batavia
+#Ethiopia
+#Mughals
+#Taiping
+#Qing
+#Japan
+#Zhourao
+#Egypt
+#Iraq
+#Tehran
+#Korea
+#(Maybe) Any Sub-Saharan African Unciv
+#(Maybe) Dzungar
+#(Maybe) Courland
+#(Maybe) Afghanistan
+#
+#Nations that might be mutually exclusive with one another (Italy):
+#
+#Savoy
+#Genoa
+#Lombardy
+#Venice
+#Etrutia
+#Papal States
+#Provence
+#
+#Nations that might be mutually exclusive with one another (Germany):
+#
+#Hanover
+#Thuringia
+#East Frisia
+#Munster
+#Bavaria
+#Württemberg
+#Switzerland
+#Austria
+#
+#Nations that might be mutually exclusive with one another (Balkans):
+#
+#Illyria
+#Serbia
+#Macedonia
+#Bulgaria
+#Wallachia/Moldova
+#Greece
+#
+#Nations that might be mutually exclusive with one another (Indochina):
+#
+#Burma
+#Vietnam
+#Thailand
+#Khmer
+#Champa
+#
+#Nations that might be mutually exclusive with one another (Indonesia) (Maybe):
+#
+#Java
+#Aceh
+#Lanfang
+#

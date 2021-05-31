@@ -1,0 +1,278 @@
+political_decisions = {
+  #Vinland
+  develop_tobol = {
+    potential = {
+      OR = {
+        tag = VIN
+        tag = ARC
+      }
+      NOT = { has_global_flag = tobol_developed }
+      year = 1840
+      owns = 163
+    }
+    allow = {
+      early_railroad = 1
+      paddle_steamers = 1
+      organized_factories = 1
+      money = 100000
+    }
+    effect = {
+      set_global_flag = tobol_developed
+      163 = {
+        add_province_modifier = {
+          name = new_city_development
+          duration = -1
+        }
+        life_rating = 10
+      }
+      VIN_163 = { life_rating = 5 }
+      money = -100000
+    }
+  }
+
+  develop_flattsjo = {
+    potential = {
+      OR = {
+        tag = VIN
+        tag = ARC
+      }
+      NOT = { has_global_flag = flattsjo_developed }
+      year = 1880
+      owns = 173
+    }
+    allow = {
+      combustion_engine = 1
+      expressionism = 1
+      electricity = 1
+      money = 100000
+    }
+    effect = {
+      set_global_flag = flattsjo_developed
+      173 = {
+        add_province_modifier = {
+          name = new_city_development
+          duration = -1
+        }
+        life_rating = 10
+      }
+      VIN_175 = { life_rating = 5 }
+      money = -100000
+    }
+  }
+
+  develop_erikshavn = {
+    potential = {
+      OR = {
+        tag = VIN
+        tag = ARC
+      }
+      NOT = { has_global_flag = erikshavn_developed }
+      year = 1850
+      owns = 65
+    }
+    allow = {
+      raider_group_doctrine = 1
+      impressionism = 1
+      nationalism_n_imperialism = 1
+      money = 100000
+    }
+    effect = {
+      set_global_flag = erikshavn_developed
+      65 = {
+        add_province_modifier = {
+          name = new_city_development
+          duration = -1
+        }
+        life_rating = 10
+      }
+      64 = { life_rating = 5 }
+      58 = { life_rating = 5 }
+      money = -100000
+    }
+  }
+
+  #Belgium Confederacy
+  develop_philippa = {
+    potential = {
+      OR = {
+        tag = NBG
+        tag = ARC
+      }
+      NOT = { has_global_flag = philippa_developed }
+      owns = 243
+      year = 1850
+    }
+    allow = {
+      steam_turbine = 1
+      pneumatic_and_hydraulics = 1
+      iron_steamers = 1
+      money = 100000
+    }
+    effect = {
+      set_global_flag = philippa_developed
+      243 = {
+        add_province_modifier = {
+          name = new_city_development
+          duration = -1
+        }
+        life_rating = 10
+      }
+      NBG_2 = { life_rating = 5 }
+      money = -100000
+    }
+  }
+
+  develop_novelle_brugge = {
+    potential = {
+      OR = {
+        tag = NBG
+        tag = ARC
+      }
+      NOT = { has_global_flag = novelle_brugge_developed }
+      owns = 233
+      year = 1850
+    }
+    allow = {
+      impressionism = 1
+      iron_railroad = 1
+      iron_steamers = 1
+      money = 200000
+    }
+    effect = {
+      set_global_flag = novelle_brugge_developed
+      233 = {
+        add_province_modifier = {
+          name = new_city_development
+          duration = -1
+        }
+        life_rating = 10
+      }
+      232 = {
+        add_province_modifier = {
+          name = new_city_development
+          duration = -1
+        }
+        life_rating = 10
+      }
+      NBG_1 = { life_rating = 5 }
+      money = -200000
+    }
+  }
+
+  develop_haute_valoisie = {
+    potential = {
+      OR = {
+        tag = NBG
+        tag = ARC
+      }
+      NOT = { has_global_flag = haute_valoisie_developed }
+      owns = 223
+      year = 1870
+    }
+    allow = {
+      steel_railroad = 1
+      advanced_metallurgy = 1
+      investment_banks = 1
+      money = 100000
+    }
+    effect = {
+      set_global_flag = haute_valoisie_developed
+      NBG_4 = { life_rating = 10 }
+      money = -100000
+    }
+  }
+
+  #Plantagenia
+  develop_la_galette = {
+    potential = {
+      OR = {
+        tag = PLA
+        tag = TRP
+        tag = ARC
+      }
+      NOT = { has_global_flag = la_galette_developed }
+      owns = 148
+      year = 1850
+    }
+    allow = {
+      iron_steamers = 1
+      bessemer_process = 1
+      impressionism = 1
+      money = 100000
+    }
+    effect = {
+      set_global_flag = la_galette_developed
+      148 = {
+        add_province_modifier = {
+          name = new_city_development
+          duration = -1
+        }
+        life_rating = 10
+      }
+      NA_1 = { life_rating = 5 }
+      money = -100000
+    }
+  }
+
+  develop_nouvelle_orleans = {
+    potential = {
+      OR = {
+        tag = PLA
+        tag = TRP
+        tag = ARC
+      }
+      NOT = { has_global_flag = nouvelle_orleans_developed }
+      owns = 139
+    }
+    allow = {
+      paddle_steamers = 1
+      romanticism = 1
+      high_pressure_steam_engine = 1
+      money = 100000
+    }
+    effect = {
+      set_global_flag = nouvelle_orleans_developed
+      139 = {
+        add_province_modifier = {
+          name = new_city_development
+          duration = -1
+        }
+        life_rating = 10
+      }
+      PLA_7 = { life_rating = 5 }
+      money = -100000
+    }
+  }
+
+  develop_nova_lisbon = {
+    potential = {
+      OR = {
+        tag = PLA
+        tag = LST
+        accepted_culture = lusitanian
+      }
+      NOT = { tag = HIS }
+      NOT = { has_global_flag = nova_lisbon_developed }
+      owns = 137
+      year = 1880
+    }
+    allow = {
+      electricity = 1
+      combustion_engine = 1
+      economic_responsibility = 1
+      money = 100000
+    }
+    effect = {
+      set_global_flag = nova_lisbon_developed
+      137 = {
+        add_province_modifier = {
+          name = new_city_development
+          duration = -1
+        }
+        life_rating = 10
+      }
+      TEX_132 = { life_rating = 5 }
+      money = -100000
+    }
+  }
+}

@@ -1,0 +1,227 @@
+political_decisions = {
+
+	form_dravida = {
+		potential = {
+			is_culture_group = dravidian
+			NOT = {
+				exists = DRA
+				exists = BHA
+			}
+		}
+
+		allow = {
+		NOT = { war = yes }
+		  prestige = 10
+		  OR = {      # Delhi
+				1310 = { owner = { in_sphere = THIS } }
+				owns = 1310
+			}
+			OR = {      # Lucknow
+				1319 = { owner = { in_sphere = THIS } }
+				owns = 1319
+			}
+			OR = {      # Patna
+				1307 = { owner = { in_sphere = THIS } }
+				owns = 1307
+			}
+			OR = {     # Calcutta
+				1302 = { owner = { in_sphere = THIS } }
+				owns = 1302
+			}
+			OR = {      # Cuttack
+				1283 = { owner = { in_sphere = THIS } }
+				owns = 1283
+			}
+			OR = {     # Bhopal
+				1277 = { owner = { in_sphere = THIS } }
+				owns = 1277
+			}
+		}
+		effect = {
+			prestige = 20
+			badboy = 10
+			capital = 1304
+			change_tag = DRA
+			add_accepted_culture = tamil
+			add_accepted_culture = malayalam
+			add_accepted_culture = kannada
+			add_accepted_culture = marathi
+			add_accepted_culture = telegu
+			any_country = {
+				limit = {
+					NOT = {
+						is_greater_power = yes
+					}
+					is_culture_group = THIS
+					in_sphere = THIS
+				}
+				country_event = 11101
+			}
+		}
+	}
+
+	form_bharata = {
+		picture = chakra_bharata
+		potential = {
+			OR = {
+				tag = HND
+				tag = DRA
+			}
+			NOT = {
+				exists = BHA
+			}
+		}
+
+		allow = {
+			NOT = { war = yes }
+			prestige = 10
+			HND = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = { in_sphere = THIS }
+					}
+				}
+			}
+			DRA = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = { in_sphere = THIS }
+					}
+				}
+			}
+		}
+		effect = {
+			prestige = 40
+			DRA = { all_core = {  add_core = BHA } }
+			HND = { all_core = { add_core = BHA } }
+			change_tag = BHA
+			add_accepted_culture = tamil
+			add_accepted_culture = malayalam
+			add_accepted_culture = kannada
+			add_accepted_culture = marathi
+			add_accepted_culture = telegu
+			add_accepted_culture = bengali
+			add_accepted_culture = bihari
+			add_accepted_culture = oriya
+			add_accepted_culture = avadhi
+			add_accepted_culture = kanauji
+			add_accepted_culture = panjabi
+			add_accepted_culture = gujarati
+			add_accepted_culture = kashmiri
+			add_accepted_culture = sindi
+			add_accepted_culture = rajput
+			add_accepted_culture = sinhala
+			add_accepted_culture = burmese
+			add_accepted_culture = pashtun
+			add_accepted_culture = nepali
+			add_accepted_culture = assamese
+			AFG_1214 = { add_core = BHA }
+			AFG_1217 = { add_core = BHA }
+			AFG_1218 = { add_core = BHA }
+			KAL_1221 = { add_core = BHA }
+			PAN_1224 = { add_core = BHA }
+			ENG_1321 = { add_core = BHA }
+			NEP_1327 = { add_core = BHA }
+			BUR_1330 = { add_core = BHA }
+			BUR_1334 = { add_core = BHA }
+			BUR_1339 = { add_core = BHA }
+			BHU_1329 = { add_core = BHA }
+			BUR_1257 = { add_core = BHA }
+			2128 = { add_core = BHA }
+			1338 = { add_core = BHA }
+			1340 = { add_core = BHA }
+			1320 = { add_core = BHA }
+			1325 = { add_core = BHA }
+			2128 = { add_core = BHA }
+			any_country = {
+				limit = {
+					NOT = {
+						is_greater_power = yes
+					}
+					OR = {
+						is_culture_group = south_asian
+						is_culture_group = dravidian
+					}
+					in_sphere = THIS
+				}
+				country_event = 11101
+			}
+		}
+	}
+
+	form_hindustan = {
+		potential = {
+		is_culture_group = south_asian
+			NOT = {
+				exists = HND
+				exists = BHA
+			}
+		}
+
+		allow = {
+			NOT = { war = yes }
+			prestige = 10
+			HND = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = { in_sphere = THIS }
+					}
+				}
+			}
+		}
+		effect = {
+			prestige = 40
+			change_tag = HND
+      add_accepted_culture = assamese
+			add_accepted_culture = bengali
+			add_accepted_culture = bihari
+			add_accepted_culture = manipuri
+			add_accepted_culture = oriya
+			add_accepted_culture = sinhala
+			add_accepted_culture = avadhi
+			add_accepted_culture = kanauji
+			add_accepted_culture = panjabi
+			add_accepted_culture = kashmiri
+			add_accepted_culture = gujarati
+			add_accepted_culture = rajput
+			add_accepted_culture = sindi
+			any_country = {
+				limit = {
+					NOT = {
+						is_greater_power = yes
+					}
+					OR = {
+						is_culture_group = south_asian
+					}
+					in_sphere = THIS
+				}
+				country_event = 11101
+			}
+		}
+	}
+
+	seize_bengal = {
+
+	picture = Mughals
+
+	potential = {
+	tag = MUG
+	NOT = { has_country_flag = Bengal_MUG }
+	}
+
+	allow = {
+	owns = 1251
+	owns = 1257
+	}
+
+	effect = {
+	BEN = { all_core = { add_core = THIS } }
+	add_accepted_culture = bengali
+	set_country_flag = Bengal_MUG
+	}
+
+	}
+}

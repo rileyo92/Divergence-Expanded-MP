@@ -1,0 +1,48 @@
+country_event = { #North-West Passage Discovered
+  id = 500085
+  title = "500085.T"
+	desc = "500085.D"
+	picture = "NorthPole1"
+  major = yes
+
+  trigger = {
+    not = { is_canal_enabled = 7 }
+    year = 1910
+    rank = 16
+    steam_turbine_ships = 1
+    advanced_naval_design = 1
+  }
+
+  mean_time_to_happen =  {
+		months = 12
+	}
+
+  option = {
+    name = "500085.A"
+    prestige = 30
+  }
+}
+
+country_event = { #North-East Passage Discovered
+  id = 500086
+  title = "500086.T"
+	desc = "500086.D"
+	picture = "NorthPole1"
+  major = yes
+
+  trigger = {
+    not = { is_canal_enabled = 8 }
+    year = 1910
+    rank = 16
+    steam_turbine_ships = 1
+    advanced_naval_design = 1
+  }
+
+  mean_time_to_happen =  {
+		months = 12
+	}
+
+  option = {
+    name = "500086.A"
+    prestige = 30
+}

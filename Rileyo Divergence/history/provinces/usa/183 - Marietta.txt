@@ -1,0 +1,8 @@
+owner = VIN
+controller = VIN
+add_core = PLA
+add_core = NBG
+add_core = VIN
+add_core = IRO
+trade_goods = cotton
+life_rating = 35

@@ -1,0 +1,4 @@
+add_core = MGH
+trade_goods = iron
+terrain = desert
+life_rating = 10

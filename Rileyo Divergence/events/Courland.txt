@@ -1,0 +1,692 @@
+country_event = { #St Andrjew 1/3
+	id = 371261
+	title = "NeuKur1.T"
+	desc = "NeuKur1.D"
+
+	is_triggered_only = yes
+
+	option = {
+	name = "135602.A"
+		money = 50000
+		2233 = { remove_core = THIS }
+		FROM = { country_event = 371262 }
+		ai_chance = {
+			factor = 75
+		modifier = {
+		factor = 1.5
+		relation = { who = FROM value = 100 }
+			}
+		modifier = {
+		factor = 1.5
+		relation = { who = FROM value = 150 }
+			}
+		}
+	}
+
+	option = {
+	name = "135602.B"
+	FROM = { country_event = 371263 }
+		ai_chance = {
+			factor = 25
+		}
+	}
+}
+
+country_event = { #St Andrjew 2/3
+	id = 371262
+	title = "NeuKur2.T"
+	desc = "NeuKur2.D"
+
+	is_triggered_only = yes
+
+	option = {
+	name = "190441.A"
+	prestige = 5
+	money = -50000
+	2233 = { secede_province = THIS }
+  2233 = { add_core = THIS }
+	relation = { who = FROM value = 50 }
+	any_pop = { consciousness = -1 }
+	}
+}
+
+country_event = { #St Andrjew 3/3
+	id = 371263
+	title = "NeuKur3.T"
+	desc = "NeuKur3.D"
+
+	is_triggered_only = yes
+
+	option = {
+	name = "135622.A"
+	relation = { who = FROM value = -100 }
+	}
+}
+
+country_event = { #Spanish Antilles 1/3
+	id = 371264
+	title = "NeuKur4.T"
+	desc = "NeuKur4.D"
+
+	is_triggered_only = yes
+
+	option = {
+	name = "135620.A"
+		money = 75000
+		any_owned = {
+		ENG_2228 = { remove_core = THIS secede_province = FROM }
+		}
+		FROM = { country_event = 371265 }
+		ai_chance = {
+			factor = 75
+		modifier = {
+		factor = 1.5
+		relation = { who = FROM value = 100 }
+			}
+		modifier = {
+		factor = 1.5
+		relation = { who = FROM value = 150 }
+			}
+		}
+	}
+
+	option = {
+	name = "135620.B"
+	FROM = { country_event = 371266 }
+		ai_chance = {
+			factor = 25
+		}
+	}
+}
+
+country_event = { #Spanish Antilles 2/3
+	id = 371265
+	title = "NeuKur2.T"
+	desc = "NeuKur5.D"
+
+	is_triggered_only = yes
+
+	option = {
+	name = "97205.A"
+	prestige = 5
+	money = -75000
+	relation = { who = FROM value = 50 }
+  2232 = { add_core = THIS }
+  2409 = { add_core = THIS }
+	any_pop = { consciousness = -1 }
+	}
+}
+
+country_event = { #Spanish Antilles 3/3
+	id = 371266
+	title = "NeuKur3.T"
+	desc = "NeuKur3.D"
+
+	is_triggered_only = yes
+
+	option = {
+	name = "135632.A"
+	relation = { who = FROM value = -100 }
+	}
+}
+
+country_event = { #Aragonese Antilles 1/3
+	id = 371267
+	title = "NeuKur7.T"
+	desc = "NeuKur7.D"
+
+	is_triggered_only = yes
+
+	option = {
+	name = "135630.A"
+		money = 50000
+		2231 = { remove_core = THIS}
+		FROM = { country_event = 371268 }
+		ai_chance = {
+			factor = 75
+		modifier = {
+		factor = 1.5
+		relation = { who = FROM value = 100 }
+			}
+		modifier = {
+		factor = 1.5
+		relation = { who = FROM value = 150 }
+			}
+		}
+	}
+
+	option = {
+	name = "135630.B"
+	FROM = { country_event = 371269 }
+		ai_chance = {
+			factor = 25
+		}
+	}
+}
+
+country_event = { #Aragonese Antilles 2/3
+	id = 371268
+	title = "NeuKur2.T"
+	desc = "NeuKur8.D"
+
+	is_triggered_only = yes
+
+	option = {
+	name = "97255.A"
+	prestige = 5
+	money = -50000
+	2231 = { secede_province = THIS }
+  2231 = { add_core = THIS }
+	relation = { who = FROM value = 50 }
+	any_pop = { consciousness = -1 }
+	}
+}
+
+country_event = { #Aragonese Antilles 3/3
+	id = 371269
+	title = "NeuKur3.T"
+	desc = "NeuKur3.D"
+
+	is_triggered_only = yes
+
+	option = {
+	name = "135625.A"
+	relation = { who = FROM value = -100 }
+	}
+}
+country_event = { #Martinique 1/3
+	id = 371270
+	title = "NeuKur10.T"
+	desc = "NeuKur10.D"
+
+	is_triggered_only = yes
+
+	option = {
+	name = "135623.A"
+		money = 100000
+		any_owned = {
+		2228 = { remove_core = THIS secede_province = FROM }
+		}
+		FROM = { country_event = 371271 }
+		ai_chance = {
+			factor = 75
+		modifier = {
+		factor = 1.5
+		relation = { who = FROM value = 100 }
+			}
+		modifier = {
+		factor = 1.5
+		relation = { who = FROM value = 150 }
+			}
+		}
+	}
+
+	option = {
+	name = "135623.B"
+	FROM = { country_event = 371272 }
+		ai_chance = {
+			factor = 25
+		}
+	}
+}
+
+country_event = { #Martinique 2/3
+	id = 371271
+	title = "NeuKur2.T"
+	desc = "NeuKur11.D"
+
+	is_triggered_only = yes
+
+	option = {
+	name = "97355.A"
+	prestige = 5
+	money = -100000
+  2228 = { add_core = THIS }
+	relation = { who = FROM value = 50 }
+	any_pop = { consciousness = -1 }
+	}
+}
+
+country_event = { #Martinique 3/3
+	id = 371272
+	title = "NeuKur3.T"
+	desc = "NeuKur3.D"
+
+	is_triggered_only = yes
+
+	option = {
+	name = "371263.A"
+	relation = { who = FROM value = -100 }
+	}
+}
+
+country_event = { #Scandinavian Antilles 1/3
+	id = 371273
+	title = "NeuKur1.T"
+	desc = "NeuKur13.D"
+
+	is_triggered_only = yes
+
+	option = {
+	name = "371261.A"
+		money = 125000
+		any_owned = {
+		ENG_2224 = { remove_core = THIS secede_province = FROM }
+		}
+		FROM = { country_event = 371274 }
+		ai_chance = {
+			factor = 75
+		modifier = {
+		factor = 1.5
+		relation = { who = FROM value = 100 }
+			}
+		modifier = {
+		factor = 1.5
+		relation = { who = FROM value = 150 }
+			}
+		}
+	}
+
+	option = {
+	name = "371261.B"
+	FROM = { country_event = 371275 }
+		ai_chance = {
+			factor = 25
+		}
+	}
+}
+
+country_event = { #Scandinavian Antilles 2/3
+	id = 371274
+	title = "NeuKur2.T"
+	desc = "NeuKur14.D"
+
+	is_triggered_only = yes
+
+	option = {
+	name = "48912.A"
+	prestige = 5
+	money = -125000
+	relation = { who = FROM value = 50 }
+	any_pop = { consciousness = -1 }
+	}
+}
+
+country_event = { #Scandinavian Antilles 3/3
+	id = 371275
+	title = "NeuKur3.T"
+	desc = "NeuKur3.D"
+
+	is_triggered_only = yes
+
+	option = {
+	name = "371266.A"
+	relation = { who = FROM value = -100 }
+	}
+}
+
+country_event = { #Montserrat 1/3
+	id = 371276
+	title = "NeuKur16.T"
+	desc = "NeuKur16.D"
+
+	is_triggered_only = yes
+
+	option = {
+	name = "371264.A"
+		money = 50000
+		any_owned = {
+		ENG_2224 = { remove_core = THIS secede_province = FROM }
+		}
+		FROM = { country_event = 371277 }
+		ai_chance = {
+			factor = 75
+		modifier = {
+		factor = 1.5
+		relation = { who = FROM value = 100 }
+			}
+		modifier = {
+		factor = 1.5
+		relation = { who = FROM value = 150 }
+			}
+		}
+	}
+
+	option = {
+	name = "371264.B"
+	FROM = { country_event = 371278 }
+		ai_chance = {
+			factor = 25
+		}
+	}
+}
+
+country_event = { #Montserrat 2/3
+	id = 371277
+	title = "NeuKur2.T"
+	desc = "NeuKur17.D"
+
+	is_triggered_only = yes
+
+	option = {
+	name = "135603.A"
+	prestige = 5
+	money = -50000
+	relation = { who = FROM value = 50 }
+	any_pop = { consciousness = -1 }
+	}
+}
+
+country_event = { #Montserrat 3/3
+	id = 371278
+	title = "NeuKur3.T"
+	desc = "NeuKur3.D"
+
+	is_triggered_only = yes
+
+	option = {
+	name = "371269.A"
+	relation = { who = FROM value = -100 }
+	}
+}
+
+country_event = { #Cristobal 1/3
+	id = 371279
+	title = "NeuKur19.T"
+	desc = "NeuKur19.D"
+
+	is_triggered_only = yes
+
+	option = {
+	name = "371267.A"
+	money = 50000
+	any_owned = {
+		ENG_2224 = { remove_core = THIS secede_province = FROM }
+		}
+	FROM = { country_event = 371280 }
+		ai_chance = {
+			factor = 75
+		modifier = {
+		factor = 1.5
+		relation = { who = FROM value = 100 }
+			}
+		modifier = {
+		factor = 1.5
+		relation = { who = FROM value = 150 }
+			}
+		}
+	}
+
+	option = {
+	name = "371267.B"
+	FROM = { country_event = 371281 }
+		ai_chance = {
+			factor = 25
+		}
+	}
+}
+
+country_event = { #Cristobal 2/3
+	id = 371280
+	title = "NeuKur2.T"
+	desc = "NeuKur20.D"
+
+	is_triggered_only = yes
+
+	option = {
+	name = "135611.A"
+	prestige = 5
+	money = -50000
+	relation = { who = FROM value = 50 }
+	any_pop = { consciousness = -1 }
+	}
+}
+
+country_event = { #Cristobal 3/3
+	id = 371281
+	title = "NeuKur3.T"
+	desc = "NeuKur3.D"
+
+	is_triggered_only = yes
+
+	option = {
+	name = "371272.A"
+	relation = { who = FROM value = -100 }
+	}
+}
+
+country_event = { #Virgin Islands 1/3
+	id = 371282
+	title = "NeuKur22.T"
+	desc = "NeuKur22.D"
+
+	is_triggered_only = yes
+
+	option = {
+	name = "371270.A"
+	money = 100000
+	2223 = { secede_province = FROM }
+	2226 = { secede_province = FROM }
+	2236 = { secede_province = FROM}
+	FROM = { country_event = 371283 }
+		ai_chance = {
+			factor = 75
+		modifier = {
+		factor = 1.5
+		relation = { who = FROM value = 100 }
+			}
+		modifier = {
+		factor = 1.5
+		relation = { who = FROM value = 150 }
+			}
+		}
+	}
+
+	option = {
+	name = "371270.B"
+	FROM = { country_event = 371284 }
+		ai_chance = {
+			factor = 25
+		}
+	}
+}
+
+country_event = { #Virgin Islands 2/3
+	id = 371283
+	title = "NeuKur2.T"
+	desc = "NeuKur23.D"
+
+	is_triggered_only = yes
+
+	option = {
+	name = "135621.A"
+	prestige = 5
+	money = -75000
+	relation = { who = FROM value = 50 }
+	any_pop = { consciousness = -1 }
+	}
+}
+
+country_event = { #Virgin Islands 3/3
+	id = 371284
+	title = "NeuKur3.T"
+	desc = "NeuKur3.D"
+
+	is_triggered_only = yes
+
+	option = {
+	name = "371275.A"
+	relation = { who = FROM value = -100 }
+	}
+}
+
+country_event = { #Trinidad 1/3
+	id = 500023
+	title = "500023.T"
+	desc = "500023.D"
+
+	is_triggered_only = yes
+
+	option = {
+	name = "500023.A"
+	money = 75000
+	2237 = { secede_province = FROM }
+	FROM = { country_event = 500023A }
+		ai_chance = {
+			factor = 75
+		modifier = {
+		factor = 1.5
+		relation = { who = FROM value = 100 }
+			}
+		modifier = {
+		factor = 1.5
+		relation = { who = FROM value = 150 }
+			}
+		}
+	}
+
+	option = {
+	name = "500023.B"
+	FROM = { country_event = 500023B }
+		ai_chance = {
+			factor = 25
+		}
+	}
+}
+
+country_event = { #Trinidad 2/3
+	id = 500023A
+	title = "500023A.T"
+	desc = "500023A.D"
+
+	is_triggered_only = yes
+
+	option = {
+	name = "500023A.A"
+	prestige = 5
+	money = -75000
+  2237 = { add_core = THIS }
+	relation = { who = FROM value = 50 }
+	any_pop = { consciousness = -1 }
+	}
+}
+
+country_event = { #Trinidad 3/3
+	id = 500023B
+	title = "500023B.T"
+	desc = "500023B.D"
+
+	is_triggered_only = yes
+
+	option = {
+	name = "500023B.A"
+	relation = { who = FROM value = -100 }
+	}
+}
+
+country_event = { #Bermuda 1/3
+	id = 500024
+	title = "500024.T"
+	desc = "500024.D"
+
+	is_triggered_only = yes
+
+	option = {
+	name = "500024.A"
+	money = 100000
+	203 = { secede_province = FROM }
+	FROM = { country_event = 500024A }
+		ai_chance = {
+			factor = 75
+		modifier = {
+		factor = 1.5
+		relation = { who = FROM value = 100 }
+			}
+		modifier = {
+		factor = 1.5
+		relation = { who = FROM value = 150 }
+			}
+		}
+	}
+
+	option = {
+	name = "500024.B"
+	FROM = { country_event = 500024B }
+		ai_chance = {
+			factor = 25
+		}
+	}
+}
+
+country_event = { #Bermuda 2/3
+	id = 500024A
+	title = "500024A.T"
+	desc = "500024A.D"
+
+	is_triggered_only = yes
+
+	option = {
+	name = "500024A.A"
+	prestige = 5
+	money = -100000
+  203 = { add_core = THIS }
+	relation = { who = FROM value = 50 }
+	any_pop = { consciousness = -1 }
+	}
+}
+
+country_event = { #Bermuda 3/3
+	id = 500024B
+	title = "500024B.T"
+	desc = "500024B.D"
+
+	is_triggered_only = yes
+
+	option = {
+	name = "500024B.A"
+	relation = { who = FROM value = -100 }
+	}
+}
+country_event = { #Destiny of New Courland
+  id = 500025
+  title = "500025.T"
+  desc = "500025.D"
+
+  is_triggered_only = yes
+
+  option = {
+    name = "500025.A"
+    RUS_349 = { add_core = THIS }
+    RUS_354 = { add_core = THIS }
+    LIT_698 = { add_core = THIS }
+    RUS_360 = { add_core = THIS }
+    PRU_695 = { add_core = THIS }
+    PRU_690 = { add_core = THIS }
+    add_accepted_culture = north_german
+    add_accepted_culture = lithuanian
+    add_accepted_culture = latvian
+    add_accepted_culture = estonian
+  }
+
+  option = {
+    name = "500025.B"
+    VIN_3 = { add_core = THIS }
+    DEN_251 = { add_core = THIS }
+    203 = { add_core = THIS }
+    SCA_252 = { add_core = THIS }
+    POR_2134 = { add_core = THIS }
+    ENG_2132 = { add_core = THIS }
+    SA_8 = { add_core = THIS }
+    add_accepted_culture = vinlandic
+    add_accepted_culture = icelandic
+    add_accepted_culture = inuit
+    set_country_flag = courland_naval_focus
+  }
+
+  option = {
+    name = "500025.C"
+    add_country_modifier = {
+      name = the_homestead_act
+    }
+  }
+}

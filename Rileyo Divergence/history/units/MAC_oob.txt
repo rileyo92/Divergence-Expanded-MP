@@ -1,0 +1,65 @@
+leader = {
+	name = "Alexandar Kostadin"
+	type = land
+	date = 1836.1.1
+	personality = defence_1.1
+	background = attack_1.1
+
+leader = {
+	name = "Gjerasim Avram"
+	type = land
+	date = 1836.1.1
+	ppersonality = defence_1.1
+	background = attack_1.1
+}
+
+
+army = {
+	name = "Stratós Makedonia"
+	location = 805
+	regiment = {
+		name= "1. Taxiarchia Pezikou"
+		type = infantry
+		home = 806
+	}
+
+	regiment = {
+		name= "2. Taxiarchia Pezikou"
+		type = infantry
+		home = 806
+	}
+
+	regiment = {
+		name= "3. Taxiarchia Pezikou"
+		type = infantry
+		home = 806
+	}
+
+	regiment = {
+		name= "4. Taxiarchia Pezikou"
+		type = infantry
+		home = 819
+	}
+
+	regiment = {
+		name= "5. Taxiarchia Pezikou"
+		type = infantry
+		home = 819
+	}
+
+	regiment = {
+		name= "6. Taxiarchia Pezikou"
+		type = hussar
+		home = 819
+	}
+
+	regiment = {
+		name= "7. Taxiarchia Pezikou"
+		type = hussar
+		home = 806
+	}
+
+}
+
+
+

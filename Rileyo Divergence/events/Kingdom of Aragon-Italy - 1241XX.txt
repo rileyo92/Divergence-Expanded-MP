@@ -1,0 +1,248 @@
+country_event = {
+	id = 124100 #Declaration - reaction event
+	title = "EVTNAME124100"
+	desc = "EVTDESC124100"
+	picture = "?"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA124100"
+		relation = {
+			who = FROM
+			value = -200
+		}
+		FROM = {
+			add_casus_belli = {
+				target = THIS
+				type = release_puppet
+				months = 24
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 124101 #Declaration - reaction event II
+	title = "EVTNAME124101"
+	desc = "EVTDESC124101"
+	picture = "?"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA124101"
+		any_country = { 
+				limit = {
+					ai = no
+				}
+				country_event = 124103
+		}
+	}
+}
+
+country_event = {
+	id = 124103 #A minor recommendation
+	title = "EVTNAME124103"
+	desc = "EVTDESC124103"
+	picture = "?"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA124103"
+		prestige = 1
+	}
+}
+
+country_event = {
+	id = 124108
+	title = "EVTNAME124108"
+	desc = "EVTDESC124108"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA124108"
+		FROM = {
+			diplomatic_influence = {
+				who = THIS
+				value = -100
+			}
+		}
+	}
+}
+
+country_event = { 
+	id = 124110 
+	title = "ARI.1.T"
+	desc = "ARI.1.D"
+	picture = "ARA_TUN"
+	
+	trigger = { 
+	OR = { 
+	tag = ARA 
+	tag = ARI 
+		}
+	owns = 1725
+	TUN = { civilized = no }
+	year = 1860 
+	is_greater_power = yes 
+	war = no 
+		}
+	
+	fire_only_once = yes 
+	
+	mean_time_to_happen = { months = 20 }
+	
+	option = { 
+	name = "124110.A"
+	badboy = 5 
+	TUN = { country_event = 124111 }
+	ai_chance = { factor = 70 }
+	}
+
+	option = { 
+	name = "124110.B"
+	ai_chance = { factor = 30 }
+	}
+}
+
+country_event = { 
+	id = 124111 
+	title = "ARI.2.T"
+	desc = "ARI.2.D"
+	picture = "ARA_TUN"
+	
+	is_triggered_only = yes 
+	
+	option = { 
+	name = "124111.A"
+	FROM = { country_event = 124112 }
+	ai_chance = { 
+		factor = 30 
+		modifier = { 
+		factor = 1.5 
+		FROM = { rank = 4 }
+			}
+		}
+	}
+	
+	option = { 
+	name = "124111.B"
+	FROM = { country_event = 124113 }
+	}
+}
+
+country_event = { 
+	id = 124112
+	title = "ARI.3.T"
+	desc = "ARI.3.D"
+	picture = "ARA_TUN"
+	
+	is_triggered_only = yes 
+	
+	option = { 
+	name = "124112.A"
+	inherit = FROM
+	}
+}
+
+country_event = { 
+	id = 124113
+	title = "ARI.4.T"
+	desc = "ARI.4.D"
+	picture = "ARA_TUN"
+	
+	is_triggered_only = yes 
+	
+	option = { 
+	name = "124113.A"
+	add_casus_belli = {
+				target = FROM
+				type = establish_protectorate_casus_belli
+				months = 24
+			}
+	war = {
+		target = FROM
+		attacker_goal = {
+				casus_belli = establish_protectorate_casus_belli
+			}
+		}
+	}	
+}
+
+country_event = {
+	id = 124209 # Aragon reaction to Italian Unification
+	title = "EVTNAME124209"
+	desc = "EVTDESC124209"
+	picture = "?"
+	
+	trigger = {
+    OR = {
+	tag = ARA
+	tag = ARI
+	} 
+	ITA = { exists = yes }
+	NOT = { ITA = { has_country_flag = valois_italy } }
+	NOT = { has_country_flag = conquest_ITA }
+	}
+	
+	fire_only_once = yes 
+	
+	major = yes 
+	
+	option = {
+		name = "124209.A"
+		relation = {
+			who = ITA
+			value = -400
+		}
+		diplomatic_influence = {
+			who = ITA
+			value = -200
+		}
+		casus_belli = {
+			target = ITA
+			type = conquest
+			months = 24
+		}
+		war = {
+			target = ITA
+			attacker_goal = {
+				casus_belli = conquest
+			}
+		}
+	ITA = { country_event = 124218 }
+	set_country_flag = conquest_ITA
+	ai_chance = { 
+	factor = 80 
+		} 
+	}
+	
+	option = { 
+	name = "124209.B"
+	set_country_flag = conquest_ITA
+	ai_chance = { 
+	factor = 20 
+	modifier = { 
+	factor = 2 
+	ITA = { in_sphere = DUA }
+			}
+		} 
+	}
+}
+
+country_event = { 
+	id = 124218
+	title = "124218.T"
+	desc = "124218.D"
+	
+	is_triggered_only = yes 
+	
+	option = { 
+	name = "124218.A"
+	}
+}
+
+

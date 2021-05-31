@@ -1,0 +1,195 @@
+country_event = { 
+
+	id = 410001
+	title = "HRE1.T"
+	desc = "HRE1.D"
+
+	is_triggered_only = yes
+	
+	option = { 
+	name = "410001.A" 
+	any_country = {
+        			limit = {
+					NOT = { tag = KRL }
+        				OR = {
+        					primary_culture = rheinish
+        					primary_culture = north_german
+        					primary_culture = south_german
+        				}
+        				in_sphere = THIS
+        			}	
+        			country_event = 410002
+        		}
+	any_owned = { 
+		limit = { region = PRU_546 }
+		secede_province = POM
+		remove_core = THIS 
+		}	
+	BOH = { diplomatic_influence = { who = POM value = 200 }
+        }
+	
+    }
+}
+
+country_event = {
+        	id = 410002
+        	title = "410002.T"
+        	desc = "410002.D"
+
+        	is_triggered_only = yes
+
+        	option = {
+        		name = "410002.A"
+        		FROM = { diplomatic_influence = { who = THIS value = -200 } }
+        		BOH = { diplomatic_influence = { who = THIS value = 200 } }
+        	}
+}
+	
+country_event = {
+
+	id = 410055
+	title = "HRE55.T"
+	desc = "HRE55.D"
+	picture = "Outsidepowers_BOH"
+	fire_only_once = yes
+	
+	trigger = { 
+	OR = {
+		tag = SCA
+		tag = BRG 
+		}
+	has_global_flag = Prague_waiting
+	NOT = { truce_with = HLR }
+	}
+	
+	mean_time_to_happen = { 
+	days = 1 
+	}
+	
+	option = { 
+	name = "410055.A"
+	casus_belli = {
+			target = HLR
+			type = cut_down_to_size
+			months = 60
+		}
+	}
+}
+
+country_event = { 
+	id = 410057
+	title = "HRE57.T"
+	desc = "HRE57.D"
+	picture = "BOH_mob"
+
+	is_triggered_only = yes
+	
+	option = {
+	name = "410057.A"
+	treasury = 10000
+	ammunition = 1000
+	small_arms = 1000
+	artillery = 1000
+	canned_food = 1000
+	regular_clothes = 1000
+	add_country_modifier = {
+				name = taiping_draft
+				duration = 1000
+			}
+	}
+
+}
+	
+country_event = { 
+	id = 410058
+	title = "HRE58.T"
+	desc = "HRE58.D"
+
+	is_triggered_only = yes
+	
+	option = {
+	name = "410058.A"
+	remove_accepted_culture = czech 
+	prestige = -40
+	}
+
+}
+
+country_event = { 
+	id = 410060
+	title = "HRE60.T"
+	desc = "HRE60.D"
+
+	is_triggered_only = yes
+	
+	option = {
+	name = "410060.A"
+				government = democracy
+				political_reform = state_equal_weight
+				political_reform = wealth_voting
+				political_reform = yes_meeting
+				political_reform = free_press
+				political_reform = all_trade_unions
+				political_reform = first_past_the_post
+				political_reform = gerrymandering
+			ai_chance = {  
+			factor = 50 }
+		}
+	option = { 
+	name = "410060.B"
+				government = prussian_constitutionalism
+				political_reform = appointed
+				political_reform = wealth_voting
+				political_reform = yes_meeting
+				political_reform = free_press
+				political_reform = no_trade_unions
+				political_reform = first_past_the_post
+				political_reform = non_secret_ballots
+		ai_chance = {  
+			factor = 50 }
+		}
+}
+
+country_event = { 
+	id = 410070
+	title = "BOHR.T"
+	desc = "BOHR.D"
+	picture = "rhapsody"
+	
+	trigger = { 
+	OR = { tag = HLR tag = BOH}
+	owns = 625 
+	romanticism = 1 
+	}
+	
+	fire_only_once = yes 
+	
+	option = { 
+	name = "410070.A"
+	prestige = 2
+	}
+}
+
+country_event = { 
+	id = 410071
+	title = "HRE71.T"
+	desc = "HRE71.D"
+	
+	major = yes 
+	
+	trigger = { 
+	tag = HLR 
+	year = 1900 
+	owns = 576 
+	NOT = { year = 1901 }
+	}
+	
+	mean_time_to_happen = { 
+	months = 8 
+	}
+	
+	option = { 
+	name = "410071.A"
+	}
+	
+}

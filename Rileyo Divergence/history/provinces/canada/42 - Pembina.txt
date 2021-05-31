@@ -1,0 +1,7 @@
+add_core = ANI
+add_core = VIN
+add_core = OCE
+trade_goods = grain
+terrain = plains
+life_rating = 30
+colonial = 1

@@ -1,0 +1,221 @@
+political_decisions = {
+
+	unite_ethiopia_1 = {
+		potential = {
+			tag = AMT
+		}
+		allow = {
+			NOT = { ETH = { exists = yes } }
+			NOT = { war = yes }
+		}
+		effect = {
+			prestige = 20
+			change_tag = ETH
+			any_country = {
+				any_owned = {
+					limit = {
+						is_core = AMT
+					}
+					remove_core = AMT
+				}
+			}
+			any_owned = {
+				limit = {
+					is_core = AMT
+					}
+				remove_core = AMT
+			}
+			religion = coptic
+			1864 = { secede_province = THIS }
+			add_accepted_culture = tigray
+			add_accepted_culture = oromo
+			set_country_flag = amatsa
+			capital = 1859
+		}
+	}
+	unite_ethiopia_2 = {
+		potential = {
+			tag = ETH
+			NOT = { has_country_flag = amatsa }
+		}
+		allow = {
+			AMT = { exists = no }
+			war = no
+		}
+		effect = {
+			set_country_flag = amatsa
+			prestige = 20
+			any_country = {
+				any_owned = {
+					limit = {
+						is_core = AMT
+					}
+				remove_core = AMT
+				add_core = ETH
+				}
+			}
+			any_owned = {
+				limit = {
+					is_core = AMT
+				}
+				remove_core = AMT
+				add_core = ETH
+			}
+			1864 = { secede_province = THIS }
+			add_accepted_culture = tigray
+			add_accepted_culture = oromo
+		}
+	}
+
+	unite_ethiopia_3 = {
+		potential = {
+			tag = ORO
+		}
+		allow = {
+			AMT = { exists = no }
+			war = no
+			ETH = { all_core = { owned_by = THIS } }
+			ETH = { exists = no }
+		}
+		effect = {
+			prestige = 20
+			any_country = {
+				any_owned = {
+					limit = {
+						is_core = AMT
+					}
+				remove_core = AMT
+				add_core = ETH
+				}
+			}
+			any_owned = {
+				limit = {
+					is_core = AMT
+				}
+				remove_core = AMT
+				add_core = ETH
+			}
+			change_tag = ETH
+			add_accepted_culture = tigray
+			add_accepted_culture = oromo
+			capital = 1859
+		}
+	}
+
+	unite_ethiopia_4 = {
+		potential = {
+			tag = ADA
+			NOT = { has_country_flag = greater_adal }
+		}
+
+		allow = {
+			AMT = { exists = no }
+			war = no
+			ETH = { all_core = { owned_by = THIS } }
+			ETH = { exists = no }
+		}
+
+		effect = {
+			set_country_flag = greater_adal
+			prestige = 20
+			any_country = {
+				any_owned = {
+					limit = {
+						is_core = ADA
+					}
+				remove_core = AMT
+				}
+			}
+			any_country = {
+				any_owned = {
+					limit = {
+						is_core = AJU
+					}
+				add_core = ADA
+				}
+			}
+			1858 = { add_core = THIS }
+			1851 = { add_core = THIS }
+			1875 = { add_core = THIS }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	unite_horn_of_africa = {
+		potential = {
+			tag = ETH
+			NOT = { has_country_flag = horn_of_africa }
+		}
+		allow = {
+			ADA = { all_core = { owned_by = THIS } }
+			AJU = { all_core = { owned_by = THIS } }
+		}
+		effect = {
+			add_accepted_culture = somali
+			ADA = { all_core = { add_core = THIS } }
+			AJU = { all_core = { add_core = THIS } }
+			ENG_2024 = { add_core = THIS }
+			set_country_flag = horn_of_africa
+		}
+	}
+
+	conquer_nubia_eth = {
+		potential = {
+			tag = ETH
+			NOT = { has_country_flag = nubia_conquest }
+		}
+		allow = {
+			owns = 1827
+			owns = 1835
+		}
+		effect = {
+			set_country_flag = nubia_conquest
+			add_accepted_culture = nubian
+			add_accepted_culture  = coptic
+			FUN = { all_core = { add_core = THIS } }
+			DAR = { all_core = { add_core = THIS } }
+		}
+	}
+
+	liberate_the_coptics_eth = {
+		potential = {
+			tag = ETH
+			has_country_flag = nubia_conquest
+			NOT = { has_country_flag = coptic_liberation }
+		}
+		allow = {
+			owns = 1766
+			owns = 1767
+			owns = 1764
+		}
+		effect = {
+			set_country_flag = coptic_liberation
+			EGY = { all_core = { add_core = THIS } }
+			add_accepted_culture  = sephardic
+			add_accepted_culture  = syriac
+		}
+	}
+
+	claim_upper_nile = {
+		potential = {
+			OR = {
+				tag = ETH
+				primary_culture = somali
+			}
+			civilized = yes
+			NOT = { has_country_flag = upper_nile }
+		}
+		allow = {}
+		effect = {
+			set_country_flag = upper_nile
+			add_accepted_culture  = kikuyu
+			add_accepted_culture  = nilotic
+			ENG_2024 = { add_core = THIS }
+			ENG_2026 = { add_core = THIS }
+			ENG_2019 = { add_core = THIS }
+			1847 = { add_core = THIS }
+		}
+	}
+}

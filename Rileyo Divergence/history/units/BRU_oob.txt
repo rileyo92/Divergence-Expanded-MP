@@ -1,0 +1,17 @@
+leader = {
+	name = "Hassanal Bolkiah"
+	type = land
+	date = 1836.1.1
+	personality = defence_1.1
+	background = attack_1.1
+}
+
+army = {
+	name = "Army of the Sultan of Brunei"
+	location = 1394
+	regiment = {
+		name= "1.Sultan's infantry"
+		type = infantry
+		home = 1394
+	}
+}

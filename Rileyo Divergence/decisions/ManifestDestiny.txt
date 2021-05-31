@@ -1,0 +1,242 @@
+political_decisions = {
+
+	dng_manifest_destiny = {
+	  potential = {
+	    tag = DNG
+	    NOT = { has_country_flag = dng_manifest_destiny }
+	  }
+	  allow = {
+	    all_core = {
+	      owned_by = THIS
+	    }
+	    nationalism_n_imperialism = 1
+	  }
+	  effect = {
+	    set_country_flag = dng_manifest_destiny
+	    NA_7 = {
+	      add_core = DNG
+	    }
+	    NA_10 = {
+	      add_core = DNG
+	    }
+	    NA_11 = {
+	      add_core = DNG
+	    }
+	    NA_17 = {
+	      add_core = DNG
+	    }
+	    NA_30 = {
+	      add_core = DNG
+	    }
+	    NA_12 = {
+	      add_core = DNG
+	    }
+	    NA_9 = {
+	      add_core = DNG
+	    }
+	    NA_36 = {
+	      add_core = DNG
+	    }
+	    MEX_90 = {
+	      add_core = DNG
+	    }
+	    MEX_103 = {
+	      add_core = DNG
+	    }
+	    MEX_2138 = {
+	      add_core = DNG
+	    }
+	    NA_109 = {
+	      add_core = DNG
+	    }
+	    NA_8 = {
+	      add_core = DNG
+	    }
+	    NA_7 = {
+	      add_core = DNG
+	    }
+	    NA_4 = {
+	      add_core = DNG
+	    }
+	    NA_3 = {
+	      add_core = DNG
+	    }
+	  }
+	}
+
+	dng_pacific_destiny = {
+		potential = {
+			tag = DNG
+			has_country_flag = dng_manifest_destiny
+			NOT = { has_country_flag = dng_pacific }
+		}
+
+		allow = {
+			revolution_n_counterrevolution = 1
+		}
+
+		effect = {
+			set_country_flag = dng_pacific
+			add_accepted_culture = polynesian
+			add_accepted_culture = micronesian
+			HAW_658 = {
+				add_core = DNG
+			}
+			JAP_1654 = {
+				add_core = DNG
+			}
+			SPA_2517 = {
+				add_core = DNG
+			}
+			AST_2527 = {
+				add_core = DNG
+			}
+			AST_2543 = {
+				add_core = DNG
+			}
+			BRZ_2540 = {
+				add_core = DNG
+			}
+			FRA_1097 = {
+				add_core = DNG
+			}
+			FRA_1097 = {
+				add_core = DNG
+			}
+			SA_7 = {
+				add_core = DNG
+			}
+		}
+	}
+
+
+	odensmark = {
+	picture = Great_North
+
+	potential = {
+	OR = { tag = VIN tag = ARC }
+	year = 1860
+	2596 = { empty = yes }
+	9 = { empty = yes }
+	11 = { empty = yes}
+	12 = { empty = yes }
+	}
+
+	allow = {
+	is_greater_power = yes
+	owns = 31
+	owns = 43
+	}
+
+	effect = {
+	random_owned = {
+				9 = { secede_province = THIS }
+				11 = { secede_province = THIS }
+				12 = { secede_province = THIS }
+				2596 = { secede_province = THIS }
+			}
+	}
+
+	}
+
+	Takikawa = {
+	picture = Great_North
+
+	potential = {
+	OR = {
+		tag = KKN
+		AND = {
+			is_greater_power = yes
+			tag = JAP
+		}
+	}
+	NOT = { 9 = { empty = yes } 2629 = { empty = yes } }
+	2598 = { empty = yes }
+	8 = { empty = yes }
+	10 = { empty = yes}
+	owns = 3
+	}
+
+	allow = {
+	nationalism_n_imperialism = 1
+	}
+
+	effect = {
+	random_owned = {
+				8 = { secede_province = THIS }
+				10 = { secede_province = THIS }
+				2598 = { secede_province = THIS }
+			}
+		}
+
+	}
+
+	Takikawa_2 = {
+	picture = Great_North
+
+	potential = {
+	OR = { tag = ARC tag = VIN tag = DNG }
+	NOT = { 9 = { empty = yes } 2629 = { empty = yes } }
+	2598 = { empty = yes }
+	8 = { empty = yes }
+	10 = { empty = yes}
+	}
+
+	allow = {
+	is_greater_power = yes
+	OR = { electricity = 1 owns = 6 }
+	}
+
+	effect = {
+	random_owned = {
+				8 = { secede_province = THIS }
+				10 = { secede_province = THIS }
+				2598 = { secede_province = THIS }
+			}
+		}
+	}
+
+	integrate_kita = {
+		picture = map_alaska
+		potential = {
+			OR = {
+				tag = DNG
+				tag = JAP
+				has_country_flag = vin_manifest_destiny
+			}
+			NOT = { has_country_flag = kaiga }
+		}
+		allow = {
+			OR = {
+				tag = DNG
+				tag = VIN
+				tag = ARC
+				revolution_n_counterrevolution = 1
+			}
+			OR = {
+				KKN = {
+					all_core = {
+						OR = {
+							owned_by = THIS
+							empty = yes
+						}
+					}
+				}
+				KKN = { in_sphere = THIS }
+				KKN = { vassal_of = THIS }
+			}
+			war = no
+		}
+
+		effect = {
+			inherit = KKN
+			add_accepted_culture = kaiganese
+    	KKN = {
+				all_core = {
+					add_core = THIS
+				}
+			}
+			set_country_flag = kaiga
+		}
+	}
+}

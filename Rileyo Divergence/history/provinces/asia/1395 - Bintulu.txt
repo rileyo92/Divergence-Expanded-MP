@@ -1,0 +1,6 @@
+owner = BRU
+controller = BRU
+add_core = BRU
+add_core = NUS
+trade_goods = coal
+life_rating = 30

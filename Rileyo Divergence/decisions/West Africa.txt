@@ -1,0 +1,252 @@
+political_decisions = {
+  #Fuuta Jallon
+  reclaim_greater_mali_fja = {
+    potential = {
+      tag = FJA
+      NOT = { has_country_flag = mali_reclaimed }
+    }
+    allow = {
+      FJA = { all_core = { owned_by = THIS } }
+      owns = 1803
+    }
+    effect = {
+      FRA_1901 = { add_core = THIS }
+      FRA_1803 = { add_core = THIS }
+      FRA_1884 = { add_core = THIS }
+      ENG_1887 = { add_core = THIS }
+      FRA_1879 = { add_core = THIS }
+      KNG_1898 = { add_core = THIS }
+      FRA_1775 = { add_core = THIS }
+      FRA_1780 = { add_core = THIS }
+      add_accepted_culture = mossi
+      add_accepted_culture = songhai
+      set_country_flag = mali_reclaimed
+    }
+  }
+
+  #Mossi
+  reclaim_greater_mali_mossi = {
+    potential = {
+      tag = MAL
+      NOT = { has_country_flag = mali_reclaimed }
+    }
+    allow = {
+      MAL = { all_core = { owned_by = THIS } }
+      owns = 1794
+      owns = 1880
+      owns = 1878
+    }
+    effect = {
+      FRA_1801 = { add_core = THIS }
+      FRA_1880 = { add_core = THIS }
+      FRA_1788 = { add_core = THIS }
+      FRA_1783 = { add_core = THIS }
+      FRA_1879 = { add_core = THIS }
+      VEN_1784 = { add_core = THIS }
+      KNG_1898 = { add_core = THIS }
+      FRA_1775 = { add_core = THIS }
+      FRA_1780 = { add_core = THIS }
+      1912 = { add_core = THIS }
+      1913 = { add_core = THIS }
+      1916 = { add_core = THIS }
+      1918 = { add_core = THIS }
+      1922 = { add_core = THIS }
+      1921 = { add_core = THIS }
+      add_accepted_culture  = wolof
+      add_accepted_culture  = senufo
+      set_country_flag = mali_reclaimed
+    }
+  }
+
+  #Ashanti
+  restore_rule_over_coast_ash = {
+    potential = {
+      tag = ASH
+      NOT = { has_country_flag = coast_regained }
+    }
+    allow = {
+      owns = 1894
+      owns = 1909
+      owns = 1908
+    }
+    effect = {
+      set_country_flag = coast_regained
+      1914 = { secede_province = THIS }
+      1917 = {
+        secede_province = THIS
+        add_core = THIS
+      }
+      1918 = {
+        secede_province = THIS
+        add_core = THIS
+      }
+    }
+  }
+
+  conquer_dahomey_ash = {
+    potential = {
+      tag = ASH
+      has_country_flag = coast_regained
+      NOT = { has_country_flag = dahomey_siezed }
+    }
+    allow = {
+      owns = 1919
+      owns = 1920
+      DHY = { exists = no }
+    }
+    effect = {
+      set_country_flag = dahomey_siezed
+      1922 = { secede_province = THIS }
+      1921 = { secede_province = THIS }
+      FRA_1919 = { add_core = THIS }
+    }
+  }
+
+  integrate_niger_delta = {
+    potential = {
+      tag = ASH
+      has_country_flag = dahomey_siezed
+      NOT = { has_country_flag = niger_delta }
+    }
+    allow = {
+      owns = 1926
+      owns = 1927
+      owns = 1928
+      owns = 1930
+      owns = 1931
+    }
+    effect = {
+      set_country_flag = niger_delta
+      add_accepted_culture  = yoruba
+      FRA_1923 = { add_core = THIS }
+      FRA_1931 = { add_core = THIS }
+      OYO_1928 = { add_core = THIS }
+      1927 = { add_core = THIS }
+      1930 = { add_core = THIS }
+      1934 = { add_core = THIS }
+    }
+  }
+
+  #Oyo/Nri/Dahomey
+  control_the_coast_oyo = {
+    potential = {
+      OR = {
+        tag = OYO
+        tag = NRI
+        tag = DHY
+      }
+      NOT = { has_country_flag = niger_coast }
+    }
+    allow = {
+      OYO = { all_core = { owned_by = THIS } }
+      NRI = { all_core = { owned_by = THIS } }
+      owns = 1919
+      owns = 1920
+    }
+    effect = {
+      add_accepted_culture  = tiv
+      add_accepted_culture  = forest_bantu
+      add_accepted_culture  = fon
+      add_accepted_culture  = east_kwa
+      OYO = { all_core = { add_core = THIS } }
+      NRI = { all_core = { add_core = THIS } }
+      DHY = { all_core = { add_core = THIS } }
+      set_country_flag = niger_coast
+    }
+  }
+
+  #Sokoto
+  unite_sokoto = {
+    potential = {
+      OR = {
+        tag = KNO
+        tag = ADW
+        tag = ILO
+        tag = OYO
+        tag = NRI
+        tag = DHY
+        tag = KAN
+      }
+      NOT = { SOK = { exists = yes } }
+    }
+
+    allow = {
+      NOT = { war = yes }
+      KNO = {
+        all_core = {
+          OR = {
+            owned_by = THIS
+            owner = {
+              in_sphere = THIS
+            }
+          }
+        }
+      }
+
+      ILO = {
+        all_core = {
+          OR = {
+            owned_by = THIS
+            owner = {
+              in_sphere = THIS
+            }
+          }
+        }
+      }
+
+      ADW = {
+        all_core = {
+          OR = {
+            owned_by = THIS
+            owner = {
+              in_sphere = THIS
+            }
+          }
+        }
+      }
+    }
+
+    effect = {
+      prestige = 10
+      religion = sunni
+      change_tag = SOK
+      KNO = { all_core = { add_core = THIS } }
+      ILO = { all_core = { add_core = THIS } }
+      ADW = { all_core = { add_core = THIS } }
+      OYO = { all_core = { add_core = THIS } }
+      NRI = { all_core = { add_core = THIS } }
+      DHY = { all_core = { add_core = THIS } }
+      1914 = {
+        add_core = SOK
+      }
+      1915 = {
+        add_core = SOK
+      }
+      1917 = {
+        add_core = SOK
+      }
+      add_accepted_culture = hausa
+      add_accepted_culture = fulbe
+      add_accepted_culture = tiv
+      add_accepted_culture = yoruba
+      add_accepted_culture = fon
+      capital = 1948
+    }
+  }
+  conquer_kanem_bornu_sok = {
+    potential = {
+      tag = SOK
+      NOT = { has_country_flag = kanem_bornu }
+    }
+    allow = {
+      KAN = { all_core = { owned_by = THIS } }
+    }
+    effect = {
+      add_accepted_culture  = kanuri
+      add_accepted_culture  = teda
+      KAN = { all_core = { add_core = THIS } }
+      set_country_flag = kanem_bornu
+    }
+  }
+
+}

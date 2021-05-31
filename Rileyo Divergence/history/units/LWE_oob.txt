@@ -1,0 +1,55 @@
+leader = {
+	name = "Hendrik Potgieter"
+	type = land
+	date = 1836.1.1
+	personality = defence_1.1
+	background = attack_1.1
+}
+
+leader = {
+	name = "Sarel Cilliers"
+	type = sea
+	date = 1836.1.1
+	personality = defence_1.1
+	background = attack_1.1
+}
+
+army = {
+	name = "Army of Leeuwin"
+	location = 2097
+	regiment = {
+		name= "1.Leeuwin Commando"
+		type = infantry
+		home = 2097
+	}
+	regiment = {
+		name= "2.Leeuwin Commando"
+		type = infantry
+		home = 2097
+	}
+	regiment = {
+		name= "1.Leeuwin Infanterie"
+		type = infantry
+		home = 2097
+	}
+}
+
+navy = {
+	name = "Republican Navy"
+	location = 2100
+
+	ship = {
+		name= "Leeuwin"
+		type = frigate
+	}
+
+	ship = {
+		name= "President"
+		type = frigate
+	}
+
+	ship = {
+		name= "van Holt"
+		type = clipper_transport
+	}
+}

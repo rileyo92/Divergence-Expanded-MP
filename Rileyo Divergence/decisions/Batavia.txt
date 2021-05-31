@@ -1,0 +1,251 @@
+political_decisions = {
+		return_home_BTV = {
+			potential = {
+				tag = BTV
+			}
+			allow = {
+				NOT = { NET = { exists = yes } }
+				NOT = { war = yes }
+				NET = {
+					all_core = {
+						owned_by = THIS
+					}
+				}
+			}
+			effect = {
+				prestige = 20
+				change_tag = NET
+				primary_culture = dutch
+				add_accepted_culture = boer
+				capital = 375
+				set_country_flag = boer_netherlands
+			}
+		}
+
+	announce_interest_SAF = {
+		picture = form_south_africa
+		potential = {
+			tag = BRG
+			owns = 2087
+			NOT = { has_global_flag = scramble_SAF }
+			year = 1850
+		}
+		allow = {
+			state_n_government = 1
+		}
+		effect = {
+			prestige = 50
+			set_global_flag = scramble_SAF
+		}
+	}
+
+	form_batavia = {
+		potential = {
+			OR = {
+				tag = LWE
+				tag = TRN
+				tag = NFL
+			}
+		}
+		allow = {
+		LWE = {
+			all_core = {
+					OR = {
+						empty = yes
+						owned_by = THIS
+						owner = {
+								OR = {
+								in_sphere = THIS
+								vassal_of = THIS
+							}
+						}
+					}
+
+				}
+			}
+	TRN = {
+			all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+								OR = {
+								in_sphere = THIS
+								vassal_of = THIS
+							}
+						}
+					}
+
+				}
+			}
+	NFL = {
+			all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+								OR = {
+								in_sphere = THIS
+								vassal_of = THIS
+							}
+						}
+					}
+
+				}
+			}
+
+	}
+
+	effect = {
+	any_country = {
+				limit = {
+					primary_culture = boer
+					OR = {
+						in_sphere = THIS
+						vassal_of = THIS
+					}
+				}
+				annex_to = THIS
+			}
+	ENG_2087 = { add_core = BTV }
+	change_tag = BTV
+	set_country_flag = batavia_immigration
+	set_country_flag = new_world_nation
+	prestige = 10
+	}
+}
+
+form_south_africa = {
+		potential = {
+			NOT = { exists = SAF }
+			NOT = { has_country_flag = claim_south_africa }
+			OR = {
+				tag = GRQ
+				tag = ZUL
+			}
+		}
+		allow = {
+			civilized = yes
+			SAF = {
+				all_core = {
+					OR = {
+						empty = yes
+						owned_by = THIS
+						owner = {
+								OR = {
+								in_sphere = THIS
+								vassal_of = THIS
+							}
+						}
+					}
+
+				}
+			}
+			GRQ = {
+				all_core = {
+					OR = {
+						empty = yes
+						owned_by = THIS
+						owner = {
+								OR = {
+								in_sphere = THIS
+								vassal_of = THIS
+							}
+						}
+					}
+
+				}
+			}
+		}
+
+		effect = {
+			prestige = 10
+			set_country_flag = claim_south_africa
+			change_tag = SAF
+			any_country = {
+				limit = {
+					OR = {
+						tag = TRN
+						tag = GRQ
+						tag = LWE
+						tag = NFL
+						tag = ZUL
+					}
+					OR = {
+					in_sphere = THIS
+					vassal_of = THIS
+					}
+					NOT = {
+						tag = THIS
+					}
+				}
+				annex_to = THIS
+			}
+			add_accepted_culture = boer
+			capital = 2087
+			2087 = {
+                change_province_name = "Kaapstad"
+            }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+
+
+	Baastards_SAF = {
+		potential = {
+            tag = BTV
+			NOT = { has_country_flag = baastards_SAF }
+		}
+
+		allow = {
+			OR = {
+			citizenship_policy = full_citizenship
+			citizenship_policy = limited_citizenship
+			}
+			slavery = no_slavery
+			owns = 2574
+			owns = 2098
+			citizens_rights = all_voting_pops
+			invention = national_fraternity
+			OR = {
+				upper_house = {
+					ideology = socialist
+					value = 0.2
+				}
+				upper_house = {
+					ideology = liberal
+					value = 0.2
+				}
+				AND = {
+					upper_house = {
+						ideology = socialist
+						value = 0.1
+					}
+					upper_house = {
+						ideology = liberal
+						value = 0.1
+					}
+				}
+			}
+		}
+
+		effect = {
+			prestige = -15
+			set_country_flag = baastards_SAF
+			add_accepted_culture = afro_south_african
+			any_pop = {
+				limit = { is_primary_culture = boer }
+				militancy = 2
+				scaled_militancy = {
+				factor = 3
+				ideology = reactionary
+				}
+				scaled_militancy = {
+				factor = 2
+				ideology = conservative
+				}
+			}
+		}
+	}
+}

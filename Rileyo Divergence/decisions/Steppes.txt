@@ -1,0 +1,285 @@
+political_decisions = {
+    form_tatarstan = {
+	picture = Tatarstan
+
+        potential = {
+        OR = {
+        primary_culture = astrakhani
+        primary_culture = crimean
+        primary_culture = tatar
+            }
+        NOT = { TAR = { exists = yes } }
+        }
+
+        allow = {
+            OR = {
+                tag = CRI
+                AND = {
+                    NOT = { CRI = { exists = yes } }
+                    owns = 967 #Sebastopol
+                    }
+            	CRI = { in_sphere = THIS }
+                CRI = { vassal_of = THIS }
+                }
+            OR = {
+                tag = ASK
+                AND = {
+                    NOT = { ASK = { exists = yes } }
+                    owns = 1036 #Astrakhan
+                    }
+                ASK = { in_sphere = THIS }
+                ASK = { vassal_of = THIS }
+                }
+            OR = {
+                tag = NOG
+                AND = {
+                    NOT = { NOG = { exists = yes } }
+                    owns = 1182 #capital of Nogai
+                    }
+               NOG = { in_sphere = THIS }
+               NOG = { vassal_of = THIS }
+                }
+        }
+
+    effect = {
+        any_country = {
+            limit = {
+                is_culture_group = tatar_group
+                OR = {
+                    in_sphere = THIS
+                    vassal_of = THIS
+                }
+            }
+            annex_to = THIS
+        }
+        CRI = { all_core = { add_core = TAR } }
+        ASK = { all_core = { add_core = TAR } }
+        NOG = { all_core = { add_core = TAR } }
+        SIB = { all_core = { add_core = TAR } }
+        add_accepted_culture = crimean
+        add_accepted_culture = astrakhani
+        add_accepted_culture = tatar
+        change_tag = TAR
+        years_of_research = 3.0
+        prestige = 20
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    #Makes Sevestapol and Astrakhan grow. More POPs for a unified Tataristan.
+    TAR_encourage_sedentarization = {
+        potential = {
+            tag = TAR
+            NOT = { has_country_flag = TAR_urbanization}
+        }
+        allow = {
+            civilized = yes
+            owns = 967 #Sebestapol
+            owns = 1036 #Astrakhan
+            medicine = 1 #City planning has a health component to it.
+
+        }
+        effect = {
+            set_country_flag = TAR_urbanization
+            967 = {
+                    life_rating = 5
+                    add_province_modifier = {
+                        name = baby_boom
+                        duration = 1825
+                    }
+            }
+            1036 = {
+                    life_rating = 5
+                    add_province_modifier = {
+                        name = baby_boom
+                        duration = 1825
+                    }
+            }
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+  tar_reclaim_the_steppes = {
+    potential = {
+      tag = TAR
+      NOT = { has_country_flag = steppe_integration }
+    }
+    allow = {
+      revolution_n_counterrevolution = 1
+      TAR = { all_core = { owned_by = THIS } }
+    }
+    effect = {
+      set_country_flag = steppe_integration
+      CHG = { all_core = { add_core = THIS } }
+      add_accepted_culture = oirat
+      add_accepted_culture = uzbek
+      add_accepted_culture = kazak
+      add_accepted_culture = kirgiz
+      add_accepted_culture = mongol
+    }
+  }
+  uniting_turania = {
+	 potential = {
+	  OR = {
+	    tag = MGL
+	    tag = CHG
+	    tag = UGH
+	    tag = KZH
+	    tag = UZB
+	    tag = TNT
+      tag = MCH
+	    tag = KOK
+		}
+	}
+
+	allow = {
+	civilized = yes
+	1600 = { #Urumqi
+	OR = {
+		owned_by = THIS
+		owner = {
+			OR = {
+				in_sphere = THIS
+				vassal_of = THIS
+					}
+				}
+			}
+		}
+	1465 = {
+	OR = {
+		owned_by = THIS
+		owner = {
+			OR = {
+				in_sphere = THIS
+				vassal_of = THIS
+					}
+				}
+			}
+		}
+	1186 = {
+	OR = {
+		owned_by = THIS
+		owner = {
+			OR = {
+				in_sphere = THIS
+				vassal_of = THIS
+					}
+				}
+			}
+		}
+	1594 = {
+	OR = {
+		owned_by = THIS
+		owner = {
+			OR = {
+				in_sphere = THIS
+				vassal_of = THIS
+					}
+				}
+			}
+		}
+	}
+
+	effect = {
+	change_tag = TKS
+	add_accepted_culture = oirat
+	add_accepted_culture = mongol
+	add_accepted_culture = kazak
+	add_accepted_culture = uighur
+	add_accepted_culture = uzbek
+	add_accepted_culture = kirgiz
+	CHG = { all_core = { add_core = THIS } }
+	KZH = { all_core = { add_core = THIS } }
+	UZB = { all_core = { add_core = THIS } }
+	TJK = { all_core = { add_core = THIS } }
+	MGL = { all_core = { add_core = THIS } }
+	TNT = { all_core = { add_core = THIS } }
+	UGH = { all_core = { add_core = THIS } }
+	KOK = { all_core = { add_core = THIS } }
+	any_country = {
+				limit = {
+					OR = {
+					primary_culture = oirat
+					primary_culture = mongol
+					primary_culture = kazak
+					primary_culture = uighur
+					primary_culture = uzbek
+					primary_culture = kirgiz
+					}
+					OR = {
+						in_sphere = THIS
+						vassal_of = THIS
+					}
+				}
+				annex_to = THIS
+			}
+	}
+
+	}
+
+	expanding_manchuria = {
+	potential = {
+	tag = TKS
+	NOT = { has_country_flag = manchuria_TKS }
+	NOT = { has_country_flag = tur_turania }
+		}
+
+	allow = {
+	nationalism_n_imperialism = 1
+	all_core = { owned_by = THIS }
+	}
+
+	effect = {
+	CHI_1553 = { add_core = TKS }
+	CHI_5 = { add_core = TKS }
+	add_accepted_culture = manchu
+	set_country_flag = manchuria_TKS
+	}
+
+	}
+
+  tks_reclaim_tatarstan = {
+    potential = {
+      tag = TKS
+      NOT = { has_country_flag = tur_turania }
+      NOT = { has_country_flag = tks_tatarstan }
+      NOT = { has_country_flag = tks_timurid }
+    }
+    allow = {
+      TKS = { all_core = { owned_by = THIS } }
+      revolution_n_counterrevolution = 1
+    }
+    effect = {
+      set_country_flag = tks_tatarstan
+      TAR = { all_core = { add_core = THIS } }
+      add_accepted_culture = tatar
+      add_accepted_culture = astrakhani
+      add_accepted_culture = crimean
+    }
+  }
+
+  tks_restore_timurids = {
+    potential = {
+      tag = TKS
+      NOT = { has_country_flag = tur_turania }
+      NOT = { has_country_flag = tks_tatarstan }
+      NOT = { has_country_flag = tks_timurid }
+    }
+    allow = {
+      TKS = { all_core = { owned_by = THIS } }
+      revolution_n_counterrevolution = 1
+    }
+    effect = {
+      set_country_flag = tks_timurid
+      PER = { all_core = { add_core = THIS } }
+      add_accepted_culture = persian
+      add_accepted_culture = tajik
+      add_accepted_culture = pashtun
+      add_accepted_culture = turkmen
+      add_accepted_culture = baluchi
+    }
+  }
+
+}

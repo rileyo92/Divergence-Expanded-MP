@@ -1,0 +1,317 @@
+political_decisions = {
+	austral_destiny = {
+	picture = zuharra
+		potential = {
+		tag = GAN
+		NOT = { has_country_flag = gan_austral_destiny }
+		}
+
+		allow = {
+			all_core = {
+				owned_by = THIS
+			}
+			nationalism_n_imperialism = 1
+			}
+
+		effect = {
+		prestige = 25
+		badboy = 5
+		set_country_flag = gan_austral_destiny
+		add_accepted_culture = moluccan
+		add_accepted_culture = melanesian
+		add_accepted_culture = aborigine
+		add_accepted_culture = maori
+			AST_1097 = {
+				add_core = GAN
+			}
+			ENG_2509 = {
+				add_core = GAN
+			}
+			ENG_2513 = {
+				add_core = GAN
+			}
+			NET_1451 = {
+				add_core = GAN
+			}
+			AST_2529 = {
+				add_core = GAN
+			}
+			GER_2531 = {
+				add_core = GAN
+			}
+			AST_2534 = {
+				add_core = GAN
+			}
+			BAL_1446 = {
+				add_core = GAN
+			}
+			BAL_1438 = {
+				add_core = GAN
+			}
+			AST_2244 = {
+				add_core = GAN
+			}
+			NET_1430 = {
+				add_core = GAN
+			}
+			NET_1433 = {
+				add_core = GAN
+			}
+			NET_1449 = {
+				add_core = GAN
+			}
+			AST_2454 = {
+				add_core = GAN
+			}
+			AOT_2512 = {
+				add_core = GAN
+			}
+		}
+	}
+
+	treaty_of_waitangi_gan = {
+		potential = {
+			tag = GAN
+			NOT = { has_country_flag = waitangi_gan }
+			NOT = { accepted_culture = maori }
+		}
+		allow = {
+			state_n_government = 1
+			AOT = {
+				vassal_of = THIS
+			}
+		}
+		effect = {
+			set_country_flag = waitangi_gan
+			ENG_2509 = {
+				add_core = GAN
+			}
+			ENG_2513 = {
+				add_core = GAN
+			}
+			add_accepted_culture = maori
+			inherit = AOT
+			}
+		}
+
+	greater_austral_destiny = {
+	potential = {
+		tag = GAN
+		has_country_flag = gan_austral_destiny
+		NOT = { has_country_flag = gan_greater_austral_destiny }
+	}
+
+	allow = {
+		revolution_n_counterevolution = 1
+		all_core = {
+			OR = {
+				owned_by = GAN
+				owned_by = DNG
+			}
+		}
+	}
+
+	effect = {
+		set_country_flag = gan_greater_austral_destiny
+		prestige = 25
+		badboy = 5
+		add_accepted_culture = javan
+		add_accepted_culture = tionghoa
+		add_accepted_culture = dayak
+		add_accepted_culture = filipino
+		add_accepted_culture = micronesian
+		add_accepted_culture = polynesian
+		add_accepted_culture = min
+
+		NET_1419 = {
+			add_core = GAN
+		}
+		NET_1421 = {
+			add_core = GAN
+		}
+		NET_1414 = {
+			add_core = GAN
+		}
+		NET_1416 = {
+			add_core = GAN
+		}
+		NET_1423 = {
+			add_core = GAN
+		}
+		NET_1426 = {
+			add_core = GAN
+		}
+		BRU_1394 = {
+			add_core = GAN
+		}
+		SPA_1463 = {
+			add_core = GAN
+		}
+		SPA_1459 = {
+			add_core = GAN
+		}
+		SPA_1455 = {
+			add_core = GAN
+		}
+		CHI_2562 = {
+			add_core = GAN
+		}
+		SPA_2517 = {
+			add_core = GAN
+		}
+		JAP_1654 = {
+			add_core = GAN
+		}
+		AST_2527 = {
+			add_core = GAN
+		}
+		AST_2543 = {
+			add_core = GAN
+		}
+		BRZ_2540 = {
+			add_core = GAN
+		}
+		FRA_1097 = {
+			add_core = GAN
+		}
+		SA_7 = {
+			add_core = GAN
+		}
+		HAW_658 = {
+			add_core = GAN
+		}
+		1404 = {
+			add_core = GAN
+		}
+		1678 = {
+			add_core = GAN
+		}
+		1679 = {
+			add_core = GAN
+		}
+		2285 = {
+			add_core = GAN
+		}
+		1499 = {
+			add_core = GAN
+		}
+		1402 = {
+			add_core = GAN
+		}
+	}
+}
+
+unite_the_chinese_diasporas = {
+	potential = {
+		OR = {
+			tag = LFG
+			tag = DNG
+			tag = GAN
+		}
+		NOT = { has_country_flag = unite_chinese_diasporas }
+		OR = {
+			has_country_flag = dng_manifest_destiny
+			has_country_flag = gan_austral_destiny
+			tag = LFG
+		}
+	}
+
+	allow = {
+		rank = 10
+		OR = {
+			has_country_flag = gan_greater_austral_destiny
+			all_core = {
+				owned_by = THIS
+			}
+		}
+	}
+
+	effect = {
+		set_country_flag = unite_chinese_diasporas
+		badboy = 15
+		DNG = {
+			all_core = { add_core = THIS }
+		}
+		LFG = {
+			all_core = { add_core = THIS }
+		}
+		GAN = {
+			all_core = { add_core = THIS }
+		}
+	}
+}
+
+chinese_diasporas_united = {
+	potential = {
+		OR = {
+			tag = DNG
+			tag = GAN
+			tag = LFG
+		}
+		has_country_flag = unite_chinese_diasporas
+		NOT = { has_country_flag = chinese_diaspora_united }
+	}
+
+	allow = {
+	DNG = {
+		all_core = {
+			OR = {
+				owned_by = THIS
+				empty = yes
+			}
+		}
+	}
+	LFG = {
+		all_core = { owned_by = THIS }
+	}
+	GAN = {
+		all_core = {
+			OR = {
+				owned_by = THIS
+				empty = yes
+			}
+		}
+	}
+}
+
+	effect = {
+		set_country_flag = chinese_diaspora_united
+		add_accepted_culture = ganguan
+		add_accepted_culture = qingqiuan
+		add_accepted_culture = tionghoa
+	}
+}
+
+timor_purchase = {
+	potential = {
+		tag = GAN
+		NOT = { has_country_flag = gan_timor_purchase }
+		NOT = {
+			BAL_1446 = {
+				OR = {
+					owned_by = BAL
+					owned_by = GAN
+					owned_by = LFG
+					owned_by = NUS
+				}
+			}
+		}
+	}
+	allow = {
+		money = 200000
+		war = no
+		1446 = {
+	    owner = {
+	      war = no
+	      relation = { who = THIS value = 100 }
+	  	}
+		}
+	}
+	effect = {
+		set_country_flag = gan_timor_purchase
+		1446 = {
+      owner = { country_event = 500031 }
+    }
+	}
+}
+}

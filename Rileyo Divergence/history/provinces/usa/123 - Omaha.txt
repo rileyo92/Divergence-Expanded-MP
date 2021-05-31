@@ -1,0 +1,4 @@
+add_core = PLA
+add_core = OCE
+trade_goods = fruit
+life_rating = 35

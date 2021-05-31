@@ -1,0 +1,798 @@
+political_decisions = {
+
+	#Tibet
+	greater_tibet = {
+		potential = {
+			primary_culture = tibetan
+			NOT = { has_country_flag = great_tibet }
+		}
+		allow = {
+			TIB = { all_core = { owned_by = THIS } }
+		}
+		effect = {
+			set_country_flag = great_tibet
+			CHI_1601 = { add_core = THIS }
+			NEP_1327 = { add_core = THIS }
+			PAN_1224 = { add_core = THIS }
+			CHI_1597 = { add_core = THIS }
+			BHU_1329 = { add_core = THIS }
+			add_accepted_culture = kashmiri
+			add_accepted_culture = nepali
+			add_accepted_culture = uighur
+			add_accepted_culture = yi
+			add_accepted_culture = hui
+		}
+	}
+
+	#Korea
+	invade_manchuria_kor = {
+		potential = {
+			tag = KOR
+			NOT = { has_country_flag = invade_manchu }
+		}
+		allow = {
+			state_n_government = 1
+		}
+		effect = {
+			set_country_flag = invade_manchu
+			MCH = { all_core = { add_core = THIS } }
+			add_accepted_culture = manchu
+		}
+	}
+
+	claim_ainu_kor = {
+		potential = {
+			tag = KOR
+			has_country_flag = invade_manchu
+			NOT = { has_country_flag = korea_ainu }
+		}
+		allow = {
+			MCH = { all_core = { owned_by = THIS } }
+		}
+		effect = {
+			set_country_flag = korea_ainu
+			AIN = { all_core = { add_core = THIS } }
+			add_accepted_culture = ainu
+		}
+	}
+
+	break_the_japanese_island_chain = {
+		potential = {
+			tag = KOR
+			NOT = { has_country_flag = jap_island_chain }
+		}
+		allow = {
+			1637 = { owned_by = THIS }
+		}
+		effect = {
+			set_country_flag = jap_island_chain
+			JAP_1660 = { add_core = THIS }
+			CHI_2562 = { add_core = THIS }
+			add_accepted_culture = min
+		}
+	}
+
+	#Horde China
+	form_china_chagatai = {
+    picture = form_china
+  	potential = {
+			OR = {
+				tag = CHG
+				AND = {
+					tag = TKS
+					NOT = { has_country_flag = tur_turania }
+				}
+			}
+  		NOT = { exists = CHI }
+  	}
+  	allow = {
+      civilized = yes
+  		NOT = { war = yes }
+  		CHI = {
+				all_core = {
+					OR = {
+  					owned_by = THIS
+  					owner = {	in_sphere = THIS }
+						province_id = 1498
+						province_id = 1538
+						province_id = 1566
+						province_id = 1481
+						province_id = 1569
+						province_id = 1606
+						province_id = 1496
+						province_id = 2674
+  				}
+				}
+			}
+  	}
+  	effect = {
+  		prestige = 30
+  		change_tag = CHI
+			add_accepted_culture = beifaren
+			add_accepted_culture = manchu
+			any_country = {
+  			limit = {
+  				OR = {
+  					is_culture_group = chinese
+						primary_culture = mongol
+						primary_culture = manchu
+						primary_culture = uighur
+						primary_culture = tibetan
+  				}
+  				in_sphere = THIS
+  				NOT = {
+  					tag = THIS
+  				}
+  			}
+  			annex_to = THIS
+  		}
+			capital = 1612
+			MCH = { all_core = { add_core = THIS } }
+			set_country_flag = mongol_china
+		}
+	}
+
+	#Generic China
+	form_china_claimant = {
+    picture = form_china
+  	potential = {
+			is_culture_group = chinese
+  		NOT = { exists = CHI }
+			NOT = { tag = MCK }
+			NOT = { tag = MCH }
+			NOT = { tag = KOR }
+			NOT = { tag = TAI }
+  	}
+  	allow = {
+      civilized = yes
+  		NOT = { war = yes }
+  		CHI = {
+				all_core = {
+					OR = {
+  					owned_by = THIS
+  					owner = {
+  						in_sphere = THIS
+  					}
+						province_id = 1498
+						province_id = 1538
+						province_id = 1566
+						province_id = 1481
+						province_id = 1569
+						province_id = 1606
+						province_id = 1496
+						province_id = 2674
+  				}
+				}
+			}
+  	}
+  	effect = {
+  		prestige = 30
+			remove_country_modifier = tungning_nerf
+  		change_tag = CHI
+  		add_accepted_culture = beifaren
+  		add_accepted_culture = nanfaren
+			any_country = {
+				limit = {
+					OR = {
+						is_culture_group = chinese
+						primary_culture = mongol
+						primary_culture = manchu
+ 						primary_culture = tibetan
+					}
+					in_sphere = THIS
+					NOT = {
+						tag = THIS
+					}
+				}
+				annex_to = THIS
+			}
+			capital = 2221
+		}
+	}
+
+	#Qing China
+	form_china_qing = {
+    picture = form_china
+  	potential = {
+			OR = {
+				tag = MCK
+				tag = MCH
+			}
+			NOT = { exists = CHI }
+  	}
+  	allow = {
+      civilized = yes
+  		NOT = { war = yes }
+  		CHI = {
+				all_core = {
+					OR = {
+  					owned_by = THIS
+  					owner = {
+  						in_sphere = THIS
+  					}
+						province_id = 1498
+						province_id = 1538
+						province_id = 1566
+						province_id = 1481
+						province_id = 1569
+						province_id = 1606
+						province_id = 1496
+						province_id = 2674
+  				}
+				}
+			}
+  	}
+  	effect = {
+  		prestige = 30
+  		change_tag = CHI
+  		add_accepted_culture = beifaren
+  		add_accepted_culture = nanfaren
+			any_country = {
+				limit = {
+					OR = {
+						is_culture_group = chinese
+						primary_culture = mongol
+						primary_culture = manchu
+ 						primary_culture = tibetan
+					}
+					in_sphere = THIS
+					NOT = {
+						tag = THIS
+					}
+				}
+				annex_to = THIS
+			}
+			capital = 1612
+			set_country_flag = qing_china
+		}
+	}
+
+	#Taiping China
+	form_china_taiping = {
+    picture = form_china
+  	potential = {
+			tag = TAI
+			NOT = { exists = CHI }
+  	}
+  	allow = {
+      civilized = yes
+  		NOT = { war = yes }
+  		CHI = {
+				all_core = {
+					OR = {
+  					owned_by = THIS
+  					owner = {
+  						in_sphere = THIS
+  					}
+						province_id = 1498
+						province_id = 1538
+						province_id = 1566
+						province_id = 1481
+						province_id = 1569
+						province_id = 1606
+						province_id = 1496
+						province_id = 2674
+  				}
+				}
+			}
+  	}
+  	effect = {
+  		prestige = 30
+  		change_tag = CHI
+  		add_accepted_culture = beifaren
+  		add_accepted_culture = nanfaren
+			any_country = {
+				limit = {
+					OR = {
+						is_culture_group = chinese
+						primary_culture = mongol
+						primary_culture = manchu
+ 						primary_culture = tibetan
+					}
+					in_sphere = THIS
+					NOT = {
+						tag = THIS
+					}
+				}
+				annex_to = THIS
+			}
+			capital = 1508
+			set_country_flag = taiping_china
+		}
+  	ai_will_do = {
+  		factor = 1
+  	}
+	}
+
+	#Overseas China
+	form_china_return = {
+    picture = form_china
+  	potential = {
+  		OR = {
+			  primary_culture = qingqiuan
+			  primary_culture = ganguan
+			  primary_culture = tionghoa
+		  }
+  		NOT = {
+				exists = CHI
+  		}
+  	}
+  	allow = {
+			civilized = yes
+  		NOT = { war = yes }
+  		CHI = {
+				all_core = {
+					OR = {
+  					owned_by = THIS
+  					owner = {
+  						in_sphere = THIS
+  					}
+					}
+				}
+			}
+  	}
+  	effect = {
+  		prestige = 30
+  		change_tag = CHI
+			add_accepted_culture = beifaren
+			add_accepted_culture = nanfaren
+			any_country = {
+				limit = {
+					is_culture_group = chinese
+					is_culture_group = oversea_chinese
+					in_sphere = THIS
+					NOT = {
+						tag = THIS
+					}
+				}
+				annex_to = THIS
+			}
+			capital = 1604
+			set_country_flag = return_to_china
+  	}
+  	ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Tibetan China
+	form_china_tibet = {
+    picture = form_china
+  	potential = {
+  		tag = TIB
+  		NOT = {
+				exists = CHI
+  		}
+  	}
+  	allow = {
+      civilized = yes
+  		NOT = { war = yes }
+  		CHI = {
+				all_core = {
+					OR = {
+  					owned_by = THIS
+  					owner = {
+  						in_sphere = THIS
+  					}
+						province_id = 1498
+						province_id = 1538
+						province_id = 1566
+						province_id = 1481
+						province_id = 1569
+						province_id = 1606
+						province_id = 1496
+						province_id = 2674
+  				}
+				}
+			}
+  	}
+  	effect = {
+  		prestige = 30
+  		change_tag = CHI
+			add_accepted_culture = beifaren
+			add_accepted_culture = nanfaren
+			any_country = {
+				limit = {
+					OR = {
+						is_culture_group = chinese
+ 						primary_culture = tibetan
+					}
+					in_sphere = THIS
+					NOT = {
+						tag = THIS
+					}
+				}
+				annex_to = THIS
+			}
+			capital = 1578
+			set_country_flag = tibetan_china
+		}
+	}
+
+	#Korean China
+	form_china_korea = {
+    picture = form_china
+  	potential = {
+			primary_culture = korean
+			NOT = { exists = CHI }
+  	}
+  	allow = {
+      civilized = yes
+  		NOT = { war = yes }
+  		CHI = {
+				all_core = {
+					OR = {
+  					owned_by = THIS
+  					owner = {
+  						in_sphere = THIS
+  					}
+						province_id = 1498
+						province_id = 1538
+						province_id = 1566
+						province_id = 1481
+						province_id = 1569
+						province_id = 1606
+						province_id = 1496
+						province_id = 2674
+  				}
+				}
+			}
+  	}
+  	effect = {
+  		prestige = 30
+  		change_tag = CHI
+  		add_accepted_culture = beifaren
+			any_country = {
+				limit = {
+					OR = {
+						is_culture_group = chinese
+						primary_culture = mongol
+						primary_culture = manchu
+ 						primary_culture = tibetan
+					}
+					in_sphere = THIS
+					NOT = {
+						tag = THIS
+					}
+				}
+				annex_to = THIS
+			}
+		capital = 1612
+		set_country_flag = korean_china
+		}
+	}
+
+	#Vietnamese China
+	dai_become_the_dragon = {
+		picture = form_china
+		potential = {
+			tag = DAI
+			has_country_flag = defy_dragon
+		}
+		allow = {
+			civilized = yes
+			NOT = { war = yes }
+			CHI = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+						province_id = 1498
+						province_id = 1538
+						province_id = 1566
+						province_id = 1481
+						province_id = 1569
+						province_id = 1606
+						province_id = 1496
+						province_id = 2674
+					}
+				}
+			}
+		}
+		effect = {
+			prestige = 30
+			change_tag = CHI
+			add_accepted_culture = nanfaren
+			add_accepted_culture = hakka
+			any_country = {
+				limit = {
+					is_culture_group = chinese
+					in_sphere = THIS
+					NOT = {
+						tag = THIS
+					}
+				}
+				annex_to = THIS
+			}
+			capital = 1493
+			set_country_flag = vietnamese_china
+		}
+	}
+
+	#China Expansionism
+	restore_yuan_china = {
+		potential = {
+			tag = CHI
+			has_country_flag = mongol_china
+			NOT = { has_country_flag = restoration_of_yuan }
+		}
+		allow = {
+			nationalism_n_imperialism = 1
+		}
+		effect = {
+			badboy = 20
+			TIB = { all_core = { add_core = THIS } }
+			KOR = { all_core = { add_core = THIS } }
+			CHI_1597 = { add_core = THIS }
+			CHI_1600 = { add_core = THIS }
+			CHI_1532 = { add_core = THIS }
+			CHI_2608 = { add_core = THIS }
+			CHI_1465 = { add_core = THIS }
+			CHI_2562 = { add_core = THIS }
+			add_accepted_culture = nanfaren
+			add_accepted_culture = hui
+			set_country_flag = restoration_of_yuan
+		}
+	}
+
+	taming_the_western_steppes = {
+		potential = {
+			tag = CHI
+			has_country_flag = restoration_of_yuan
+			NOT = { has_country_flag = western_steppes }
+		}
+		allow = {
+			revolution_n_counterrevolution = 1
+		}
+		effect = {
+			badboy = 12.5
+			NOG = { all_core = { add_core = THIS } }
+			SIB = { all_core = { add_core = THIS } }
+			ASK = { all_core = { add_core = THIS } }
+			RUS_1196 = { add_core = THIS }
+			add_accepted_culture = tatar
+			add_accepted_culture = astrakhani
+			add_accepted_culture = turkmen
+		}
+	}
+
+	restore_qing_china = {
+		potential = {
+			tag = CHI
+			has_country_flag = qing_china
+			NOT = { has_country_flag = restoration_of_qing }
+		}
+		allow = {
+			nationalism_n_imperialism = 1
+		}
+		effect = {
+			badboy = 17.5
+			TIB = { all_core = { add_core = THIS } }
+			KOR = { all_core = { add_core = THIS } }
+			CHI_1597 = { add_core = THIS }
+			CHI_1600 = { add_core = THIS }
+			CHI_1532 = { add_core = THIS }
+			CHI_2608 = { add_core = THIS }
+			CHI_1465 = { add_core = THIS }
+			CHI_2562 = { add_core = THIS }
+			add_accepted_culture = oirat
+			add_accepted_culture = mongol
+			add_accepted_culture = uighur
+			set_country_flag = restoration_of_qing
+		}
+	}
+
+	establish_taiping_china = {
+		potential = {
+			tag = CHI
+			has_country_flag = taiping_china
+			NOT = { has_country_flag = establishment_of_taiping }
+		}
+		allow = {
+			nationalism_n_imperialism = 1
+		}
+		effect = {
+			badboy = 15
+			TIB = { all_core = { add_core = THIS } }
+			MCH = { all_core = { add_core = THIS } }
+			CHI_1597 = { add_core = THIS }
+			CHI_2562 = { add_core = THIS }
+			ANN_1371 = { add_core = THIS }
+			ANN_1374 = { add_core = THIS }
+			CHI_1600 = { add_core = THIS }
+			CHI_1532 = { add_core = THIS }
+			add_accepted_culture = min
+			add_accepted_culture = hui
+			add_accepted_culture = vietnamese
+			set_country_flag = establishment_of_taiping
+		}
+	}
+
+	draw_the_nine_dash_line = {
+		potential = {
+			tag = CHI
+			has_country_flag = establishment_of_taiping
+			NOT = { has_country_flag = nine_dash_line }
+		}
+		allow = {
+			revolution_n_counterrevolution = 1
+		}
+		effect = {
+			badboy = 10
+			TON = { all_core = { add_core = THIS } }
+			SUL = { all_core = { add_core = THIS } }
+			ANN_1379 = { add_core = THIS }
+			ANN_1383 = { add_core = THIS }
+			BRU_1394 = { add_core = THIS }
+			NET_1423 = { add_core = THIS }
+			NET_1426 = { add_core = THIS }
+			add_accepted_culture = tionghoa
+			add_accepted_culture = filipino
+			add_accepted_culture = champa
+			set_country_flag = nine_dash_line
+		}
+	}
+
+	demand_overseas_submission = {
+		potential = {
+			tag = CHI
+			NOT = { has_country_flag = overseas_submission }
+			OR = {
+				has_country_flag = qing_china
+				has_country_flag = taiping_china
+				has_country_flag = return_to_china
+			}
+		}
+		allow = {
+			revolution_n_counterrevolution = 1
+		}
+		effect = {
+			badboy = 20
+			GAN = { all_core = { add_core = THIS } }
+			DNG = { all_core = { add_core = THIS } }
+			LFG = { all_core = { add_core = THIS } }
+			add_accepted_culture = qingqiuan
+			add_accepted_culture = ganguan
+			add_accepted_culture = tionghoa
+			set_country_flag = overseas_submission
+		}
+	}
+
+	establish_trung_quoc = {
+		potential = {
+			tag = CHI
+			has_country_flag = vietnamese_china
+			NOT = { has_country_flag = trung_quoc }
+		}
+		allow = {
+			nationalism_n_imperialism = 1
+		}
+		effect = {
+			badboy = 15
+			CAM = { all_core = { add_core = THIS } }
+			BUR = {
+				all_core = {
+					limit = {
+						NOT = { is_core = BEN }
+					}
+					add_core = THIS
+				}
+			}
+			SIA = { all_core = { add_core = THIS } }
+			CHP = {
+				all_core = {
+					limit = {
+						NOT = { is_core = BRU }
+					}
+					add_core = THIS
+				}
+			}
+			JOH = { all_core = { add_core = THIS } }
+			CHI_2562 = { add_core = THIS }
+			add_accepted_culture = beifaren
+			add_accepted_culture = shan
+			add_accepted_culture = thai
+			add_accepted_culture = kachin
+			add_accepted_culture = khmer
+			add_accepted_culture = champa
+			add_accepted_culture = malay
+			set_country_flag = trung_quoc
+		}
+	}
+
+	the_roof_of_the_world = {
+		potential = {
+			tag = CHI
+			has_country_flag = tibetan_china
+			NOT = { has_country_flag = roof_of_world }
+		}
+		allow = {
+			nationalism_n_imperialism = 1
+		}
+		effect = {
+			badboy = 15
+			NEP_1327 = { add_core = THIS }
+			BHU_1329 = { add_core = THIS }
+			PAN_1224 = { add_core = THIS }
+			CHI_1597 = { add_core = THIS }
+			CHI_1532 = { add_core = THIS }
+			SIA_1355 = { add_core = THIS }
+			BUR = { all_core = { add_core = THIS } }
+			add_accepted_culture = asian_minor
+			add_accepted_culture = burmese
+			add_accepted_culture = kachin
+			add_accepted_culture = manipuri
+			add_accepted_culture = kashmiri
+			add_accepted_culture = uighur
+			add_accepted_culture = nepali
+			set_country_flag = roof_of_world
+		}
+	}
+
+	seize_bengal_china = {
+		potential = {
+			tag = CHI
+			has_country_flag = roof_of_world
+			NOT = { has_country_flag = seize_bengal }
+		}
+		allow = {
+			revolution_n_counterrevolution = 1
+		}
+		effect = {
+			badboy = 15
+			BEN = { all_core = { add_core = THIS } }
+			add_accepted_culture = bengali
+			add_accepted_culture = assamese
+			set_country_flag = seize_bengal
+		}
+	}
+
+	establish_jung_gug = {
+		potential = {
+			tag = CHI
+			has_country_flag = korean_china
+			NOT = { has_country_flag = jung_gug }
+		}
+		allow = {
+			nationalism_n_imperialism = 1
+		}
+		effect = {
+			badboy = 7.5
+			AIN = {
+				all_core = {
+					limit = {
+						NOT = { is_core = JAP }
+					}
+					add_core = THIS
+				}
+			}
+			JAP_1086 = { add_core = THIS }
+			CHI_2562 = { add_core = THIS }
+			CHI_1532 = { add_core = THIS }
+			CHI_1557 = { add_core = THIS }
+			JAP_1678 = { add_core = THIS }
+			add_accepted_culture = nanfaren
+			add_accepted_culture = ainu
+			set_country_flag = jung_gug
+		}
+	}
+
+	sunrise_invasion_china = {
+		potential = {
+			tag = CHI
+			has_country_flag = jung_gug
+			NOT = { has_country_flag = sunrise }
+		}
+		allow = {
+			revolution_n_counterrevolution = 1
+		}
+		effect = {
+			badboy = 25
+			JAP = { all_core = { add_core = THIS } }
+			add_accepted_culture = japanese
+			set_country_flag = sunrise
+		}
+	}
+}

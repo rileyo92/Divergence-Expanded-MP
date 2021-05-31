@@ -1,0 +1,4 @@
+add_core = OCE
+add_core = VIN
+trade_goods = coal
+life_rating = 35

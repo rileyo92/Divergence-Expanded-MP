@@ -1,0 +1,34 @@
+#Afar, Harari and Cushitic into Somali
+#Amhara and Beja into Tigray
+#Tigray localisation rename to Abysinnian
+#Sidama and Wolayta into Oromo
+#Oromo localisation rename to Ethiopian
+#Shilluk, Nuer, Nuba, Fur and Dinka into Sudanese
+#Sara, and Bagirmi into Teda
+#Teda localisation rename to Chadian
+#Dyula and Bambara into Mande
+#Mande localisation rename to Malian
+#Gur into Mossi
+#Maures into Berber
+#Western Nigritic into Kru
+#Fon into Ewe
+#Ewe localisation rename to Gbe
+#Edo, Ijaw, Ibo and Ibibio into Yoruba
+#Fang into forest_bantu ( North-West Bantu is name in-game )
+#Azande into Ubangian
+#Ubangian localisation rename to Ubangian ( was Ubangi )
+#Luo and maasai into Niloitic
+#Kingwana, kilombero, Unyamwezi into Swahili
+#Bakuba, Lunda and Luba to south_forest_bantu ( name in-game is Central Bantu )
+#Chokwe and Mongo to Bakongo
+#Bakongo localisation rename to Kongolese
+#Kavango and Herero into Ovimbundu
+#Ovimbundu localisation rename to Angolan
+#Baganda, Rundi, Ruanda and Sukuma into lacustrine_bantu ( Known in-game as North-East Bantu )
+#Yao, Sena and Nyasa to Chewa
+#Chewa localisation rename to Malawi
+#Southern Bantu to Shona
+#Zulu and Xhosa to Nguni
+#Tswana into Sotho
+#Sotho localisation rename to Sotho-Tswana
+#Tonga to African Minor

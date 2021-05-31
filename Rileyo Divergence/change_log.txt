@@ -1,0 +1,422 @@
+#Current Changes:
+#
+# ###1.0 "Arcadia"###
+#
+# #Gameplay/Mechanics/Balance Changes#
+#
+#Belgian Confederacy and Vinlandic Arcadia now gets cores on Lusitania via decision
+#Belgian Confederacy and Vinlandic Arcadia now can accept Lusitanian via decision, requires owning all Lusitanian Cores and Revolution and Counterrevolution
+#Vinland and Arcadia can now Purchase Greenland for £100k, requires nationalism and imperialism
+#
+# ###1.01 "Gran Colombia"####
+#
+# #Gameplay/Mechanics/Balance Changes#
+#
+#Gran Colombia now has a Russian-Style decision regarding expansion or immigration, requires empiricalism and either Arcadia, Ameriga or Holy Britannia Empire to exist
+#Qingqiu Route: Grants cores on Qingqiu and Kita Kaigain, gets a decision to accept them once you've researched Psychoanalysis
+#Platagenia Route: Grants cores on Plantagenia minus a few states that are also Belgian Cores, gets a decision to accept them once you've researched Psychoanalysis
+#Incan Route: Grants cores on Inca and Chile, gets a decision to accept quecha and remove all Incan cores once you've researched Psychoanalysis
+#Amazonie Route: Grants cores on Amazonie and some uncolonized land in the Amazon, gets a decision to accept them once you've researched Psychoanalysis
+#Liberty Route: Grants a bunch of political reforms, allows you to gain the homestead act modifier via decision once you have researched a bunch of culture techs
+#
+# ###1.02 "Caribbean"###
+#
+# #Gameplay/Mechanics/Balance Changes#
+#
+#Jamaica Purchase: Cost is now £150k, requires to be secondary power or New Courland
+#Sudurhafeyjar Purchase: Cost is now £225k, requires to be rank 12 or New Courland
+#Athesia Purchase: Cost is now £250k, requires to be rank 12 or New Courland
+#Athesia Purchase: Removed requirement that Venice wasn't a GP or that it hadn't been Stated
+#Kuba Purchase: Cost is now £300k, requires to be rank 10 or New Courland
+#Kuba Purchase: Removed requirement that Spain wasn't a GP or that it hadn't been Stated
+#Platagenia can now purchase Caribbean colonies if they meet the above requirements
+#Belgian Confederacy can now purchase Caribbean colonies if they meet the above requirements AND has done the decision, Destiny of the East
+#Gran Colombia can now purchase Kuba if they meet the above requirements
+#Gran Colombia can now purchase Athesia if they meet the above requirements and have taken either the Liberty or the Plantagenia Option in the Future of Gran Colombia event
+#Gran Colombia can now purchase the rest of the Caribbean colonies if they meet the above requirements AND took the Liberty Option in the Future of Gran Colombia event
+#Ameriga and Holy Britannia Empire can now Purchase the Caribbean colonies if they meet the above requirements AND own all provinces in the Guayana state
+#Inca can now Purchase the Caribbean colonies if they meet the above requirements AND have done their final decision, Our defining role on the world stage
+#Plantagenia, Belgian, Vinland, Arcadia, Gran Colombia, Inca, Ameriga, Britannia and New Courland can all accept the caribbean cultures if they own the associated provinces regardless of decision route
+#Decision to accept the Caribbean cultures now requires Nationalism and Imperialism, changed from State and Government
+#Ameriga and Inca, once they have Beornian as an accepted culture, can now purchase the Falklands
+#Falklands Purchase: Cost is now £100k (down from £200k)
+#Beornian pops doubled across the board globally
+#Beornia now gets Tilcara state as cores with the Beornian cone decision
+#Beornia now can accept aimara (nationalism and imperialism), Holy Britannia Empire can now accept lotharin (whenever), Amazonian (revolution and counterrevolution)
+#Inca now start with Mapuche accepted
+#Inca now get a conquest CB on Beornia through their own decision that becomes avalible if Beornia takes the Beornian cone decision
+#Inca now can accept Beornian with nationalism and imperialism
+#Inca decision giving granadan as accepted also now gives cores on the rest of the Granadian lands (excluding Guyana) and Panama
+#Inca, once they have resaerched phenomenology and hermeneutic and own all their cores from Gran Colombia, now have a final decision giving them the choice of accepting either all Afro-Slave Cultures or All Native American Cultures
+#Courland no longer starts with Russian or Ugrian accepted
+#Upon Formation, New Courland gets afro_germanic accepted, loses Latvian and elbian as accepted
+#New Courland decision master of the antilles now gives afro-latino and afro-frankish as accepted cultures
+#New Courland can now purchase Bermuda and Trinidad
+#New Courland unique purchase event prices have all been tweaked
+#New Courland now gets a final decision, Master of the Caribbean, that gives it 3 options:
+#Option 1: Return home: Gives cores on Baltic states and gives elbian, lithuanian, latvian and estonian as accepted cultures
+#Option 2: Dominate the Atlantic: Gives cores on Vinland (State), Iceland, Greenland, Macronesia and other atlantic islands, gives Vinlandic, Icelandic and Inuit accepted Cultures
+#Option 3: Attract Immigrants: Grants the homestead act modifier
+#
+#QoL Changes
+#
+#Added Province History to Jan Mayen (Caribbean)
+#Changed most of the mexican pops in Lusitania to Lusitanian
+#Increased pops in the de-facto regional capitals of Gran Colombia massively
+#
+# ###1.03 Zhorauo###
+#
+#Added Decision for Zhorauo to annex, core and accept Maroi if they puppet Aoetora
+#Removed Zhorauo decision which gives 150% Assimilation rate across Australia
+#All provinces in Australia and New Zealand now 30 life rating
+#Austral Destiny decision now gives cores on Timor, Sunda, Christmas and Cocos/Keeling Islands, Makassar, Menado, Celebs and Fiji
+#Austral Destiny decision no longer gives cores on Tahaiti Region, all of Tui Tonga
+#All uncolonized cores gained from Austral Destiny now have 20 Life Rating
+#Austral Destiny decision now gives balinese, moluccan, melanesian and aborigine as accepted cultures
+#New Decision: Greater Austral Destiny allows Zhorauo to claim the Pacific islands, Java, Borneo, Hainan, Taiwan and Okinawa and gives Javan, Lanfang, Borneo, Philipino, Min, Micronesian and Polynesian as accepted cultures
+#All Uncolonized pacific islands have at least 15 life rating
+#Merged Lanfang decisons into one regarding Borneo, Lanfang can now form Nustrana
+#Qingqiu can now claim and integrate Lusitania at nationalism and imperialsm
+#Rename Laofeng region now adds Gran Colombian and Lusitanian Cores
+#Integrate Lusitania decision no longer removes Lusitanian Cores
+#Vinland/Vinlandic Arcadia can now accept Kaigain
+#Lanfang, Qingqiu and Zhorauo can now claim and accept each other if they research nationalism and imperialism and reach rank 10 GP
+#Qingqiu can now get cores across the pacific isles and accepts Polynesian and Micronesian with revolution and counterrevolution
+#Qingqiu can now purhcase the Caribbean Colonies for as long as it has Lusitanian accepted
+#Zhorauo can now Purchase Timor
+#Kita Kaiga now a vassal under Japan in 1836
+#Kita Kaiga now starts with Takikawa owned
+#Japan can now Co-operate with Qingqiu, now losing infamy and handing over Kita Kaigan to Qingqiu
+#Man in High Castle now annex Kita Kaigan into Japan
+#Japan can now accept Kaiganese with revolution and counterrevolution
+#Man in High Castle now requires Qingqiu to have less than 6.5 Million Pops
+#
+#Bug fixes and QoL
+#
+#Aceh now has Achenese Primary culture, still accepts Malay, Yue
+#Weird pop issues in Dominica/Puerto Rico Fixed
+#Gran Colombian decisions to integrate culture now only requires all cores gained from decision/event chain rather than all your cores
+#Kurland, New Courland now starts with HMS Government, wealth voting and gerrymandering
+#Greenland localisation issue fixed
+#
+# ###1.04 Iberia###
+#
+#Added Hispanic and Iberian Formable
+#Hispania gets all the Gran Colombian cultures accepted, requires owning most of Gran Colombia's land
+#Hispania can move it's capital to new world via decision/event
+#Iberia now formable by all Iberian nations
+#Upon formation, Iberia loses South Italian as accepted culture
+#Iberia can now get cores and accepted pops on Southern Italy
+#Maltese Culture now Sicilian, spread across the isles of the Mediterranean + african colonies + boot of italy
+#Hispania can Purchase the Caribbean colonies
+#Aragon-Italy loses Castilian culture as accepted upon formation, can gain provencal once they take latin empire decision
+#
+# ###1.05 Italy###
+#
+#Added Central Italian Culture
+#Genoa now starts with more colonies across Africa and Pondicherry in India
+#Pondicherry now has precious goods as rgo
+#Genoa can now get cores across the western med islands and carthage once they retake Corsica
+#Added new formable: Arpitania
+#Arpitania formable by Genoa, Provence, Geneva and Savoy
+#Arpitania starts with cores around the French-Italian border and can get more cores around Switzerland, Burgundy and Rhineland
+#Savoy can now get cores on Geneva and Genoa after conquering them + get Sicilian accepted
+#Lombardy can core Venice and Emilia and Emilia-Romanga area and get Venetian accepted
+#Venice no longer starts with North Italian accepted
+#Venice can core Lombardy and Emilia-Romanga area and still get North Italian accepted
+#New decisions to form north Italian League, giving cores on mainland italy and Central and Southern Italian accepted
+#Central Italian Culture nations now can get cores on southern italy and Emilia and Emilia-Romanga regions via decision, decision also gives North and South Italian accepted
+#Form Italy decision now requires all mainland Italian cores with exception for Savoie region and Venice region
+#Removed Etrutian cores on Ferrara, Modena and Parma
+#Italy now has access to an even when they take Italian Irredenta decision letting them go either west (Latin) or east (Adriatic)
+#Western Path gives provencal and catalan as accepted culture
+#Eastern Path gives Slovene, Croat, Albanian and Greek as accepted
+#Venice-formed Italy is locked into the eastern path if they integrated the Greeks
+#Eastern path removes Catalan as accepted culture (relevant for Genoa)
+#Provence-Formed Italy cannot take Italian Irredenta Decision due to their paths regarding Dual Monarchy
+#Mallorca now it's own state
+#
+# ###1.06 Dual Monarchy###
+#
+#Complete rework of DM starting position, decisions and events
+#DM no longer starts with Welsh or Breton Accepted
+#All three routes reworked to be (hopefully) viable
+#All events relating to the anglois dilemma have been removed
+#Anglois route: now get english and french accepted via decision in 1865
+#French Route: gives french accepted day 1
+#English Route: gives english accepted day 1, moves capital to London
+#Breton is accepted with state and government for anglois/french path, requires 1860 for english path
+#Welsh is accepted with state and government for anglois/english path
+#Irish is accepted with nationalism and imperialism for anglois/english path
+#Provencal requires 1855 to be accepted for french path, 1865 for anglois path
+#Scottish requires nationalism and imperialism and english accepted to be accepts, decison also accepts anglo-norse
+#Icelandic renamed to Anglo-Norse, now represents all the scandi and finnish pops living in Iceland, Greenland and Scotland
+#Basque requires provencal to be accepted in order to be accepted
+#Burgundian now can be accepted by a french-focused DM as long as DM owns all French and Lorrainian Cores and has revolution and counterrevolution
+#English-focused DM can get cores on and accept Beornia once they have revolution and counterrevolution
+#English-focused DM can get cores on atlantic islands via decision
+#Language event/decision rework:
+#Now is three decisions, one for each path
+#English schooling now flips primary culture to english, gives 25 prestige, lose all accepted cultures that aren't english or anglois and, if you own the affected regions, replaces everyone's cores on Ireland, Scotland, Iceland, Greenland, Macronesia, and Calais with yours + assimilation boost
+#French schooling now flips primary culture to french, gives 25 prestige, lose all accepted cultures that aren't french or anglois and, if you own the affected regions, replaces everyone's cores on Brittany, France, Lorraine, Savoy, Genoa, Navarra and Catalonia (tag) with yours + assimilation boost
+#Anglois schooling now gives 50 prestige, lose all accepted cultures that aren't french, english or anglois and, if you own the affected regions, replaces everyone's cores on Ireland, Scotland, Iceland, Greenland, Brittany, France, Lorraine, Savoy, Genoa, Navarra and Catalonia (region) with yours + assimilation boost
+#Moved Perpinya from Catalonia region to Langedouc Region
+#Bermuda now starts owned by DM, non-afro american pops now Anglois and is now it's own state
+#
+#QoL changes
+#
+#Reorganised text files in decisions folder
+#Changed requirements for Iberia formable to ignore Perpinya
+#
+# ###1.07/.1 Burgundy###
+#
+#Gave Burgundy 3 possible formables
+#Burgundy can form France, getting French, Breton, Occtian and Anglois accepted eventually at cost of Dutch
+#Burgundy can form Arpitania, getting Provencal and Rhenish accepted eventually
+#Burgundy can form Confederation of the rhine, getting Rhenish, Swiss and Danubian accepted and Burgundian reaccepted eventually
+#Split Flemish from Dutch Culture
+#Added Swiss Culture
+#Added Flanders and Wallonia as releasable tags
+#Made Arpitania easier to form by removing it's starting cores on Piedmont
+#
+# ###1.08 Scandinavia###
+#
+#Added Congress of Europe events for new formables (Hispania, Arpitania, France, Confederation of the Rhine)
+#Swiss can now form Arpitania
+#Scandinavia has 3 end paths : British Isles, Arctic and Elbians
+#British path gives English, Irish and Welsh accepted eventually at cost of every other culture apart from Anglo-Norse, Scandinavia and Pomerania
+#Arctic Path gives Novgorodian, Ugrian, Vinlandic, Ayitian and Inuit accepted at Cost of Pomeranian
+#Scandi can form Elbains but lose Scottish accepted, Scandi Elbians can't get Rheinish or Danubian accepted
+#Prussian culture split from Elbian, Poland gets it accepted when it annexes it's substates
+#Russian Culture split into Novgorodian and Muscovite
+#Added events regarding the discovery of the North-east and North-West Passages
+#Added canals in Vinland and Siberia to Simulate these passages for ships (OBSOLETE IN LATEST VERSION)
+#
+#Balance and QoL Changes
+#
+#Genoa no longer has some of it's colonies as actual states
+#Pondicherry life rating increased to 35 from 32
+#Sitka liferating decreased to 20 from 35
+#Dingguo liferating increased to 35 from 31
+#
+# ###1.09 PLC###
+#
+#Added more expansion decisions for the small german minors
+#Renamed Rhineland to League of Koln
+#Renamed Danubian Confederation to league of Munich
+#League of Koln can now accept Dutch
+#HRE rework, now get all germans accepted upon formation and lose Bohemian, can get North Italian or Dutch Accepted via decision later on
+#PLC Overhaul: 3 expansion options
+#PLC and Bohemia can form Zapadoslavia, Slovak/Polish/Czech union
+#Zapadoslavia can accept baltic cultures then either go for Ruthenia or elbian acceptance
+#PLC now can accept Crimean if going Ruthenian route
+#PLC has a third, Balkan route focusing on liberating nations from Ottomans (OBSOLETE IN LATEST VERSION)
+#
+#Balance and QoL Changes
+#
+#Removed the canals in Siberia and Vinland simulating the arctic passages
+#
+# ###1.09.1 PLC###
+#
+#Bugfixes/QOL Changes
+#
+#Altered some PLC decisions relating to their new expansion paths and their formable, Zapadoslavia
+#
+# ###1.10 Hungary###
+#
+#Russian formation and Expansion balance changes:
+#Russia no longer starts with Ugrian accepted
+#Northern Route now grants Ugrian accepted upon selection, Lithuanian and Prussian as accepted later on
+#Western Route now gives Crimean accepted later on to compensate for Ugrian loss
+#Southern Route now gives Armenian and Kazak as accepted later on to compensate for Ugrian loss
+#Hungarian rework:
+#Hungary can now get Slovene, Croatian, Serbian, Bulgarian, Albanian and Greek accepted via Balkan Path
+#Hungary can now form Danubian Federation if has german spherelings, grants Danubian and Romanian accepted.
+#Danubian have decision in 1870 to choose to focus on Rhine, Elbe or Danube, getting either Rheinish, Czech or Serbian, Croatian and Bulgarian Accepted + cores
+#German primary nations now have a buff to mob size
+#
+#Balance and QoL Changes
+#
+#Removed Landlocked Nation debuff
+#
+# ###2.0 Balkan###
+#
+#Merged Nahua and Tlapanec Cultures into Mesoamerican Culture
+#Merged Tarascan into Mayan Culture
+#Merged 2 South American Cultures into Amazonian Native
+#Sami Culture Merged into Finnish
+#Prussian and Pomeranian Cultures merged together into Baltic German
+#Greece starts as a vassal under Venice in start date
+#Slovakia now a substate under hungary at start date
+#Venice can Annex Greece and get greece accepted in 1845
+#Hungary can annex Slovakia with the Stephan Crown Decision
+#Balkan-Ottoman-Egypt Start date overhall:
+#Serbia, Bulgaria now independent at start date
+#All wars peaced out and Ottoman cores removed on all other nations
+#Polish decisions relating to Pushing Ottomans out of Europe Scrapped
+#New Decisions relating to reforming Jagiellonian Union, Avaliable to Hungary, Bohemia and PLC
+#Hungary decisions rebalanced to adjust for new starting scenario
+#Yugoslavia can now be formed by Albania
+#Yugoslavia can now accept Venetian
+#Bulgaria and Romania can now accept each other
+#Macedonia can now go three routes: into Yugoslavia, Into Greece or follow Macedonian empire
+#Greece can now reform Byzantium again
+#Ottomans can now either go into the balkans, expand across arabia or go for Turania
+#Ottomans now start with Azerbaijani Accepted
+#Egypt starts more westernised than before
+#Egypt can now get cores on arabia and the maghreb
+#Arabia formable minor changes
+#
+##Balance and QoL Changes
+#
+#Balkan Nations start with mobilization buff identical to the German buff
+#
+# ###2.01 Persia###
+#
+#Rebalanced political reforms, highlights include more pop growth if you take the last minimum wage, working hours, safety, child labour or pension reforms.
+#Altered some accepted cultures for Persia (upon formation lose Bedouin but gain Azerbaijani)
+#Added some decisions for Tatarstan and Turania (Not Turkish formed though) to go into each other or, for Turania, form China or invade Persia
+#Merged Yakut Culture into Siberian
+#Removed Muscovite Pops in uncolonized siberia
+#Ainu now has Japanese, Siberian as accepted pops
+#Sibir now has Ugrian, Siberian as accepted pops
+#
+##Balance and QoL Changes
+#
+#Army political reforms nerfed
+#Heathcare reforms now only provide pop growth at certain levels of admin spending
+#Small changes to other political reforms
+#
+# ###2.02 Indochina###
+#
+#Taungu now starts with Karen, Manipuri as accepted
+#Taungu now has decisions that grant cores and accepted pops in both Indochina and Eastern India/Tibet
+#Thonburi now starts with Karen Accepted
+#Thonburi now has decisions that grant cores and accepted pops in both Indochina and Malaysia
+#Khmer decisions reworked to grant accepted cultures, reduced infamy cost
+#Champa now starts with Khmer, Asian Minor as accepted
+#Champa now has decisions that grant cores and accepted pops in both Indochina and Borneo/Malaysia/Philippines
+#Vietnamese moved into chinese culture group, now has access to chinese unification CB's
+#Vietnam now starts with Lao accepted
+#Vietnam now has decisions that grant cores and accepted pops in both Indochina and Southern China
+#Vietnam can now form China
+#
+#Balance and QoL Changes
+#
+#Iraqi unit history file readded
+#States Reorganised in Indochina/Burma/Assam
+#Bengal Starting Position buffed
+#Removed music from Buddah mod to save space
+#
+# ###2.03 Far East###
+#
+#Merged Balinese Culture into Javan
+#Acehnese renamed to Sumatran, now encompasses the entire island
+#Malay pops in Borneo swapped to Bornean
+#Changed Indonesian tags starting cultures to reflect this
+#Added decisions to help the formation of Indonesia
+#Added decisions for nations that form China can do after the formable
+#Korea can now form China and use chinese unification CB's
+#Korea now can get cores on Manchuria
+#Japanese-Korean War peaced out
+#Japan given more decisions letting them go into China or Indonesia
+#
+#Balance and QoL Changes
+#
+#Reorganisation of States across world
+#Removed Peacetime mobilization debuffs
+#
+# ###2.03.1 Far East###
+#
+#Added extra national focuses for researching Enlightenment Philosophy, Anti-Rationalism and Mass Politics ( Mass Politics now gives 2 NF's)
+#
+# ###2.03.2 Far East###
+#
+#France can now get Dutch Accepted
+#Arpitania as Burgundy can now get North Italian Accepted
+#Confederation of the Rhine can form HRE with mass politics
+#HRE changes: now formed by Confederation of Rhine or Elbian Confederation, requires all german cores and either revolution and counterrevolution (Elbians) or mass politics (Burgundy)
+#Scandinavia can now get Anglois accepted, no longer loses Baltic German when taking British Isles route
+#
+# ###2.03.3 Far East###
+#
+#Removed Savoie region requirement to form Aragon-Italy
+#Removed Spanish cores on Al-Rif
+#Iberian requirements no longer need anything that would not be considered mainland Iberia
+#Inca now start as civilized
+#Closed Border reform debuffs weakened
+#Changed Life-ratings in Siberia
+#Increased Beorina's Starting pops
+#
+#Bugfixes
+#
+#Removed starting Inuit pops in Centua
+#Fixed error in Amazonie's Ameriga decision
+#Fixed a bug with England's decision to dismantle DM which gave them infinite prestige
+#
+# ###2.03.4 Far East###
+#
+#Merged cultures in Africa together to reduce number of cultures in game by 48, adjusted countries accepted cultures respectively
+#
+# ###2.04 Africa###
+#
+#Added expansion decisions for most unciv African countries
+#
+#Balance and QoL Changes
+#
+#Canal constrction decisions reverted to vanilla (i.e no events or waiting to construct them )
+#Vinland now starts with Iroqois and Algonquin accepted
+#Made gas attack and gas defense rng inventions, made them give arty attack and defence (Gas Attack) and military tactics (Gas Defence)
+#Added colours to some decisions to show they are mutually exclusive with each other
+#
+#Bugfixes
+#
+#Fixed Localisation errors stemming from editing files in the wrong format
+#Re-Coded the Confederation of the Rhine Formable to be more readable when hovering over question mark icon
+#
+# ###2.05 Plantagenia###
+#
+#Complete overhaul of global states in order to make all states have between 2-5 provinces with few exceptions having 1 or 6
+#Removed Agrarian Parties and replaced them with state capitalist
+#Greater Griqualand decision changed, now requires you to conquer land and now gives extra accepted cultures
+#Reworked Provence formables
+#Kong now exists in West Africa at start date
+#Romania can now accept Crimean through a decision after the integrate minorities decision
+#Vinland can now return home to Scandinavia, gaining Anglo-Norse and Scandinavian accepted
+#Vinland now starts with Afro-Germanic Accepted
+#Belgium Confederacy can now form Netherlands
+#Netherlands can now get cores on both Batavia and Belgium Confederacy and get Septiman and Boer Accepted
+#Plantagenia can now form the Triple Monarchy, getting Anglois accepted and access to some of the accepted cultures that DM gets later on
+#Vinland's Destiny of the North Grants Rohnnst accepted
+#Arcadia reworked as follows:
+#Forming Arcadia as Vinland automatically grants Septiman, Afro-Frankish Accepted, cores on all of Belgium Confederacy's cores
+#Forming Arcadia as Belgium Confederacy automatically grants Vinlandic, Plantagenian accepted and cores on both of them
+#Forming Arcadia as Plantagenia automatically grants Septiman, Lusitanian Accepted and cores on all of Belgium Confederacy's cores
+#Forming Arcadia automatically gives you the immigrant boost
+#With Revolution and Counterrevolution, Arcadia gets a choice of decisions to take to expand it's borders:
+#Northern Manifest Destiny ( Vinlandic Arcadia only ) gives cores on all of Plantagenia and Plantagenian, Cherokee and Sioux Accepted
+#Western Manifest Destiny gives cores on Qingqiu and Kita Kaigan and Qingqiuan and Kaiganese Accepted
+#Southern Manifest Destiny ( Plantagenian Arcadia only ) gives cores on Mexico and Mexican Accepted
+#Having Athesian or Lusitanian Accepted lets you accept Afro-Latino
+#With Mass Politics and Plantagenian accepted, Arcadia can get cores and accept Lusitanian
+#Added decisions that add liferating and provide immigration boosts for certain provinces that are avaliable to Arcadia
+#French-Focused Dual Monarchy can get English accepted with Mass politics
+#English-Focused Dual Monarchy can get French accepted with Mass politics
+#Renamed Rhineland (NOT Confederation of the Rhine) to League of Koln
+#Aquire state infamy 11 > 10
+#Place in the sun infamy 5.5 > 5
+#Free people infamy 7.5 > 6
+#Removed exception for Persia to be excluded from decreased infamy cost of establish Protectorate and demand concession cb's
+#Renamed Cut down to size to Cuck down to Size
+#Adjusted starting provinces for PLC and it's Substates slightly
+#Added 3 iron rgo's, one in Slovakia and 2 in Crimea to try to alleviate PLC's Iron Shortage
+#Removed rgo change decision
+#
+# ###2.05.3 Plantagenia###
+#
+#Removed Agrarian party from Plantagenia
+#Added State capitalist party for Serbia
+#Buffed rgo's in SE Asia
+#Added two states in Greece/Kosovo
+#Altered states slightly in Vinland
+#Not mechanic change but created decision focus trees that can be viewed out of game in PDF

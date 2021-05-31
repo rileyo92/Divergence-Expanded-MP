@@ -1,0 +1,418 @@
+political_decisions = {
+form_iberia = {
+		potential = {
+			OR = {
+				tag = SPA
+				tag = NAV
+				tag = ARA
+				tag = POR
+				tag = CAT
+				tag = GAL
+			}
+			NOT = { has_global_flag = iberian_union }
+			NOT = { has_global_flag = mancomunidad }
+		}
+
+		allow = {
+			NOT = { war = yes }
+			prestige = 30
+			nationalism_n_imperialism = 1
+			SPA = {
+				all_core = {
+					owner = {
+						OR = {
+							tag = THIS
+							in_sphere = THIS
+							vassal_of = THIS
+							is_core = MGH
+							province_id = 2134
+							province_id = 2135
+							province_id = 2136
+						}
+					}
+				}
+			}
+			SPA_498 = {
+				owner = {
+					OR = {
+						tag = THIS
+						in_sphere = THIS
+						vassal_of = THIS
+					}
+				}
+			}
+			SPA_492 = {
+				owner = {
+					OR = {
+						tag = THIS
+						in_sphere = THIS
+						vassal_of = THIS
+					}
+				}
+			}
+			SPA_503 = {
+				owner = {
+					OR = {
+						tag = THIS
+						in_sphere = THIS
+						vassal_of = THIS
+					}
+				}
+			}
+			ESK_1 = {
+				owner = {
+					OR = {
+						tag = THIS
+						in_sphere = THIS
+						vassal_of = THIS
+					}
+				}
+			}
+		}
+
+		effect = {
+			prestige = 20
+			set_global_flag = iberian_union
+			any_country = {
+				limit = {
+					OR = {
+						tag = CAT
+						tag = ARA
+						tag = NAV
+						tag = POR
+						tag = GAL
+						tag = SPA
+					}
+					OR = {
+						in_sphere = THIS
+						vassal_of = THIS
+					}
+				}
+				annex_to = THIS
+			}
+			any_owned = {
+				limit = {
+					OR = {
+						is_core = CAT
+						is_core = NAV
+						is_core = POR
+						is_core = SPA
+						is_core = GAL
+						is_core = SRD
+					}
+				}
+				add_core = IBR
+			}
+			add_accepted_culture = catalan
+			add_accepted_culture = maltese
+			add_accepted_culture = castilian
+			add_accepted_culture = portuguese
+			add_accepted_culture = basque
+			remove_accepted_culture = south_italian
+			change_tag = IBR
+		}
+	}
+
+	emperor_of_india = {
+
+	picture = "emperor_of_india"
+
+	potential = {
+		OR = {
+			tag = SPA
+			tag = IBR
+			tag = HIS
+		}
+	OR = {
+	has_global_flag = spaCLM.Occupation
+	has_global_flag = spaCLM_divided
+	has_global_flag = spaCLM_Vice_royalties
+	has_country_flag = partial_peace_MEX
+		}
+	NOT = { has_country_flag = emperor_of_india }
+	}
+
+	allow = {
+	nationalism_n_imperialism = 1
+	2172 = {
+		OR = {
+	owned_by = THIS
+	owner = { vassal_of = SPA }
+			}
+		}
+	2254 = {
+		OR = {
+	owned_by = THIS
+	owner = { vassal_of = SPA }
+			}
+		}
+	2191 = {
+		OR = {
+	owned_by = THIS
+	owner = { vassal_of = SPA }
+			}
+		}
+	2264 = {
+		OR = {
+	owned_by = THIS
+	owner = { vassal_of = SPA }
+			}
+		}
+	133 = {
+		OR = {
+	owned_by = THIS
+	owner = { vassal_of = SPA }
+			}
+		}
+	2279 = {
+		OR = {
+	owned_by = THIS
+	owner = { vassal_of = SPA }
+			}
+		}
+	}
+
+	effect = {
+	prestige = 100
+	set_country_flag = emperor_of_india
+	}
+	}
+
+	forward_the_aragonese_claims = {
+		potential = {
+			tag = IBR
+			NOT = { has_country_flag = ibr_aragon_claims }
+		}
+
+		allow = {
+			SRD = {
+				all_core = {
+					owner = {
+						OR = {
+							tag = THIS
+							in_sphere = THIS
+							vassal_of = THIS
+						}
+					}
+				}
+			}
+		}
+
+		effect = {
+			SIC = {
+				all_core = {
+					add_core = THIS
+				}
+			}
+			MLT = {
+				all_core = {
+					add_core = THIS
+				}
+			}
+			SRD = {
+				all_core = {
+					add_core = THIS
+				}
+			}
+			set_country_flag = ibr_aragon_claims
+		}
+	}
+
+	integrating_napoli = {
+		potential = {
+			tag = IBR
+			NOT = { has_country_flag = ibr_integrating_napoli }
+		}
+
+		allow = {
+			revolution_n_counterrevolution = 1
+			SRD = {
+				all_core = {
+					owner = {
+						tag = THIS
+					}
+				}
+			}
+			SIC = {
+				all_core = {
+					owner = {
+						tag = THIS
+					}
+				}
+			}
+			MLT = {
+				all_core = {
+					owner = {
+						tag = THIS
+					}
+				}
+			}
+		}
+
+		effect = {
+			set_country_flag = ibr_integrating_napoli
+			add_accepted_culture = south_italian
+		}
+	}
+
+	mancomunidad_de_naciones = {
+		potential = {
+			OR = {
+				tag = SPA
+				tag = POR
+			}
+			NOT = { has_global_flag = mancomunidad }
+			NOT = { has_global_flag = iberian_union }
+	}
+
+	allow = {
+		nationalism_n_imperialism = 1
+		LST = {
+			all_core = {
+				owner = {
+					OR = {
+						tag = THIS
+						in_sphere = THIS
+						vassal_of = THIS
+					}
+				}
+			}
+		}
+		MEX = {
+			all_core = {
+				owner = {
+					OR = {
+						tag = THIS
+						in_sphere = THIS
+						vassal_of = THIS
+					}
+				}
+			}
+		}
+		UCA = {
+			all_core = {
+				owner = {
+					OR = {
+						tag = THIS
+						in_sphere = THIS
+						vassal_of = THIS
+					}
+				}
+			}
+		}
+		CUB = {
+			all_core = {
+				owner = {
+					OR = {
+						tag = THIS
+						in_sphere = THIS
+						vassal_of = THIS
+					}
+				}
+			}
+		}
+		CAS = {
+			all_core = {
+				owner = {
+					OR = {
+						tag = THIS
+						in_sphere = THIS
+						vassal_of = THIS
+					}
+				}
+			}
+		}
+		SAN = {
+			all_core = {
+				owner = {
+					OR = {
+						tag = THIS
+						in_sphere = THIS
+						vassal_of = THIS
+					}
+				}
+			}
+		}
+	}
+
+	effect = {
+		set_global_flag = mancomunidad
+		any_country = {
+			limit = {
+				OR = {
+					tag = LST
+					tag = MEX
+					tag = UCA
+					tag = CUB
+					tag = SAN
+					tag = CAS
+					tag = GRA
+					tag = GUY
+					tag = QUI
+				}
+				OR = {
+					in_sphere = THIS
+					vassal_of = THIS
+				}
+			}
+		annex_to = THIS
+		}
+		any_owned = {
+			limit = {
+				OR = {
+					is_core = CLM
+					is_core = CUB
+				}
+			}
+			add_core = HIS
+		}
+		add_accepted_culture = mexican
+		add_accepted_culture = lusitanian
+		add_accepted_culture = granadan
+		add_accepted_culture = central_american
+		add_accepted_culture = caribeno
+		change_tag = HIS
+		}
+	}
+
+	his_move_capital = {
+		potential = {
+			tag = HIS
+			NOT = { has_country_flag = his_capital }
+		}
+
+		allow = {
+			revolution_n_counterrevolution = 1
+			expressionism = 1
+			social_science = 1
+		}
+
+		effect = {
+			country_event = 500041
+			set_country_flag = his_capital
+		}
+	}
+	greater_euskadia = {
+		potential = {
+			tag = NAV
+			NOT = { has_country_flag = greatereuskadia }
+		}
+
+		allow = {
+			NOT = { war = yes }
+			rank = 20
+			NAV = {
+				all_core = {
+						owned_by = THIS
+				}
+			}
+		}
+		effect = {
+			prestige = 5
+			set_country_flag = greatereuskadia
+			add_accepted_culture = provencal
+			add_core = 458
+			add_core = 459
+		}
+	}
+}

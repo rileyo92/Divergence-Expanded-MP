@@ -1,0 +1,40 @@
+political_decisions = {
+	greater_griqualand = {
+		potential = {
+			tag = GRQ
+			NOT = { has_country_flag = greater_griqualand }
+		}
+		allow = {
+			NOT = { war = yes }
+			GRQ = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						empty = yes
+					}
+				}
+			}
+			owns = 2101
+			owns = 2107
+			owns = 2105
+			owns = 2108
+		}
+		effect = {
+			prestige = 20
+			set_country_flag = greater_griqualand
+			ENG_2068 = { add_core = GRQ }
+			ENG_2014 = { add_core = GRQ }
+			POR_2006 = { add_core = GRQ }
+			POR_2003 = { add_core = GRQ }
+			POR_1999 = { add_core = GRQ }
+			BEL_1977 = { add_core = GRQ }
+			SHO_2071 = { add_core = GRQ }
+			TRN_2108 = { add_core = GRQ }
+			ORA_2103 = { add_core = GRQ }
+			ENG_2092 = { add_core = GRQ }
+			add_accepted_culture = shona
+			add_accepted_culture = ovimbundu
+			add_accepted_culture = south_forest_bantu
+		}
+	}
+}

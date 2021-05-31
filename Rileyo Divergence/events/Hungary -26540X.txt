@@ -1,0 +1,100 @@
+country_event = {
+	id = 265401
+	title = "HUN1.T"
+	desc = "HUN1.D"
+
+	is_triggered_only = yes
+
+	option = {
+	name = "265401.A"
+	clr_global_flag = crown_stefen
+	relation = { who = HUN value = 200 }
+	diplomatic_influence = { who = HUN value = 400 }
+	ai_chance = {
+	factor = 10
+	modifier = {
+	factor = 2
+	HUN = { is_greater_power = yes }
+			}
+	modifier = {
+	factor = 1.2
+	relation = { who = HUN value = 100 }
+			}
+	modifier = {
+	factor = 1.3
+	relation = { who = HUN value = 150 }
+			}
+	modifier = {
+	factor = 2
+	war = yes
+			}
+		}
+	}
+
+	option = {
+	name = "265401.E"
+	ai_chance = {
+	factor = 10
+	modifier = {
+	factor = 1.9
+	NOT = { relation = { who = HUN value = 0 } }
+			}
+	modifier = {
+	factor = 3
+	NOT = { relation = { who = HUN value = -100 } }
+			}
+	modifier = {
+	factor = 0
+	HUN = { is_greater_power = yes }
+			}
+	modifier = {
+	factor = 0.5
+	war = yes
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 500101
+	title = "500101.T"
+	desc = "500101.D"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "500101.A"
+		ai_chance = {
+				factor = 34
+		}
+		add_accepted_culture = rheinish
+		BAD = { all_core = { add_core = DNB } }
+		RHI = { all_core = { add_core = DNB } }
+		2560 = { add_core = DNB }
+	}
+
+	option = {
+		name = "500101.B"
+		ai_chance = {
+				factor = 33
+		}
+		add_accepted_culture = czech
+		AUS_626 = { add_core = DNB }
+		AUS_625 = { add_core = DNB }
+		SAX_558 = { add_core = DNB }
+	}
+
+	option = {
+		name = "500101.C"
+		ai_chance = {
+				factor = 33
+		}
+		add_accepted_culture = croat
+		add_accepted_culture = serb
+		add_accepted_culture = bulgarian
+		AUS_771 = { add_core = DNB }
+		TUR_788 = { add_core = DNB }
+		SER_794 = { add_core = DNB }
+		TUR_810 = { add_core = DNB }
+	}
+}

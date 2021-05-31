@@ -1,0 +1,64 @@
+political_decisions = {
+  unite_sudan = {
+    potential = {
+      OR = {
+        tag = DAR
+        tag = FUN
+      }
+      NOT = { has_country_flag = sudan_united }
+    }
+    allow = {
+      owns = 1841
+      owns = 1840
+      owns = 1827
+      owns = 1835
+    }
+    effect = {
+      set_country_flag = sudan_united
+      1843 = { secede_province = THIS }
+      1844 = { secede_province = THIS }
+      DAR = { all_core = { add_core = THIS } }
+      FUN = { all_core = { add_core = THIS } }
+      ENG_1843 = { add_core = THIS }
+      FNJ_1806 = { add_core = THIS }
+      add_accepted_culture = nubian
+    }
+  }
+
+  advance_into_egypt_sudan = {
+   potential = {
+    has_country_flag = sudan_united
+    NOT = { has_country_flag = into_egypt }
+   }
+   allow = {
+    owns = 1766
+   }
+   effect = {
+    set_country_flag = into_egypt
+    add_accepted_culture = bedouin
+    add_accepted_culture = misri
+    EGY_1758 = { add_core = THIS }
+    EGY_1771 = { add_core = THIS }
+    EGY_1762 = { add_core = THIS }
+    EGY_1753 = { add_core = THIS }
+    EGY_1772 = { add_core = THIS }
+   }
+  }
+
+  invade_eritrea_sudan = {
+    potential = {
+      has_country_flag = sudan_united
+      NOT = { has_country_flag = into_eritrea }
+    }
+    allow = {
+      owns = 1848
+    }
+    effect = {
+      set_country_flag = into_eritrea
+      add_accepted_culture = tigray
+      ETH_1856 = { add_core = THIS }
+      ENG_1848 = { add_core = THIS }
+      ETH_1854 = { add_core = THIS }
+    }
+  }
+}

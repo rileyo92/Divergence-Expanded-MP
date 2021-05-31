@@ -1,0 +1,14 @@
+owner = NFL
+controller = NFL
+add_core = NFL
+add_core = MAT
+add_core = BTV
+add_core = SAF
+trade_goods = fish
+terrain = savanna
+life_rating = 35
+state_building = {
+	level = 1
+	building = canned_food_factory
+	upgrade = yes
+}

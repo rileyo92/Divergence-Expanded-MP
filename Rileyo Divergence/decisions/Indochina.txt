@@ -1,0 +1,349 @@
+political_decisions = {
+	#Taungu
+	claim_greater_burma = {
+		potential = {
+			tag = BUR
+			NOT = { has_country_flag = greater_burma }
+		}
+		allow = {
+			BUR = { all_core = { owned_by = THIS } }
+		}
+		effect = {
+			set_country_flag = greater_burma
+			badboy = 7.5
+			add_accepted_culture = kachin
+			add_accepted_culture = shan
+			add_accepted_culture = assamese
+			add_accepted_culture = asian_minor
+			ENG_1352 = { add_core = THIS }
+			ENG_1252 = { add_core = THIS }
+			ENG_1251 = { add_core = THIS }
+			SIA_1355 = { add_core = THIS }
+		}
+	}
+
+	second_taungoo_empire = {
+		potential = {
+			tag = BUR
+			has_country_flag = greater_burma
+			NOT = { has_country_flag = taungoo_empire }
+		}
+		allow = {
+			BUR = { all_core = { owned_by = THIS } }
+		}
+		effect = {
+			set_country_flag = taungoo_empire
+			badboy = 12.5
+			add_accepted_culture = bengali
+			add_accepted_culture = tibetan
+			add_accepted_culture = yi
+			add_accepted_culture = oriya
+			add_accepted_culture = bihari
+			add_accepted_culture = nepali
+			1261 = { add_core = THIS }
+			1262 = { add_core = THIS }
+			1263 = { add_core = THIS }
+			ENG_1247 = { add_core = THIS }
+			TIB = { all_core = { add_core = THIS } }
+			CHI_1601 = { add_core = THIS }
+			LUA_1356 = { add_core = THIS }
+			NEP_1327 = { add_core = THIS }
+		}
+	}
+
+	#Thonburi
+	supremacy_over_khmer = {
+		potential = {
+			tag = SIA
+			NOT = { has_country_flag = crush_khmer }
+		}
+		allow = {
+			SIA = { all_core = { owned_by = THIS } }
+		}
+		effect = {
+			set_country_flag = crush_khmer
+			badboy = 5
+			CAM = { all_core = { add_core = THIS } }
+			add_accepted_culture = shan
+			add_accepted_culture = lao
+		}
+	}
+
+	dominate_indochina_sia = {
+		potential = {
+			tag = SIA
+			has_country_flag = crush_khmer
+			NOT = { has_country_flag = dom_indochina }
+		}
+		allow = {
+			SIA = { all_core = { owned_by = THIS } }
+			CAM = { exists = no }
+		}
+		effect = {
+			set_country_flag = dom_indochina
+			badboy = 10
+			add_accepted_culture = khmer
+			add_accepted_culture = champa
+			add_accepted_culture = vietnamese
+			add_accepted_culture = burmese
+			add_accepted_culture = asian_minor
+			DAI = { all_core = { add_core = THIS } }
+			CHP = { all_core = { add_core = THIS } }
+			BUR = {
+				all_core = {
+			 		limit = {
+						NOT = { is_core = BEN }
+					}
+					add_core = THIS
+				}
+			}
+			ENG_1392 = { add_core = THIS }
+			ENG_1386 = { add_core = THIS }
+			CHI_1601 = { add_core = THIS }
+		}
+	}
+
+	agreement_with_malay_traders = {
+		potential = {
+			tag = SIA
+			has_country_flag = dom_indochina
+			NOT = { has_country_flag = malay_traders }
+		}
+		allow = {
+			owns = 1384
+			owns = 1386
+			owns = 1388
+			owns = 1392
+		}
+		effect = {
+			set_country_flag = malay_traders
+			add_accepted_culture = malay
+			add_accepted_culture = tionghoa
+			add_accepted_culture = yue
+		}
+	}
+
+	#Khmer
+	reclaim_old_empire = {
+		picture = "Khmer_exp"
+		potential = {
+			tag = CAM
+			NOT = { has_country_flag = khmer_empire_1 }
+		}
+		allow = {
+			CAM = { all_core = { owned_by = THIS } }
+		}
+		effect = {
+			CHP = { all_core = { add_core = THIS } }
+			SIA = { all_core = { add_core = THIS } }
+			badboy = 10
+			set_country_flag = khmer_empire_1
+		}
+	}
+
+	become_sole_leader = {
+		picture = "Khmer_exp"
+		potential = {
+			tag = CAM
+			has_country_flag = khmer_empire_1
+			NOT = { has_country_flag = sole_leader_indochi }
+		}
+		allow = {
+			CAM = { all_core = { owned_by = THIS } }
+		}
+		effect = {
+			badboy = 15
+			BUR = { all_core = { add_core = THIS } }
+			DAI = { all_core = { add_core = THIS } }
+			set_country_flag = sole_leader_indochi
+			add_accepted_culture = champa
+			add_accepted_culture = shan
+			add_accepted_culture = karen
+		}
+	}
+
+	old_empire_restored_cam = {
+		picture = "Khmer_exp"
+		potential = {
+			tag = CAM
+			has_country_flag = sole_leader_indochi
+			NOT = { has_country_flag = khmer_empire_2 }
+		}
+		allow = {
+			CAM = { all_core = { owned_by = THIS } }
+		}
+		effect = {
+			badboy = 10
+			set_country_flag = khmer_empire_2
+			add_accepted_culture = vietnamese
+			add_accepted_culture = burmese
+			add_accepted_culture = kachin
+			add_accepted_culture = malay
+			add_accepted_culture = zhuang
+			add_accepted_culture = asian_minor
+			ENG_1386 = { add_core = THIS }
+			ENG_1392 = { add_core = THIS }
+			CHI_1601 = { add_core = THIS }
+			1503 = { add_core = THIS }
+			1504 = { add_core = THIS }
+		}
+	}
+
+	#Champa
+	cham_migration = {
+		potential = {
+			tag = CHP
+			NOT = { has_country_flag = champa_moves }
+		}
+		allow = {
+			year = 1840
+		}
+		effect = {
+			badboy = 15
+			set_country_flag = champa_moves
+			add_accepted_culture = asian_minor
+			SIA_1366 = { add_core = THIS }
+			SIA_1358 = { add_core = THIS }
+			LUA_1356 = { add_core = THIS }
+			ANN_1374 = { add_core = THIS }
+			BRU_1394 = { add_core = THIS }
+		}
+	}
+
+	dominate_indochina_chp = {
+		potential = {
+			tag = CHP
+			has_country_flag = champa_moves
+			NOT = { has_country_flag = dom_indochina }
+		}
+		allow = {
+			CHP = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						is_core = BRU
+					}
+				}
+			}
+		}
+		effect = {
+			set_country_flag = dom_indochina
+			badboy = 10
+			add_accepted_culture = lao
+			add_accepted_culture = thai
+			CAM = { all_core = { add_core = THIS } }
+			DAI = { all_core = { add_core = THIS } }
+			SIA = { all_core = { add_core = THIS } }
+		}
+	}
+
+	control_malaya_chp = {
+		potential = {
+			tag = CHP
+			has_country_flag = champa_moves
+			NOT = { has_country_flag = malaya_chp }
+		}
+		allow = {
+			BRU = { all_core = { owned_by = THIS } }
+		}
+		effect = {
+			set_country_flag = malaya_chp
+			add_accepted_culture = malay
+			add_accepted_culture = dayak
+			add_accepted_culture = filipino
+			add_accepted_culture = tionghoa
+			TON = { all_core = { add_core = THIS } }
+			SUL = { all_core = { add_core = THIS } }
+			LFG = { all_core = { add_core = THIS } }
+			NET_1423 = { add_core = THIS }
+			ENG_1386 = { add_core = THIS }
+			ENG_1392 = { add_core = THIS }
+		}
+	}
+
+	#Vietnam
+	conquer_champa_dai = {
+		potential = {
+			tag = DAI
+			NOT = { has_country_flag = conquest_champa }
+			NOT = { has_country_flag = dom_indochina }
+			CHP = { exists = yes }
+		}
+		allow = {
+			year = 1842
+		}
+		effect = {
+			set_country_flag = conquest_champa
+			badboy = 10
+			casus_belli = {
+					target = CHP
+					type = conquest
+					months = 24
+			 }
+			war = {
+				target = CHP
+				attacker_goal = {
+					casus_belli = conquest
+				}
+			}
+		}
+	}
+
+	dominate_indochina_dai = {
+		potential = {
+			tag = DAI
+			OR = {
+				CHP = { exists = NO }
+				has_country_flag = conquest_champa
+			}
+			NOT = { has_country_flag = dom_indochina }
+		}
+		allow = {
+			CHP = { exists = NO }
+		}
+		effect = {
+			set_country_flag = dom_indochina
+			add_accepted_culture = champa
+			add_accepted_culture = khmer
+			add_accepted_culture = asian_minor
+			add_accepted_culture = thai
+			add_accepted_culture = shan
+			CAM = { all_core = { add_core = THIS } }
+			SHA = { all_core = { add_core = THIS } }
+			SIA = { all_core = { add_core = THIS } }
+			CHP = {
+				all_core = {
+					limit = {
+						NOT = { is_core = BRU }
+					}
+					add_core = THIS
+				}
+			}
+		}
+	}
+
+	dai_defy_the_dragon = {
+		potential = {
+			tag = DAI
+			NOT = { has_country_flag = defy_dragon }
+		}
+		allow = {
+			owns = 1601
+			owns = 1495
+			owns = 1503
+		}
+		effect = {
+			set_country_flag = defy_dragon
+			CHI_1601 = { add_core = THIS }
+			CHI_1505 = { add_core = THIS }
+			CHI_1504 = { add_core = THIS }
+			CHI_1495 = { add_core = THIS }
+			1499 = { add_core = THIS }
+			add_accepted_culture = yi
+			add_accepted_culture = yue
+			add_accepted_culture = min
+			add_accepted_culture = zhuang
+			add_accepted_culture = miao
+		}
+	}
+}

@@ -1,0 +1,69 @@
+political_decisions = {
+  egypt_levant = {
+    potential = {
+      NOT = { has_country_flag = levant_claim }
+      tag = EGY
+    }
+    allow = {
+      owns = 917
+    }
+    effect = {
+      set_country_flag = levant_claim
+      SYR = { all_core = { add_core = EGY } }
+      badboy = 10
+    }
+  }
+
+  egypt_arabia = {
+    potential = {
+      has_country_flag = levant_claim
+      tag = EGY
+      NOT = { accepted_culture = khaliji }
+    }
+    allow = {
+      SYR = {
+        all_core = {
+          OR = {
+            owned_by = THIS
+            empty = yes
+          }
+        }
+      }
+    }
+    effect = {
+      NEJ = { all_core = { add_core = THIS } }
+      add_accepted_culture = khaliji
+    }
+  }
+
+  egypt_maghreb = {
+    potential = {
+      primary_culture = misri
+      NOT = { accepted_culture = maghrebi }
+    }
+    allow = {
+      owns = 1731
+      owns = 1735
+    }
+    effect = {
+      add_accepted_culture = maghrebi
+      MGH = { all_core = { add_core = THIS } }
+			TUN = { all_core = { add_core = THIS } }
+    }
+  }
+
+  cyrenaica_TUN = {
+    potential = {
+      tag = TUN
+      1735 = { owned_by = THIS }
+      NOT = { has_country_flag = cyr_claim }
+    }
+    allow = {
+      war = no
+    }
+    effect = {
+      EGY_1754 = { add_core = TUN  remove_core = EGY }
+      set_country_flag = cyr_claim
+    }
+  }
+}

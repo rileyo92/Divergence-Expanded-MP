@@ -1,0 +1,522 @@
+political_decisions = {
+		form_russia = {
+			potential = {
+				is_culture_group = east_slavic
+				NOT = {
+					exists = RUS
+				}
+			}
+			allow = {
+				NOT = { war = yes }
+				state_n_government = 1
+				prestige = 40
+				MUS = {
+				all_core = {
+					owner = {
+						OR = {
+							tag = THIS
+							in_sphere = THIS
+							vassal_of = THIS
+						}
+					}
+				}
+				}
+				NOV = {
+				all_core = {
+					owner = {
+						OR = {
+							tag = THIS
+							in_sphere = THIS
+							vassal_of = THIS
+						}
+					}
+				}
+			}
+			}
+			effect = {
+				prestige = 20
+				change_tag = RUS
+				add_accepted_culture = russian
+				add_accepted_culture = novgorodian
+				any_country = {
+					limit = {
+						is_culture_group = east_slavic
+						   OR = {
+						    in_sphere = THIS
+							vassal_of = THIS
+							}
+					}
+					country_event = 11101
+				}
+			}
+	}
+
+	mongolian_protectorate = {
+		potential = {
+			OR = {
+			tag = RUS
+			tag = JAP
+			}
+			is_greater_power = yes
+			MGL = {
+				exists = yes
+				is_vassal = no
+				neighbour = THIS
+				OR = {
+					in_sphere = THIS
+					part_of_sphere = no
+				}
+			}
+			NOT = { has_country_flag = mongolian_protectorate }
+		}
+
+		allow = {
+			war = no
+			nationalism_n_imperialism = 1
+			MGL = {
+				war = no
+				NOT = { truce_with = THIS }
+				in_sphere = THIS
+			}
+		}
+
+		effect = {
+			set_country_flag = mongolian_protectorate
+			MGL = { country_event = 80115 }
+		}
+	}
+
+	#New Russian focus event.
+	set_expansion_focus = {
+			potential = {
+				tag = RUS
+				NOT = {
+						OR = {
+							has_country_flag = baltic_focus
+							has_country_flag = panslavic_focus
+							has_country_flag = southern_focus
+					}
+				}
+			}
+			allow = {
+
+			}
+			effect = {
+				prestige = 10
+				badboy = 5
+				country_event = 202201
+			}
+	}
+#Next step: Moving the capital, once all relevant territory is reclaimed.
+	#St. Petersburg will be named after Mikhail I ("Mikhailgrad")
+	move_capital_to_nyenschantz = {
+		potential = {
+			tag = RUS
+			has_country_flag = baltic_focus
+			NOT = { has_country_flag = RUS_moved_capital }
+		}
+
+		#Must control all of Estonia and Karelia
+		allow = {
+			owns = 339
+			owns = 349
+			owns = 994
+		}
+
+		effect = {
+			prestige = 10
+			capital = 994
+			994 = {
+				    life_rating = 5
+				    change_province_name = "Mikhailgrad"
+				    add_province_modifier = {
+				    	name = gateway_to_russia
+						duration = 7300
+	 				}
+			}
+			set_country_flag = RUS_moved_capital
+		}
+	}
+
+	#Rostov retains its name.
+	move_capital_to_rostov = {
+		potential = {
+			tag = RUS
+			has_country_flag = southern_focus
+			NOT = { has_country_flag = RUS_moved_capital }
+		}
+
+		#Must control Crimea, Luhansk, and Rostov regions
+		allow = {
+			964 = { owned_by = THIS }
+			965 = { owned_by = THIS }
+			980 = { owned_by = THIS }
+			979 = { owned_by = THIS }
+			1039 = { owned_by = THIS }
+		}
+		effect = {
+			prestige = 10
+			capital = 979
+			979 = {
+				    life_rating = 5
+				    add_province_modifier = {
+				    	name = gateway_to_russia
+						duration = 7300
+	 				}
+			}
+			set_country_flag = RUS_moved_capital
+		}
+	}
+
+#Once you've moved the capital and picked up some tech, you can start accepting cultures.
+	integrate_ruthenian_culture = {
+		potential = {
+			tag = RUS
+			has_country_flag = panslavic_focus
+			NOT = { has_country_flag = ruthenian_culture }
+			NOT = { accepted_culture = ruthenian}
+		}
+		#Ruthenes have higher tech requirements and lower capitol movement requirements.
+		allow = {
+			revolution_n_counterrevolution = 1
+			biologism = 1
+		}
+		effect = {
+			prestige = 5
+			add_accepted_culture = ruthenian
+			set_country_flag = ruthenian_culture
+		}
+	}
+
+	integrate_crimean_culture = {
+		potential = {
+			tag = RUS
+			has_country_flag = panslavic_focus
+			NOT = { has_country_flag = crimean_culture }
+			NOT = { accepted_culture = crimean }
+		}
+		#Ruthenes have higher tech requirements and lower capitol movement requirements.
+		allow = {
+			revolution_n_counterrevolution = 1
+			biologism = 1
+		}
+		effect = {
+			prestige = 5
+			add_accepted_culture = crimean
+			set_country_flag = crimean_culture
+		}
+	}
+
+	#Steppe/Caucasus cultures
+	integrate_tatar_culture = {
+		potential = {
+			tag = RUS
+			has_country_flag = southern_focus
+			has_country_flag = RUS_moved_capital
+			NOT = { accepted_culture = tatar}
+			NOT = { has_country_flag = tatar_culture }
+		}
+		#Ruthenes have higher tech requirements and lower capitol movement requirements.
+		allow = {
+			nationalism_n_imperialism = 1
+		}
+		effect = {
+			prestige = 5
+			add_accepted_culture = tatar
+			set_country_flag = tatar_culture
+		}
+	}
+
+	integrate_astrakhani_culture = {
+		potential = {
+			tag = RUS
+			has_country_flag = southern_focus
+			has_country_flag = RUS_moved_capital
+			NOT = { has_country_flag = astrakhan_culture }
+		}
+		allow = {
+			nationalism_n_imperialism = 1
+			biologism = 1
+		}
+		effect = {
+			prestige = 5
+			add_accepted_culture = astrakhani
+			set_country_flag = astrakhan_culture
+		}
+	}
+
+	integrate_georgian_culture = {
+		potential = {
+			tag = RUS
+			has_country_flag = southern_focus
+			has_country_flag = RUS_moved_capital
+			NOT = { accepted_culture = georgian}
+			NOT = { has_country_flag = georgian_culture }
+		}
+		allow = {
+			revolution_n_counterrevolution = 1
+			biologism = 1
+		}
+		effect = {
+			prestige = 5
+			add_accepted_culture = georgian
+			add_accepted_culture = ossetian
+			set_country_flag = georgian_culture
+		}
+	}
+
+	integrate_armenian_culture = {
+		potential = {
+			tag = RUS
+			has_country_flag = southern_focus
+			has_country_flag = RUS_moved_capital
+			NOT = { accepted_culture = armenian }
+			NOT = { has_country_flag = armenian_culture }
+		}
+		allow = {
+			revolution_n_counterrevolution = 1
+			biologism = 1
+		}
+		effect = {
+			prestige = 5
+			add_accepted_culture = armenian
+			set_country_flag = armenian_culture
+		}
+	}
+
+	integrate_kazakh_culture = {
+		potential = {
+			tag = RUS
+			has_country_flag = southern_focus
+			has_country_flag = RUS_moved_capital
+			NOT = { accepted_culture = kazak }
+			NOT = { has_country_flag = kazakh_culture }
+		}
+		#Ruthenes have higher tech requirements and lower capitol movement requirements.
+		allow = {
+			nationalism_n_imperialism = 1
+		}
+		effect = {
+			prestige = 5
+			add_accepted_culture = kazak
+			set_country_flag = kazakh_culture
+		}
+	}
+
+	#Baltic cultures
+	integrate_estonian_culture = {
+		potential = {
+			tag = RUS
+			has_country_flag = baltic_focus
+			has_country_flag = RUS_moved_capital
+			NOT = { accepted_culture = estonian}
+			NOT = { has_country_flag = estonian_culture }
+		}
+		allow = {
+			nationalism_n_imperialism = 1
+		}
+		effect = {
+			prestige = 5
+			add_accepted_culture = estonian
+			set_country_flag = estonian_culture
+		}
+	}
+
+	integrate_latvian_culture = {
+		potential = {
+			tag = RUS
+			has_country_flag = baltic_focus
+			has_country_flag = RUS_moved_capital
+			NOT = { has_country_flag = latvian_culture }
+		}
+		allow = {
+			nationalism_n_imperialism = 1
+		}
+		effect = {
+			prestige = 5
+			add_accepted_culture = latvian
+			set_country_flag = latvian_culture
+		}
+	}
+
+	integrate_finnish_culture = {
+		potential = {
+			tag = RUS
+			has_country_flag = baltic_focus
+			has_country_flag = RUS_moved_capital
+			NOT = { has_country_flag = finnish_culture }
+		}
+		allow = {
+			revolution_n_counterrevolution = 1
+			biologism = 1
+		}
+		effect = {
+			add_accepted_culture = finnish
+			set_country_flag = finnish_culture
+		}
+	}
+
+	integrate_lithuanian_culture = {
+		potential = {
+			tag = RUS
+			has_country_flag = baltic_focus
+			has_country_flag = RUS_moved_capital
+			NOT = { has_country_flag = lithuanian_culture }
+		}
+		allow = {
+			revolution_n_counterrevolution = 1
+			biologism = 1
+		}
+		effect = {
+			add_accepted_culture = lithuanian
+			set_country_flag = lithuanian_culture
+		}
+	}
+
+	integrate_prussian_culture = {
+		potential = {
+			tag = RUS
+			has_country_flag = baltic_focus
+			has_country_flag = RUS_moved_capital
+			NOT = { has_country_flag = prussian_culture }
+		}
+		allow = {
+			revolution_n_counterrevolution = 1
+			biologism = 1
+		}
+		effect = {
+			add_accepted_culture = pomeranian
+			set_country_flag = prussian_culture
+		}
+	}
+
+	moscow_expansion_steppes = {
+	picture = RUS_tsar
+	potential = {
+	tag = MUS
+	NOT = { has_country_flag = steppes_conquest }
+	NOT = { TAR = { exists = yes }}
+	}
+
+	allow = {
+	OR = {
+		AND = {
+		rank = 16
+		NOT = { SCA = { is_greater_power = yes } }
+			}
+		AND = {
+		rank = 16
+		year = 1845
+				}
+		is_greater_power = yes
+			}
+		}
+
+	effect = {
+	set_country_flag = steppes_conquest
+	prestige = 15
+	RUS_1034 = { add_core = THIS }
+	RUS_979 = { add_core = THIS }
+	RUS_980 = { add_core = THIS }
+		}
+
+	}
+
+	annex_ruthenia = {
+
+		potential = {
+		tag = RUS
+		RUT = { exists = yes }
+		}
+
+		allow = {
+		RUT = {	in_sphere = THIS }
+		revolution_n_counterrevolution = 1
+		war = no
+		}
+
+		effect = {
+		inherit = RUT
+		badboy = 6
+		}
+
+	}
+
+	claim_siberia = {
+			potential = {
+				tag = RUS
+				#has_country_flag = livonia
+				NOT = { has_country_flag = siberia }
+			}
+
+			allow = {
+				NOT = { war = yes }
+				is_greater_power = yes
+				#Theoretically, a Pan-Slavic Russia more focused on freeing its cultural kin would be a bit slower to go into Central/East Asia.
+				OR = {
+					nationalism_n_imperialism = 1
+					has_country_flag = RUS_moved_capital
+				}
+			}
+
+			effect = {
+				prestige = 20
+				YKT = { all_core = { add_core = RUS } }
+				RUS_1182 = {
+					add_core = RUS
+				}
+				RUS_1184 = {
+					add_core = RUS
+				}
+				RUS_2685 = {
+					add_core = RUS
+				}
+				RUS_1065 = {
+					add_core = RUS
+				}
+				RUS_1064 = {
+					add_core = RUS
+				}
+				RUS_1469 = {
+					add_core = RUS
+				}
+				RUS_1070 = {
+					add_core = RUS
+				}
+				RUS_2615 = {
+					add_core = RUS
+				}
+				RUS_1075 = {
+					add_core = RUS
+				}
+				RUS_2694 = {
+					add_core = RUS
+				}
+				RUS_2653 = {
+					add_core = RUS
+				}
+				RUS_2621 = {
+					add_core = RUS
+				}
+				RUS_1069 = {
+					add_core = RUS
+				}
+				RUS_1079 = {
+					add_core = RUS
+				}
+				RUS_1072 = {
+					add_core = RUS
+				}
+				RUS_2618 = {
+					add_core = RUS
+				}
+				RUS_1074 = {
+					add_core = RUS
+				}
+				RUS_2590 = {
+					add_core = RUS
+				}
+				set_country_flag = siberia
+			}
+	}
+}

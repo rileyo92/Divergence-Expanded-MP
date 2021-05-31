@@ -1,0 +1,5 @@
+
+colonial = 1
+trade_goods = grain
+terrain = montane_forest
+life_rating = 35

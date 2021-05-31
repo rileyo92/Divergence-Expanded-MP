@@ -1,0 +1,494 @@
+political_decisions = {
+	japanese_korea = {
+    picture = annex_korea
+		potential = {
+			tag = JAP
+			NOT = { has_country_flag = koreaisjapanese }
+			NOT = { has_country_flag = japanese_offer }
+		}
+
+		allow = {
+			NOT = { war = yes }
+			KOR = {
+				all_core = {
+						owned_by = THIS
+				}
+			}
+			state_n_government = 1
+		}
+		effect = {
+			prestige = 10
+			set_country_flag = koreaisjapanese
+			KOR = {
+				all_core = {
+						add_core = THIS
+				}
+			}
+		}
+	}
+
+	japanese_ainu = {
+    picture = unequal_treaty
+		potential = {
+			tag = JAP
+			NOT = { has_country_flag = ainuisjapanese }
+      AIN = {
+          vassal_of = THIS
+          ai = yes
+      }
+		}
+
+		allow = {
+			NOT = { war = yes }
+			state_n_government = 1
+			medicine = 1
+		}
+		effect = {
+			prestige = 3
+			set_country_flag = ainuisjapanese
+			inherit = AIN
+			any_country = {
+			limit = {
+				OR = {
+					capital_scope = { continent = asia }
+					primary_culture = russian
+				}
+			}
+			country_event = 334317
+			}
+		}
+	}
+
+  man_in_the_castle = {
+    picture = high_castle
+		potential = {
+			tag = JAP
+			NOT = { has_country_flag = high_castle }
+			NOT = { has_country_flag = coop_with_qiugqiu }
+      OR = {
+				owns = 1
+				KKN = {
+					vassal_of = THIS
+				}
+			}
+      exists = DNG
+		}
+
+		allow = {
+			NOT = { war = yes }
+			nationalism_n_imperialism = 1
+      is_greater_power = yes
+      DNG = {
+				is_greater_power = no
+				NOT = { total_pops = 6500000 }
+			}
+		}
+
+		effect = {
+			prestige = 10
+			set_country_flag = high_castle
+			KKN = { annex_to = THIS }
+			badboy = 20
+      DNG = { country_event = 334302 }
+	  	casus_belli = {
+				target = DNG
+				type = conquest
+				months = 24
+		 	}
+      war = {
+				target = DNG
+				attacker_goal = {
+					casus_belli = conquest
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+      modifier = {
+				factor = 0
+				average_militancy = 4
+			}
+      modifier = {
+				factor = 0
+				NOT = { badboy = 5 }
+			}
+      modifier = {
+				factor = 0
+				DNG = { rank = 12 }
+			}
+		}
+	}
+
+  annex_hawaii = {
+		potential = {
+			exists = HAW
+			HAW = { ai = yes }
+			rank = 16
+			NOT = { has_country_flag = annexed_hawaii }
+			any_owned_province = { port = yes }
+			OR = {
+				tag = JAP
+				any_owned_province = { continent = oceania }
+				owns = 78
+				owns = 79
+				owns = 81
+				owns = 83
+				owns = 85
+				owns = 84
+				owns = 104
+				owns = 87
+				owns = 89
+				owns = 90
+				owns = 2139
+				owns = 2140
+				owns = 2138
+				owns = 2141
+				owns = 2157
+				owns = 2156
+				owns = 2161
+				owns = 2168
+				owns = 2169
+				owns = 2179
+				owns = 2171
+				owns = 2178
+				owns = 2181
+				owns = 2182
+				owns = 2186
+				owns = 2191
+				owns = 2192
+				owns = 2193
+				owns = 2199
+				owns = 2197
+				owns = 2198
+				owns = 2202
+				owns = 2201
+				owns = 2206
+				owns = 2205
+				owns = 1723
+				owns = 2204
+				owns = 2208
+				owns = 2253
+				owns = 2258
+				owns = 2281
+				owns = 2280
+				owns = 2291
+				owns = 2292
+				owns = 2298
+				owns = 2295
+				owns = 2297
+				owns = 2285
+				owns = 2336
+				owns = 2304
+				owns = 2578
+				owns = 2308
+				owns = 2307
+				owns = 2305
+				owns = 2309
+			}
+			OR = {
+				capital_scope = { continent = north_america }
+				capital_scope = { continent = south_america }
+				capital_scope = { continent = asia }
+				capital_scope = { continent = oceania }
+				any_owned_province = { continent = oceania }
+			}
+		}
+
+		allow = {
+			revolution_n_counterrevolution = 1
+			is_sphere_leader_of = HAW
+		}
+
+		effect = {
+			set_country_flag = annexed_hawaii
+			658 = { trade_goods = coffee }
+			prestige = 2
+			HAW = { civilized = no }
+			inherit = HAW
+			HAW = { civilized = yes }
+		}
+	}
+
+	bonin_administration = {
+		picture = meiji_court
+		potential = {
+			tag = JAP
+			owns = 1654
+			owns = 2525
+			NOT = { has_country_flag = bonin_administration }
+		}
+		allow = {
+			civilized = yes
+			owns = 1654
+			owns = 2525
+		}
+		effect = {
+			prestige = 1
+			1654 = {
+				change_province_name = "Iwo Jima"
+				add_core = THIS
+			}
+			2525 = {
+				add_core = THIS
+				life_rating = 15
+				change_province_name = "Minami Torishima"
+				state_scope = {
+					change_region_name = "Ogasawara"
+				}
+			}
+			set_country_flag = bonin_administration
+		}
+	}
+
+	taiwan_administration = {
+		picture = meiji_court
+		potential = {
+			tag = JAP
+			owns = 1485
+			owns = 2562
+			NOT = { has_country_flag = taiwan_administration }
+		}
+		allow = {
+			civilized = yes
+			owns = 1485
+			owns = 2562
+		}
+		effect = {
+			prestige = 1
+			1485 = {
+				change_province_name = "Taihoku"
+			}
+			2562 = {
+				change_province_name = "Takao"
+				state_scope = {
+					change_region_name = "Takasago"
+				}
+			}
+			set_country_flag = taiwan_administration
+		}
+	}
+
+	cooperation_with_qingqiu = {
+		potential = {
+			tag = JAP
+			exist = DNG
+			NOT = { has_country_flag = high_castle }
+			NOT = { has_country_flag = coop_with_qiugqiu }
+			OR = {
+				owns = 1
+				KKN = {
+					vassal_of = THIS
+				}
+			}
+		}
+		allow = {
+			nationalism_n_imperialism = 1
+		}
+		effect = {
+			badboy = -5
+			prestige = -10
+			set_country_flag = coop_with_qiugqiu
+			KKN = { annex_to = DNG }
+			DNG = {
+				all_core = { add_core = DNG }
+			}
+		}
+	}
+
+	japanese_imperialism_manchuria = {
+		potential = {
+			tag = JAP
+			has_country_flag = koreaisjapanese
+			NOT = { has_country_flag = strike_north }
+			NOT = { has_country_flag = strike_south }
+		}
+		allow = {
+			nationalism_n_imperialism = 1
+		}
+		effect = {
+			badboy = 10
+			MCH = { all_core = { add_core = THIS } }
+			add_accepted_culture = korean
+			set_country_flag = strike_north
+		}
+	}
+
+	japan_invade_china_proper = {
+		potential = {
+			tag = JAP
+			has_country_flag = strike_north
+			NOT = { has_country_flag = into_china_proper }
+		}
+		allow = {
+			MCH = { all_core = { owned_by = THIS } }
+			revolution_n_counterrevolution = 1
+		}
+		effect = {
+			badboy = 10
+			CHI_1 = { add_core = THIS }
+			CHI_1563 = { add_core = THIS }
+			CHI_2 = { add_core = THIS }
+			CHI_1614 = { add_core = THIS }
+			CHI_1618 = { add_core = THIS }
+			add_accepted_culture = manchu
+			set_country_flag = into_china_proper
+		}
+	}
+
+	japan_conquer_china = {
+		potential = {
+			tag = JAP
+			has_country_flag = into_china_proper
+			NOT = { has_country_flag = conquer_china }
+		}
+		allow = {
+			year = 1910
+			rank = 4
+		}
+		effect = {
+			badboy = 25
+			CHI = { all_core = { add_core = THIS } }
+			set_country_flag = conquer_china
+		}
+	}
+
+	japan_asian_superpower = {
+		potential = {
+			tag = JAP
+			has_country_flag = conquer_china
+			NOT = { has_country_flag = asian_superpower }
+		}
+		allow = {
+			year = 1910
+			rank = 1
+		}
+		effect = {
+			badboy = 20
+			add_accepted_culture = beifaren
+			set_country_flag = asian_superpower
+		}
+	}
+
+	japan_conquer_taiwan = {
+		potential = {
+			tag = JAP
+			NOT = { has_country_flag = invade_formosa }
+		}
+		allow = {
+			state_n_government = 1
+		}
+		effect = {
+			badboy = 5
+			CHI_2562 = { add_core = THIS }
+			add_accepted_culture = korean
+			set_country_flag = invade_formosa
+		}
+	}
+
+	japanese_imperialism_christinia = {
+		potential = {
+			tag = JAP
+			has_country_flag = invade_formosa
+			NOT = { has_country_flag = strike_north }
+			NOT = { has_country_flag = strike_south }
+		}
+		allow = {
+			nationalism_n_imperialism = 1
+		}
+		effect = {
+			TON = { all_core = { add_core = THIS } }
+			add_accepted_culture = filipino
+			set_country_flag = strike_south
+		}
+	}
+
+	japanese_co_prosperity_sphere = {
+		potential = {
+			tag = JAP
+			has_country_flag = strike_south
+			NOT = { has_country_flag = co_prosperity }
+		}
+		allow = {
+			revolution_n_counterrevolution = 1
+		}
+		effect = {
+		 badboy = 20
+			NUS = { all_core = { add_core = THIS } }
+			AST_1097 = {
+				add_core = JAP
+			}
+			NET_1451 = {
+				add_core = JAP
+			}
+			AST_2529 = {
+				add_core = JAP
+			}
+			GER_2531 = {
+				add_core = JAP
+			}
+			AST_2534 = {
+				add_core = JAP
+			}
+			AST_2244 = {
+				add_core = JAP
+			}
+			AST_2454 = {
+				add_core = JAP
+			}
+			SPA_2517 = {
+				add_core = JAP
+			}
+			JAP_1654 = {
+				add_core = JAP
+			}
+			AST_2527 = {
+				add_core = JAP
+			}
+			AST_2543 = {
+				add_core = JAP
+			}
+			BRZ_2540 = {
+				add_core = JAP
+			}
+			FRA_1097 = {
+				add_core = JAP
+			}
+			SA_7 = {
+				add_core = JAP
+			}
+			HAW_658 = {
+				add_core = JAP
+			}
+			1499 = { add_core = JAP }
+			GAN = { all_core = { add_core = THIS } }
+			add_accepted_culture = dayak
+			add_accepted_culture = javan
+			add_accepted_culture = moluccan
+			add_accepted_culture = melanesian
+			add_accepted_culture = micronesian
+			add_accepted_culture = polynesian
+			add_accepted_culture = tionghoa
+			set_country_flag = co_prosperity
+		}
+	}
+
+	japan_invade_austral = {
+		potential = {
+			tag = JAP
+			has_country_flag = co_prosperity
+			NOT = { has_country_flag = invade_austral }
+		}
+		allow = {
+			year = 1900
+		}
+		effect = {
+			badboy = 15
+			set_country_flag = invade_austral
+			GAN = { all_core = { add_core = THIS } }
+			AOT = { all_core = { add_core = THIS } }
+			add_accepted_culture = ganguan
+			add_accepted_culture = aborigine
+			add_accepted_culture = maori
+		}
+	}
+}
