@@ -380,7 +380,6 @@ political_decisions = {
 		effect = {
 			badboy = 5
 			CHI_2562 = { add_core = THIS }
-			add_accepted_culture = korean
 			set_country_flag = invade_formosa
 		}
 	}
