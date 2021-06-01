@@ -2944,7 +2944,7 @@ demand_concession_casus_belli = {
 		}
 		OR = {
 			THIS = { NOT = { nationalism_n_imperialism = 1 } }
-			NOT = { has_global_flag = berlin_conference }
+			NOT = { invention = colonial_negotiations }
 			primary_culture = japanese
 			primary_culture = korean
 			primary_culture = persian
@@ -3092,7 +3092,7 @@ demand_concession_NI_casus_belli = {
 			nationalism_n_imperialism = 1
 			NOT = {
 				has_country_modifier = neutrality
-				has_global_flag = berlin_conference
+				invention = colonial_negotiations
 			}
 		}
 		NOT = {
@@ -3223,7 +3223,7 @@ demand_concession_BC_casus_belli = {
 		THIS = {
 			civilized = yes
 			nationalism_n_imperialism = 1
-			has_global_flag = berlin_conference
+			invention = colonial_negotiations
 			NOT = { has_country_modifier = neutrality }
 		}
 		NOT = {
@@ -3613,7 +3613,7 @@ annex_africa = {
 			}
 		  	NOT = { has_country_modifier = neutrality }
 			civilized = yes
-			has_global_flag = berlin_conference
+			invention = colonial_negotiations
 		}
 		NOT = {
 			tag = MOR
@@ -3708,7 +3708,7 @@ annex_africa_full = {
 			}
 		  	NOT = { has_country_modifier = neutrality }
 			civilized = yes
-			has_global_flag = berlin_conference
+			invention = colonial_negotiations
 		}
 		civilized = no
 		NOT = {
@@ -3845,7 +3845,7 @@ establish_protectorate_casus_belli = {
 		}
 		OR = {
 			THIS = { NOT = { nationalism_n_imperialism = 1 } }
-			NOT = { has_global_flag = berlin_conference }
+			NOT = { invention = colonial_negotiations }
 			primary_culture = japanese
 			primary_culture = korean
 			primary_culture = persian
@@ -3911,7 +3911,7 @@ establish_protectorate_NI_casus_belli = {
 			nationalism_n_imperialism = 1
 			NOT = {
 				has_country_modifier = neutrality
-				has_global_flag = berlin_conference
+				invention = colonial_negotiations
 			}
 		}
 		NOT = {
@@ -4020,7 +4020,7 @@ establish_protectorate_BC_casus_belli = {
 		THIS = {
 			civilized = yes
 			nationalism_n_imperialism = 1
-			has_global_flag = berlin_conference
+			invention = colonial_negotiations
 			NOT = { has_country_modifier = neutrality }
 		}
 		NOT = {

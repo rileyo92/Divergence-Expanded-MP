@@ -291,10 +291,7 @@ gas_attack_capability = {
 		}
 	}
 	effect = {
-		artillery = {
-			attack = 1
-			defence = 1
-		}
+		gas_attack = yes
 	}
 }
 gas_defense_capability = {
@@ -319,7 +316,7 @@ gas_defense_capability = {
 		}
 	}
 	effect = {
-		military_tactics = 0.25
+		gas_defense = yes
 	}
 }
 elastic_defense_system = {
