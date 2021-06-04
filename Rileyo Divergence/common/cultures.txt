@@ -1009,7 +1009,7 @@ semitic = {
 		}
 	}
 
-	khaliji = { 
+	khaliji = {
 		color = {140 180 0}
 		first_names = {
 			"Abd Allah" "Abd al-Karim" "Abd al-Malik" "Abd al-Qadir" "Abd al-Rahman" Ahmad Ali
@@ -1844,17 +1844,6 @@ southeast_asian = {
 
 		}
 	}
-	vietnamese = {
-		color = {23 99 12}
-		first_names = { "Nguyen Phuoc" "Ton That" "Noang Cao" "Bui An" Nguyen Truong Tran
-
-		}
-
-		last_names = { "vinh Thuy" Han Tuan "Vinh San" Cuong Khai Nien Than Quang "Trong Hiep" "Mien Lam" "Mien Trinh" "Buu Lan"
-
-		}
-		radicalism = 5
-	}
 }
 
 east_asian = {
@@ -2012,6 +2001,17 @@ chinese = {
 		}
 		last_names = { Hwan Chung Hyong Shinjong Haung Ch'ok Taek Seon Si Jip Guk Mok Bo Yong Sun Gyu Hu
 		}
+	}
+	vietnamese = {
+		color = {23 99 12}
+		first_names = { "Nguyen Phuoc" "Ton That" "Noang Cao" "Bui An" Nguyen Truong Tran
+
+		}
+
+		last_names = { "vinh Thuy" Han Tuan "Vinh San" Cuong Khai Nien Than Quang "Trong Hiep" "Mien Lam" "Mien Trinh" "Buu Lan"
+
+		}
+		radicalism = 5
 	}
 	union = CHI
 }
