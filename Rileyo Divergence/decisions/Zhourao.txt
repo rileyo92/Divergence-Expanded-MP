@@ -89,6 +89,9 @@ political_decisions = {
 			ENG_2513 = {
 				add_core = GAN
 			}
+			AOT_2512 = {
+				add_core = GAN
+			}
 			add_accepted_culture = maori
 			inherit = AOT
 			}
@@ -180,9 +183,6 @@ political_decisions = {
 		HAW_658 = {
 			add_core = GAN
 		}
-		1404 = {
-			add_core = GAN
-		}
 		1678 = {
 			add_core = GAN
 		}
@@ -195,7 +195,7 @@ political_decisions = {
 		1499 = {
 			add_core = GAN
 		}
-		1402 = {
+		KUT_1429 = {
 			add_core = GAN
 		}
 	}

@@ -3,5 +3,4 @@ controller = KKN
 add_core = KKN
 trade_goods = fish
 life_rating = 20
-colonial = 2
 terrain = new_world_montane_tundra
