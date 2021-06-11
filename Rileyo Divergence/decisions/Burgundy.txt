@@ -314,7 +314,6 @@ political_decisions = {
 		effect = {
 			prestige = 20
 			capital = 425
-			remove_accepted_culture = dutch
 			remove_accepted_culture = rheinish
 			add_accepted_culture = french
 			add_accepted_culture = breton
@@ -339,6 +338,7 @@ political_decisions = {
 			NOT = { accepted_culture = provencal }
 			NOT = { OCC = { exists = yes } }
 			NOT = { has_country_flag = occitania_reclaime }
+			NOT = { has_global_flag = burgundy_france }
 		}
 
 		allow = {
@@ -348,74 +348,13 @@ political_decisions = {
 					owned_by = THIS
 				}
 			}
+			add_accepted_culture = provencal
 		}
 
 		effect = {
 			OCC = { all_core = { add_core = THIS } }
 			add_accepted_culture = provencal
 			set_country_flag = occitania_reclaime
-		}
-	}
-
-	savoy_cores_OCC = {
-		potential = {
-			OR = {
-				tag = OCC
-				AND = {
-					tag = FRA
-					has_country_flag = occitania_reclaime
-				}
-			}
-			NOT = { has_global_flag = savoy_cores }
-		}
-		allow = {
-			owns = 466
-		}
-		effect = {
-			SAR_466 = {
-				remove_core = ITA
-				add_core = THIS
-			}
-			set_global_flag = savoy_cores
-		}
-	}
-
-	fra_integrate_anglois = {
-		potential = {
-			tag = FRA
-			NOT = { accepted_culture = anglois }
-		}
-		allow = {
-			OR = {
-				AND = {
-					revolution_n_counterrevolution = 1
-					NOT = { accepted_culture = dutch }
-				}
-				mass_politics = 1
-			}
-		}
-		effect = {
-			add_accepted_culture = anglois
-		}
-	}
-
-	fra_integrate_dutch = {
-		potential = {
-			tag = FRA
-			NOT = { accepted_culture = dutch }
-		}
-		allow = {
-			OR = {
-				AND = {
-					revolution_n_counterrevolution = 1
-					NOT = { accepted_culture = anglois }
-				}
-				mass_politics = 1
-			}
-		}
-		effect = {
-			add_accepted_culture = dutch
-			NET = { all_core = { add_core = THIS } }
 		}
 	}
 
@@ -483,9 +422,7 @@ political_decisions = {
 		effect = {
 			primary_culture = dutch
 			add_accepted_culture = rheinish
-			add_accepted_culture = south_german
 			add_accepted_culture = swiss
-			remove_accepted_culture = burgundian
 			capital = 576
 			badboy = 15
 			any_country = {
@@ -524,7 +461,7 @@ political_decisions = {
 		}
 	}
 
-	crh_reintegrate_burgundy = {
+	crh_integrate_danube = {
 		potential = {
 			tag = CRH
 			NOT = { accepted_culture = burgundian }
@@ -542,9 +479,7 @@ political_decisions = {
 		}
 		effect = {
 			badboy = 7.5
-			add_accepted_culture = burgundian
-			LRR = { annex_to = THIS }
-			LRR = { add_core = THIS }
+			add_accepted_culture = south_german
 		}
 	}
 
