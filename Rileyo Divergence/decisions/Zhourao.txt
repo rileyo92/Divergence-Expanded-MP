@@ -121,10 +121,8 @@ political_decisions = {
 		add_accepted_culture = javan
 		add_accepted_culture = tionghoa
 		add_accepted_culture = dayak
-		add_accepted_culture = filipino
 		add_accepted_culture = micronesian
 		add_accepted_culture = polynesian
-		add_accepted_culture = min
 
 		NET_1419 = {
 			add_core = GAN
