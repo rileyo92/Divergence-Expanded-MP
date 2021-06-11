@@ -1,8 +1,9 @@
 capital = 498
 primary_culture = catalan
 culture = castilian
-culture = south_italian
+culture = basque
 culture = maltese
+culture = south_italian
 religion = catholic
 government = prussian_constitutionalism
 plurality = 0.0
