@@ -240,21 +240,6 @@ political_decisions = {
 		}
 	}
 
-	dnb_following_the_rivers = {
-		potential = {
-			tag = DNB
-			NOT = { has_country_flag = following_the_rivers }
-		}
-		allow = {
-			revolution_n_counterrevolution = 1
-			is_greater_power = yes
-		}
-		effect = {
-			set_country_flag = following_the_rivers
-			country_event = 500101
-		}
-	}
-
 	croatian_compromise = {
 		picture = embrace_minority
 		potential = {
@@ -368,21 +353,6 @@ political_decisions = {
 		}
 		effect = {
 			add_accepted_culture = albanian
-		}
-	}
-
-	hun_integrate_bulgaria = {
-		potential = {
-			tag = HUN
-			NOT = { accepted_culture = bulgarian }
-			accepted_culture = serb
-		}
-		allow = {
-			revolution_n_counterrevolution = 1
-			BUL = { all_core = { owned_by = THIS } }
-		}
-		effect = {
-			add_accepted_culture = bulgarian
 		}
 	}
 
