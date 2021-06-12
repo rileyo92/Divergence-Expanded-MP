@@ -1,4 +1,4 @@
-#As of 2.04 "Africa"
+#As of 1.02M
 #
 #Vinland
 #Belgium Confederacy
@@ -30,9 +30,7 @@
 #Iraq
 #Tehran
 #Korea
-#(Maybe) Any Sub-Saharan African Unciv
 #(Maybe) Dzungar
-#(Maybe) Courland
 #(Maybe) Afghanistan
 #
 #Nations that might be mutually exclusive with one another (Italy):
@@ -43,14 +41,10 @@
 #Venice
 #Etrutia
 #Papal States
-#Provence
 #
 #Nations that might be mutually exclusive with one another (Germany):
 #
 #Hanover
-#Thuringia
-#East Frisia
-#Munster
 #Bavaria
 #Württemberg
 #Switzerland
@@ -72,10 +66,4 @@
 #Thailand
 #Khmer
 #Champa
-#
-#Nations that might be mutually exclusive with one another (Indonesia) (Maybe):
-#
-#Java
-#Aceh
-#Lanfang
 #
