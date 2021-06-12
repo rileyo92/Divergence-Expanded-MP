@@ -53,10 +53,6 @@ political_decisions = {
   dutch_boer_septiman_union = {
     potential = {
       tag = NET
-      OR = {
-        has_country_flag = septiman_netherlands
-        has_country_flag = boer_netherlands
-      }
     }
     allow = {
       revolution_n_counterrevolution = 1
