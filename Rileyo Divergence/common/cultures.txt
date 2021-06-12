@@ -1754,6 +1754,17 @@ austronesian = {
 southeast_asian = {
 	leader = asian
 	unit = AsianGC
+	vietnamese = {
+		color = {23 99 12}
+		first_names = { "Nguyen Phuoc" "Ton That" "Noang Cao" "Bui An" Nguyen Truong Tran
+
+		}
+
+		last_names = { "vinh Thuy" Han Tuan "Vinh San" Cuong Khai Nien Than Quang "Trong Hiep" "Mien Lam" "Mien Trinh" "Buu Lan"
+
+		}
+		radicalism = 5
+	}
 	dayak = {
 		color = {0 35 65}
 		first_names = { Shahabuddin Randa Riayat Abdullah Jaafar Safiuddin Muhammad Ali Al-Mukammal Ismail Muabidin Tuanku Yusuf Idris Jalil Isandar Aziz
@@ -1849,6 +1860,13 @@ southeast_asian = {
 east_asian = {
 	leader = asian
 	unit = ChineseGC
+	korean = {
+		color = {87 89 25}
+		first_names = { Yi Jo Bak Yun Sim Kim Hong Seo Jeong Kwon Han
+		}
+		last_names = { Hwan Chung Hyong Shinjong Haung Ch'ok Taek Seon Si Jip Guk Mok Bo Yong Sun Gyu Hu
+		}
+	}
 	japanese = {
 		color = {230 230 230}
 		first_names = {
@@ -1994,24 +2012,6 @@ chinese = {
 		}
 		last_names = { Zhao Wu Sun Ma Hu Peng Dong Ye L Tian Jiang Wei Ting Shen Fang Jin Qiu
 		}
-	}
-	korean = {
-		color = {87 89 25}
-		first_names = { Yi Jo Bak Yun Sim Kim Hong Seo Jeong Kwon Han
-		}
-		last_names = { Hwan Chung Hyong Shinjong Haung Ch'ok Taek Seon Si Jip Guk Mok Bo Yong Sun Gyu Hu
-		}
-	}
-	vietnamese = {
-		color = {23 99 12}
-		first_names = { "Nguyen Phuoc" "Ton That" "Noang Cao" "Bui An" Nguyen Truong Tran
-
-		}
-
-		last_names = { "vinh Thuy" Han Tuan "Vinh San" Cuong Khai Nien Than Quang "Trong Hiep" "Mien Lam" "Mien Trinh" "Buu Lan"
-
-		}
-		radicalism = 5
 	}
 	union = CHI
 }
