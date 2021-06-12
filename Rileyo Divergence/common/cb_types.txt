@@ -2660,7 +2660,14 @@ china_acquire_state = {
 			is_culture_group = chinese
 		}
 		THIS = {
-			is_culture_group = chinese
+			OR = {
+				is_culture_group = chinese
+				primary_culture = vietnamese
+				primary_culture = korean
+				primary_culture = tibetan
+				primary_culture = mongol
+				primary_culture = oirat
+			}
 			NOT = {
 				has_country_modifier = neutrality
 				war_policy = pacifism
@@ -2736,7 +2743,14 @@ china_conquest = {
 			is_culture_group = chinese
 		}
 		THIS = {
-			is_culture_group = chinese
+			OR = {
+				is_culture_group = chinese
+				primary_culture = vietnamese
+				primary_culture = korean
+				primary_culture = tibetan
+				primary_culture = mongol
+				primary_culture = oirat
+			}
 			NOT = {
 				has_country_modifier = neutrality
 				war_policy = pacifism
