@@ -461,7 +461,6 @@ political_decisions = {
 			1499 = { add_core = JAP }
 			GAN = { all_core = { add_core = THIS } }
 			add_accepted_culture = dayak
-			add_accepted_culture = javan
 			add_accepted_culture = moluccan
 			add_accepted_culture = melanesian
 			add_accepted_culture = micronesian
@@ -485,9 +484,6 @@ political_decisions = {
 			set_country_flag = invade_austral
 			GAN = { all_core = { add_core = THIS } }
 			AOT = { all_core = { add_core = THIS } }
-			add_accepted_culture = ganguan
-			add_accepted_culture = aborigine
-			add_accepted_culture = maori
 		}
 	}
 }
