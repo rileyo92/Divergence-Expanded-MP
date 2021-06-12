@@ -2770,7 +2770,7 @@ china_acquire_state_2 = {
 	months = 12
 	crisis = no
 
-	badboy_factor = 1.2
+	badboy_factor = 0.6
 	prestige_factor = 1
 	peace_cost_factor = 1
 	penalty_factor = 1
