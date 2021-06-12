@@ -234,7 +234,6 @@ political_decisions = {
       SAX_558 = { add_core = THIS }	#Saxony
       add_accepted_culture = north_german
       add_accepted_culture = pomeranian
-      remove_accepted_culture = scottish
       SCO = { all_core = { remove_core = THIS } }
 			any_country = {
 				limit = {
@@ -272,10 +271,6 @@ political_decisions = {
       primary_culture = icelandic
 			add_accepted_culture = scandinavian
       add_accepted_culture = english
-      remove_accepted_culture = finnish
-      remove_accepted_culture = estonian
-      remove_accepted_culture = latvian
-      remove_accepted_culture = lithuanian
 			ENL = { all_core = { add_core = THIS } }
       EST = { all_core = { remove_core = THIS } }
       LAT = { all_core = { remove_core = THIS } }
@@ -312,21 +307,6 @@ political_decisions = {
     effect = {
       prestige = 10
       add_accepted_culture = irish
-    }
-  }
-
-  integrate_anglois_sca = {
-    potential = {
-      tag = SCA
-      has_country_flag = north_sea_empire
-      NOT = { accepted_culture = anglois }
-    }
-    allow = {
-      mass_politics = 1
-    }
-    effect = {
-      prestige = 10
-      add_accepted_culture = anglois
     }
   }
 
@@ -399,7 +379,6 @@ political_decisions = {
       set_country_flag = sca_arctic_route
       add_accepted_culture = novgorodian
       add_accepted_culture = ugrian
-      remove_accepted_culture = pomeranian
       RUS_994 = { add_core = THIS }
       RUS_1003 = { add_core = THIS }
       RUS_339 = { add_core = THIS }
@@ -422,6 +401,7 @@ political_decisions = {
 			}
     }
   }
+
   sca_claim_vinland = {
     potential = {
       tag = SCA
