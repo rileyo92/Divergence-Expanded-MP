@@ -225,20 +225,6 @@ political_decisions = {
 		}
 	}
 
-	tanzimat_reforms_3 = {
-		potential = {
-			tag = TUR
-			has_country_flag = tur_balkans
-			NOT = { accepted_culture = hungarian }
-		}
-		allow = {
-			mass_politics = 1
-		}
-		effect = {
-			add_accepted_culture = hungarian
-		}
-	}
-
 	#Arabia focus
 	reclaim_kurdistan = {
 		potential = {
