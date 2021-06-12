@@ -623,7 +623,6 @@ political_decisions = {
 		effect = {
 			set_country_flag = latin_empire_ita
 			add_accepted_culture = catalan
-			add_accepted_culture = provencal
 			CAT = {
 				all_core = { add_core = ITA }
 			}
@@ -672,7 +671,7 @@ political_decisions = {
 			BOS_783 = { add_core = ITA }
 		}
 	}
-	
+
 	savoy_cores_ITA = {
 		potential = {
 			tag = ITA
