@@ -147,12 +147,6 @@ political_decisions = {
 		SPA_1463 = {
 			add_core = GAN
 		}
-		SPA_1459 = {
-			add_core = GAN
-		}
-		SPA_1455 = {
-			add_core = GAN
-		}
 		CHI_2562 = {
 			add_core = GAN
 		}
@@ -180,16 +174,7 @@ political_decisions = {
 		HAW_658 = {
 			add_core = GAN
 		}
-		1678 = {
-			add_core = GAN
-		}
-		1679 = {
-			add_core = GAN
-		}
 		2285 = {
-			add_core = GAN
-		}
-		1499 = {
 			add_core = GAN
 		}
 		KUT_1429 = {

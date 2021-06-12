@@ -320,7 +320,6 @@ political_decisions = {
 			any_owned = {
 	      limit = {
 					OR = {
-	        	is_core = NET
 						is_core = GER
 					}
 	      }
@@ -421,6 +420,7 @@ political_decisions = {
 		}
 		effect = {
 			primary_culture = dutch
+			add_accepted_culture = burgundian
 			add_accepted_culture = rheinish
 			add_accepted_culture = swiss
 			capital = 576
@@ -442,20 +442,16 @@ political_decisions = {
 				}
 				annex_to = THIS
 			}
-			BRG = { all_core = { remove_core = BRG } }
 			any_owned = {
 				limit = {
 					OR = {
-						is_core = NET
-						is_core = FLA
-						is_core = WLL
+						is_core = BRG
 						is_core = GER
-						is_core = RHI
-						is_core = LUX
 					}
 				}
 				add_core = CRH
 			}
+			BRG = { all_core = { remove_core = BRG } }
 			change_tag = CRH
 			set_global_flag = confed_of_rhine_formed
 		}

@@ -1,0 +1,51 @@
+#Current Changes (Post-Fork):
+#
+# 1.01
+#
+#Removed Guarenteed 4/4 generals
+#Rebalance general traits by removing a bunch of them
+#Japan no longer gets korean accepted with pacific route
+#Fix to late-game demand concession and extablish Protectorate CB's
+#Removed Arcadia Development decisions
+#Gas Attack now back to Vanilla
+#
+# 1.02
+#
+#The following nations have had their unique decisions removed:
+#Syria, Kurdistan, African Uncivs (NOT Ethiopia or Egypt), Kurland/New Kurland, Provence, Finland, Assyria, Nepal, Rajputana, Central Asia, Lithuania, Livonia, Rohnnst
+#Zhorauo/New Zealand Life ratings Buffed
+#Kita Kaigan now starts fully stated
+#Austral Destiny now gives Tiongha accepted instead of aborigine
+#Greater Austral Destiny no longer gives Yue, Filipino accepted
+#Greater Austral Destiny no longer gives cores on Taiwan, Okinawa and Northern Philippines
+#Decision for Qinqiu, Zhourao and Lanfang to get cores and accepted on each other removed
+#Arabian decision to get cores on Ethiopia removed
+#Aragon now starts with Basque Accepted
+#Mob size bonus for Balkan and German countries reduced from 5% to 2%, is completely removed in 1855
+#Burgundy decision to form France no longer removes Dutch accepted
+#France formed by Burgundy can no longer get Provencal or Anglois accepted
+#Confed of Rhine decision no longer removes Burgundian accepted, no longer adds Danubian accepted
+#Decision that previously gave Confed of Rhine Burgundian accepted now gives Danubian accepted
+#DM education decisions removed
+#DM French path no longer gives Burgundian accepted
+#DM English path no longer gives Beornian accepted
+#DM French and English Paths can no longer get each other accepted in 1900
+#HRE removed completely
+#Danubian Confed no longer gets the decision/event to get either Rheinish, Bohemian or South Slavic cores and accepted pops
+#Hungary Balkan route no longer gives Bulgarian Accepted
+#Italian Latin Empire (NOT Aragon-Italy) no longer gives Provencal accepted
+#Japanese Co-Prosperity Sphere decision no longer gives Javan Accepted
+#Japan Invade Zhourao no longer gives accepted cultures
+#Monument destruction decisions removed
+#Netherlands can now do Boer-septiman-netherlands Union without the requirement of being Belgium Confed or Batavia beforehand
+#Jagiellonian decision path for all countries removed
+#Russian Southern Path no longer gets Kazakh accepted
+#Scandinavian Paths no longer remove accepted cultures
+#Scandi British Path can no Longer get Anglois accepted
+#Deleted bunch of Transcaucasia decisions
+#Zapaoslavia no longer removes accepted cultures
+#Zapaoslavia can no longer get Elbian or Ruthenian Accepted
+#Overseas China unite cb infamy reduced from 6 to 3
+#Forming France as Burgundy no longer removes cores on Netherlands
+#Forming Confed of Rhine no longer removes cores on Burgundy
+#Japanese Co-Prosperity sphere decision no longer gives cores on Malacca, Sumatra and Zhourao

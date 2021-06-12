@@ -412,7 +412,13 @@ political_decisions = {
 		}
 		effect = {
 		 badboy = 20
-			NUS = { all_core = { add_core = THIS } }
+		 	JAV = { all_core = { add_core = THIS } }
+			BAL = { all_core = { add_core = THIS } }
+			MKS = { all_core = { add_core = THIS } }
+			KUT_1429 = { add_core = JAP }
+			NET_1426 = { add_core = JAP }
+			BRU_1394 = { add_core = JAP }
+			NET_1423 = { add_core = JAP }
 			AST_1097 = {
 				add_core = JAP
 			}
@@ -426,9 +432,6 @@ political_decisions = {
 				add_core = JAP
 			}
 			AST_2534 = {
-				add_core = JAP
-			}
-			AST_2244 = {
 				add_core = JAP
 			}
 			AST_2454 = {
@@ -459,7 +462,6 @@ political_decisions = {
 				add_core = JAP
 			}
 			1499 = { add_core = JAP }
-			GAN = { all_core = { add_core = THIS } }
 			add_accepted_culture = dayak
 			add_accepted_culture = moluccan
 			add_accepted_culture = melanesian
