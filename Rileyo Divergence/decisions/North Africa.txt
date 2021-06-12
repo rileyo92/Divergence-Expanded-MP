@@ -51,19 +51,4 @@ political_decisions = {
 			TUN = { all_core = { add_core = THIS } }
     }
   }
-
-  cyrenaica_TUN = {
-    potential = {
-      tag = TUN
-      1735 = { owned_by = THIS }
-      NOT = { has_country_flag = cyr_claim }
-    }
-    allow = {
-      war = no
-    }
-    effect = {
-      EGY_1754 = { add_core = TUN  remove_core = EGY }
-      set_country_flag = cyr_claim
-    }
-  }
 }
