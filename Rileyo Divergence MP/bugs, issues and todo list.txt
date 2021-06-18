@@ -9,6 +9,13 @@
 #
 #Look at making fascist and communist governments for interesting to play mechanically (current thoughts are giving Facists countries buffs to assimilation and extra cores but lose Accepted pops, Communists get cheaper Wargoals relating to creating a Communist block)
 #
+#Remerge Flemish and Dutch Culture
+#Create Events for Scandi which trigger if he chooses an expansion path and loses land in certain places which makes you lose accepted pop
+#Clean up China CB's again probably
+#Clean up useless files from HPM/PDM Ports
+#Clean up liferating issues across globe
+#Add liferating to regional capitals
+#
 #Rework CB's and Infamy:
 #Set infamy decay at 0.2 at peace, 0.04 at war
 #Starting infamy decay bonus to always last for first 10 years only
