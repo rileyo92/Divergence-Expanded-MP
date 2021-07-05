@@ -740,16 +740,6 @@ west_slavic = {
 		Taczaneowski Traugutt Wawrzecki Wieniawa-Dlugoszowski Wybicki Wysocki Zajaczek Zaluski Zamoyski Zeligowski }
 		radicalism = 10
 	}
-	ruthenian = {
-		color = {130 150 85}
-                first_names = { Alexei Andrei Anton Arkadiy Borys Dmitro Fyodor Hryhoriy Ivan Lavr Leonid Lev
-                Mikhail Mykola Nikita  Oleksandr Pavel Petro Roman Semyon Sergiy Valeriy
-                Viktor Volodimir Vladislav Yuriy }
-
-                last_names = { Bezruchko Chernyakhovsky Dyachenko Gamula Grigoriev Hrekov Ivanenko Ivanov
-                Kapustiansky Kondratenko Leshchenko Leshchinskiy "Omelianovych-Pavlenko"
-                Paskevich Petliura Radchenko Shevchenko Skoropadskyi Stefaniv Tymoshenko Vitovsky }
-    }
 	union = PLC
 }
 
@@ -823,6 +813,16 @@ east_slavic = {
 		first_names = { Aleksandr Dmitri Ivan Jukka Santeri Vladimir }
 		last_names = { Kokko Likhachev Mamin Minin Sibiriak  Tikhanov Zubov }
 	}
+	ruthenian = {
+		color = {130 150 85}
+                first_names = { Alexei Andrei Anton Arkadiy Borys Dmitro Fyodor Hryhoriy Ivan Lavr Leonid Lev
+                Mikhail Mykola Nikita  Oleksandr Pavel Petro Roman Semyon Sergiy Valeriy
+                Viktor Volodimir Vladislav Yuriy }
+
+                last_names = { Bezruchko Chernyakhovsky Dyachenko Gamula Grigoriev Hrekov Ivanenko Ivanov
+                Kapustiansky Kondratenko Leshchenko Leshchinskiy "Omelianovych-Pavlenko"
+                Paskevich Petliura Radchenko Shevchenko Skoropadskyi Stefaniv Tymoshenko Vitovsky }
+    }
 	union = RUS
 }
 
