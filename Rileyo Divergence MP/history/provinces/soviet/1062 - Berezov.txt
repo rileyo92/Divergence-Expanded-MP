@@ -4,4 +4,4 @@ add_core = SIB
 add_core = RUS
 trade_goods = iron
 terrain = boreal
-life_rating = 15
+life_rating = 35

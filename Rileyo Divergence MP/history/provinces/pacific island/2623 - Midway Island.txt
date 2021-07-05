@@ -2,5 +2,5 @@ owner = HAW
 controller = HAW
 add_core = HAW
 trade_goods = fish
-life_rating = 10
+life_rating = 30
 terrain = coral_island

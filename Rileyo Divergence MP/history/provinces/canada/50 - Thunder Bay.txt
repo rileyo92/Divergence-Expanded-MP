@@ -3,4 +3,4 @@ controller = VIN
 add_core = VIN
 add_core = ANI
 trade_goods = cattle
-life_rating = 30
+life_rating = 35

@@ -4,4 +4,4 @@ add_core = SFJ
 trade_goods = coffee
 naval_base = 1
 colonial = 2
-life_rating = 35
+life_rating = 40

@@ -1,6 +1,6 @@
 owner = SCA
 controller = SCA
 trade_goods = fruit
-life_rating = 35
+life_rating = 30
 colonial = 1
 terrain = small_island

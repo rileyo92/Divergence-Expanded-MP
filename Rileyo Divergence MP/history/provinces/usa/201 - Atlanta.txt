@@ -3,4 +3,4 @@ controller = PLA
 add_core = PLA
 add_core = CHE
 trade_goods = cotton
-life_rating = 35
+life_rating = 40

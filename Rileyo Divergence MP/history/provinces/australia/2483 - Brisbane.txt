@@ -2,4 +2,4 @@ owner = GAN
 controller = GAN
 add_core = GAN
 trade_goods = cattle
-life_rating = 35
+life_rating = 40

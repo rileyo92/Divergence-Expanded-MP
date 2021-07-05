@@ -2,5 +2,5 @@ owner = AIN
 controller = AIN
 add_core = AIN
 trade_goods = grain
-life_rating = 20
+life_rating = 15
 colonial = 1

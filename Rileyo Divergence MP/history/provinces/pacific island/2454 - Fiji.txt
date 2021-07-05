@@ -1,5 +1,5 @@
 owner = TUI
 controller = TUI
 add_core = TUI
-life_rating = 15
+life_rating = 35
 trade_goods = fish

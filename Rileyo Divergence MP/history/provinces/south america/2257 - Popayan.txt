@@ -6,4 +6,4 @@ add_core = INC
 add_core = GRA
 trade_goods = grain
 terrain = montane_forest
-life_rating = 32
+life_rating = 35

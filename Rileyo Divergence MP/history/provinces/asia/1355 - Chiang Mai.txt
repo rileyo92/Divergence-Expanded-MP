@@ -4,4 +4,4 @@ add_core = SIA
 add_core = CAM
 add_core = SHA
 trade_goods = opium
-life_rating = 32
+life_rating = 35

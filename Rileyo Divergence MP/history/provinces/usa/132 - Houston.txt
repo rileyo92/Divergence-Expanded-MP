@@ -5,11 +5,11 @@ add_core = LST
 add_core = PLA
 naval_base = 1
 trade_goods = cattle
-life_rating = 35
+life_rating = 40
 
 1835.1.1 = {
 	controller = SPA
-} 
+}
 
 1837.1.1 = {
 	controller = CLM

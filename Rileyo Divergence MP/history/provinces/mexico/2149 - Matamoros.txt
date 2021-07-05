@@ -5,4 +5,4 @@ add_core = AZT
 add_core = MEX
 terrain = new_world_semidesert
 trade_goods = cattle
-life_rating = 30
+life_rating = 35

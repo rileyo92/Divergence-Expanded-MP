@@ -3,4 +3,4 @@ controller = AJU
 add_core = AJU
 trade_goods = cattle
 terrain = savanna
-life_rating = 35
+life_rating = 40

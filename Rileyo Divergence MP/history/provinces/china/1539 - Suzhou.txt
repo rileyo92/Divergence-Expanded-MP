@@ -1,13 +1,8 @@
 owner = MIG
-controller = MIG   
-add_core = MIG  
+controller = MIG
+add_core = MIG
 add_core = TNG
 add_core = CHI
 add_core = HUI
 trade_goods = silk
-life_rating = 32
-1861.1.1 = {
-	owner = TPG
-	controller = TPG
-	add_core = TPG
-}
+life_rating = 31

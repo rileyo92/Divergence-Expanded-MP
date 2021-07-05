@@ -3,9 +3,5 @@ controller = SPA
 add_core = ZAN
 trade_goods = fish
 terrain = savanna
-life_rating = 35
+life_rating = 40
 colonial = 1
-1861.1.1 = {
-	owner = ZAN
-	controller = ZAN
-}

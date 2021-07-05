@@ -5,9 +5,5 @@ add_core = ITA
 add_core = SIC
 add_core = SYC
 trade_goods = fish
-life_rating = 35
-1861.1.1 = {
-	controller = ITA
-	owner = ITA
-	naval_base = 1
-}
+naval_base = 2
+life_rating = 40

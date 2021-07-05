@@ -1,11 +1,7 @@
 owner = JAP
-controller = JAP 
+controller = JAP
 add_core = JAP
 add_core = AIN
 trade_goods = fish
-life_rating = 15
+life_rating = 30
 terrain = mountain
-1861.1.1 = {
-	owner = TKG
-	controller = TKG
-}

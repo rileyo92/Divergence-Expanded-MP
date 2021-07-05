@@ -4,4 +4,4 @@ add_core = CRI
 add_core = RUT
 add_core = TAR
 trade_goods = fish
-life_rating = 40
+life_rating = 35

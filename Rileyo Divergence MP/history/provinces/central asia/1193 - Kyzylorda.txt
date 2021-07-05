@@ -4,4 +4,4 @@ add_core = CHG
 add_core = UZB
 add_core = KZH
 trade_goods = coal
-life_rating = 30
+life_rating = 35

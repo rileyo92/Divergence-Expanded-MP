@@ -4,7 +4,7 @@ add_core = CLM
 add_core = LST
 add_core = PLA
 trade_goods = cattle
-life_rating = 35
+life_rating = 40
 fort = 1 #Remember the Alamo!
 
 1835.1.1 = {

@@ -4,10 +4,9 @@ add_core = BRG
 add_core = LRR
 add_core = RHI
 trade_goods = grain
-life_rating = 33
-1861.1.1 = { railroad = 3 }
+life_rating = 40
 state_building = {
-	level = 2 
+	level = 2
 	building = steel_factory
 	upgrade = yes
 }

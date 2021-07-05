@@ -5,4 +5,4 @@ add_core = DAI
 add_core = GNG
 add_core = GXI
 trade_goods = fish
-life_rating = 32
+life_rating = 31

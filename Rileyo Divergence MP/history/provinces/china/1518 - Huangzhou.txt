@@ -4,4 +4,4 @@ add_core = TAI
 add_core = MIG
 add_core = CHI
 trade_goods = tea
-life_rating = 32
+life_rating = 31

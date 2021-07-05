@@ -4,12 +4,11 @@ add_core = CLM
 add_core = PNM
 add_core = UCA
 trade_goods = fruit
-life_rating = 31
-1861.1.1 = { railroad = 2 }
+life_rating = 35
 
 1835.1.1 = {
 	controller = SPA
-} 
+}
 
 1837.1.1 = {
 	controller = CLM

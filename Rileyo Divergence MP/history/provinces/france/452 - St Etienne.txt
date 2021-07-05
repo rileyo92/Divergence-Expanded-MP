@@ -5,7 +5,7 @@ add_core = PRV
 add_core = OCC
 add_core = ARP
 trade_goods = coal
-life_rating = 32
+life_rating = 35
 railroad = 1
 state_building = {
 	level = 1
@@ -17,4 +17,3 @@ state_building = {
 	building = steel_factory
 	upgrade = yes
 }
-1861.1.1 = { railroad = 2 }

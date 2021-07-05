@@ -1,6 +1,6 @@
 owner = CHG
-controller = CHG   
+controller = CHG
 add_core = CHG
 add_core = UGH
 trade_goods = cotton
-life_rating = 32
+life_rating = 35

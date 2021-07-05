@@ -2,4 +2,4 @@ owner = KNG
 controller = KNG
 add_core = KNG
 trade_goods = cattle
-life_rating = 10
+life_rating = 35

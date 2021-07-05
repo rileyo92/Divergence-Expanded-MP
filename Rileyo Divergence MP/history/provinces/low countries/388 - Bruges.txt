@@ -3,7 +3,5 @@ controller = BRG
 add_core = BRG
 add_core = FLA
 trade_goods = grain
-life_rating = 35
-naval_base = 1
-1861.1.1 = { railroad = 3 }
-1861.1.1 = { remove_core = NET }
+life_rating = 40
+naval_base = 2

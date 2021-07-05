@@ -6,10 +6,10 @@ add_core = SAN
 add_core = GRA
 add_core = TAP
 trade_goods = fruit
-life_rating = 31
+life_rating = 35
 1835.1.1 = {
 	controller = SPA
-} 
+}
 
 1837.1.1 = {
 	controller = CLM

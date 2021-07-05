@@ -2,4 +2,4 @@ owner = CAM
 controller = CAM
 add_core = CAM
 trade_goods = grain
-life_rating = 37
+life_rating = 35

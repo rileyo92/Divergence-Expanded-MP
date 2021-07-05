@@ -3,4 +3,4 @@ controller = BRU
 add_core = BRU
 add_core = NUS
 trade_goods = coal
-life_rating = 30
+life_rating = 35

@@ -2,5 +2,5 @@ owner = VEN
 controller = VEN
 add_core = ASH
 trade_goods = fish
-life_rating = 10
+life_rating = 40
 colonial = 1

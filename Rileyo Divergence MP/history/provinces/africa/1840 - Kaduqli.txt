@@ -4,4 +4,4 @@ add_core = DAR
 add_core = FUN
 trade_goods = wool
 terrain = semidesert
-life_rating = 32
+life_rating = 35

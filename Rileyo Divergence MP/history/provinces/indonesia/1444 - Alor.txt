@@ -3,9 +3,5 @@ controller = DUA
 add_core = BAL
 add_core = NUS
 trade_goods = tropical_wood
-life_rating = 30
+life_rating = 35
 colonial = 1
-1861.1.1 = {
-	owner = NET
-	controller = NET
-}

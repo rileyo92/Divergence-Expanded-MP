@@ -3,5 +3,5 @@ controller = SCA
 add_core = MKS
 add_core = NUS
 trade_goods = dye
-life_rating = 32
+life_rating = 35
 colonial = 1

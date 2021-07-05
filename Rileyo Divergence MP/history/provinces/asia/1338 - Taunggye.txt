@@ -3,4 +3,4 @@ controller = BUR
 add_core = BUR
 add_core = SHA
 trade_goods = opium
-life_rating = 32
+life_rating = 35

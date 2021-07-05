@@ -4,4 +4,4 @@ add_core = PRV
 add_core = OCC
 add_core = ARP
 trade_goods = silk
-life_rating = 31
+life_rating = 35

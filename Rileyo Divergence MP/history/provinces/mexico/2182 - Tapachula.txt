@@ -6,9 +6,4 @@ add_core = MEX
 add_core = ELS
 add_core = UCA
 trade_goods = cotton
-life_rating = 30
-1861.1.1 = {
-	owner = MEX
-	controller = MEX
-	remove_core = UCA
-}
+life_rating = 35

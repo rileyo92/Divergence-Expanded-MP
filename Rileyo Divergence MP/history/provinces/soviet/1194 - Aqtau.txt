@@ -5,4 +5,4 @@ add_core = KZH
 add_core = TAR
 terrain = semidesert
 trade_goods = fish
-life_rating = 25
+life_rating = 35

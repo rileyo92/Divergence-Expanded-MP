@@ -3,4 +3,4 @@ controller = LOM
 add_core = LOM
 add_core = ITA
 trade_goods = wool
-life_rating = 32
+life_rating = 35

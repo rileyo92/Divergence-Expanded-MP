@@ -2,9 +2,5 @@ owner = SPA
 controller = SPA
 colonial = 1
 trade_goods = fish
-life_rating = 15
+life_rating = 30
 terrain = coral_island
-1861.1.1 = {
-	owner = ENG
-	controller = ENG
-}

@@ -5,4 +5,4 @@ add_core = DRA
 #add_core = VIJ
 add_core = TRA
 trade_goods = fish
-life_rating = 32
+life_rating = 40

@@ -4,6 +4,5 @@ add_core = BRG
 add_core = GNV
 add_core = ARP
 trade_goods = grain
-life_rating = 33
+life_rating = 40
 fort = 2
-1861.1.1 = { railroad = 1 }

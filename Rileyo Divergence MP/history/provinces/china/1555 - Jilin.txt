@@ -3,4 +3,4 @@ controller = MCK
 add_core = MCK
 add_core = MCH
 trade_goods = iron
-life_rating = 32
+life_rating = 31

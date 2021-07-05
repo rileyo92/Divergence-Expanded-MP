@@ -5,4 +5,4 @@ add_core = SAN
 add_core = GRA
 trade_goods = wool
 terrain = montane_forest
-life_rating = 32
+life_rating = 35

@@ -4,4 +4,4 @@ add_core = TUR
 add_core = ARM
 add_core = PNT
 trade_goods = cattle
-life_rating = 35
+life_rating = 40

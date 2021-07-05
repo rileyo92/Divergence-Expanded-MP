@@ -5,4 +5,4 @@ add_core = LST
 add_core = MEX
 terrain = new_world_semidesert
 trade_goods = grain
-life_rating = 30
+life_rating = 35

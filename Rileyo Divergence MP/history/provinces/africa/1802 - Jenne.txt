@@ -4,4 +4,4 @@ add_core = MAL
 add_core = FJA
 trade_goods = grain
 terrain = semidesert
-life_rating = 32
+life_rating = 35
