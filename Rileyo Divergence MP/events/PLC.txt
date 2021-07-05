@@ -29,7 +29,7 @@ country_event = {
 		363 = { add_core = SCA }
 		364 = { add_core = SCA }
 		365 = { add_core = SCA }
-		698 = { add_core = SCA }		
+		698 = { add_core = SCA }
 		947 = { add_core = SCA }
 	}
 
@@ -84,39 +84,40 @@ country_event = {
 		name = "22233.A"
 		prestige = 5
 		RUS_965 = { secede_province = UKR }
+		RUS_965 = { add_core = PLC }
 	}
 	option = {
 		name = "22233.B"
 	}
 }
 
-country_event = { 
+country_event = {
 	id = 22234
 	title = "22234.T"
 	desc = "22234.D"
-	
-	is_triggered_only = yes 
-	
-	option = { 
+
+	is_triggered_only = yes
+
+	option = {
 	name = "22234.A"
-	any_owned = { 
+	any_owned = {
 	limit = { is_core = RUS }
-	secede_province = FROM 
+	secede_province = FROM
 		}
-	PLC = { 
+	PLC = {
 	country_event = 22235
 		}
 	}
 }
 
-country_event = { 
+country_event = {
 	id = 22235
 	title = "22235.T"
 	desc = "22235.D"
-	
-	is_triggered_only = yes 
-	
-	option = { 
+
+	is_triggered_only = yes
+
+	option = {
 	name = "22235.A"
 	relation = { who = RUS value = -150 }
 	casus_belli = {
@@ -126,5 +127,3 @@ country_event = {
 		 }
 	}
 }
-
-	

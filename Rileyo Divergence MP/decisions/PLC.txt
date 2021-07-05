@@ -99,6 +99,7 @@ political_decisions = {
         tag = PLC
   			has_country_flag = lublin_new
   	    NOT = { has_country_flag = treaty_hadiach }
+        NOT = { has_country_flag = wsf_formed }
   		}
   		allow = {
         citizens_rights = all_voting_pops
