@@ -1,271 +1,10 @@
-country_event = {
-	id = 22239
-	title = "22239.T"
-	desc = "22239.D"
-	picture = "News"
-	
-	trigger = {
-		tag = MGH
-		exists = yes
-		year = 1855
-		NOT = { has_global_flag = reb_in_mag }
-	}
-	
-	mean_time_to_happen = {
-		months = 180
-	}
-	
-	option = {
-		name = "22239.A"
-		prestige = 20
-		set_global_flag = reb_in_mag
-		any_country = {
-			limit = {
-				capital_scope = { continent = europe }
-				any_owned_province = { is_core = MGH }
-			}
-			country_event = 22241
-		}
-		any_pop = {
-			militancy = -3
-		}
-		ai_chance = {
-			factor = 100
-		}
-	}
-	
-	option = {
-		name = "22239.B"
-		set_global_flag = reb_in_mag
-		prestige = -10
-		any_pop = {
-			militancy = 3
-		}
-		ai_chance = {
-			factor = 0
-		}
-	}
-}
-
-country_event = {
-	id = 22241
-	title = "22241.T"
-	desc = "22241.D"
-	picture = "maghreb_war"
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = "22241.A"
-		prestige = 5
-		badboy = 3
-		war = {
-			target = MGH
-			attacker_goal = {
-				casus_belli = establish_protectorate_BC_casus_belli
-			}
-			defender_goal = {
-				casus_belli = acquire_all_cores
-			}
-		}
-		any_owned = {
-			limit = {
-				NOT = { is_core = THIS }
-				is_core = MGH
-			}
-			secede_province = MGH
-		}
-		ai_chance = {
-			factor = 100
-		}
-	}
-	
-	option = {
-		name = "22241.B"
-		set_country_flag = end_of_mag
-		prestige = -20
-		any_owned = {
-			limit = {
-				NOT = { is_core = THIS }
-				is_core = MGH
-			}
-			secede_province = MGH
-		}
-		ai_chance = {
-			factor = 0
-		}
-	}
-}
-
-province_event = {
-
-	id = 22242
-
-	title = "22242.T"
-	desc = "22242.D"
-	picture = "boxers"
-
-	trigger = {
-		owner = { ai = yes }
-		owner = { tag = MGH }
-		is_core = MGH
-		OR = {
-			region = ALD_1704
-			region = FRA_1700
-			region = ALD_1708
-		}
-		controller = {
-			owns = 1700
-			capital_scope = { continent = europe }
-			has_global_flag = reb_in_mag
-			NOT = { has_country_flag = end_of_mag }
-		}
-	}
-	
-	mean_time_to_happen = {
-		months = 1
-	}
-	
-	option = {
-		name = "22242.A"
-		controller = {
-			prestige = 1
-			country_event = 22244		
-		}
-	}
-}
-
-province_event = {
-
-	id = 22243
-
-	title = "22243.T"
-	desc = "22243.D"
-	picture = "boxers"
-
-	trigger = {
-		owner = { ai = yes }
-		owner = { tag = MGH }
-		is_core = MGH
-		OR = {
-			region = MOR_1686
-			region = MOR_1688
-			region = MOR_1693
-			region = MOR_1694
-		}
-		controller = {
-			owns = 1686
-			capital_scope = { continent = europe }
-			has_global_flag = reb_in_mag
-			NOT = { has_country_flag = end_of_mag }
-		}
-	}
-	
-	mean_time_to_happen = {
-		months = 1
-	}
-	
-	option = {
-		name = "22243.A"
-		controller = {
-			prestige = 1
-			country_event = 22245		
-		}
-	}
-}
-
-country_event = {
-	id = 22244
-	title = "22244.T"
-	desc = "22244.D"
-	picture = "maghreb_war"
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = "22244.A"
-		MGH = {
-			any_owned = {
-				limit = {
-					controller = { tag = THIS }
-					OR = {
-						region = ALD_1704
-						region = FRA_1700
-						region = ALD_1708
-					}
-				}
-				secede_province = THIS
-			}
-			any_owned = {
-				limit = {
-					controller = { tag = THIS }
-					NOT = {
-						OR = {
-							region = ALD_1704
-							region = FRA_1700
-							region = ALD_1708
-						}
-					}
-				}
-				change_controller = MGH
-			}
-		}
-		ai_chance = {
-			factor = 100
-		}
-	}
-}
-
-country_event = {
-	id = 22245
-	title = "22245.T"
-	desc = "22245.D"
-	picture = "maghreb_war"
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = "22245.A"
-		MGH = {
-			any_owned = {
-				limit = {
-					controller = { tag = THIS }
-					OR = {
-						region = MOR_1686
-						region = MOR_1688
-						region = MOR_1693
-						region = MOR_1694
-					}
-				}
-				secede_province = THIS
-			}
-			any_owned = {
-				limit = {
-					controller = { tag = THIS }
-					NOT = {
-						OR = {
-							region = MOR_1686
-							region = MOR_1688
-							region = MOR_1693
-							region = MOR_1694
-						}
-					}
-				}
-				change_controller = MGH
-			}
-		}
-		ai_chance = {
-			factor = 100
-		}
-	}
-}
 
 country_event = {
 	id = 22246
 	title = "22246.T"
 	desc = "22246.D"
 	picture = "News"
-	
+
 	trigger = {
 		MGH = { exists = no }
 		SPA = { owns = 1686 }
@@ -298,7 +37,7 @@ country_event = {
 					}
 				}
 			}
-		}	
+		}
 		NOT = {
 			has_global_flag = no_division
 			has_country_flag = division_mg
@@ -370,7 +109,7 @@ country_event = {
 	title = "22247.T"
 	desc = "22247.D"
 	picture = "News"
-	
+
 	trigger = {
 		MGH = { exists = no }
 		OR = {
@@ -413,7 +152,7 @@ province_event = {
 	id = 22248
 	title = "22248.T"
 	desc = "22248.D"
-	
+
 	trigger = {
 		OR = {
 			region = MOR_1686
@@ -448,11 +187,11 @@ province_event = {
 			is_core = MOR
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 60
 	}
-	
+
 	option = {
 		name = "22248.A"
 		state_scope = {
@@ -470,7 +209,7 @@ province_event = {
 	id = 22249
 	title = "22249.T"
 	desc = "22249.D"
-	
+
 	trigger = {
 		OR = {
 			region = ALD_1704
@@ -506,11 +245,11 @@ province_event = {
 			is_core = ALD
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 60
 	}
-	
+
 	option = {
 		name = "22249.A"
 		state_scope = {
@@ -528,7 +267,7 @@ province_event = {
 	id = 22251
 	title = "22251.T"
 	desc = "22251.D"
-	
+
 	trigger = {
 		OR = {
 			region = EGY_1754
@@ -558,11 +297,11 @@ province_event = {
 			is_core = LBY
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 60
 	}
-	
+
 	option = {
 		name = "22251.A"
 		state_scope = {
@@ -570,7 +309,7 @@ province_event = {
 				limit = {
 					NOT = { is_core = LBY }
 				}
-				remove_core = TUN 
+				remove_core = TUN
 				add_core = LBY
 			}
 		}
@@ -696,8 +435,8 @@ country_event = {
 				factor = 1.2
 				militancy = 5
 			}
-			
-		}	
+
+		}
 	}
 	option = {
 		name = "22260.B"
@@ -900,8 +639,8 @@ country_event = {
 				factor = 1.2
 				militancy = 5
 			}
-			
-		}	
+
+		}
 	}
 	option = {
 		name = "22261.B"
@@ -987,7 +726,7 @@ province_event = {
 	id = 44345
 	title = "44345.T"
 	desc = "44345.D"
-	
+
 	trigger = {
 		OR = {
 			region = RUS_2621
@@ -1020,11 +759,11 @@ province_event = {
 			is_core = YKT
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 5
 	}
-	
+
 	option = {
 		name = "44345.A"
 		state_scope = {
