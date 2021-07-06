@@ -106,7 +106,7 @@ political_decisions = {
 			MAC = { all_core = { owned_by = TUR } }
 		}
 		effect = {
-			set_country_flag = greece_reclaimed
+			set_country_flag = albania_reclaimed
 			ALB = {
 				all_core = {
 					limit = {
