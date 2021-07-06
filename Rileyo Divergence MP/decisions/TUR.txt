@@ -195,7 +195,7 @@ political_decisions = {
 		potential = {
 			tag = TUR
 			has_country_flag = tur_balkans
-			NOT = { accepted_culture = serb }
+			NOT = { has_country_flag = tanzimat_1 }
 		}
 		allow = {
 			nationalism_n_imperialism = 1
@@ -211,7 +211,7 @@ political_decisions = {
 		potential = {
 			tag = TUR
 			has_country_flag = tur_balkans
-			NOT = { accepted_culture = croat }
+			NOT = { has_country_flag = tanzimat_2 }
 		}
 		allow = {
 			revolution_n_counterrevolution = 1
