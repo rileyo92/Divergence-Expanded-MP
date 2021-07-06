@@ -202,8 +202,8 @@ political_decisions = {
 			biologism = 1
 		}
 		effect = {
-			add_accepted_culture = serb
 			add_accepted_culture = bulgarian
+			add_accepted_culture = albanian
 		}
 	}
 
@@ -218,6 +218,7 @@ political_decisions = {
 			social_science = 1
 		}
 		effect = {
+			add_accepted_culture = serb
 			add_accepted_culture = greek
 			add_accepted_culture = croat
 			add_accepted_culture = romanian
