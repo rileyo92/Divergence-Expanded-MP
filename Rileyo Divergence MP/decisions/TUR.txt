@@ -204,6 +204,7 @@ political_decisions = {
 		effect = {
 			add_accepted_culture = bulgarian
 			add_accepted_culture = albanian
+			set_country_flag = tanzimat_1
 		}
 	}
 
@@ -223,6 +224,7 @@ political_decisions = {
 			add_accepted_culture = croat
 			add_accepted_culture = romanian
 			add_accepted_culture = georgian
+			set_country_flag = tanzimat_2
 		}
 	}
 
