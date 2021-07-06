@@ -497,51 +497,6 @@ background = {
 		reliability = 0.05
 		speed = 0.025
 	}
-	attack_1.1 = {
-		attack = 1
-		reliability = 0.05
-		speed = 0.025
-	}
-	attack_1.1 = {
-		attack = 1
-		reliability = 0.05
-		speed = 0.025
-	}
-	attack_1.1 = {
-		attack = 1
-		reliability = 0.05
-		speed = 0.025
-	}
-	attack_1.1 = {
-		attack = 1
-		reliability = 0.05
-		speed = 0.025
-	}
-	attack_1.1 = {
-		attack = 1
-		reliability = 0.05
-		speed = 0.025
-	}
-	attack_1.1 = {
-		attack = 1
-		reliability = 0.05
-		speed = 0.025
-	}
-	attack_1.1 = {
-		attack = 1
-		reliability = 0.05
-		speed = 0.025
-	}
-	attack_1.1 = {
-		attack = 1
-		reliability = 0.05
-		speed = 0.025
-	}
-	attack_1.1 = {
-		attack = 1
-		reliability = 0.05
-		speed = 0.025
-	}
 	attack_1.2 = {
 		attack = 1
 		reliability = 0.05
