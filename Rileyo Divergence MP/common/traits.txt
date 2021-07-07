@@ -18,86 +18,6 @@ personality = {
 	no_personality = {
 		defence = -3
 	}
-	defence_0.1 = {
-		reliability = 0.05
-		speed = 0.025
-	}
-	defence_0.2 = {
-		reliability = 0.05
-		speed = 0.025
-	}
-	defence_0.3 = {
-		reliability = 0.1
-		speed = 0.05
-	}
-	defence_0.4 = {
-		reliability = 0.1
-		speed = 0.05
-	}
-	defence_0.5 = {
-		speed = 0.1
-	}
-	defence_0.6 = {
-		speed = 0.1
-	}
-	defence_0.7 = {
-		reliability = 0.2
-	}
-	defence_0.8 = {
-		reliability = 0.2
-	}
-	defence_0.9 = {
-		organisation = 0.05
-	}
-	defence_0.10 = {
-		organisation = 0.05
-	}
-	defence_0.11 = {
-		organisation = 0.05
-	}
-	defence_0.12 = {
-		organisation = -0.05
-	}
-	defence_0.13 = {
-		organisation = -0.05
-	}
-	defence_0.14 = {
-		organisation = -0.05
-	}
-	defence_0.15 = {
-		organisation = 0.1
-	}
-	defence_0.16 = {
-		organisation = -0.1
-	}
-	defence_0.17 = {
-		reliability = -0.05
-		speed = -0.025
-	}
-	defence_0.18 = {
-		reliability = -0.05
-		speed = -0.025
-	}
-	defence_0.19 = {
-		reliability = -0.1
-		speed = -0.05
-	}
-	defence_0.20 = {
-		reliability = -0.1
-		speed = -0.05
-	}
-	defence_0.21 = {
-		reliability = -0.2
-	}
-	defence_0.22 = {
-		reliability = -0.2
-	}
-	defence_0.23 = {
-		speed = -0.1
-	}
-	defence_0.24 = {
-		speed = -0.1
-	}
 	defence_1.1 = {
 		defence = 1
 		reliability = 0.05
@@ -406,91 +326,91 @@ personality = {
 		defence = -5
 		reliability = -0.25
 	}
+	defence_0.1 = {
+		reliability = 0.05
+		speed = 0.025
+	}
+	defence_0.2 = {
+		reliability = 0.05
+		speed = 0.025
+	}
+	defence_0.3 = {
+		reliability = 0.1
+		speed = 0.05
+	}
+	defence_0.4 = {
+		reliability = 0.1
+		speed = 0.05
+	}
+	defence_0.5 = {
+		speed = 0.1
+	}
+	defence_0.6 = {
+		speed = 0.1
+	}
+	defence_0.7 = {
+		reliability = 0.2
+	}
+	defence_0.8 = {
+		reliability = 0.2
+	}
+	defence_0.9 = {
+		organisation = 0.05
+	}
+	defence_0.10 = {
+		organisation = 0.05
+	}
+	defence_0.11 = {
+		organisation = 0.05
+	}
+	defence_0.12 = {
+		organisation = -0.05
+	}
+	defence_0.13 = {
+		organisation = -0.05
+	}
+	defence_0.14 = {
+		organisation = -0.05
+	}
+	defence_0.15 = {
+		organisation = 0.1
+	}
+	defence_0.16 = {
+		organisation = -0.1
+	}
+	defence_0.17 = {
+		reliability = -0.05
+		speed = -0.025
+	}
+	defence_0.18 = {
+		reliability = -0.05
+		speed = -0.025
+	}
+	defence_0.19 = {
+		reliability = -0.1
+		speed = -0.05
+	}
+	defence_0.20 = {
+		reliability = -0.1
+		speed = -0.05
+	}
+	defence_0.21 = {
+		reliability = -0.2
+	}
+	defence_0.22 = {
+		reliability = -0.2
+	}
+	defence_0.23 = {
+		speed = -0.1
+	}
+	defence_0.24 = {
+		speed = -0.1
+	}
 }
 
 background = {
 	no_background = {
 		attack = -3
-	}
-	attack_0.1 = {
-		reliability = 0.05
-		speed = 0.025
-	}
-	attack_0.2 = {
-		reliability = 0.05
-		speed = 0.025
-	}
-	attack_0.3 = {
-		reliability = 0.1
-		speed = 0.05
-	}
-	attack_0.4 = {
-		reliability = 0.1
-		speed = 0.05
-	}
-	attack_0.5 = {
-		speed = 0.1
-	}
-	attack_0.6 = {
-		speed = 0.1
-	}
-	attack_0.7 = {
-		reliability = 0.2
-	}
-	attack_0.8 = {
-		reliability = 0.2
-	}
-	attack_0.9 = {
-		organisation = 0.05
-	}
-	attack_0.10 = {
-		organisation = 0.05
-	}
-	attack_0.11 = {
-		organisation = 0.05
-	}
-	attack_0.12 = {
-		organisation = -0.05
-	}
-	attack_0.13 = {
-		organisation = -0.05
-	}
-	attack_0.14 = {
-		organisation = -0.05
-	}
-	attack_0.15 = {
-		organisation = 0.1
-	}
-	attack_0.16 = {
-		organisation = -0.1
-	}
-	attack_0.17 = {
-		reliability = -0.05
-		speed = -0.025
-	}
-	attack_0.18 = {
-		reliability = -0.05
-		speed = -0.025
-	}
-	attack_0.19 = {
-		reliability = -0.1
-		speed = -0.05
-	}
-	attack_0.20 = {
-		reliability = -0.1
-		speed = -0.05
-	}
-	attack_0.21 = {
-		reliability = -0.2
-	}
-	attack_0.22 = {
-		reliability = -0.2
-	}
-	attack_0.23 = {
-		speed = -0.1
-	}
-	attack_0.24 = {
-		speed = -0.1
 	}
 	attack_1.1 = {
 		attack = 1
@@ -799,5 +719,85 @@ background = {
 	attack_minus_5.1 = {
 		attack = -5
 		reliability = -0.25
+	}
+	attack_0.1 = {
+		reliability = 0.05
+		speed = 0.025
+	}
+	attack_0.2 = {
+		reliability = 0.05
+		speed = 0.025
+	}
+	attack_0.3 = {
+		reliability = 0.1
+		speed = 0.05
+	}
+	attack_0.4 = {
+		reliability = 0.1
+		speed = 0.05
+	}
+	attack_0.5 = {
+		speed = 0.1
+	}
+	attack_0.6 = {
+		speed = 0.1
+	}
+	attack_0.7 = {
+		reliability = 0.2
+	}
+	attack_0.8 = {
+		reliability = 0.2
+	}
+	attack_0.9 = {
+		organisation = 0.05
+	}
+	attack_0.10 = {
+		organisation = 0.05
+	}
+	attack_0.11 = {
+		organisation = 0.05
+	}
+	attack_0.12 = {
+		organisation = -0.05
+	}
+	attack_0.13 = {
+		organisation = -0.05
+	}
+	attack_0.14 = {
+		organisation = -0.05
+	}
+	attack_0.15 = {
+		organisation = 0.1
+	}
+	attack_0.16 = {
+		organisation = -0.1
+	}
+	attack_0.17 = {
+		reliability = -0.05
+		speed = -0.025
+	}
+	attack_0.18 = {
+		reliability = -0.05
+		speed = -0.025
+	}
+	attack_0.19 = {
+		reliability = -0.1
+		speed = -0.05
+	}
+	attack_0.20 = {
+		reliability = -0.1
+		speed = -0.05
+	}
+	attack_0.21 = {
+		reliability = -0.2
+	}
+	attack_0.22 = {
+		reliability = -0.2
+	}
+	attack_0.23 = {
+		speed = -0.1
+	}
+	attack_0.24 = {
+		speed = -0.1
 	}
 }
