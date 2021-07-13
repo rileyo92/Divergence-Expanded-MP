@@ -49,3 +49,71 @@
 #Forming France as Burgundy no longer removes cores on Netherlands
 #Forming Confed of Rhine no longer removes cores on Burgundy
 #Japanese Co-Prosperity sphere decision no longer gives cores on Malacca, Sumatra and Zhourao
+#
+# 1.03.x
+#
+#Champagne state switched from Dual Monarchy to Burgundy Control
+#Changes to liferatings (LR) across the world as follows: (Before > After) (Please note these are the file names for the provinces)
+#All colonized land at start buffed to 35 LR with exceptions listed below
+#Kita Kaigan: unchanged apart from Capital 20>25 LR
+#Qingqiu: Capital now 40 LR
+#Plantagenia: Capital now 45 LR, Saint-Martin, Fort Verwood, Port-Royal now 40 LR
+#Vinland: Tobol, Lonasmoen, Nevsollberg, Bysternia, Sparrebark, Fredrikstad, Norrby, Erikshaven and Newfoundland now 40 LR
+#Belgium Confed: Philippa, Esperanse, Port Valois, Novelle Brugge, Bourg-George, Cap Valois and Brusexlles-Atlantique now 40 LR
+#Gran Colombia: Sao Salvador, Nova Lisbon, Mexico City, San Salvador, Cartagena des Indias, Bogota, Quito, Lima, Cusco and Caracas now 40 LR
+#Caribbean: Havana, Jamaica, Provestenen, Puerto Rico, Porto Dandolo now 40 LR
+#Amazonie: Port Liberte, Saint-Floret, Le Faou, Port Sucre, Cote du Cafe State now 40 LR
+#Lotharingia: Nouvelle Alsace State, Domcey-sur-Oden, Fort Lothere now 40 LR
+#Beornia: Camelot, New London now 40 LR
+#Inca: Tiwananku, Cochabamba, Chuquisaca, Mapucho, Uraycusta now 40 LR
+#Spain: Lisbon, Oporto, La Courna, Seville now 40 LR, Cadiz Port 1>2
+#Aragon: Saragosa, Valencia, Barcelona, Sicily Island now 40 LR, Port moved from Malta to Palermo
+#Italy: Parma, Modena, Bologna, Bergamo, Brescia, Verona now 40 LR
+#Dual Monarchy: Ireland, Isle of Mann, Channel Islands now 30 LR with exceptions of Belfast (35 LR) and Dublin (40 LR), Newcastle, Sheffield, York, Leeds, Birmingham, Cardiff, Bristol, Caen, Bordeaux, Orleans, Montpelier, Lyon now 40 LR, London and Paris now 50 LR
+#Provence: Marseilles and Tolon now 40 LR
+#Burgundy: Alsace State, Dijon, Geneva, Brussels, Brugge, Ghent, Antwerp, Rotterdam, Amsterdam, Utrecht, Spa and Luxembourg now 40 LR
+#Austria, Bohemia, Switzerland, Germany are now 40 LR all over except Hanover, Vienna and Prague which are 45 LR
+#Scandinavia: Glasgow, Edinburgh, Copenhagen, Malmo, Helsinki and Turku now 40 LR
+#Hungary and Balkans: Budapest, Bratislava, Zagreb, Dubrovnik, Belgrade, Sofia, Burgas, Varna, Bucharest, Salonika, Skopje and Iasi now 40 LF
+#Turkey/Middle East: Uskudar, Izmit, Bursa, Ismir, Ankara, Trabzon, Aleppo, Damascus, Antioch, Jerusalem, Medina, Mecca, Jeddah, Baghdad, Abu Dhabi (whole country), Muscat, Saa'na, Aden, Tabriz, Baku, Tbilisi now 40 LR, Istanbul 50 LR, naval base 1>2, Fort 1>2
+#Persia/Afghanistan/Central Asia: Tehran, Qom, Shiraz, Bandar Abbas, Jask, Kabul, Bukhara, Samarkland and Kokand now 40 LR
+#India: Unchanged at 32 LR apart from Lahore, Armistar, Agra, Dhaka, Amhenbad, Hydrabad, Katmandu, Madras, Ceylon Island at 35 LR, Maldives at 30 LR and Delhi, Calicut, Bombay, Goa, Pondicherry Rajbalhat and Karachi at 40 LR
+#Indochina: Hue, Ankgor, Ava now 40 LR
+#Indonesia: Malay Peninsular, Banda Aceh, Medan, Brunei Province, Makassar, Batavia, Bali now 40 LR
+#China: Nerfed to 31 LR except Taiwan, Fuzhou, Tianjin, Kumming, Xian, Guanwai State at 35 LR and Beijing, Hangzhou, Nanjing, Taiping, Chengdu, Treaty Ports, Canton, Haishenwai at 40 LR
+#Korea: Pyongyang, Seoul, Inchon and Pusan now 40 LR
+#Japan: Kyoto, Osaka, Kobe, Hiroshima, Nagasaki, Hakodate now 40 LR
+#Australia/NZ: Noongar, Penghu, Weizhou, Whangerai, Tauranga, Manawatu, Timaru now 40 LR
+#Maghreb owned lands 31>30
+#Zanzibar naval base 1>2
+#Carthage Naval Base 1>2
+#Inland Libya 32>30
+#Siwa 10>30
+#Timbuktu, Gao, Fayyum, Khartoum, Debre Markos, Mogadishu, Kinshasa, Mombassa, Kigali, Usumbura, Dar Es Salaam, Kilwa, Marrakesh, Alger, Carthage, Tripoli, Cape Town 35>40
+#Land Between Lake Chad and Funj 10>30
+#Gold Coast and Lagos buffed to 40 LR
+#Sao Tome, Fernando Po, Seychelles, Ascension, Tristan da Cunha changed to 30 LR
+#Fixed so PLC-Zapadoslavia can't constantly interchange between the two and accidentally get Ruthenian Accepted
+#Saxony no longer required for Zapadoslavia
+#Ottoman decision for cores on Albania fixed, Now get Albanian instead of Serb accepted with 1st Tanzimat reform, now get serb accepted with second Taznimat reform
+#Slight trait change for generals
+#Increased assimilation across world, cores no longer block assimilation
+#Deleted Maghreb Rebellion Event Chain
+#Fixed Admirals issue
+#Buffed Laissez-Faire
+#Changes to political reforms
+#Assimilation buffed
+#
+# 1.04.x (Planned)
+#
+#Fixed mistyped reforms
+#Ireland LR 30>32
+#DM English path now instantly gives Welsh accepted
+#DM French path now instantly gives Breton accepted
+#Move Breton acceptance to nationalism and imperialism
+#Burgundy French path no longer changes tag to France
+#Hungary balkan path to give assimilation boost to Transylvania
+#Remerge Flemish and Dutch Cultures together
+#Add events for Scandi if they lose land after choosing a path
+#Rebalance Generals again
+#
