@@ -10,6 +10,7 @@ country_event = {
 		name = "650201.A"
 		set_country_flag = french_integration
 		add_accepted_culture = french
+		add_accepted_culture = breton
 		464 = {
 			add_core = DUA
 		}
@@ -22,6 +23,7 @@ country_event = {
 		name = "650201.B"
 		set_country_flag = english_integration
 		add_accepted_culture = english
+		add_accepted_culture = welsh
 		capital = 300
 		ai_chance = {
 			factor = 33
