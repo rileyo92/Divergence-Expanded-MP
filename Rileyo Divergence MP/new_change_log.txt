@@ -119,4 +119,4 @@
 #Rebalance Generals again
 #Buff Beornian pops again
 #Changed Qingqiu national value to liberty
-#
+#Mob size bonus for Balkan and German nations 2>3%, duration extended to 1860

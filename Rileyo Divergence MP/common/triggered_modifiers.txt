@@ -417,9 +417,9 @@ german_struggle = {
 			}
 			NOT = { tag = CHR }
 		}
-		NOT = { year = 1855 }
+		NOT = { year = 1860 }
 	}
-	mobilisation_size = 0.02
+	mobilisation_size = 0.03
 }
 
 balkan_struggle = {
@@ -434,7 +434,7 @@ balkan_struggle = {
 			primary_culture = albanian
 			primary_culture = greek
 		}
-		NOT = { year = 1855 }
+		NOT = { year = 1860 }
 	}
-	mobilisation_size = 0.02
+	mobilisation_size = 0.03
 }
