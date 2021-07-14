@@ -277,8 +277,9 @@ political_decisions = {
 		potential = {
 			tag = BRG
 			NOT = { has_country_flag = BRG_rhein }
+			NOT = { has_global_flag = burgundy_france }
 			NOT = { GER = { exists = yes } }
-			}
+		}
 		allow = {
 			owns = 572
 			owns = 576
@@ -302,6 +303,7 @@ political_decisions = {
 			tag = BRG
 			FRA = { exists = no }
 			NOT = { has_country_flag = annex_boers }
+			NOT = { has_global_flag = burgundy_france }
 		}
 		allow = {
 			state_n_government = 1
@@ -325,7 +327,6 @@ political_decisions = {
 	      }
 				remove_core = THIS
 			}
-			change_tag = FRA
 			set_global_flag = burgundy_france
 		}
 	}
@@ -362,6 +363,7 @@ political_decisions = {
       tag = BRG
       NOT = { exists = ARP }
 			NOT = { has_country_flag = annex_boers }
+			NOT = { has_global_flag = burgundy_france }
     }
     allow = {
       ARP = {
@@ -385,6 +387,7 @@ political_decisions = {
 			tag = BRG
 			NOT = { exists = CHR }
 			NOT = { has_country_flag = annex_boers }
+			NOT = { has_global_flag = burgundy_france }
 		}
 		allow = {
 			state_n_government = 1
@@ -488,6 +491,7 @@ political_decisions = {
 			NOT = { has_country_flag = boer_netherlands }
 			NOT = { has_country_flag = septiman_netherlands }
 			NOT = { has_country_flag = annex_boers }
+			NOT = { has_global_flag = burgundy_france }
 		}
 		allow = {
 			nationalism_n_imperialism = 1
