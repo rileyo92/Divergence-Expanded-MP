@@ -104,7 +104,7 @@
 #Changes to political reforms
 #Assimilation buffed
 #
-# 1.04.x (Planned)
+#1.04
 #
 #Fixed mistyped reforms
 #Ireland LR 30>32
@@ -112,6 +112,11 @@
 #DM French path now instantly gives Breton accepted
 #Move Breton acceptance to nationalism and imperialism
 #Burgundy French path no longer changes tag to France
+#Mob size bonus for Balkan and German nations 2>3%, duration extended to 1860
+#Moved Serb back to first Tanzimat reform
+#
+#1.04.x (Planned)
+#
 #Hungary balkan path to give assimilation boost to Transylvania
 #Hungary balkan path to give bulgarian accepted instead of Albanian
 #Remerge Flemish and Dutch Cultures together
@@ -119,4 +124,3 @@
 #Rebalance Generals again
 #Buff Beornian pops again
 #Changed Qingqiu national value to liberty
-#Mob size bonus for Balkan and German nations 2>3%, duration extended to 1860
