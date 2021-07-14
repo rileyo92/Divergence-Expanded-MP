@@ -113,7 +113,10 @@
 #Move Breton acceptance to nationalism and imperialism
 #Burgundy French path no longer changes tag to France
 #Hungary balkan path to give assimilation boost to Transylvania
+#Hungary balkan path to give bulgarian accepted instead of Albanian
 #Remerge Flemish and Dutch Cultures together
 #Add events for Scandi if they lose land after choosing a path
 #Rebalance Generals again
+#Buff Beornian pops again
+#Changed Qingqiu national value to liberty
 #
