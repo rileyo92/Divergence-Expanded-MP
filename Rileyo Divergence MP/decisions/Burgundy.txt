@@ -327,6 +327,7 @@ political_decisions = {
 	      }
 				remove_core = THIS
 			}
+			FRA = { all_core = { add_core = THIS } }
 			set_global_flag = burgundy_france
 		}
 	}
