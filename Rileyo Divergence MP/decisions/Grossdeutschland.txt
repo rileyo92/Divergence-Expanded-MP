@@ -63,221 +63,161 @@ political_decisions = {
 
 	#Elbians
 	form_elbian_confederation = {
-
-	potential = {
-		tag = BOH
-		NOT = { has_country_flag = jagiellonian }
-	}
-
-	allow = {
-	OR = {
-				AND = {
-					HOL = {
-						all_core = {
-							OR = {
-								owned_by = THIS
-								owner = {
-								  OR = {
-									in_sphere = THIS
-									vassal_of = THIS
-									}
-								}
-							}
-						}
-					}
-					POM = {
-						all_core = {
-							OR = {
-								owned_by = THIS
-								owner = {
-								  OR = {
-									in_sphere = THIS
-									vassal_of = THIS
-									}
-								}
-							}
-						}
-					}
-					HAN = {
-						all_core = {
-							OR = {
-								owned_by = THIS
-								owner = {
-								  OR = {
-									in_sphere = THIS
-									vassal_of = THIS
-									}
-								}
-							}
-						}
-					}
-					BRN = {
-						all_core = {
-							OR = {
-								owned_by = THIS
-								owner = {
-								  OR = {
-									in_sphere = THIS
-									vassal_of = THIS
-									}
-								}
+		potential = {
+			tag = BOH
+			NOT = { has_country_flag = jagiellonian }
+		}
+		allow = {
+			state_n_government = 1
+			OLD = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+						    OR = {
+							in_sphere = THIS
+							vassal_of = THIS
 							}
 						}
 					}
 				}
-				AND = {
-					HAN = {
-						all_core = {
-							OR = {
-								owned_by = THIS
-								owner = {
-								  OR = {
-									in_sphere = THIS
-									vassal_of = THIS
-									}
-								}
+			}
+			BRE = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+						    OR = {
+							in_sphere = THIS
+							vassal_of = THIS
 							}
 						}
 					}
-					BRA = {
-						all_core = {
-							OR = {
-								owned_by = THIS
-								owner = {
-								  OR = {
-									in_sphere = THIS
-									vassal_of = THIS
-									}
-								}
+				}
+			}
+			HAN = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+						    OR = {
+							in_sphere = THIS
+							vassal_of = THIS
 							}
 						}
 					}
-					THU = {
-						all_core = {
-							OR = {
-								owned_by = THIS
-								owner = {
-								  OR = {
-									in_sphere = THIS
-									vassal_of = THIS
-									}
-								}
+				}
+			}
+			LIP = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+						    OR = {
+							in_sphere = THIS
+							vassal_of = THIS
 							}
 						}
 					}
-					HES = {
-						all_core = {
-							OR = {
-								owned_by = THIS
-								owner = {
-								  OR = {
-									in_sphere = THIS
-									vassal_of = THIS
-									}
-								}
+				}
+			}
+			HEK = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+						    OR = {
+							in_sphere = THIS
+							vassal_of = THIS
 							}
 						}
 					}
-					HEK = {
-						all_core = {
-							OR = {
-								owned_by = THIS
-								owner = {
-								  OR = {
-									in_sphere = THIS
-									vassal_of = THIS
-									}
-								}
+				}
+			}
+			BRA = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+						    OR = {
+							in_sphere = THIS
+							vassal_of = THIS
 							}
 						}
 					}
-					BEG = {
-						all_core = {
-							OR = {
-								owned_by = THIS
-								owner = {
-								  OR = {
-									in_sphere = THIS
-									vassal_of = THIS
-									}
-								}
+				}
+			}
+			THU = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+						    OR = {
+							in_sphere = THIS
+							vassal_of = THIS
 							}
 						}
 					}
-					BRE = {
-						all_core = {
-							OR = {
-								owned_by = THIS
-								owner = {
-								  OR = {
-									in_sphere = THIS
-									vassal_of = THIS
-									}
-								}
+				}
+			}
+			HOL = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+						    OR = {
+							in_sphere = THIS
+							vassal_of = THIS
 							}
 						}
 					}
-					MNR = {
-						all_core = {
-							OR = {
-								owned_by = THIS
-								owner = {
-								  OR = {
-									in_sphere = THIS
-									vassal_of = THIS
-									}
-								}
+				}
+			}
+			POM = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+						    OR = {
+							in_sphere = THIS
+							vassal_of = THIS
 							}
 						}
 					}
-					LIP = {
-						all_core = {
-							OR = {
-								owned_by = THIS
-								owner = {
-								  OR = {
-									in_sphere = THIS
-									vassal_of = THIS
-									}
-								}
+				}
+			}
+			BOH = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+						    OR = {
+							in_sphere = THIS
+							vassal_of = THIS
 							}
 						}
 					}
-					FRM = {
-						all_core = {
-							OR = {
-								owned_by = THIS
-								owner = {
-								  OR = {
-									in_sphere = THIS
-									vassal_of = THIS
-									}
-								}
-							}
-						}
-					}
+				}
 			}
 		}
-	}
-
-	effect = {
-	set_global_flag = cae_formed
-	PRU_572 = { add_core = CAE } 	#Rhineland
-	HES_2560 = { add_core = CAE }	#Palatinate
-	PRU_575 = { add_core = CAE }	#Nordrhein
-	HES_566 = { add_core = CAE }	#Hessen
-	PRU_581 = { add_core = CAE }	#Westphalia
-	HAN_534 = { add_core = CAE }	#East Frisia
-	HAM_528 = { add_core = CAE }	#Hanover
-	PRU_546 = { add_core = CAE }	#Pomerania
-	SAX_1 = { add_core = CAE }		#Thuringia
-	HOL_369 = { add_core = CAE }	#Holstein
-	PRU_553 = { add_core = CAE }	#Anhalt
-	PRU_549 = { add_core = CAE }	#Brandenburg
-	SAX_558 = { add_core = CAE }	#Saxony
-	any_country = {
+		effect = {
+			set_global_flag = cae_formed
+			BOH = { all_core = { add_core = CAE } }
+			PRU_572 = { add_core = CAE } 	#Hinterpommern
+			SCA_544 = { add_core = CAE }	#Mecklenburg
+			HOL_369 = { add_core = CAE }	#Holstein
+			HAN_532 = { add_core = CAE }	#Luneburg
+			HAM_528 = { add_core = CAE }	#Hanover
+			SAX_1 = { add_core = CAE }		#Thuringia
+			LIP = { all_core = { add_core = CAE } } #Lippe-Detmold
+			OLD_540 = { add_core = CAE }	#Oldenburg
+			HAN_534 = { add_core = CAE }	#East Frisia
+			any_country = {
 				limit = {
-					primary_culture = north_german
+					OR = {
+						primary_culture = north_german
+						primary_culture = pomeranian
+					}
 					NOT = { tag = KRL }
 					NOT = { tag = PRU }
 					  OR = {
@@ -293,9 +233,6 @@ political_decisions = {
 		change_tag = CAE
 		add_accepted_culture = north_german
 		add_accepted_culture = pomeranian
-		}
-	ai_will_do = {
-	factor = 1
 		}
 	}
 
