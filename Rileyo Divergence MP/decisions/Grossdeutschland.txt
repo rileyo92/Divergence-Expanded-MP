@@ -209,7 +209,7 @@ political_decisions = {
 			HAN_532 = { add_core = CAE }	#Luneburg
 			HAM_528 = { add_core = CAE }	#Hanover
 			SAX_1 = { add_core = CAE }		#Thuringia
-			LIP = { all_core = { add_core = CAE } } #Lippe-Detmold
+			PRU_581 = { add_core = CAE }  #Westfalen
 			OLD_540 = { add_core = CAE }	#Oldenburg
 			HAN_534 = { add_core = CAE }	#East Frisia
 			any_country = {
@@ -318,21 +318,18 @@ political_decisions = {
 			NOT = { has_country_flag = rheinish_acc }
 		}
 		allow = {
-			NOT = { citizenship_policy = residency }
 			any_owned_province = { is_core = RHI }
-			nationalism_n_imperialism = 1
+			revolution_n_counterrevolution = 1
 		}
 		effect = {
 			set_country_flag = rheinish_acc
 			add_accepted_culture = rheinish
-			GER = {
-				any_core = {
-					limit = {
-						culture = rheinish
-					}
-					add_core = THIS
-				}
-			}
+			HES_566 = { add_core = CAE } 	#Hessen
+			PRU_575 = { add_core = CAE }	#Nordrhein
+			PRU_572 = { add_core = CAE }	#Rhineland
+			BRG_573 = { add_core = CAE }	#Saarbucken
+			HES_2560 = { add_core = CAE }	#Mainz
+			FRM_564 = { add_core = CAE }	#Palatinate
 		}
   }
 
