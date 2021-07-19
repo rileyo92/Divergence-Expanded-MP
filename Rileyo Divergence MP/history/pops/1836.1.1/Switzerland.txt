@@ -190,13 +190,25 @@
 	aristocrats = {
 		culture = burgundian
 		religion = protestant
-		size = 500
+		size = 275
+	}
+
+	aristocrats = {
+		culture = swiss
+		religion = protestant
+		size = 225
 	}
 
 	bureaucrats = {
 		culture = burgundian
 		religion = protestant
-		size = 200
+		size = 125
+	}
+
+	bureaucrats = {
+		culture = swiss
+		religion = protestant
+		size = 75
 	}
 
 	officers = {
@@ -208,44 +220,23 @@
 	clergymen = {
 		culture = burgundian
 		religion = protestant
-		size = 650
-	}
-
-	artisans = {
-		culture = burgundian
-		religion = protestant
-		size = 7000
-	}
-
-	soldiers = {
-		culture = burgundian
-		religion = protestant
-		size= 2200
-
-	}
-
-	farmers = {
-		culture = burgundian
-		religion = protestant
-		size = 68550
-	}
-}
-#Neuchatel (56000/14000 POPS)
-608 = {
-	aristocrats = {
-		culture = burgundian
-		religion = protestant
-		size = 100
+		size = 350
 	}
 
 	clergymen = {
-		culture = burgundian
+		culture = swiss
 		religion = protestant
-		size = 125
+		size = 300
 	}
 
 	artisans = {
 		culture = burgundian
+		religion = protestant
+		size = 4000
+	}
+
+	artisans = {
+		culture = swiss
 		religion = protestant
 		size = 3000
 	}
@@ -253,14 +244,81 @@
 	soldiers = {
 		culture = burgundian
 		religion = protestant
-		size= 150
+		size= 1300
+	}
 
+	soldiers = {
+		culture = swiss
+		religion = protestant
+		size= 900
 	}
 
 	farmers = {
 		culture = burgundian
 		religion = protestant
-		size = 10625
+		size = 39225
+	}
+
+	farmers = {
+		culture = swiss
+		religion = protestant
+		size = 29325
+	}
+}
+#Neuchatel (56000/14000 POPS)
+608 = {
+	aristocrats = {
+		culture = burgundian
+		religion = protestant
+		size = 60
+	}
+
+	aristocrats = {
+		culture = swiss
+		religion = protestant
+		size = 40
+	}
+
+	clergymen = {
+		culture = burgundian
+		religion = protestant
+		size = 75
+	}
+
+	clergymen = {
+		culture = swiss
+		religion = protestant
+		size = 50
+	}
+
+	artisans = {
+		culture = burgundian
+		religion = protestant
+		size = 1800
+	}
+
+	artisans = {
+		culture = swiss
+		religion = protestant
+		size = 1200
+	}
+
+	soldiers = {
+		culture = swiss
+		religion = protestant
+		size= 150
+	}
+
+	farmers = {
+		culture = burgundian
+		religion = protestant
+		size = 5875
+	}
+
+	farmers = {
+		culture = swiss
+		religion = protestant
+		size = 5375
 	}
 }
 #Sitten (72000/18000) POPS
