@@ -1,5 +1,6 @@
 capital = 1209
 primary_culture = pashtun
+culture = panjabi
 religion = sunni
 government = feudal_monarchy
 plurality = 0.0

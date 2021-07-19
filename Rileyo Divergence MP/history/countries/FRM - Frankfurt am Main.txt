@@ -1,6 +1,7 @@
 capital = 564
 primary_culture = rheinish
 culture = south_german
+culture = north_german
 religion = protestant
 government = democracy
 plurality = 25.0
@@ -26,7 +27,7 @@ work_hours = no_work_hour_limit
 safety_regulations = no_safety
 health_care = no_health_care
 unemployment_subsidies = no_subsidies
-pensions = no_pensions 
+pensions = no_pensions
 school_reforms = no_schools
 
 #New Reforms
@@ -99,7 +100,7 @@ oob = "FRM_oob.txt"
 	trade_unions = no_trade_unions
 	voting_system = first_past_the_post
 	political_parties = non_secret_ballots
-	
+
 # Technologies
 	post_napoleonic_thought = 1
 	strategic_mobility = 1
@@ -116,7 +117,7 @@ oob = "FRM_oob.txt"
 	army_command_principle = 1
 	army_professionalism = 1
 	army_decision_making = 1
-	
+
 	post_nelsonian_thought = 1
 	battleship_column_doctrine = 1
 	clipper_design = 1
@@ -126,7 +127,7 @@ oob = "FRM_oob.txt"
 	alphabetic_flag_signaling = 1
 	naval_plans = 1
 	the_command_principle = 1
-	
+
 	private_banks = 1
 	stock_exchange = 1
 	business_banks = 1
@@ -138,7 +139,7 @@ oob = "FRM_oob.txt"
 	market_structure = 1
 	guild_based_production = 1
 	organized_factories = 1
-	
+
 	classicism_n_early_romanticism = 1
 	romanticism = 1
 	late_enlightenment_philosophy = 1
@@ -153,7 +154,7 @@ oob = "FRM_oob.txt"
 	introspectionism = 1
 	associationism = 1
 	phenomenalism = 1
-	
+
 	piston_steam_engine = 1
 	high_pressure_steam_engine = 1
 	compound_steam_engines = 1

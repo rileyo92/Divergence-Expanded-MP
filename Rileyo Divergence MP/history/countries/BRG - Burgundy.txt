@@ -1,7 +1,7 @@
 capital = 390
 primary_culture = burgundian
-culture = dutch
 culture = flemish
+culture = dutch
 religion = protestant
 government = hms_government
 plurality = 5

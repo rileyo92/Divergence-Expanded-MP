@@ -1,5 +1,6 @@
 capital = 137
 primary_culture = lusitanian
+culture = portuguese
 religion = catholic
 government = democracy
 plurality = 0.0

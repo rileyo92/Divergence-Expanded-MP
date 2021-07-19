@@ -1,9 +1,9 @@
 capital = 372
 primary_culture = scandinavian
 culture = finnish
-culture = scottish
 culture = estonian
 culture = icelandic
+culture = scottish
 religion = protestant
 government = prussian_constitutionalism
 plurality = 0.05

@@ -1,6 +1,7 @@
 capital = 1657
 primary_culture = japanese
 culture = ainu
+culture = kaiganese
 religion = shinto
 government = prussian_constitutionalism
 plurality = 0.0

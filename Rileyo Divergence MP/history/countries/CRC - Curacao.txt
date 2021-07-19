@@ -1,7 +1,7 @@
 capital = 2235
-primary_culture = burgundian
-culture = dutch
-culture = afro_frankish 
+primary_culture = afro_frankish
+culture = burgundian
+culture = dutch 
 religion = protestant
 government = democracy
 plurality = 0.1
@@ -26,7 +26,7 @@ work_hours = no_work_hour_limit
 safety_regulations = no_safety
 health_care = no_health_care
 unemployment_subsidies = no_subsidies
-pensions = no_pensions 
+pensions = no_pensions
 school_reforms = no_schools
 
 # New Reforms

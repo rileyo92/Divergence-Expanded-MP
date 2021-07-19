@@ -1,7 +1,6 @@
 capital = 387
 primary_culture = wallonian
 culture = flemish
-culture = picard
 religion = catholic
 government = hms_government
 plurality = 25.0
@@ -27,7 +26,7 @@ work_hours = fourteen_hours
 safety_regulations = trinket_safety
 health_care = trinket_health_care
 unemployment_subsidies = no_subsidies
-pensions = no_pensions 
+pensions = no_pensions
 school_reforms = no_schools
 
 #New Reforms
@@ -110,7 +109,7 @@ ruling_party = BEL_liberal
 	military_plans = 1
 	army_command_principle = 1
 	army_professionalism = 1
-	
+
 	post_nelsonian_thought = 1
 	battleship_column_doctrine = 1
 	clipper_design = 1
@@ -120,7 +119,7 @@ ruling_party = BEL_liberal
 	alphabetic_flag_signaling = 1
 	the_command_principle = 1
 	naval_professionalism = 1
-	
+
 	private_banks = 1
 	stock_exchange = 1
 	business_banks = 1
@@ -132,7 +131,7 @@ ruling_party = BEL_liberal
 	market_structure = 1
 	guild_based_production = 1
 	organized_factories = 1
-	
+
 	classicism_n_early_romanticism = 1
 	romanticism = 1
 	realism = 1
@@ -147,7 +146,7 @@ ruling_party = BEL_liberal
 	introspectionism = 1
 	associationism = 1
 	phenomenalism = 1
-	
+
 	piston_steam_engine = 1
 	high_pressure_steam_engine = 1
 	compound_steam_engines = 1

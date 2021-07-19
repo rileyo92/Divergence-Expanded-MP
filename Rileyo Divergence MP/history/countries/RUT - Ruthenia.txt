@@ -1,6 +1,5 @@
 capital = 958
 primary_culture = ruthenian
-culture = polish
 religion = orthodox
 government = absolute_monarchy
 plurality = 0.02

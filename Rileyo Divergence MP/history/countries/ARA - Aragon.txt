@@ -1,6 +1,5 @@
 capital = 498
 primary_culture = catalan
-culture = castilian
 culture = basque
 culture = maltese
 culture = south_italian

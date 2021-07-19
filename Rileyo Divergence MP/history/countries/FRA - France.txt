@@ -1,6 +1,7 @@
 capital = 425
 primary_culture = french
 culture = provencal
+culture = breton
 religion = catholic
 government = absolute_monarchy
 plurality = 5
@@ -25,7 +26,7 @@ work_hours = no_work_hour_limit
 safety_regulations = no_safety
 health_care = no_health_care
 unemployment_subsidies = no_subsidies
-pensions = no_pensions 
+pensions = no_pensions
 school_reforms = no_schools
 
 #New Reforms
@@ -104,12 +105,12 @@ oob = "FRA_oob.txt"
 	literacy = 0.65
 	non_state_culture_literacy = 0.15
 
-	
+
 	decision = support_french_foreign_legion
 	set_country_flag = cochinchina_campaign
 	set_country_flag = claimed_authority_over_holy_land
 	set_global_flag = liberal_revolutions_should_now_fire
-	
+
 # Political reforms
 slavery = no_slavery
 upper_house_composition = appointed
@@ -118,16 +119,16 @@ public_meetings = yes_meeting
 press_rights = state_press
 trade_unions = state_controlled
 voting_system = first_past_the_post
-political_parties = underground_parties	
-	
+political_parties = underground_parties
+
 # Social Reforms
 wage_reform = no_minimum_wage
 work_hours = twelve_hours
 safety_regulations = no_safety
 health_care = no_health_care
 unemployment_subsidies = no_subsidies
-pensions = no_pensions 
-school_reforms = no_schools	
+pensions = no_pensions
+school_reforms = no_schools
 
 ruling_party = FRA_reactionary
 government = presidential_dictatorship
@@ -140,7 +141,7 @@ upper_house = {
 	socialist = 0
 	communist = 0
 }
-	
+
 # Technologies
 	post_napoleonic_thought = 1
 	strategic_mobility = 1
@@ -155,7 +156,7 @@ upper_house = {
 	army_command_principle = 1
 	army_professionalism = 1
 	army_decision_making = 1
-	
+
 	post_nelsonian_thought = 1
 	battleship_column_doctrine = 1
 	raider_group_doctrine = 1
@@ -168,7 +169,7 @@ upper_house = {
 	naval_plans = 1
 	the_command_principle = 1
 	naval_professionalism = 1
-	
+
 	private_banks = 1
 	stock_exchange = 1
 	no_standard = 1
@@ -180,7 +181,7 @@ upper_house = {
 	market_structure = 1
 	guild_based_production = 1
 	organized_factories = 1
-	
+
 	classicism_n_early_romanticism = 1
 	romanticism = 1
 	late_enlightenment_philosophy = 1
@@ -195,7 +196,7 @@ upper_house = {
 	introspectionism = 1
 	associationism = 1
 	phenomenalism = 1
-	
+
 	piston_steam_engine = 1
 	high_pressure_steam_engine = 1
 	compound_steam_engines = 1

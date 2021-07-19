@@ -1,7 +1,5 @@
 capital = 322
-primary_culture = swedish
-culture = finnish
-culture = norwegian
+primary_culture = scandinavian
 religion = protestant
 government = hms_government
 plurality = 25.0
@@ -26,7 +24,7 @@ work_hours = no_work_hour_limit
 safety_regulations = no_safety
 health_care = no_health_care
 unemployment_subsidies = no_subsidies
-pensions = no_pensions 
+pensions = no_pensions
 school_reforms = no_schools
 
 # New Reforms
@@ -113,10 +111,10 @@ work_hours = no_work_hour_limit
 safety_regulations = no_safety
 health_care = no_health_care
 unemployment_subsidies = no_subsidies
-pensions = no_pensions 
-school_reforms = low_schools	
-	
-	
+pensions = no_pensions
+school_reforms = low_schools
+
+
 # Technologies
 	post_napoleonic_thought = 1
 	strategic_mobility = 1
@@ -130,7 +128,7 @@ school_reforms = low_schools
 	military_plans = 1
 	army_command_principle = 1
 	army_professionalism = 1
-	
+
 	post_nelsonian_thought = 1
 	battleship_column_doctrine = 1
 	clipper_design = 1
@@ -142,7 +140,7 @@ school_reforms = low_schools
 	naval_plans = 1
 	the_command_principle = 1
 	naval_professionalism = 1
-	
+
 	private_banks = 1
 	stock_exchange = 1
 	business_banks = 1
@@ -154,7 +152,7 @@ school_reforms = low_schools
 	market_structure = 1
 	guild_based_production = 1
 	organized_factories = 1
-	
+
 	classicism_n_early_romanticism = 1
 	romanticism = 1
 	realism = 1
@@ -170,7 +168,7 @@ school_reforms = low_schools
 	introspectionism = 1
 	associationism = 1
 	phenomenalism = 1
-	
+
 	piston_steam_engine = 1
 	high_pressure_steam_engine = 1
 	mechanical_production = 1
