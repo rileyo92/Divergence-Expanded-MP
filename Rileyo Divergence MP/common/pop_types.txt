@@ -1,5 +1,5 @@
 #general promote mtth, same for all pops
-promotion_chance = 
+promotion_chance =
 {
 	factor = 0.25
 	group = {
@@ -9,7 +9,7 @@ promotion_chance =
 		}
 		modifier = {
 			factor = 0.02
-			literacy = 0.1 
+			literacy = 0.1
 		}
 		modifier = {
 			factor = 0.02
@@ -68,11 +68,11 @@ promotion_chance =
 		modifier = {
 			factor = 0.1
 			life_needs = 0.9
-	
+
 		}
 		modifier = {
 			factor = 0.1
-			life_needs = 0.8 
+			life_needs = 0.8
 		}
 		modifier = {
 			factor = 0.1
@@ -103,15 +103,15 @@ promotion_chance =
 		state_scope = {
 				is_slave = yes
 			}
-	}	
+	}
 	modifier = {
 		factor = -100
 		location = { NOT = { controlled_by = owner } }
 	}
-	
+
 }
 
-demotion_chance = 
+demotion_chance =
 {
 	factor = 1
 	modifier = {
@@ -222,7 +222,7 @@ demotion_chance =
 			factor = 0.5
 			strata = middle
 			state_scope = { is_colonial = yes }
-			not = { culture = this }			
+			not = { culture = this }
 		}
 	group = {
 		modifier = {
@@ -233,13 +233,13 @@ demotion_chance =
 		}
 		modifier = {
 			factor = -0.1
-			everyday_needs = 0.8 
+			everyday_needs = 0.8
 			strata = middle
 			state_scope = { is_colonial = no }
 		}
 		modifier = {
 			factor = -0.1
-			everyday_needs = 0.7 
+			everyday_needs = 0.7
 			strata = middle
 			state_scope = { is_colonial = no }
 		}
@@ -279,8 +279,8 @@ demotion_chance =
 			factor = 0.5
 			unemployment = 0.3
 			location = { controlled_by = owner }
-		}		
-		
+		}
+
 	}
 	modifier = {
 		factor = -100
@@ -289,7 +289,7 @@ demotion_chance =
 }
 
 #general migration chance mtth, same for all pops
-migration_chance = 
+migration_chance =
 {
 	factor = 0.25
 
@@ -326,13 +326,13 @@ migration_chance =
 #		factor = -1.0
 #		life_needs = 0.99
 #	}
-#	
+#
 #If pop group meets at least 99% of its everyday needs, then -1% chance to migrate to another state.
 #	modifier = {
 #		factor = -1.0
 #		everyday_needs = 0.99
 #	}
-	
+
 #If pop group meets at least 10%/20%/30%/40%/50%/60%/70%/80%/90%/99% of its luxury needs, then -0.05% chance to migrate to another state per threshold.	(-0.5% total)
 	group = {
 		modifier = {
@@ -420,7 +420,7 @@ migration_chance =
 			not = { life_needs = 0.99 }
 		}
 	}
-	
+
 #If pop group doesn't obtain 10%/20%/30%/40%/50%/60%/70%/80%/90%/99% of their everyday needs, then 0.025% chance to migrate to another state for each threshold. (0.125% total)
 	group = {
 		modifier = {
@@ -444,7 +444,7 @@ migration_chance =
 			not = { everyday_needs = 0.99 }
 		}
 	}
-	
+
 #If pop group has 99%/90%/80%/70%/60%/50%/40%/30%/20%/10% unemployment, then 0.05% chance to migrate to another state for each threshold unless they are 99% unemployed, then its 10% chance. (0.20% total) (10% if unemployed 99% or more)
 	group = {
 		modifier = {
@@ -469,7 +469,7 @@ migration_chance =
 			NOT = { war = yes }
 		}
 	}
-	
+
 #If pop group is in a state that has a factory, then -0.3% chance to migrate to another state.
 #	modifier = {
 #		factor = -0.3
@@ -494,21 +494,21 @@ migration_chance =
 		factor = -2.5
 		state_scope = { is_colonial = yes }
 	}
-	
+
 #If pop group is in a location not controlled by the owner, then -100% chance to migrate to a state. DO NOT DELETE.
 	modifier = {
 		factor = -100
-		not = { 
+		not = {
 			location = { controlled_by = owner }
 		}
 	}
 }
 
 #general colonial migration mtth, same for all pops
-colonialmigration_chance = 
+colonialmigration_chance =
 {
 	factor = 0.25
-	
+
 #If pop group doesn't obtain 10%/20%/30%/40%/50%/60%/70%/80%/90%/99% of their life needs, then 0.05% chance to migrate to a colony for each threshold. (0.5% total)
 	group = {
 		modifier = {
@@ -552,7 +552,7 @@ colonialmigration_chance =
 			not = { life_needs = 0.99 }
 		}
 	}
-	
+
 #If pop group doesn't obtain 10%/20%/30%/40%/50%/60%/70%/80%/90%/99% of their everyday needs, then 0.025% chance to migrate to a colony for each threshold. (0.125% total)
 	group = {
 		modifier = {
@@ -576,7 +576,7 @@ colonialmigration_chance =
 			not = { everyday_needs = 0.99 }
 		}
 	}
-	
+
 #If pop group has 99%/90%/80%/70%/60%/50%/40%/30%/20%/10% unemployment, then 0.05% chance to migrate to a colony for each threshold unless employment is 99% or more. (0.20% total) (10% if unemployed 99% or more)
 	group = {
 		modifier = {
@@ -601,19 +601,19 @@ colonialmigration_chance =
 			NOT = { war = yes }
 		}
 	}
-	
+
 #If pop group meets at least 99% of its life needs, then -0.25% chance to migrate to a colony.	(-0.25% total)
 #	modifier = {
 #		factor = -0.25
 #		life_needs = 0.99
 #	}
-#	
+#
 #If pop group meets at least 99% of its everyday needs, then -0.25% chance to migrate to a colony.	(-0.25% total)
 #	modifier = {
 #		factor = -0.25
 #		everyday_needs = 0.99
 #	}
-	
+
 #If pop group meets at least 10%/20%/30%/40%/50%/60%/70%/80%/90%/99% of its luxury needs, then -0.05% chance to migrate to a colony per threshold.	(-0.5% total)
 	group = {
 		modifier = {
@@ -657,7 +657,7 @@ colonialmigration_chance =
 			luxury_needs = 0.99
 		}
 	}
-	
+
 #If pop group is in a state that has a factory, then -0.3% chance to migrate to another state.
 #	modifier = {
 #		factor = -0.3
@@ -665,7 +665,7 @@ colonialmigration_chance =
 #			has_factories = yes
 #		}
 #	}
-	
+
 ###Special Factors###
 
 #If pop group is is in a state and is not an accepted culture or a primary culture, then -10% chance to migrate to a colony. DO NOT DELETE.
@@ -677,20 +677,20 @@ colonialmigration_chance =
 			is_accepted_culture = no
 		}
 	}
-	
-#If pop group is in a location not controlled by the owner, then -100% chance to migrate to a colony. DO NOT DELETE.	
+
+#If pop group is in a location not controlled by the owner, then -100% chance to migrate to a colony. DO NOT DELETE.
 	modifier = {
 		factor = -100
-		not = { 
+		not = {
 			location = { controlled_by = owner }
 		}
 	}
 }
 
 #general emigration chance - Base chance +1%
-emigration_chance = 
+emigration_chance =
 {
-	factor = 1
+	factor = 0.5
 
 ###Positive Factors for Emigration (bad)###
 
@@ -821,7 +821,7 @@ emigration_chance =
 			not = { life_needs = 0.99 }
 		}
 	}
-	
+
 #If pop group is only obtaining 99%/90%/80%/70%/60%/50%/40%/30%/20%/10% everyday needs, then +0.025% chance to emigrate for each threshold.	(+0.125% total)
 	group = {
 		modifier = {
@@ -845,7 +845,7 @@ emigration_chance =
 			not = { everyday_needs = 0.99 }
 		}
 	}
-	
+
 #If pop group is at least 10%/20%/30%/40%/50%/60%/70%/80%/90%/99% unemployed, then +0.05% chance to emigrate for each threshold.	(0.20% total)
 	group = {
 		modifier = {
@@ -868,7 +868,7 @@ emigration_chance =
 			factor = 0.05
 			unemployment = 0.99
 		}
-		
+
 	}
 
 ###Negative Factors for Emigration (good)###
@@ -889,14 +889,14 @@ emigration_chance =
 		}
 		modifier = {
 			factor = -0.05
-			consciousness = 9 
+			consciousness = 9
 		}
 		modifier = {
 			factor = -0.05
 			consciousness = 9.9
 		}
 	}
-	
+
 #If pop group is obtaining 10%/20%/30%/40%/50%/60%/70%/80%/90%/99% luxury needs, then -0.05% chance to emigrate for each threshold.	(-0.5% total)
 	group = {
 		modifier = {
@@ -940,7 +940,7 @@ emigration_chance =
 			luxury_needs = 0.99
 		}
 	}
-	
+
 #If pop group is at least 10%/20%/30%/40%/50%/60%/70%/80%/90%/99% literacy, then -0.05% chance to emigrate for each threshold. (-0.25% total)
 	group = {
 		modifier = {
@@ -992,7 +992,7 @@ emigration_chance =
 			agree_with_ruling_party = 0.99
 		}
 	}
-	
+
 
 #If pop group is in a state with factories and the year is 1870 or later, then -0.3% chance to emigrate.	(-0.3% total)
 	modifier = {
@@ -1001,7 +1001,7 @@ emigration_chance =
 			has_factories = yes
 		}
 	}
-	
+
 ###Colony and Immigrant Nations Emigration Security###
 
 #If pop group is in a country with the country tag, then -4% chance to emigrate.
@@ -1009,12 +1009,12 @@ emigration_chance =
 		factor = -4.0
 		has_country_flag = new_world_nation
 	}
-#If pop group is in a colony, then -2% chance to emigrate.	
+#If pop group is in a colony, then -2% chance to emigrate.
 	modifier = {
 		factor = -10000
 		state_scope = { is_colonial = yes }
 	}
-	
+
 	modifier = {
 		factor = -0.4
 		is_accepted_culture = no
@@ -1024,12 +1024,12 @@ emigration_chance =
 #general assimilation mtth, same for all pops
 assimilation_chance = {
 	factor = 1
-	
+
 	modifier = {
 		factor = -10000
 		state_scope = { is_colonial = yes }
 	}
-	
+
 	group = {
 		modifier = {
 			factor = 0.5
@@ -1072,7 +1072,7 @@ assimilation_chance = {
 			literacy = 0.99
 		}
 	}
-	
+
 	group = {
 		modifier = {
 			factor = 1
@@ -1115,7 +1115,7 @@ assimilation_chance = {
 			luxury_needs = 0.99
 		}
 	}
-	
+
 	group = {
 		modifier = {
 			factor = 0.5
@@ -1158,7 +1158,7 @@ assimilation_chance = {
 			everyday_needs = 0.99
 		}
 	}
-	
+
 	group = {
 		modifier = {
 			factor = 0.25
@@ -1201,7 +1201,7 @@ assimilation_chance = {
 			NOT = { life_needs = 0.99 }
 		}
 	}
-	
+
 	group = {
 		modifier = {
 			factor = -0.5
@@ -1244,7 +1244,7 @@ assimilation_chance = {
 			militancy = 10
 		}
 	}
-	
+
 	group = {
 		modifier = {
 			factor = -0.5
@@ -1287,7 +1287,7 @@ assimilation_chance = {
 			unemployment = 0.99
 		}
 	}
-	
+
 	modifier = {
 		factor = 3
 		OR = {
@@ -1295,7 +1295,7 @@ assimilation_chance = {
 			continent = south_america
 		}
 	}
-	
+
 	modifier = {
 		factor = 2
 		OR = {
@@ -1303,7 +1303,7 @@ assimilation_chance = {
 			continent = oceania
 		}
 	}
-	
+
 	modifier = {
 		factor = 1
 		OR = {
@@ -1314,7 +1314,7 @@ assimilation_chance = {
 }
 
 #general conversion mtth, same for all pops
-conversion_chance = 
+conversion_chance =
 {
 	factor = 1
 
