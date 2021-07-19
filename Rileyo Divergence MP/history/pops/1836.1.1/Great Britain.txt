@@ -4,121 +4,109 @@
 	aristocrats = {
 		culture = scottish
 		religion = protestant
-		size = 2400
+		size = 2000
 	}
 
 	bureaucrats = {
 		culture = scottish
 		religion = protestant
-		size = 1200
+		size = 1000
 	}
 
 	officers = {
 		culture = scottish
 		religion = protestant
-		size = 500
+		size = 400
 	}
 
 	capitalists = {
 		culture = scottish
 		religion = protestant
-		size = 100
+		size = 50
 	}
 
 	clergymen = {
 		culture = scottish
 		religion = protestant
-		size = 1100
+		size = 750
 	}
 
 	soldiers = {
 		culture = scottish
 		religion = protestant
-		size = 3000
-	}
-
-	soldiers = {
-		culture = scottish
-		religion = protestant
-		size = 3000
+		size = 6000
 	}
 
 	artisans = {
 		culture = scottish
 		religion = protestant
-		size = 10000
-	}
-
-	artisans = {
-		culture = scottish
-		religion = protestant
-		size = 5200
+		size = 11200
 	}
 
 	craftsmen = {
 		culture = scottish
 		religion = protestant
-		size = 8700
+		size = 7700
 	}
 
 	labourers = {
 		culture = scottish
 		religion = protestant
-		size = 67000
+		size = 43000
 	}
 
 	aristocrats = {
 		culture = icelandic
 		religion = protestant
-		size = 400
+		size = 900
 	}
 
 	officers = {
 		culture = icelandic
 		religion = protestant
-		size = 200
+		size = 400
 	}
 
 	bureaucrats = {
 		culture = icelandic
 		religion = protestant
-		size = 300
+		size = 600
 	}
 
 	capitalists = {
 		culture = icelandic
 		religion = protestant
-		size = 100
+		size = 200
 	}
 
 	clergymen = {
 		culture = icelandic
 		religion = protestant
-		size = 870
+		size = 1670
 	}
 
 	artisans = {
 		culture = icelandic
 		religion = protestant
-		size = 8100
+		size = 14100
 	}
 
 	craftsmen = {
 		culture = icelandic
 		religion = protestant
-		size = 5600
+		size = 10600
 	}
 
 	soldiers = {
 		culture = icelandic
 		religion = protestant
-		size = 1500
+		size = 3000
 	}
 
-	farmers = {
+	labourers = {
 		culture = icelandic
 		religion = protestant
-		size = 8100
+		size = 38100
 	}
 }
 #Inverness (328000/82000 POPS)
@@ -126,49 +114,49 @@
 	aristocrats = {
 		culture = scottish
 		religion = protestant
-		size = 500
+		size = 400
 	}
 
 	clergymen = {
 		culture = scottish
-		religion = protestant
-		size = 650
-	}
-
-	artisans = {
-		culture = scottish
-		religion = protestant
-		size = 4000
-	}
-
-	farmers = {
-		culture = scottish
-		religion = protestant
-		size = 84550
-	}
-
-	aristocrats = {
-		culture = icelandic
-		religion = protestant
-		size = 300
-	}
-
-	clergymen = {
-		culture = icelandic
 		religion = protestant
 		size = 450
 	}
 
 	artisans = {
-		culture = icelandic
+		culture = scottish
 		religion = protestant
 		size = 3500
 	}
 
 	farmers = {
+		culture = scottish
+		religion = protestant
+		size = 60550
+	}
+
+	aristocrats = {
 		culture = icelandic
 		religion = protestant
-		size = 8800
+		size = 600
+	}
+
+	clergymen = {
+		culture = icelandic
+		religion = protestant
+		size = 850
+	}
+
+	artisans = {
+		culture = icelandic
+		religion = protestant
+		size = 5500
+	}
+
+	farmers = {
+		culture = icelandic
+		religion = protestant
+		size = 43800
 	}
 }
 
@@ -236,19 +224,19 @@
 	aristocrats = {
 		culture = icelandic
 		religion = protestant
-		size = 300
+		size = 400
 	}
 
 	artisans = {
 		culture = icelandic
 		religion = protestant
-		size = 4500
+		size = 6500
 	}
 
 	farmers = {
 		culture = icelandic
 		religion = protestant
-		size = 6700
+		size = 26700
 	}
 }
 #Strathclyde-Lothian Region : 1632000
@@ -257,7 +245,7 @@
 	aristocrats = {
 		culture = scottish
 		religion = protestant
-		size = 1100
+		size = 1750
 	}
 
 	officers = {
@@ -269,7 +257,7 @@
 	clergymen = {
 		culture = scottish
 		religion = protestant
-		size = 1375
+		size = 1775
 	}
 
 	capitalists = {
@@ -293,56 +281,37 @@
 	craftsmen = {
 		culture = scottish
 		religion = protestant
-		size = 14000
+		size = 14750
 	}
 
 	artisans = {
 		culture = scottish
 		religion = protestant
-		size = 10000
-	}
-
-	artisans = {
-		culture = scottish
-		religion = protestant
-		size = 7600
+		size = 23600
 	}
 
 	soldiers = {
 		culture = scottish
 		religion = protestant
-		size = 3000
-
-	}
-
-	soldiers = {
-		culture = scottish
-		religion = protestant
-		size = 3000
-	}
-
-	soldiers = {
-		culture = scottish
-		religion = protestant
-		size = 3000
+		size = 9000
 	}
 
 	farmers = {
 		culture = scottish
 		religion = protestant
-		size = 95175
+		size = 115175
 	}
 
 	aristocrats = {
 		culture = icelandic
 		religion = protestant
-		size = 1300
+		size = 650
 	}
 
 	clergymen = {
 		culture = icelandic
 		religion = protestant
-		size = 800
+		size = 400
 	}
 
 	craftsmen = {
@@ -354,7 +323,7 @@
 	artisans = {
 		culture = icelandic
 		religion = protestant
-		size = 8100
+		size = 4100
 	}
 
 	soldiers = {
@@ -366,7 +335,7 @@
 	farmers = {
 		culture = icelandic
 		religion = protestant
-		size = 50225
+		size = 30225
 	}
 }
 #Stirling (364000/91000 POPS)
@@ -398,19 +367,19 @@
 	aristocrats = {
 		culture = icelandic
 		religion = protestant
-		size = 320
+		size = 520
 	}
 
 	artisans = {
 		culture = icelandic
 		religion = protestant
-		size = 4100
+		size = 6100
 	}
 
 	farmers = {
 		culture = icelandic
 		religion = protestant
-		size = 11300
+		size = 25300
 	}
 }
 #Glasgow (620000/155000 POPS)
@@ -442,25 +411,13 @@
 	artisans = {
 		culture = scottish
 		religion = protestant
-		size = 10000
-	}
-
-	artisans = {
-		culture = icelandic
-		religion = protestant
-		size = 10000
-	}
-
-	artisans = {
-		culture = scottish
-		religion = protestant
-		size = 2000
+		size = 22000
 	}
 
 	farmers = {
 		culture = scottish
 		religion = protestant
-		size = 53150
+		size = 63150
 	}
 
 	clergymen = {
@@ -472,13 +429,13 @@
 	farmers = {
 		culture = icelandic
 		religion = protestant
-		size = 19900
+		size = 9900
 	}
 
 	craftsmen = {
 		culture = icelandic
 		religion = protestant
-		size = 10000
+		size = 15000
 	}
 }
 #Dumfries (168000/42000 POPS)
@@ -508,43 +465,43 @@
 	}
 
 	aristocrats = {
-		culture = icelandic
+		culture = scottish
 		religion = protestant
 		size = 670
 	}
 
 	clergymen = {
-		culture = icelandic
+		culture = scottish
 		religion = protestant
 		size = 300
 	}
 
 	artisans = {
-		culture = icelandic
+		culture = scottish
 		religion = protestant
 		size = 4500
 	}
 
 	farmers = {
-		culture = icelandic
+		culture = scottish
 		religion = protestant
 		size = 20000
 	}
 
 	clergymen = {
-		culture = icelandic
+		culture = scottish
 		religion = protestant
 		size = 300
 	}
 
 	artisans = {
-		culture = icelandic
+		culture = scottish
 		religion = protestant
 		size = 3200
 	}
 
 	farmers = {
-		culture = icelandic
+		culture = scottish
 		religion = protestant
 		size = 7000
 	}
@@ -1353,13 +1310,25 @@
 	aristocrats = {
 		culture = welsh
 		religion = catholic
-		size = 500
+		size = 200
+	}
+
+	aristocrats = {
+		culture = english
+		religion = protestant
+		size = 300
 	}
 
 	clergymen = {
 		culture = welsh
 		religion = catholic
-		size = 375
+		size = 175
+	}
+
+	clergymen = {
+		culture = english
+		religion = protestant
+		size = 200
 	}
 
 	artisans = {
@@ -1371,19 +1340,13 @@
 	labourers = {
 		culture = welsh
 		religion = catholic
-		size = 40875
-	}
-
-	labourers = {
-		culture = english
-		religion = catholic
-		size = 18000
+		size = 25875
 	}
 
 	labourers = {
 		culture = english
 		religion = protestant
-		size = 10000
+		size = 43350
 	}
 }
 #Coventry (432000/108000 POPS)
@@ -1427,15 +1390,8 @@
 	labourers = {
 		culture = english
 		religion = protestant
-		size = 15000
+		size = 35000
 	}
-
-	labourers = {
-		culture = anglois
-		religion = catholic
-		size = 20000
-	}
-
 }
 #East Midlands Region : 1224000
 #Nottingham (484000/121000 POPS)
@@ -1562,7 +1518,6 @@
 		culture = english
 		religion = catholic
 		size= 1100
-
 	}
 
 	labourers = {
@@ -1572,15 +1527,9 @@
 	}
 
 	labourers = {
-		culture = anglois
-		religion = catholic
-		size = 10000
-	}
-
-	labourers = {
 		culture = english
 		religion = protestant
-		size = 10000
+		size = 20000
 	}
 
 }
@@ -1702,25 +1651,25 @@
 	artisans = {
 		culture = english
 		religion = catholic
-		size = 7500
+		size = 3500
 	}
 
-	labourers = {
-		culture = english
+	artisans = {
+		culture = anglois
 		religion = catholic
-		size = 22125
+		size = 4000
 	}
 
 	labourers = {
 		culture = english
 		religion = protestant
-		size = 10000
+		size = 23125
 	}
 
 	labourers = {
 		culture = anglois
 		religion = catholic
-		size = 27000
+		size = 37000
 	}
 
 }
@@ -1780,25 +1729,25 @@
 	artisans = {
 		culture = english
 		religion = catholic
-		size = 4000
+		size = 2000
 	}
 
-	labourers = {
-		culture = english
+	artisans = {
+		culture = anglois
 		religion = catholic
-		size = 31750
+		size = 2000
 	}
 
 	labourers = {
 		culture = english
 		religion = protestant
-		size = 10000
+		size = 26025
 	}
 
 	labourers = {
 		culture = anglois
 		religion = catholic
-		size = 30000
+		size = 45725
 	}
 }
 #Cornwall-Dorset Region : 2032000
@@ -2003,13 +1952,13 @@
 	}
 
 	farmers = {
-		culture = english
+		culture = anglois
 		religion = catholic
 		size = 31100
 	}
 
 	farmers = {
-		culture = english
+		culture = anglois
 		religion = protestant
 		size = 20000
 	}
@@ -2309,37 +2258,37 @@
 #Douglas (46000/11500 POPS)
 304 = {
 	aristocrats = {
-		culture = english
-		religion = catholic
+		culture = icelandic
+		religion = protestant
 		size = 100
 	}
 
 	bureaucrats = {
-		culture = english
-		religion = catholic
+		culture = icelandic
+		religion = protestant
 		size = 25
 	}
 
 	clergymen = {
-		culture = english
-		religion = catholic
+		culture = icelandic
+		religion = protestant
 		size = 125
 	}
 
 	artisans = {
-		culture = english
-		religion = catholic
+		culture = icelandic
+		religion = protestant
 		size = 3250
 	}
 
 	labourers = {
-		culture = english
-		religion = catholic
+		culture = icelandic
+		religion = protestant
 		size = 5600
 	}
 
 	labourers = {
-		culture = english
+		culture = icelandic
 		religion = protestant
 		size = 2000
 	}

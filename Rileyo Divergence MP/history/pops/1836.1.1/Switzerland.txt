@@ -416,7 +416,6 @@
 		culture = north_italian
 		religion = catholic
 		size= 1100
-
 	}
 
 	farmers = {
