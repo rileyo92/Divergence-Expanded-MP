@@ -210,7 +210,6 @@ political_decisions = {
 			HAM_528 = { add_core = CAE }	#Hanover
 			SAX_1 = { add_core = CAE }		#Thuringia
 			PRU_581 = { add_core = CAE }  #Westfalen
-			OLD_540 = { add_core = CAE }	#Oldenburg
 			HAN_534 = { add_core = CAE }	#East Frisia
 			any_country = {
 				limit = {

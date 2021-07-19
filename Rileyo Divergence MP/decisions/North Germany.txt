@@ -27,7 +27,6 @@ political_decisions = {
       HAN_534 = { add_core = HAN }
       PRU_581 = { add_core = HAN }
 			HAN_532 = { add_core = HAN }
-			OLD_540 = { add_core = HAN }
       set_country_flag = kingdom_of_hanover
     }
   }
@@ -44,7 +43,6 @@ political_decisions = {
 		effect = {
 			prestige = 10
 			NET_385 = { add_core = FRI }
-			OLD_540 = { add_core = FRI }
 			add_accepted_culture = dutch
 			set_country_flag = united_frisia
 		}
@@ -76,7 +74,6 @@ political_decisions = {
 			PRU_581 = { add_core = WES }
 			HES_566 = { add_core = WES }
 			HAN_534 = { add_core = WES }
-			OLD_540 = { add_core = WES }
 			PRU_575 = { add_core = WES }
 			capital = 566
 		}
