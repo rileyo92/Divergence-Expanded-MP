@@ -1,4 +1,38 @@
 political_decisions = {
+	establish_greater_aragon = {
+		potential = {
+			OR = {
+				tag = ARA
+				tag = CAT
+			}
+			NOT = { has_country_flag = greater_aragon }
+			IBR = { exists = no }
+		}
+		allow = {
+			owns = 507
+			owns = 490
+			CAT = { all_core = { owned_by = THIS } }
+		}
+		effect = {
+			SPA_506 = { add_core = ARA }
+			SPA_506 = { add_core = CAT }
+			SPA_490 = { add_core = ARA }
+			SPA_490 = { add_core = CAT }
+			ESK_1 = { add_core = ARA }
+			ESK_1 = { add_core = CAT }
+			ESK_1 = { add_core = SPA }
+			set_country_flag = greater_aragon
+			any_country = {
+				limit = {
+					primary_culture = basque
+					vassal_of = THIS
+					NOT = { tag = THIS }
+				}
+				annex_to = THIS
+			}
+		}
+	}
+
 form_iberia = {
 		potential = {
 			OR = {
