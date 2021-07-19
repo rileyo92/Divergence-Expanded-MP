@@ -234,13 +234,49 @@
 	aristocrats = {
 		culture = north_german
 		religion = protestant
-		size = 525
+		size = 225
+	}
+
+	aristocrats = {
+		culture = pomeranian
+		religion = protestant
+		size = 200
+	}
+
+	aristocrats = {
+		culture = czech
+		religion = protestant
+		size = 100
+	}
+
+	aristocrats = {
+		culture = polish
+		religion = protestant
+		size = 20
 	}
 
 	clergymen = {
 		culture = north_german
 		religion = protestant
-		size = 450
+		size = 200
+	}
+
+	clergymen = {
+		culture = pomeranian
+		religion = protestant
+		size = 175
+	}
+
+	clergymen = {
+		culture = czech
+		religion = protestant
+		size = 75
+	}
+
+	clergymen = {
+		culture = polish
+		religion = protestant
+		size = 25
 	}
 
 	artisans = {
@@ -249,17 +285,64 @@
 		size = 2400
 	}
 
+	artisans = {
+		culture = pomeranian
+		religion = protestant
+		size = 1100
+	}
+
+	artisans = {
+		culture = czech
+		religion = protestant
+		size = 900
+	}
+
+	artisans = {
+		culture = polish
+		religion = protestant
+		size = 300
+	}
+
 	soldiers = {
 		culture = north_german
 		religion = protestant
-		size= 2000
+		size= 200
+	}
 
+	soldiers = {
+		culture = pomeranian
+		religion = protestant
+		size= 150
+	}
+
+	soldiers = {
+		culture = czech
+		religion = protestant
+		size= 50
 	}
 
 	farmers = {
 		culture = north_german
 		religion = protestant
-		size = 46425
+		size = 21550
+	}
+
+	farmers = {
+		culture = pomeranian
+		religion = protestant
+		size = 18750
+	}
+
+	farmers = {
+		culture = czech
+		religion = protestant
+		size = 6125
+	}
+
+	farmers = {
+		culture = polish
+		religion = protestant
+		size = 2350
 	}
 
 	artisans = {
@@ -1027,32 +1110,31 @@
 	aristocrats = {
 		culture = pomeranian
 		religion = protestant
-		size = 850
+		size = 1050
 	}
 
 	clergymen = {
 		culture = pomeranian
 		religion = protestant
-		size = 125
+		size = 175
 	}
 
 	artisans = {
 		culture = pomeranian
 		religion = protestant
-		size = 800
+		size = 1100
 	}
 
 	soldiers = {
 		culture = pomeranian
 		religion = protestant
-		size= 175
-
+		size= 275
 	}
 
 	farmers = {
 		culture = pomeranian
 		religion = protestant
-		size = 13900
+		size = 16900
 	}
 
 	clergymen = {
