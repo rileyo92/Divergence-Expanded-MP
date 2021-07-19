@@ -710,13 +710,13 @@
 	clergymen = {
 		culture = finnish
 		religion = orthodox
-		size = 10
+		size = 30
 	}
 
 	farmers = {
 		culture = finnish
 		religion = orthodox
-		size = 290
+		size = 690
 	}
 }
 #Kostomuksha (20000/5000 POPS)
@@ -730,45 +730,43 @@
 	artisans = {
 		culture = novgorodian
 		religion = orthodox
-		size = 100
+		size = 1300
 	}
 
 	soldiers = {
 		culture = novgorodian
 		religion = orthodox
 		size= 25
-
 	}
 
 	farmers = {
 		culture = novgorodian
 		religion = orthodox
-		size = 1825
+		size = 2425
 	}
 
 	clergymen = {
-		culture = ugrian
+		culture = finnish
 		religion = orthodox
 		size = 25
 	}
 
 	artisans = {
-		culture = ugrian
+		culture = finnish
 		religion = orthodox
-		size = 2150
+		size = 950
 	}
 
 	soldiers = {
-		culture = ugrian
+		culture = finnish
 		religion = orthodox
 		size= 25
-
 	}
 
 	farmers = {
-		culture = ugrian
+		culture = finnish
 		religion = orthodox
-		size = 2800
+		size = 2200
 	}
 }
 #Povyents (28000/7000 POPS)
@@ -788,39 +786,31 @@
 	soldiers = {
 		culture = novgorodian
 		religion = orthodox
-		size= 25
-
+		size= 50
 	}
 
 	farmers = {
 		culture = novgorodian
 		religion = orthodox
-		size = 2750
+		size = 4250
 	}
 
 	clergymen = {
-		culture = ugrian
+		culture = finnish
 		religion = orthodox
 		size = 50
 	}
 
 	artisans = {
-		culture = ugrian
+		culture = finnish
 		religion = orthodox
 		size = 200
 	}
 
-	soldiers = {
-		culture = ugrian
-		religion = orthodox
-		size= 25
-
-	}
-
 	farmers = {
-		culture = ugrian
+		culture = finnish
 		religion = orthodox
-		size = 3725
+		size = 2325
 	}
 }
 #Kola (2200/550 POPS)
@@ -1616,26 +1606,25 @@
 	}
 
 	clergymen = {
-		culture = ugrian
+		culture = finnish
 		religion = orthodox
 		size = 50
 	}
 
 	artisans = {
-		culture = ugrian
+		culture = finnish
 		religion = orthodox
 		size = 350
 	}
 
 	soldiers = {
-		culture = ugrian
+		culture = finnish
 		religion = orthodox
 		size= 75
-
 	}
 
 	farmers = {
-		culture = ugrian
+		culture = finnish
 		religion = orthodox
 		size = 6525
 	}
@@ -1765,20 +1754,19 @@
 	}
 
 	artisans = {
-		culture = ugrian
+		culture = finnish
 		religion = orthodox
 		size = 150
 	}
 
 	soldiers = {
-		culture = ugrian
+		culture = finnish
 		religion = orthodox
 		size= 25
-
 	}
 
 	farmers = {
-		culture = ugrian
+		culture = finnish
 		religion = orthodox
 		size = 2775
 	}
