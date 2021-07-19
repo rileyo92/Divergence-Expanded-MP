@@ -880,7 +880,7 @@ revolution_n_counterrevolution = {
 	year = 1870
 	cost = 18000
 
-	max_national_focus = 1
+	max_national_focus = 2
 	diplomatic_points = 0.25
 	ai_chance = {
 		factor = 20
