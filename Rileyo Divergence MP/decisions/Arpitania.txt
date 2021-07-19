@@ -60,14 +60,11 @@ political_decisions= {
       tag = ARP
       accepted_culture = swiss
       NOT = { has_country_flag = arp_arles }
-      OR = {
-        NOT = { has_country_flag = arpitania_burgundy }
-        revolution_n_counterrevolution = 1
-      }
     }
     allow = {
       NOT = { war = yes }
       LRR = { all_core = { owned_by = THIS } }
+      revolution_n_counterrevolution = 1
       ARP = {
         all_core = {
           OR = {
