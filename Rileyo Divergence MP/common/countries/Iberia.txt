@@ -1,4 +1,4 @@
-color = { 196  233  12 }
+color = { 255  229  180 }
 graphical_culture = SpanishGC
 
 party = {
