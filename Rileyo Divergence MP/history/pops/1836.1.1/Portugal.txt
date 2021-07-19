@@ -4,19 +4,19 @@
 	aristocrats = {
 		culture = portuguese
 		religion = catholic
-		size = 450
+		size = 900
 	}
 
   craftsmen = {
 		culture = castilian
 		religion = catholic
-		size = 2500
+		size = 1500
 	}
 
   craftsmen = {
 		culture = portuguese
 		religion = catholic
-		size = 2500
+		size = 3500
 	}
 
   capitalists = {
@@ -34,13 +34,13 @@
 	officers = {
 		culture = portuguese
 		religion = catholic
-		size = 150
+		size = 200
 	}
 
 	bureaucrats = {
 		culture = portuguese
 		religion = catholic
-		size = 240
+		size = 340
 	}
 
 	clergymen = {
@@ -52,26 +52,19 @@
 	artisans = {
 		culture = portuguese
 		religion = catholic
-		size = 10000
-	}
-
-	artisans = {
-		culture = portuguese
-		religion = catholic
-		size = 10000
+		size = 25000
 	}
 
 	soldiers = {
 		culture = portuguese
 		religion = catholic
 		size= 1000
-
 	}
 
 	farmers = {
 		culture = portuguese
 		religion = catholic
-		size = 45060
+		size = 100060
 	}
 
 	aristocrats = {
@@ -101,13 +94,7 @@
 	artisans = {
 		culture = castilian
 		religion = catholic
-		size = 10000
-	}
-
-	artisans = {
-		culture = castilian
-		religion = catholic
-		size = 5500
+		size = 10500
 	}
 
 	soldiers = {
@@ -119,7 +106,7 @@
 	farmers = {
 		culture = castilian
 		religion = catholic
-		size = 105140
+		size = 45140
 	}
 
 }
