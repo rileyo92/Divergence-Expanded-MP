@@ -26,6 +26,10 @@ political_decisions = {
       }
       NOT = { accepted_culture = breton }
       NOT = { has_global_flag = enacted_anglois_schooling }
+      OR = {
+        has_country_flag = french_integration
+        has_country_flag = dual_integration
+      }
     }
     allow = {
       nationalism_n_imperialism = 1
