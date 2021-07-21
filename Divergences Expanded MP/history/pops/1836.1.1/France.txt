@@ -2522,13 +2522,13 @@
 	farmers = {
 		culture = provencal
 		religion = protestant
-		size = 63600
+		size = 58600
 	}
 
 	farmers = {
 		culture = french
 		religion = catholic
-		size = 40000
+		size = 45000
 	}
 }
 #Auvergne Region (1418000)
@@ -2983,37 +2983,37 @@
 #Bordeaux (632000/158000 POPS)
 458 = {
 	aristocrats = {
-		culture = anglois
+		culture = french
 		religion = catholic
 		size = 3500
 	}
 
 	officers = {
-		culture = anglois
+		culture = french
 		religion = catholic
 		size = 1500
 	}
 
 	bureaucrats = {
-		culture = anglois
+		culture = french
 		religion = catholic
 		size = 2100
 	}
 
 	capitalists = {
-		culture = anglois
+		culture = french
 		religion = catholic
 		size = 300
 	}
 
 	clergymen = {
-		culture = anglois
+		culture = french
 		religion = catholic
 		size = 2600
 	}
 
 	artisans = {
-		culture = anglois
+		culture = french
 		religion = catholic
 		size = 12000
 	}
@@ -3031,13 +3031,13 @@
 	}
 
 	soldiers = {
-		culture = anglois
+		culture = french
 		religion = catholic
 		size = 9000
 	}
 
 	farmers = {
-		culture = anglois
+		culture = french
 		religion = catholic
 		size = 85510
 	}

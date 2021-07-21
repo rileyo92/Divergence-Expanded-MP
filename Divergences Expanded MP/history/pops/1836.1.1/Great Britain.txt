@@ -1485,13 +1485,7 @@
 	labourers = {
 		culture = english
 		religion = protestant
-		size = 15000
-	}
-
-	labourers = {
-		culture = anglois
-		religion = catholic
-		size = 20000
+		size = 35000
 	}
 }
 #Lincoln (336000/84000 POPS)
@@ -1792,49 +1786,49 @@
 	craftsmen = {
 		culture = anglois
 		religion = catholic
-		size = 12000
-	}
-
-	artisans = {
-		culture = anglois
-		religion = catholic
 		size = 9000
 	}
 
-	soldiers = {
-		culture = anglois
-		religion = catholic
-		size = 3000
-	}
-
-	soldiers = {
+	craftsmen = {
 		culture = english
 		religion = catholic
 		size = 3000
 	}
 
-	labourers = {
-		culture = welsh
+	artisans = {
+		culture = anglois
 		religion = catholic
-		size = 20000
+		size = 4500
+	}
+
+	artisans = {
+		culture = english
+		religion = catholic
+		size = 4500
+	}
+
+	soldiers = {
+		culture = anglois
+		religion = catholic
+		size = 1500
+	}
+
+	soldiers = {
+		culture = english
+		religion = catholic
+		size = 4500
+	}
+
+	labourers = {
+		culture = english
+		religion = catholic
+		size = 55000
 	}
 
 	labourers = {
 		culture = anglois
 		religion = catholic
 		size = 12275
-	}
-
-	farmers = {
-		culture = english
-		religion = protestant
-		size = 10000
-	}
-
-	farmers = {
-		culture = english
-		religion = catholic
-		size = 23000
 	}
 }
 #Salisbury (408000/102000 POPS)

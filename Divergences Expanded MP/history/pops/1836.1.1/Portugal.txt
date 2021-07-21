@@ -115,44 +115,55 @@
 	aristocrats = {
 		culture = castilian
 		religion = catholic
-		size = 1850
+		size = 1275
+	}
+
+	aristocrats = {
+		culture = portuguese
+		religion = catholic
+		size = 475
 	}
 
 	clergymen = {
 		culture = castilian
 		religion = catholic
-		size = 585
+		size = 375
+	}
+
+	clergymen = {
+		culture = portuguese
+		religion = catholic
+		size = 290
 	}
 
 	artisans = {
 		culture = castilian
 		religion = catholic
-		size = 8250
+		size = 5100
+	}
+
+	artisans = {
+		culture = portuguese
+		religion = catholic
+		size = 3150
 	}
 
 	soldiers = {
 		culture = castilian
 		religion = catholic
 		size= 1100
-
 	}
 
 	farmers = {
 		culture = castilian
 		religion = catholic
-		size = 66925
-	}
-
-	clergymen = {
-		culture = portuguese
-		religion = catholic
-		size = 40
+		size = 36925
 	}
 
 	farmers = {
 		culture = portuguese
 		religion = catholic
-		size = 2350
+		size = 32350
 	}
 }
 #Covilha (568000/142000 POPS)
@@ -160,13 +171,25 @@
 	aristocrats = {
 		culture = castilian
 		religion = catholic
-		size = 1250
+		size = 900
+	}
+
+	aristocrats = {
+		culture = portuguese
+		religion = catholic
+		size = 350
 	}
 
 	clergymen = {
 		culture = castilian
 		religion = catholic
-		size = 1500
+		size = 1200
+	}
+
+	clergymen = {
+		culture = castilian
+		religion = catholic
+		size = 300
 	}
 
 	artisans = {
@@ -176,7 +199,7 @@
 	}
 
 	artisans = {
-		culture = castilian
+		culture = portuguese
 		religion = catholic
 		size = 7250
 	}
@@ -191,7 +214,13 @@
 	farmers = {
 		culture = castilian
 		religion = catholic
-		size = 120500
+		size = 67950
+	}
+
+	farmers = {
+		culture = portuguese
+		religion = catholic
+		size = 52550
 	}
 
 }

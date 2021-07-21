@@ -1913,7 +1913,6 @@
 		culture = north_german
 		religion = catholic
 		size= 3000
-
 	}
 
 	farmers = {
@@ -1923,26 +1922,25 @@
 	}
 
 	clergymen = {
-		culture = north_german
+		culture = czech
 		religion = protestant
 		size = 100
 	}
 
 	artisans = {
-		culture = north_german
+		culture = czech
 		religion = protestant
 		size = 2575
 	}
 
 	soldiers = {
-		culture = north_german
+		culture = czech
 		religion = protestant
 		size= 600
-
 	}
 
 	farmers = {
-		culture = north_german
+		culture = czech
 		religion = protestant
 		size = 40225
 	}
@@ -2295,7 +2293,7 @@
 	}
 
 	farmers = {
-		culture = north_german
+		culture = czech
 		religion = catholic
 		size = 82575
 	}

@@ -414,6 +414,7 @@ german_struggle = {
 				primary_culture = rheinish
 				primary_culture = north_german
 				primary_culture = pomeranian
+				primary_culture = swiss
 			}
 			NOT = { tag = CHR }
 		}
