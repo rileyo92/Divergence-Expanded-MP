@@ -3,6 +3,7 @@ political_decisions = {
 		potential = {
 			NOT = { is_canal_enabled = 1 }
 			owns = 369
+			is_greater_power = yes
 			mechanical_production = 1
 		}
 		allow = {
@@ -17,11 +18,12 @@ political_decisions = {
 			prestige = 5
 		}
 	}
-
+	
 	build_suez_canal = {
 		picture = suezcanal
 		potential = {
 			NOT = { is_canal_enabled = 2 }
+			is_greater_power = yes
 			mechanical_production = 1
 		}
 		allow = {
@@ -30,7 +32,7 @@ political_decisions = {
 				owns = 1755
 			}
 			invention = machine_tools
-			invention = nitroglycerin
+			invention = nitroglycerin		
 			iron_steamers = 1
 		}
 		effect = {
@@ -41,11 +43,12 @@ political_decisions = {
 			prestige = 10
 			set_global_flag = suez_canal_built
 		}
-	}
+	}	
 
 	build_panama_canal = {
 		potential = {
 			NOT = { is_canal_enabled = 3 }
+			is_greater_power = yes
 			mechanical_production = 1
 		}
 		allow = {
@@ -66,5 +69,5 @@ political_decisions = {
 			1723 = { set_province_flag = panama_canal }
 			prestige = 10
 		}
-	}
+	}	
 }
