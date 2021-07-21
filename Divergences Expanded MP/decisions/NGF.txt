@@ -5,7 +5,8 @@ political_decisions = {
 			OR = {
 				primary_culture = north_german
 				primary_culture = pomeranian
-				tag = MUN
+				tag = MNR
+				tag = NAS
 			}
 			NOT = {
 				exists = NGF

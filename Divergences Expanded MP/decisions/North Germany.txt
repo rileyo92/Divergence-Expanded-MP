@@ -83,7 +83,7 @@ political_decisions = {
 		potential = {
 			OR = {
 				primary_culture = rheinish
-				tag = BAD
+				tag = HEK
 				tag = WUR
 			}
 			RHI = { exists = no }
