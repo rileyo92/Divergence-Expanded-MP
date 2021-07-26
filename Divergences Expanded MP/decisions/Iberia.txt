@@ -252,92 +252,92 @@ form_iberia = {
 	allow = {
 		nationalism_n_imperialism = 1
 		2264 = {
-			OR = {
-				owned_by = THIS
-				owner = {
-					vassal_of = THIS
+			owner = {
+				OR = {
+					tag = THIS
 					in_sphere = THIS
+					vassal_of = THIS
 				}
 			}
 		}
 		2254 = {
-			OR = {
-				owned_by = THIS
-				owner = {
-					vassal_of = THIS
+			owner = {
+				OR = {
+					tag = THIS
 					in_sphere = THIS
+					vassal_of = THIS
 				}
 			}
 		}
 		2247 = {
-			OR = {
-				owned_by = THIS
-				owner = {
-					vassal_of = THIS
+			owner = {
+				OR = {
+					tag = THIS
 					in_sphere = THIS
+					vassal_of = THIS
 				}
 			}
 		}
 		2191 = {
-			OR = {
-				owned_by = THIS
-				owner = {
-					vassal_of = THIS
+			owner = {
+				OR = {
+					tag = THIS
 					in_sphere = THIS
+					vassal_of = THIS
 				}
 			}
 		}
 		2209 = {
-			OR = {
-				owned_by = THIS
-				owner = {
-					vassal_of = THIS
+			owner = {
+				OR = {
+					tag = THIS
 					in_sphere = THIS
+					vassal_of = THIS
 				}
 			}
 		}
 		2172 = {
-			OR = {
-				owned_by = THIS
-				owner = {
-					vassal_of = THIS
+			owner = {
+				OR = {
+					tag = THIS
 					in_sphere = THIS
+					vassal_of = THIS
 				}
 			}
 		}
 		2170 = {
-			OR = {
-				owned_by = THIS
-				owner = {
-					vassal_of = THIS
+			owner = {
+				OR = {
+					tag = THIS
 					in_sphere = THIS
+					vassal_of = THIS
 				}
 			}
 		}
 		2163 = {
-			OR = {
-				owned_by = THIS
-				owner = {
-					vassal_of = THIS
+			owner = {
+				OR = {
+					tag = THIS
 					in_sphere = THIS
+					vassal_of = THIS
 				}
 			}
 		}
 		2156 = {
-			OR = {
-				owned_by = THIS
-				owner = {
-					vassal_of = THIS
+			owner = {
+				OR = {
+					tag = THIS
 					in_sphere = THIS
+					vassal_of = THIS
 				}
 			}
 		}
 		137 = {
-			OR = {
-				owned_by = THIS
-				owner = {
-					vassal_of = THIS
+			owner = {
+				OR = {
+					tag = THIS
 					in_sphere = THIS
+					vassal_of = THIS
 				}
 			}
 		}

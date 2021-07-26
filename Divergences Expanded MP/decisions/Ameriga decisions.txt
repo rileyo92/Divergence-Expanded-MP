@@ -222,58 +222,45 @@ political_decisions = {
 			tag = AMA
 			NOT = { has_country_flag = AMALOT }
 		}
-
 		allow = {
-        owns = 2447
-		OR = {
-			is_greater_power = yes
-			state_n_government = 1
+    	owns = 2447
+			OR = {
+				is_greater_power = yes
+				state_n_government = 1
 			}
 		}
-
 		effect = {
-				badboy = 15
-	set_global_flag = Amerigue
-	LOT = {
-			all_core = {
+			badboy = 15
+			set_global_flag = Amerigue
+			LOT = {
+				all_core = {
 					add_core = THIS
 				}
 			}
-		set_country_flag = AMALOT
-		}
-
-		ai_will_do = {
-			factor = 1
+			set_country_flag = AMALOT
 		}
 	}
 
-
-		Manifest_destiny_LOT = {
+	Manifest_destiny_LOT = {
 		potential = {
 			tag = LOT
 			NOT = { has_country_flag = LOT_AMG }
 		}
-
 		allow = {
-        owns = 2447
-		OR = {
-			is_greater_power = yes
-			state_n_government = 1
+    	owns = 2447
+			OR = {
+				is_greater_power = yes
+				state_n_government = 1
 			}
 		}
-
 		effect = {
-		badboy = 15
-		AMA = {
-			all_core = {
+			badboy = 15
+			AMA = {
+				all_core = {
 					add_core = THIS
 				}
 			}
-		set_country_flag = LOT_AMG
-		}
-
-		ai_will_do = {
-			factor = 1
+			set_country_flag = LOT_AMG
 		}
 	}
 
@@ -309,18 +296,18 @@ political_decisions = {
 			 }
 		 	AMA = {
 		   	all_core = {
-						OR = {
-							owned_by = THIS
-							owner = {
-						     OR = {
-							   	in_sphere = THIS
-							   	vassal_of = THIS
-							   }
+					OR = {
+						owned_by = THIS
+						owner = {
+					  	OR = {
+							 	in_sphere = THIS
+							 	vassal_of = THIS
+							}
 						}
-			}
+					}
+				}
 		   }
 		  }
-		}
 
 		effect = {
 			prestige = 20
