@@ -28,19 +28,13 @@
 	artisans = {
 		culture = burgundian
 		religion = protestant
-		size = 10000
-	}
-
-	artisans = {
-		culture = burgundian
-		religion = protestant
-		size = 7000
+		size = 17000
 	}
 
 	labourers = {
 		culture = burgundian
 		religion = protestant
-		size = 102000
+		size = 72000
 	}
 
 	clergymen = {
@@ -58,71 +52,63 @@
 	labourers = {
 		culture = anglois
 		religion = catholic
-		size = 18000
+		size = 48000
 	}
 }
 #Dunkirk (396000/99000 POPS)
 400 = {
 	artisans = {
-
-		size = 3000
+		size = 2500
 		culture = burgundian
 		religion = protestant
-
 	}
-	artisans = {
 
-		size = 1000
+	artisans = {
+		size = 1500
 		culture = anglois
 		religion = catholic
-
 	}
-	artisans = {
 
+	artisans = {
 		size = 800
 		culture = flemish
 		religion = protestant
-
 	}
-	clergymen = {
 
+	clergymen = {
 		size = 50
 		culture = flemish
 		religion = protestant
-
 	}
-	clergymen = {
 
-		size = 420
+	clergymen = {
+		size = 320
 		culture = burgundian
 		religion = protestant
 	}
-	clergymen = {
 
-		size = 140
+	clergymen = {
+		size = 240
 		culture = anglois
 		religion = catholic
 	}
-	farmers = {
 
-		size = 36000
+	farmers = {
+		size = 26000
 		culture = burgundian
 		religion = protestant
-
 	}
-	farmers = {
 
-		size = 12000
+	farmers = {
+		size = 22000
 		culture = anglois
 		religion = catholic
-
 	}
-	farmers = {
 
+	farmers = {
 		size = 2300
 		culture = flemish
 		religion = protestant
-
 	}
 }
 #Egedesminde (816/204 POPS)
@@ -169,37 +155,37 @@
 	clergymen = {
 		culture = burgundian
 		religion = protestant
-		size = 1125
+		size = 875
 	}
 
 	artisans = {
 		culture = burgundian
 		religion = protestant
-		size = 5750
+		size = 4750
 	}
 
 	farmers = {
 		culture = burgundian
 		religion = protestant
-		size = 80000
+		size = 60000
 	}
 
 	clergymen = {
 		culture = anglois
 		religion = catholic
-		size = 200
+		size = 450
 	}
 
 	artisans = {
 		culture = anglois
 		religion = catholic
-		size = 3200
+		size = 4200
 	}
 
 	farmers = {
 		culture = anglois
 		religion = catholic
-		size = 10125
+		size = 30125
 	}
 }
 #Amiens (552000/138000 POPS)
@@ -358,7 +344,13 @@
 	clergymen = {
 		culture = burgundian
 		religion = protestant
-		size = 700
+		size = 400
+	}
+
+	clergymen = {
+		culture = anglois
+		religion = protestant
+		size = 300
 	}
 
 	artisans = {
@@ -370,13 +362,13 @@
 	farmers = {
 		culture = burgundian
 		religion = protestant
-		size = 57200
+		size = 37200
 	}
 
 	farmers = {
 		culture = anglois
 		religion = catholic
-		size = 7000
+		size = 27000
 	}
 }
 #Charleville (308000/77000 POPS)
@@ -402,13 +394,7 @@
 	farmers = {
 		culture = burgundian
 		religion = protestant
-		size = 60050
-	}
-
-	farmers = {
-		culture = french
-		religion = catholic
-		size = 9100
+		size = 69150
 	}
 }
 #Champagne Region (856000)
@@ -1725,56 +1711,43 @@
 	artisans = {
 		culture = burgundian
 		religion = protestant
-		size = 10000
-	}
-
-	artisans = {
-		culture = burgundian
-		religion = protestant
-		size = 10000
+		size = 16000
 	}
 
 	artisans = {
 		culture = french
 		religion = catholic
-		size = 4500
+		size = 8500
 	}
 
 	craftsmen = {
 		culture = burgundian
 		religion = protestant
-		size = 20000
+		size = 17000
 	}
 
 	craftsmen = {
 		culture = french
 		religion = catholic
-		size = 5430
+		size = 8430
 	}
 
 	soldiers = {
 		culture = burgundian
 		religion = protestant
-		size= 3000
-
-	}
-
-	soldiers = {
-		culture = burgundian
-		religion = protestant
-		size = 2000
+		size= 5000
 	}
 
 	farmers = {
 		culture = burgundian
 		religion = protestant
-		size = 83650
+		size = 73650
 	}
 
 	farmers = {
 		culture = french
 		religion = catholic
-		size = 23040
+		size = 33040
 	}
 }
 #Auxerre (356000/89000 POPS)
@@ -1788,13 +1761,13 @@
 	clergymen = {
 		culture = burgundian
 		religion = protestant
-		size = 900
+		size = 700
 	}
 
 	clergymen = {
 		culture = french
 		religion = catholic
-		size = 100
+		size = 300
 	}
 
 	artisans = {
@@ -1807,19 +1780,18 @@
 		culture = burgundian
 		religion = protestant
 		size= 1000
-
 	}
 
 	farmers = {
 		culture = burgundian
 		religion = protestant
-		size = 70400
+		size = 50400
 	}
 
 	farmers = {
 		culture = french
 		religion = catholic
-		size = 12300
+		size = 32300
 	}
 }
 #Moulins (596000/149000 POPS)
@@ -1833,13 +1805,13 @@
 	clergymen = {
 		culture = burgundian
 		religion = protestant
-		size = 1475
+		size = 1125
 	}
 
 	clergymen = {
 		culture = french
 		religion = catholic
-		size = 200
+		size = 550
 	}
 
 	artisans = {
@@ -1852,19 +1824,18 @@
 		culture = burgundian
 		religion = protestant
 		size= 1500
-
 	}
 
 	farmers = {
 		culture = burgundian
 		religion = protestant
-		size = 103200
+		size = 73200
 	}
 
 	farmers = {
 		culture = french
 		religion = catholic
-		size = 34175
+		size = 64175
 	}
 }
 #Macon (536000/134000 POPS)
@@ -1878,13 +1849,13 @@
 	clergymen = {
 		culture = burgundian
 		religion = protestant
-		size = 1100
+		size = 825
 	}
 
 	clergymen = {
 		culture = french
 		religion = catholic
-		size = 400
+		size = 675
 	}
 
 	artisans = {
@@ -1897,19 +1868,18 @@
 		culture = burgundian
 		religion = protestant
 		size= 1100
-
 	}
 
 	farmers = {
 		culture = burgundian
 		religion = protestant
-		size = 100800
+		size = 70800
 	}
 
 	farmers = {
 		culture = french
 		religion = catholic
-		size = 25000
+		size = 55000
 	}
 }
 #Franche Comte Region (914000)
@@ -1949,7 +1919,6 @@
 		culture = burgundian
 		religion = protestant
 		size= 1500
-
 	}
 
 	farmers = {
@@ -1982,19 +1951,12 @@
 		culture = burgundian
 		religion = protestant
 		size= 1000
-
 	}
 
 	farmers = {
 		culture = burgundian
 		religion = protestant
-		size = 60000
-	}
-
-	farmers = {
-		culture = french
-		religion = catholic
-		size = 12000
+		size = 72000
 	}
 }
 #Pays de la Loire Region (1948800)
