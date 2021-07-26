@@ -335,11 +335,10 @@ political_decisions = {
 	claim_OCC = {
 		picture = Occitania
 		potential = {
-			tag = FRA
+			tag = BRG
 			NOT = { accepted_culture = provencal }
-			NOT = { OCC = { exists = yes } }
 			NOT = { has_country_flag = occitania_reclaime }
-			NOT = { has_global_flag = burgundy_france }
+			accepted_culture = french
 		}
 
 		allow = {
@@ -349,7 +348,6 @@ political_decisions = {
 					owned_by = THIS
 				}
 			}
-			add_accepted_culture = provencal
 		}
 
 		effect = {
@@ -464,22 +462,14 @@ political_decisions = {
 	crh_integrate_danube = {
 		potential = {
 			tag = CRH
-			NOT = { accepted_culture = burgundian }
+			NOT = { has_country_flag = integrate_danube_rhine }
 		}
 		allow = {
 			revolution_n_counterrevolution = 1
-			LRR = {
-				all_core = {
-					OR = {
-						owned_by = THIS
-						owner = { vassal_of = THIS }
-					}
-				}
-			}
 		}
 		effect = {
-			badboy = 7.5
 			add_accepted_culture = south_german
+			set_country_flag = integrate_danube_rhine
 		}
 	}
 
