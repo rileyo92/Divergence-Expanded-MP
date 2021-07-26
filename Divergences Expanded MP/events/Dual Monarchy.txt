@@ -10,7 +10,11 @@ country_event = {
 		name = "650201.A"
 		set_country_flag = french_integration
 		add_accepted_culture = french
+		add_accepted_culture = provencal
 		add_accepted_culture = breton
+		FRA = { all_core = { add_core = THIS } }
+		OCC = { all_core = { add_core = THIS } }
+		SAR_466 = { add_core = THIS }
 		ai_chance = {
 			factor = 33
 		}
@@ -26,6 +30,7 @@ country_event = {
 			factor = 33
 		}
 	}
+	
 	option = {
 		name = "650201.C"
 		set_country_flag = dual_integration
