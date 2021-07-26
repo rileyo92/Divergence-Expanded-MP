@@ -14,11 +14,11 @@ political_decisions = {
 			CAT = { all_core = { owned_by = THIS } }
 		}
 		effect = {
-			SPA_506 = { add_core = ARA }
+			SPA_506 = { add_core = ARA } #Cartagena
 			SPA_506 = { add_core = CAT }
-			SPA_490 = { add_core = ARA }
+			SPA_490 = { add_core = ARA } #Cuenca
 			SPA_490 = { add_core = CAT }
-			ESK_1 = { add_core = ARA }
+			ESK_1 = { add_core = ARA } #Navarra
 			ESK_1 = { add_core = CAT }
 			ESK_1 = { add_core = SPA }
 			set_country_flag = greater_aragon
@@ -51,54 +51,14 @@ form_iberia = {
 			NOT = { war = yes }
 			prestige = 30
 			nationalism_n_imperialism = 1
-			SPA = {
+			IBR = {
 				all_core = {
 					owner = {
 						OR = {
 							tag = THIS
 							in_sphere = THIS
 							vassal_of = THIS
-							is_core = MGH
-							province_id = 2134
-							province_id = 2135
-							province_id = 2136
 						}
-					}
-				}
-			}
-			SPA_498 = {
-				owner = {
-					OR = {
-						tag = THIS
-						in_sphere = THIS
-						vassal_of = THIS
-					}
-				}
-			}
-			SPA_492 = {
-				owner = {
-					OR = {
-						tag = THIS
-						in_sphere = THIS
-						vassal_of = THIS
-					}
-				}
-			}
-			SPA_503 = {
-				owner = {
-					OR = {
-						tag = THIS
-						in_sphere = THIS
-						vassal_of = THIS
-					}
-				}
-			}
-			ESK_1 = {
-				owner = {
-					OR = {
-						tag = THIS
-						in_sphere = THIS
-						vassal_of = THIS
 					}
 				}
 			}
@@ -124,19 +84,9 @@ form_iberia = {
 				}
 				annex_to = THIS
 			}
-			any_owned = {
-				limit = {
-					OR = {
-						is_core = CAT
-						is_core = NAV
-						is_core = POR
-						is_core = SPA
-						is_core = GAL
-						is_core = SRD
-					}
-				}
-				add_core = IBR
-			}
+			464 = { add_core = IBR }
+			502 = { add_core = IBR }
+			POR_2134 = { add_core = IBR }
 			add_accepted_culture = catalan
 			add_accepted_culture = maltese
 			add_accepted_culture = castilian
@@ -301,69 +251,93 @@ form_iberia = {
 
 	allow = {
 		nationalism_n_imperialism = 1
-		LST = {
-			all_core = {
+		2264 = {
+			OR = {
+				owned_by = THIS
 				owner = {
-					OR = {
-						tag = THIS
-						in_sphere = THIS
-						vassal_of = THIS
-					}
+					vassal_of = THIS
+					in_sphere = THIS
 				}
 			}
 		}
-		MEX = {
-			all_core = {
+		2254 = {
+			OR = {
+				owned_by = THIS
 				owner = {
-					OR = {
-						tag = THIS
-						in_sphere = THIS
-						vassal_of = THIS
-					}
+					vassal_of = THIS
+					in_sphere = THIS
 				}
 			}
 		}
-		UCA = {
-			all_core = {
+		2247 = {
+			OR = {
+				owned_by = THIS
 				owner = {
-					OR = {
-						tag = THIS
-						in_sphere = THIS
-						vassal_of = THIS
-					}
+					vassal_of = THIS
+					in_sphere = THIS
 				}
 			}
 		}
-		CUB = {
-			all_core = {
+		2191 = {
+			OR = {
+				owned_by = THIS
 				owner = {
-					OR = {
-						tag = THIS
-						in_sphere = THIS
-						vassal_of = THIS
-					}
+					vassal_of = THIS
+					in_sphere = THIS
 				}
 			}
 		}
-		CAS = {
-			all_core = {
+		2209 = {
+			OR = {
+				owned_by = THIS
 				owner = {
-					OR = {
-						tag = THIS
-						in_sphere = THIS
-						vassal_of = THIS
-					}
+					vassal_of = THIS
+					in_sphere = THIS
 				}
 			}
 		}
-		SAN = {
-			all_core = {
+		2172 = {
+			OR = {
+				owned_by = THIS
 				owner = {
-					OR = {
-						tag = THIS
-						in_sphere = THIS
-						vassal_of = THIS
-					}
+					vassal_of = THIS
+					in_sphere = THIS
+				}
+			}
+		}
+		2170 = {
+			OR = {
+				owned_by = THIS
+				owner = {
+					vassal_of = THIS
+					in_sphere = THIS
+				}
+			}
+		}
+		2163 = {
+			OR = {
+				owned_by = THIS
+				owner = {
+					vassal_of = THIS
+					in_sphere = THIS
+				}
+			}
+		}
+		2156 = {
+			OR = {
+				owned_by = THIS
+				owner = {
+					vassal_of = THIS
+					in_sphere = THIS
+				}
+			}
+		}
+		137 = {
+			OR = {
+				owned_by = THIS
+				owner = {
+					vassal_of = THIS
+					in_sphere = THIS
 				}
 			}
 		}

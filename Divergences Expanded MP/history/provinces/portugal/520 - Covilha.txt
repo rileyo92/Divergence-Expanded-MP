@@ -2,5 +2,6 @@ owner = SPA
 controller = SPA
 add_core = POR
 add_core = SPA
+add_core = IBR
 trade_goods = wool
 life_rating = 35
