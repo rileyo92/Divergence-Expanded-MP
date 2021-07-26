@@ -1134,26 +1134,43 @@
 	clergymen = {
 		culture = north_italian
 		religion = catholic
-		size = 625
+		size = 200
+	}
+
+	clergymen = {
+		culture = central_italian
+		religion = catholic
+		size = 425
 	}
 
 	artisans = {
 		culture = north_italian
 		religion = catholic
-		size = 5000
+		size = 2000
+	}
+
+	artisans = {
+		culture = central_italian
+		religion = catholic
+		size = 3000
 	}
 
 	soldiers = {
-		culture = north_italian
+		culture = central_italian
 		religion = catholic
 		size= 650
-
 	}
 
 	farmers = {
 		culture = north_italian
 		religion = catholic
-		size = 54425
+		size = 22025
+	}
+
+	farmers = {
+		culture = central_italian
+		religion = catholic
+		size = 32400
 	}
 }
 #Tuscany Region (1808000)
