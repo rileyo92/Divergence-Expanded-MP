@@ -100,18 +100,4 @@ political_decisions= {
       set_country_flag = arp_arles
     }
   }
-
-  arles_burgundy_integrate_savoy = {
-    potential = {
-      tag = ARP
-      has_country_flag = arpitania_burgundy
-      NOT = { accepted_culture = north_italian }
-    }
-    allow = {
-      mass_politics = 1
-    }
-    effect = {
-      add_accepted_culture = north_italian
-    }
-  }
 }
