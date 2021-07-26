@@ -62,7 +62,6 @@ political_decisions = {
 			money = 250000
 			invention = machine_tools
 			invention = nitroglycerin
-			invention = steam_shovel
 			invention = prophylaxis_against_malaria
 			steel_steamers = 1
 		}

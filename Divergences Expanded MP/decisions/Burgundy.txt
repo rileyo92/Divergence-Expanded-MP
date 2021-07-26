@@ -386,7 +386,7 @@ political_decisions = {
 	form_confederation_of_rhine_brg = {
 		potential = {
 			tag = BRG
-			NOT = { exists = CHR }
+			NOT = { exists = CRH }
 			NOT = { has_country_flag = annex_boers }
 			NOT = { has_global_flag = burgundy_france }
 		}
