@@ -203,7 +203,8 @@ political_decisions = {
 		effect = {
 			set_global_flag = cae_formed
 			BOH = { all_core = { add_core = CAE } }
-			PRU_572 = { add_core = CAE } 	#Hinterpommern
+			PRU_546 = { add_core = CAE }	#Hinterpommern
+			PRU_572 = { add_core = CAE } 	#
 			SCA_544 = { add_core = CAE }	#Mecklenburg
 			HOL_369 = { add_core = CAE }	#Holstein
 			HAN_532 = { add_core = CAE }	#Luneburg
@@ -329,6 +330,7 @@ political_decisions = {
 			BRG_573 = { add_core = CAE }	#Saarbucken
 			HES_2560 = { add_core = CAE }	#Mainz
 			FRM_564 = { add_core = CAE }	#Palatinate
+			381 = { remove_core = CAE }
 		}
   }
 
@@ -429,6 +431,7 @@ political_decisions = {
 		}
 		effect = {
   		change_tag = HLR
+			GER = { all_core = { add_core = HLR } }
 			any_country = {
 				limit = {
 					OR = {

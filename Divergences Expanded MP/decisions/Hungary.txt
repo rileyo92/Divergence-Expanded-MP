@@ -457,12 +457,12 @@ political_decisions = {
     effect = {
       set_country_flag = lesser_jagiellonian
       SLV = {
-        any_core = {
+        all_core = {
           add_core = THIS
         }
       }
       HUN = {
-        any_core = {
+        all_core = {
           limit = {
             NOT = { is_core = YUG }
             NOT = { is_core = WAL }
@@ -472,7 +472,7 @@ political_decisions = {
         }
       }
       POL = {
-        any_core = {
+        all_core = {
           add_core = THIS
         }
       }

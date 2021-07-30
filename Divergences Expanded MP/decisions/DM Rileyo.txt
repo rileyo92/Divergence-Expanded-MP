@@ -359,6 +359,7 @@ political_decisions = {
           }
           secede_province = ENL
         }
+        capital = 300
       }
       WLS = {
         all_core = {
@@ -367,6 +368,7 @@ political_decisions = {
           }
           secede_province = WLS
         }
+        capital = 273
       }
       IRE = {
         all_core = {
@@ -375,6 +377,7 @@ political_decisions = {
           }
           secede_province = IRE
         }
+        capital = 263
       }
       SCO = {
         all_core = {
@@ -383,6 +386,7 @@ political_decisions = {
           }
           secede_province = SCO
         }
+        capital = 269
       }
       change_tag = FRA
       FRA = {
@@ -421,6 +425,7 @@ political_decisions = {
           }
           secede_province = OCC
         }
+        capital = 455
       }
       FRA = {
         all_core = {
@@ -430,6 +435,7 @@ political_decisions = {
           }
           secede_province = FRA
         }
+        capital = 425
       }
       change_tag = ENG
       ENG = {
@@ -438,6 +444,7 @@ political_decisions = {
         add_accepted_culture = welsh
         add_accepted_culture = irish
         add_accepted_culture = scottish
+        add_accepted_culture = icelandic
         add_accepted_culture = beornian
         add_accepted_culture = breton
       }
