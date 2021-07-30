@@ -183,6 +183,7 @@ political_decisions = {
       has_country_flag = french_integration
     }
     allow = {
+      nationalism_n_imperialism = 1
       NAV = {
         all_core = { owned_by = THIS }
       }

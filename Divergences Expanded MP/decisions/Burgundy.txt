@@ -341,7 +341,7 @@ political_decisions = {
 		}
 
 		allow = {
-			nationalism_n_imperialism = 1
+			revolution_n_counterrevolution = 1
 			OCC = {
 				any_core = {
 					owned_by = THIS

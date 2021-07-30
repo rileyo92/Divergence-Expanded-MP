@@ -400,4 +400,56 @@ political_decisions = {
 			}
 		}
 	}
+
+	centralize_hre = {
+		picture = Reich_kaiser
+		potential = {
+			OR = {
+				tag = CAE
+			}
+			is_greater_power = yes
+			HLR = { exists = no }
+			GER = { exists = no }
+		}
+		allow = {
+			mass_politics = 1
+			GER = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							OR = {
+								in_sphere = THIS
+								vassal_of = THIS
+							}
+						}
+					}
+				}
+			}
+		}
+		effect = {
+  		change_tag = HLR
+			any_country = {
+				limit = {
+					OR = {
+						is_culture_group = germanic
+						culture = swiss
+					}
+					OR = {
+						in_sphere = THIS
+						vassal_of = THIS
+					}
+				}
+				country_event = 333458
+			}
+			set_global_flag = hre_formed
+			prestige = 50
+			add_accepted_culture = north_german
+			add_accepted_culture = south_german
+			add_accepted_culture = pomeranian
+			add_accepted_culture = rheinish
+			add_accepted_culture = swiss
+			capital = 564
+		}
+	}
 }
