@@ -14,7 +14,10 @@ country_event = {
 		add_accepted_culture = breton
 		FRA = { all_core = { add_core = THIS } }
 		OCC = { all_core = { add_core = THIS } }
-		SAR_466 = { add_core = THIS }
+		SAR_466 = {
+			add_core = THIS
+			add_core = OCC
+		}
 		ai_chance = {
 			factor = 33
 		}
@@ -30,7 +33,7 @@ country_event = {
 			factor = 33
 		}
 	}
-	
+
 	option = {
 		name = "650201.C"
 		set_country_flag = dual_integration

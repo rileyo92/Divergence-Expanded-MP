@@ -350,8 +350,9 @@ political_decisions = {
       OCC = { all_core = { add_core = FRA } }
       LRR = { all_core = { add_core = FRA } }
       NAV = { all_core = { add_core = FRA } }
+      GNV = { all_core = { add_core = FRA } }
       ENL = {
-        any_core = {
+        all_core = {
           limit = {
             owned_by = THIS
             NOT = { is_core = WLS }
@@ -360,7 +361,7 @@ political_decisions = {
         }
       }
       WLS = {
-        any_core = {
+        all_core = {
           limit = {
             owned_by = THIS
           }
@@ -368,7 +369,7 @@ political_decisions = {
         }
       }
       IRE = {
-        any_core = {
+        all_core = {
           limit = {
             owned_by = THIS
           }
@@ -376,7 +377,7 @@ political_decisions = {
         }
       }
       SCO = {
-        any_core = {
+        all_core = {
           limit = {
             owned_by = THIS
           }
@@ -412,8 +413,9 @@ political_decisions = {
       IRE = { all_core = { add_core = ENG } }
       SCO = { all_core = { add_core = ENG } }
       NAN = { all_core = { add_core = ENG } }
+      BRT = { all_core = { add_core = ENG } }
       OCC = {
-        any_core = {
+        all_core = {
           limit = {
             owned_by = THIS
           }
@@ -421,7 +423,7 @@ political_decisions = {
         }
       }
       FRA = {
-        any_core = {
+        all_core = {
           limit = {
             owned_by = THIS
             NOT = { is_core = BRT }
