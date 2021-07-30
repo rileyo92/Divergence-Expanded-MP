@@ -334,4 +334,128 @@ political_decisions = {
       set_country_flag = dm_atlantic_claims
     }
   }
+
+  dm_becoming_france = {
+    potential = {
+      tag = DUA
+      has_country_flag = french_integration
+      NOT = { FRA = { exists = yes } }
+    }
+    allow = {
+      year = 1865
+    }
+    effect = {
+      DUA = { all_core = { remove_core = DUA } }
+      BRT = { all_core = { add_core = FRA } }
+      OCC = { all_core = { add_core = FRA } }
+      LRR = { all_core = { add_core = FRA } }
+      NAV = { all_core = { add_core = FRA } }
+      ENL = {
+        any_core = {
+          limit = {
+            owned_by = THIS
+            NOT = { is_core = WLS }
+          }
+          secede_province = ENL
+        }
+      }
+      WLS = {
+        any_core = {
+          limit = {
+            owned_by = THIS
+          }
+          secede_province = WLS
+        }
+      }
+      IRE = {
+        any_core = {
+          limit = {
+            owned_by = THIS
+          }
+          secede_province = IRE
+        }
+      }
+      SCO = {
+        any_core = {
+          limit = {
+            owned_by = THIS
+          }
+          secede_province = SCO
+        }
+      }
+      change_tag = FRA
+      FRA = {
+        primary_culture = french
+        add_accepted_culture = anglois
+        add_accepted_culture = breton
+        add_accepted_culture = provencal
+        add_accepted_culture = burgundian
+        add_accepted_culture = basque
+      }
+      badboy = -5
+    }
+  }
+
+  dm_becoming_gb = {
+    potential = {
+      tag = DUA
+      has_country_flag = english_integration
+      NOT = { ENG = { exists = yes } }
+      NOT = { ENL = { exists = yes } }
+    }
+    allow = {
+      year = 1865
+    }
+    effect = {
+      DUA = { all_core = { remove_core = DUA } }
+      ENL = { all_core = { add_core = ENG } }
+      IRE = { all_core = { add_core = ENG } }
+      SCO = { all_core = { add_core = ENG } }
+      NAN = { all_core = { add_core = ENG } }
+      OCC = {
+        any_core = {
+          limit = {
+            owned_by = THIS
+          }
+          secede_province = OCC
+        }
+      }
+      FRA = {
+        any_core = {
+          limit = {
+            owned_by = THIS
+            NOT = { is_core = BRT }
+          }
+          secede_province = FRA
+        }
+      }
+      change_tag = ENG
+      ENG = {
+        primary_culture = english
+        add_accepted_culture = anglois
+        add_accepted_culture = welsh
+        add_accepted_culture = irish
+        add_accepted_culture = scottish
+        add_accepted_culture = beornian
+        add_accepted_culture = breton
+      }
+      DEN_251 = {
+        add_core = ENG
+      }
+      SCA_252 = {
+        add_core = ENG
+      }
+      POR_2134 = {
+        add_core = ENG
+      }
+      ENG_2132 = {
+        add_core = ENG
+      }
+      SA_8 = {
+        add_core = ENG
+      }
+      set_country_flag = dm_atlantic_claims
+      badboy = -5
+    }
+  }
 }
