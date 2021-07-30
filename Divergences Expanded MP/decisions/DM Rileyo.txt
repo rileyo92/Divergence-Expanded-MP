@@ -399,6 +399,9 @@ political_decisions = {
       }
       badboy = -5
     }
+    ai_will_do = {
+      factor = 0
+    }
   }
 
   dm_becoming_gb = {
@@ -465,6 +468,9 @@ political_decisions = {
       }
       set_country_flag = dm_atlantic_claims
       badboy = -5
+    }
+    ai_will_do = {
+      factor = 0
     }
   }
 }
