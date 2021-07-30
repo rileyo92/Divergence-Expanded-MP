@@ -327,7 +327,7 @@ political_decisions = {
 	      }
 				remove_core = THIS
 			}
-			FRA = { all_core = { add_core = THIS } }
+			change_tag = FRA
 			set_global_flag = burgundy_france
 		}
 	}
@@ -335,10 +335,9 @@ political_decisions = {
 	claim_OCC = {
 		picture = Occitania
 		potential = {
-			tag = BRG
+			tag = FRA
 			NOT = { accepted_culture = provencal }
 			NOT = { has_country_flag = occitania_reclaime }
-			accepted_culture = french
 		}
 
 		allow = {

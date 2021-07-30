@@ -443,6 +443,7 @@ political_decisions = {
 			SLA = { all_core = { add_core = THIS } }
 			624 = { add_core = THIS }
 			add_accepted_culture = slovak
+			set_country_flag = carpathia
 		}
 	}
 }

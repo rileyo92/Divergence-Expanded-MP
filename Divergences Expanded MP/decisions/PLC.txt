@@ -100,6 +100,7 @@ political_decisions = {
   			has_country_flag = lublin_new
   	    NOT = { has_country_flag = treaty_hadiach }
         NOT = { has_country_flag = wsf_formed }
+        NOT = { has_country_flag = lesser_jagiellonian }
   		}
   		allow = {
         citizens_rights = all_voting_pops

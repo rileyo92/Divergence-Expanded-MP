@@ -119,8 +119,6 @@ political_decisions = {
 					}
 				}
 			}
-      NOT = { PLA = { is_greater_power = yes } }
-      NOT = { NBG = { is_greater_power = yes } }
 			nationalism_n_imperialism = 1
 		}
 		effect = {
@@ -402,15 +400,6 @@ political_decisions = {
 						}
 					}
 			}
-      NOT = {
-				VIN = {
-					OR = {
-						is_greater_power = yes
-						NOT = { has_country_flag = returned_home }
-					}
-				}
-			}
-      NOT = { NBG = { is_greater_power = yes } }
 			nationalism_n_imperialism = 1
 		}
 		effect = {

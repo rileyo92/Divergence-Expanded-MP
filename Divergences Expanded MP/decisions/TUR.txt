@@ -40,6 +40,7 @@ political_decisions = {
 		}
 		effect = {
 			set_country_flag = bulgaria_is_reclaimed
+			add_accepted_culture = bulgarian
 			BUL = {
 				all_core = {
 					limit = {
@@ -202,7 +203,6 @@ political_decisions = {
 			biologism = 1
 		}
 		effect = {
-			add_accepted_culture = bulgarian
 			add_accepted_culture = serb
 			set_country_flag = tanzimat_1
 		}
@@ -227,6 +227,21 @@ political_decisions = {
 		}
 	}
 
+	tanzimat_reforms_3 = {
+		potential = {
+			tag = TUR
+			has_country_flag = tur_balkans
+			NOT = { has_country_flag = tanzimat_3 }
+		}
+		allow = {
+			mass_politics = 1
+		}
+		effect = {
+			add_accepted_culture = hungarian
+			set_country_flag = tanzimat_3
+		}
+	}
+
 	#Arabia focus
 	reclaim_kurdistan = {
 		potential = {
@@ -235,20 +250,20 @@ political_decisions = {
 				has_country_flag = tur_turan
 				has_country_flag = tur_arabia
 			}
-			NOT = { accepted_culture = kurdish }
+			NOT = { has_country_flag = reclaim_kurds }
 		}
 		allow = {
 			state_n_government = 1
 			NOT = { exists = KUR }
-			KUR = {
-				all_core = {
-						owned_by = THIS
-				}
-			}
 		}
 		effect = {
 			prestige = 4
-			add_accepted_culture = kurdish
+			set_country_flag = reclaim_kurds
+			KUR = {
+				all_core = {
+						add_core = THIS
+				}
+			}
 		}
 	}
 
@@ -394,7 +409,6 @@ political_decisions = {
 			TAR = { all_core = { add_core = THIS } }
 			add_accepted_culture = dagestani
 			add_accepted_culture = ossetian
-			add_accepted_culture = north_caucasian
 			add_accepted_culture = crimean
 			add_accepted_culture = astrakhani
 		}
@@ -426,6 +440,7 @@ political_decisions = {
 			add_accepted_culture = kazak
 			add_accepted_culture = uzbek
 			add_accepted_culture = tajik
+			add_accepted_culture = uighur
 			add_accepted_culture = turkmen
 			add_accepted_culture = kirgiz
 			add_accepted_culture = oirat

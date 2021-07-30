@@ -387,6 +387,10 @@ political_decisions = {
 			OR = {
 				tag = HUN
 				tag = DNB
+				AND = {
+					tag = PLC
+					has_country_flag = lesser_jagiellonian
+				}
 			}
 			NOT = { has_country_flag = romanians_integrated }
 			NOT = { has_country_flag = hun_balkans }
@@ -428,4 +432,53 @@ political_decisions = {
 			ROM = { all_core = { add_core = THIS } }
 		}
 	}
+
+	reform_lesser_jagiellonian_union = {
+    potential = {
+      OR = {
+        tag = HUN
+        tag = PLC
+        tag = SLV
+      }
+      NOT = { has_country_flag = jagiellonian }
+      NOT = { has_country_flag = lesser_jagiellonian }
+      NOT = { has_country_flag = treaty_hadiach }
+      NOT = { has_country_flag = hun_balkans }
+    }
+    allow = {
+      owns = 643
+			owns = 641
+			owns = 648
+			owns = 633
+			owns = 703
+			owns = 712
+			owns = 706
+    }
+    effect = {
+      set_country_flag = lesser_jagiellonian
+      SLV = {
+        any_core = {
+          add_core = THIS
+        }
+      }
+      HUN = {
+        any_core = {
+          limit = {
+            NOT = { is_core = YUG }
+            NOT = { is_core = WAL }
+            NOT = { is_core = MOL }
+          }
+          add_core = THIS
+        }
+      }
+      POL = {
+        any_core = {
+          add_core = THIS
+        }
+      }
+      add_accepted_culture = slovak
+      add_accepted_culture = hungarian
+      add_accepted_culture = polish
+    }
+  }
 }

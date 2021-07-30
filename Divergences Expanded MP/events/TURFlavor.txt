@@ -100,8 +100,9 @@ country_event = {
 		name = "502001.A"
 		set_country_flag = tur_balkans
 		add_accepted_culture = bosniak
+		add_accepted_culture = albanian
 		ai_chance = {
-				factor = 30
+				factor = 45
 		}
 	}
 
@@ -110,7 +111,7 @@ country_event = {
 		set_country_flag = tur_arabia
 		capital = 876
 		ai_chance = {
-				factor = 60
+				factor = 45
 		}
 	}
 
@@ -119,6 +120,7 @@ country_event = {
 		set_country_flag = tur_turan
 		capital = 876
 		add_accepted_culture = turkmen
+		add_accepted_culture = north_caucasian
 		ai_chance = {
 				factor = 10
 		}

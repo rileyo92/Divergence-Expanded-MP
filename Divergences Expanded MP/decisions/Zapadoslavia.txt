@@ -12,34 +12,14 @@ political_decisions = {
       NOT = { has_country_flag = wsf_formed }
     }
     allow = {
-      BOH = {
-        all_core = {
-          OR = {
-            owned_by = THIS
-            is_core = BRN
-            is_core = SAX
-            owner = { vassal_of = THIS }
-          }
-        }
-      }
-      SLV = {
-        all_core = {
-          OR = {
-            owned_by = THIS
-            owner = { vassal_of = THIS }
-          }
-        }
-      }
-      POL = {
-        all_core = {
-          OR = {
-            owned_by = THIS
-            is_core = RUT
-            is_core = PRU
-            owner = { vassal_of = THIS }
-          }
-        }
-      }
+      owns = 682
+      owns = 625
+      owns = 631
+      owns = 633
+      owns = 703
+      owns = 706
+      owns = 712
+      owns = 699
       nationalism_n_imperialism = 1
     }
     effect = {
@@ -56,6 +36,7 @@ political_decisions = {
       }
       SAX = { all_core = { add_core = WSF } }
       PRU_546 = { add_core = WSF }
+      PRU_695 = { add_core = WSF }
       add_accepted_culture = slovak
       add_accepted_culture = polish
       add_accepted_culture = czech
@@ -85,6 +66,7 @@ political_decisions = {
       revolution_n_counterrevolution = 1
       owns = 360
       owns = 364
+      owns = 354
     }
     effect = {
       set_country_flag = zap_baltic_integration
