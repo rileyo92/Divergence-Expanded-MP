@@ -1354,7 +1354,7 @@ bolt_action_rifles = {
 	unciv_military = yes
 	unit = 1
 
-	combat_width = -5
+	combat_width = -3
 
 	ai_chance = {
 		factor = 3
@@ -1489,7 +1489,7 @@ modern_divisional_structure = {
 	unciv_military = yes
 
 	unit = 2
-	combat_width = -5
+	combat_width = -2
 
 	ai_chance = {
 		factor = 1.5

@@ -10,6 +10,8 @@ political_decisions = {
       NOT = { has_country_flag = jagiellonian }
       NOT = { has_country_flag = lesser_jagiellonian }
       NOT = { has_country_flag = wsf_formed }
+      NOT = { tag = CAE }
+      NOT = { tag = HLR }
     }
     allow = {
       owns = 682
