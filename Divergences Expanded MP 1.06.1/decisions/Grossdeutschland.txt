@@ -233,6 +233,7 @@ political_decisions = {
 		change_tag = CAE
 		add_accepted_culture = north_german
 		add_accepted_culture = pomeranian
+		381 = { remove_core = CAE }
 		}
 	}
 
