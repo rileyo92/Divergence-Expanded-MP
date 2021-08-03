@@ -278,22 +278,6 @@ political_decisions = {
 		}
 	}
 
-  integrate_welsh_sca = {
-    potential = {
-      tag = SCA
-      has_country_flag = north_sea_empire
-      NOT = { accepted_culture = welsh }
-    }
-    allow = {
-      revolution_n_counterrevolution = 1
-      WLS = { all_core = { owned_by = THIS } }
-    }
-    effect = {
-      prestige = 10
-      add_accepted_culture = welsh
-    }
-  }
-
   integrate_irish_sca = {
     potential = {
       tag = SCA
@@ -433,6 +417,7 @@ political_decisions = {
       2687 = { owned_by = THIS }
     }
     effect = {
+      set_country_flag = sca_siberia
       add_accepted_culture = inuit
       add_accepted_culture = siberian
       YKT = { all_core = { add_core = SCA } }
