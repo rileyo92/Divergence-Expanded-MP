@@ -2078,7 +2078,7 @@ indirect_artillery_fire = {
 	artillery = {
 		attack = 0.5
 		defence = 1
-		support = 1
+		support = 0.5
 		supply_consumption = 0.3
 	}
 
@@ -2216,7 +2216,7 @@ heavy_armament_dunno = {
 	artillery = {
 		attack = 0.5
 		defence = 1
-		support = 1
+		support = 0.5
 		supply_consumption = 0.3
 	}
 
