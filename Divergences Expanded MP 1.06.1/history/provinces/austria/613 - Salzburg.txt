@@ -1,6 +1,6 @@
-owner = SAL
-controller = SAL
-add_core = SAL
+owner = TIR
+controller = TIR
+add_core = TIR
 add_core = GER
 add_core = BAV
 add_core = AUS
