@@ -338,11 +338,11 @@ political_decisions = {
   dm_becoming_france = {
     potential = {
       tag = DUA
-      has_country_flag = french_integration
       NOT = { FRA = { exists = yes } }
     }
     allow = {
-      year = 1865
+      year = 1840
+      NOT = { owns = 300 }
     }
     effect = {
       DUA = { all_core = { remove_core = DUA } }
@@ -407,12 +407,12 @@ political_decisions = {
   dm_becoming_gb = {
     potential = {
       tag = DUA
-      has_country_flag = english_integration
       NOT = { ENG = { exists = yes } }
       NOT = { ENL = { exists = yes } }
     }
     allow = {
-      year = 1865
+      year = 1840
+      NOT = { owns = 425 }
     }
     effect = {
       DUA = { all_core = { remove_core = DUA } }
