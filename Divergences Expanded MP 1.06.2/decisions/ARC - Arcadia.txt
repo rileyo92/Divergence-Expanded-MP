@@ -519,7 +519,7 @@ political_decisions = {
 	annex_mexico_arc = {
 		potential = {
 			tag = ARC
-			has_country_flag = plantagenia_arc
+			has_country_flag = plantagenian_arcadia
 			NOT = { has_country_flag = mexico_arc }
 			NOT = { has_country_flag = vinland_arc }
 			NOT = { has_country_flag = qingqiu_arc }
