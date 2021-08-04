@@ -417,8 +417,8 @@ political_decisions = {
 	tur_into_turania = {
 		potential = {
 			tag = TUR
-			has_country_flag = tur_invade_caucass
-			NOT = { has_country_flag = tur_invade_tatarstan }
+			has_country_flag = tur_invade_tatarstan
+			NOT = { has_country_flag = tur_turania }
 		}
 		allow = {
 			revolution_n_counterrevolution = 1
@@ -434,8 +434,10 @@ political_decisions = {
 			UGH = { all_core = { add_core = THIS } }
 			SIB = { all_core = { add_core = THIS } }
 			TNT = { all_core = { add_core = THIS } }
-			CHI_1600 = { all_core = { add_core = THIS } }
-			CHI_2608 = { all_core = { add_core = THIS } }
+			AFS = { all_core = { add_core = THIS } }
+			CHI_1600 = { add_core = THIS }
+			CHI_2608 = { add_core = THIS }
+			BUK_1207 = { add_core = THIS }
 			add_accepted_culture = tatar
 			add_accepted_culture = kazak
 			add_accepted_culture = uzbek
@@ -444,6 +446,7 @@ political_decisions = {
 			add_accepted_culture = turkmen
 			add_accepted_culture = kirgiz
 			add_accepted_culture = oirat
+			add_accepted_culture = ugrian
 		}
 	}
 }
