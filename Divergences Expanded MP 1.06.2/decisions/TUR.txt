@@ -308,6 +308,7 @@ political_decisions = {
 			}
 		}
 		effect = {
+			set_country_flag = tur_invade_arabia
 			NEJ = {
 				all_core = {
 					limit = {
@@ -330,6 +331,7 @@ political_decisions = {
 			KUR = { all_core = { owned_by = THIS } }
 		}
 		effect = {
+			set_country_flag = tur_invade_iraq
 			IRQ = {
 				all_core = {
 					limit = {
