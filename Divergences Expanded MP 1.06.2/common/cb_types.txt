@@ -139,12 +139,7 @@ great_war_penalty_cb = {
 	po_remove_prestige = yes
 
 	war_name = WAR_NAME
-
-	#can_use = {
-	#	NOT = { is_our_vassal = THIS }
-	#	is_disarmed = no
-	#}
-
+	
 	on_add = {
 	}
 
