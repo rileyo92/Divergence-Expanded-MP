@@ -190,30 +190,24 @@ political_decisions = {
 			NOT = { has_country_flag = LST_recognized }
 			LST = {
 				all_core = {
-						owned_by = THIS
-					}
+					owned_by = THIS
 				}
+			}
 		}
-
 		allow = {
 			war = no
 			is_vassal = no
 			OR = {
-			is_greater_power = yes
-			truce_with = MEX
+				is_greater_power = yes
+				truce_with = MEX
 			}
 		}
-
 		effect = {
 			set_country_flag = LST_recognized
 			any_owned = {
 				limit = { is_core = THIS }
 				remove_core = MEX
 			}
-		}
-
-		ai_will_do = {
-			factor = 1
 		}
 	}
 
@@ -293,7 +287,7 @@ political_decisions = {
 						}
 					}
 		   	}
-			 }
+			}
 		 	AMA = {
 		   	all_core = {
 					OR = {
@@ -307,8 +301,7 @@ political_decisions = {
 					}
 				}
 		   }
-		  }
-
+		 }
 		effect = {
 			prestige = 20
 			change_tag = AZL
@@ -335,46 +328,43 @@ political_decisions = {
 
 	Ameriga_LOT = {
 		potential = {
-		tag = LOT
-		has_country_flag = LOT_AMG
+			tag = LOT
+			has_country_flag = LOT_AMG
 		}
-
 		allow = {
 			nationalism_n_imperialism = 1
-         AMA = {
-		    OR = {
-		     exists = no
-			 vassal_of = THIS
-			 in_sphere = THIS
-			}
-			all_core = {
+      AMA = {
+		  	OR = {
+		    	exists = no
+			 		vassal_of = THIS
+			 		in_sphere = THIS
+				}
+				all_core = {
 					OR = {
 						owned_by = THIS
 						owner = {
-						     OR = {
-							   in_sphere = THIS
-							   vassal_of = THIS
-							   }
+							OR = {
+								in_sphere = THIS
+							  vassal_of = THIS
+						 	}
 						}
-			}
-		   }
-		  }
+					}
+		 		}
+		 }
 		 LOT = {
 		   all_core = {
 					OR = {
 						owned_by = THIS
 						owner = {
-						     OR = {
-							   in_sphere = THIS
-							   vassal_of = THIS
-							   }
+							OR = {
+					   		in_sphere = THIS
+							  vassal_of = THIS
+						  }
 						}
-			}
+					}
 		   }
 		  }
 		}
-
-
 		effect = {
 			prestige = 20
 			change_tag = AZL
@@ -399,7 +389,7 @@ political_decisions = {
 		}
 	}
 
-    erase_LOT = {
+  erase_LOT = {
 		potential = {
 			tag = AZL
 			primary_culture = amazonian
@@ -407,21 +397,18 @@ political_decisions = {
 		}
 		allow = {
       LOT = {
-			all_core = {
-						owned_by = THIS
-			}
+				all_core = {
+					owned_by = THIS
+				}
       }
 		}
 		effect = {
-          		LOT = { all_core = { remove_core = LOT	} }
-				set_country_flag = LOT_erased
-		}
-    ai_will_do = {
-			factor = 1
+    	LOT = { all_core = { remove_core = LOT } }
+			set_country_flag = LOT_erased
 		}
   }
 
-      erase_AMA = {
+  erase_AMA = {
 		potential = {
 			tag = AZL
 			primary_culture = lotharian
@@ -429,218 +416,195 @@ political_decisions = {
 		}
 		allow = {
       AMA = {
-			all_core = {
-						owned_by = THIS
-			}
+				all_core = {
+					owned_by = THIS
+				}
       }
 		}
 		effect = {
-          		AMA = { all_core = { remove_core = AMA	} }
-				set_country_flag = AMA_erased
-		}
-    ai_will_do = {
-			factor = 1
+    	AMA = { all_core = { remove_core = AMA	} }
+			set_country_flag = AMA_erased
 		}
   }
+
 	Northern_border = {
-	picture = Guyana
-	potential = {
-	tag = AZL
-	NOT = { has_country_flag = guyana_claim }
-	}
-
-	allow = {
-	nationalism_n_imperialism = 1
-	}
-
-	effect = {
-	badboy = 10
-	set_country_flag = guyana_claim
-	ENG_1979 = {
-		add_core = THIS }
-	VNZ_2275 = {
-		add_core = THIS }
-	VNZ_2278 = {
-		add_core = THIS }
-	BRZ_2408 = {
-		add_core = THIS }
-	}
-
+		picture = Guyana
+		potential = {
+			tag = AZL
+			NOT = { has_country_flag = guyana_claim }
+		}
+		allow = {
+			nationalism_n_imperialism = 1
+		}
+		effect = {
+			badboy = 7.5
+			set_country_flag = guyana_claim
+			ENG_1979 = { add_core = THIS }
+			VNZ_2275 = { add_core = THIS }
+			VNZ_2278 = { add_core = THIS }
+			BRZ_2408 = { add_core = THIS }
+		}
 	}
 
 	Federation_NAN = {
-
-	potential = {
-	tag = AZL
-	nationalism_n_imperialism = 1
-	NOT = { has_country_flag = Odon_treaty }
-	}
-
-	allow = {
+		potential = {
+			tag = AZL
+			nationalism_n_imperialism = 1
+			NOT = { has_country_flag = Odon_treaty }
+		}
+		allow = {
 			NAN = {
-			all_core = {
+				all_core = {
 					OR = {
-					  province_id = 2131
+						province_id = 2131
 						province_id = 2133
 						empty = yes
 						owned_by = THIS
 						owner = {
-						     OR = {
-							   in_sphere = THIS
-							   vassal_of = THIS
-							   }
+							OR = {
+								in_sphere = THIS
+								vassal_of = THIS
+							}
 						}
 					}
+				}
 			}
 		}
-	}
-
-	effect = {
-	 add_accepted_culture = beornian
+		effect = {
+	 		add_accepted_culture = beornian
       NAN = { all_core = { add_core = AZL } }
       any_country = {
 				limit = {
-                   tag = NAN
-				    OR = {
-					in_sphere = THIS
-					vassal_of = THIS
+        	tag = NAN
+				  OR = {
+						in_sphere = THIS
+						vassal_of = THIS
 					}
 				}
 				country_event = 333458
-			  }
-	set_country_flag = Odon_treaty
-	}
-
-
+			}
+			set_country_flag = Odon_treaty
+		}
 	}
 
 	Granada_border = {
-
-	potential = {
-	tag = AZL
-	has_country_flag = guyana_claim
-	NOT = { has_country_flag = granada_claim }
-	}
-
-	allow = {
-	nationalism_n_imperialism = 1
-	AZL = {
-		all_core = {
-			OR = {
-				owned_by = AZL
-				empty = yes
+		potential = {
+			tag = AZL
+			has_country_flag = guyana_claim
+			NOT = { has_country_flag = granada_claim }
+		}
+		allow = {
+			nationalism_n_imperialism = 1
+			AZL = {
+				all_core = {
+					OR = {
+						owned_by = AZL
+						empty = yes
+					}
+				}
 			}
 		}
-	}
-	}
-	effect = {
-	badboy = 15
-	set_country_flag = granada_claim
-	GRA = { all_core = { add_core = AZL } }
-	PNM = { all_core = { add_core = AZL } }
-	}
-
+		effect = {
+			badboy = 15
+			set_country_flag = granada_claim
+			GRA = { all_core = { add_core = AZL } }
+			PNM = { all_core = { add_core = AZL } }
+		}
 	}
 
 	GRA_congress = {
-	picture = Congress_AMA
-
-	potential = {
-	tag = AZL
-	nationalism_n_imperialism = 1
-	has_country_flag = granada_claim
-	NOT = { accepted_culture = granadan }
-	}
-
-	allow = {
-	NOT = { GRA = { exists = yes } }
-	GRA = {
-		all_core = {
-			OR = {
-				empty = yes
-				owned_by = AZL
+		picture = Congress_AMA
+		potential = {
+			tag = AZL
+			nationalism_n_imperialism = 1
+			has_country_flag = granada_claim
+			NOT = { accepted_culture = granadan }
+		}
+		allow = {
+			NOT = { GRA = { exists = yes } }
+			GRA = {
+				all_core = {
+					OR = {
+						empty = yes
+						owned_by = AZL
+					}
+				}
 			}
 		}
-	}
-	}
-
-	effect = {
-	add_accepted_culture = granadan
-	set_country_flag = ameriga_united
+		effect = {
+			add_accepted_culture = granadan
+			set_country_flag = ameriga_united
+		}
 	}
 
-	}
 	embrace_ameriganism = {
     picture = "Panarcadianism"
 		potential = {
-		tag = AZL
+			tag = AZL
       has_country_flag = ameriga_united
       NOT = { has_country_flag = amerigan_ideal }
 		}
 		allow = {
 			is_greater_power = yes
 			political_thought = 1
-		war = no
+			war = no
 		}
 		effect = {
-		prestige = 30
-		set_country_flag = amerigan_ideal
-        nationalvalue = nv_liberty
-		any_pop = {
-			limit = {
-				is_accepted_culture = yes
-			}
-			militancy = -2
-      consciousness = 2
-			scaled_consciousness = {
+			prestige = 30
+			set_country_flag = amerigan_ideal
+      nationalvalue = nv_liberty
+			any_pop = {
+				limit = {
+					is_accepted_culture = yes
+				}
+				militancy = -2
+      	consciousness = 2
+				scaled_consciousness = {
 					ideology = liberal
 					factor = 1
 				}
-		}
-		any_pop = {
-			limit = {
-				is_primary_culture = yes
 			}
-			scaled_militancy = {
+			any_pop = {
+				limit = {
+					is_primary_culture = yes
+				}
+				scaled_militancy = {
 					ideology = reactionary
 					factor = 3
-			}
-			scaled_militancy = {
+				}
+				scaled_militancy = {
 					ideology = fascist
 					factor = 3
-			}
-			scaled_militancy = {
+				}
+				scaled_militancy = {
 					ideology = conservative
 					factor = 1
-			}
-			scaled_consciousness = {
+				}
+				scaled_consciousness = {
 					ideology = reactionary
 					factor = 3
-			}
-			scaled_consciousness = {
+				}
+				scaled_consciousness = {
 					ideology = fascist
 					factor = 3
-			}
-			scaled_consciousness = {
+				}
+				scaled_consciousness = {
 					ideology = conservative
 					factor = 1
-			}
-			scaled_consciousness = {
+				}
+				scaled_consciousness = {
 					ideology = liberal
 					factor = 1
-			}
-			scaled_militancy = {
+				}
+				scaled_militancy = {
 					ideology = liberal
 					factor = 1
+				}
 			}
-		}
-        add_country_modifier = {
-				  name = the_homestead_act2
-				  duration = -1
-			  }
-		}
-    ai_will_do = {
-			factor = 1
+      add_country_modifier = {
+		  	name = the_homestead_act2
+			  duration = -1
+		  }
 		}
   }
 
@@ -648,12 +612,16 @@ political_decisions = {
 	picture = acceptation_afro
 		potential = {
 			OR = {
-				tag = AMA
 				tag = PLA
 				tag = NBG
+				tag = ARC
+				tag = AMA
 				tag = LOT
 				tag = AZL
-				tag = ARC
+				accepted_culture = amazonian
+				accepted_culture = plantagenian
+				accepted_culture = lotharian
+				accepted_culture = septiman
 			}
 			NOT = { accepted_culture = afro_frankish }
 		}
@@ -670,16 +638,16 @@ political_decisions = {
 		effect = {
 			add_accepted_culture = afro_frankish
 			any_pop = {
-			    limit = {
-			      NOT = { culture = afro_frankish }
-			    }
-				  militancy = 2
+				limit = {
+			  	NOT = { culture = african_diaspora_cultures }
+			  }
+				militancy = 2
 			}
 			any_pop = {
-			    limit = {
-			       culture = afro_frankish
-				  }
-          consciousness = 2
+				limit = {
+			  	culture = afro_frankish
+				}
+        consciousness = 2
 			}
 		}
 	}
@@ -711,8 +679,12 @@ political_decisions = {
 				accepted_culture = lusitanian
 				accepted_culture = granadan
 				accepted_culture = athesian
+				accepted_culture = caribeno
+				accepted_culture = guianan
 			}
 			NOT = { tag = HIS }
+			NOT = { tag = VEN }
+			NOT = { tag = ITA }
 			NOT = { accepted_culture = afro_latino }
 		}
 		allow = {
@@ -728,40 +700,58 @@ political_decisions = {
 		effect = {
 			add_accepted_culture = afro_latino
 			any_pop = {
-			    limit = {
-			      NOT = { culture = afro_latino }
-			    }
-				  militancy = 2
+				limit = {
+		    	NOT = { culture = african_diaspora_cultures }
+			  }
+			  militancy = 2
 			}
 			any_pop = {
-			    limit = {
-			       culture = afro_latino
-				  }
-          consciousness = 2
+	    	limit = {
+	     		culture = afro_latino
+				}
+        consciousness = 2
 			}
 		}
 	}
 
-	independent_equinoxia = {
+	afro_germanic_slave_citizens = {
+	picture = acceptation_afro
 		potential = {
-		tag = EQN
-		NOT = { has_country_flag = indepence_EQN }
+			OR = {
+				accepted_culture = vinlander
+				accepted_culture = ayitian
+				accepted_culture = livlandian
+			}
+			NOT = { accepted_culture = afro_germanic }
 		}
-
 		allow = {
-		NOT = { AMA = { is_greater_power = yes } }
-		war = no
-		year = 1860
+			NOT = { war = yes }
+			slavery = no_slavery
+			OR = {
+				citizenship_policy = full_citizenship
+				citizenship_policy = limited_citizenship
+			}
+			citizens_rights = all_voting_pops
+			invention = national_fraternity
 		}
-
 		effect = {
-		EQN = { all_core = { remove_core = AMA } }
-		set_country_flag = indepence_EQN
+			add_accepted_culture = afro_germanic
+			any_pop = {
+				limit = {
+		    	NOT = { culture = african_diaspora_cultures }
+			  }
+			  militancy = 2
+			}
+			any_pop = {
+	    	limit = {
+	     		culture = afro_germanic
+				}
+        consciousness = 2
+			}
 		}
 	}
 
 	liberty_enlightening_the_world_AZL = {
-
 		potential = {
 			NOT = {
 				has_global_flag = statue_of_liberty_has_been_built
@@ -771,25 +761,21 @@ political_decisions = {
 			owns = 2447
 			year = 1850
 		}
-
 		allow = {
 			cheap_steel = 1
 		}
-
 		effect = {
 			set_global_flag = statue_of_liberty_has_been_built
 			prestige = 5
-			2447 = { add_province_modifier = {
-			name = the_statue_of_liberty
-			duration = -1
+			2447 = {
+				add_province_modifier = {
+					name = the_statue_of_liberty
+					duration = -1
 				}
 			}
 			any_pop = {
 				militancy = -0.5
 			}
-		}
-		ai_will_do = {
-			factor = 1
 		}
 	}
 
