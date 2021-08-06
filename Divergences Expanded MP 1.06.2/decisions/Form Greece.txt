@@ -1,12 +1,11 @@
 political_decisions = {
 
-form_greece = {
+	form_greece = {
 		potential = {
 			NOT = { GRE = { exists = yes }	}
 			primary_culture = greek
 			NOT = { tag = MAC }
-			}
-
+		}
 		allow = {
 			NOT = { war = yes }
 			GRE = {
@@ -34,8 +33,5 @@ form_greece = {
 				country_event = 11101
 			}
 		}
-		ai_will_do = {
-			factor = 1
-		}
-}
+	}
 }
