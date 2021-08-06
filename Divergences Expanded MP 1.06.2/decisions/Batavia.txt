@@ -48,54 +48,49 @@ political_decisions = {
 			}
 		}
 		allow = {
-		LWE = {
-			all_core = {
+			LWE = {
+				all_core = {
 					OR = {
 						empty = yes
 						owned_by = THIS
 						owner = {
-								OR = {
+							OR = {
 								in_sphere = THIS
 								vassal_of = THIS
 							}
 						}
 					}
-
 				}
 			}
-	TRN = {
-			all_core = {
+			TRN = {
+				all_core = {
 					OR = {
 						owned_by = THIS
 						owner = {
-								OR = {
+							OR = {
 								in_sphere = THIS
 								vassal_of = THIS
 							}
 						}
 					}
-
 				}
 			}
-	NFL = {
-			all_core = {
+			NFL = {
+				all_core = {
 					OR = {
 						owned_by = THIS
 						owner = {
-								OR = {
+							OR = {
 								in_sphere = THIS
 								vassal_of = THIS
 							}
 						}
 					}
-
 				}
 			}
-
-	}
-
-	effect = {
-	any_country = {
+		}
+		effect = {
+			any_country = {
 				limit = {
 					primary_culture = boer
 					OR = {
@@ -105,15 +100,15 @@ political_decisions = {
 				}
 				annex_to = THIS
 			}
-	ENG_2087 = { add_core = BTV }
-	change_tag = BTV
-	set_country_flag = batavia_immigration
-	set_country_flag = new_world_nation
-	prestige = 10
+			ENG_2087 = { add_core = BTV }
+			change_tag = BTV
+			set_country_flag = batavia_immigration
+			set_country_flag = new_world_nation
+			prestige = 10
+		}
 	}
-}
 
-form_south_africa = {
+	form_south_africa = {
 		potential = {
 			NOT = { exists = SAF }
 			NOT = { has_country_flag = claim_south_africa }
@@ -136,7 +131,6 @@ form_south_africa = {
 							}
 						}
 					}
-
 				}
 			}
 			GRQ = {
@@ -151,7 +145,6 @@ form_south_africa = {
 							}
 						}
 					}
-
 				}
 			}
 		}
@@ -170,38 +163,29 @@ form_south_africa = {
 						tag = ZUL
 					}
 					OR = {
-					in_sphere = THIS
-					vassal_of = THIS
+						in_sphere = THIS
+						vassal_of = THIS
 					}
-					NOT = {
-						tag = THIS
-					}
+					NOT = {	tag = THIS }
 				}
 				annex_to = THIS
 			}
 			add_accepted_culture = boer
 			capital = 2087
-			2087 = {
-                change_province_name = "Kaapstad"
-            }
-		}
-		ai_will_do = {
-			factor = 1
+			2087 = { change_province_name = "Kaapstad" }
 		}
 	}
 
-
-
 	Baastards_SAF = {
 		potential = {
-            tag = BTV
+    	tag = BTV
 			NOT = { has_country_flag = baastards_SAF }
 		}
 
 		allow = {
 			OR = {
-			citizenship_policy = full_citizenship
-			citizenship_policy = limited_citizenship
+				citizenship_policy = full_citizenship
+				citizenship_policy = limited_citizenship
 			}
 			slavery = no_slavery
 			owns = 2574
@@ -238,12 +222,12 @@ form_south_africa = {
 				limit = { is_primary_culture = boer }
 				militancy = 2
 				scaled_militancy = {
-				factor = 3
-				ideology = reactionary
+					factor = 3
+					ideology = reactionary
 				}
 				scaled_militancy = {
-				factor = 2
-				ideology = conservative
+					factor = 2
+					ideology = conservative
 				}
 			}
 		}
