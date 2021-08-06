@@ -17,11 +17,8 @@ political_decisions = {
 				duration = 1825
 			}
 		}
-		ai_will_do = {
-			factor = 1
-		}
 	}
-	
+
 	purge_the_traitors = {
 		alert = yes
 		potential = {
@@ -43,16 +40,16 @@ political_decisions = {
 			factor = 1
 		}
 	}
-	
+
 	leave_soi_ai = {
 		alert = no
 		picture = sign_the_geneva_convention
 		potential = {
 		    ai= yes
 			part_of_sphere = yes
-			NOT = { is_vassal = yes }			
+			NOT = { is_vassal = yes }
 		}
-		
+
 		allow = {
 			is_secondary_power = yes
 			sphere_owner = {
@@ -67,10 +64,10 @@ political_decisions = {
 				country_event = 13202
 			}
 		}
-		
+
 		ai_will_do = {
 			factor = 1
-			
+
 			# Ai will do, if sphere owner has LESS than thrice our brigades.
 			modifier = {
 				factor = 0
@@ -83,16 +80,16 @@ political_decisions = {
 			}
 		}
 	}
-	
+
 		leave_soi = {
 		alert = no
 		picture = sign_the_geneva_convention
 		potential = {
 		    ai = no
 			part_of_sphere = yes
-			NOT = { is_vassal = yes }			
+			NOT = { is_vassal = yes }
 		}
-		
+
 		allow = {
 			sphere_owner = {
 				NOT = {
@@ -106,10 +103,10 @@ political_decisions = {
 				country_event = 13202
 			}
 		}
-		
+
 		ai_will_do = {
 			factor = 1
-			
+
 			# Ai will do, if sphere owner has LESS than thrice our brigades.
 			modifier = {
 				factor = 0
@@ -127,14 +124,14 @@ political_decisions = {
 		picture = liberty_enlightening_the_world
 		potential = {
 		NOT = { OR = {
-		tag = INC 
+		tag = INC
 		tag = HHR
-		tag = CHE 
+		tag = CHE
 		tag = IRO
 		tag = AZT
 		tag = PUR
 		tag = ZAP
-		tag = YUC 
+		tag = YUC
 			}
 		}
 		OR = {
@@ -144,15 +141,15 @@ political_decisions = {
 			}
 			NOT = { has_country_flag = land_of_opportunity }
 		}
-		
+
 		allow = {
 			war = no
-			OR = { 
+			OR = {
 			government = democracy
-			government = hms_government 
+			government = hms_government
 			}
 		}
-		
+
 		effect = {
 			set_country_flag = land_of_opportunity
 			add_country_modifier = {
@@ -160,7 +157,7 @@ political_decisions = {
 				duration = 7300
 			}
 		}
-		
+
 		ai_will_do = {
 			factor = 0
 		}
@@ -169,8 +166,8 @@ political_decisions = {
 
 	secret_police = {
 		alert = yes
-		potential = {	
-			not = { has_country_modifier = secret_police }		 	
+		potential = {
+			not = { has_country_modifier = secret_police }
 			OR = {
 				government = proletarian_dictatorship
 				government = presidential_dictatorship
@@ -183,12 +180,9 @@ political_decisions = {
 		}
 		effect = {
 			add_country_modifier = {
-				name = secret_police 
+				name = secret_police
 				duration = -1
 			}
 		}
-		ai_will_do = {
-			factor = 1
-		}
-	}	
+	}
 }

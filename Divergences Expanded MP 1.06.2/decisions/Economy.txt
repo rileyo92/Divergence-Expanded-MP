@@ -17,7 +17,7 @@ political_decisions = {
 				has_country_modifier = no_trade_policy_set
 			}
 		}
-		
+
 		allow = {
 			election = no
 			OR = {
@@ -31,7 +31,7 @@ political_decisions = {
 				}
 			}
 		}
-		
+
 		effect = {
 			random_owned = {
 				limit = {
@@ -40,22 +40,22 @@ political_decisions = {
 							tech_school = commerce_tech_school
 							market_regulations = 1
 						}
-						trade_policy = protectionism 
-					} 
+						trade_policy = protectionism
+					}
 				}
 				owner = { country_event = 22582 }
 			}
-			
+
 			random_owned = {
 				limit = {
 					owner = {
 						NOT = { tech_school = commerce_tech_school market_regulations = 1 }
 						trade_policy = protectionism
-					} 
+					}
 				}
 				owner = { country_event = 22581 }
 			}
-			
+
 			random_owned = {
 				limit = {
 					owner = {
@@ -63,18 +63,18 @@ political_decisions = {
 							tech_school = commerce_tech_school
 							market_regulations = 1
 						}
-						trade_policy = free_trade 
-					} 
+						trade_policy = free_trade
+					}
 				}
 				owner = { country_event = 22585 }
 			}
-			
+
 			random_owned = {
 				limit = {
 					owner = {
 						NOT = { tech_school = commerce_tech_school market_regulations = 1 }
 						trade_policy = free_trade
-					} 
+					}
 				}
 				owner = { country_event = 22584 }
 			}
@@ -82,7 +82,7 @@ political_decisions = {
 
 		ai_will_do = { factor = 1 }
 	}
-	
+
 	rescind_trade_policy = {
 		picture = specific_trade_policy
 		potential = {
@@ -121,10 +121,10 @@ political_decisions = {
 				}
 			}
 		}
-		
+
 		allow = {
 		}
-		
+
 		effect = {
 			random_owned = {
 				limit = {
@@ -134,14 +134,14 @@ political_decisions = {
 							has_country_modifier = mercantilism
 							has_country_modifier = economic_nationalism
 						}
-					} 
+					}
 				}
 				owner = {
 					remove_country_modifier = mercantilism
 					remove_country_modifier = economic_nationalism
 				}
 			}
-			
+
 			random_owned = {
 				limit = {
 					owner = {
@@ -150,14 +150,14 @@ political_decisions = {
 							has_country_modifier = french_liberal_school
 							has_country_modifier = smithian_school
 						}
-					} 
+					}
 				}
 				owner = {
 					remove_country_modifier = french_liberal_school
 					remove_country_modifier = smithian_school
 				}
 			}
-			
+
 			any_neighbor_country = {
 				limit = {
 					ai = no
@@ -183,7 +183,5 @@ political_decisions = {
 				remove_country_modifier = smithian_school
 			}
 		}
-
-		ai_will_do = { factor = 1 }
 	}
 }

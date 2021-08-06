@@ -396,6 +396,10 @@ political_decisions = {
         add_accepted_culture = provencal
         add_accepted_culture = burgundian
         add_accepted_culture = basque
+        remove_accepted_culture = scottish
+        remove_accepted_culture = english
+        remove_accepted_culture = welsh
+        remove_accepted_culture = irish
       }
       badboy = -5
     }
@@ -450,6 +454,9 @@ political_decisions = {
         add_accepted_culture = icelandic
         add_accepted_culture = beornian
         add_accepted_culture = breton
+        remove_accepted_culture = french
+        remove_accepted_culture = provencal
+        remove_accepted_culture = basque
       }
       DEN_251 = {
         add_core = ENG

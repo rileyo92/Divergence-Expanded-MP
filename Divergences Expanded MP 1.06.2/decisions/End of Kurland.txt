@@ -35,9 +35,6 @@ political_decisions = {
 				country_event = 333016
 			}
 		}
-		ai_will_do = {
-			factor = 1
-		}
 	}
 
 kurland_annexation = {
@@ -65,9 +62,6 @@ kurland_annexation = {
 			KRL = {
 				country_event = 333016
 			}
-		}
-		ai_will_do = {
-			factor = 1
 		}
 	}
 }
