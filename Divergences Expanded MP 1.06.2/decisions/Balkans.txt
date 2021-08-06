@@ -24,25 +24,6 @@ political_decisions = {
 		}
 	}
 
-	accept_SLO = {
-    picture = "Triglav"
-		potential = {
-		  tag = CRO
-		  NOT = { has_country_flag = accepted_slovenians }
-		}
-		allow = {
-		  OR = {
-		    owns = 768
-		    owns = 769
-			}
-		}
-		effect = {
-		  set_country_flag = accepted_slovenians
-		  add_accepted_culture = slovene
-      SLO = { all_core = { add_core = THIS } }
-		}
-	}
-
   #Serbia
   greater_serbia = {
 	  picture = greater_serbia
@@ -53,11 +34,8 @@ political_decisions = {
 		allow = {
 			war = no
 			is_vassal = no
-			is_disarmed = no
 			war_policy = jingoism
-			SER = {
-				all_core = { owned_by = SER }
-			}
+			SER = { all_core = { owned_by = SER } }
 		}
 		effect = {
 			set_country_flag = claimed_greater_serbia
@@ -155,7 +133,7 @@ political_decisions = {
       837 = { owned_by = ALB }
     }
     effect = {
-      add_accepted_culture = serb
+      add_accepted_culture = greek
     }
   }
 
@@ -220,10 +198,13 @@ political_decisions = {
       NOT = { accepted_culture = albanian }
     }
     allow = {
-      ALB = { all_core = { owned_by = THIS } }
+      owns = 849
+      owns = 802
     }
     effect = {
       add_accepted_culture = albanian
+      TUR_853 = { add_core = THIS }
+      KOS_802 = { add_core = THIS }
     }
   }
 
@@ -238,12 +219,22 @@ political_decisions = {
       NOT = { accepted_culture = serb }
     }
     allow = {
-      SER = { all_core = { owned_by = THIS } }
-      MON = { all_core = { owned_by = THIS } }
-      SLA = { all_core = { owned_by = THIS } }
+      owns = 802
+      owns = 798
+      owns = 794
+      owns = 2593
+      OR = {
+        owns = 783
+        owns = 2583
+      }
     }
     effect = {
       add_accepted_culture = serb
+      KOS_802 = { add_core = THIS }
+      TUR_803 = { add_core = THIS }
+      SER_794 = { add_core = THIS }
+      AUS_777 = { add_core = THIS }
+      BOS = { all_core = { add_core = THIS } }
     }
   }
 
