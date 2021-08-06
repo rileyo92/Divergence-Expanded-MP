@@ -1,5 +1,4 @@
 political_decisions = {
-
 	secularize_society = {
 		picture = the_holy_city
 		potential = {
@@ -94,9 +93,6 @@ political_decisions = {
 				background = eccentric_genius
 			}
 		}
-		ai_will_do = {
-			factor = 1
-		}
 	}
 
 	the_holy_city = {
@@ -122,9 +118,6 @@ political_decisions = {
 					duration = -1
 				}
 			}
-		}
-		ai_will_do = {
-			factor = 1
 		}
 	}
 
@@ -156,10 +149,11 @@ political_decisions = {
 		effect = {
 			set_global_flag = dar_es_salaam_built
 			money = -1000
+			add_accepted_culture = swahili
 			2036 = { any_pop = { militancy = -1 } add_province_modifier = { name = recently_built_city duration = 365 } change_province_name = "Dar Es Salaam" }
 		}
-		ai_will_do = { factor = 1 }
 	}
+
 	unite_arabia = {
 		potential = {
 			tag = NEJ
@@ -245,9 +239,6 @@ political_decisions = {
 			}
 			set_country_flag = arabia_united_NEJ
 		}
-		ai_will_do = {
-			factor = 1
-		}
 	}
 	restore_rashids = {
 		potential = {
@@ -277,10 +268,8 @@ political_decisions = {
 			}
 			change_tag = NEJ
 		}
-		ai_will_do = {
-			factor = 1
-		}
 	}
+
 	become_protector_NEJ = {
 		potential = {
 			tag = NEJ
@@ -368,7 +357,6 @@ political_decisions = {
 			add_accepted_culture = berber
 			add_accepted_culture = sudanese
 			add_accepted_culture = druze
-
 			all_core = {
 				add_core = UAR
 			}
@@ -451,17 +439,14 @@ political_decisions = {
 						primary_culture = sudanese
 						primary_culture = misri
 						primary_culture = mashriqi
-                    }
-		            OR = {
-					in_sphere = THIS
-					vassal_of = THIS
+          }
+		      OR = {
+						in_sphere = THIS
+						vassal_of = THIS
 					}
 				}
 				country_event = 333458
-
-		}
-		ai_will_do = {
-			factor = 1
+			}
 		}
 	}
  }
@@ -481,13 +466,9 @@ political_decisions = {
 				}
 			}
 		}
-
 		effect = {
 			prestige = 5
 			capital = 1745
-		}
-		ai_will_do = {
-			factor = 1
 		}
 	}
 
