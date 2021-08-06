@@ -1,0 +1,50 @@
+political_decisions = {
+  bureaucrats_fix = {
+    potential = {
+      ai = no
+      NOT = { has_country_modifier = bureaucrats_fix_cooldown }
+    }
+    allow = {
+    }
+    effect = {
+      country_event = 40404040
+      add_country_modifier = {
+          name = bureaucrats_fix_cooldown
+          duration = 3650
+      }
+    }
+  }
+  rgo_change_mining = {
+			picture = alsace_lorraine_mines
+				potential = {
+					NOT = { has_country_modifier = rgo_changed }
+					ai = no
+				}
+				allow = {
+					NOT = { war = yes }
+					NOT = { has_country_flag = rgo_changed_flag }
+				}
+				effect = {
+					country_event = {
+						id = 199936
+					}
+				}
+		}
+
+		rgo_change_agriculture = {
+			picture = tea_production
+				potential = {
+					NOT = { has_country_modifier = rgo_changed }
+					ai = no
+				}
+				allow = {
+					NOT = { war = yes }
+					NOT = { has_country_flag = rgo_changed_flag }
+				}
+				effect = {
+					country_event = {
+						id = 199937
+					}
+				}
+		}
+}

@@ -119,3 +119,20 @@ CONGR18.D;The reconquest and integration of the spanish colonies back under the 
 502001.A;Restore our Rule over the Balkans!;;;;;;;;;;;;;;
 502001.B;Restore our Rule over Arabia and Egypt!;;;;;;;;;;;;;;;
 502001.C;Pursue the Turan ambition!;;;;;;;;;;;;;;;
+EVTNAME199936;Mining RGO Change;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+EVTDESC199936;Choose to change a province to the following RGO types, cool down is 25 years for changing, 1 year for not choosing one.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+EVT199936OPTA;Change a province to produce Coal.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+EVT199936OPTB;Change a province to produce Iron.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+EVT199936OPTC;Change a province to produce Sulphur.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+EVT199936OPTD;I'd rather not change anything.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+199937;Argiculture RGO Change;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+EVTNAME199937;Agriculture RGO Change;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+EVTDESC199937;Choose to change a province to the following RGO types, cool down is 12.5 years for changing, 1 year for not choosing one. Fish require an available costal province, Timber requires forested terrain.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+EVT199937OPTA;Change a province to produce Wool.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+EVT199937OPTB;Change a province to produce Timber.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+EVT199937OPTC;Change a province to produce Cotton.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+EVT199937OPTD;Change a province to produce Cattle.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+EVT199937OPTE;Change a province to produce Fish.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+EVT199937OPTF;Change a province to produce Fruit.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+EVT199937OPTG;Change a province to produce Grain.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+EVT199937OPTH;I'd rather not change anything.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x
