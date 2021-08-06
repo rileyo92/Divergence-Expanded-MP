@@ -12,7 +12,6 @@ political_decisions = {
 		allow = {
 			NOT = { war = yes }
 		}
-
 		effect = {
 			prestige = 10
 			badboy = -10
@@ -66,10 +65,10 @@ political_decisions = {
 				remove_core = BRG
 			}
 			any_owned = {
-			limit = { is_core = GNV }
-			secede_province = GNV
-			remove_core = BRG
-				}
+				limit = { is_core = GNV }
+				secede_province = GNV
+				remove_core = BRG
+			}
 		}
 	}
 
@@ -125,46 +124,6 @@ political_decisions = {
 		}
 	}
 
-	savoi_at_last2 = {
-		potential = {
-			tag = GNV
-			NOT = {
-				has_country_flag = savoya2
-			}
-		}
-		allow = {
-			NOT = { war = yes }
-			owns = 465
-			owns = 466
-		}
-
-		effect = {
-			prestige = 5
-			set_country_flag = savoya2
-			465 = {
-				add_core = GNV
-				remove_core = SAR
-				remove_core = DUA
-				remove_core = ITA
-				remove_core = BRG
-			}
-			466 = {
-				add_core = GNV
-				remove_core = SAR
-				remove_core = DUA
-				remove_core = ITA
-				remove_core = BRG
-			}
-
-			607 = {
-				remove_core = BRG
-			}
-			608 = {
-				remove_core = BRG
-			}
-		}
-	}
-
 	fall_of_burgundy = {
 		potential = {
 			tag = BRG
@@ -212,21 +171,18 @@ political_decisions = {
 	}
 
 	move_to_namur = {
-
 		potential = {
-		tag = BRG
-		NOT = { owns = 381 }
-		owns = 392
-		NOT = { has_country_flag = anvers_lost }
+			tag = BRG
+			NOT = { owns = 381 }
+			owns = 392
+			NOT = { has_country_flag = anvers_lost }
 		}
-
 		allow = {
-		NOT = { owns = 381 }
+			NOT = { owns = 381 }
 		}
-
 		effect = {
-		set_country_flag = anvers_lost
-		capital = 392
+			set_country_flag = anvers_lost
+			capital = 392
 		}
 	}
 
@@ -235,42 +191,35 @@ political_decisions = {
 			tag = BRG
 			has_country_flag = anvers_lost
 		}
-
 		allow = {
 			owns = 381
 			owns = 390
 		}
-
 		effect = {
 			clr_country_flag = anvers_lost
 			capital = 390
 		}
-
 	}
 
 	burgundian_flanders = {
-
 		potential = {
-		has_global_flag = flanders_renamed
-		tag = BRG
+			has_global_flag = flanders_renamed
+			tag = BRG
 		}
-
 		allow = {
-		387 = { owned_by = THIS }
-		388 = { owned_by = THIS }
-		2636 = { owned_by = THIS }
+			387 = { owned_by = THIS }
+			388 = { owned_by = THIS }
+			2636 = { owned_by = THIS }
 		}
-
 		effect = {
-		clr_global_flag = flanders_renamed
-		387 = { change_province_name = "Bruxelles" }
-		388 = { change_province_name = "Bruges" }
-		389 = { change_province_name = "Gand" }
-		390 = { change_province_name = "Anvers" }
-		393 = { change_province_name = "Tournai"}
-		2636 = { change_province_name = "Dunkerque" }
+			clr_global_flag = flanders_renamed
+			387 = { change_province_name = "Bruxelles" }
+			388 = { change_province_name = "Bruges" }
+			389 = { change_province_name = "Gand" }
+			390 = { change_province_name = "Anvers" }
+			393 = { change_province_name = "Tournai"}
+			2636 = { change_province_name = "Dunkerque" }
 		}
-
 	}
 
 	accept_rhenish_BRG = {
@@ -318,7 +267,6 @@ political_decisions = {
 			capital = 425
 			remove_accepted_culture = rheinish
 			add_accepted_culture = french
-			add_accepted_culture = breton
 			any_owned = {
 	      limit = {
 					OR = {
@@ -339,7 +287,6 @@ political_decisions = {
 			NOT = { accepted_culture = provencal }
 			NOT = { has_country_flag = occitania_reclaime }
 		}
-
 		allow = {
 			revolution_n_counterrevolution = 1
 			OCC = {
@@ -348,7 +295,6 @@ political_decisions = {
 				}
 			}
 		}
-
 		effect = {
 			OCC = { all_core = { add_core = THIS } }
 			add_accepted_culture = provencal
@@ -389,33 +335,88 @@ political_decisions = {
 		}
 		allow = {
 			state_n_government = 1
-			GER = {
-				all_core = {
-					OR = {
-						owned_by = THIS
-						owner = {
-							OR = {
-								in_sphere = THIS
-								vassal_of = THIS
-							}
-						}
-						AND = {
-							NOT = {
-								is_core = FRI
-								is_core = MNR
-								is_core = RHI
-								is_core = NAS
-								is_core = FRM
-								is_core = HEK
-								is_core = HES
-								is_core = BAD
-								is_core = WUR
-								is_core = SWI
-								is_core = BAV
-								is_core = TIR
-							}
-						}
-					}
+			543 = {
+				OR = {
+					owned_by = THIS
+					owner = { in_sphere = THIS }
+					owner = { vassal_of = THIS }
+				}
+			}
+			581 = {
+				OR = {
+					owned_by = THIS
+					owner = { in_sphere = THIS }
+					owner = { vassal_of = THIS }
+				}
+			}
+			578 = {
+				OR = {
+					owned_by = THIS
+					owner = { in_sphere = THIS }
+					owner = { vassal_of = THIS }
+				}
+			}
+			565 = {
+				OR = {
+					owned_by = THIS
+					owner = { in_sphere = THIS }
+					owner = { vassal_of = THIS }
+				}
+			}
+			567 = {
+				OR = {
+					owned_by = THIS
+					owner = { in_sphere = THIS }
+					owner = { vassal_of = THIS }
+				}
+			}
+			564 = {
+				OR = {
+					owned_by = THIS
+					owner = { in_sphere = THIS }
+					owner = { vassal_of = THIS }
+				}
+			}
+			2560 = {
+				OR = {
+					owned_by = THIS
+					owner = { in_sphere = THIS }
+					owner = { vassal_of = THIS }
+				}
+			}
+			586 = {
+				OR = {
+					owned_by = THIS
+					owner = { in_sphere = THIS }
+					owner = { vassal_of = THIS }
+				}
+			}
+			589 = {
+				OR = {
+					owned_by = THIS
+					owner = { in_sphere = THIS }
+					owner = { vassal_of = THIS }
+				}
+			}
+			597 = {
+				OR = {
+					owned_by = THIS
+					owner = { in_sphere = THIS }
+					owner = { vassal_of = THIS }
+				}
+			}
+			605 = {
+				OR = {
+					owned_by = THIS
+					owner = { in_sphere = THIS }
+					owner = { vassal_of = THIS }
+				}
+			}
+			603 = {
+				OR = {
+					owned_by = THIS
+					owner = { in_sphere = THIS }
+					owner = { vassal_of = THIS }
 				}
 			}
 		}
@@ -425,7 +426,7 @@ political_decisions = {
 			add_accepted_culture = rheinish
 			add_accepted_culture = swiss
 			capital = 576
-			badboy = 15
+			badboy = 10
 			any_country = {
 				limit = {
 					OR = {
@@ -433,6 +434,8 @@ political_decisions = {
 						primary_culture = south_german
 						primary_culture = swiss
 						tag = FRI
+						tag = HEK
+						tag = LIP
 					}
 					NOT = { tag = AUS }
 					OR = {
@@ -441,7 +444,7 @@ political_decisions = {
 					}
 					NOT = { tag = THIS }
 				}
-				annex_to = THIS
+				country_event = 333458
 			}
 			any_owned = {
 				limit = {
@@ -465,6 +468,8 @@ political_decisions = {
 		}
 		allow = {
 			revolution_n_counterrevolution = 1
+			owns = 589
+			owns = 587
 		}
 		effect = {
 			add_accepted_culture = south_german
