@@ -50,12 +50,11 @@ political_decisions = {
 			}
 			TIR = {
 				all_core = {
-					owner = {
-						OR = {
-							tag = THIS
-							in_sphere = THIS
-							vassal_of = THIS
-						}
+					OR = {
+						owned_by = THIS
+						owner = { in_sphere = THIS }
+						vassal_of = THIS
+						is_core = VEN
 					}
 				}
 			}
