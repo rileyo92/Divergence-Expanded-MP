@@ -1,182 +1,179 @@
 political_decisions = {
 
-		cusco_capital = {
+	cusco_capital = {
 		picture = Incas
-			potential = {
-				tag = INC
-				NOT = { capital = 2302 }
-				NOT = { has_global_flag = Hispanic_Andes }
-			}
-			allow = {
-				NOT = { war = yes }
-				2302 = { owned_by = THIS }
-			}
-			effect = {
-				prestige = 20
-				capital = 2302
-				CLM = { remove_core = 2304 }
-				CLM = { remove_core = 2578 }
-				CLM = { remove_core = 2303 }
-				CLM = { remove_core = 2297 }
-				CLM = { remove_core = 2299 }
-				CLM = { remove_core = 2301 }
-				CLM = { remove_core = 2302 }
-				GRA = { remove_core = 2304 }
-				GRA = { remove_core = 2578 }
-				GRA = { remove_core = 2303 }
-				GRA = { remove_core = 2297 }
-				GRA = { remove_core = 2299 }
-				GRA = { remove_core = 2301 }
-				GRA = { remove_core = 2302 }
-				ARE = { remove_core = 2304 }
-				ARE = { remove_core = 2578 }
-				ARE = { remove_core = 2303 }
-				ARE = { remove_core = 2297 }
-				ARE = { remove_core = 2299 }
-				ARE = { remove_core = 2301 }
-				ARE = { remove_core = 2302 }
-				QUI = { remove_core = 2304 }
-				QUI = { remove_core = 2578 }
-				QUI = { remove_core = 2303 }
-				QUI = { remove_core = 2297 }
-				QUI = { remove_core = 2299 }
-				QUI = { remove_core = 2301 }
-				QUI = { remove_core = 2302 }
+		potential = {
+			tag = INC
+			NOT = { capital = 2302 }
+			NOT = { has_global_flag = Hispanic_Andes }
+		}
+		allow = {
+			NOT = { war = yes }
+			2302 = { owned_by = THIS }
+		}
+		effect = {
+			prestige = 20
+			capital = 2302
+			CLM = { remove_core = 2304 }
+			CLM = { remove_core = 2578 }
+			CLM = { remove_core = 2303 }
+			CLM = { remove_core = 2297 }
+			CLM = { remove_core = 2299 }
+			CLM = { remove_core = 2301 }
+			CLM = { remove_core = 2302 }
+			GRA = { remove_core = 2304 }
+			GRA = { remove_core = 2578 }
+			GRA = { remove_core = 2303 }
+			GRA = { remove_core = 2297 }
+			GRA = { remove_core = 2299 }
+			GRA = { remove_core = 2301 }
+			GRA = { remove_core = 2302 }
+			ARE = { remove_core = 2304 }
+			ARE = { remove_core = 2578 }
+			ARE = { remove_core = 2303 }
+			ARE = { remove_core = 2297 }
+			ARE = { remove_core = 2299 }
+			ARE = { remove_core = 2301 }
+			ARE = { remove_core = 2302 }
+			QUI = { remove_core = 2304 }
+			QUI = { remove_core = 2578 }
+			QUI = { remove_core = 2303 }
+			QUI = { remove_core = 2297 }
+			QUI = { remove_core = 2299 }
+			QUI = { remove_core = 2301 }
+			QUI = { remove_core = 2302 }
+		}
+	}
+
+	empire_inca = {
+		picture = Incas
+		potential = {
+			tag = INC
+			capital = 2302
+			NOT = { has_country_flag = empire_del_inca }
+			NOT = { has_global_flag = Hispanic_Andes }
+		}
+		allow = {
+			NOT = { war = yes }
+			INC = { all_core = { owned_by = THIS } }
+		}
+		effect = {
+			prestige = 20
+			set_global_flag = death_toGRC
+			2247 = { add_core = THIS }
+			2248 = { add_core = THIS }
+			2249 = { add_core = THIS }
+			2250 = { add_core = THIS }
+			2260 = { add_core = THIS }
+			2261 = { add_core = THIS }
+			2262 = { add_core = THIS }
+			2263 = { add_core = THIS }
+			2286 = { add_core = THIS }
+			2287 = { add_core = THIS }
+			2288 = { add_core = THIS }
+			2289 = { add_core = THIS }
+			2401 = { add_core = THIS }
+			CLM = { remove_core = 2290 }
+			CLM = { remove_core = 2291 }
+			CLM = { remove_core = 2292 }
+			CLM = { remove_core = 2293 }
+			CLM = { remove_core = 2294 }
+			CLM = { remove_core = 2295 }
+			CLM = { remove_core = 2296 }
+			CLM = { remove_core = 2298 }
+			CLM = { remove_core = 2300 }
+			GRA = { remove_core = 2290 }
+			GRA = { remove_core = 2291 }
+			GRA = { remove_core = 2292 }
+			GRA = { remove_core = 2293 }
+			GRA = { remove_core = 2294 }
+			GRA = { remove_core = 2295 }
+			GRA = { remove_core = 2296 }
+			GRA = { remove_core = 2298 }
+			GRA = { remove_core = 2300 }
+			QUI = { remove_core = 2290 }
+			QUI = { remove_core = 2291 }
+			QUI = { remove_core = 2292 }
+			QUI = { remove_core = 2293 }
+			QUI = { remove_core = 2294 }
+			QUI = { remove_core = 2295 }
+			QUI = { remove_core = 2296 }
+			QUI = { remove_core = 2298 }
+			QUI = { remove_core = 2300 }
+			set_country_flag = empire_del_inca
+			add_country_modifier = {
+				name = empire_del_inca
+				duration = 3650
 			}
 		}
+	}
 
-		empire_inca = {
+	empire_inca_2 = {
 		picture = Incas
-			potential = {
-				tag = INC
-				capital = 2302
-				NOT = { has_country_flag = empire_del_inca }
-				NOT = { has_global_flag = Hispanic_Andes }
-			}
-			allow = {
-				NOT = { war = yes }
-				INC = {
-					all_core = {
-							owned_by = THIS
-						}
-					}
-			}
-			effect = {
-				prestige = 20
-				set_global_flag = death_toGRC
-				2247 = { add_core = THIS }
-				2248 = { add_core = THIS }
-				2249 = { add_core = THIS }
-				2250 = { add_core = THIS }
-				2260 = { add_core = THIS }
-				2261 = { add_core = THIS }
-				2262 = { add_core = THIS }
-				2263 = { add_core = THIS }
-				2286 = { add_core = THIS }
-				2287 = { add_core = THIS }
-				2288 = { add_core = THIS }
-				2289 = { add_core = THIS }
-				2401 = { add_core = THIS }
-				CLM = { remove_core = 2290 }
-				CLM = { remove_core = 2291 }
-				CLM = { remove_core = 2292 }
-				CLM = { remove_core = 2293 }
-				CLM = { remove_core = 2294 }
-				CLM = { remove_core = 2295 }
-				CLM = { remove_core = 2296 }
-				CLM = { remove_core = 2298 }
-				CLM = { remove_core = 2300 }
-				GRA = { remove_core = 2290 }
-				GRA = { remove_core = 2291 }
-				GRA = { remove_core = 2292 }
-				GRA = { remove_core = 2293 }
-				GRA = { remove_core = 2294 }
-				GRA = { remove_core = 2295 }
-				GRA = { remove_core = 2296 }
-				GRA = { remove_core = 2298 }
-				GRA = { remove_core = 2300 }
-				QUI = { remove_core = 2290 }
-				QUI = { remove_core = 2291 }
-				QUI = { remove_core = 2292 }
-				QUI = { remove_core = 2293 }
-				QUI = { remove_core = 2294 }
-				QUI = { remove_core = 2295 }
-				QUI = { remove_core = 2296 }
-				QUI = { remove_core = 2298 }
-				QUI = { remove_core = 2300 }
-				set_country_flag = empire_del_inca
-				add_country_modifier = {
-					name = empire_del_inca
-					duration = 3650
-				}
-			}
+		potential = {
+			tag = INC
+			capital = 2302
+			has_country_flag = empire_del_inca
+			NOT = { has_country_flag = empire_del_inca_2 }
+			NOT = { has_global_flag = Hispanic_Andes }
 		}
-
-		empire_inca_2 = {
-		picture = Incas
-			potential = {
-				tag = INC
-				capital = 2302
-				has_country_flag = empire_del_inca
-				NOT = { has_country_flag = empire_del_inca_2 }
-				NOT = { has_global_flag = Hispanic_Andes }
-			}
-			allow = {
-				NOT = { war = yes }
-				INC = {
-					all_core = {
-						OR = {
-							empty = yes
-							owned_by = THIS
-						}
+		allow = {
+			NOT = { war = yes }
+			INC = {
+				all_core = {
+					OR = {
+						empty = yes
+						owned_by = THIS
 					}
 				}
 			}
-			effect = {
-				prestige = 10
-				add_accepted_culture = granadan
-				set_country_flag = empire_del_inca_2
-				CLM_2251 = { add_core = THIS }
-				CLM_1723 = { add_core = THIS }
-				VNZ_2234 = { add_core = THIS }
-				VNZ_2265 = { add_core = THIS }
-				VNZ_2275 = { add_core = THIS }
-				VNZ_2278 = { add_core = THIS }
-			}
 		}
+		effect = {
+			prestige = 10
+			add_accepted_culture = granadan
+			set_country_flag = empire_del_inca_2
+			CLM_2251 = { add_core = THIS }
+			CLM_1723 = { add_core = THIS }
+			VNZ_2234 = { add_core = THIS }
+			VNZ_2265 = { add_core = THIS }
+			VNZ_2275 = { add_core = THIS }
+			VNZ_2278 = { add_core = THIS }
+		}
+	}
 
-		inc_conquer_beornia = {
+	inc_conquer_beornia = {
 		picture = Incas
-			potential = {
-				tag = INC
-				not = { has_country_flag = inc_invade_beornia }
+		potential = {
+			tag = INC
+			not = { has_country_flag = inc_invade_beornia }
+		}
+		allow = {
+			war = no
+			state_n_government = 1
+			OR = {
+				has_global_flag = NAN_cone
+				nationalism_n_imperialism = 1
 			}
-			allow = {
-				war = no
-				state_n_government = 1
-				OR = {
-					has_global_flag = NAN_cone
-					nationalism_n_imperialism = 1
+			HBE = { exists = no }
+		}
+		effect = {
+			badboy = 15
+			set_country_flag = inc_invade_beornia
+			NAN = { country_event = 500021 }
+			casus_belli = {
+				target = NAN
+				type = conquest
+				months = 24
+			}
+		  war = {
+				target = NAN
+				attacker_goal = {
+					casus_belli = conquest
 				}
-				HBE = { exists = no }
-			}
-			effect = {
-				badboy = 15
-				set_country_flag = inc_invade_beornia
-				NAN = { country_event = 500021 }
-				casus_belli = {
-						target = NAN
-						type = conquest
-						months = 24
-				 }
-		      war = {
-						target = NAN
-						attacker_goal = {
-							casus_belli = conquest
-						}
-					}
 			}
 		}
+	}
+
 	inc_integrate_beornia = {
 		potential = {
 			tag = INC

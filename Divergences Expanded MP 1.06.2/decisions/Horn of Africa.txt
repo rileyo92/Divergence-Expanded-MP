@@ -173,7 +173,7 @@ political_decisions = {
 		effect = {
 			set_country_flag = nubia_conquest
 			add_accepted_culture = nubian
-			add_accepted_culture  = coptic
+			add_accepted_culture = coptic
 			FUN = { all_core = { add_core = THIS } }
 			DAR = { all_core = { add_core = THIS } }
 		}

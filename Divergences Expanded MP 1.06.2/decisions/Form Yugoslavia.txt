@@ -169,26 +169,4 @@ political_decisions = {
 			734 = { add_core = THIS }
 		}
 	}
-
-	integrate_serbia = {
-		picture = "SERCRO_union"
-		potential = {
-			tag = CRO
-			NOT = { has_country_flag = serbo_croat_union }
-		}
-		allow = {
-			SER = { vassal_of = THIS }
-			rank = 20
-			OR = {
-				year = 1850
-				780 = { owned_by = THIS }
-			}
-		}
-		effect = {
-			inherit = SER
-			SER = { all_core = { add_core = CRO } }
-			add_accepted_culture = serb
-			set_country_flag = serbo_croat_union
-		}
-	}
 }
