@@ -1,29 +1,5 @@
 political_decisions = {
 
-	#Tibet
-	greater_tibet = {
-		potential = {
-			primary_culture = tibetan
-			NOT = { has_country_flag = great_tibet }
-		}
-		allow = {
-			TIB = { all_core = { owned_by = THIS } }
-		}
-		effect = {
-			set_country_flag = great_tibet
-			CHI_1601 = { add_core = THIS }
-			NEP_1327 = { add_core = THIS }
-			PAN_1224 = { add_core = THIS }
-			CHI_1597 = { add_core = THIS }
-			BHU_1329 = { add_core = THIS }
-			add_accepted_culture = kashmiri
-			add_accepted_culture = nepali
-			add_accepted_culture = uighur
-			add_accepted_culture = yi
-			add_accepted_culture = hui
-		}
-	}
-
 	#Korea
 	invade_manchuria_kor = {
 		potential = {
@@ -629,8 +605,6 @@ political_decisions = {
 			NET_1423 = { add_core = THIS }
 			NET_1426 = { add_core = THIS }
 			add_accepted_culture = tionghoa
-			add_accepted_culture = filipino
-			add_accepted_culture = champa
 			set_country_flag = nine_dash_line
 		}
 	}
