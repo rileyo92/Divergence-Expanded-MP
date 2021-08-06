@@ -139,7 +139,7 @@ great_war_penalty_cb = {
 	po_remove_prestige = yes
 
 	war_name = WAR_NAME
-	
+
 	on_add = {
 	}
 
@@ -2626,7 +2626,7 @@ china_acquire_state = {
 	months = 12
 	crisis = no
 
-	badboy_factor = 0.5
+	badboy_factor = 0
 	prestige_factor = 0
 	peace_cost_factor = 1
 	penalty_factor = 1
@@ -2657,11 +2657,7 @@ china_acquire_state = {
 		THIS = {
 			OR = {
 				is_culture_group = chinese
-				primary_culture = vietnamese
-				primary_culture = korean
 				primary_culture = tibetan
-				primary_culture = mongol
-				primary_culture = oirat
 			}
 			NOT = {
 				has_country_modifier = neutrality
@@ -2740,11 +2736,7 @@ china_conquest = {
 		THIS = {
 			OR = {
 				is_culture_group = chinese
-				primary_culture = vietnamese
-				primary_culture = korean
 				primary_culture = tibetan
-				primary_culture = mongol
-				primary_culture = oirat
 			}
 			NOT = {
 				has_country_modifier = neutrality
@@ -2805,7 +2797,10 @@ china_acquire_state_2 = {
 		THIS = {
 			OR = {
 				is_culture_group = oversea_chinese
-				tag = CHG
+				primary_culture = korean
+				primary_culture = mongol
+				primary_culture = oirat
+				primary_culture = vietnamese
 			}
 			NOT = {
 				has_country_modifier = neutrality
@@ -5547,7 +5542,7 @@ hre_unification = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
-		THIS ={
+		THIS = {
 			tag = BOH
 			is_greater_power = yes
 			NOT = { has_global_flag = liberal_revolutions_should_now_fire }
