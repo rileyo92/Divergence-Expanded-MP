@@ -145,19 +145,19 @@
 	clergymen = {
 		culture = beornian
 		religion = protestant
-		size = 180
+		size = 360
 	}
 
 	farmers = {
 		culture = beornian
 		religion = protestant
-		size = 6480
+		size = 12980
 	}
 
 	aristocrats = {
 		culture = beornian
 		religion = protestant
-		size = 60
+		size = 120
 	}
 }
 #Cuthred (/ POPS)
@@ -165,19 +165,19 @@
 	clergymen = {
 		culture = beornian
 		religion = protestant
-		size = 360
+		size = 720
 	}
 
 	farmers = {
 		culture = beornian
 		religion = protestant
-		size = 13020
+		size = 26040
 	}
 
 	aristocrats = {
 		culture = beornian
 		religion = protestant
-		size = 120
+		size = 240
 	}
 }
 #New London (/ POPS)
@@ -185,25 +185,25 @@
 	clergymen = {
 		culture = beornian
 		religion = protestant
-		size = 300
+		size = 1500
 	}
 
 	soldiers = {
 		culture = beornian
 		religion = protestant
-		size= 60
+		size= 250
 	}
 
 	farmers = {
 		culture = beornian
 		religion = protestant
-		size = 14760
+		size = 62760
 	}
 
 	aristocrats = {
 		culture = beornian
 		religion = protestant
-		size = 120
+		size = 560
 	}
 
 	farmers = {
@@ -217,26 +217,25 @@
 	aristocrats = {
 		culture = beornian
 		religion = protestant
-		size = 120
+		size = 360
 	}
 
 	clergymen = {
 		culture = beornian
 		religion = protestant
-		size = 180
+		size = 360
 	}
 
 	soldiers = {
 		culture = beornian
 		religion = protestant
-		size= 420
-
+		size= 1260
 	}
 
 	farmers = {
 		culture = beornian
 		religion = protestant
-		size = 4200
+		size = 12600
 	}
 
 	farmers = {
@@ -250,26 +249,25 @@
 	aristocrats = {
 		culture = beornian
 		religion = protestant
-		size = 120
+		size = 360
 	}
 
 	clergymen = {
 		culture = beornian
 		religion = protestant
-		size = 180
+		size = 540
 	}
 
 	soldiers = {
 		culture = beornian
 		religion = protestant
-		size= 420
-
+		size= 1260
 	}
 
 	farmers = {
 		culture = beornian
 		religion = protestant
-		size = 3800
+		size = 11400
 	}
 
 	farmers = {
@@ -442,7 +440,7 @@
 		size = 2700
 	}
 }
-#Bois-les-Fleuves (/ POPS) 
+#Bois-les-Fleuves (/ POPS)
 2554 = {
 	clergymen = {
 		culture = lotharian
@@ -549,26 +547,25 @@
 	aristocrats = {
 		culture = beornian
 		religion = protestant
-		size = 50
+		size = 250
 	}
 
 	clergymen = {
 		culture = beornian
 		religion = protestant
-		size = 100
+		size = 700
 	}
 
 	soldiers = {
 		culture = beornian
 		religion = protestant
-		size= 50
-
+		size = 750
 	}
 
 	farmers = {
 		culture = beornian
 		religion = protestant
-		size = 6800
+		size = 36800
 	}
 
 	clergymen = {
@@ -633,26 +630,26 @@
 	aristocrats = {
 		culture = beornian
 		religion = protestant
-		size = 50
+		size = 150
 	}
 
 	clergymen = {
 		culture = beornian
 		religion = protestant
-		size = 100
+		size = 300
 	}
 
 	soldiers = {
 		culture = beornian
 		religion = protestant
-		size= 50
+		size= 500
 
 	}
 
 	farmers = {
 		culture = beornian
 		religion = protestant
-		size = 3600
+		size = 12600
 	}
 }
 #Chaco Region (76000) #see Paraguay.txt for balance of region
