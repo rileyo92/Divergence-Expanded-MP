@@ -502,7 +502,6 @@ political_decisions = {
 		effect = {
 			add_accepted_culture = plantagenian
 			add_accepted_culture = cherokee
-			add_accepted_culture = sioux
 			PLA = {
 				all_core = {
 					limit = { continent = north_america }

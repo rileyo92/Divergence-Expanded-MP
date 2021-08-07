@@ -2148,25 +2148,11 @@ native_north_american = {
 		Thrnell Thulstrup Tingsten Ulner Virgin "von Essen" "von Hohenhausen" "von Otter" "von Platen" Weidenhielm Zhao Wu Sun Ma Hu Peng Dong Ye L Tian Jiang Wei Ting Shen Fang Jin Qiu
 		}
 	}
-	sioux = {
-		color = {66 78 134}
-		first_names = { Sint Thayate Thathanka Thasunke Mahpiya Istahba Hehaka Thahca Ohiyes Wanbdi Tamaha Inkpaduta
-		}
-		last_names = { Glesk Duta Iyotake Witko Luta Kohkophapi Sapa Huste Thankja
-		}
-	}
 	cherokee = {
 		color = {136 114 173}
 		first_names = { John Tahlonteeskee Takatoka Charles William Lweis Dennis Joel Thomas Frank Andrew Edward
 		}
 		last_names = { Ross Downing Potter Thompson Wolf Mayes Buffington Harris Rogers Boudinot
-		}
-	}
-	pueblo = {
-		color = {222 238 156}
-		first_names = { Cochise Mangas Loco Taza Nana chihuahua Geronimo Alchesay Naiche Victorio
-		}
-		last_names = { Arivaipa Cibecue Coyotero Jicarilla Llanero Mescalero Nateges Tonto
 		}
 	}
 	inuit = {

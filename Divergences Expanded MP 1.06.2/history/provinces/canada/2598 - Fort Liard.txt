@@ -1,4 +1,3 @@
-
 add_core = KKN
 trade_goods = timber
 life_rating = 10

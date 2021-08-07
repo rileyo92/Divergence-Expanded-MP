@@ -2,6 +2,5 @@ owner = VIN
 controller = VIN
 add_core = VIN
 add_core = ANI
-add_core = OCE
 trade_goods = coal
 life_rating = 35
