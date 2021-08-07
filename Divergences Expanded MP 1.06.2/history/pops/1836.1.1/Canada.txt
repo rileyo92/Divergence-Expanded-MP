@@ -1359,32 +1359,32 @@
 	}
 
 	aristocrats = {
-		culture = sioux
+		culture = native_american_minor
 		religion = animist
 		size = 10
 	}
 
 	clergymen = {
-		culture = sioux
+		culture = native_american_minor
 		religion = animist
 		size = 25
 	}
 
 	artisans = {
-		culture = sioux
+		culture = native_american_minor
 		religion = animist
 		size = 50
 	}
 
 	soldiers = {
-		culture = sioux
+		culture = native_american_minor
 		religion = animist
 		size= 15
 
 	}
 
 	farmers = {
-		culture = sioux
+		culture = native_american_minor
 		religion = animist
 		size = 900
 	}
@@ -1585,32 +1585,32 @@
 #Brandon (8000/2000 POPS)
 41 = {
 	aristocrats = {
-		culture = sioux
+		culture = native_american_minor
 		religion = animist
 		size = 10
 	}
 
 	clergymen = {
-		culture = sioux
+		culture = native_american_minor
 		religion = animist
 		size = 25
 	}
 
 	artisans = {
-		culture = sioux
+		culture = native_american_minor
 		religion = animist
 		size = 50
 	}
 
 	soldiers = {
-		culture = sioux
+		culture = native_american_minor
 		religion = animist
 		size= 15
 
 	}
 
 	farmers = {
-		culture = sioux
+		culture = native_american_minor
 		religion = animist
 		size = 900
 	}
@@ -1674,26 +1674,26 @@
 	}
 
 	clergymen = {
-		culture = sioux
+		culture = native_american_minor
 		religion = animist
 		size = 25
 	}
 
 	artisans = {
-		culture = sioux
+		culture = native_american_minor
 		religion = animist
 		size = 50
 	}
 
 	soldiers = {
-		culture = sioux
+		culture = native_american_minor
 		religion = animist
 		size= 15
 
 	}
 
 	farmers = {
-		culture = sioux
+		culture = native_american_minor
 		religion = animist
 		size = 910
 	}
