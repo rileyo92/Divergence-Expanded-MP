@@ -244,44 +244,43 @@
 	aristocrats = {
 		culture = qingqiuan
 		religion = mahayana
-		size = 150
+		size = 290
 	}
 
 	bureaucrats = {
 		culture = qingqiuan
 		religion = mahayana
-		size = 200
+		size = 450
 	}
 
 	officers = {
 		culture = qingqiuan
 		religion = mahayana
-		size = 100
+		size = 330
 	}
 
 	clergymen = {
 		culture = qingqiuan
 		religion = mahayana
-		size = 175
+		size = 425
 	}
 
 	artisans = {
 		culture = qingqiuan
 		religion = mahayana
-		size = 2150
+		size = 3550
 	}
 
 	soldiers = {
 		culture = qingqiuan
 		religion = mahayana
-		size= 900
-
+		size = 2200
 	}
 
 	farmers = {
 		culture = qingqiuan
 		religion = mahayana
-		size = 22700
+		size = 47700
 	}
 
 }
@@ -290,31 +289,31 @@
 	aristocrats = {
 		culture = qingqiuan
 		religion = mahayana
-		size = 25
+		size = 50
 	}
 
 	clergymen = {
 		culture = qingqiuan
 		religion = mahayana
-		size = 150
+		size = 300
 	}
 
 	artisans = {
 		culture = qingqiuan
 		religion = mahayana
-		size = 100
+		size = 200
 	}
 
 	soldiers = {
 		culture = qingqiuan
 		religion = mahayana
-		size= 900
+		size= 1800
 	}
 
 	farmers = {
 		culture = qingqiuan
 		religion = mahayana
-		size = 21750
+		size = 41750
 	}
 }
 #Prince Rupert (8000/2000 POPS)
@@ -322,31 +321,31 @@
 	aristocrats = {
 		culture = qingqiuan
 		religion = mahayana
-		size = 125
+		size = 150
 	}
 
 	clergymen = {
 		culture = qingqiuan
 		religion = mahayana
-		size = 150
+		size = 200
 	}
 
 	artisans = {
 		culture = qingqiuan
 		religion = mahayana
-		size = 2100
+		size = 2500
 	}
 
 	soldiers = {
 		culture = qingqiuan
 		religion = mahayana
-		size = 550
+		size = 650
 	}
 
 	farmers = {
 		culture = qingqiuan
 		religion = mahayana
-		size = 11750
+		size = 14750
 	}
 }
 #Glenora (4000/1000 POPS)
@@ -384,19 +383,19 @@
 	aristocrats = {
 		culture = qingqiuan
 		religion = mahayana
-		size = 40
+		size = 60
 	}
 
 	clergymen = {
 		culture = qingqiuan
 		religion = mahayana
-		size = 100
+		size = 120
 	}
 
 	farmers = {
 		culture = qingqiuan
 		religion = mahayana
-		size = 3900
+		size = 4800
 	}
 }
 #Atlin (4000/1000 POPS)
