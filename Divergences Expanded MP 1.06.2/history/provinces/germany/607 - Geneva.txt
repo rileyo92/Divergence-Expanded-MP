@@ -3,6 +3,7 @@ controller = BRG
 add_core = BRG
 add_core = GNV
 add_core = ARP
+add_core = SWI
 trade_goods = grain
 life_rating = 40
 fort = 2

@@ -22,9 +22,6 @@ political_decisions = {
 			NA_14 = {
 				add_core = VIN
 			}
-			DNG_5 = {
-				add_core = VIN
-			}
 			NA_13 = {
 				add_core = VIN
 			}

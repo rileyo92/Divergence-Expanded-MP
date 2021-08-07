@@ -259,7 +259,7 @@ political_decisions = {
 			281 = { owned_by = THIS }
       284 = { owned_by = THIS }
 			290 = { owned_by = THIS }
-			292 = { owned_by = THIS }
+			300 = { owned_by = THIS }
 			278 = { owned_by = THIS }
 			269 = { owned_by = THIS }
       267 = { owned_by = THIS }

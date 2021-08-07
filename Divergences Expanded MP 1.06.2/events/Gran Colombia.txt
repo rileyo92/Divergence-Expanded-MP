@@ -15,7 +15,6 @@ country_event = { #Future of Gran Colombia Event
     DNG_2 = { add_core = CLM }
     DNG_3 = { add_core = CLM }
     DNG_4 = { add_core = CLM }
-    DNG_5 = { add_core = CLM }
     DNG_88 = { add_core = CLM }
     NA_5 =  { add_core = CLM }
     NA_6 =  { add_core = CLM }
