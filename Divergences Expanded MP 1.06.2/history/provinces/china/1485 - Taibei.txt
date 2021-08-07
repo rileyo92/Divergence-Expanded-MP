@@ -2,4 +2,4 @@ owner = TNG
 controller = TNG
 add_core = TNG
 trade_goods = tea
-life_rating = 35
+life_rating = 40
