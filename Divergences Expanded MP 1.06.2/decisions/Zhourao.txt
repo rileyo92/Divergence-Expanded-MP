@@ -1,9 +1,9 @@
 political_decisions = {
 	austral_destiny = {
-	picture = zuharra
+		picture = zuharra
 		potential = {
-		tag = GAN
-		NOT = { has_country_flag = gan_austral_destiny }
+			tag = GAN
+			NOT = { has_country_flag = gan_austral_destiny }
 		}
 
 		allow = {
@@ -11,16 +11,16 @@ political_decisions = {
 				owned_by = THIS
 			}
 			nationalism_n_imperialism = 1
-			}
+		}
 
 		effect = {
-		prestige = 25
-		badboy = 5
-		set_country_flag = gan_austral_destiny
-		add_accepted_culture = moluccan
-		add_accepted_culture = melanesian
-		add_accepted_culture = tionghoa
-		add_accepted_culture = maori
+			prestige = 25
+			badboy = 5
+			set_country_flag = gan_austral_destiny
+			add_accepted_culture = moluccan
+			add_accepted_culture = melanesian
+			add_accepted_culture = tionghoa
+			add_accepted_culture = maori
 			AST_1097 = {
 				add_core = GAN
 			}
@@ -98,90 +98,89 @@ political_decisions = {
 		}
 
 	greater_austral_destiny = {
-	potential = {
-		tag = GAN
-		has_country_flag = gan_austral_destiny
-		NOT = { has_country_flag = gan_greater_austral_destiny }
-	}
+		potential = {
+			tag = GAN
+			has_country_flag = gan_austral_destiny
+			NOT = { has_country_flag = gan_greater_austral_destiny }
+		}
 
-	allow = {
-		revolution_n_counterevolution = 1
-		all_core = {
-			OR = {
-				owned_by = GAN
-				owned_by = DNG
+		allow = {
+			revolution_n_counterevolution = 1
+			all_core = {
+				OR = {
+					owned_by = GAN
+					owned_by = DNG
+				}
+			}
+		}
+
+		effect = {
+			set_country_flag = gan_greater_austral_destiny
+			prestige = 25
+			badboy = 5
+			add_accepted_culture = javan
+			add_accepted_culture = dayak
+			add_accepted_culture = micronesian
+			add_accepted_culture = polynesian
+			NET_1419 = {
+				add_core = GAN
+			}
+			NET_1421 = {
+				add_core = GAN
+			}
+			NET_1414 = {
+				add_core = GAN
+			}
+			NET_1416 = {
+				add_core = GAN
+			}
+			NET_1423 = {
+				add_core = GAN
+			}
+			NET_1426 = {
+				add_core = GAN
+			}
+			BRU_1394 = {
+				add_core = GAN
+			}
+			SPA_1463 = {
+				add_core = GAN
+			}
+			CHI_2562 = {
+				add_core = GAN
+			}
+			SPA_2517 = {
+				add_core = GAN
+			}
+			JAP_1654 = {
+				add_core = GAN
+			}
+			AST_2527 = {
+				add_core = GAN
+			}
+			AST_2543 = {
+				add_core = GAN
+			}
+			BRZ_2540 = {
+				add_core = GAN
+			}
+			FRA_1097 = {
+				add_core = GAN
+			}
+			SA_7 = {
+				add_core = GAN
+			}
+			HAW_658 = {
+				add_core = GAN
+			}
+			2285 = {
+				add_core = GAN
+			}
+			KUT_1429 = {
+				add_core = GAN
 			}
 		}
 	}
-
-	effect = {
-		set_country_flag = gan_greater_austral_destiny
-		prestige = 25
-		badboy = 5
-		add_accepted_culture = javan
-		add_accepted_culture = dayak
-		add_accepted_culture = micronesian
-		add_accepted_culture = polynesian
-
-		NET_1419 = {
-			add_core = GAN
-		}
-		NET_1421 = {
-			add_core = GAN
-		}
-		NET_1414 = {
-			add_core = GAN
-		}
-		NET_1416 = {
-			add_core = GAN
-		}
-		NET_1423 = {
-			add_core = GAN
-		}
-		NET_1426 = {
-			add_core = GAN
-		}
-		BRU_1394 = {
-			add_core = GAN
-		}
-		SPA_1463 = {
-			add_core = GAN
-		}
-		CHI_2562 = {
-			add_core = GAN
-		}
-		SPA_2517 = {
-			add_core = GAN
-		}
-		JAP_1654 = {
-			add_core = GAN
-		}
-		AST_2527 = {
-			add_core = GAN
-		}
-		AST_2543 = {
-			add_core = GAN
-		}
-		BRZ_2540 = {
-			add_core = GAN
-		}
-		FRA_1097 = {
-			add_core = GAN
-		}
-		SA_7 = {
-			add_core = GAN
-		}
-		HAW_658 = {
-			add_core = GAN
-		}
-		2285 = {
-			add_core = GAN
-		}
-		KUT_1429 = {
-			add_core = GAN
-		}
-	}
-}
 
 timor_purchase = {
 	potential = {

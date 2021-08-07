@@ -225,27 +225,26 @@ political_decisions = {
 	}
 
 	timurid_legacy = {
-	potential = {
-	tag = ZND
-	QAJ = { exists = yes }
-	NOT = { truce_with = QAJ }
-	NOT = { has_country_flag = legacy_timur }
+		potential = {
+			tag = ZND
+			QAJ = { exists = yes }
+			NOT = { truce_with = QAJ }
+			NOT = { has_country_flag = legacy_timur }
 		}
 
-	allow = {
-	all_core = { owned_by = THIS }
+		allow = {
+			all_core = { owned_by = THIS }
 		}
 
-	effect = {
-	set_country_flag = legacy_timur
-	war = {
-		target = QAJ
-		attacker_goal = {
-		casus_belli = conquest
+		effect = {
+			set_country_flag = legacy_timur
+			war = {
+				target = QAJ
+				attacker_goal = {
+					casus_belli = conquest
+				}
 			}
 		}
-	}
-
 	}
 
 	AFG_punjab = {
