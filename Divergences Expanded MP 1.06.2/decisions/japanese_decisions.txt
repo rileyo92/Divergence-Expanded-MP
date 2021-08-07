@@ -343,7 +343,7 @@ political_decisions = {
 		}
 		allow = {
 			year = 1910
-			rank = 4
+			rank = 3
 		}
 		effect = {
 			badboy = 25
