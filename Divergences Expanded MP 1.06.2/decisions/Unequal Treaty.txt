@@ -67,12 +67,16 @@ jiangsu_control = {
 
 		effect = {
 			set_country_flag = negotiate_unequal_treaty
-			badboy = 2
+			badboy = 2.5
 			MCK = {
 				set_country_flag = negotiate_unequal_treaty
 				country_event = 1316082
 			}
 		}
+    ai_will_do = {
+    	factor = 1
+      modifier = { factor = 0 badboy = 0.9 }
+  	}
 	}
 
 	unequal_treaty_TPG = {
@@ -118,12 +122,16 @@ jiangsu_control = {
 
 		effect = {
 			set_country_flag = negotiate_unequal_treaty
-			badboy = 2
+			badboy = 2.5
 			TAI = {
 				set_country_flag = negotiate_unequal_treaty
 				country_event = 1316082
 			}
 		}
+    ai_will_do = {
+    	factor = 1
+      modifier = { factor = 0 badboy = 0.9 }
+  	}
 	}
 
 	unequal_treaty_TNG = {
@@ -169,12 +177,16 @@ jiangsu_control = {
 
 		effect = {
 			set_country_flag = negotiate_unequal_treaty
-			badboy = 2
+			badboy = 2.5
 			TNG = {
 				set_country_flag = negotiate_unequal_treaty
 				country_event = 1316082
 			}
 		}
+    ai_will_do = {
+    	factor = 1
+      modifier = { factor = 0 badboy = 0.9 }
+  	}
 	}
 
 	unequal_treaty_MIG = {
@@ -220,11 +232,15 @@ jiangsu_control = {
 
 		effect = {
 			set_country_flag = negotiate_unequal_treaty
-			badboy = 2
+			badboy = 2.5
 			TAI = {
 				set_country_flag = negotiate_unequal_treaty
 				country_event = 1316082
 			}
 		}
+    ai_will_do = {
+    	factor = 1
+      modifier = { factor = 0 badboy = 0.9 }
+  	}
 	}
 }

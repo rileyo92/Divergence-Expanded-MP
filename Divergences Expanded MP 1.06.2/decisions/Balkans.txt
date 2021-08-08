@@ -179,7 +179,7 @@ political_decisions = {
 		}
 		effect = {
 			set_country_flag = greater_bulgaria_claimed
-			badboy = 15
+			badboy = 10
 			TUR_859 = { add_core = BUL }
 			TUR_860 = { add_core = BUL }
       TUR_819 = { add_core = BUL }
@@ -187,6 +187,10 @@ political_decisions = {
       TUR_674 = { add_core = BUL }
       KOS_802 = { add_core = BUL }
 		}
+    ai_will_do = {
+    	factor = 1
+      modifier = { factor = 0 badboy = 0.6 }
+  	}
 	}
 
   integrate_greeks_bul = {

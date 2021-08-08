@@ -203,7 +203,7 @@ political_decisions = {
 		}
 		effect = {
 			set_global_flag = NAN_cone
-			badboy = 12
+			badboy = 12.5
 			SA_6 = { add_core = THIS add_core = NAN }
 			SA_9 = { add_core = THIS add_core = NAN }
 			ARG_2368 = { add_core = THIS add_core = NAN }
@@ -214,6 +214,10 @@ political_decisions = {
 			ARG_2387 = { add_core = THIS add_core = NAN }
 			relation = { who = INC value = -150 }
 		}
+		ai_will_do = {
+    	factor = 1
+      modifier = { factor = 0 badboy = 0.5 }
+  	}
 	}
 
 	claim_old_england = {
@@ -262,6 +266,10 @@ political_decisions = {
 			}
 			set_country_flag = claim_old_england
 		}
+		ai_will_do = {
+    	factor = 1
+      modifier = { factor = 0 badboy = 0.2 }
+  	}
 	}
 
 	return_home_NAN = {

@@ -13,12 +13,16 @@ political_decisions = {
 		}
 		effect = {
 			prestige = 10
-			badboy = 8
+			badboy = 7.5
 			PRU = { all_core = { add_core = THIS } }
       LIT_698 = { add_core = THIS }
       add_accepted_culture = latvian
 			set_country_flag = baltic_claimed
 		}
+    ai_will_do = {
+    	factor = 1
+      modifier = { factor = 0 badboy = 0.7 }
+  	}
 	}
 
 	lithuania_kidnapping = {
@@ -65,6 +69,10 @@ political_decisions = {
 			PRU_546 = { add_core = THIS }
 			badboy = 10
 		}
+    ai_will_do = {
+    	factor = 1
+      modifier = { factor = 0 badboy = 0.6 }
+  	}
 	}
 
   integrate_pomeranians = {

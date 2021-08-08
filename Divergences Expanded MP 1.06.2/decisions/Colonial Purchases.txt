@@ -110,10 +110,14 @@ athesia_force = {
 
   effect = {
     set_country_flag = forced_athesia
-    badboy = 4
+    badboy = 2.5
     199 = {
       owner = { country_event = 135605 }
     }
+  }
+  ai_will_do = {
+    factor = 1
+    modifier = { factor = 0 badboy = 0.9 }
   }
 }
 

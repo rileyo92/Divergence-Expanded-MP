@@ -116,6 +116,7 @@ political_decisions = {
 				factor = 0
 				DNG = { rank = 12 }
 			}
+			modifier = { factor = 0 badboy = 0.2 }
 		}
 	}
 
@@ -311,6 +312,10 @@ political_decisions = {
 			add_accepted_culture = korean
 			set_country_flag = strike_north
 		}
+		ai_will_do = {
+    	factor = 1
+      modifier = { factor = 0 badboy = 0.6 }
+  	}
 	}
 
 	japan_invade_china_proper = {
@@ -333,6 +338,10 @@ political_decisions = {
 			add_accepted_culture = manchu
 			set_country_flag = into_china_proper
 		}
+		ai_will_do = {
+    	factor = 1
+      modifier = { factor = 0 badboy = 0.6 }
+  	}
 	}
 
 	japan_conquer_china = {
@@ -350,6 +359,10 @@ political_decisions = {
 			CHI = { all_core = { add_core = THIS } }
 			set_country_flag = conquer_china
 		}
+		ai_will_do = {
+    	factor = 1
+      modifier = { factor = 0 badboy = 0.1 }
+  	}
 	}
 
 	japan_asian_superpower = {
@@ -367,6 +380,10 @@ political_decisions = {
 			add_accepted_culture = beifaren
 			set_country_flag = asian_superpower
 		}
+		ai_will_do = {
+    	factor = 1
+      modifier = { factor = 0 badboy = 0.2 }
+  	}
 	}
 
 	japan_conquer_taiwan = {
@@ -382,6 +399,10 @@ political_decisions = {
 			CHI_2562 = { add_core = THIS }
 			set_country_flag = invade_formosa
 		}
+		ai_will_do = {
+    	factor = 1
+      modifier = { factor = 0 badboy = 0.8 }
+  	}
 	}
 
 	japanese_imperialism_christinia = {
@@ -470,6 +491,10 @@ political_decisions = {
 			add_accepted_culture = tionghoa
 			set_country_flag = co_prosperity
 		}
+		ai_will_do = {
+    	factor = 1
+      modifier = { factor = 0 badboy = 0.2 }
+  	}
 	}
 
 	japan_invade_austral = {
@@ -487,5 +512,9 @@ political_decisions = {
 			GAN = { all_core = { add_core = THIS } }
 			AOT = { all_core = { add_core = THIS } }
 		}
+		ai_will_do = {
+    	factor = 1
+      modifier = { factor = 0 badboy = 0.4 }
+  	}
 	}
 }

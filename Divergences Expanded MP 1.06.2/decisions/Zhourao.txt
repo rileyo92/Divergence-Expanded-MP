@@ -67,6 +67,10 @@ political_decisions = {
 				add_core = GAN
 			}
 		}
+		ai_will_do = {
+    	factor = 1
+      modifier = { factor = 0 badboy = 0.8 }
+  	}
 	}
 
 	treaty_of_waitangi_gan = {
@@ -117,7 +121,7 @@ political_decisions = {
 		effect = {
 			set_country_flag = gan_greater_austral_destiny
 			prestige = 25
-			badboy = 5
+			badboy = 10
 			add_accepted_culture = javan
 			add_accepted_culture = dayak
 			add_accepted_culture = micronesian
@@ -180,6 +184,10 @@ political_decisions = {
 				add_core = GAN
 			}
 		}
+		ai_will_do = {
+    	factor = 1
+      modifier = { factor = 0 badboy = 0.6 }
+  	}
 	}
 
 timor_purchase = {

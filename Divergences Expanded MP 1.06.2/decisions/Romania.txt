@@ -170,6 +170,10 @@ political_decisions = {
 			badboy = 5
 			RUS_965 = { add_core = ROM }
 		}
+		ai_will_do = {
+    	factor = 1
+      modifier = { factor = 0 badboy = 0.8 }
+  	}
 	}
 
 	claim_tisza = {
@@ -188,11 +192,6 @@ political_decisions = {
 
 		effect = {
 			set_country_flag = claimed_tisza
-			random_list = {
-				34 = { badboy = 5 }
-				33 = { badboy = 8 }
-				33 = { badboy = 10 }
-			}
 			648 = { add_core = ROM }
 			650 = { add_core = ROM }
 			649 = { add_core = ROM }

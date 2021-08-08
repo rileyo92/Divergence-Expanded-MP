@@ -145,5 +145,9 @@ political_decisions = {
 				leave_alliance = TCA
 			}
 		}
+		ai_will_do = {
+    	factor = 1
+      modifier = { factor = 0 badboy = 0.8 }
+  	}
 	}
 }

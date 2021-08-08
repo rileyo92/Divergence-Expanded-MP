@@ -20,6 +20,10 @@ political_decisions = {
 			ENG_1251 = { add_core = THIS }
 			SIA_1355 = { add_core = THIS }
 		}
+		ai_will_do = {
+    	factor = 1
+      modifier = { factor = 0 badboy = 0.7 }
+  	}
 	}
 
 	second_taungoo_empire = {
@@ -49,6 +53,10 @@ political_decisions = {
 			LUA_1356 = { add_core = THIS }
 			NEP_1327 = { add_core = THIS }
 		}
+		ai_will_do = {
+    	factor = 1
+      modifier = { factor = 0 badboy = 0.5 }
+  	}
 	}
 
 	#Thonburi
@@ -67,6 +75,10 @@ political_decisions = {
 			add_accepted_culture = shan
 			add_accepted_culture = lao
 		}
+		ai_will_do = {
+    	factor = 1
+      modifier = { factor = 0 badboy = 0.8 }
+  	}
 	}
 
 	dominate_indochina_sia = {
@@ -101,6 +113,10 @@ political_decisions = {
 			ENG_1386 = { add_core = THIS }
 			CHI_1601 = { add_core = THIS }
 		}
+		ai_will_do = {
+    	factor = 1
+      modifier = { factor = 0 badboy = 0.6 }
+  	}
 	}
 
 	agreement_with_malay_traders = {
@@ -139,6 +155,10 @@ political_decisions = {
 			badboy = 10
 			set_country_flag = khmer_empire_1
 		}
+		ai_will_do = {
+    	factor = 1
+      modifier = { factor = 0 badboy = 0.6 }
+  	}
 	}
 
 	become_sole_leader = {
@@ -160,6 +180,10 @@ political_decisions = {
 			add_accepted_culture = shan
 			add_accepted_culture = karen
 		}
+		ai_will_do = {
+    	factor = 1
+      modifier = { factor = 0 badboy = 0.4 }
+  	}
 	}
 
 	old_empire_restored_cam = {
@@ -187,6 +211,10 @@ political_decisions = {
 			1503 = { add_core = THIS }
 			1504 = { add_core = THIS }
 		}
+		ai_will_do = {
+    	factor = 1
+      modifier = { factor = 0 badboy = 0.6 }
+  	}
 	}
 
 	#Champa
@@ -208,6 +236,10 @@ political_decisions = {
 			ANN_1374 = { add_core = THIS }
 			BRU_1394 = { add_core = THIS }
 		}
+		ai_will_do = {
+    	factor = 1
+      modifier = { factor = 0 badboy = 0.4 }
+  	}
 	}
 
 	dominate_indochina_chp = {
@@ -235,6 +267,10 @@ political_decisions = {
 			DAI = { all_core = { add_core = THIS } }
 			SIA = { all_core = { add_core = THIS } }
 		}
+		ai_will_do = {
+    	factor = 1
+      modifier = { factor = 0 badboy = 0.6 }
+  	}
 	}
 
 	control_malaya_chp = {
@@ -287,6 +323,10 @@ political_decisions = {
 				}
 			}
 		}
+		ai_will_do = {
+    	factor = 1
+      modifier = { factor = 0 badboy = 0.6 }
+  	}
 	}
 
 	dominate_indochina_dai = {

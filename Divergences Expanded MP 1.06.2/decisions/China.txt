@@ -511,6 +511,10 @@ political_decisions = {
 			add_accepted_culture = hui
 			set_country_flag = restoration_of_yuan
 		}
+		ai_will_do = {
+    	factor = 1
+      modifier = { factor = 0 badboy = 0.2 }
+  	}
 	}
 
 	taming_the_western_steppes = {
@@ -532,6 +536,10 @@ political_decisions = {
 			add_accepted_culture = astrakhani
 			add_accepted_culture = turkmen
 		}
+		ai_will_do = {
+    	factor = 1
+      modifier = { factor = 0 badboy = 0.5 }
+  	}
 	}
 
 	restore_qing_china = {
@@ -558,6 +566,10 @@ political_decisions = {
 			add_accepted_culture = uighur
 			set_country_flag = restoration_of_qing
 		}
+		ai_will_do = {
+    	factor = 1
+      modifier = { factor = 0 badboy = 0.3 }
+  	}
 	}
 
 	establish_taiping_china = {
@@ -584,6 +596,10 @@ political_decisions = {
 			add_accepted_culture = vietnamese
 			set_country_flag = establishment_of_taiping
 		}
+		ai_will_do = {
+    	factor = 1
+      modifier = { factor = 0 badboy = 0.4 }
+  	}
 	}
 
 	draw_the_nine_dash_line = {
@@ -607,6 +623,10 @@ political_decisions = {
 			add_accepted_culture = tionghoa
 			set_country_flag = nine_dash_line
 		}
+		ai_will_do = {
+    	factor = 1
+      modifier = { factor = 0 badboy = 0.6 }
+  	}
 	}
 
 	demand_overseas_submission = {
@@ -632,6 +652,10 @@ political_decisions = {
 			add_accepted_culture = tionghoa
 			set_country_flag = overseas_submission
 		}
+		ai_will_do = {
+    	factor = 1
+      modifier = { factor = 0 badboy = 0.2 }
+  	}
 	}
 
 	establish_trung_quoc = {
@@ -674,6 +698,10 @@ political_decisions = {
 			add_accepted_culture = malay
 			set_country_flag = trung_quoc
 		}
+		ai_will_do = {
+    	factor = 1
+      modifier = { factor = 0 badboy = 0.4 }
+  	}
 	}
 
 	the_roof_of_the_world = {
@@ -703,6 +731,10 @@ political_decisions = {
 			add_accepted_culture = nepali
 			set_country_flag = roof_of_world
 		}
+		ai_will_do = {
+    	factor = 1
+      modifier = { factor = 0 badboy = 0.4 }
+  	}
 	}
 
 	seize_bengal_china = {
@@ -721,6 +753,10 @@ political_decisions = {
 			add_accepted_culture = assamese
 			set_country_flag = seize_bengal
 		}
+		ai_will_do = {
+    	factor = 1
+      modifier = { factor = 0 badboy = 0.4 }
+  	}
 	}
 
 	establish_jung_gug = {
@@ -751,6 +787,10 @@ political_decisions = {
 			add_accepted_culture = ainu
 			set_country_flag = jung_gug
 		}
+		ai_will_do = {
+    	factor = 1
+      modifier = { factor = 0 badboy = 0.7 }
+  	}
 	}
 
 	sunrise_invasion_china = {
@@ -768,5 +808,9 @@ political_decisions = {
 			add_accepted_culture = japanese
 			set_country_flag = sunrise
 		}
+		ai_will_do = {
+    	factor = 1
+      modifier = { factor = 0 badboy = 0.1 }
+  	}
 	}
 }

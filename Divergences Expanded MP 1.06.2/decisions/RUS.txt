@@ -106,6 +106,10 @@ political_decisions = {
 				badboy = 5
 				country_event = 202201
 			}
+			ai_will_do = {
+	    	factor = 1
+	      modifier = { factor = 0 badboy = 0.8 }
+	  	}
 	}
 #Next step: Moving the capital, once all relevant territory is reclaimed.
 	#St. Petersburg will be named after Mikhail I ("Mikhailgrad")
@@ -420,9 +424,13 @@ political_decisions = {
 		}
 
 		effect = {
-		inherit = RUT
-		badboy = 6
+			inherit = RUT
+			badboy = 5
 		}
+		ai_will_do = {
+    	factor = 1
+      modifier = { factor = 0 badboy = 0.8 }
+  	}
 
 	}
 

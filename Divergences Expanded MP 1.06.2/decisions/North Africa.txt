@@ -12,6 +12,10 @@ political_decisions = {
       SYR = { all_core = { add_core = EGY } }
       badboy = 10
     }
+    ai_will_do = {
+    	factor = 1
+      modifier = { factor = 0 badboy = 0.6 }
+  	}
   }
 
   egypt_arabia = {

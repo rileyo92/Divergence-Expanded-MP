@@ -233,6 +233,10 @@ political_decisions = {
 			}
 			set_country_flag = AMALOT
 		}
+		ai_will_do = {
+    	factor = 1
+      modifier = { factor = 0 badboy = 0.4 }
+  	}
 	}
 
 	Manifest_destiny_LOT = {
@@ -256,6 +260,10 @@ political_decisions = {
 			}
 			set_country_flag = LOT_AMG
 		}
+		ai_will_do = {
+    	factor = 1
+      modifier = { factor = 0 badboy = 0.4 }
+  	}
 	}
 
 	Ameriga_AMA = {
@@ -444,6 +452,10 @@ political_decisions = {
 			VNZ_2278 = { add_core = THIS }
 			BRZ_2408 = { add_core = THIS }
 		}
+		ai_will_do = {
+    	factor = 1
+      modifier = { factor = 0 badboy = 0.7 }
+  	}
 	}
 
 	Federation_NAN = {
@@ -510,6 +522,10 @@ political_decisions = {
 			GRA = { all_core = { add_core = AZL } }
 			PNM = { all_core = { add_core = AZL } }
 		}
+		ai_will_do = {
+    	factor = 1
+      modifier = { factor = 0 badboy = 0.4 }
+  	}
 	}
 
 	GRA_congress = {

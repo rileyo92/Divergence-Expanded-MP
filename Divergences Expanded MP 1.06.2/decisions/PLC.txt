@@ -66,6 +66,10 @@ political_decisions = {
 			relation = { who = RUS value = -200 }
 			set_country_flag = lublin_new
 		}
+    ai_will_do = {
+    	factor = 1
+      modifier = { factor = 0 badboy = 0.8 }
+  	}
 	}
 
   baltic_cultures = {

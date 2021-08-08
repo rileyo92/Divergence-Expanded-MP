@@ -70,6 +70,10 @@ political_decisions = {
 				remove_core = BRG
 			}
 		}
+		ai_will_do = {
+    	factor = 1
+      modifier = { factor = 0 NOT = { badboy = 0.4 } }
+  	}
 	}
 
 	savoi_at_last = {
@@ -245,6 +249,10 @@ political_decisions = {
 			BAD_586 = { add_core = THIS }
 			WUR_589 = { add_core = THIS }
 		}
+		ai_will_do = {
+    	factor = 1
+      modifier = { factor = 0 badboy = 0.7 }
+  	}
 	}
 
 	form_france_brg = {
@@ -459,6 +467,10 @@ political_decisions = {
 			change_tag = CRH
 			set_global_flag = confed_of_rhine_formed
 		}
+		ai_will_do = {
+    	factor = 1
+      modifier = { factor = 0 badboy = 0.6 }
+  	}
 	}
 
 	crh_integrate_danube = {
