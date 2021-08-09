@@ -36,9 +36,6 @@ political_decisions = {
 			AST_2529 = {
 				add_core = GAN
 			}
-			GER_2531 = {
-				add_core = GAN
-			}
 			AST_2534 = {
 				add_core = GAN
 			}
