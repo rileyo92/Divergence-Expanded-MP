@@ -1,5 +1,6 @@
 owner = SLV
 controller = SLV
 add_core = SLV
+add_core = RUT
 trade_goods = coal
 life_rating = 35

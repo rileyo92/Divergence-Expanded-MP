@@ -2,6 +2,7 @@ owner = NOV
 controller = NOV
 add_core = RUS
 add_core = NOV
+add_core = URA
 trade_goods = timber
 terrain = boreal
 life_rating = 35

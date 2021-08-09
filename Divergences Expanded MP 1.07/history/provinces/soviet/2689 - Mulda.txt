@@ -4,6 +4,7 @@ add_core = RUS
 add_core = NOV
 add_core = MUS
 add_core = SIB
+add_core = URA
 trade_goods = precious_metal
 terrain = montane_tundra
 life_rating = 35

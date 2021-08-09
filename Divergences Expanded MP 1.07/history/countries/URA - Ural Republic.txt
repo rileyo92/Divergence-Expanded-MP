@@ -1,8 +1,9 @@
 capital = 1058
-primary_culture = russian
-culture = byelorussian
-culture = ukrainian
-culture = ugrian
+primary_culture = ugrian
+culture = novgorodian
+culture = russian
+culture = tatar
+culture = siberian
 religion = orthodox
 government = democracy
 plurality = 0.0
@@ -27,7 +28,7 @@ work_hours = ten_hours
 safety_regulations = no_safety
 health_care = no_health_care
 unemployment_subsidies = no_subsidies
-pensions = no_pensions 
+pensions = no_pensions
 school_reforms = no_schools
 
 # New Reforms
