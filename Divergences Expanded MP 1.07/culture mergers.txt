@@ -32,3 +32,4 @@
 #Tswana into Sotho
 #Sotho localisation rename to Sotho-Tswana
 #Tonga to African Minor
+#Sioux and Pueblo into Native american minor
