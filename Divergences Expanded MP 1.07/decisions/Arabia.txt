@@ -449,7 +449,6 @@ political_decisions = {
 			}
 		}
 	}
- }
 
 	move_capital_to_cairo = {
 		potential = {

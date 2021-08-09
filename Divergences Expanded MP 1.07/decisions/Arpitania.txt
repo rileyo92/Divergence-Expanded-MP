@@ -1,4 +1,4 @@
-political_decisions= {
+political_decisions = {
   become_arpitania = {
     potential = {
       OR = {

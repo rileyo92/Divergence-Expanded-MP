@@ -125,7 +125,6 @@ EVT199936OPTA;Change a province to produce Coal.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;
 EVT199936OPTB;Change a province to produce Iron.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 EVT199936OPTC;Change a province to produce Sulphur.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 EVT199936OPTD;I'd rather not change anything.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x
-199937;Argiculture RGO Change;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 EVTNAME199937;Agriculture RGO Change;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 EVTDESC199937;Choose to change a province to the following RGO types, cool down is 12.5 years for changing, 1 year for not choosing one. Fish require an available costal province, Timber requires forested terrain.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 EVT199937OPTA;Change a province to produce Wool.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x
