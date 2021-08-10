@@ -5,4 +5,4 @@ add_core = SHU
 add_core = CHI
 add_core = XBI
 trade_goods = timber
-life_rating = 31
+life_rating = 30

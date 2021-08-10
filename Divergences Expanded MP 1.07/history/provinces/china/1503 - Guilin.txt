@@ -5,4 +5,4 @@ add_core = CHI
 add_core = GNG
 add_core = GXI
 trade_goods = cotton
-life_rating = 31
+life_rating = 30

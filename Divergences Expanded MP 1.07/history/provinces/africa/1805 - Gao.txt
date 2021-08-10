@@ -3,4 +3,4 @@ controller = MAL
 add_core = MAL
 trade_goods = wool
 terrain = semidesert
-life_rating = 40
+life_rating = 35

@@ -3,4 +3,4 @@ controller = KNO
 add_core = KNO
 add_core = SOK
 trade_goods = cattle
-life_rating = 35
+life_rating = 30

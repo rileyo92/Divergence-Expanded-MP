@@ -5,4 +5,4 @@ add_core = TIB
 add_core = DAX
 add_core = CHI
 trade_goods = fruit
-life_rating = 31
+life_rating = 30

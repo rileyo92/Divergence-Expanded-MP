@@ -3,4 +3,4 @@ controller = TIB
 add_core = TIB
 add_core = XBI
 trade_goods = coal
-life_rating = 31
+life_rating = 35
