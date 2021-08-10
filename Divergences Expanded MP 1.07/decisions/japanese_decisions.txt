@@ -309,7 +309,6 @@ political_decisions = {
 		effect = {
 			badboy = 10
 			MCH = { all_core = { add_core = THIS } }
-			add_accepted_culture = korean
 			set_country_flag = strike_north
 		}
 		ai_will_do = {
@@ -335,7 +334,7 @@ political_decisions = {
 			CHI_2 = { add_core = THIS }
 			CHI_1614 = { add_core = THIS }
 			CHI_1618 = { add_core = THIS }
-			add_accepted_culture = manchu
+			add_accepted_culture = korean
 			set_country_flag = into_china_proper
 		}
 		ai_will_do = {
@@ -357,32 +356,12 @@ political_decisions = {
 		effect = {
 			badboy = 25
 			CHI = { all_core = { add_core = THIS } }
+			add_accepted_culture = manchu
 			set_country_flag = conquer_china
 		}
 		ai_will_do = {
     	factor = 1
       modifier = { factor = 0 badboy = 0.1 }
-  	}
-	}
-
-	japan_asian_superpower = {
-		potential = {
-			tag = JAP
-			has_country_flag = conquer_china
-			NOT = { has_country_flag = asian_superpower }
-		}
-		allow = {
-			year = 1910
-			rank = 1
-		}
-		effect = {
-			badboy = 20
-			add_accepted_culture = beifaren
-			set_country_flag = asian_superpower
-		}
-		ai_will_do = {
-    	factor = 1
-      modifier = { factor = 0 badboy = 0.2 }
   	}
 	}
 
