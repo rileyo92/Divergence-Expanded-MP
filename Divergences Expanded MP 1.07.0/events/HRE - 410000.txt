@@ -7,47 +7,41 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-	name = "410001.A"
-	any_country = {
-        			limit = {
-					NOT = { tag = KRL }
-        				OR = {
-        					primary_culture = rheinish
-        					primary_culture = north_german
-        					primary_culture = south_german
-									primary_culture = pomeranian
-        				}
-        				in_sphere = THIS
-        			}
-        			country_event = 410002
-        		}
-	any_owned = {
-		limit = {
-			OR = {
-				region = PRU_546
-				region = SCA_544
-			}
+		name = "410001.A"
+		any_country = {
+  		limit = {
+				NOT = { tag = KRL }
+      	OR = {
+      		primary_culture = rheinish
+        	primary_culture = north_german
+        	primary_culture = south_german
+					primary_culture = pomeranian
+      	}
+      	in_sphere = THIS
+    	}
+    	country_event = 410002
+  	}
+		any_owned = {
+			limit = { is_core = POM }
 		secede_province = POM
 		remove_core = THIS
-		}
-	BOH = { diplomatic_influence = { who = POM value = 200 }
-        }
-
-    }
+	}
+	BOH = { diplomatic_influence = { who = POM value = 200 } }
+  }
 }
 
 country_event = {
-        	id = 410002
-        	title = "410002.T"
-        	desc = "410002.D"
+	id = 410002
+  title = "410002.T"
+  desc = "410002.D"
 
-        	is_triggered_only = yes
+  is_triggered_only = yes
 
-        	option = {
-        		name = "410002.A"
-        		FROM = { diplomatic_influence = { who = THIS value = -200 } }
-        		BOH = { diplomatic_influence = { who = THIS value = 200 } }
-        	}
+  option = {
+  	name = "410002.A"
+    FROM = { diplomatic_influence = { who = THIS value = -200 } }
+    BOH = { diplomatic_influence = { who = THIS value = 200 } }
+  }
 }
 
 country_event = {

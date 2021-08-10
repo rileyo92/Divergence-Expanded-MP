@@ -5545,7 +5545,7 @@ hre_unification = {
 		THIS = {
 			tag = BOH
 			is_greater_power = yes
-			NOT = { has_global_flag = liberal_revolutions_should_now_fire }
+			NOT = { year = 1848 }
 		}
 		year = 1837
 		NOT = { is_our_vassal = THIS }
@@ -5603,7 +5603,7 @@ hre_unification2 = {
 		THIS ={
 			tag = BOH
 			is_greater_power = yes
-			NOT = { has_global_flag = liberal_revolutions_should_now_fire }
+			NOT = { year = 1848 }
 		}
 		NOT = { is_our_vassal = THIS }
 		year = 1837
