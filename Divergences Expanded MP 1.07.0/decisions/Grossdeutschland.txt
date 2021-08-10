@@ -3,7 +3,10 @@ political_decisions = {
 	form_grossdeutschland = {
 	picture = Germania
 		potential = {
-			is_culture_group = germanic
+			OR = {
+				is_culture_group = germanic
+				tag = CAE
+			}
 			NOT = {
 				tag = HLR
 				exists = GER
@@ -13,6 +16,10 @@ political_decisions = {
 		allow = {
 			war = no
 			prestige = 80
+			OR = {
+				NOT = { tag = CAE }
+				mass_politics = 1
+			}
 			GER = {
 				all_core = {
 					OR = {
@@ -406,15 +413,13 @@ political_decisions = {
 	centralize_hre = {
 		picture = Reich_kaiser
 		potential = {
-			OR = {
-				tag = CAE
-			}
+			tag = BOH
 			is_greater_power = yes
 			HLR = { exists = no }
-			GER = { exists = no }
+			NOT = { year = 1848 }
 		}
 		allow = {
-			mass_politics = 1
+			NOT = { year = 1848 }
 			GER = {
 				all_core = {
 					OR = {
@@ -425,34 +430,70 @@ political_decisions = {
 								vassal_of = THIS
 							}
 						}
+						province_id = 529
+						province_id = 528
+						province_id = 530
+						province_id = 369
+						province_id = 575
+						province_id = 576
+						province_id = 572
+						province_id = 574
+						province_id = 573
+						province_id = 570
+						province_id = 571
+						province_id = 533
+						province_id = 624
 					}
 				}
 			}
 		}
 		effect = {
-  		change_tag = HLR
-			GER = { all_core = { add_core = HLR } }
+    	change_tag = HLR
 			any_country = {
 				limit = {
-					OR = {
-						is_culture_group = germanic
-						culture = swiss
-					}
-					OR = {
-						in_sphere = THIS
+					is_culture_group = germanic
+				  OR = {
+				    in_sphere = THIS
 						vassal_of = THIS
 					}
-				}
+					NOT = {tag = PRU}
+					NOT = {tag = KRL}
+			  }
 				country_event = 333458
 			}
 			set_global_flag = hre_formed
 			prestige = 50
+		}
+	}
+
+	move_to_frankfurt = {
+
+		potential = {
+			tag = HLR
+			NOT = { has_country_flag = frankfurt_unify }
+		}
+		allow = {
+			is_greater_power = yes
+			nationalism_n_imperialism = 1
+			owns = 564
+		}
+		effect = {
+			GER = {
+				all_core = {
+					add_core = HLR
+				}
+			}
+			set_country_flag = frankfurt_unify
+			add_accepted_culture = rheinish
 			add_accepted_culture = north_german
 			add_accepted_culture = south_german
 			add_accepted_culture = pomeranian
-			add_accepted_culture = rheinish
 			add_accepted_culture = swiss
 			capital = 564
+			prestige = 50
+			564 = {
+				life_rating = 5
+			}
 		}
 	}
 }
