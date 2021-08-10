@@ -50,7 +50,7 @@
 #Forming Confed of Rhine no longer removes cores on Burgundy
 #Japanese Co-Prosperity sphere decision no longer gives cores on Malacca, Sumatra and Zhourao
 #
-# 1.03.x
+#1.03.x
 #
 #Champagne state switched from Dual Monarchy to Burgundy Control
 #Changes to liferatings (LR) across the world as follows: (Before > After) (Please note these are the file names for the provinces)
@@ -115,7 +115,131 @@
 #Mob size bonus for Balkan and German nations 2>3%, duration extended to 1860
 #Moved Serb back to first Tanzimat reform
 #
-#1.04.x (Planned)
+#1.05
+#
+#Bosnia now starts with serbian and croat accepted
+#Cleaning up Elbian decision
+#Elbian Rheinish moved to revolution and counter-revolution
+#Pop Cultures in Germany, Burgundy, DM, Karelia and Iberia adjusted
+#Fixes to Arpitania and Dutch decisions
+#Aragonese Cores on Africa removed apart from Cathage state
+#Swapped colors around between Iberia and Hispania
+#Adopted Pop_type file from Igor_PUIR v6
+#Afghaistan now starts with Panjabi accepted
+#Aragon, Navarra, Portugal and Catalonia no longer starts with Castilian accepted
+#Transcaucasia nation now starts with Dagestani accepted
+#Baden Primary and accepted Culture swapped around
+#Brandenburg now starts with Baltic German accepted
+#Dzungar now starts with Tajik and Tatar accepted
+#Crete, Cyprus now start with Turkish accepted
+#Illyria now starts with Slovene accepted from start
+#Egypt now starts with Coptic accepted
+#East Frisia no longer starts with Rheinish accepted
+#Frankfurt, Munster now start with Elbian accepted
+#Geneva now starts with Swiss accepted
+#Hesse-Kassel now Elbian Primary, Rheinish and Danubian accepted
+#Jamaica and Curaco now is Afro-Frankish primary, Burgundian Accepted
+#Japan now starts with Kaiganese accepted
+#Kashmir now starts with Kalash accepted
+#Kurdistan now has assyrian accepted instead of turkish
+#Lusitania now starts with Portugese accepted
+#Oldenburg now starts with Dutch accepted
+#Pomerania no longer starts with Elbian accepted
+#Ruthenia no longer starts with Polish accepted
+#Saxony now starts with Czech accepted instead of Danubian
+#Slovenia now starts with Venetian accepted instead of Czech
+#Nassau now starts with Elbian accepted instead of Danubian
+#Removed russian pops in Georgia
+#Split Oldenburg state between Frisia and Westfalen states
+#Increased life ratings in Dubrovnik, Constanta, Sarajevo, Mosul, Basra, Brest, Nantes, Torun, Liege, Trondheim, Bergen, Uppsala, Vasteras, Gothenburg, Odense, Bytantaysk, Erivan, Bilbao, Chelmsford, Oxford, St Albans to 40LR
+#Lowered life rating in Belfast to 35LR
+#Swapped Isle of man, Deutsch Krone to be owned by Scandi, Chios and Dodecanese to be owned by Venice
+#Made Provencal culture accepted for DM to only require one core to be owned instead of all
+#Added decision for Aragon to get cores on adjacent spanish states and a free inherit on navarra
+#Added core on Torun for Prussia
+#revolution and counterrevoultion now gives 2 national focuses instead of 1
+#Breton accepted removed from English path
+#Buffed DM start by giving one year draft
+#Crimea now starts with techs
+#Swiss primary cultured nations now get the early mob size buff
+#All balkan minor nations (not moldavia, Venice, Hungary and Ottomans) now start with service by requirement, Ottomans and Moldavia now start with 4 year draft
+#Fixed Panama canal bug
+#
+#1.06
+#
+#Culture smudging in Burgundy, Ferrara
+#DM French path now instantly gives provencal accepted, gives cores on Savoie, all french cores and all occitan cores
+#Irish accepted for DM now only requires one irish core to be owned
+#Claiming Beornia as DM now removed
+#Cleaned up Burgundian Rheinish formable decisions
+#Burgundian Arpitania no longer gets north Italian accepted
+#Added starting cores for Iberia and cleaned up Iberian decision
+#Burgundy French path now changes tag to France, can now get provencal accepted
+#Re-added lesser Jagiellonian union decision
+#Gave Kurdish and Baluchi accepted for persia formable, gave mashriqi accepted for Ayranam accepted
+#Re-added Hungarian accepted for Ottoman balkan path
+#Ottomans now start with Kurdish accepted, old kurdish decision now gives cores on kurdistan
+#Added Uighur accepted for Turania path
+#Made north caucasian accepted for ottomans turania path be instant
+#Made Albanian accepted for Ottoman balkan path be instant, made bulgraian accepted happen with state and gov instead of nat and imperial
+#Zapadoslavia now made to require to own set provinces instead of entire cores of a country
+#Modified the PDF guide
+#HRE now can be formed with mass politics
+#Dual Monarchy can now abandon either France or England and become France or GB and get accepted and cores on their respective regions
+#Added a settings file
+#
+#1.06.1
+#
+#Made Elbians or HRE not form Zapaoslavia
+#
+#1.06.2.x
+#
+#Removed pop growth modifiers from education, pension and work hour reforms
+#Scandi British path no longer gets welsh accepted
+#Removed bugged port from Beja and moved it to Santander
+#Last two arty techs support nerfed 100%>50%
+#Salzburg annexed into Tirol
+#Added Ugrian accepted to Ottoman Turania path, fixed decision
+#DM abandonment decisions no longer requires you to have chosen a certain path
+#
+#1.07
+#
+#Fixed bugged decision for Plantagenia Arcadia and Turkish Arabian paths
+#Trent no longer required to form League of Munich
+#Crimean accepted added to Russian southern path
+#Bozen, Ljubljana, Rangoon, Pegu, Taipei, Jianxing, Ile de France state, New London, New Jerusalem, Cambridge buffed to 40LR
+#Jilin now 35LR
+#Ireland (Not Dublin and Belfast), 31LR China and Sub-Saharan Africa (except key settlements, South Africa and Horn of Africa) nerfed to 30LR
+#Iberian map colour changed again
+#Added non-accepted bureaucrat and RGO change decision from Igor_PUIR
+#Korean Reactionaries now state capitalist
+#Swizterland can now be puppeted for the swiss arpitania decision
+#Afro-germanic can now be accepted via decision
+#Cleaned up all decision files pretty much
+#Burgundian French path no longer gets Breton accepted
+#Nerfed post-china formation decisions
+#To get Caribbean accepted no longer has upper house requirements
+#Fixed Imperial Liberation cb's
+#Made chinese reunification cb's be more restricted to who can do it free of charge
+#Removed create x decisions
+#Qingqiu, Beornia pops buffed
+#Sioux and Pueblo cultures merged into native american minor
+#Merged 2 Qingqiu states in modern-day british colombia together
+#Chinese treaty ports and Canton now one province states, other coastal states adjusted regarding this
+#Modern day Ecuador states merged, Galapagos islands now its own state
+#Panama and Suez canal now their own state
+#Added AI coding to prevent the AI going over 25 infamy by taking a decision
+#Central Arabia merged into one state
+#States adjusted in Papua New Guinea, Solomon islands and Vanuatu
+#Expanded Armenian cores
+#Added turkish cores to crete
+#Ural republic added as a releasable country
+#Updated pop_type file to Igor_PUIR v7
+#Adjusted states in Transylvania
+#Fixed General traits to restore the balance I wanted
+#Japan China route nerfed and pushed back
+#
+#1.07.x (Planned)
 #
 #Remerge Flemish and Dutch Cultures together
 #Add events for Scandi if they lose land after choosing a path
