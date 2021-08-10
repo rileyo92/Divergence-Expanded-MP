@@ -5,7 +5,7 @@
 # defence = + or - on dice roll in combat. (like skill in eu3)
 # morale = % modifier on morale.
 # organisation = % bonus on org.
-# reconnaissance = % bonus on reconaissance.
+# reconnaissance = % bonus on reconnaissance.
 # speed = % bonus on movement
 # attrition = penalty on attrition. (minusative is good)
 # experience = % bonus on experience gain.
