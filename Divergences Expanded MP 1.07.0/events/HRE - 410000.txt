@@ -16,6 +16,7 @@ country_event = {
         	primary_culture = north_german
         	primary_culture = south_german
 					primary_culture = pomeranian
+					primary_culture = swiss
       	}
       	in_sphere = THIS
     	}
@@ -23,10 +24,10 @@ country_event = {
   	}
 		any_owned = {
 			limit = { is_core = POM }
-		secede_province = POM
-		remove_core = THIS
-	}
-	BOH = { diplomatic_influence = { who = POM value = 200 } }
+			secede_province = POM
+			remove_core = THIS
+		}
+		BOH = { diplomatic_influence = { who = POM value = 200 } }
   }
 }
 
