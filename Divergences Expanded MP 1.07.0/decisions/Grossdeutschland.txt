@@ -434,6 +434,8 @@ political_decisions = {
 						province_id = 528
 						province_id = 530
 						province_id = 369
+						province_id = 533
+						province_id = 577
 						province_id = 575
 						province_id = 576
 						province_id = 572
@@ -443,6 +445,7 @@ political_decisions = {
 						province_id = 571
 						province_id = 533
 						province_id = 624
+						province_id = 623
 					}
 				}
 			}
