@@ -238,6 +238,7 @@
 #Adjusted states in Transylvania
 #Fixed General traits to restore the balance I wanted
 #Japan China route nerfed and pushed back
+#Readded HRE in it's vanilla form, made 1900 HRE formation be germany instead
 #
 #1.07.x (Planned)
 #
