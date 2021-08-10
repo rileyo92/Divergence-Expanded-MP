@@ -342,11 +342,49 @@ personality = {
 		reliability = 0.1
 		speed = 0.05
 	}
+	defence_0.5 = {
+		reliability = 0.1
+		speed = 0.05
+	}
+	defence_0.6 = {
+		reliability = 0.1
+		speed = 0.05
+	}
 	defence_0.7 = {
 		reliability = 0.2
 	}
 	defence_0.8 = {
 		reliability = 0.2
+	}
+	defence_0.9 = {
+		reliability = 0.2
+	}
+	defence_0.10 = {
+		reliability = 0.2
+	}
+	defence_0.11 = {
+		reliability = 0.05
+		speed = 0.025
+	}
+	defence_0.12 = {
+		reliability = 0.05
+		speed = 0.025
+	}
+	defence_0.13 = {
+		reliability = -0.05
+		speed = -0.025
+	}
+	defence_0.14 = {
+		reliability = -0.05
+		speed = -0.025
+	}
+	defence_0.15 = {
+		reliability = -0.1
+		speed = -0.05
+	}
+	defence_0.16 = {
+		reliability = -0.1
+		speed = -0.05
 	}
 	defence_0.17 = {
 		reliability = -0.05
@@ -368,6 +406,12 @@ personality = {
 		reliability = -0.2
 	}
 	defence_0.22 = {
+		reliability = -0.2
+	}
+	defence_0.23 = {
+		reliability = -0.2
+	}
+	defence_0.24 = {
 		reliability = -0.2
 	}
 }
@@ -700,11 +744,49 @@ background = {
 		reliability = 0.1
 		speed = 0.05
 	}
+	attack_0.5 = {
+		reliability = 0.05
+		speed = 0.025
+	}
+	attack_0.6 = {
+		reliability = 0.05
+		speed = 0.025
+	}
 	attack_0.7 = {
 		reliability = 0.2
 	}
 	attack_0.8 = {
 		reliability = 0.2
+	}
+	attack_0.9 = {
+		reliability = 0.1
+		speed = 0.05
+	}
+	attack_0.10 = {
+		reliability = 0.1
+		speed = 0.05
+	}
+	attack_0.11 = {
+		reliability = 0.2
+	}
+	attack_0.12 = {
+		reliability = 0.2
+	}
+	attack_0.13 = {
+		reliability = -0.05
+		speed = -0.025
+	}
+	attack_0.14 = {
+		reliability = -0.05
+		speed = -0.025
+	}
+	attack_0.15 = {
+		reliability = -0.1
+		speed = -0.05
+	}
+	attack_0.16 = {
+		reliability = -0.1
+		speed = -0.05
 	}
 	attack_0.17 = {
 		reliability = -0.05
@@ -726,6 +808,12 @@ background = {
 		reliability = -0.2
 	}
 	attack_0.22 = {
+		reliability = -0.2
+	}
+	attack_0.23 = {
+		reliability = -0.2
+	}
+	attack_0.24 = {
 		reliability = -0.2
 	}
 }
