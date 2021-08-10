@@ -66,12 +66,12 @@ country_event = {
 	trigger = {
 		tag = TUR
 		NOT = { is_greater_power = yes }
-		capital = 860
-		NOT = { owns = 817 }
-		NOT = { owns = 816 }
-		NOT = { owns = 830 }
+		OR = {
+			NOT = { capital = 860 }
+			NOT = { owns = 858 }
+		}
+		NOT = { capital = 876 }
 		owns = 876
-
 	}
 
 	mean_time_to_happen = {
