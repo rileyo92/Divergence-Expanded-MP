@@ -472,4 +472,6 @@ dm_becoming_gb_desc;We can no longer hold the French lands or have any prospect 
 afro_germanic_slave_citizens_title;Integration of the Former Slaves;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 afro_germanic_slave_citizens_desc;We have abolished slavery, but the former slaves continue to be excluded from society. We would have everything to gain by making them full citizens, ensuring their prosperity and our national cohesion.;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 rgo_change_agriculture_title;Change Agriculture RGO;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-rgo_change_agriculture_desc;Allows the switching of a single RGO province of the following types: Grain, Fruit, Fish, Cattle, Wool, Cotton, Timber, or Precious Goods into Grain, Fruit, Fish, Cattle, Wool, Cotton, or Timber. Causes a cool down of 12.5 years.;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+rgo_change_agriculture_desc;Allows the switching of a single RGO province of the following types: Grain, Fruit, Fish, Cattle, Wool, Cotton, Timber, or Precious Goods into Grain, Fruit, Fish, Cattle, Wool, Cotton, or Timber. Causes a cool down of 25 years.;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+bureaucrats_fix_title;Remove non-accepted bureaucrats;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+bureaucrats_fix_desc;Non-Accepted Bureaucrats do nothing for the nation. This decision will convert them all to artisans;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; 

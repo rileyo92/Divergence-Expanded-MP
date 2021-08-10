@@ -13,7 +13,11 @@ political_decisions = {
           duration = 3650
       }
     }
+    ai_will_do = {
+      factor = 0
+    }
   }
+
   rgo_change_mining = {
 			picture = alsace_lorraine_mines
 				potential = {
@@ -29,6 +33,9 @@ political_decisions = {
 						id = 199936
 					}
 				}
+        ai_will_do = {
+          factor = 0
+        }
 		}
 
 		rgo_change_agriculture = {
@@ -46,5 +53,8 @@ political_decisions = {
 						id = 199937
 					}
 				}
+        ai_will_do = {
+          factor = 0
+        }
 		}
 }
