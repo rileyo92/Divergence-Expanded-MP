@@ -79,8 +79,6 @@ political_decisions = {
 				owner = { country_event = 22584 }
 			}
 		}
-
-		ai_will_do = { factor = 1 }
 	}
 
 	rescind_trade_policy = {

@@ -67,9 +67,9 @@ kurland_annexation = {
 				country_event = 333016
 			}
 		}
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 0 badboy = 0.8 }
 	}
-	ai_will_do = {
-		factor = 1
-		modifier = { factor = 0 badboy = 0.8 }
-	}
+}
 }

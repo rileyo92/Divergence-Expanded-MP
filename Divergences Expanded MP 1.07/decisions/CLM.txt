@@ -34,10 +34,6 @@ political_decisions = {
 			state_n_government = 1
 			NOT = { num_of_revolts = 1 }
 		}
-		OR = {
-			average_militancy = 3
-			average_consciousness = 4
-		}
 		effect = {
 			add_country_modifier = { name = federales_CLM duration = -1 }
 			set_country_flag = gendarmerie_CLM

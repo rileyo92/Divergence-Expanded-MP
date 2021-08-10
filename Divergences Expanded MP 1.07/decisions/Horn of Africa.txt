@@ -33,6 +33,7 @@ political_decisions = {
 			capital = 1859
 		}
 	}
+	
 	unite_ethiopia_2 = {
 		potential = {
 			tag = ETH
@@ -137,9 +138,6 @@ political_decisions = {
 			1858 = { add_core = THIS }
 			1851 = { add_core = THIS }
 			1875 = { add_core = THIS }
-		}
-		ai_will_do = {
-			factor = 1
 		}
 	}
 

@@ -244,7 +244,4 @@ political_decisions = {
 			remove_country_modifier = lacks_writing_system
 		}
 	}
-
-
-
 }
