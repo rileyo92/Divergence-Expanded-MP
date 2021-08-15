@@ -21,7 +21,7 @@ political_decisions = {
 					OR = {
 						owned_by = THIS
 						owner = { in_sphere = THIS }
-						vassal_of = THIS
+						owner = { vassal_of = THIS }
 						is_core = ARP
 					}
 				}

@@ -1641,32 +1641,31 @@ country_event = {
 	set_country_flag = saxon_help
 	}
 	
-	option = { 
-	name = "775423.A"
-	money = -50000
-	ammunition = -1000
-	small_arms = -1000
-	artillery = -100
-	canned_food = -1000
-	regular_clothes = -1000
-	prestige = 2 
-	ENL = { country_event = { id = 775424 days = 30 } } 
-	prestige = 5 
-	relation = { who = DUA value = -100 }
-	ai_chance = { 
-	factor = 60 
-	modifier = { 
-	factor = 0.7 
-	government = absolute_monarchy
+	option = {
+		name = "775423.A"
+		money = -50000
+		ammunition = -1000
+		small_arms = -1000
+		artillery = -100
+		canned_food = -1000
+		regular_clothes = -1000
+		ENL = { country_event = { id = 775424 days = 30 } } 
+		prestige = 5 
+		relation = { who = DUA value = -100 }
+		ai_chance = {
+			factor = 60 
+			modifier = {
+				factor = 0.7 
+				government = absolute_monarchy
 			}
-	modifier = { 
-	factor = 1.2 
-	rank = 16 
+			modifier = {
+				factor = 1.2 
+				rank = 16 
 			}
-		}
-	modifier = { 
-	factor = 0.8 
-	ENL = { government = democracy }
+			modifier = {
+				factor = 0.8 
+				ENL = { government = democracy }
+			}
 		}
 	}
 	

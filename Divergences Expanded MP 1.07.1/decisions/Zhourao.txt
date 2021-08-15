@@ -106,7 +106,7 @@ political_decisions = {
 		}
 
 		allow = {
-			revolution_n_counterevolution = 1
+			revolution_n_counterrevolution = 1
 			all_core = {
 				OR = {
 					owned_by = GAN

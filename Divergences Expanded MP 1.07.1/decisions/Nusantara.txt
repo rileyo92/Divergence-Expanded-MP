@@ -136,7 +136,6 @@ political_decisions = {
 			SUL = { all_core = { add_core = THIS } }
 			NET_1451 = { add_core = THIS }
 			AST_2529 = { add_core = THIS }
-			GER_2531 = { add_core = THIS }
 		}
 	}
 

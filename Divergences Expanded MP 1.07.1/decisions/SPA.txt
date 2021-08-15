@@ -1,4 +1,5 @@
-purchase_spanish_pacific = {
+political_decisions = {
+	purchase_spanish_pacific = {
 		picture = treaty_signing
 		potential = {
 			OR = { 
@@ -49,3 +50,4 @@ purchase_spanish_pacific = {
 			}
 		}
 	}
+}

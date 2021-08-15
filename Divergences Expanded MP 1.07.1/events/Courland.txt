@@ -531,7 +531,7 @@ country_event = { #Trinidad 1/3
 	name = "500023.A"
 	money = 75000
 	2237 = { secede_province = FROM }
-	FROM = { country_event = 500023A }
+	FROM = { country_event = 5000233 }
 		ai_chance = {
 			factor = 75
 		modifier = {
@@ -547,7 +547,7 @@ country_event = { #Trinidad 1/3
 
 	option = {
 	name = "500023.B"
-	FROM = { country_event = 500023B }
+	FROM = { country_event = 5000234 }
 		ai_chance = {
 			factor = 25
 		}
@@ -555,7 +555,7 @@ country_event = { #Trinidad 1/3
 }
 
 country_event = { #Trinidad 2/3
-	id = 500023A
+	id = 5000233
 	title = "500023A.T"
 	desc = "500023A.D"
 
@@ -572,7 +572,7 @@ country_event = { #Trinidad 2/3
 }
 
 country_event = { #Trinidad 3/3
-	id = 500023B
+	id = 5000234
 	title = "500023B.T"
 	desc = "500023B.D"
 
@@ -595,7 +595,7 @@ country_event = { #Bermuda 1/3
 	name = "500024.A"
 	money = 100000
 	203 = { secede_province = FROM }
-	FROM = { country_event = 500024A }
+	FROM = { country_event = 5000244 }
 		ai_chance = {
 			factor = 75
 		modifier = {
@@ -611,7 +611,7 @@ country_event = { #Bermuda 1/3
 
 	option = {
 	name = "500024.B"
-	FROM = { country_event = 500024B }
+	FROM = { country_event = 5000245 }
 		ai_chance = {
 			factor = 25
 		}
@@ -619,7 +619,7 @@ country_event = { #Bermuda 1/3
 }
 
 country_event = { #Bermuda 2/3
-	id = 500024A
+	id = 5000244
 	title = "500024A.T"
 	desc = "500024A.D"
 
@@ -636,7 +636,7 @@ country_event = { #Bermuda 2/3
 }
 
 country_event = { #Bermuda 3/3
-	id = 500024B
+	id = 5000245
 	title = "500024B.T"
 	desc = "500024B.D"
 

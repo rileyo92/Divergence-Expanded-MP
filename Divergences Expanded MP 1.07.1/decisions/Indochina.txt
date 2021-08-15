@@ -333,13 +333,13 @@ political_decisions = {
 		potential = {
 			tag = DAI
 			OR = {
-				CHP = { exists = NO }
+				CHP = { exists = no }
 				has_country_flag = conquest_champa
 			}
 			NOT = { has_country_flag = dom_indochina }
 		}
 		allow = {
-			CHP = { exists = NO }
+			CHP = { exists = no }
 		}
 		effect = {
 			set_country_flag = dom_indochina

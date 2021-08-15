@@ -40,7 +40,6 @@ political_decisions = {
 			EGY_921 = {
 				add_core = THIS
 			}
-			TUR_917 = { add_core = THIS }
 		}
 	}
 

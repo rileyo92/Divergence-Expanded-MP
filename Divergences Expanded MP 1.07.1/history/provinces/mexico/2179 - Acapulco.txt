@@ -1,8 +1,13 @@
 owner = CLM
-Mcontroller = CLM
-add_core = CLM
-add_core = AZT
+controller = CLM
+
+add_core = CLM
+
+add_core = AZT
+
 add_core = MEX
-add_core = PUR
+
+add_core = PUR
 trade_goods = grain
-life_rating = 35
+life_rating = 35
+

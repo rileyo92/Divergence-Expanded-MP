@@ -122,7 +122,6 @@ political_decisions = {
 			add_accepted_culture = nepali
 			add_accepted_culture = assamese
 			AFG_1214 = { add_core = BHA }
-			AFG_1217 = { add_core = BHA }
 			AFG_1218 = { add_core = BHA }
 			KAL_1221 = { add_core = BHA }
 			PAN_1224 = { add_core = BHA }

@@ -31,7 +31,7 @@ political_decisions = {
 				all_core = {
 					OR = {
 						owned_by = THIS
-						vassal_of = THIS
+						owner = { vassal_of = THIS }
 					}
 				}
 			}
@@ -82,7 +82,7 @@ political_decisions = {
 					tag = GEN
 					vassal_of = THIS
 				}
-				GEN = { country_event = annexpuppet }
+				GEN = { country_event = 477877 }
 			}
 		}
 	}
@@ -190,7 +190,7 @@ political_decisions = {
 			owns = 729
 		}
 		allow = {
-			cheap_iron = 1
+			puddling = 1
 			iron_railroad = 1
 		}
 		effect = {
@@ -219,7 +219,7 @@ political_decisions = {
 		}
 		allow = {
 			medicine = 1
-			cheap_iron = 1
+			puddling = 1
 			OR = {
 				realism = 1
 				state_n_government = 1
@@ -483,7 +483,7 @@ political_decisions = {
 					OR = {
 						owned_by = THIS
 						owner = { in_sphere = THIS }
-						vassal_of = THIS
+						owner = { vassal_of = THIS }
 						is_core = ARP
 						is_core = SRD
 						is_core = SYC
@@ -658,10 +658,10 @@ political_decisions = {
 			add_accepted_culture = albanian
 			add_accepted_culture = greek
 			GRE = {
-				limit = {
-					NOT = { state_id = TUR_805 }
+				all_core = {
+					limit = { NOT = { state_id = 823 } }
+					add_core = ITA
 				}
-				all_core = { add_core = ITA }
 			}
 			TUR_853 = { add_core = ITA }
 			MON_2582 = { add_core = ITA }

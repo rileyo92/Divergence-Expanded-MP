@@ -158,7 +158,7 @@ political_decisions = {
 			war = no
 			medicine = 1
 			breech_loaded_rifles = 1
-			state_and_government = 1
+			state_n_government = 1
 			iron_steamers = 1
 		}
 
@@ -423,7 +423,7 @@ political_decisions = {
 		allow = {
 			war = no
 			ideological_thought = 1
-			early_railroad_railroad = 1
+			early_railroad = 1
 
 		}
 
@@ -449,7 +449,7 @@ political_decisions = {
 		allow = {
 			war = no
 			ideological_thought = 1
-			early_railroad_railroad = 1
+			early_railroad = 1
 
 		}
 
@@ -476,7 +476,7 @@ political_decisions = {
 			war = no
 			medicine = 1
 			invention = prophylaxis_against_malaria
-			early_railroad_railroad = 1
+			early_railroad = 1
 		}
 
 		effect = {

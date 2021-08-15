@@ -93,6 +93,7 @@ political_decisions = {
 			AUS_736 = { add_core = THIS }
 			SER_794 = { add_core = THIS }
 			TUR_803 = { add_core = THIS }
+			KOS_802 = { add_core = THIS }
 			MON_2582 = { add_core = THIS }
 		}
 	}
@@ -270,7 +271,7 @@ political_decisions = {
 			add_accepted_culture = croat
 			random_owned = {
 				limit = {
-					owner = { minorities_reform = primary_culture_only }
+					owner = { citizens_rights = primary_culture_only }
 				}
 				owner = { political_reform = culture_voting_only }
 			}

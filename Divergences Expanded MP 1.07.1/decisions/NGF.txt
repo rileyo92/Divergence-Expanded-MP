@@ -203,7 +203,7 @@ political_decisions = {
 				limit = {
 					OR = {
 						primary_culture = north_german
-						primary_culture = prussian
+						#primary_culture = prussian
 						primary_culture = pomeranian
 					}
 					vassal_of = THIS

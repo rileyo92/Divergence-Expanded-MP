@@ -272,7 +272,7 @@ political_decisions = {
 	cooperation_with_qingqiu = {
 		potential = {
 			tag = JAP
-			exist = DNG
+			exists = DNG
 			NOT = { has_country_flag = high_castle }
 			NOT = { has_country_flag = coop_with_qiugqiu }
 			OR = {
@@ -330,7 +330,6 @@ political_decisions = {
 		effect = {
 			badboy = 10
 			CHI_1 = { add_core = THIS }
-			CHI_1563 = { add_core = THIS }
 			CHI_2 = { add_core = THIS }
 			CHI_1614 = { add_core = THIS }
 			CHI_1618 = { add_core = THIS }
@@ -426,9 +425,6 @@ political_decisions = {
 				add_core = JAP
 			}
 			AST_2529 = {
-				add_core = JAP
-			}
-			GER_2531 = {
 				add_core = JAP
 			}
 			AST_2534 = {

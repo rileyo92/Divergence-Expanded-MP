@@ -131,7 +131,15 @@ political_decisions = {
 		effect = {
 			set_country_flag = indian_ambition
 			badboy = 20
-			any_owned_province = { add_core = THIS }
+			any_owned = {
+				limit = {
+					OR = {
+						AND = { is_core = PER NOT = { is_core = TAJ } }
+						AND = { is_core = IRQ NOT = { OR = { is_core = SYR is_core = HAL } } }
+					}
+				}
+				add_core = THIS
+			}
 			PAN_1233 = { add_core = THIS }
 			PAN_1227 = { add_core = THIS }
 			SIN_1288 = { add_core = THIS }

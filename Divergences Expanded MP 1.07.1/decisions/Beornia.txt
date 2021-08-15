@@ -60,7 +60,7 @@ political_decisions = {
 		}
 		allow = {
 			medicine = 1
-			cheap_iron = 1
+			puddling = 1
 			romanticism = 1
 		}
 		effect = {

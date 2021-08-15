@@ -830,7 +830,7 @@ country_event = {
 
 #Generic Annex Puppet event
 country_event = {
-	id = annexpuppet
+	id = 477877
 	title = "annexpuppet.T"
 	desc = "annexpuppet.D"
 
