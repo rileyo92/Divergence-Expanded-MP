@@ -435,6 +435,7 @@ political_decisions = {
 			add_accepted_culture = swiss
 			capital = 576
 			badboy = 10
+			change_tag = CRH
 			any_country = {
 				limit = {
 					OR = {
@@ -454,17 +455,15 @@ political_decisions = {
 				}
 				country_event = 333458
 			}
-			any_owned = {
-				limit = {
-					OR = {
-						is_core = BRG
-						is_core = GER
-					}
-				}
-				add_core = CRH
-			}
+			FRI = { all_core = { add_core = CRH } }
+			PRU_581 = { add_core = CRH }
+			PRU_575 = { add_core = CRH }
+			HES_566 = { add_core = CRH }
+			FRM_564 = { add_core = CRH }
+			BAD_586 = { add_core = CRH }
+			WUR_589 = { add_core = CRH }
+			SWI = { all_core = { add_core = THIS } }
 			BRG = { all_core = { remove_core = BRG } }
-			change_tag = CRH
 			set_global_flag = confed_of_rhine_formed
 		}
 		ai_will_do = {
