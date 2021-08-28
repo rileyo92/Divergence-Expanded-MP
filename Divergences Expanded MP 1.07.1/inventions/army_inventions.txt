@@ -276,15 +276,15 @@ gas_attack_capability = {
 	chance = {
 		base = 0
 		modifier = {
-			factor = 2
+			factor = 5
 			invention = cracking
 		}
 		modifier = {
-			factor = 2
+			factor = 5
 			invention = carbon_soil_enrichment
 		}
 		modifier = {
-			factor = 6
+			factor = 5
 			any_neighbor_country = {
 				invention = gas_attack_capability
 			}
@@ -308,7 +308,7 @@ gas_defense_capability = {
 				war_countries = { invention = gas_attack_capability }
 			}
 			modifier = {
-				factor = 6
+				factor = 5
 				any_neighbor_country = {
 					invention = gas_defense_capability
 				}
