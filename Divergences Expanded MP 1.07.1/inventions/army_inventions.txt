@@ -298,7 +298,7 @@ gas_defense_capability = {
 		chance = {
 			modifier = {
 				factor = -100
-				NOT = { year = 1910 }
+				NOT = { year = 1905 }
 			}
 			modifier = {
 				factor = 5
