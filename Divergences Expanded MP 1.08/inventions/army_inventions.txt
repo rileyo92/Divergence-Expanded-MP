@@ -301,15 +301,8 @@ gas_defense_capability = {
 				NOT = { year = 1905 }
 			}
 			modifier = {
-				factor = 5
-				war = yes
-				war_countries = { invention = gas_attack_capability }
-			}
-			modifier = {
-				factor = 5
-				any_neighbor_country = {
-					invention = gas_defense_capability
-				}
+				factor = 100
+				year = 1905
 			}
 		}
 	}
