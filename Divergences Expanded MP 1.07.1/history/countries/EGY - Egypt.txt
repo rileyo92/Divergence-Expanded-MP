@@ -53,13 +53,14 @@ set_country_flag = sunni_country
 finance_reform = yes_finance_reform
 foreign_artillery = yes_foreign_artillery
 foreign_weapons = yes_foreign_weapons
-admin_reform = yes_admin_reform
 land_reform = yes_land_reform
+research_reform = yes_research_reform
 
 
 # Technologies
 flintlock_rifles = 1
 bronze_muzzle_loaded_artillery = 1
+late_enlightenment_philosophy = 1
 
 # Inventions
 
