@@ -240,7 +240,6 @@
 #Japan China route nerfed and pushed back
 #Readded HRE in it's vanilla form, made 1900 HRE formation be germany instead
 #
-#1.07.x (Planned)
+#1.08
 #
-#Remerge Flemish and Dutch Cultures together
-#Add events for Scandi if they lose land after choosing a path
+#

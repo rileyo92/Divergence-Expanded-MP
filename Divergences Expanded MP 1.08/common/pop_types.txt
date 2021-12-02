@@ -690,7 +690,7 @@ colonialmigration_chance =
 #general emigration chance - Base chance +1%
 emigration_chance =
 {
-	factor = 0.6
+	factor = 0.5
 
 ###Positive Factors for Emigration (bad)###
 
@@ -1004,11 +1004,6 @@ emigration_chance =
 
 ###Colony and Immigrant Nations Emigration Security###
 
-#If pop group is in a country with the country tag, then -4% chance to emigrate.
-	modifier = {
-		factor = -4.0
-		has_country_flag = new_world_nation
-	}
 #If pop group is in a colony, then -2% chance to emigrate.
 	modifier = {
 		factor = -10000
@@ -1019,6 +1014,16 @@ emigration_chance =
 		factor = -0.4
 		is_accepted_culture = no
 		NOT = { culture = irish }
+	}
+
+	modifier = {
+	   factor = -0.5
+		 culture = nanfaren
+	}
+
+	modifier = {
+	   factor = -0.5
+		 culture = beifaren
 	}
 }
 #general assimilation mtth, same for all pops
@@ -1045,65 +1050,6 @@ assimilation_chance = {
 		}
 	}
 
-#NEW WORLD NATION BONUS - 50% more base assimilation rate for new world nations on provinces in north america, south america, and oceania. (0.000198 + base)(new rate = 0.000594)
-	modifier = {
-		factor = 5
-		country = {
-			has_country_flag = new_world_nation
-		}
-		OR = {
-			AND = {
-				location = {
-					OR = {
-						continent = north_america
-						continent = south_america
-						continent = oceania
-					}
-				}
-			}
-			AND = {
-				location = {
-					continent = africa
-				}
-				NOT = {
-					OR = {
-						has_pop_culture = malagasy
-						is_culture_group = arab
-					}
-				}
-			}
-		}
-	}
-	modifier = {
-		factor = 10
-		has_culture_core = no
-		country = {
-			has_country_flag = new_world_nation
-		}
-		OR = {
-			AND = {
-				location = {
-					OR = {
-						continent = north_america
-						continent = south_america
-						continent = oceania
-					}
-				}
-			}
-			AND = {
-				location = {
-					continent = africa
-				}
-				NOT = {
-					OR = {
-						has_pop_culture = malagasy
-						is_culture_group = arab
-					}
-				}
-			}
-		}
-	}
-
 #BASELINE ASSIMILATION	- averages to 0.000396 rate. (averages 39.6 people assimilating per month in a 100k province)
 #IMPORTANT NOTE - If a pop has_culture_core = no, it must have its bonuses scaled down to a 100th less magnitude. (if base is factor 10, has_culture_core = no must be 0.1) This must be reflected in all future modifiers.
 	group = {
@@ -1113,6 +1059,10 @@ assimilation_chance = {
 		modifier = {
 			factor = -9.9
 			has_culture_core = no
+		}
+		modifier = {
+			factor = -11
+			culture = ashkenazi
 		}
 	}
 #LITERACY MODIFIERS - averages 0.00000396 additional rate per 10% literacy up to 0.0000396 additional rate at 99% literacy. (averages 3.96 people assimilating per month at 99% literacy in a 100k province)
