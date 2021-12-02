@@ -267,38 +267,6 @@ political_decisions = {
 		}
 	}
 
-	integrate_elsass = {
-		potential = {
-			OR = {
-				tag = HLR
-				AND = {
-					tag = CAE
-					accepted_culture = rheinish
-				}
-				tag = GER
-				tag = SGF
-			}
-			NOT = { has_country_flag = integrate_elsass	}
-		}
-		allow = {
-			409 = { owned_by = THIS }
-			410 = { owned_by = THIS }
-		}
-		effect = {
-			409 = {
-				add_core = THIS
-				remove_core = LOR
-				remove_core = BRG
-			}
-			409 = {
-				add_core = THIS
-				remove_core = LOR
-				remove_core = BRG
-			}
-			set_country_flag = integrate_elsass
-		}
-	}
-
 	integrate_rhineland = {
 		picture = MarzBerlin
 		potential = {
@@ -309,12 +277,24 @@ political_decisions = {
 			NOT = { has_country_flag = rheinish_acc }
 		}
 		allow = {
-			any_owned_province = { is_core = RHI }
+			OR = {
+				owns = 570
+				owns = 574
+				owns = 575
+				owns = 578
+			}
 		}
 		effect = {
 			set_country_flag = rheinish_acc
 			add_accepted_culture = rheinish
-			RHI = { all_core = { add_core = THIS } }
+			HES_566 = { add_core = THIS } 	#Hessen
+			PRU_575 = { add_core = THIS }	#Nordrhein
+			PRU_572 = { add_core = THIS }	#Rhineland
+			BRG_573 = { add_core = THIS }	#Saarbucken
+			HES_2560 = { add_core = THIS }	#Mainz
+			FRM_564 = { add_core = THIS }	#Palatinate
+			580 = { add_core = THIS }
+			581 = { add_core = THIS }
 	   }
     }
 
@@ -324,7 +304,12 @@ political_decisions = {
 			NOT = { has_country_flag = rheinish_acc }
 		}
 		allow = {
-			any_owned_province = { is_core = RHI }
+			OR = {
+				owns = 570
+				owns = 574
+				owns = 575
+				owns = 578
+			}
 			revolution_n_counterrevolution = 1
 		}
 		effect = {
@@ -350,25 +335,31 @@ political_decisions = {
 		}
 		allow = {
 			OR = {
-				any_owned_province = { is_core = BRN }
-				any_owned_province = { is_core = HAN }
+				owns = 554
+				owns = 536
+				owns = 585
+				owns = 534
+				owns = 540
+				owns = 539
+				owns = 532
+				owns = 553
+				owns = 549
 			}
 		}
 		effect = {
 			set_country_flag = elbe_acc
 			add_accepted_culture = north_german
 			add_accepted_culture = pomeranian
-			GER = {
-				any_core = {
-					limit = {
-						OR = {
-							culture = north_german
-							culture = pomeranian
-						}
-					}
-					add_core = THIS
-				}
-			}
+			PRU_546 = { add_core = CAE }	#Hinterpommern
+			SCA_544 = { add_core = CAE }	#Mecklenburg
+			HOL_369 = { add_core = CAE }	#Holstein
+			HAN_532 = { add_core = CAE }	#Luneburg
+			HAM_528 = { add_core = CAE }	#Hanover
+			SAX_1 = { add_core = CAE }		#Thuringia
+			PRU_581 = { add_core = CAE }  #Westfalen
+			PRU_553 = { add_core = CAE }	#Anhalt
+			SAX_558 = { add_core = CAE }	#Saxony
+			PRU_549 = { add_core = CAE }	#Brandenburg
 		}
 	}
 
@@ -383,27 +374,15 @@ political_decisions = {
 		}
 
 		allow = {
-			OR = {
-				any_owned_province = { is_core = BAV }
-				any_owned_province = { is_core = SWI }
-				any_owned_province = { is_core = AUS }
-			}
+			any_owned_province = { is_core = SGF }
 		}
+
 		effect = {
 			set_country_flag = south_acc
 			add_accepted_culture = south_german
 			add_accepted_culture = swiss
-			GER = {
-				any_core = {
-					limit = {
-						OR = {
-							culture = south_german
-							culture = swiss
-						}
-					}
-					add_core = THIS
-				}
-			}
+			SGF = { all_core = { add_core = THIS } }
+			FRM_564 = { add_core = CAE }	#Palatinate
 		}
 	}
 
@@ -433,7 +412,6 @@ political_decisions = {
 			NOT = { has_country_flag = bohemia_integration }
 		}
 		allow = {
-			NOT = { citizenship_policy = residency }
 			any_owned_province = { is_core = BOH }
 			revolution_n_counterrevolution = 1
 		}

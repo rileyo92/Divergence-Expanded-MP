@@ -92,35 +92,24 @@ political_decisions = {
 			war = no
 			is_vassal = no
 			NOT = { exists = RHI }
-			RHI = { all_core = { owned_by = THIS } }
+			owns = 575
+			owns = 574
+			owns = 570
+			578 = {
+				owner = {
+					OR = {
+						tag = THIS
+						in_sphere = THIS
+						vassal_of = THIS
+					}
+				}
+			}
 		}
+
 		effect = {
 			prestige = 10
 			primary_culture = rheinish
-			add_accepted_culture = south_german
 			change_tag = RHI
-			capital = 575
-		}
-	}
-
-	join_rhineland_BEG = {
-		potential = {
-			tag = BEG
-			RHI = { exists = yes }
-		}
-		allow = {
-			war = no
-			is_vassal = no
-			OR =  {
-				part_of_sphere = no
-				sphere_owner = { is_sphere_leader_of = RHI }
-			}
-		}
-		effect = {
-			all_core = { remove_core = BEG }
-			THIS = { inherit = RHI }
-			change_tag = RHI
-			HES_2560 = { add_core = RHI }
 			capital = 575
 		}
 	}
@@ -139,35 +128,14 @@ political_decisions = {
 		}
 
 		effect = {
-			add_accepted_culture = swiss
 			set_country_flag = greater_rhineland
+			add_accepted_culture = swiss
 			WUR_589 = { add_core = RHI }
 			FRM_564 = { add_core = RHI }
 			HES_566 = { add_core = RHI }
 			BAD_586 = { add_core = RHI }
 			SWI_605 = { add_core = RHI }
-		}
-	}
-
-	join_rhineland_BEG_AI = {
-		potential = {
-			tag = BEG
-			RHI = { exists = yes }
-			ai = yes
-		}
-		allow = {
-			war = no
-			is_vassal = no
-			OR =  {
-				part_of_sphere = no
-				sphere_owner = { is_sphere_leader_of = RHI }
-			}
-		}
-		effect = {
-			RHI = { inherit = BEG }
-			all_core = { remove_core = BEG }
-			HES_2560 = { add_core = RHI }
-			capital = 575
+			SWI_603 = { add_core = RHI }
 		}
 	}
 
@@ -186,6 +154,7 @@ political_decisions = {
 			add_accepted_culture = dutch
 			NET_375 = { add_core = RHI }
 			NET_381 = { add_core = RHI }
+			NET_385 = { add_core = RHI }
 		}
 	}
 }
