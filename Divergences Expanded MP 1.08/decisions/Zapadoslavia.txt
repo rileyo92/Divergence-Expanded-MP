@@ -12,6 +12,7 @@ political_decisions = {
       NOT = { has_country_flag = wsf_formed }
       NOT = { tag = CAE }
       NOT = { tag = HLR }
+      NOT = { tag = GER }
     }
     allow = {
       owns = 682

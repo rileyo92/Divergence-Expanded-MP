@@ -4,6 +4,7 @@ political_decisions = {
 			NOT = { GRE = { exists = yes }	}
 			primary_culture = greek
 			NOT = { tag = MAC }
+			NOT = { tag = BYZ }
 		}
 		allow = {
 			NOT = { war = yes }

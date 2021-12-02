@@ -740,7 +740,6 @@ west_slavic = {
 		Taczaneowski Traugutt Wawrzecki Wieniawa-Dlugoszowski Wybicki Wysocki Zajaczek Zaluski Zamoyski Zeligowski }
 		radicalism = 10
 	}
-	union = PLC
 }
 
 czecho_slovak_culture_group = {

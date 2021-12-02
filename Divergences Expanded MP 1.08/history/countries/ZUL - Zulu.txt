@@ -1,6 +1,5 @@
 capital = 2113
-primary_culture = zulu
-culture = nguni
+primary_culture = nguni
 culture = sotho
 religion = fetishist
 government = absolute_monarchy
