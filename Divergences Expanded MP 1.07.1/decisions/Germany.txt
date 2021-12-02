@@ -8,7 +8,7 @@ political_decisions = {
 				tag = CAE
 			}
 			NOT = {
-				tag = HLR
+				exists = HLR
 				exists = GER
 			}
 		}
@@ -47,8 +47,8 @@ political_decisions = {
 				limit = {
 					is_culture_group = germanic
 					OR = {
-					in_sphere = THIS
-					vassal_of = THIS
+						in_sphere = THIS
+						vassal_of = THIS
 					}
 				}
 				country_event = 11101
@@ -309,7 +309,6 @@ political_decisions = {
 			NOT = { has_country_flag = rheinish_acc }
 		}
 		allow = {
-			NOT = { citizenship_policy = residency }
 			any_owned_province = { is_core = RHI }
 		}
 		effect = {
@@ -337,7 +336,6 @@ political_decisions = {
 			BRG_573 = { add_core = CAE }	#Saarbucken
 			HES_2560 = { add_core = CAE }	#Mainz
 			FRM_564 = { add_core = CAE }	#Palatinate
-			381 = { remove_core = CAE }
 		}
   }
 
@@ -348,14 +346,13 @@ political_decisions = {
 				tag = SGF
 				tag = RHI
 			}
+			NOT = { has_country_flag = elbe_acc }
+		}
+		allow = {
 			OR = {
 				any_owned_province = { is_core = BRN }
 				any_owned_province = { is_core = HAN }
 			}
-			NOT = { has_country_flag = elbe_acc }
-		}
-		allow = {
-			NOT = { citizenship_policy = residency }
 		}
 		effect = {
 			set_country_flag = elbe_acc
@@ -382,15 +379,15 @@ political_decisions = {
 				tag = NGF
 				tag = RHI
 			}
+			NOT = { has_country_flag = south_acc }
+		}
+
+		allow = {
 			OR = {
 				any_owned_province = { is_core = BAV }
 				any_owned_province = { is_core = SWI }
 				any_owned_province = { is_core = AUS }
 			}
-			NOT = { has_country_flag = south_acc }
-		}
-		allow = {
-			NOT = { citizenship_policy = residency }
 		}
 		effect = {
 			set_country_flag = south_acc
@@ -407,6 +404,43 @@ political_decisions = {
 					add_core = THIS
 				}
 			}
+		}
+	}
+
+	integrate_swamp_germans = {
+		potential = {
+			tag = GER
+			NOT = { primary_culture = czech }
+			NOT = { has_country_flag = swamp_germans }
+			NOT = { has_country_flag = bohemia_integration }
+		}
+		allow = {
+			any_owned_province = { is_core = NET }
+			revolution_n_counterrevolution = 1
+		}
+		effect = {
+			add_accepted_culture = dutch
+			NET = { all_core = { add_core = THIS } }
+			set_country_flag = swamp_germans
+		}
+	}
+
+	integrate_bohemians = {
+		potential = {
+			tag = GER
+			NOT = { primary_culture = czech }
+			NOT = { has_country_flag = swamp_germans }
+			NOT = { has_country_flag = bohemia_integration }
+		}
+		allow = {
+			NOT = { citizenship_policy = residency }
+			any_owned_province = { is_core = BOH }
+			revolution_n_counterrevolution = 1
+		}
+		effect = {
+			add_accepted_culture = czech
+			BOH = { all_core = { add_core = THIS } }
+			set_country_flag = bohemia_integration
 		}
 	}
 
@@ -459,8 +493,8 @@ political_decisions = {
 				    in_sphere = THIS
 						vassal_of = THIS
 					}
-					NOT = {tag = PRU}
-					NOT = {tag = KRL}
+					NOT = { tag = PRU }
+					NOT = { tag = KRL }
 			  }
 				country_event = 333458
 			}

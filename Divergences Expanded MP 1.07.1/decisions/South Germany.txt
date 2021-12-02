@@ -114,6 +114,7 @@ political_decisions = {
 			FRM_564 = { add_core = SGF }
 			AUS_623 = { add_core = SGF }
 			change_tag = SGF
+			capital = 599
 		}
 	}
 
@@ -123,7 +124,9 @@ political_decisions = {
 				tag = AUS
 				tag = SGF
 				tag = DNB
+				tag = GER
 			}
+			NOT = { primary_culture = czech }
 			NOT = { accepted_culture = slovene }
 		}
 		allow = {

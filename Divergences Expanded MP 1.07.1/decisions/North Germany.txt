@@ -123,9 +123,6 @@ political_decisions = {
 			HES_2560 = { add_core = RHI }
 			capital = 575
 		}
-		ai_will_do = {
-			factor = 1
-		}
 	}
 
 	greater_rhineland = {
