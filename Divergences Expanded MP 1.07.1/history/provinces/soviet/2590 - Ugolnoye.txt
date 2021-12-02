@@ -1,5 +1,6 @@
 owner = SPA
 controller = SPA
+add_core = SPA
 add_core = MOR
 add_core = MGH
 trade_goods = fish
