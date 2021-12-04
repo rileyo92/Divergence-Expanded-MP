@@ -487,11 +487,13 @@ political_decisions = {
 			tag = HLR
 			NOT = { has_country_flag = frankfurt_unify }
 		}
+
 		allow = {
 			is_greater_power = yes
 			nationalism_n_imperialism = 1
 			owns = 564
 		}
+		
 		effect = {
 			GER = {
 				all_core = {

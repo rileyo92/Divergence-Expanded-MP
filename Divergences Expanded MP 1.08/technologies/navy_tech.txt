@@ -76,8 +76,6 @@ battleship_column_doctrine = {
 	cost = 7200
 	unciv_military = yes
 	max_naval_base = 1
-	#colonial_points = 200 #no free lunch!
-
 
 	ai_chance = {
 		factor = 4
@@ -144,13 +142,13 @@ battleship_column_doctrine = {
 			factor = 2
 			any_owned_province = { is_overseas = yes }
 		}
-		
+
 		modifier = {
 			factor = 20
 			year = 1855
 			#money = 20000
 		}
-		
+
 		modifier = {
 			factor = 100
 			OR = {
@@ -241,18 +239,18 @@ raider_group_doctrine = {
 			factor = 1.1
 			total_num_of_ports = 40
 		}
-		
+
 		modifier = {
 			factor = 2
 			any_owned_province = { is_overseas = yes }
 		}
-		
+
 		modifier = {
 			factor = 20
 			year = 1870
 			#money = 20000
 		}
-		
+
 		modifier = {
 			factor = 100
 			OR = {
@@ -346,7 +344,7 @@ blue_and_brown_water_schools = {
 			factor = 2
 			any_owned_province = { is_overseas = yes }
 		}
-		
+
 		modifier = {
 			factor = 100
 			OR = {
@@ -527,7 +525,7 @@ clipper_design = {
 	cost = 3600
 	navy_base = { maximum_speed = 1 }
 	unciv_military = yes
-		
+
 	ai_chance = {
 		factor = 1.5
 		# Land-locked countries don't research this
@@ -605,9 +603,9 @@ steamers = {
 	year = 1836
 	cost = 7200
 	unciv_military = yes
-	
+
 	navy_base = { maximum_speed = 1 }
-	
+
 	ai_chance = {
 		factor = 4
 		# Land-locked countries don't research this
@@ -703,6 +701,7 @@ steamers = {
 		}
 	}
 }
+
 iron_steamers = {
 	area = ship_construction
 	year = 1855
@@ -711,7 +710,7 @@ iron_steamers = {
 	navy_base = { maximum_speed = 2 }
 	ai_chance = {
 		factor = 4
-		
+
 		# Land-locked countries don't research this
 		modifier = {
 			factor = 0
@@ -814,7 +813,7 @@ steel_steamers = {
 	year = 1880
 	cost = 14400
 	unciv_military = yes
-	navy_base = { maximum_speed = 1 } 
+	navy_base = { maximum_speed = 1 }
 	ai_chance = {
 		factor = 2
 		# Land-locked countries don't research this
@@ -904,7 +903,7 @@ steam_turbine_ships = {
 	year = 1900
 	cost = 18000
 	unciv_military = yes
-	navy_base = { maximum_speed = 2 } 
+	navy_base = { maximum_speed = 2 }
 	ai_chance = {
 		factor = 4
 		# Land-locked countries don't research this
@@ -978,7 +977,7 @@ steam_turbine_ships = {
 			factor = 1.1
 			total_num_of_ports = 40
 		}
-		
+
 		modifier = {
 			factor = 0
 			NOT = { high_sea_battle_fleet = 1 }
@@ -995,7 +994,7 @@ oil_driven_ships = {
 	year = 1919
 	cost = 21600
 	unciv_military = yes
-	navy_base = { maximum_speed = 2 } 
+	navy_base = { maximum_speed = 2 }
 	ai_chance = {
 		factor = 1.25
 		# Land-locked countries don't research this
@@ -1163,9 +1162,9 @@ fire_control_systems = {
 	cost = 7200
 	unciv_military = yes
 	navy_base = { build_time = -10 }
-	
+
 	colonial_prestige = 0.1
-	
+
 	ai_chance = {
 		factor = 0.25
 		# Land-locked countries don't research this
@@ -1262,7 +1261,7 @@ weapon_platforms = {
 	unciv_military = yes
 	navy_base = { build_time = -10 }
 	colonial_prestige = 0.1
-	
+
 	ai_chance = {
 		factor = 0.25
 		# Land-locked countries don't research this
@@ -1358,7 +1357,7 @@ main_armament = {
 	unciv_military = yes
 	navy_base = { build_time = -10 }
 	colonial_prestige = 0.1
-	
+
 	ai_chance = {
 		factor = 0.25
 		# Land-locked countries don't research this
@@ -1643,7 +1642,7 @@ alphabetic_flag_signaling = {
 	cost = 3600
 	unciv_military = yes
 	supply_range = 0.5
-	
+
 	ai_chance = {
 		factor = 0.25
 		modifier = {
@@ -1690,7 +1689,7 @@ naval_plans = {
 	cost = 7200
 	unciv_military = yes
 	supply_range = 0.5
-	
+
 	ai_chance = {
 		factor = 0.25
 		modifier = {
@@ -1709,7 +1708,7 @@ naval_plans = {
 			factor = 1.05
 			total_num_of_ports = 30
 		}
-		
+
 		modifier = {
 			factor = 1.02
 			total_amount_of_ships = 30
@@ -2050,7 +2049,7 @@ naval_professionalism = {
 	unciv_military = yes
 	navy_base = { default_organisation = 5 }
 	colonial_prestige = 0.1
-	
+
 	ai_chance = {
 		factor = 0.75
 		# Land-locked countries don't research this
@@ -2141,7 +2140,7 @@ naval_decision_making = {
 	unciv_military = yes
 	navy_base = { default_organisation = 5 }
 	colonial_prestige = 0.1
-	
+
 	ai_chance = {
 		factor = 0.75
 		# Land-locked countries don't research this
@@ -2232,7 +2231,7 @@ naval_risk_management = {
 	unciv_military = yes
 	navy_base = { default_organisation = 5 }
 	colonial_prestige = 0.1
-	
+
 	ai_chance = {
 		factor = 0.75
 		# Land-locked countries don't research this
@@ -2498,5 +2497,3 @@ modern_naval_training = {
 		}
 	}
 }
-
-

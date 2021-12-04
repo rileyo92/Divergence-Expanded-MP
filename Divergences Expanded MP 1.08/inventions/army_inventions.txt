@@ -268,48 +268,7 @@ trench_systems = {
 		}
 	}
 }
-gas_attack_capability = {
-	limit = {
-		military_directionism = 1
-		has_country_flag = existing_country
-	}
-	chance = {
-		base = 0
-		modifier = {
-			factor = 50
-			invention = cracking
-		}
-		modifier = {
-			factor = 50
-			invention = carbon_soil_enrichment
-		}
-	}
-	effect = {
-		gas_attack = yes
-	}
-}
-gas_defense_capability = {
-	limit = {
-		military_directionism = 1
-		has_country_flag = existing_country
-	}
-	chance = {
-		base = 0
-		chance = {
-			modifier = {
-				factor = -100
-				NOT = { year = 1905 }
-			}
-			modifier = {
-				factor = 100
-				year = 1905
-			}
-		}
-	}
-	effect = {
-		gas_defense = yes
-	}
-}
+
 elastic_defense_system = {
 	limit = { deep_defense_system = 1 }
 	chance = {
@@ -551,7 +510,7 @@ firepower_vs_mobility = {
 			defence = 1
 		}
 		guard = {
-			attack = 1
+			attack = 2
 			defence = 1
 		}
 		engineer = {
@@ -577,6 +536,9 @@ firepower_vs_mobility = {
 		}
 		army_base = {
 			maximum_speed = 1
+		}
+		army_base = {
+			supply_consumption = 0.05
 		}
 	}
 }
@@ -648,7 +610,7 @@ human_wave_vs_spearhead = {
 			defence = 2
 		}
 		army_base = {
-			supply_consumption = -0.3
+			supply_consumption = 0.05
 		}
 	}
 }
@@ -1017,8 +979,9 @@ tankette = {
 	}
 	effect = {
 		tank = {
-			attack = 2
+			attack = 3
 			defence = 1
+			support = 0.15
 			supply_consumption = 0.5
 		}
 	}
@@ -1038,8 +1001,9 @@ light_tank = {
 	}
 	effect = {
 		tank = {
-			attack = 2
+			attack = 3
 			defence = 1
+			support = 0.15
 			supply_consumption = 0.5
 		}
 	}
@@ -1179,11 +1143,7 @@ heavy_artillery = {
 cuirassier_activation = {
 	limit = { military_staff_system = 1 }
 	chance = {
-		base = 2
-		modifier = {
-			factor = -2
-			not = { civilized = yes }
-		}
+		base = 100
 	}
 	effect = {
 		activate_unit = cuirassier
@@ -1192,11 +1152,7 @@ cuirassier_activation = {
 dragoon_activation = {
 	limit = { military_staff_system = 1 }
 	chance = {
-		base = 2
-		modifier = {
-			factor = -2
-			not = { civilized = yes }
-		}
+		base = 100
 	}
 	effect = {
 		activate_unit = dragoon
@@ -1205,11 +1161,7 @@ dragoon_activation = {
 hussar_activation = {
 	limit = { military_staff_system = 1 }
 	chance = {
-		base = 2
-		modifier = {
-			factor = -2
-			not = { civilized = yes }
-		}
+		base = 100
 	}
 	effect = {
 		activate_unit = hussar
@@ -1409,6 +1361,48 @@ replenishment_transport_organisation = {
 }
 
 #military_directionism
+gas_attack_capability = {
+	limit = {
+		military_directionism = 1
+	}
+	chance = {
+		base = 0
+		modifier = {
+			factor = 50
+			invention = cracking
+		}
+		modifier = {
+			factor = 50
+			invention = carbon_soil_enrichment
+		}
+	}
+	effect = {
+		gas_attack = yes
+	}
+}
+
+gas_defense_capability = {
+	limit = {
+		military_directionism = 1
+	}
+	chance = {
+		base = 0
+		chance = {
+			modifier = {
+				factor = -100
+				NOT = { year = 1905 }
+			}
+			modifier = {
+				factor = 100
+				year = 1905
+			}
+		}
+	}
+	effect = {
+		gas_defense = yes
+	}
+}
+
 army_political_lobbying = {
 	limit = { military_directionism = 1 }
 	chance = {
@@ -1473,16 +1467,7 @@ army_local_military_government = {
 military_aviation = {
 	limit = { aeronautics = 1 }
 	chance = {
-		base = 3
-		modifier = {
-			factor = 2
-			war = yes
-			war_countries = { invention = military_aviation }
-		}
-		modifier = {
-			factor = -5
-			not = { invention = wright_n_langleys_aeroplanes }
-		}
+		base = 100
 	}
 	effect = {
 		activate_unit = plane
@@ -1499,7 +1484,8 @@ early_interwar_bombers = {
 	}
 	effect = {
 		plane = {
-			attack = 0.5
+			attack = 1
+			defence = 0.5
 			support = 1
 		}
 	}
@@ -1519,7 +1505,8 @@ late_interwar_bombers = {
 	}
 	effect = {
 		plane = {
-			attack = 0.5
+			attack = 1
+			defence = 0.5
 			support = 1
 		}
 	}
@@ -1535,8 +1522,8 @@ early_interwar_fighters = {
 	}
 	effect = {
 		plane = {
-			attack = 0.25
-			defence = 3
+			attack = 1
+			defence = 0.2
 		}
 	}
 }
@@ -1555,8 +1542,8 @@ late_interwar_fighters = {
 	}
 	effect = {
 		plane = {
-			attack = 0.25
-			defence = 3
+			attack = 1
+			defence = 0.2
 		}
 	}
 }
@@ -1579,7 +1566,8 @@ t_air_superiority = {
 	}
 	effect = {
 		plane = {
-			defence = 3
+			attack = 1
+			defence = 0.6
 			default_organisation = 5
 		}
 	}
@@ -1603,7 +1591,8 @@ flying_circus_doctrine = {
 	}
 	effect = {
 		plane = {
-			defence = 3
+			attack = 0.5
+			defence = 0.5
 			default_organisation = 5
 		}
 	}
@@ -1627,7 +1616,8 @@ force_substitution_doctrine = {
 	}
 	effect = {
 		plane = {
-			defence = 3
+			attack = 0.5
+			defence = 0.5
 			default_organisation = 5
 		}
 	}
@@ -1651,7 +1641,7 @@ battlefield_destruction_doctrine = {
 	}
 	effect = {
 		plane = {
-			attack = 0.25
+			attack = 0.5
 			support = 1
 			default_organisation = 5
 		}
@@ -1676,7 +1666,7 @@ operational_destruction_doctrine = {
 	}
 	effect = {
 		plane = {
-			attack = 0.25
+			attack = 0.5
 			support = 1
 			default_organisation = 5
 		}

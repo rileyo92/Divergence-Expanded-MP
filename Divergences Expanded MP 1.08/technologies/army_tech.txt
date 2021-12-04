@@ -1220,7 +1220,6 @@ machine_guns = {
 	unciv_military = yes
 
 	combat_width = -5
-	#colonial_life_rating = -10
 	ai_chance = {
 		factor = 6
 		modifier = {
@@ -2633,6 +2632,7 @@ military_statistics = {
 		default_organisation = 5
 		supply_consumption = 0.20
 	}
+	mobilisation_size = 0.02
 
 	ai_chance = {
 		factor = 1.5
@@ -2770,7 +2770,7 @@ military_logistics = {
 		default_organisation = 5
 		supply_consumption = 0.20
 	}
-	mobilisation_size = 0.05
+	mobilisation_size = 0.03
 
 	ai_chance = {
 		factor = 1.5

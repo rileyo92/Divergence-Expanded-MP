@@ -806,7 +806,6 @@ nationalism_n_imperialism = {
 	cost = 14400
 
 	max_national_focus = 1
-	#colonial_life_rating = -10
 	cb_creation_speed = 0.1
 
 	ai_chance = {

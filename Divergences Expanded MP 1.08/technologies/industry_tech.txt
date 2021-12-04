@@ -552,10 +552,10 @@ mechanized_mining = {
 	activate_building = steel_factory
 
 	rgo_goods_output = {
-		iron = 0.2
+		iron = 0.25
 	}
 	rgo_goods_output = {
-		coal = 0.4
+		coal = 0.25
 	}
 	rgo_goods_output = {
 		sulphur = 0.25
@@ -619,10 +619,10 @@ puddling = {
 	cost = 7200
 
 	rgo_goods_output = {
-		coal = 0.3
+		coal = 0.2
 	}
 	rgo_size = {
-		coal = 0.4
+		coal = 0.2
 	}
 	rgo_goods_output = {
 		sulphur = 0.1
@@ -631,7 +631,7 @@ puddling = {
 		sulphur = 0.2
 	}
 	rgo_goods_output = {
-		iron = 0.2
+		iron = 0.1
 	}
 	rgo_size = {
 		iron = 0.2
@@ -726,16 +726,16 @@ hot_blast = {
 	year = 1836
 	cost = 10800
 	rgo_goods_output = {
-		precious_metal = 0.15
+		precious_metal = 0.1
 	}
 	rgo_size = {
-		precious_metal = 0.3
+		precious_metal = 0.2
 	}
 	rgo_goods_output = {
-		coal = 0.4
+		coal = 0.15
 	}
 	rgo_goods_output = {
-		iron = 0.2
+		iron = 0.25
 	}
 	rgo_size = {
 		iron = 0.2
@@ -819,22 +819,16 @@ bessemer_process = {
 	year = 1850
 	cost = 14400
 	rgo_goods_output = {
-		precious_metal = 0.15
+		precious_metal = 0.1
 	}
 	rgo_goods_output = {
-		coal = 0.3
-	}
-	rgo_size = {
-		coal = 0.4
+		coal = 0.15
 	}
 	rgo_goods_output = {
-		iron = 0.4
+		iron = 0.15
 	}
 	rgo_size = {
-		precious_metal = 0.3
-	}
-	factory_goods_output = {
-		steel = 0.05
+		precious_metal = 0.2
 	}
 
 	ai_chance = {
@@ -921,19 +915,16 @@ advanced_metallurgy = {
 	cost = 18000
 
 	rgo_goods_output = {
-		sulphur = 0.4
+		sulphur = 0.25
 	}
 	rgo_goods_output = {
-		coal = 0.9
+		coal = 0.25
 	}
 	rgo_goods_output = {
-		iron = 0.5
+		iron = 0.25
 	}
 	rgo_size = {
-		sulphur = 0.4
-	}
-	rgo_size = {
-		precious_metal = 0.5
+		sulphur = 0.2
 	}
 
 	ai_chance = {
