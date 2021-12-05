@@ -674,11 +674,12 @@ country_event = { #Congress because of HRE formed
 
 
 	trigger = {
-	NOT = { has_global_flag = DVG_infamy }
-	has_global_flag = hre_formed
-	NOT = { tag = HLR }
-	is_greater_power = yes
-	continent = europe
+		NOT = { has_global_flag = DVG_infamy }
+		has_global_flag = hre_formed
+		NOT = { tag = HLR }
+		is_greater_power = yes
+		continent = europe
+		year = 1846
 	}
 
 	mean_time_to_happen = {
@@ -707,6 +708,7 @@ country_event = { #Danubian Federation
 	NOT = { tag = SGF tag = BOH  }
 	is_greater_power = yes
 	continent = europe
+	year = 1846
 	}
 
 	mean_time_to_happen = {
@@ -735,6 +737,7 @@ country_event = { #Confederation at the Elbe
 	NOT = { tag = CAE }
 	is_greater_power = yes
 	continent = europe
+	year = 1846
 	}
 
 	mean_time_to_happen = {
@@ -763,6 +766,7 @@ country_event = { #Aragon-Italy forming
 	NOT = { tag = ARI }
 	is_greater_power = yes
 	continent = europe
+	year = 1846
 	}
 
 	mean_time_to_happen = {
@@ -771,34 +775,6 @@ country_event = { #Aragon-Italy forming
 
 	option = {
 	name = "48254.A"
-	set_global_flag = DVG_infamy
-	badboy = -3
-	prestige = 10
-	}
-}
-
-country_event = { #Revitalized PLC
-	id = 48255
-	title = "CONGR1.T"
-	desc = "CONGR5.D"
-
-	major = yes
-
-
-	trigger = {
-	NOT = { has_global_flag = DVG_infamy }
-	PLC = { has_country_flag = lublin_new }
-	NOT = { tag = PLC }
-	is_greater_power = yes
-	continent = europe
-	}
-
-	mean_time_to_happen = {
-	days = 30
-	}
-
-	option = {
-	name = "48255.A"
 	set_global_flag = DVG_infamy
 	badboy = -3
 	prestige = 10
@@ -819,6 +795,7 @@ country_event = { #Russian Bear
 	NOT = { tag = RUS }
 	is_greater_power = yes
 	continent = europe
+	year = 1846
 	}
 
 	mean_time_to_happen = {
@@ -847,6 +824,7 @@ country_event = { #Iberian Union
 	NOT = { tag = SPA }
 	is_greater_power = yes
 	continent = europe
+	year = 1846
 	}
 
 	mean_time_to_happen = {
@@ -875,6 +853,7 @@ country_event = { #Scandi dominance over northern Germany
 	NOT = { tag = SCA }
 	is_greater_power = yes
 	continent = europe
+	year = 1846
 	}
 
 	mean_time_to_happen = {
@@ -903,6 +882,7 @@ country_event = { #Valois in Italy
 	NOT = { tag = ITA }
 	is_greater_power = yes
 	continent = europe
+	year = 1846
 	}
 
 	mean_time_to_happen = {
@@ -931,6 +911,7 @@ country_event = { #Valois in France
 	NOT = { tag = FRA }
 	is_greater_power = yes
 	continent = europe
+	year = 1846
 	}
 
 	mean_time_to_happen = {
@@ -959,6 +940,7 @@ country_event = { #Etrurian Italy
 	NOT = { tag = ITA }
 	is_greater_power = yes
 	continent = europe
+	year = 1846
 	}
 
 	mean_time_to_happen = {
@@ -987,6 +969,7 @@ country_event = { #Anglois acceptance
 	NOT = { tag = DUA }
 	is_greater_power = yes
 	continent = europe
+	year = 1846
 	}
 
 	mean_time_to_happen = {
@@ -1016,6 +999,7 @@ country_event = { #Success Glorious Revolution
 	NOT = { tag = DUA tag = ENL }
 	is_greater_power = yes
 	continent = europe
+	year = 1846
 	}
 
 	mean_time_to_happen = {
@@ -1044,6 +1028,7 @@ country_event = { #Success Total Revolution
 	NOT = { tag = FRA tag = ENL }
 	is_greater_power = yes
 	continent = europe
+	year = 1846
 	}
 
 	mean_time_to_happen = {
@@ -1072,6 +1057,7 @@ country_event = { #Congress because of Arpitania formed
 	NOT = { tag = ARP }
 	is_greater_power = yes
 	continent = europe
+	year = 1846
 	}
 
 	mean_time_to_happen = {
@@ -1100,6 +1086,7 @@ country_event = { #Congress because of France formed
 	NOT = { tag = HLR }
 	is_greater_power = yes
 	continent = europe
+	year = 1846
 	}
 
 	mean_time_to_happen = {
@@ -1128,6 +1115,7 @@ country_event = { #Congress because of Confederation of the Rhine formed
 	NOT = { tag = HLR }
 	is_greater_power = yes
 	continent = europe
+	year = 1846
 	}
 
 	mean_time_to_happen = {
@@ -1156,6 +1144,7 @@ country_event = { #Congress because of Hispania formed
 	NOT = { tag = HLR }
 	is_greater_power = yes
 	continent = europe
+	year = 1846
 	}
 
 	mean_time_to_happen = {
