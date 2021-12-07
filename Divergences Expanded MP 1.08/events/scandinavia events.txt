@@ -1,0 +1,43 @@
+country_event = { #Vinland Claims Scandinavia
+
+  id = SCAVIN001
+  title = "SCAVIN001.T"
+  desc = "SCAVIN001.D"
+  is_triggered_only = yes
+
+  option = {
+    name = "SCAVIN001.A"
+    badboy = -5
+    ai_chance = {
+			factor = 0
+		}
+  }
+  option = {
+    name = "SCAVIN001.B"
+    set_country_flag = scandi_claimed_vinland
+    add_accepted_culture = vinlander
+    ai_chance = {
+			factor = 100
+		}
+  }
+  option = {
+    name = "SCAVIN001.C"
+    badboy = 10
+    set_country_flag = scandi_claimed_vinland
+    add_accepted_culture = vinlander
+    casus_belli = {
+      target = VIN
+      type = conquest
+      months = 24
+    }
+    war = {
+      target = VIN
+      attacker_goal = {
+        casus_belli = conquest
+      }
+    }
+    ai_chance = {
+			factor = 0
+		}
+  }
+}

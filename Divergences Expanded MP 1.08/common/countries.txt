@@ -13,6 +13,8 @@ WSF   = "countries/Zapadoslavia.txt"
 DNB		= "countries/Danubian Federation.txt"
 BYZ		= "countries/Byzantium.txt"
 TRP   = "countries/Triple Monarchy.txt"
+NSE   = "countries/North Sea Empire.txt"
+BLT   = "countries/Baltic Empire.txt"
 
 ##DoD
 HLR		= "countries/Holy Roman Empire.txt"

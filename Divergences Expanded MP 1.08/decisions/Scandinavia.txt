@@ -3,7 +3,6 @@ political_decisions = {
   dominium_maris_baltici = {
 		potential = {
 			tag = SCA
-      NOT = { has_country_flag = north_sea_empire }
 			NOT = { has_country_flag = baltic_claimed }
 		}
 		allow = {
@@ -42,7 +41,6 @@ political_decisions = {
 		}
 		effect = {
 			set_country_flag = lol_gg
-      add_accepted_culture = lithuanian
       LIT_698 = { add_core = THIS }
       RUS_360 = { add_core = THIS }
       947 = { add_core = THIS }
@@ -53,8 +51,6 @@ political_decisions = {
 	reclaimPOM = {
 		potential = {
 			tag = SCA
-      NOT = { has_country_flag = north_sea_empire }
-      NOT = { has_country_flag = sca_arctic_route }
 			NOT = {
 				544 = { is_core  = THIS }
 				has_country_flag = lol_rekt
@@ -83,7 +79,6 @@ political_decisions = {
 			NOT = { has_country_flag = north_integration }
 		}
 		allow = {
-			citizens_rights = all_voting_pops
 			state_n_government = 1
 		}
 		effect = {
@@ -94,39 +89,164 @@ political_decisions = {
 				limit = {
 					culture = scandinavian
 				}
-				militancy = 3
-				consciousness = 3
-				ideology = {
-					factor = 0.2
-					value = reactionary
-				}
+				militancy = 2
+				consciousness = 2
 			}
 			any_pop = {
 				limit = {
 					culture = pomeranian
 				}
-				consciousness = -1
+				consciousness = -3
 				militancy = -3
-				ideology = {
-					factor = 0.1
-					value = liberal
-				}
 			}
 		}
 	}
 
+  sca_baltic_empire = {
+    potential = {
+      tag = SCA
+    }
+    allow = {
+      nationalism_n_imperialism = 1
+      owns = 372
+      owns = 322
+      owns = 343
+      owns = 349
+      owns = 354
+      owns = 698
+      owns = 695
+      owns = 690
+      owns = 546
+      owns = 544
+      owns = 369
+      994 = {
+        OR = {
+          owned_by = THIS
+          owner = {
+            vassal_of = THIS
+          }
+        }
+      }
+    }
+    effect = {
+      add_accepted_culture = pomeranian
+      add_accepted_culture = latvian
+      add_accepted_culture = lithuanian
+      prestige = 25
+      SCA = { all_core = { add_core = BLT } }
+      SCA_544 = { add_core = BLT } #Mecklenburg
+      PRU_546 = { add_core = BLT } #Hinterpommern
+      PRU_690 = { add_core = BLT } #Westprussen
+      PRU_546 = { add_core = BLT } #Ostprussen
+      LIT_698 = { add_core = BLT } #Memel
+      RUS_360 = { add_core = BLT } #Lietuva
+      RUS_354 = { add_core = BLT } #Latvia
+      RUS_349 = { add_core = BLT } #Estonia
+      RUS_994 = { add_core = BLT } #Ingria
+      SCO = { all_core = { remove_core = THIS } }
+      change_tag = BLT
+      capital = 322
+      set_country_flag = sca_baltic_empire
+    }
+  }
+
+  white_sea_dominace_sca = {
+    potential = {
+      tag = BLT
+      has_country_flag = sca_baltic_empire
+      NOT = { has_country_flag = sca_arctic_route }
+      NOT = { has_country_flag = nordtyskland }
+    }
+    allow = {
+      revolution_n_counterrevolution = 1
+      994 = {
+				OR = {
+					owned_by = THIS
+					owner = {
+						in_sphere = THIS
+					}
+					owner = {
+						vassal_of = THIS
+					}
+				}
+			}
+      1003 = {
+				OR = {
+					owned_by = THIS
+					owner = {
+						in_sphere = THIS
+					}
+					owner = {
+						vassal_of = THIS
+					}
+				}
+			}
+      995 = {
+				OR = {
+					owned_by = THIS
+					owner = {
+						in_sphere = THIS
+					}
+					owner = {
+						vassal_of = THIS
+					}
+				}
+			}
+      981 = {
+				OR = {
+					owned_by = THIS
+					owner = {
+						in_sphere = THIS
+					}
+					owner = {
+						vassal_of = THIS
+					}
+				}
+			}
+      985 = {
+				OR = {
+					owned_by = THIS
+					owner = {
+						in_sphere = THIS
+					}
+					owner = {
+						vassal_of = THIS
+					}
+				}
+			}
+    }
+    effect = {
+      set_country_flag = sca_arctic_route
+      add_accepted_culture = novgorodian
+      add_accepted_culture = ugrian
+      RUS_1003 = { add_core = THIS } #Novgorod
+      RUS_339 = { add_core = THIS } #Karelia
+      RUS_981 = { add_core = THIS } #Arkhangelsk
+      RUS_2589 = { add_core = THIS } #Nayran-Maya
+      RUS_990 = { add_core = THIS } #Galich
+      any_country = {
+				limit = {
+          OR = {
+					     primary_culture = novgorodian
+               primary_culture = ugrian
+          }
+					in_sphere = THIS
+				}
+				country_event = 11101
+			}
+    }
+  }
+
 	nordtyskland = {
 		potential = {
-			tag = SCA
-			is_greater_power = yes
-			has_country_flag = north_integration
-			NOT = { has_country_flag = nordtyskland }
-      NOT = { has_country_flag = north_sea_empire }
+			tag = BLT
+      has_country_flag = sca_baltic_empire
       NOT = { has_country_flag = sca_arctic_route }
+      NOT = { has_country_flag = nordtyskland }
 		}
 
 		allow = {
-      nationalism_n_imperialism = 1
+      revolution_n_counterrevolution = 1
       369 = {
 				OR = {
 					owned_by = THIS
@@ -242,13 +362,12 @@ political_decisions = {
       SAX_558 = { add_core = THIS }	#Saxony
       add_accepted_culture = north_german
       add_accepted_culture = pomeranian
-      SCO = { all_core = { remove_core = THIS } }
 			any_country = {
 				limit = {
 					primary_culture = north_german
 					in_sphere = THIS
 				}
-				country_event = 11101
+				annex_to = THIS 
 			}
       set_country_flag = nordtyskland
 		}
@@ -257,39 +376,41 @@ political_decisions = {
   north_sea_empire = {
 		potential = {
 			tag = SCA
-			NOT = { has_country_flag = north_sea_empire }
-      NOT = { has_country_flag = sca_arctic_route }
 		}
 
 		allow = {
       war = no
       nationalism_n_imperialism = 1
-			281 = { owned_by = THIS }
-      284 = { owned_by = THIS }
-			290 = { owned_by = THIS }
-			300 = { owned_by = THIS }
-			278 = { owned_by = THIS }
+			367 = { owned_by = THIS }
+      310 = { owned_by = THIS }
+			313 = { owned_by = THIS }
+			305 = { owned_by = THIS }
+			267 = { owned_by = THIS }
 			269 = { owned_by = THIS }
-      267 = { owned_by = THIS }
+      281 = { owned_by = THIS }
+      290 = { owned_by = THIS }
+      300 = { owned_by = THIS }
+      289 = { owned_by = THIS }
+      277 = { owned_by = THIS }
 		}
 
 		effect = {
-			set_country_flag = north_sea_empire
-			prestige = 50
+			set_country_flag = sca_north_sea_empire
+			prestige = 25
       primary_culture = icelandic
 			add_accepted_culture = scandinavian
       add_accepted_culture = english
-			ENL = { all_core = { add_core = THIS } }
-      EST = { all_core = { remove_core = THIS } }
-      LAT = { all_core = { remove_core = THIS } }
-      LIT = { all_core = { remove_core = THIS } }
+			ENL = { all_core = { add_core = NSE } }
+      EST = { all_core = { remove_core = NSE } }
+      LAT = { all_core = { remove_core = NSE } }
+      LIT = { all_core = { remove_core = NSE } }
+      change_tag = NSE
 		}
 	}
 
   integrate_irish_sca = {
     potential = {
-      tag = SCA
-      has_country_flag = north_sea_empire
+      tag = NSE
       NOT = { accepted_culture = irish }
     }
     allow = {
@@ -302,187 +423,25 @@ political_decisions = {
     }
   }
 
-  white_sea_dominace_sca = {
-    potential = {
-      tag = SCA
-      NOT = { has_country_flag = north_sea_empire }
-      NOT = { has_country_flag = sca_arctic_route }
-    }
-    allow = {
-      nationalism_n_imperialism = 1
-      994 = {
-				OR = {
-					owned_by = THIS
-					owner = {
-						in_sphere = THIS
-					}
-					owner = {
-						vassal_of = THIS
-					}
-				}
-			}
-      1003 = {
-				OR = {
-					owned_by = THIS
-					owner = {
-						in_sphere = THIS
-					}
-					owner = {
-						vassal_of = THIS
-					}
-				}
-			}
-      995 = {
-				OR = {
-					owned_by = THIS
-					owner = {
-						in_sphere = THIS
-					}
-					owner = {
-						vassal_of = THIS
-					}
-				}
-			}
-      981 = {
-				OR = {
-					owned_by = THIS
-					owner = {
-						in_sphere = THIS
-					}
-					owner = {
-						vassal_of = THIS
-					}
-				}
-			}
-      985 = {
-				OR = {
-					owned_by = THIS
-					owner = {
-						in_sphere = THIS
-					}
-					owner = {
-						vassal_of = THIS
-					}
-				}
-			}
-    }
-    effect = {
-      prestige = 15
-      set_country_flag = sca_arctic_route
-      add_accepted_culture = novgorodian
-      add_accepted_culture = ugrian
-      RUS_994 = { add_core = THIS }
-      RUS_1003 = { add_core = THIS }
-      RUS_339 = { add_core = THIS }
-      RUS_981 = { add_core = THIS }
-      RUS_2589 = { add_core = THIS }
-      RUS_990 = { add_core = THIS }
-      2700 = { add_core = THIS }
-      2689 = { add_core = THIS }
-      2685 = { add_core = THIS }
-      RUS_1065 = { add_core = THIS }
-      any_country = {
-				limit = {
-          OR = {
-					     primary_culture = novgorodian
-               primary_culture = ugrian
-          }
-					in_sphere = THIS
-				}
-				country_event = 11101
-			}
-    }
-  }
-
   sca_claim_vinland = {
     potential = {
-      tag = SCA
-      has_country_flag = sca_arctic_route
-      NOT = { accepted_culture = vinlander }
+      has_country_flag = scandi_claimed_vinland
+      NOT = { has_country_flag = secure_vinland }
     }
     allow = {
       revolution_n_counterrevolution = 1
       251 = { owned_by = THIS }
+      74 = { owned_by = THIS }
+      2625 = { owned_by = THIS }
     }
     effect = {
-      add_accepted_culture = vinlander
-      add_accepted_culture = ayitian
-      add_accepted_culture = inuit
+      badboy = 15
       VIN = { all_core = { add_core = THIS } }
+      set_country_flag = secure_vinland
     }
-  }
-
-  sca_claim_siberia = {
-    potential = {
-      tag = SCA
-      has_country_flag = sca_arctic_route
-      NOT = { has_country_flag = sca_siberia }
-    }
-    allow = {
-      revolution_n_counterrevolution = 1
-      2613 = { owned_by = THIS }
-      2685 = { owned_by = THIS }
-      2687 = { owned_by = THIS }
-    }
-    effect = {
-      set_country_flag = sca_siberia
-      add_accepted_culture = inuit
-      add_accepted_culture = siberian
-      YKT = { all_core = { add_core = SCA } }
-      RUS_1182 = {
-        add_core = SCA
-      }
-      RUS_1184 = {
-        add_core = SCA
-      }
-      RUS_2685 = {
-        add_core = SCA
-      }
-      RUS_1065 = {
-        add_core = SCA
-      }
-      RUS_1064 = {
-        add_core = SCA
-      }
-      RUS_1469 = {
-        add_core = SCA
-      }
-      RUS_1070 = {
-        add_core = SCA
-      }
-      RUS_2615 = {
-        add_core = SCA
-      }
-      RUS_1075 = {
-        add_core = SCA
-      }
-      RUS_2694 = {
-        add_core = SCA
-      }
-      RUS_2653 = {
-        add_core = SCA
-      }
-      RUS_2621 = {
-        add_core = SCA
-      }
-      RUS_1069 = {
-        add_core = SCA
-      }
-      RUS_1079 = {
-        add_core = SCA
-      }
-      RUS_1072 = {
-        add_core = SCA
-      }
-      RUS_2618 = {
-        add_core = SCA
-      }
-      RUS_1074 = {
-        add_core = SCA
-      }
-      RUS_2590 = {
-        add_core = SCA
-      }
-    }
+    ai_will_do = {
+    	factor = 1
+      modifier = { factor = 0 badboy = 0.4 }
+  	}
   }
 }

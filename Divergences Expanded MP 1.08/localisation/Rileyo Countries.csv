@@ -35,3 +35,21 @@ WSF_hms_government;Zapadoslavia;;;;;;;;;;;;x
 WSF_proletarian_dictatorship;West Slavic People's Republic ;;;;;;;;;;;;x
 WSF_fascist_dictatorship;Wendish Empire;;;;;;;;;;;;x
 WSF_democracy;Zapadoslavia;;;;;;;;;;;;x
+NSE;North Sea Empire;;;;;;;;;;;;x
+NSE_ADJ;North Sea;;;;;;;;;;;;x
+NSE_absolute_monarchy;North Sea Empire;;;;;;;;;;;;;x
+NSE_prussian_constitutionalism;North Sea Empire;;;;;;;;;;;;;x
+NSE_hms_government;North Sea Empire;;;;;;;;;;;;;x
+NSE_proletarian_dictatorship;North Sea Union;;;;;;;;;;;;;x
+NSE_fascist_dictatorship;Empire of the North;;;;;;;;;;;;;x
+NSE_democracy;North Sea Federation;;;;;;;;;;;;;x
+NSE_presidential_dictatorship;North Sea Empire;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+BLT;Baltic Empire;;;;;;;;;;;;x
+BLT_ADJ;Baltic;;;;;;;;;;;;x
+BLT_absolute_monarchy;Baltic Empire;;;;;;;;;;;;;x
+BLT_prussian_constitutionalism;Baltic Empire;;;;;;;;;;;;;x
+BLT_hms_government;Baltic Empire;;;;;;;;;;;;;x
+BLT_proletarian_dictatorship;Baltic Socialist Union;;;;;;;;;;;;;x
+BLT_fascist_dictatorship;Baltic Imperium;;;;;;;;;;;;;x
+BLT_democracy;Baltic Federation;;;;;;;;;;;;;x
+BLT_presidential_dictatorship;Greater Hanseatic League;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

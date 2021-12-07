@@ -80,7 +80,7 @@ political_decisions = {
       is_greater_power = yes
       DNG = {
 				is_greater_power = no
-				NOT = { total_pops = 6500000 }
+				NOT = { total_pops = 7500000 }
 			}
 		}
 
