@@ -8,54 +8,40 @@ country_event = {
 
     #Each focus adds some cores. Perhaps the AI weights should depend on the relative strength of Scandinavia, the Commonwealth, Bohemia, Ottomans, etc. Mostly by region.
 
-    #Baltic focus - cores on Livonia and Finland
-    option = {
-        name = "202201.A"
-        set_country_flag = baltic_focus
-        add_accepted_culture = ugrian
-        #Estonia, Latvia
-        RUS_354 = { add_core = RUS }
-        RUS_349 = { add_core = RUS }
-        #Lithuania/Prussia
-        LIT_698 = { add_core = RUS }
-        RUS_360 = { add_core = RUS }
-        PRU_695 = { add_core = RUS }
-        #Finland
-        FIN = { all_core = { add_core = THIS } }
-        ai_chance = {
-            factor = 33
-        }
-    }
     #Steppe/Caucasus focus
     option = {
         name = "202201.B"
-        set_country_flag = southern_focus
-        RUS_964 = { add_core = RUS } #Crimea
-        RUS_965 = { add_core = RUS } #Cherson
-        RUS_1048 = { add_core = RUS } #Astrakhan
-        RUS_1041 = { add_core = RUS } #Ekaterinodar
+        set_country_flag = black_sea_focus
+        RUS_965 = { add_core = RUS } #Odessa
         GEO_1 = { add_core = RUS } #Phasis
-        RUS_1090 = { add_core = RUS } #Georgia proper
-        CRI_965 = { add_core = RUS } #Cherson
+        RUS_1090 = { add_core = RUS } #Georgia
+        RUS_1098 = { add_core = RUS } #Armenia
+        AZB_1104 = { add_core = RUS } #Sheki
+        RUS_1102 = { add_core = RUS } #Azerbaijan
+        RUS_1182 = { add_core = RUS } #Uralsk
+        RUS_1184 = { add_core = RUS } #Astana
+        RUS_1185 = { add_core = RUS } #Zhetysu
+        add_accepted_culture = uralic
         ai_chance = {
-             factor = 33
+             factor = 50
         }
     }
 
-    #Pan-slavic focus
+    #Pan-slavic/Baltic Focus
     option = {
         name = "202201.C"
-        set_country_flag = panslavic_focus
+        set_country_flag = baltic_sea_focus
         RUS_947 = { add_core = RUS } #Orsha
         RUS_977 = { add_core = RUS } #Kursk
         RUS_958 = { add_core = RUS } #Kiev
-        RUS_955 = { add_core = RUS } #Rovne
         RUS_718 = { add_core = RUS } #Minsk
-        PLC_940 = { add_core = RUS } #Pinsk
-        AUS_662 = { add_core = RUS } #East Galicia
-        MOL_662 = { add_core = RUS } #Bukovina
+        RUS_354 = { add_core = RUS } #Latvia
+        RUS_349 = { add_core = RUS } #Estonia
+        RUS_340 = { add_core = RUS } #Eastern Finland
+        SCA_345 = { add_core = RUS } #Western Finland
+        RUS_336 = { add_core = RUS } #Northern Finland
         ai_chance = {
-             factor = 33
+             factor = 50
         }
     }
 

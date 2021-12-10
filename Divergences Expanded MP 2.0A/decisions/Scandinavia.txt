@@ -367,7 +367,7 @@ political_decisions = {
 					primary_culture = north_german
 					in_sphere = THIS
 				}
-				annex_to = THIS 
+				annex_to = THIS
 			}
       set_country_flag = nordtyskland
 		}
@@ -399,8 +399,16 @@ political_decisions = {
 			prestige = 25
       primary_culture = icelandic
 			add_accepted_culture = scandinavian
-      add_accepted_culture = english
-			ENL = { all_core = { add_core = NSE } }
+      add_accepted_culture = scottish
+			add_accepted_culture = english
+			SCA = { all_core = { add_core = NSE } }
+			ENG_280 = { add_core = NSE } #North-East England
+			ENG_277 = { add_core = NSE } #North-West England
+			ENG_291 = { add_core = NSE } #Eastern Counties
+			ENG_300 = { add_core = NSE } #Ile de Londres
+			ENG_301 = { add_core = NSE } #South-East England
+			change_tag = NSE
+			capital = 281
       EST = { all_core = { remove_core = NSE } }
       LAT = { all_core = { remove_core = NSE } }
       LIT = { all_core = { remove_core = NSE } }

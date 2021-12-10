@@ -80,14 +80,15 @@ political_decisions = {
 			set_country_flag = returned_home
 			add_accepted_culture = scandinavian
 			add_accepted_culture = icelandic
-			DEN_251 = { add_core = THIS }
-			SCA_252 = { add_core = THIS }
-			SWE_309 = { add_core = THIS }
-			SWE_313 = { add_core = THIS }
-			SWE_308 = { add_core = THIS }
-			DEN_372 = { add_core = THIS }
-			DEN_367 = { add_core = THIS }
-			SCH_370 = { add_core = THIS }
+			DEN_251 = { add_core = THIS } #Greenland
+			SCA_252 = { add_core = THIS } #Iceland
+			SWE_309 = { add_core = THIS } #Vestlandet
+			SWE_313 = { add_core = THIS } #Ostlandet
+			SWE_308 = { add_core = THIS } #Nordnorge
+			DEN_372 = { add_core = THIS } #Sjaelland
+			DEN_367 = { add_core = THIS } #Jylland
+			HOL_369 = { add_core = THIS } #Holstein
+			DEN_334 = { add_core = THIS } #Skane
 			any_country = {
 				limit = {
 					tag = SCA
@@ -117,12 +118,18 @@ political_decisions = {
 			owns = 290
 		}
 		effect = {
+			primary_culture = icelandic
+			add_accepted_culture = vinlander
 			add_accepted_culture = scottish
 			add_accepted_culture = english
-			SCA = { all_core = { add_core = NSE } }
 			VIN = { all_core = { add_core = NSE } }
-			SCO = { all_core = { add_core = NSE } }
-			ENL = { all_core = { add_core = NSE } }
+			ENG_266 = { add_core = NSE } #Highlands
+			ENG_271 = { add_core = NSE } #Lowlands
+			ENG_280 = { add_core = NSE } #North-East England
+			ENG_277 = { add_core = NSE } #North-West England
+			ENG_291 = { add_core = NSE } #Eastern Counties
+			ENG_300 = { add_core = NSE } #Ile de Londres
+			ENG_301 = { add_core = NSE } #South-East England
 			change_tag = NSE
 			prestige = 50
 			capital = 281
