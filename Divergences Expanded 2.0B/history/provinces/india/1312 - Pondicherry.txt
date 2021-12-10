@@ -5,4 +5,5 @@ add_core = MDR
 add_core = DRA
 trade_goods = precious_goods
 life_rating = 40
+naval_base = 1
 colonial = 1

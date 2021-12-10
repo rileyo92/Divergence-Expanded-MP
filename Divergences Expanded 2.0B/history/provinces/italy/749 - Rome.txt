@@ -3,4 +3,5 @@ controller = PAP
 add_core = PAP
 add_core = ITA
 trade_goods = grain
+naval_base = 1
 life_rating = 45

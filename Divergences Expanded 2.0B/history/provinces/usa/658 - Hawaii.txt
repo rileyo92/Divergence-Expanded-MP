@@ -2,5 +2,6 @@ owner = HAW
 controller = HAW
 add_core = HAW
 trade_goods = fish
+naval_base = 1
 life_rating = 35
 terrain = new_world_mountain

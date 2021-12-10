@@ -3,4 +3,5 @@ controller = JOH
 add_core = JOH
 add_core = NUS
 trade_goods = precious_goods
+naval_base = 1
 life_rating = 40

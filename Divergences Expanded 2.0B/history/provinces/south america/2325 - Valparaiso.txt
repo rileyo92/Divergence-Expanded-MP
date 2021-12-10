@@ -3,4 +3,5 @@ controller = INC
 add_core = INC
 trade_goods = fruit
 terrain = farmlands
+naval_base = 1
 life_rating = 40

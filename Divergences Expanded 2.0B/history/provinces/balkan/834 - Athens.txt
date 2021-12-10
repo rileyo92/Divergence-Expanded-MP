@@ -2,4 +2,5 @@ owner = GRE
 controller = GRE
 add_core = GRE
 trade_goods = fruit
+naval_base = 2
 life_rating = 40

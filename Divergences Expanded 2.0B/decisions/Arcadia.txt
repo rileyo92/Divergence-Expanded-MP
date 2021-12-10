@@ -268,21 +268,43 @@ political_decisions = {
 			tag = NBG
 		}
 		allow = {
-			NOT = { NET = { exists = yes } }
+			NOT = { BEL = { exists = yes } }
 			NOT = { war = yes }
-			NET = {
-				all_core = {
-					owned_by = THIS
-				}
-			}
+			owns = 388
+			owns = 387
+			owns = 392
 		}
 		effect = {
 			prestige = 20
-			change_tag = NET
-			primary_culture = dutch
+			change_tag = BEL
+			primary_culture = flemish
 			add_accepted_culture = septiman
-			capital = 375
+			add_accepted_culture = burgundian
+			capital = 387
 			set_country_flag = septiman_netherlands
+			BEL_387 = { add_core = BEL } #Flanders
+			BUR_390 = { add_core = BEL } #Brabant
+			BEL_394 = { add_core = BEL } #Wallonie
+			BEL_395 = { add_core = BEL } #Luxembourg
+		}
+	}
+
+	belgium_integrate_dutch = {
+		potential = {
+			tag = BEL
+			NOT = { has_country_flag = integrate_dutch_bel }
+		}
+		allow = {
+			revolution_n_counterrevolution = 1
+			owns = 380
+			owns = 375
+		}
+		effect = {
+			NET_381 = { add_core = BEL } #Gelderland
+			NET_385 = { add_core = BEL } #Friesland
+			NET_375 = { add_core = BEL } #Holland
+			add_accepted_culture = dutch
+			set_country_flag = integrate_dutch_bel
 		}
 	}
 

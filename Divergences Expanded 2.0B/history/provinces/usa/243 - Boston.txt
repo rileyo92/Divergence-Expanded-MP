@@ -3,6 +3,7 @@ controller = NBG
 add_core = NBG
 trade_goods = grain
 life_rating = 40
+naval_base = 1
 state_building = {
 	level = 2
 	building = fabric_factory

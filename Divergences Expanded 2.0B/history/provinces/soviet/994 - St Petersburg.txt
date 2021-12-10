@@ -5,5 +5,5 @@ add_core = NOV
 add_core = PSV
 trade_goods = grain
 life_rating = 40
-naval_base = 1
+naval_base = 2
 fort = 1

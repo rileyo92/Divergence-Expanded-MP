@@ -4,4 +4,4 @@ add_core = DUA
 add_core = IRE
 trade_goods = fish
 life_rating = 30
-naval_base = 2
+naval_base = 1

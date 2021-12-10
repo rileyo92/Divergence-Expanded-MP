@@ -3,4 +3,5 @@ controller = ARA
 add_core = ARA
 add_core = CAT
 trade_goods = cattle
+naval_base = 1
 life_rating = 35

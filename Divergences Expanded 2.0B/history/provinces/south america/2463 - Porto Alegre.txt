@@ -2,4 +2,5 @@ owner = LOT
 controller = LOT
 add_core = LOT
 trade_goods = cattle
+naval_base = 1
 life_rating = 40
