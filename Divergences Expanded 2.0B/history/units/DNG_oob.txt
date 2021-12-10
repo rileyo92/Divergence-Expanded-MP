@@ -1,14 +1,3 @@
-##Starting NFs
-#	national_focus=
-#	{
-#"81"="colonize"
-#"90"="colonize"
-#	}
-#	colonize=
-#	{
-#		81=200
-#		90=200
-#	}
 
 leader = {
 	name = "Wang Yangming"
@@ -38,11 +27,29 @@ army = {
 		type = infantry
 		home = 20
 	}
-	
+
 	regiment = {
 		name= "4th infantry"
 		type = infantry
 		home = 82
+	}
+
+	regiment = {
+		name= "5th infantry"
+		type = infantry
+		home = 85
+	}
+
+	regiment = {
+		name= "1st cavalry"
+		type = cavalry
+		home = 94
+	}
+
+	regiment = {
+		name= "1st artillery"
+		type = artillery
+		home = 78
 	}
 }
 

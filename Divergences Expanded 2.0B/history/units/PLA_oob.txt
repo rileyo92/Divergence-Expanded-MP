@@ -91,6 +91,18 @@ army = {
 		type = infantry
 		home = 2556
 	}
+
+	regiment = {
+		name= "1er Régiment Artilerie"
+		type = artillery
+		home = 205
+	}
+
+	regiment = {
+		name= "2ème Régiment Artilerie"
+		type = artillery
+		home = 205
+	}
 }
 
 navy = {
