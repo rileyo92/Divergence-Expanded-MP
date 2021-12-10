@@ -21,7 +21,6 @@ country_event = {
         RUS_1182 = { add_core = RUS } #Uralsk
         RUS_1184 = { add_core = RUS } #Astana
         RUS_1185 = { add_core = RUS } #Zhetysu
-        add_accepted_culture = uralic
         ai_chance = {
              factor = 50
         }

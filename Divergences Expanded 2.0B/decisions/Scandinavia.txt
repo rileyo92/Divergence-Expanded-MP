@@ -105,6 +105,7 @@ political_decisions = {
   sca_baltic_empire = {
     potential = {
       tag = SCA
+      NOT = { BLT = { exists = yes } }
     }
     allow = {
       nationalism_n_imperialism = 1
@@ -376,6 +377,7 @@ political_decisions = {
   north_sea_empire = {
 		potential = {
 			tag = SCA
+      NOT = { NSE = { exists = yes } }
 		}
 
 		allow = {

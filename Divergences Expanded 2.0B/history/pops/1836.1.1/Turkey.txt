@@ -1,4 +1,4 @@
-#Thrace Region (364000) #see Greece.txt for balance of region 
+#Thrace Region (364000) #see Greece.txt for balance of region
 #under the rule of Ottoman Empire in 1836
 #Edirne (172000/43000 POPS)
 828 = {
@@ -99,7 +99,7 @@
 		religion = jewish
 		size = 2450
 	}
-	
+
 	soldiers = {
 		culture = greek
 		religion = orthodox
@@ -192,7 +192,7 @@
 		religion = jewish
 		size = 445
 	}
-	
+
 	soldiers = {
 		culture = greek
 		religion = orthodox
@@ -261,13 +261,13 @@
 		religion = jewish
 		size = 445
 	}
-	
+
 	soldiers = {
 		culture = greek
 		religion = orthodox
 		size = 300
 	}
-	
+
 	clergymen = {
 		culture = greek
 		religion = orthodox
@@ -313,13 +313,13 @@
 		religion = sunni
 		size = 10000
 	}
-	
+
 	artisans = {
 		culture = turkish
 		religion = sunni
 		size = 10000
 	}
-	
+
 	artisans = {
 		culture = turkish
 		religion = sunni
@@ -361,13 +361,13 @@
 		religion = orthodox
 		size = 10000
 	}
-	
+
 	artisans = {
 		culture = greek
 		religion = orthodox
 		size = 10000
 	}
-	
+
 	artisans = {
 		culture = greek
 		religion = orthodox
@@ -415,13 +415,13 @@
 		religion = coptic
 		size = 10000
 	}
-	
+
 	artisans = {
 		culture = armenian
 		religion = coptic
 		size = 10000
 	}
-	
+
 	artisans = {
 		culture = armenian
 		religion = coptic
@@ -463,13 +463,13 @@
 		religion = catholic
 		size = 3675
 	}
-	
+
 	aristocrats = {
 		culture = greek
 		religion = orthodox
 		size = 120
 	}
-	
+
 	officers = {
 		culture = greek
 		religion = orthodox
@@ -568,7 +568,7 @@
 		religion = coptic
 		size = 3450
 	}
-	
+
 	soldiers = {
 		culture = greek
 		religion = orthodox
@@ -643,7 +643,7 @@
 		religion = coptic
 		size = 13375
 	}
-	
+
 	soldiers = {
 		culture = greek
 		religion = orthodox
@@ -756,19 +756,19 @@
 		religion = jewish
 		size = 1350
 	}
-	
+
 	aristocrats = {
 		culture = greek
 		religion = orthodox
 		size = 120
 	}
-	
+
 	officers = {
 		culture = greek
 		religion = orthodox
 		size = 120
 	}
-	
+
 	soldiers = {
 		culture = greek
 		religion = orthodox
@@ -825,7 +825,7 @@
 		religion = orthodox
 		size = 12475
 	}
-	
+
 	soldiers = {
 		culture = greek
 		religion = orthodox
@@ -882,7 +882,7 @@
 		religion = orthodox
 		size = 11800
 	}
-	
+
 	soldiers = {
 		culture = greek
 		religion = orthodox
@@ -959,7 +959,7 @@
 		religion = coptic
 		size = 2100
 	}
-	
+
 	soldiers = {
 		culture = greek
 		religion = orthodox
@@ -1025,7 +1025,7 @@
 		religion = orthodox
 		size = 5930
 	}
-	
+
 	soldiers = {
 		culture = greek
 		religion = orthodox
@@ -1131,7 +1131,7 @@
 		religion = coptic
 		size = 2010
 	}
-	
+
 	soldiers = {
 		culture = greek
 		religion = orthodox
@@ -1181,7 +1181,7 @@
 		militancy = 10
         rebel_type = reactionary_rebels
 	}
-	
+
 	artisans = {
 		culture = turkish
 		religion = sunni
@@ -1209,13 +1209,13 @@
 		religion = orthodox
 		size = 10000
 	}
-	
+
 	artisans = {
 		culture = greek
 		religion = orthodox
 		size = 10000
 	}
-	
+
 	artisans = {
 		culture = greek
 		religion = orthodox
@@ -1263,13 +1263,13 @@
 		religion = orthodox
 		size = 120
 	}
-	
+
 	officers = {
 		culture = greek
 		religion = orthodox
 		size = 120
 	}
-	
+
 	soldiers = {
 		culture = greek
 		religion = orthodox
@@ -1320,7 +1320,7 @@
 		religion = orthodox
 		size = 4450
 	}
-	
+
 	soldiers = {
 		culture = greek
 		religion = orthodox
@@ -1370,7 +1370,7 @@
 		religion = orthodox
 		size = 5725
 	}
-	
+
 	soldiers = {
 		culture = greek
 		religion = orthodox
@@ -1427,7 +1427,7 @@
 		religion = orthodox
 		size = 3875
 	}
-	
+
 	soldiers = {
 		culture = greek
 		religion = orthodox
@@ -1528,19 +1528,19 @@
 		religion = orthodox
 		size = 120
 	}
-	
+
 	officers = {
 		culture = greek
 		religion = orthodox
 		size = 120
 	}
-	
+
 	soldiers = {
 		culture = greek
 		religion = orthodox
 		size = 200
 	}
-	
+
 	slaves = {
 		culture = forest_bantu #african_minor
 		religion = animist
@@ -1609,7 +1609,7 @@
 		religion = coptic
 		size = 1530
 	}
-	
+
 	soldiers = {
 		culture = greek
 		religion = orthodox
@@ -1675,7 +1675,7 @@
 		religion = orthodox
 		size = 6800
 	}
-	
+
 	soldiers = {
 		culture = greek
 		religion = orthodox
@@ -1783,19 +1783,19 @@
 		religion = coptic
 		size = 6700
 	}
-	
+
 	aristocrats = {
 		culture = greek
 		religion = orthodox
 		size = 120
 	}
-	
+
 	officers = {
 		culture = greek
 		religion = orthodox
 		size = 120
 	}
-	
+
 	soldiers = {
 		culture = greek
 		religion = orthodox
@@ -1836,19 +1836,19 @@
 	}
 
 	clergymen = {
-		culture = greek
+		culture = pontic_greek
 		religion = orthodox
 		size = 125
 	}
 
 	artisans = {
-		culture = greek
+		culture = pontic_greek
 		religion = orthodox
 		size = 150
 	}
 
 	farmers = {
-		culture = greek
+		culture = pontic_greek
 		religion = orthodox
 		size = 1925
 	}
@@ -1870,9 +1870,9 @@
 		religion = coptic
 		size = 3875
 	}
-	
+
 	soldiers = {
-		culture = greek
+		culture = pontic_greek
 		religion = orthodox
 		size = 200
 	}
@@ -1945,7 +1945,7 @@
 		religion = coptic
 		size = 20575
 	}
-	
+
 	soldiers = {
 		culture = greek
 		religion = orthodox
@@ -2001,19 +2001,19 @@
 	}
 
 	clergymen = {
-		culture = greek
+		culture = pontic_greek
 		religion = orthodox
 		size = 55
 	}
 
 	artisans = {
-		culture = greek
+		culture = pontic_greek
 		religion = orthodox
 		size = 300
 	}
 
 	farmers = {
-		culture = greek
+		culture = pontic_greek
 		religion = orthodox
 		size = 1975
 	}
@@ -2037,7 +2037,7 @@
 	}
 
 	soldiers = {
-		culture = greek
+		culture = pontic_greek
 		religion = orthodox
 		size = 120
 	}
@@ -2103,37 +2103,37 @@
 	}
 
 	clergymen = {
-		culture = greek
+		culture = pontic_greek
 		religion = orthodox
 		size = 225
 	}
 
 	artisans = {
-		culture = greek
+		culture = pontic_greek
 		religion = orthodox
 		size = 550
 	}
 
 	farmers = {
-		culture = greek
+		culture = pontic_greek
 		religion = orthodox
 		size = 5925
 	}
-	
+
 	aristocrats = {
-		culture = greek
+		culture = pontic_greek
 		religion = orthodox
 		size = 120
 	}
-	
+
 	officers = {
-		culture = greek
+		culture = pontic_greek
 		religion = orthodox
 		size = 120
 	}
-	
+
 	soldiers = {
-		culture = greek
+		culture = pontic_greek
 		religion = orthodox
 		size = 200
 	}
@@ -2188,7 +2188,7 @@
 		religion = orthodox
 		size = 5925
 	}
-	
+
 	soldiers = {
 		culture = greek
 		religion = orthodox
@@ -2236,19 +2236,19 @@
 	}
 
 	clergymen = {
-		culture = greek
+		culture = pontic_greek
 		religion = orthodox
 		size = 470
 	}
 
 	artisans = {
-		culture = greek
+		culture = pontic_greek
 		religion = orthodox
 		size = 2200
 	}
 
 	farmers = {
-		culture = greek
+		culture = pontic_greek
 		religion = orthodox
 		size = 32025
 	}
@@ -2294,21 +2294,21 @@
 		religion = sunni
 		size = 4650
 	}
-	
+
 	aristocrats = {
-		culture = greek
+		culture = pontic_greek
 		religion = orthodox
 		size = 110
 	}
-	
+
 	officers = {
-		culture = greek
+		culture = pontic_greek
 		religion = orthodox
 		size = 110
 	}
-	
+
 	soldiers = {
-		culture = greek
+		culture = pontic_greek
 		religion = orthodox
 		size = 200
 	}
@@ -2347,19 +2347,19 @@
 	}
 
 	clergymen = {
-		culture = greek
+		culture = pontic_greek
 		religion = orthodox
 		size = 375
 	}
 
 	artisans = {
-		culture = greek
+		culture = pontic_greek
 		religion = orthodox
 		size = 945
 	}
 
 	farmers = {
-		culture = greek
+		culture = pontic_greek
 		religion = orthodox
 		size = 24620
 	}
@@ -2371,7 +2371,7 @@
 	}
 
 	soldiers = {
-		culture = greek
+		culture = pontic_greek
 		religion = orthodox
 		size = 200
 	}
@@ -2410,19 +2410,19 @@
 	}
 
 	clergymen = {
-		culture = greek
+		culture = pontic_greek
 		religion = orthodox
 		size = 135
 	}
 
 	artisans = {
-		culture = greek
+		culture = pontic_greek
 		religion = orthodox
 		size = 650
 	}
 
 	farmers = {
-		culture = greek
+		culture = pontic_greek
 		religion = orthodox
 		size = 13525
 	}
@@ -2450,14 +2450,14 @@
 		religion = sunni
 		size = 2200
 	}
-	
+
 	soldiers = {
-		culture = greek
+		culture = pontic_greek
 		religion = orthodox
 		size = 110
 	}
 }
-#Kars Region (856000) #see Georgia.txt for balance of region 
+#Kars Region (856000) #see Georgia.txt for balance of region
 #under the rule of Ottoman Empire in 1836
 #Kars (408000/102000 POPS)
 885 = {
@@ -2564,39 +2564,39 @@
 		religion = sunni
 		size = 32950
 	}
-	
+
 	aristocrats = {
-		culture = greek
+		culture = pontic_greek
 		religion = orthodox
 		size = 110
 	}
-	
+
 	officers = {
-		culture = greek
+		culture = pontic_greek
 		religion = orthodox
 		size = 110
 	}
-	
+
 	soldiers = {
-		culture = greek
+		culture = pontic_greek
 		religion = orthodox
 		size = 110
 	}
-	
+
 	clergymen = {
-		culture = greek
+		culture = pontic_greek
 		religion = orthodox
 		size = 110
 	}
-	
+
 	artisans = {
-		culture = greek
+		culture = pontic_greek
 		religion = orthodox
 		size = 110
 	}
-	
+
 	farmers = {
-		culture = greek
+		culture = pontic_greek
 		religion = orthodox
 		size = 3000
 	}
@@ -2712,31 +2712,31 @@
 		religion = sunni
 		size = 800
 	}
-	
+
 	soldiers = {
-		culture = greek
+		culture = pontic_greek
 		religion = orthodox
 		size = 150
 	}
-	
+
 	clergymen = {
-		culture = greek
+		culture = pontic_greek
 		religion = orthodox
 		size = 110
 	}
-	
+
 	artisans = {
-		culture = greek
+		culture = pontic_greek
 		religion = orthodox
 		size = 110
 	}
 
 	farmers = {
-		culture = greek
+		culture = pontic_greek
 		religion = orthodox
 		size = 5000
 	}
-	
+
 	slaves = {
 		culture = georgian
 		religion = orthodox
@@ -2932,7 +2932,7 @@
 		size = 26450
 	}
 }
-#Malatya (196000/49000 POPS) #mashriqi catholic = Assyrians  
+#Malatya (196000/49000 POPS) #mashriqi catholic = Assyrians
 889 = {
 	aristocrats = {
 		culture = turkish
@@ -3040,7 +3040,7 @@
 		 militancy = 8
         rebel_type = nationalist_rebels
 	}
-	
+
 	soldiers = {
 		culture = assyrian
 		religion = assyrian
@@ -3117,19 +3117,19 @@
 		religion = assyrian
 		size = 100
 	}
-	
+
 	officers = {
 		culture = assyrian
 		religion = assyrian
 		size = 50
 	}
-	
+
 	soldiers = {
 		culture = assyrian
 		religion = assyrian
 		size = 200
-	}	
-	
+	}
+
 	clergymen = {
 		culture = assyrian
 		religion = assyrian
@@ -3259,8 +3259,8 @@
 		culture = assyrian
 		religion = assyrian
 		size = 100
-	}	
-	
+	}
+
 	clergymen = {
 		culture = assyrian
 		religion = assyrian
@@ -3365,8 +3365,8 @@
 		culture = assyrian
 		religion = assyrian
 		size = 100
-	}	
-	
+	}
+
 	clergymen = {
 		culture = assyrian
 		religion = assyrian
@@ -3471,19 +3471,19 @@
 		religion = assyrian
 		size = 100
 	}
-	
+
 	officers = {
 		culture = assyrian
 		religion = assyrian
 		size = 100
 	}
-	
+
 	soldiers = {
 		culture = assyrian
 		religion = assyrian
 		size = 100
-	}	
-	
+	}
+
 	clergymen = {
 		culture = assyrian
 		religion = assyrian
@@ -3565,7 +3565,7 @@
 		religion = sunni
 		size = 2050
 	}
-	
+
 	soldiers = {
 		culture = armenian
 		religion = orthodox
@@ -3589,7 +3589,7 @@
 		religion = orthodox
 		size = 4400
 	}
-	
+
 	soldiers = {
 		culture = assyrian
 		religion = assyrian
@@ -3631,7 +3631,7 @@
 		religion = sunni
 		size = 250
 	}
-	
+
 	soldiers = {
 		culture = kurdish
 		religion = sunni
@@ -3643,7 +3643,7 @@
 		religion = sunni
 		size = 1025
 	}
-	
+
 	aristocrats = {
 		culture = kurdish
 		religion = yazidi
@@ -3725,8 +3725,8 @@
 		culture = greek
 		religion = orthodox
 		size = 110
-	}	
-	
+	}
+
 	clergymen = {
 		culture = greek
 		religion = orthodox
@@ -3801,19 +3801,19 @@
 		religion = orthodox
 		size = 110
 	}
-	
+
 	officers = {
 		culture = greek
 		religion = orthodox
 		size = 110
 	}
-	
+
 	soldiers = {
 		culture = greek
 		religion = orthodox
 		size = 150
 	}
-	
+
 	clergymen = {
 		culture = greek
 		religion = orthodox
@@ -3901,7 +3901,7 @@
 		size = 8650
 	}
 }
-#Halab Region (756000) #see Syria.txt for balance of region 
+#Halab Region (756000) #see Syria.txt for balance of region
 #under the rule of Egypt in 1836
 #Antep (248000/62000 POPS)
 898 = {

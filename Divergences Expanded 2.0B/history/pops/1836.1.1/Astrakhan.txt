@@ -246,7 +246,7 @@
 		size = 100
 	}
 
-	
+
 	artisans = {
 		culture = astrakhani
 		religion = sunni
@@ -266,7 +266,7 @@
 		size = 7325
 	}
 }
-#Chirskaya (92000/23000 POPS)  #mongol = kalmyk  
+#Chirskaya (92000/23000 POPS)  #mongol = kalmyk
 1046 = {
 	aristocrats = {
 		culture = astrakhani
@@ -451,26 +451,26 @@
 	}
 
 	clergymen = {
-		culture = greek
+		culture = pontic_greek
 		religion = orthodox
 		size = 25
 	}
 
 	artisans = {
-		culture = greek
+		culture = pontic_greek
 		religion = orthodox
 		size = 750
 	}
 
 	soldiers = {
-		culture = greek
+		culture = pontic_greek
 		religion = orthodox
 		size= 25
 
 	}
 
 	farmers = {
-		culture = greek
+		culture = pontic_greek
 		religion = orthodox
 		size = 200
 	}
@@ -511,13 +511,13 @@
 	}
 
 	artisans = {
-		culture = greek
+		culture = pontic_greek
 		religion = orthodox
 		size = 900
 	}
 
 	farmers = {
-		culture = greek
+		culture = pontic_greek
 		religion = orthodox
 		size = 800
 	}

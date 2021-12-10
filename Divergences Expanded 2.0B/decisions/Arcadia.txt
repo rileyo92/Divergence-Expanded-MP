@@ -102,6 +102,7 @@ political_decisions = {
 		potential = {
 			tag = VIN
 			has_country_flag = returned_home
+			NOT = { NSE = { exists = yes } }
 		}
 		allow = {
 			nationalism_n_imperialism = 1

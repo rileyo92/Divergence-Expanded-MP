@@ -2,6 +2,7 @@ capital = 805
 primary_culture = greek
 culture = bulgarian
 culture = sephardic
+culture = pontic_greek
 religion = orthodox
 government = absolute_monarchy
 plurality = 0.0

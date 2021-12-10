@@ -48,6 +48,7 @@ political_decisions = {
 				tag = NOV
 				tag = PSK
 			}
+			NOT = { BLT = { exists = yes } }
 		}
 		allow = {
 			nationalism_n_imperialism = 1
@@ -121,6 +122,7 @@ political_decisions = {
 			change_tag = RUS
 			add_accepted_culture = russian
 			add_accepted_culture = novgorodian
+			add_accepted_culture = ugrian
 			any_country = {
 				limit = {
 					is_culture_group = east_slavic
@@ -175,14 +177,12 @@ political_decisions = {
 				tag = RUS
 				NOT = {
 						OR = {
-							has_country_flag = baltic_focus
-							has_country_flag = panslavic_focus
-							has_country_flag = southern_focus
+							has_country_flag = baltic_sea_focus
+							has_country_flag = black_sea_focus
 					}
 				}
 			}
 			allow = {
-
 			}
 			effect = {
 				prestige = 10
@@ -280,6 +280,8 @@ political_decisions = {
 			950 = { add_core = THIS } #Transcarpathia
 			MOL_662 = { add_core = THIS } #Bukovina
 			RUS_707 = { add_core = THIS } #Brest
+			RUS_676 = { add_core = THIS } #Budjak
+			RUS_965 = { add_core = THIS } #Odessa
 		}
 	}
 
@@ -346,7 +348,7 @@ political_decisions = {
 	integrate_tatar_culture = {
 		potential = {
 			tag = RUS
-			has_country_flag = baltic_sea_focus
+			has_country_flag = black_sea_focus
 			has_country_flag = RUS_moved_capital
 			NOT = { has_country_flag = tatar_culture }
 		}
@@ -376,13 +378,16 @@ political_decisions = {
 	integrate_georgian_culture = {
 		potential = {
 			tag = RUS
-			has_country_flag = baltic_sea_focus
+			has_country_flag = black_sea_focus
 			has_country_flag = RUS_moved_capital
 			NOT = { has_country_flag = georgian_culture }
 		}
 		allow = {
 			nationalism_n_imperialism = 1
 			biologism = 1
+			owns = 1090
+			owns = 1094
+			owns = 1098
 		}
 		effect = {
 			prestige = 5
@@ -412,7 +417,7 @@ political_decisions = {
 			TUR_889 = { add_core = THIS }
 			TUR_894 = { add_core = THIS }
 			TUR_860 = { add_core = THIS }
-			add_accepted_culture = greek
+			add_accepted_culture = pontic_greek
 			add_accepted_culture = assyrian
 			add_accepted_culture = syriac
 		}
