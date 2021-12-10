@@ -5008,14 +5008,13 @@
 	soldiers = {
 		culture = vinlander
 		religion = protestant
-		size= 25
-
+		size= 125
 	}
 
 	farmers = {
 		culture = vinlander
 		religion = protestant
-		size = 850
+		size = 750
 	}
 
 	aristocrats = {
@@ -9830,14 +9829,13 @@
 	soldiers = {
 		culture = vinlander
 		religion = protestant
-		size= 600
-
+		size= 900
 	}
 
 	farmers = {
 		culture = vinlander
 		religion = protestant
-		size = 55675
+		size = 55375
 	}
 }
 #Bangor (156000/44000 POPS)
@@ -9857,14 +9855,13 @@
 	soldiers = {
 		culture = vinlander
 		religion = protestant
-		size= 375
-
+		size= 775
 	}
 
 	farmers = {
 		culture = vinlander
 		religion = protestant
-		size = 35475
+		size = 35075
 	}
 }
 #ruled by the UK
@@ -9885,13 +9882,13 @@
 	soldiers = {
 		culture = vinlander
 		religion = protestant
-		size= 50
+		size= 150
 
 	}
 
 	farmers = {
 		culture = vinlander
 		religion = protestant
-		size = 4625
+		size = 4525
 	}
 }

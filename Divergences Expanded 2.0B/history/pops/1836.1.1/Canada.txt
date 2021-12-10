@@ -2158,13 +2158,13 @@
 	soldiers = {
 		culture = vinlander
 		religion = protestant
-		size= 50
+		size= 150
 
 	}
 	farmers = {
 		culture = vinlander
 		religion = protestant
-		size = 3700
+		size = 3600
 	}
 }
 #Quebec Region : 676000
@@ -2407,14 +2407,13 @@
 	soldiers = {
 		culture = vinlander
 		religion = protestant
-		size= 1050
-
+		size= 1550
 	}
 
 	farmers = {
 		culture = vinlander
 		religion = protestant
-		size = 56000
+		size = 55000
 	}
 }
 #Chicoutimi (11200/2800 POPS)
@@ -2440,13 +2439,13 @@
 	soldiers = {
 		culture = vinlander
 		religion = protestant
-		size = 900
+		size = 1200
 	}
 
 	farmers = {
 		culture = vinlander
 		religion = protestant
-		size = 18210
+		size = 18000
 	}
 }
 #Sept-Iles (8000/2000 POPS)
@@ -2472,13 +2471,13 @@
 	soldiers = {
 		culture = vinlander
 		religion = protestant
-		size = 600
+		size = 900
 	}
 
 	farmers = {
 		culture = vinlander
 		religion = protestant
-		size = 11250
+		size = 11000
 	}
 }
 #Temiscaming (16000/4000 POPS)
@@ -2504,13 +2503,13 @@
 	soldiers = {
 		culture = vinlander
 		religion = protestant
-		size = 600
+		size = 900
 	}
 
 	farmers = {
 		culture = vinlander
 		religion = protestant
-		size = 12040
+		size = 11500
 	}
 }
 #Trois-Rivieres (68000/17000 POPS)
@@ -2536,14 +2535,13 @@
 	soldiers = {
 		culture = vinlander
 		religion = protestant
-		size= 550
-
+		size= 850
 	}
 
 	labourers = {
 		culture = vinlander
 		religion = protestant
-		size = 25675
+		size = 25375
 	}
 }
 #Quebec City (188000/47000 POPS)
@@ -2593,13 +2591,13 @@
 	soldiers = {
 		culture = vinlander
 		religion = protestant
-		size = 2000
+		size = 3000
 	}
 
 	farmers = {
 		culture = vinlander
 		religion = protestant
-		size = 67850
+		size = 66850
 	}
 }
 #Sherbrooke (68000/17000 POPS)
@@ -2643,13 +2641,13 @@
 	soldiers = {
 		culture = vinlander
 		religion = protestant
-		size = 900
+		size = 1200
 	}
 
 	farmers = {
 		culture = vinlander
 		religion = protestant
-		size = 32450
+		size = 32050
 	}
 }
 #Riviere du Loup (56000/14000 POPS)
@@ -2675,13 +2673,13 @@
 	soldiers = {
 		culture = vinlander
 		religion = protestant
-		size = 400
+		size = 700
 	}
 
 	labourers = {
 		culture = vinlander
 		religion = protestant
-		size = 21430
+		size = 21130
 	}
 }
 #New Brunswick Region : 148000
@@ -2727,13 +2725,13 @@
 	soldiers = {
 		culture = vinlander
 		religion = protestant
-		size = 450
+		size = 750
 	}
 
 	farmers = {
 		culture = vinlander
 		religion = protestant
-		size = 22567
+		size = 22250
 	}
 }
 #Bathurst (64000/16000 POPS)
@@ -2759,13 +2757,13 @@
 	soldiers = {
 		culture = vinlander
 		religion = protestant
-		size = 350
+		size = 550
 	}
 
 	labourers = {
 		culture = vinlander
 		religion = protestant
-		size = 21340
+		size = 21040
 	}
 }
 #Prince Edward Island Region : 32000
@@ -2822,13 +2820,13 @@
 	soldiers = {
 		culture = vinlander
 		religion = protestant
-		size = 300
+		size = 500
 	}
 
 	farmers = {
 		culture = vinlander
 		religion = protestant
-		size = 9350
+		size = 9150
 	}
 }
 #Canada - Nova Scotia Region : 147000
@@ -2868,14 +2866,13 @@
 	soldiers = {
 		culture = vinlander
 		religion = protestant
-		size= 600
-
+		size= 900
 	}
 
 	farmers = {
 		culture = vinlander
 		religion = protestant
-		size = 14600
+		size = 14300
 	}
 
 	aristocrats = {
@@ -2931,14 +2928,13 @@
 	soldiers = {
 		culture = vinlander
 		religion = protestant
-		size= 600
-
+		size= 900
 	}
 
 	farmers = {
 		culture = vinlander
 		religion = protestant
-		size = 13075
+		size = 13000
 	}
 
 	aristocrats = {
@@ -2988,14 +2984,13 @@
 	soldiers = {
 		culture = vinlander
 		religion = protestant
-		size= 50
-
+		size= 200
 	}
 
 	farmers = {
 		culture = vinlander
 		religion = protestant
-		size = 4650
+		size = 4500
 	}
 
 	aristocrats = {
@@ -3060,32 +3055,20 @@
 	artisans = {
 		culture = vinlander
 		religion = protestant
-		size = 10000
-	}
-
-	artisans = {
-		culture = vinlander
-		religion = protestant
-		size = 10000
-	}
-
-	artisans = {
-		culture = vinlander
-		religion = protestant
-		size = 2300
+		size = 22300
 	}
 
 	soldiers = {
 		culture = vinlander
 		religion = protestant
-		size= 650
+		size= 1050
 
 	}
 
 	farmers = {
 		culture = vinlander
 		religion = protestant
-		size = 72825
+		size = 72425
 	}
 }
 #Millertown (24000/6000 POPS)
@@ -3105,14 +3088,13 @@
 	soldiers = {
 		culture = vinlander
 		religion = protestant
-		size= 550
-
+		size= 950
 	}
 
 	farmers = {
 		culture = vinlander
 		religion = protestant
-		size = 34625
+		size = 34125
 	}
 }
 #Hopedale (2000/500 POPS)
@@ -3236,7 +3218,6 @@
 		culture = inuit
 		religion = animist
 		size= 15
-
 	}
 
 	farmers = {
