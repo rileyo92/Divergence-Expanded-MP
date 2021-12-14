@@ -75,6 +75,7 @@ political_decisions = {
 			HES_566 = { add_core = WES }
 			HAN_534 = { add_core = WES }
 			PRU_575 = { add_core = WES }
+			add_accepted_culture = rheinish
 			capital = 566
 		}
 	}

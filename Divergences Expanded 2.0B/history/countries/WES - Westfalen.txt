@@ -1,11 +1,13 @@
 capital = 580
 primary_culture = north_german
+culture = rheinish
 religion = protestant
 government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_order
 literacy = 0.8
 civilized = yes
+is_releasable_vassal = no
 prestige = 5
 
 # Political reforms
