@@ -41,3 +41,83 @@ country_event = { #Vinland Claims Scandinavia
 		}
   }
 }
+
+country_event = { #Baltic Empire Loses Scotland
+
+  id = BLTSCO001
+  title = "BLTSCO001.T"
+  desc = "BLTSCO001.D"
+  fire_only_once = yes
+
+  trigger = {
+    tag = BLT
+    primary_culture = scandinavia
+    NOT = { owns = 269 }
+    NOT = { owns = 267 }
+    war = no
+  }
+  mean_time_to_happen = {
+    months = 1
+  }
+  option = {
+    name = "BLTSCO001.A"
+    SCO = { all_core = { remove_core = BLT } }
+    remove_accepted_culture = scottish
+  }
+}
+
+country_event = { #North Sea Empire Loses Livonia
+
+  id = NSEBAL001
+  title = "NSEBAL001.T"
+  desc = "NSEBAL001.D"
+  fire_only_once = yes
+
+  trigger = {
+    tag = NSE
+    NOT = { has_country_flag = returned_home }
+    NOT = { owns = 354 }
+    NOT = { owns = 349 }
+    NOT = { owns = 357 }
+    NOT = { owns = 365 }
+    war = no
+  }
+  mean_time_to_happen = {
+    months = 1
+  }
+  option = {
+    name = "NSEBAL001.A"
+    LAT = { all_core = { remove_core = NSE } }
+    LIT = { all_core = { remove_core = NSE } }
+    remove_accepted_culture = estonian
+    remove_accepted_culture = latvian
+    remove_accepted_culture = lithuanian
+  }
+}
+
+country_event = { #North Sea Empire Loses Pomerania
+
+  id = NSEPOM001
+  title = "NSEPOM001.T"
+  desc = "NSEPOM001.D"
+  fire_only_once = yes
+
+  trigger = {
+    tag = NSE
+    NOT = { has_country_flag = returned_home }
+    NOT = { owns = 548 }
+    NOT = { owns = 546 }
+    NOT = { owns = 690 }
+    NOT = { owns = 695 }
+    war = no
+  }
+  mean_time_to_happen = {
+    months = 1
+  }
+  option = {
+    name = "NSEPOM001.A"
+    POM = { all_core = { remove_core = NSE } }
+    PRU = { all_core = { remove_core = NSE } }
+    remove_accepted_culture = pomeranian
+  }
+}

@@ -474,7 +474,7 @@ afro_germanic_slave_citizens_desc;We have abolished slavery, but the former slav
 form_north_sea_empire_vin_title;Form the North Sea Empire!;;;;;;;;;;;;;X,,,,,,,,,,,,,,
 form_north_sea_empire_vin_desc;The North Sea Empire was a personal union between Scandinavia and England in the 11th century. A lot of time has passed now but we are now going to proclaim this empire once more!;;;;;;;;;;;;;X,,,,,,,,,,,,,,
 sca_baltic_empire_title;§BForm the Baltic Empire§!;;;;;;;;;;;;;X,,,,,,,,,,,,,,
-sca_baltic_empire_desc;An Empire stretching across the entire Baltic sea has been envisioned by some with the sea being linked through the Vikings, the Hansa and the Teutons but now it's all unified under us!;;;;;;;;;;;;;X,,,,,,,,,,,,,,
+sca_baltic_empire_desc;An Empire stretching across the entire Baltic sea has been envisioned by some with the sea being linked through the Vikings, the Hansa and the Teutons but now it's all unified under us! §R(NOTE: If we ever lose Scotland after taking this decision, we will lose cores and accepted on it!)§!;;;;;;;;;;;;;X,,,,,,,,,,,,,,
 nov_conquer_finland_title;Conquest of Finland;;;;;;;;;;;;;X,,,,,,,,,,,,,,
 nov_conquer_finland_desc;Finland is a large territory which, under Scandinavia, allowed them to constrict trade between us and the rest of the world through the Gulf of Finland and the White Sea. Securing Finland now allows us to control our trade more;;;;;;;;;;;;;X,,,,,,,,,,,,,,
 nov_conquer_livonia_title;Conquest of Livonia;;;;;;;;;;;;;X,,,,,,,,,,,,,,

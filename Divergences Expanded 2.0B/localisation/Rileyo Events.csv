@@ -135,3 +135,17 @@ EVT199937OPTE;Change a province to produce Fish.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;
 EVT199937OPTF;Change a province to produce Fruit.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 EVT199937OPTG;Change a province to produce Grain.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 EVT199937OPTH;I'd rather not change anything.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+SCAVIN001.T;The Return of Vinland;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+SCAVIN001.D;Vinland has retuned to Europe and is claiming the western shores of Scandinavia. We need to choose a response!§R(NOTE: Option A will not allow us to core Vinland or gain Vinlander as an accepted culture whilist Options B and C will!)§!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+SCAVIN001.A;Option A: We will bide our time for now.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+SCAVIN001.B;Option B: We shall claim Vinland for ourselves once we deal with the invasions;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+SCAVIN001.C;Option C: Let us go to war right now and end this rebellion!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+BLTSCO001.T;Loss of Scotland;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+BLTSCO001.D;When we decided to focus on and integrate the Baltic, it alienated our subjects in Scotland to the point where now, under new management, the people there and the wider global powers no longer see our claim to the land as legitimate.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+BLTSCO001.A;But the Haggis...;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+NSEBAL001.T;Loss of Livonia;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+NSEBAL001.D;When we decided to focus on and integrate the British Isles, it alienated our subjects in Livonia to the point where now, under new management, the people there and the wider global powers no longer see our claim to the land as legitimate.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+NSEBAL001.A;But the Core Ports...;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+NSEPOM001.T;Loss of Pomerania and Prussia;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+NSEPOM001.D;When we decided to focus on and integrate the British Isles, it alienated our subjects in Pomerania and Prussia to the point where now, under new management, the people there and the wider global powers no longer see our claim to the land as legitimate.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+NSEPOM001.A;But the Swedes...;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x

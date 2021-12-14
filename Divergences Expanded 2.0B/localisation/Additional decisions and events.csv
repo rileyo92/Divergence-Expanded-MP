@@ -15,8 +15,8 @@ BTV_immigration;Pan-Boer Dream;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 BTV_immigration_desc;The Pan-Boer Dream is attracting immigrants from all over the world!;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 venetians_culture_non_ITA_title;Integration of the Venetians;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 venetians_culture_non_ITA_desc;With control over Venice proper, we are now able to integrate and unite with our Venetian brothers in our quest for a united Italy!;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-EVTNAME100014;The Literacy of the Pomeranians;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
-EVTDESC100014;Through integration the literacy of the Pomeranians has increased, but they are not fully integrated yet.;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTNAME100014;The Literacy of the Baltens;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTDESC100014;Through integration the literacy of the Baltens has increased, but they are not fully integrated yet.;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 EVTOPTA100014;You can never be too educated.;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 EVTNAME100015;The Literacy of the Rheinish;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 EVTDESC100015;Through integration the literacy of the Rheinish has increased, but they are not fully integrated yet.;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
@@ -27,4 +27,4 @@ romanians_integrated_desc;The time has come for the Romanian peoples to accept t
 duchy_romania_title;Proclaim the Grand Duchy of Romania;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 duchy_romania_desc;With the Romanian peoples united under our singular Banner it is time to offically claim dejure rulership over Romania.;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 north_sea_empire_title;§RThe Empire of the North Sea§!;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-north_sea_empire_desc;Now that Ireland has been wrestled away from Anglois dominion we now finally have compelete imperium over the North Sea.;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+north_sea_empire_desc;We have now replicated the Vikings of old and are now in a dominant position over Britain. In order to integrate them it has been suggested to move our capital to the newly conquered lands and start embracing more English traditions and customs. §R(NOTE: If we ever lose Pomerania or the Baltic States after taking this decision, we will lose cores and accepted on them!)§!;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

@@ -144,7 +144,6 @@ political_decisions = {
       RUS_354 = { add_core = BLT } #Latvia
       RUS_349 = { add_core = BLT } #Estonia
       RUS_994 = { add_core = BLT } #Ingria
-      SCO = { all_core = { remove_core = THIS } }
       change_tag = BLT
       capital = 322
       set_country_flag = sca_baltic_empire
@@ -411,9 +410,6 @@ political_decisions = {
 			ENG_301 = { add_core = NSE } #South-East England
 			change_tag = NSE
 			capital = 281
-      EST = { all_core = { remove_core = NSE } }
-      LAT = { all_core = { remove_core = NSE } }
-      LIT = { all_core = { remove_core = NSE } }
       change_tag = NSE
 		}
 	}
