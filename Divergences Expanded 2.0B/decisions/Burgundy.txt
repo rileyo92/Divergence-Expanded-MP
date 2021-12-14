@@ -365,6 +365,28 @@ political_decisions = {
 					}
 				}
 			}
+			2560 = {
+				OR = {
+					owned_by = THIS
+					owner = {
+						OR = {
+							in_sphere = THIS
+							vassal_of = THIS
+						}
+					}
+				}
+			}
+			564 = {
+				OR = {
+					owned_by = THIS
+					owner = {
+						OR = {
+							in_sphere = THIS
+							vassal_of = THIS
+						}
+					}
+				}
+			}
 		}
 		effect = {
 			primary_culture = dutch
@@ -402,6 +424,8 @@ political_decisions = {
 					add_core = CRH
 				}
 			}
+			SWI = { all_core = { add_core = CRH } }
+			FRM_564 = { add_core = CRH } #Palatinate
 			BRG = { all_core = { remove_core = BRG } }
 			set_global_flag = confed_of_rhine_formed
 		}
