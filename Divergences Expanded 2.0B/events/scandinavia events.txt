@@ -52,8 +52,8 @@ country_event = { #Baltic Empire Loses Scotland
   trigger = {
     tag = BLT
     primary_culture = scandinavia
-    NOT = { owns = 269 }
-    NOT = { owns = 267 }
+    269 = { NOT = { owned_by = BLT } }
+    267 = { NOT = { owned_by = BLT } }
     war = no
   }
   mean_time_to_happen = {
@@ -76,10 +76,10 @@ country_event = { #North Sea Empire Loses Livonia
   trigger = {
     tag = NSE
     NOT = { has_country_flag = returned_home }
-    NOT = { owns = 354 }
-    NOT = { owns = 349 }
-    NOT = { owns = 357 }
-    NOT = { owns = 365 }
+    354 = { NOT = { owned_by = NSE } }
+    349 = { NOT = { owned_by = NSE } }
+    357 = { NOT = { owned_by = NSE } }
+    365 = { NOT = { owned_by = NSE } }
     war = no
   }
   mean_time_to_happen = {
@@ -105,10 +105,10 @@ country_event = { #North Sea Empire Loses Pomerania
   trigger = {
     tag = NSE
     NOT = { has_country_flag = returned_home }
-    NOT = { owns = 548 }
-    NOT = { owns = 546 }
-    NOT = { owns = 690 }
-    NOT = { owns = 695 }
+    548 = { NOT = { owned_by = NSE } }
+    546 = { NOT = { owned_by = NSE } }
+    690 = { NOT = { owned_by = NSE } }
+    695 = { NOT = { owned_by = NSE } }
     war = no
   }
   mean_time_to_happen = {
