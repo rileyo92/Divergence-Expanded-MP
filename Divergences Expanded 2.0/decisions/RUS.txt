@@ -413,13 +413,11 @@ political_decisions = {
 		effect = {
 			badboy = 10
 			set_country_flag = third_rome
-			TUR_884 = { add_core = THIS }
-			TUR_889 = { add_core = THIS }
-			TUR_894 = { add_core = THIS }
-			TUR_860 = { add_core = THIS }
+			TUR_884 = { add_core = THIS } #Trabzon
+			TUR_889 = { add_core = THIS } #North Kurdistan
+			TUR_860 = { add_core = THIS } #Constantinople
 			add_accepted_culture = pontic_greek
 			add_accepted_culture = assyrian
-			add_accepted_culture = syriac
 		}
 		ai_will_do = {
 			factor = 1
@@ -469,62 +467,18 @@ political_decisions = {
 		}
 		effect = {
 			prestige = 20
-			YKT = { all_core = { add_core = RUS } }
-				RUS_1182 = {
-					add_core = RUS
-				}
-				RUS_1184 = {
-					add_core = RUS
-				}
-				RUS_2685 = {
-					add_core = RUS
-				}
-				RUS_1065 = {
-					add_core = RUS
-				}
-				RUS_1064 = {
-					add_core = RUS
-				}
-				RUS_1469 = {
-					add_core = RUS
-				}
-				RUS_1070 = {
-					add_core = RUS
-				}
-				RUS_2615 = {
-					add_core = RUS
-				}
-				RUS_1075 = {
-					add_core = RUS
-				}
-				RUS_2694 = {
-					add_core = RUS
-				}
-				RUS_2653 = {
-					add_core = RUS
-				}
-				RUS_2621 = {
-					add_core = RUS
-				}
-				RUS_1069 = {
-					add_core = RUS
-				}
-				RUS_1079 = {
-					add_core = RUS
-				}
-				RUS_1072 = {
-					add_core = RUS
-				}
-				RUS_2618 = {
-					add_core = RUS
-				}
-				RUS_1074 = {
-					add_core = RUS
-				}
-				RUS_2590 = {
-					add_core = RUS
-				}
-				set_country_flag = siberia
-			}
+			RUS_1469 = { add_core = RUS } #Tannu Tuva
+			RUS_2694 = { add_core = RUS } #Kets
+			RUS_2615 = { add_core = RUS } #Tunguska
+			MON_1075 = { add_core = RUS } #Buryat
+			RUS_1069 = { add_core = RUS } #Evenki
+			RUS_1079 = { add_core = RUS } #Yilehuli
+			RUS_1071 = { add_core = RUS } #Yakuts
+			RUS_1072 = { add_core = RUS } #Eveni
+			RUS_2618 = { add_core = RUS } #Magadan
+			RUS_2621 = { add_core = RUS } #Chuvanay
+			RUS_1074 = { add_core = RUS } #Dembei
+			set_country_flag = siberia
+		}
 	}
 }
