@@ -615,7 +615,7 @@ political_decisions = {
 			OR = {
 				AND = {
 					tag = ARC
-					mass_politics = 1
+					revolution_n_counterrevolution = 1
 				}
 				AND = {
 					tag = DNG
@@ -626,12 +626,12 @@ political_decisions = {
 		effect = {
 			add_accepted_culture = lusitanian
 			set_country_flag = arc_dng_claimed_lusitania
-			badboy = 5
+			badboy = 7.5
 			LST = { all_core = { add_core = THIS } }
 		}
 		ai_will_do = {
     	factor = 1
-      modifier = { factor = 0 badboy = 0.8 }
+      modifier = { factor = 0 badboy = 0.7 }
   	}
 	}
 
