@@ -1,3 +1,6 @@
+#Pomeranian renamed to Balten
+#Sami into Finnish
+#Yakut into Siberian Minor
 #Afar, Harari and Cushitic into Somali
 #Amhara and Beja into Tigray
 #Tigray localisation rename to Abysinnian
@@ -33,3 +36,4 @@
 #Sotho localisation rename to Sotho-Tswana
 #Tonga to African Minor
 #Sioux and Pueblo into Native american minor
+#Pontic Split from Greek

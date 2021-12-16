@@ -4,10 +4,7 @@
 #
 ##To-do List
 #
-#Rework of Scandi, Russia decisions
-#Look at making fascist and communist governments for interesting to play mechanically (current thoughts are giving Facists countries buffs to assimilation and extra cores but lose Accepted pops, Communists get cheaper wargoals relating to creating a Communist block)
-#
-#Create Events for Scandi which trigger if he chooses an expansion path and loses land in certain places which makes you lose accepted pop
+#Bug Fix Events for Scandi which trigger if they choose an expansion path and loses land in certain places which makes you lose accepted pop
 #Clean up China CB's again probably
 #Clean up useless files from HPM/PDM Ports
 #

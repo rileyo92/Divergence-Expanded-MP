@@ -50,7 +50,7 @@
 #Forming Confed of Rhine no longer removes cores on Burgundy
 #Japanese Co-Prosperity sphere decision no longer gives cores on Malacca, Sumatra and Zhourao
 #
-#1.03.x
+# 1.03.x
 #
 #Champagne state switched from Dual Monarchy to Burgundy Control
 #Changes to liferatings (LR) across the world as follows: (Before > After) (Please note these are the file names for the provinces)
@@ -104,7 +104,7 @@
 #Changes to political reforms
 #Assimilation buffed
 #
-#1.04
+# 1.04
 #
 #Fixed mistyped reforms
 #Ireland LR 30>32
@@ -115,7 +115,7 @@
 #Mob size bonus for Balkan and German nations 2>3%, duration extended to 1860
 #Moved Serb back to first Tanzimat reform
 #
-#1.05
+# 1.05
 #
 #Bosnia now starts with serbian and croat accepted
 #Cleaning up Elbian decision
@@ -165,7 +165,7 @@
 #All balkan minor nations (not moldavia, Venice, Hungary and Ottomans) now start with service by requirement, Ottomans and Moldavia now start with 4 year draft
 #Fixed Panama canal bug
 #
-#1.06
+# 1.06
 #
 #Culture smudging in Burgundy, Ferrara
 #DM French path now instantly gives provencal accepted, gives cores on Savoie, all french cores and all occitan cores
@@ -188,11 +188,11 @@
 #Dual Monarchy can now abandon either France or England and become France or GB and get accepted and cores on their respective regions
 #Added a settings file
 #
-#1.06.1
+# 1.06.1
 #
 #Made Elbians or HRE not form Zapaoslavia
 #
-#1.06.2.x
+# 1.06.2.x
 #
 #Removed pop growth modifiers from education, pension and work hour reforms
 #Scandi British path no longer gets welsh accepted
@@ -202,7 +202,7 @@
 #Added Ugrian accepted to Ottoman Turania path, fixed decision
 #DM abandonment decisions no longer requires you to have chosen a certain path
 #
-#1.07
+# 1.07
 #
 #Fixed bugged decision for Plantagenia Arcadia and Turkish Arabian paths
 #Trent no longer required to form League of Munich
@@ -240,6 +240,41 @@
 #Japan China route nerfed and pushed back
 #Readded HRE in it's vanilla form, made 1900 HRE formation be germany instead
 #
-#1.08
+# 1.08
 #
+#Gas Attack/defence rng removed, gas defense can only be discovered after 1905
+#Unit base attack increased slightly across the board
+#Reverted industry techs and inventions back to vanilla
+#Vinland now starts with all pop voting
+#Cetua now a core of Spain
+#Egypt given Research reform to start with
+#German decisions rework
+#Migration/Assimilation Mechanics updated to Igor v8
 #
+# 1.08.1
+#
+#German Decisions tidied up
+#All tech and inventions now same as Alstalt except techs I have changed before
+#Inventions for Clipper Factories, Ironclads, Cruisers, Monitors, Battleships, Armor, Airplanes, Hussars, All Cavalry, All Early game mil factories changed to 100%
+#Political/Social Reforms changed to be in line with my version of Alstalt wherever possible, removed import cost from a lot of things
+#Buildings, unit costs, production requirements files plus more all reverted to Alstalt
+#Removed supply consumption bonuses from anti-military/pacifism
+#The reduced early game infamy now will last till at least 1846
+#End date moved to 2000
+#Soldier to pop damage increased from 0.2 to 0.25
+#
+# 2.0
+#
+#Rework of Scandinavia decisions and events and added two new form-able tags: North Sea Empire and Baltic Empire
+#Rework of Russian Expansion decisions and added Baltic Empire form-able for Novgorod
+#Extension of Return home path for Vinland to include North Sea Empire form-able
+#Belgium Confederacy return home path reworked to form Belgium instead of Netherlands
+#State rework in Arcadia and Siberia
+#Burgundian Confederation of Rhine decision re-coded to be readable
+#Oob rework for Qingqiu and Plantagenia
+#Vinland buffed with now same starting tech as Belgium, more starting solider pops but starting literacy lowered
+#Qingqiu and Zhourao now start with same tech as Gran Colombia
+#State rework in Slovakia
+#Lusitania decision for Arcadia moved to revolutions and counterrevolutions (was mass politics)
+#Reworked starting global naval bases
+#Pontic Greek added as a new culture

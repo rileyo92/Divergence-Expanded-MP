@@ -1,4 +1,4 @@
-#As of 1.07M
+#As of 2.0
 #
 #Vinland
 #Belgium Confederacy
@@ -17,7 +17,7 @@
 #Scandinavia
 #Poland-Lithuania
 #Hungary
-#Muscovy
+#Muscovy/Novgorod
 #Ottomans
 #Batavia
 #Ethiopia
