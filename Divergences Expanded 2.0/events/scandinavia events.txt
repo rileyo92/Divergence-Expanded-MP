@@ -1,4 +1,6 @@
-country_event = { #Vinland Claims Scandinavia
+#Vinland Claims Scandinavia
+
+country_event = {
 
   id = SCAVIN001
   title = "SCAVIN001.T"
@@ -42,7 +44,9 @@ country_event = { #Vinland Claims Scandinavia
   }
 }
 
-country_event = { #Baltic Empire Loses Scotland
+#Baltic Empire Loses Scotland
+
+country_event = {
 
   id = BLTSCO001
   title = "BLTSCO001.T"
@@ -66,7 +70,9 @@ country_event = { #Baltic Empire Loses Scotland
   }
 }
 
-country_event = { #North Sea Empire Loses Livonia
+#North Sea Empire Loses Livonia
+
+country_event = {
 
   id = NSEBAL001
   title = "NSEBAL001.T"
@@ -95,7 +101,9 @@ country_event = { #North Sea Empire Loses Livonia
   }
 }
 
-country_event = { #North Sea Empire Loses Pomerania
+#North Sea Empire Loses Pomerania
+
+country_event = {
 
   id = NSEPOM001
   title = "NSEPOM001.T"
