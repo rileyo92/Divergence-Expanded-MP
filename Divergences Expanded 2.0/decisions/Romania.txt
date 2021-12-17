@@ -166,7 +166,7 @@ political_decisions = {
 			MOL = { all_core = { owned_by = THIS } }
 		}
 		effect = {
-			set country_flag = ROM_cherson
+			set_country_flag = ROM_cherson
 			badboy = 5
 			RUS_965 = { add_core = ROM }
 		}
