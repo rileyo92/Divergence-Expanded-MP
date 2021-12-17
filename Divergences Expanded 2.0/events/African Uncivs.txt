@@ -1,10 +1,10 @@
 #The Toucouleur Empire
-country_event = { 
+country_event = {
 	id = 95520
 	title = "EVTNAME95520"
 	desc = "EVTDESC95520"
 	picture = "toucouleur"
-	
+
 	trigger = {
 		tag = MAL
 		war = no
@@ -16,15 +16,14 @@ country_event = {
 		}
 		NOT = { year = 1890 }
 	}
-	
+
 	fire_only_once = yes
-	
+
 	mean_time_to_happen = { months = 10 }
-	
+
 	option = {
 		name = "EVT95520OPTA"
 		primary_culture = fulbe
-		add_accepted_culture = bambara
 		add_accepted_culture = songhai
 		add_accepted_culture = tuareg
 		all_core = { add_core = TOU }
@@ -34,8 +33,8 @@ country_event = {
 		capital = 1800
 		define_general = {
 			name = "Umar Tall"
-			personality = implacable
-			background = natural_born_leader
+			personality = defence_4.1
+			background = attack_4.1
 		}
 	}
 }
