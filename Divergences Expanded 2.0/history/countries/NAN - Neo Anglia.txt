@@ -3,9 +3,9 @@ primary_culture = beornian
 culture = english
 religion = protestant
 government = hms_government
-plurality = 0.0
+plurality = 10.0
 nationalvalue = nv_order
-literacy = 0.40
+literacy = 0.30
 civilized = yes
 
 

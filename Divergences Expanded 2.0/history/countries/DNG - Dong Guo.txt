@@ -2,9 +2,9 @@ capital = 84
 primary_culture = qingqiuan
 religion = mahayana
 government = democracy
-plurality = 0.0
+plurality = 5.0
 nationalvalue = nv_liberty
-literacy = 0.4
+literacy = 0.3
 civilized = yes
 prestige = 1
 

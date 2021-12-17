@@ -2,9 +2,9 @@ capital = 139
 primary_culture = plantagenian
 religion = catholic
 government = hms_government
-plurality = 0.2
+plurality = 10.0
 nationalvalue = nv_liberty
-literacy = 0.57
+literacy = 0.55
 civilized = yes
 prestige = 20
 
@@ -25,7 +25,7 @@ work_hours = no_work_hour_limit
 safety_regulations = no_safety
 health_care = no_health_care
 unemployment_subsidies = no_subsidies
-pensions = no_pensions 
+pensions = no_pensions
 school_reforms = no_schools
 
 # New Reforms
@@ -67,16 +67,19 @@ malthusian_thought = 1
 enlightenment_thought = 1
 introspectionism = 1
 private_banks = 1
+stock_exchange = 1
 no_standard = 1
+ad_hoc_money_bill_printing = 1
 early_classical_theory_and_critique = 1
 freedom_of_trade = 1
-stock_exchange = 1
-ad_hoc_money_bill_printing = 1
 guild_based_production = 1
-piston_steam_engine = 1
+water_wheel_power = 1
+publishing_industry = 1
 mechanized_mining = 1
 basic_chemistry = 1
-high_pressure_steam_engine = 1
+battleship_column_doctrine = 1
+steamers = 1
+practical_steam_engine = 1
 experimental_railroad = 1
 
 #Inventions

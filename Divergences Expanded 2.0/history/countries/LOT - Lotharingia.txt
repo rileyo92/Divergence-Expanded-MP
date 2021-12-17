@@ -2,9 +2,9 @@ capital = 2463
 primary_culture = lotharian
 religion = protestant
 government = presidential_dictatorship
-plurality = 0.0
+plurality = 15.0
 nationalvalue = nv_order
-literacy = 0.38
+literacy = 0.40
 civilized = yes
 prestige = 5
 
@@ -79,7 +79,5 @@ basic_chemistry = 1
 # Starting Consciousness
 consciousness = 2
 nonstate_consciousness = 1
-
-schools = army_tech_school
 
 oob = "LOT_oob.txt"

@@ -2,9 +2,9 @@ capital = 1476
 primary_culture = ganguan
 religion = mahayana
 government = democracy
-plurality = 0.0
+plurality = 5.0
 nationalvalue = nv_liberty
-literacy = 0.4
+literacy = 0.3
 civilized = yes
 prestige = 1
 
@@ -72,5 +72,7 @@ mechanical_production = 1
 # Starting Consciousness
 consciousness = 0
 nonstate_consciousness = 0
+
+schools = naval_tech_school
 
 oob = "GAN_oob.txt"

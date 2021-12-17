@@ -2,9 +2,9 @@ capital = 2431
 primary_culture = amazonian
 religion = catholic
 government = democracy
-plurality = 0.2
+plurality = 10.0
 nationalvalue = nv_liberty
-literacy = 0.41
+literacy = 0.35
 civilized = yes
 prestige = 15
 
@@ -26,7 +26,7 @@ work_hours = no_work_hour_limit
 safety_regulations = no_safety
 health_care = no_health_care
 unemployment_subsidies = no_subsidies
-pensions = no_pensions 
+pensions = no_pensions
 school_reforms = no_schools
 # New Reforms
 conscription = no_draft
@@ -88,7 +88,5 @@ paternalism = yes
 # Starting Consciousness
 consciousness = 2
 nonstate_consciousness = 1
-
-schools = commerce_tech_school
 
 oob = "AMA_oob.txt"
