@@ -9,7 +9,7 @@ province_event = {
 	id = 98900
 	title = "EVTNAME98800"
 	desc = "EVTDESC98900"
-	
+
 	trigger = {
 		OR = {
 			region = ENG_2096
@@ -48,7 +48,7 @@ province_event = {
 			is_core = SAF
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 10
 		modifier = {
@@ -56,7 +56,7 @@ province_event = {
 			region = ENG_2083
 		}
 	}
-	
+
 	option = {
 		name = "22248.A"
 		state_scope = {
@@ -76,7 +76,7 @@ province_event = {
 	id = 97130
 	title = "97130.T"
 	desc = "97130.D"
-	
+
 	trigger = {
 		OR = {
 			region = BAL_1438 #Bali
@@ -86,7 +86,7 @@ province_event = {
 			region = NET_1426 #Lanfang
 			region = NET_1423 #Borneo
 			region = SPA_1463 #Mindanao
-			region = BRU_1394 #Brunei 
+			region = BRU_1394 #Brunei
 			region = ENG_1386 #Malacca
 			region = ENG_1392 #Pattani
 		}
@@ -113,11 +113,11 @@ province_event = {
 			is_core = IND
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 30
 	}
-	
+
 	option = {
 		name = "22249.A"
 		state_scope = {
@@ -137,14 +137,14 @@ province_event = {
 	}
 }
 
-##Christiania spread 
+##Christiania spread
 
 ## Indonesian colony spread
 province_event = {
 	id = 97135
 	title = "97135.T"
 	desc = "97135.D"
-	
+
 	trigger = {
 		OR = {
 			region = BAL_1438 #Bali
@@ -154,7 +154,7 @@ province_event = {
 			region = NET_1426 #Lanfang
 			region = NET_1423 #Borneo
 			region = SPA_1463 #Mindanao
-			region = BRU_1394 #Brunei 
+			region = BRU_1394 #Brunei
 			region = ENG_1386 #Malacca
 			region = ENG_1392 #Pattani
 		}
@@ -181,11 +181,11 @@ province_event = {
 			is_core = CHR
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 30
 	}
-	
+
 	option = {
 		name = "22251.A"
 		state_scope = {
@@ -209,7 +209,7 @@ province_event = {
 	id = 97131
 	title = "EVTNAME98800"
 	desc = "EVTDESC97130"
-	
+
 	trigger = {
 		OR = {
 			region = BAL_1446 #Timor
@@ -240,11 +240,11 @@ province_event = {
 			is_core = CHR
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 60
 	}
-	
+
 	option = {
 		name = "44345.A"
 		state_scope = {
@@ -268,7 +268,7 @@ province_event = {
 	id = 97132
 	title = "EVTNAME98800"
 	desc = "EVTDESC97130"
-	
+
 	trigger = {
 		OR = {
 			region = NET_1451 #West New Guinea
@@ -298,11 +298,11 @@ province_event = {
 			is_core = CHR
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 60
 	}
-	
+
 	option = {
 		name = "98900.A"
 		state_scope = {
@@ -322,68 +322,11 @@ province_event = {
 	}
 }
 
-province_event = { ### Spread of Terra d'Oro cores 
-	id = 971341
-	title = "971341.T"
-	desc = "971341.D"
-	
-	trigger = {
-		OR = {
-			region = FRA_1775 #Coastal Mauritania
-			region = FRA_1783 #Gorèa
-			region = FRA_1780 #Inner Mautiania
-		}
-		owned_by = THIS
-		controlled_by = THIS
-		any_neighbor_province = {
-			is_core = TRO
-		}
-		owner = {
-			civilized = yes
-			NOT = { continent = africa }
-		}
-		OR = {
-			AND = {
-				owner = { owns = 1784 }
-				TRO = { exists = no }
-			}
-			TRO = {
-				vassal_of = THIS
-				is_culture_group = THIS
-			}
-		}
-		NOT = {
-			is_core = TRO
-		}
-	}
-	
-	mean_time_to_happen = {
-		months = 60
-	}
-	
-	option = {
-		name = "97130.A"
-		state_scope = {
-			any_owned = {
-				limit = {
-					NOT = { is_core = TRO }
-				}
-				add_core = TRO
-				any_pop = { militancy = -3 }
-				add_province_modifier = {
-					name = colonial_exploitation
-					duration = 1095
-				}
-			}
-		}
-	}
-}
-
 province_event = {
 	id = 971345
 	title = "971345.T"
 	desc = "971345.D"
-	
+
 	trigger = {
 		region = FRA_1880
 		owned_by = THIS
@@ -406,11 +349,11 @@ province_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 120
 	}
-	
+
 	option = {
 		name = "EVT98800OPTA"
 		state_scope = {
@@ -429,7 +372,7 @@ province_event = {
 	id = 971346
 	title = "971346.T"
 	desc = "971346.D"
-	
+
 	trigger = {
 		region = ENG_1887
 		owned_by = THIS
@@ -452,11 +395,11 @@ province_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 120
 	}
-	
+
 	option = {
 		name = "EVT98800OPTA"
 		state_scope = {
@@ -475,7 +418,7 @@ province_event = {
 	id = 971347
 	title = "971347.T"
 	desc = "971347.D"
-	
+
 	trigger = {
 		region = FRA_1884
 		owned_by = THIS
@@ -498,11 +441,11 @@ province_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 120
 	}
-	
+
 	option = {
 		name = "EVT98800OPTA"
 		state_scope = {
@@ -521,7 +464,7 @@ province_event = {
 	id = 971348
 	title = "971348.T"
 	desc = "971348.D"
-	
+
 	trigger = {
 		region = FRA_1879
 		owned_by = THIS
@@ -544,11 +487,11 @@ province_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 120
 	}
-	
+
 	option = {
 		name = "EVT98800OPTA"
 		state_scope = {
@@ -567,7 +510,7 @@ province_event = {
 	id = 971349
 	title = "971349.T"
 	desc = "971349.D"
-	
+
 	trigger = {
 		region = FRA_1892
 		owned_by = THIS
@@ -590,11 +533,11 @@ province_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 120
 	}
-	
+
 	option = {
 		name = "EVT98800OPTA"
 		state_scope = {

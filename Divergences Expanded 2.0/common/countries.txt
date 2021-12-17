@@ -17,68 +17,56 @@ NSE   = "countries/North Sea Empire.txt"
 BLT   = "countries/Baltic Empire.txt"
 
 ##DoD
-HLR		= "countries/Holy Roman Empire.txt"
-ARC		= "countries/Arcadia.txt"
-TRO		= "countries/Terra d'Oro.txt"
-AZL		= "countries/Federation.txt"
-NAV		= "countries/Navarre.txt"
+ADR		= "countries/Andhra.txt"       #Releasable in India
+AFS		= "countries/Afsharid.txt"     #Turkmenistan
+AIN		= "countries/Ainu.txt"         #Japan/Siberia
+ALH		= "countries/Hasa.txt"			   #Al Haasa
 ARI		= "countries/AragonItaly.txt"
-FRR		= "countries/Ferrara.txt"
-GEN		= "countries/Genoa.txt"
-FRT		= "countries/FranceItaly.txt"
-BRG		= "countries/Burgundy.txt"
-PRV		= "countries/Provence.txt"
-
-GNV		= "countries/Geneve.txt"
-LRR		= "countries/Lorraine.txt"
-NOV		= "countries/Novgorod.txt"
-
-MUS		= "countries/Muscovy.txt"
-BLR		= "countries/Belarus.txt"
-
-PSV		= "countries/Pskov.txt"
-
-KRL		= "countries/Kurland.txt"
+ARC		= "countries/Arcadia.txt"
 ASK		= "countries/Astrakhan.txt"
-SLA		= "countries/Slavonia.txt"
+AZL		= "countries/Federation.txt"   #Ameriga
 BEG		= "countries/Berg.txt"
+BHA		= "countries/Bharata.txt"		   #Indian Union
+BLR		= "countries/Belarus.txt"
+BRG		= "countries/Burgundy.txt"
 BRN		= "countries/Branderburg.txt"
 CAE		= "countries/Elbian Confederation.txt"
-
+CHG		= "countries/Chagatai.txt"		 #Dzungar Khanate
+DRA		= "countries/Dravida.txt"      #Southern India Formable
+ERI		= "countries/Eritrea.txt"      #Releasable in Africa
 FRI		= "countries/East Frisia.txt"
-MNR		= "countries/Munster.txt"
-THU		= "countries/Thuringia.txt"
-
-TIR		= "countries/Tirol.txt"
-POM		= "countries/Pomerania.txt"
-
-SAL		= "countries/Salzburg.txt"
-SIB		= "countries/Sibir.txt"
-TSS		= "countries/Transsiberia.txt"
-YKT		= "countries/Yakutia.txt"
-ALH		= "countries/Hasa.txt"			#Al Haasa - exists from start
-
-UAR		= "countries/Arab Union.txt"
-KZH		= "countries/Kazakh.txt"
-UGH		= "countries/Uyghur.txt"
-
-TKS		= "countries/Turkestan.txt"
-ERI		= "countries/Eritrea.txt"
-KUR		= "countries/Kurdistan.txt"
-
-CHG		= "countries/Chagatai.txt"		#Chagatai Khanate - exists from start
-NOG		= "countries/Nogai.txt"
-QAJ		= "countries/Qajar.txt"
-ZND		= "countries/Zand.txt"
-AFS		= "countries/Afsharid.txt"
-DRA		= "countries/Dravida.txt"
-BHA		= "countries/Bharata.txt"		#Indian Union
-SRL		= "countries/Ceylon.txt"
-ADR		= "countries/Andhra.txt"
+FRR		= "countries/Ferrara.txt"
+FRT		= "countries/FranceItaly.txt"
+GEN		= "countries/Genoa.txt"
+GNV		= "countries/Geneve.txt"
+HLR		= "countries/Holy Roman Empire.txt"
 KKN		= "countries/Kita Kaigan.txt"
+KRL		= "countries/Kurland.txt"
+KUR		= "countries/Kurdistan.txt"
+KZH		= "countries/Kazakh.txt"
+LRR		= "countries/Lorraine.txt"
+MIG		= "countries/Ming.txt"        #Nanjing
+MNR		= "countries/Munster.txt"     #German Nation
+MUS		= "countries/Muscovy.txt"
+NAV		= "countries/Navarre.txt"
+NOG		= "countries/Nogai.txt"
+NOV		= "countries/Novgorod.txt"
+POM		= "countries/Pomerania.txt"
+PRV		= "countries/Provence.txt"
+PSV		= "countries/Pskov.txt"
+QAJ		= "countries/Qajar.txt"        #Teheran
+SIB		= "countries/Sibir.txt"
+SLA		= "countries/Slavonia.txt"     #Serb/Hungarian Releasable
+SRL		= "countries/Ceylon.txt"
+THU		= "countries/Thuringia.txt"
+TIR		= "countries/Tirol.txt"
+TKS		= "countries/Turkestan.txt"
+TSS		= "countries/Transsiberia.txt"
+UAR		= "countries/Arab Union.txt"
+UGH		= "countries/Uyghur.txt"
+YKT		= "countries/Yakutia.txt"
+ZND		= "countries/Zand.txt"
 
-AIN		= "countries/Ainu.txt"
-MIG		= "countries/Ming.txt"
 TNG		= "countries/Tungning.txt"
 TAI		= "countries/Taiping.txt"
 MDR		= "countries/Madurai.txt"

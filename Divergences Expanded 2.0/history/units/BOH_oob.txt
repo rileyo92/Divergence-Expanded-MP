@@ -10,12 +10,6 @@ AUS = {
 	influence_value = 100
 }
 
-SAL = {
-	value = 75		#relation
-	level = 5		#3=cordial, 4 = friendly, 5 sphere
-	influence_value = 100
-}
-
 PLC = {
 	value = -50 #relation
 	level = 5		#3=cordial, 4 = friendly, 5 sphere
@@ -140,13 +134,13 @@ army = {
 		type = infantry
 		home = 631
 	}
-	
+
 	regiment = {
 		name= "4.1st Division"
 		type = artillery
 		home = 625
 	}
-	
+
 	regiment = {
 		name= "5.1st Division"
 		type = hussar
@@ -186,13 +180,13 @@ army = {
 		type = infantry
 		home = 682
 	}
-	
+
 	regiment = {
 		name= "4.1st Division"
 		type = artillery
 		home = 631
 	}
-	
+
 	regiment = {
 		name= "5.1st Division"
 		type = hussar
@@ -232,13 +226,13 @@ army = {
 		type = infantry
 		home = 682
 	}
-	
+
 	regiment = {
 		name= "4.1st Division"
 		type = artillery
 		home = 682
 	}
-	
+
 	regiment = {
 		name= "5.1st Division"
 		type = hussar
@@ -278,13 +272,13 @@ army = {
 		type = infantry
 		home = 558
 	}
-	
+
 	regiment = {
 		name= "4.1st Division"
 		type = artillery
 		home = 682
 	}
-	
+
 	regiment = {
 		name= "5.1st Division"
 		type = hussar
@@ -324,13 +318,13 @@ army = {
 		type = infantry
 		home = 553
 	}
-	
+
 	regiment = {
 		name= "4.1st Division"
 		type = artillery
 		home = 553
 	}
-	
+
 	regiment = {
 		name= "5.1st Division"
 		type = hussar
