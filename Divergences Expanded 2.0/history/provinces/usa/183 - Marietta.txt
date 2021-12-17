@@ -4,5 +4,5 @@ add_core = PLA
 add_core = NBG
 add_core = VIN
 add_core = IRO
-trade_goods = cotton
+trade_goods = coal
 life_rating = 35

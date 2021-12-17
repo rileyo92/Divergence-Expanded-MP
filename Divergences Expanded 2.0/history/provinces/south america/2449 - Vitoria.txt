@@ -3,5 +3,5 @@ controller = AMA
 add_core = LOT
 add_core = ATL
 add_core = AMA
-trade_goods = coffee
+trade_goods = coal
 life_rating = 40

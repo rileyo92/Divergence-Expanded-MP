@@ -1,7 +1,7 @@
 owner = INC
 controller = INC
 add_core = INC
-trade_goods = fruit
+trade_goods = sulphur
 terrain = farmlands
 naval_base = 1
 life_rating = 40

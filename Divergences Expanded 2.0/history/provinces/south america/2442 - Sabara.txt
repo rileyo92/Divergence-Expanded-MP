@@ -1,5 +1,5 @@
 owner = AMA
 controller = AMA
 add_core = AMA
-trade_goods = coffee
+trade_goods = iron
 life_rating = 35

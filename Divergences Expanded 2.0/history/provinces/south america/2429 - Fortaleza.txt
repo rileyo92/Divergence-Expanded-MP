@@ -1,6 +1,6 @@
 owner = AMA
 controller = AMA
 add_core = AMA
-trade_goods = fish
+trade_goods = coal
 terrain = savanna
 life_rating = 35

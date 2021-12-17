@@ -1,5 +1,5 @@
 owner = HHR
 controller = HHR
 add_core = HHR
-trade_goods = grain
+trade_goods = coal
 life_rating = 35
