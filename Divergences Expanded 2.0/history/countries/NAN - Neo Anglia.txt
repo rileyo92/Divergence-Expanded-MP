@@ -6,6 +6,7 @@ government = hms_government
 plurality = 10.0
 nationalvalue = nv_order
 literacy = 0.30
+non_state_culture_literacy = 0.05
 civilized = yes
 
 

@@ -5,38 +5,37 @@
 	aristocrats = {
 		culture = guianan
 		religion = catholic
-		size = 100
+		size = 500
 	}
 
 	bureaucrats = {
 		culture = guianan
 		religion = catholic
-		size = 50
+		size = 500
 	}
 
 	clergymen = {
 		culture = guianan
 		religion = catholic
-		size = 25
+		size = 250
 	}
 
 	artisans = {
 		culture = guianan
 		religion = catholic
-		size = 350
+		size = 1350
 	}
 
 	soldiers = {
 		culture = guianan
 		religion = catholic
-		size= 25
-
+		size = 250
 	}
 
 	farmers = {
 		culture = guianan
 		religion = catholic
-		size = 100
+		size = 15000
 	}
 
 	clergymen = {
@@ -108,32 +107,32 @@
 	aristocrats = {
 		culture = guianan
 		religion = catholic
-		size = 50
+		size = 500
 	}
 
 	clergymen = {
 		culture = guianan
 		religion = catholic
-		size = 25
+		size = 250
 	}
 
 	artisans = {
 		culture = guianan
 		religion = catholic
-		size = 100
+		size = 1000
 	}
 
 	soldiers = {
 		culture = guianan
 		religion = catholic
-		size= 25
+		size= 250
 
 	}
 
 	farmers = {
 		culture = guianan
 		religion = catholic
-		size = 50
+		size = 50000
 	}
 
 	clergymen = {
@@ -209,38 +208,37 @@
 	aristocrats = {
 		culture = guianan
 		religion = catholic
-		size = 150
+		size = 450
 	}
 
 	bureaucrats = {
 		culture = guianan
 		religion = catholic
-		size = 10
+		size = 100
 	}
 
 	clergymen = {
 		culture = guianan
 		religion = catholic
-		size = 10
+		size = 100
 	}
 
 	artisans = {
 		culture = guianan
 		religion = catholic
-		size = 100
+		size = 1000
 	}
 
 	soldiers = {
 		culture = guianan
 		religion = catholic
-		size= 50
-
+		size= 500
 	}
 
 	farmers = {
 		culture = guianan
 		religion = catholic
-		size = 80
+		size = 40000
 	}
 
 	artisans = {
@@ -347,26 +345,31 @@
 	aristocrats = {
 		culture = guianan
 		religion = catholic
-		size = 75
+		size = 750
 	}
 
 	bureaucrats = {
 		culture = guianan
 		religion = catholic
-		size = 60
+		size = 600
 	}
 
 	artisans = {
 		culture = guianan
 		religion = catholic
-		size = 100
+		size = 1000
 	}
 
 	soldiers = {
 		culture = guianan
 		religion = catholic
-		size= 75
+		size= 750
+	}
 
+	farmers = {
+		culture = guianan
+		religion = catholic
+		size = 35000
 	}
 
 	clergymen = {

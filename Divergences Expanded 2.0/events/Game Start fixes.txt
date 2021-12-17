@@ -1,4 +1,4 @@
-country_event = { #Vinlandic literacy nerf
+country_event = { #Vinlandic Literacy Nerf
 
 	id = 600005
 	title = "600005.T"
@@ -25,6 +25,30 @@ country_event = { #Vinlandic literacy nerf
 				has_pop_culture = afro_germanic
 			}
 			literacy = -0.35
+		}
+	}
+}
+
+country_event = { #Lotharingians in Amazonie Fix
+
+	id = 600006
+	title = "600006.T"
+	desc = "600006.D"
+
+  trigger = {
+		tag = AMA
+	}
+  fire_only_once = yes
+	mean_time_to_happen = {
+		days = 1
+	}
+  option = {
+		name = "600006.A"
+    any_pop = {
+			limit = {
+				has_pop_culture = lotharian
+			}
+			literacy = 0.30
 		}
 	}
 }

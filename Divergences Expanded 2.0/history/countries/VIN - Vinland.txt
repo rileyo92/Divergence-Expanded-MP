@@ -9,6 +9,7 @@ government = democracy
 plurality = 20.0
 nationalvalue = nv_liberty
 literacy = 0.65
+non_state_culture_literacy = 0.05
 civilized = yes
 prestige = 10
 
@@ -82,9 +83,10 @@ mechanized_mining = 1
 basic_chemistry = 1
 battleship_column_doctrine = 1
 experimental_railroad = 1
-high_pressure_steam_engine = 1
-interchangeable_parts = 1
 steamers = 1
+market_structure = 1
+naval_professionalism = 1
+naval_plans = 1
 
 #Inventions
 authoritarianism = yes

@@ -482,31 +482,31 @@
 	aristocrats = {
 		culture = guianan
 		religion = catholic
-		size = 40
+		size = 400
 	}
 	clergymen = {
 		culture = guianan
 		religion = catholic
-		size = 50
+		size = 500
 	}
 
 	artisans = {
 		culture = guianan
 		religion = catholic
-		size = 65
+		size = 650
 	}
 
 	soldiers = {
 		culture = guianan
 		religion = catholic
-		size= 50
+		size= 500
 
 	}
 
 	farmers = {
 		culture = guianan
 		religion = catholic
-		size = 900
+		size = 36000
 	}
 	clergymen = {
 		culture = afro_latino
