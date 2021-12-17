@@ -2,20 +2,20 @@
 
 country_event = {
 
-  id = SCAVIN001
-  title = "SCAVIN001.T"
-  desc = "SCAVIN001.D"
+  id = 600001
+  title = "600001.T"
+  desc = "600001.D"
   is_triggered_only = yes
 
   option = {
-    name = "SCAVIN001.A"
+    name = "600001.A"
     badboy = -5
     ai_chance = {
 			factor = 0
 		}
   }
   option = {
-    name = "SCAVIN001.B"
+    name = "600001.B"
     set_country_flag = scandi_claimed_vinland
     add_accepted_culture = vinlander
     ai_chance = {
@@ -23,7 +23,7 @@ country_event = {
 		}
   }
   option = {
-    name = "SCAVIN001.C"
+    name = "600001.C"
     badboy = 10
     set_country_flag = scandi_claimed_vinland
     add_accepted_culture = vinlander
@@ -48,14 +48,14 @@ country_event = {
 
 country_event = {
 
-  id = BLTSCO001
-  title = "BLTSCO001.T"
-  desc = "BLTSCO001.D"
+  id = 600002
+  title = "600002.T"
+  desc = "600002.D"
   fire_only_once = yes
 
   trigger = {
     tag = BLT
-    primary_culture = scandinavia
+    primary_culture = scandinavian
     269 = { NOT = { owned_by = BLT } }
     267 = { NOT = { owned_by = BLT } }
     war = no
@@ -64,7 +64,7 @@ country_event = {
     months = 1
   }
   option = {
-    name = "BLTSCO001.A"
+    name = "600002.A"
     SCO = { all_core = { remove_core = BLT } }
     remove_accepted_culture = scottish
   }
@@ -74,9 +74,9 @@ country_event = {
 
 country_event = {
 
-  id = NSEBAL001
-  title = "NSEBAL001.T"
-  desc = "NSEBAL001.D"
+  id = 600003
+  title = "600003"
+  desc = "600003.D"
   fire_only_once = yes
 
   trigger = {
@@ -92,7 +92,7 @@ country_event = {
     months = 1
   }
   option = {
-    name = "NSEBAL001.A"
+    name = "600003.A"
     LAT = { all_core = { remove_core = NSE } }
     LIT = { all_core = { remove_core = NSE } }
     remove_accepted_culture = estonian
@@ -105,9 +105,9 @@ country_event = {
 
 country_event = {
 
-  id = NSEPOM001
-  title = "NSEPOM001.T"
-  desc = "NSEPOM001.D"
+  id = 600004
+  title = "600004.T"
+  desc = "600004.D"
   fire_only_once = yes
 
   trigger = {
@@ -123,7 +123,7 @@ country_event = {
     months = 1
   }
   option = {
-    name = "NSEPOM001.A"
+    name = "600004.A"
     POM = { all_core = { remove_core = NSE } }
     PRU = { all_core = { remove_core = NSE } }
     remove_accepted_culture = pomeranian
