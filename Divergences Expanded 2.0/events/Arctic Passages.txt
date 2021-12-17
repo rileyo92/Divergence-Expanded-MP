@@ -45,4 +45,5 @@ country_event = { #North-East Passage Discovered
   option = {
     name = "500086.A"
     prestige = 30
+  }
 }
