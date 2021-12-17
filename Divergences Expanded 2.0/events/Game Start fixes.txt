@@ -1,0 +1,30 @@
+country_event = { #Vinlandic literacy nerf
+
+	id = 600005
+	title = "600005.T"
+	desc = "600005.D"
+
+  trigger = {
+		tag = VIN
+	}
+  fire_only_once = yes
+	mean_time_to_happen = {
+		days = 1
+	}
+  option = {
+		name = "600005.A"
+		any_pop = {
+			limit = {
+				NOT = { has_pop_culture = vinlander }
+        NOT = { has_pop_culture = afro_germanic }
+			}
+			literacy = -0.55
+		}
+    any_pop = {
+			limit = {
+				has_pop_culture = afro_germanic
+			}
+			literacy = -0.35
+		}
+	}
+}
