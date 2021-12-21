@@ -961,6 +961,24 @@ rear_area_dumps = {
 		}
 	}
 }
+interwar_warfare_2 = {
+	limit = { year = 1925 }
+	chance = {
+		base = 100
+	}
+	effect = {
+		combat_width = 5
+	}
+}
+interwar_warfare = {
+	limit = { year = 1920 }
+	chance = {
+		base = 100
+	}
+	effect = {
+		combat_width = 5
+	}
+}
 #iron_breech_loaded_artillery
 #indirect_artillery_fire
 #heavy_armament
