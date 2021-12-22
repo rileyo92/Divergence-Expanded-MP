@@ -72,20 +72,6 @@ country_migration_target =
 	factor = 1
 
 	modifier = {
-		factor = 4.0
-		THIS = { religion = jewish }
-		any_owned_province = { is_core = ISR }
-	}
-	modifier = {
-		factor = 10.0
-		OR = {
-			continent = north_america
-			continent = south_america
-			continent = oceania
-			tag = SAF
-		}
-	}
-	modifier = {
 		factor = 0.9
 		unemployment = 0.05
 	}
@@ -117,20 +103,102 @@ country_migration_target =
 		factor = 0.1
 		unemployment = 0.5
 	}
-	modifier = {
-		factor = 1.05
-		vote_franschise = wealth_voting
+	modifier = { #Neighbour easier to get to, Immigrant nation bias, accepted nation bias
+		factor = 2
+		OR = {
+			neighbour = THIS
+			continent = north_america
+			continent = south_america
+			continent = oceania
+			tag = SAF
+			tag = TRN
+			tag = ORA
+		}
+	}
+	modifier = { #Flemish/Dutch/German to Boer Bias
+		factor = 1.2
+		OR = {
+			primary_culture = boer
+			accepted_culture = boer
+		}
+		OR = {
+			THIS = { culture = boer }
+			THIS = { culture = dutch }
+			THIS = { culture = flemish }
+			THIS = { culture = north_german }
+			THIS = { culture = south_german }
+		}
+	}
+	modifier = { #French to French Canadian Bias
+		factor = 1.2
+		OR = {
+			primary_culture = french_canadian
+			accepted_culture = french_canadian
+		}
+		OR = {
+			THIS = { culture = french }
+			THIS = { culture = wallonian }
+			THIS = { culture = french_canadian }
+		}
+	}
+	modifier = { #British to Anglo Bias
+		factor = 1.2
+		OR = {
+			primary_culture = yankee
+			accepted_culture = yankee
+			primary_culture = dixie
+			accepted_culture = dixie
+			primary_culture = anglo_canadian
+			accepted_culture = anglo_canadian
+			primary_culture = australian
+			accepted_culture = australian
+			primary_culture = british
+			accepted_culture = british
+		}
+		NOT = { tag = ENG }
+		OR = {
+			THIS = { culture = yankee }
+			THIS = { culture = dixie }
+			THIS = { culture = anglo_canadian }
+			THIS = { culture = australian }
+			THIS = { culture = british }
+		}
+	}
+	modifier = { #Iberian/Italian to Latin America Bias
+		factor = 1.2
+		OR = {
+			primary_culture = brazilian
+			accepted_culture = brazilian
+			primary_culture = platinean
+			accepted_culture = platinean
+			primary_culture = south_andean
+			accepted_culture = south_andean
+			primary_culture = north_andean
+			accepted_culture = north_andean
+			primary_culture = central_american
+			accepted_culture = central_american
+			primary_culture = mexican
+			accepted_culture = mexican
+			primary_culture = caribeno
+			accepted_culture = caribeno
+		}
+		OR = {
+			THIS = { culture = brazilian }
+			THIS = { culture = platinean }
+			THIS = { culture = south_andean }
+			THIS = { culture = north_andean }
+			THIS = { culture = central_american }
+			THIS = { culture = mexican }
+			THIS = { culture = caribeno }
+			THIS = { culture = portuguese }
+			THIS = { culture = spanish }
+			THIS = { culture = catalan }
+			THIS = { culture = basque }
+			THIS = { culture = north_italian }
+			THIS = { culture = south_italian }
+		}
 	}
 	modifier = {
-		factor = 1.25
-		vote_franschise = universal_weighted_voting
-	}
-	modifier = {
-		factor = 1.5
-		vote_franschise = universal_voting
-	}
-
-		modifier = {
 		factor = 0.1
 		NOT = {
 			any_owned_province = {
@@ -145,7 +213,7 @@ country_migration_target =
 					}
 					AND = {
 						state_scope = { has_factories = yes }
-						NOT = { unemployment_by_type = { value = 0.1 type = farmers } }
+						NOT = { unemployment_by_type = { value = 0.1 type = craftsmen } }
 					}
 				}
 			}
