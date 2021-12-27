@@ -408,7 +408,6 @@ political_decisions = {
 			ENG_291 = { add_core = NSE } #Eastern Counties
 			ENG_300 = { add_core = NSE } #Ile de Londres
 			ENG_301 = { add_core = NSE } #South-East England
-			change_tag = NSE
 			capital = 281
       change_tag = NSE
 		}

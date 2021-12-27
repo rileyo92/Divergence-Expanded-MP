@@ -24,7 +24,7 @@ political_decisions = {
 		potential = {
 			OR = {
 				tag = NOV
-				tag = PSK
+				tag = PSV
 			}
 			NOT = { has_country_flag = nov_livonian_conquest }
 		}
@@ -46,7 +46,7 @@ political_decisions = {
 		potential = {
 			OR = {
 				tag = NOV
-				tag = PSK
+				tag = PSV
 			}
 			NOT = { BLT = { exists = yes } }
 		}
@@ -65,7 +65,7 @@ political_decisions = {
 			set_country_flag = novgorod_baltic_empire
 			prestige = 25
 			NOV = { all_core = { add_core = BLT } }
-			PSK = { all_core = { add_core = BLT } }
+			PSV = { all_core = { add_core = BLT } }
 			FIN = { all_core = { add_core = BLT } }
 			RUS_349 = { add_core = THIS } #Estonia
 			RUS_354 = { add_core = THIS } #Latvia
@@ -364,7 +364,7 @@ political_decisions = {
 			add_accepted_culture = tatar
 			add_accepted_culture = astrakhani
 			add_accepted_culture = crimean
-			add_accepted_culture = kazakh
+			add_accepted_culture = kazak
 			set_country_flag = tatar_culture
 			RUS_1469 = { add_core = THIS } #Tannu Tuva
 			RUS_1196 = { add_core = THIS } #Turkmenia

@@ -102,7 +102,6 @@ political_decisions = {
 			OR = {
 				tag = SWI
 				tag = TIR
-				tag = SAL
 				tag = AUS
 				tag = GNV
 			}
