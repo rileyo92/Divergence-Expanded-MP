@@ -59,7 +59,7 @@ political_decisions = {
 			iron_railroad = 1
 		}
 		effect = {
-			prestige = 5
+			prestige = 15
 			set_global_flag = transcontinental_railroad
 			137 = { infrastructure = 1 life_rating = 5 }
 			136 = { infrastructure = 1 life_rating = 2 }
@@ -67,7 +67,6 @@ political_decisions = {
 			104 = { infrastructure = 1 life_rating = 2 }
 			100 = { infrastructure = 1 life_rating = 2 }
 			90 = { infrastructure = 1 life_rating = 10 }
-			prestige = 10
 		}
 	}
 
@@ -88,13 +87,6 @@ political_decisions = {
 			modifier = {
 				factor = 0
 				AND = {
-					governement = democracy
-					NOT = { CLM = { governement = democracy } }
-				}
-			}
-			modifier = {
-				factor = 0
-				AND = {
 					OR = {
 						governement = presidential_dictatorship
 						government = absolute_monarchy
@@ -105,20 +97,6 @@ political_decisions = {
 						CLM = { governement = democracy }
 						CLM = { governement = proletarian_dictatorship }
 					}
-				}
-			}
-			modifier = {
-				factor = 0
-				AND = {
-					governement = proletarian_dictatorship
-					NOT = { CLM = { governement = proletarian_dictatorship } }
-				}
-			}
-			modifier = {
-				factor = 0
-				AND = {
-					governement = fascist_dictatorship
-					NOT = { CLM = { governement = fascist_dictatorship } }
 				}
 			}
 		}

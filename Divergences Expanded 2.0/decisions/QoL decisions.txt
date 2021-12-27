@@ -17,44 +17,4 @@ political_decisions = {
       factor = 0
     }
   }
-
-  rgo_change_mining = {
-			picture = alsace_lorraine_mines
-				potential = {
-					NOT = { has_country_modifier = rgo_changed }
-					ai = no
-				}
-				allow = {
-					NOT = { war = yes }
-					NOT = { has_country_flag = rgo_changed_flag }
-				}
-				effect = {
-					country_event = {
-						id = 199936
-					}
-				}
-        ai_will_do = {
-          factor = 0
-        }
-		}
-
-		rgo_change_agriculture = {
-			picture = tea_production
-				potential = {
-					NOT = { has_country_modifier = rgo_changed }
-					ai = no
-				}
-				allow = {
-					NOT = { war = yes }
-					NOT = { has_country_flag = rgo_changed_flag }
-				}
-				effect = {
-					country_event = {
-						id = 199937
-					}
-				}
-        ai_will_do = {
-          factor = 0
-        }
-		}
 }

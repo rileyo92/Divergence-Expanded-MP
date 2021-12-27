@@ -366,7 +366,7 @@ buy_falklands = {
           tag = AZL
           tag = INC
         }
-      has_accepted_culture = beornian
+      accepted_culture = beornian
       }
     }
     NOT = {

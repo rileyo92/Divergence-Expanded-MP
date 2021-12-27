@@ -216,7 +216,6 @@ political_decisions = {
 			2509 = { life_rating = 10 }
 			2571 = { life_rating = 5 }
 			2514 = { life_rating = 2 }
-			any_pop = { limit = { location = { is_core = NZL } has_pop_culture = australian } reduce_pop = 1.2 }
 			any_pop = { limit = { location = { is_core = NZL } has_pop_culture = maori } literacy = -0.8 }
 
 			any_pop = {

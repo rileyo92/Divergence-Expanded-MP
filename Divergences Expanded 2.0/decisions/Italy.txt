@@ -61,29 +61,13 @@ political_decisions = {
 			NOT = { has_country_flag = sar_annex_gen }
 		}
 		allow = {
-			OR = {
-				GEN = {
-					vassal_of = THIS
-				}
-				GEN_724 = {
-					owner = {
-						tag = THIS
-					}
-				}
-			}
+			724 = { owned_by = THIS }
 		}
 		effect = {
 			set_country_flag = sar_annex_gen
 			GEN_724 = { add_core = THIS }
 			SAR_765 = { add_core = THIS }
 			add_accepted_culture = maltese
-			any_country = {
-				limit = {
-					tag = GEN
-					vassal_of = THIS
-				}
-				GEN = { country_event = annexpuppet }
-			}
 		}
 	}
 
@@ -190,7 +174,7 @@ political_decisions = {
 			owns = 729
 		}
 		allow = {
-			cheap_iron = 1
+			hot_blast = 1
 			iron_railroad = 1
 		}
 		effect = {
@@ -219,7 +203,7 @@ political_decisions = {
 		}
 		allow = {
 			medicine = 1
-			cheap_iron = 1
+			hot_blast = 1
 			OR = {
 				realism = 1
 				state_n_government = 1
@@ -507,8 +491,8 @@ political_decisions = {
 						primary_culture = athesian
 					}
 					OR = {
-					in_sphere = THIS
-					vassal_of = THIS
+						in_sphere = THIS
+						vassal_of = THIS
 					}
 					NOT = {
 						tag = THIS
@@ -658,9 +642,6 @@ political_decisions = {
 			add_accepted_culture = albanian
 			add_accepted_culture = greek
 			GRE = {
-				limit = {
-					NOT = { state_id = TUR_805 }
-				}
 				all_core = { add_core = ITA }
 			}
 			TUR_853 = { add_core = ITA }

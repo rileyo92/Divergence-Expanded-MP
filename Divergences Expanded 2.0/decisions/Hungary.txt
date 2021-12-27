@@ -270,7 +270,7 @@ political_decisions = {
 			add_accepted_culture = croat
 			random_owned = {
 				limit = {
-					owner = { minorities_reform = primary_culture_only }
+					owner = { citizens_rights = primary_culture_only }
 				}
 				owner = { political_reform = culture_voting_only }
 			}

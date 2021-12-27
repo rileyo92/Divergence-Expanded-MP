@@ -130,8 +130,8 @@ political_decisions = {
 						in_sphere = THIS
 						vassal_of = THIS
 					}
-					country_event = 11101
 				}
+				country_event = 11101
 			}
 		}
 	}
