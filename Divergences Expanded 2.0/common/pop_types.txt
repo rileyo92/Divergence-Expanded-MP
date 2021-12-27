@@ -1,6 +1,5 @@
 #general promote mtth, same for all pops
-promotion_chance =
-{
+promotion_chance = {
 	factor = 0.25
 	group = {
 		modifier = {
@@ -1299,7 +1298,7 @@ assimilation_chance = {
 			has_culture_core = no
 		}
 	}
-	group =
+	group = {
 		modifier = {
 			factor = 0.25
 			everyday_needs = 0.2
