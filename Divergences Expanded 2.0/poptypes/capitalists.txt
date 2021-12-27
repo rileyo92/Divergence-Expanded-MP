@@ -94,14 +94,14 @@ country_migration_target =
 		government = proletarian_dictatorship
 	}
 	modifier = { #Neighbour easier to get to, Immigrant nation bias
-		factor = 2
+		factor = 2.5
 		OR = {
 			neighbour = THIS
 			has_country_flag = new_world_nation
 		}
 	}
 	modifier = { #Large Bias: Flemish/Dutch/Septiman to Boer
-		factor = 1.3
+		factor = 1.6
 		primary_culture = boer
 		OR = {
 			THIS = { culture = boer }
@@ -111,7 +111,7 @@ country_migration_target =
 		}
 	}
 	modifier = { #Medium Bias: German/Burgundian/Lotharian to Boer
-		factor = 1.2
+		factor = 1.4
 		primary_culture = boer
 		OR = {
 			THIS = { culture = burgundian }
@@ -125,7 +125,7 @@ country_migration_target =
 		}
 	}
 	modifier = { #Small Bias: Bohemian/Scandi/Vinlander to Boer
-		factor = 1.1
+		factor = 1.2
 		primary_culture = boer
 		OR = {
 			THIS = { culture = czech }
@@ -135,7 +135,7 @@ country_migration_target =
 		}
 	}
 	modifier = { #Large Bias: Scandi to Vinlander
-		factor = 1.3
+		factor = 1.6
 		OR = {
 			primary_culture = vinlander
 			primary_culture = ayitian
@@ -150,7 +150,7 @@ country_migration_target =
 		}
 	}
 	modifier = { #Medium Bias: German/Finnish/Estonian/Scottish to Vinlander
-		factor = 1.2
+		factor = 1.4
 		OR = {
 			primary_culture = vinlander
 			primary_culture = ayitian
@@ -168,7 +168,7 @@ country_migration_target =
 		}
 	}
 	modifier = { #Small Bias: Dutch/Flemish/English/Beornian/Bohemian/Boer/Latvian/Novgorodian to Vinlander
-		factor = 1.1
+		factor = 1.2
 		OR = {
 			primary_culture = vinlander
 			primary_culture = ayitian
@@ -186,7 +186,7 @@ country_migration_target =
 		}
 	}
 	modifier = { #Large Bias: Flemish/Boer/Burgundian/Lotharian to Septiman
-		factor = 1.3
+		factor = 1.6
 		primary_culture = septiman
 		OR = {
 			THIS = { culture = septiman }
@@ -197,7 +197,7 @@ country_migration_target =
 		}
 	}
 	modifier = { #Medium Bias: French/Dutch/Amazonian to Septiman
-		factor = 1.2
+		factor = 1.4
 		primary_culture = septiman
 		OR = {
 			THIS = { culture = dutch }
@@ -206,7 +206,7 @@ country_migration_target =
 		}
 	}
 	modifier = { #Small Bias: Breton/provencal/German to Septiman
-		factor = 1.1
+		factor = 1.2
 		primary_culture = septiman
 		OR = {
 			THIS = { culture = breton }
@@ -219,7 +219,7 @@ country_migration_target =
 		}
 	}
 	modifier = { #Very Large Bias: Anglois to Plantagenian
-		factor = 1.5
+		factor = 2.0
 		primary_culture = plantagenian
 		OR = {
 			THIS = { culture = plantagenian }
@@ -227,7 +227,7 @@ country_migration_target =
 		}
 	}
 	modifier = { #Medium Bias: English/Welsh/French/Breton/Amazonian to Plantagenian
-		factor = 1.2
+		factor = 1.4
 		primary_culture = plantagenian
 		OR = {
 			THIS = { culture = english }
@@ -238,7 +238,7 @@ country_migration_target =
 		}
 	}
 	modifier = { #Small Bias: Scottish/provencal/Basque to Plantagenian
-		factor = 1.1
+		factor = 1.2
 		primary_culture = plantagenian
 		OR = {
 			THIS = { culture = scottish }
@@ -248,7 +248,7 @@ country_migration_target =
 		}
 	}
 	modifier = { #Large Bias: Spanish/Portuguese to Gran Colombia
-		factor = 1.3
+		factor = 1.6
 		OR = {
 			primary_culture = lusitanian
 			primary_culture = mexican
@@ -268,7 +268,7 @@ country_migration_target =
 		}
 	}
 	modifier = { #Medium Bias: Catalan/Italian to Gran Colombia
-		factor = 1.2
+		factor = 1.4
 		OR = {
 			primary_culture = lusitanian
 			primary_culture = mexican
@@ -287,7 +287,7 @@ country_migration_target =
 		}
 	}
 	modifier = { #Small Bias: French/provencal to Gran Colombia
-		factor = 1.1
+		factor = 1.2
 		OR = {
 			primary_culture = lusitanian
 			primary_culture = mexican
@@ -301,7 +301,7 @@ country_migration_target =
 		}
 	}
 	modifier = { #Large Bias: French/provencal/Breton to Amazonian
-		factor = 1.3
+		factor = 1.6
 		primary_culture = amazonian
 		OR = {
 			THIS = { culture = amazonian }
@@ -311,7 +311,7 @@ country_migration_target =
 		}
 	}
 	modifier = { #Medium Bias: Anglois/Basque/Lotharian/Burgundian to Amazonian
-		factor = 1.2
+		factor = 1.4
 		primary_culture = amazonian
 		OR = {
 			THIS = { culture = anglois }
@@ -321,7 +321,7 @@ country_migration_target =
 		}
 	}
 	modifier = { #Small Bias: Italian/Catalan to Amazonian
-		factor = 1.1
+		factor = 1.2
 		primary_culture = amazonian
 		OR = {
 			THIS = { culture = north_italian }
@@ -335,7 +335,7 @@ country_migration_target =
 		}
 	}
 	modifier = { #Very Large Bias: Burgundian/Septiman to Lotharian
-		factor = 1.5
+		factor = 2.0
 		primary_culture = lotharian
 		OR = {
 			THIS = { culture = lotharian }
@@ -344,7 +344,7 @@ country_migration_target =
 		}
 	}
 	modifier = { #Medium Bias: French/Amazonian/Flemish/Dutch/Boer to Lotharian
-		factor = 1.2
+		factor = 1.4
 		primary_culture = lotharian
 		OR = {
 			THIS = { culture = french }
@@ -355,7 +355,7 @@ country_migration_target =
 		}
 	}
 	modifier = { #Small Bias: Breton/provencal/Rheinish/Swiss to Lotharian
-		factor = 1.1
+		factor = 1.2
 		primary_culture = lotharian
 		OR = {
 			THIS = { culture = breton }
@@ -365,7 +365,7 @@ country_migration_target =
 		}
 	}
 	modifier = { #Very Large Bias: English/Welsh to Beornian
-		factor = 1.5
+		factor = 2.0
 		primary_culture = beornian
 		OR = {
 			THIS = { culture = english }
@@ -374,7 +374,7 @@ country_migration_target =
 		}
 	}
 	modifier = { #Medium Bias: Irish/Scottish to Beornian
-		factor = 1.2
+		factor = 1.4
 		primary_culture = beornian
 		OR = {
 			THIS = { culture = irish }
@@ -383,7 +383,7 @@ country_migration_target =
 		}
 	}
 	modifier = { #Small Bias: Scandi/Dutch/Flemish/Vinlander to Beornian
-		factor = 1.1
+		factor = 1.2
 		primary_culture = beornian
 		OR = {
 			THIS = { culture = scandinavian }
@@ -398,7 +398,7 @@ country_migration_target =
 		THIS = { culture = anglois }
 	}
 	modifier = { #Large Bias: Italian to Guianan/Athesian
-		factor = 1.3
+		factor = 1.6
 		OR = {
 			primary_culture = guianan
 			primary_culture = athesian
@@ -414,7 +414,7 @@ country_migration_target =
 		}
 	}
 	modifier = { #Medium Bias: Catalan/provencal to Guianan/Athesian
-		factor = 1.2
+		factor = 1.4
 		OR = {
 			primary_culture = guianan
 			primary_culture = athesian
@@ -425,7 +425,7 @@ country_migration_target =
 		}
 	}
 	modifier = { #Small Bias: Iberian/French/Croat/Greek to Guianan/Athesian
-		factor = 1.1
+		factor = 1.2
 		OR = {
 			primary_culture = guianan
 			primary_culture = athesian
@@ -446,7 +446,7 @@ country_migration_target =
 		}
 	}
 	modifier = { #Large Bias: Chinese to Qingqiu/Zhourao/Lanfang
-		factor = 1.3
+		factor = 1.6
 		OR = {
 			primary_culture = qingqiuan
 			primary_culture = ganguan
@@ -464,7 +464,7 @@ country_migration_target =
 		}
 	}
 	modifier = { #Medium Bias: Manchu/Korean/Chinese Minor/Vietnamese to Qingqiu/Zhourao/Lanfang
-		factor = 1.2
+		factor = 1.4
 		OR = {
 			primary_culture = qingqiuan
 			primary_culture = ganguan
@@ -481,7 +481,7 @@ country_migration_target =
 		}
 	}
 	modifier = { #Small Bias: Japanese/Ainu/Malay to Qingqiu/Zhourao/Lanfang
-		factor = 1.1
+		factor = 1.2
 		OR = {
 			primary_culture = qingqiuan
 			primary_culture = ganguan
@@ -496,7 +496,7 @@ country_migration_target =
 		}
 	}
 	modifier = { #Large Bias: Japanese/Ainu to Kita Kaigan
-		factor = 1.3
+		factor = 1.6
 		primary_culture = kaiganese
 		OR = {
 			THIS = { culture = kaiganese }
@@ -505,7 +505,7 @@ country_migration_target =
 		}
 	}
 	modifier = { #Medium Bias: Korean/Malay/Filipino to Kita Kaigan
-		factor = 1.2
+		factor = 1.4
 		primary_culture = kaiganese
 		OR = {
 			THIS = { culture = korean }
@@ -515,7 +515,7 @@ country_migration_target =
 		}
 	}
 	modifier = { #Small Bias: Chinese/Manchu to Kita Kaigan
-		factor = 1.1
+		factor = 1.2
 		primary_culture = kaiganese
 		OR = {
 			THIS = { culture = beifaren }
