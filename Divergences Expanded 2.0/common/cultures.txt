@@ -2180,6 +2180,8 @@ native_south_american = {
 }
 
 native_north_american = {
+	leader = nativeamerican
+	is_overseas = no
 	rohnnst = {
 		color = {15 68 192}
 		first_names = { Albrecht Alexander Arnold August Axel Baltzar Carl Christofer Didrik Edvard
@@ -2579,7 +2581,7 @@ african_diaspora_cultures = {
 			Madiou Pralte Pierrot Planchet Price Price-Mars Rich Rigaud Rivire-Hrard Roumain
 			Roy Saget Salnave Salomon Sam Simon Soulouque Thodore Vincent Zamor }
 	}
-	
+
 	afro_latino = {
 		color = {12 83 12}
 		first_names = { Antonio Armando Arsenio Arturo Bartolom Carlos Dmaso Enrique Francisco Generoso
