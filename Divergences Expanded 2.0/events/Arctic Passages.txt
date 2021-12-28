@@ -6,7 +6,6 @@ country_event = { #North-West Passage Discovered
   major = yes
 
   trigger = {
-    not = { is_canal_enabled = 7 }
     year = 1910
     rank = 16
     steam_turbine_ships = 1
@@ -31,7 +30,6 @@ country_event = { #North-East Passage Discovered
   major = yes
 
   trigger = {
-    not = { is_canal_enabled = 8 }
     year = 1910
     rank = 16
     steam_turbine_ships = 1

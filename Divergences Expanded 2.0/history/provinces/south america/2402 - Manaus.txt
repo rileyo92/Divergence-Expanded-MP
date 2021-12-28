@@ -1,6 +1,7 @@
-
-add_core = EQN 
+owner = GEN
+controller = GEN
+add_core = GUY
 add_core = TAP
 trade_goods = tropical_wood
 life_rating = 20
-colonial = 1
+colonial = 2

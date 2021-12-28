@@ -375,14 +375,6 @@ silver_mine = {
 	icon = 11
 }
 
-peacetime_mobilization = {
-	ruling_party_support = -0.40
-	loan_interest = 1
-	cb_generation_speed_modifier = -0.2
-	prestige = -0.05
-	icon = 6
-}
-
 treaty_port = {
 	mine_rgo_size = 8
 	farm_rgo_size = 8
@@ -621,19 +613,6 @@ the_big_ben = {
 	immigrant_attract = 0.25
 	icon = 5
 }
-
-suez_canal_construction = {
-	icon = 11
-}
-
-kiel_canal_construction = {
-	icon = 11
-}
-
-panama_canal_construction = {
-	icon = 11
-}
-
 
 eiffel_tower_construction = {
 	icon = 11
@@ -2584,6 +2563,11 @@ purge = {
 
 rgo_changed = {
 	icon = 12
+}
+
+minority_rights_guarenteed = {
+	assimilation_rate = -1
+	icon = 18
 }
 
 assimilation_boost_small = {

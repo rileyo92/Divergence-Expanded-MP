@@ -1,4 +1,3 @@
-
 add_core = EQN 
 add_core = TAP
 trade_goods = tropical_wood

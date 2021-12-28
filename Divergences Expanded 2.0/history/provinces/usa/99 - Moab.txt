@@ -1,3 +1,4 @@
+add_core = DNG
 add_core = DIN
 trade_goods = grain
 life_rating = 35

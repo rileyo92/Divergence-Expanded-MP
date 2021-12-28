@@ -1,16 +1,15 @@
 owner = CLM
 controller = CLM
 add_core = CLM
-add_core = CAS
-add_core = SAN
 add_core = GRA
 add_core = TAP
 trade_goods = cattle
 terrain = savanna
-life_rating = 35
+life_rating = 20
+colonial = 2
 1835.1.1 = {
 	controller = SPA
-} 
+}
 
 1837.1.1 = {
 	controller = CLM

@@ -1,114 +1,12 @@
 political_decisions = {
 
-	secure_south_granada = {
-		potential = {
-			OR = {
-				tag = GRA
-				tag = CLM
-			}
-			all_core = { owned_by = THIS }
-			NOT = { has_global_flag = Hispanic_Andes }
-		}
-		allow = {
-			is_greater_power = yes
-			INC = { in_sphere = THIS }
-			nationalism_n_imperialism = 1
-		}
-		effect = {
-			relation = { who = INC value = -200 }
-			set_global_flag = Hispanic_Andes
-			any_owned = {
-				limit = { is_core = GRA }
-				remove_core = INC
-			}
-		}
-	}
-
-	create_gendarmeria = {
-		picture = "Federales"
-		potential = {
-			tag = CLM
-			NOT = { has_country_flag = gendarmerie_CLM }
-		}
-		allow = {
-			state_n_government = 1
-			NOT = { num_of_revolts = 1 }
-		}
-		effect = {
-			add_country_modifier = { name = federales_CLM duration = -1 }
-			set_country_flag = gendarmerie_CLM
-		}
-	}
-
-	sponsor_transcontinental = {
-		potential = {
-			OR = {
-				tag = CLM
-				tag = LST
-				tag = ARC
-			}
-			owns = 137
-			owns = 136
-			owns = 105
-			owns = 104
-			owns = 100
-			owns = 90
-			NOT = { has_global_flag = transcontinental_railroad }
-		}
-		allow = {
-			iron_railroad = 1
-		}
-		effect = {
-			prestige = 15
-			set_global_flag = transcontinental_railroad
-			137 = { infrastructure = 1 life_rating = 5 }
-			136 = { infrastructure = 1 life_rating = 2 }
-			105 = { infrastructure = 1 life_rating = 2 }
-			104 = { infrastructure = 1 life_rating = 2 }
-			100 = { infrastructure = 1 life_rating = 2 }
-			90 = { infrastructure = 1 life_rating = 10 }
-		}
-	}
-
-	Cuba_CLM = {
-		potential = {
-			tag = CUB
-			ai = yes
-		}
-		allow = {
-			CLM = { exists = yes }
-			war = no
-		}
-		effect = {
-			CLM = { country_event = 46514 }
-		}
-		ai_will_do =  {
-			factor = 1
-			modifier = {
-				factor = 0
-				AND = {
-					OR = {
-						governement = presidential_dictatorship
-						government = absolute_monarchy
-						government = prussian_constitutionalism
-						government = hms_government
-					}
-					OR = {
-						CLM = { governement = democracy }
-						CLM = { governement = proletarian_dictatorship }
-					}
-				}
-			}
-		}
-	}
-
 	Congress_CLM = {
 		potential = {
 			tag = CLM
-	    war = no
 			NOT = { has_country_flag = fired_congress }
 		}
 		allow = {
+			war = no
     	ideological_thought = 1
 		}
 		effect = {
@@ -120,6 +18,7 @@ political_decisions = {
 						NOT = { culture = mexican }
 						NOT = { culture = lusitanian }
 						NOT = { culture = central_american }
+						NOT = { culture = granadan }
 					}
 				}
 				militancy = 2
@@ -138,75 +37,295 @@ political_decisions = {
 			political_reform = gerrymandering
 			political_reform = two_year_draft
 			prestige = 25
+			country_event = 600007
+		}
+	}
+	#Arcadia Focus
+	clm_secure_messippi = {
+		potential = {
+			OR = {
+				AND = {
+					tag = CLM
+					has_country_flag = clm_arcadia_focus
+				}
+				tag = LST
+				tag = MEX
+			}
+			NOT = { has_country_flag = secure_messippi }
+		}
+		allow = {
+			nationalism_n_imperialism = 1
+			owns = 132
+			owns = 139
+		}
+		effect = {
+			set_country_flag = secure_messippi
+			PLA_7 = { add_core = THIS } #Nouvelle France
+			PLA_8 = { add_core = THIS } #Messippi
+			NA_1 = { add_core = THIS } #Messippi Superior
+			NA_3 = { add_core = THIS } #Nouvelle Lancastre
+			NA_4 = { add_core = THIS } #Terres-Cau
+			NA_7 = { add_core = THIS } #Terres-Maha
+			NA_109 = { add_core = THIS } #Laofeng
+			NA_5 = { add_core = THIS } #Yulin
+		}
+	}
+	clm_dominate_arcadia = {
+		potential = {
+			OR = {
+				tag = CLM
+				tag = LST
+				tag = MEX
+			}
+			has_country_flag = secure_messippi
+			NOT = { has_country_flag = dominate_arcadia }
+		}
+		allow = {
+			revolution_n_counterrevolution = 1
+			owns = 198
+			owns = 204
+			owns = 200
+		}
+		effect = {
+			badboy = 7.5
+			set_country_flag = dominate_arcadia
+			add_accepted_culture = athesian
+			PLA_6 = { add_core = THIS }
+			PLA_3 = { add_core = THIS }
+			PLA_2 = { add_core = THIS }
+			PLA_4 = { add_core = THIS }
+			PLA_5 = { add_core = THIS }
+			PLA_9 = { add_core = THIS }
+			NA_2 = { add_core = THIS }
+		}
+		ai_will_do = {
+    	factor = 1
+      modifier = { factor = 0 badboy = 0.7 }
+  	}
+	}
+	clm_conquer_qingqiu = {
+		potential = {
+			OR = {
+				tag = LST
+				tag = MEX
+				AND = {
+					tag = CLM
+					has_country_flag = clm_arcadia_focus
+				}
+			}
+			NOT = { has_country_flag = conquer_qingqiu }
+		}
+		allow = {
+			nationalism_n_imperialism = 1
+			owns = 87
+			owns = 84
+			owns = 81
+			owns = 78
+		}
+		effect = {
+			set_country_flag = conquer_qingqiu
+			DNG = { all_core = { add_core = THIS } }
+		}
+	}
+	clm_conquer_kita = {
+		potential = {
+			OR = {
+				tag = LST
+				tag = MEX
+				tag = CLM
+			}
+			NOT = { has_country_flag = conquer_kita }
+			has_country_flag = conquer_qingqiu
+		}
+		allow = {
+			owns = 14
+			revolution_n_counterrevolution = 1
+		}
+		effect = {
+			badboy = 5
+			KKN = { all_core = { add_core = THIS } }
+			set_country_flag = conquer_kita
+		}
+		ai_will_do = {
+    	factor = 1
+      modifier = { factor = 0 badboy = 0.8 }
+  	}
+	}
+	
+	#Ameriga Focus
+	clm_secure_guiana = {
+		potential = {
+			OR = {
+				tag = GRA
+				AND = {
+					tag = CLM
+					has_country_flag = clm_ameriga_focus
+				}
+			}
+			NOT = { has_country_flag = secure_guiana }
+		}
+		allow = {
+			state_n_government = 1
+			owns = 2240
+			owns = 2415
+		}
+		effect = {
+			GUY = { all_core = { add_core = THIS } }
+			add_accepted_culture = guianan
+			set_country_flag = secure_guiana
+		}
+	}
+	clm_secure_the_amazon = {
+		potential = {
+			OR = {
+				tag = GRA
+				tag = CLM
+			}
+			has_country_flag = secure_guiana
+			NOT = { has_country_flag = secure_the_amazon }
+		}
+		allow = {
+			nationalism_n_imperialism = 1
+			owns = 2410
+			owns = 2415
+		}
+		effect = {
+			BRZ_2408 = { add_core = THIS }
+			AMA_1 = { add_core = THIS }
+			AMA_2410 = { add_core = THIS }
+			SA_2 = { add_core = THIS }
+			SA_3 = { add_core = THIS }
+			SA_1 = { add_core = THIS }
+			set_country_flag = secure_the_amazon
+		}
+	}
+	clm_dominate_ameriga = {
+		potential = {
+			OR = {
+				tag = GRA
+				tag = CLM
+			}
+			has_country_flag = secure_the_amazon
+			NOT = { has_country_flag = dominate_ameriga }
+		}
+		allow = {
+			revolution_n_counterrevolution = 1
+			owns = 2431
+			owns = 2436
+		}
+		effect = {
+			badboy = 5
+			AMA_2 = { add_core = THIS }
+			AMA_4 = { add_core = THIS }
+			AMA_3 = { add_core = THIS }
+			AMA_5 = { add_core = THIS }
+			LOT_1 = { add_core = THIS }
+		}
+		ai_will_do = {
+    	factor = 1
+      modifier = { factor = 0 badboy = 0.8 }
+  	}
+	}
+	clm_conquer_incas = {
+		potential = {
+			OR = {
+				tag = GRA
+				AND = {
+					tag = CLM
+					has_country_flag = clm_ameriga_focus
+				}
+			}
+			NOT = { has_country_flag = conquer_incas }
+		}
+		allow = {
+			nationalism_n_imperialism = 1
+			INC = { exists = no }
+		}
+		effect = {
+			INC = { all_core = { add_core = THIS } }
+			INC = { all_core = { add_core = GRA } }
+			INC = { all_core = { remove_core = INC } }
+			set_country_flag = conquer_incas
 		}
 	}
 
-	rename_laofeng = {
-  	potential = {
-			OR = {
-				tag = CLM
-        tag = LST
-			}
-      owns = 99
-      owns = 103
-      owns = 108
-      owns = 109
-      NOT = {
-        has_global_flag = laofeng_renamed
-      }
+	#Stability Focus
+	gran_colombia_beacon_of_liberty = {
+    potential = {
+      tag = CLM
+      has_country_flag = clm_stability_focus
+      NOT = { has_country_flag = clm_liberty_beacon }
     }
     allow = {
-    	owns = 99
+      revolution_n_counterrevolution = 1
+      phenomenology_n_hermeneutic = 1
+			social_science = 1
     }
     effect = {
-			NA_109 = {
-				add_core = CLM
-				add_core = LST
+      set_country_flag = clm_liberty_beacon
+      add_country_modifier = {
+        name = the_homestead_act
+        duration = -1
+      }
+    }
+  }
+	clm_integrate_minor_natives = {
+		potential = {
+			tag = CLM
+			has_country_flag = clm_stability_focus
+			NOT = { has_country_flag = integrate_minor_natives }
+		}
+		allow = {
+			nationalism_n_imperialism = 1
+			biologism = 1
+			OR = {
+				owns = 102
+				owns = 136
 			}
-      99 = {
-      	change_province_name = "Canion de Sao Jorge"
-        state_scope = {
-        	change_region_name = "Rio Vermelho"
-        }
-      }
-      103 = { change_province_name = "Povoados" }
-    	108 = { change_province_name = "Santa Ana do Rio" }
-      109 = { change_province_name = "Padre Anchieta" }
-			set_global_flag = laofeng_renamed
-    }
-  }
-
-  restore_laofeng = {
-  	potential = {
-    	OR = {
-      	tag = KKN
-        tag = JAP
-        tag = DNG
-      }
-      has_global_flag = laofeng_renamed
-      owns = 99
-      owns = 103
-      owns = 108
-      owns = 109
-    }
-    allow = {
-    	owns = 99
-    }
-  	effect = {
-    	99 = {
-      	change_province_name = "Xinhe"
-        state_scope = {
-        	change_region_name = "Laofeng Region"
-        }
-      }
-      103 = { change_province_name = "Daguan" }
-      108 = { change_province_name = "Longshiqiao" }
-      109 = { change_province_name = "Laofeng" }
-      LST = { prestige = -1 }
-      CLM = { prestige = -1 }
-      clr_global_flag = laofeng_renamed
-    }
-  }
+			OR = {
+				owns = 2289
+				owns = 2260
+				owns = 2277
+			}
+		}
+		effect = {
+			set_country_flag = integrate_minor_natives
+			add_accepted_culture = apache
+			add_accepted_culture = amazonian_native
+		}
+	}
+	clm_integrate_mesoamericans = {
+		potential = {
+			tag = CLM
+			has_country_flag = clm_stability_focus
+			NOT = { has_country_flag = integrate_mesoamericans }
+		}
+		allow = {
+			revolution_n_counterrevolution = 1
+			social_science = 1
+		}
+		effect = {
+			set_country_flag = integrate_mesoamericans
+			add_accepted_culture = nahua
+			add_accepted_culture = mayan
+		}
+	}
+	create_gendarmeria = {
+		picture = "Federales"
+		potential = {
+			tag = CLM
+			has_country_flag = clm_stability_focus
+			NOT = { has_country_flag = gendarmerie_CLM }
+		}
+		allow = {
+			state_n_government = 1
+			NOT = { num_of_revolts = 1 }
+		}
+		effect = {
+			add_country_modifier = { name = federales_CLM duration = -1 }
+			set_country_flag = gendarmerie_CLM
+		}
+	}
 
 	universityMEX = {
 		picture = universidad_mexico
@@ -237,28 +356,6 @@ political_decisions = {
 			scaled_consciousness = {
 				issue = moralism
 				factor = 5
-			}
-		}
-	}
-
-	dine_bikeyah_pueblos = {
-		potential = {
-			OR = {
-				tag = CLM
-				tag = LST
-			}
-			NOT = { has_global_flag = puebloz }
-		}
-		allow = {
-			NA_109 = { owned_by = THIS }
-		}
-
-		effect = {
-			prestige = 4
-			set_global_flag = puebloz
-			NA_109 = {
-				add_core = LST
-				add_core = CLM
 			}
 		}
 	}
