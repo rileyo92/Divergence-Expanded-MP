@@ -1,17 +1,18 @@
-capital = 1283
-primary_culture = bihari
-religion = hindu
-government = absolute_monarchy
-plurality = 0.0
-nationalvalue = nv_tradition
-literacy = 0.1
-non_state_culture_literacy = 0.05
+capital = 718
+primary_culture = byelorussian
+religion = orthodox
+government = democracy
+plurality = 0.2
+nationalvalue = nv_order
+literacy = 0.3
+civilized = yes
+
 
 # Political reforms
 slavery = no_slavery
 upper_house_composition = appointed
 vote_franschise = none_voting
-public_meetings = no_meeting
+public_meetings = yes_meeting
 press_rights = state_press
 trade_unions = no_trade_unions
 voting_system = first_past_the_post
@@ -27,25 +28,21 @@ pensions = no_pensions
 school_reforms = no_schools
 
 #New Reforms
-conscription = one_year_draft
+conscription = four_year_draft
 debt_law = peonage
 penal_system = capital_punishment
-child_labor = child_labor_legalcitizens_rights = culture_voting_only
+child_labor = child_labor_legalcitizens_rights = primary_culture_only
 border_policy = open_borders
 
-set_country_flag = hindu_country
+set_country_flag = orthodox_country
 
-# Inventions
-#bottling_process = yes
-modern_winemaking = yes
-
-ruling_party = AAA_conservative_4
+ruling_party = BYE_conservative
 upper_house = {
 	fascist = 0
-	liberal = 11
-	conservative = 73
-	reactionary = 16
-	anarcho_liberal = 0
+	liberal = 36
+	conservative = 40
+	reactionary = 12
+	anarcho_liberal = 12
 	socialist = 0
 	communist = 0
 }

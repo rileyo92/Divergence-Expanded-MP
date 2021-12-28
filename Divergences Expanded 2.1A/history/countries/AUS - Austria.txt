@@ -2,7 +2,7 @@ capital = 619
 primary_culture = south_german
 religion = catholic
 government = absolute_monarchy
-plurality = 10.0
+plurality = 0.25
 nationalvalue = nv_autocracy
 literacy = 0.6
 civilized = yes
@@ -24,7 +24,7 @@ work_hours = no_work_hour_limit
 safety_regulations = no_safety
 health_care = no_health_care
 unemployment_subsidies = no_subsidies
-pensions = no_pensions 
+pensions = no_pensions
 school_reforms = no_schools
 
 #New Reforms
@@ -110,7 +110,7 @@ oob = "AUS_oob.txt"
 	military_statistics = 1
 	army_command_principle = 1
 	army_professionalism = 1
-	
+
 	post_nelsonian_thought = 1
 	battleship_column_doctrine = 1
 	raider_group_doctrine = 1
@@ -121,7 +121,7 @@ oob = "AUS_oob.txt"
 	alphabetic_flag_signaling = 1
 	naval_plans = 1
 	the_command_principle = 1
-	
+
 	private_banks = 1
 	stock_exchange = 1
 	no_standard = 1
@@ -131,7 +131,7 @@ oob = "AUS_oob.txt"
 	freedom_of_trade = 1
 	market_structure = 1
 	guild_based_production = 1
-	
+
 	classicism_n_early_romanticism = 1
 	romanticism = 1
 	realism = 1
@@ -145,7 +145,7 @@ oob = "AUS_oob.txt"
 	introspectionism = 1
 	associationism = 1
 	phenomenalism = 1
-	
+
 	piston_steam_engine = 1
 	high_pressure_steam_engine = 1
 	mechanical_production = 1

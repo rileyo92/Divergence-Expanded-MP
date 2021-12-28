@@ -1,21 +1,22 @@
-capital = 1251
-primary_culture = bengali
-culture = bihari
-religion = hindu
-government = absolute_monarchy
+capital = 409
+primary_culture = south_german
+culture = north_german
+religion = protestant
+government = democracy
 plurality = 0.0
-nationalvalue = nv_tradition
-literacy = 0.1
+nationalvalue = nv_equality
+literacy = 0.80
+civilized = yes
 
 # Political reforms
 slavery = no_slavery
 upper_house_composition = appointed
-vote_franschise = none_voting
-public_meetings = no_meeting
-press_rights = state_press
-trade_unions = no_trade_unions
+vote_franschise = wealth_voting
+public_meetings = yes_meeting
+press_rights = censored_press
+trade_unions = non_socialist
 voting_system = first_past_the_post
-political_parties = underground_parties
+political_parties = non_secret_ballots
 
 # Social Reforms
 wage_reform = no_minimum_wage
@@ -26,25 +27,21 @@ unemployment_subsidies = no_subsidies
 pensions = no_pensions
 school_reforms = no_schools
 
-#New Reforms
-conscription = four_year_draft
-debt_law = serfdom
+# New Reforms
+conscription = two_year_draft
+debt_law = peonage
 penal_system = capital_punishment
 child_labor = child_labor_legalcitizens_rights = culture_voting_only
 border_policy = open_borders
 
-set_country_flag = hindu_country
+set_country_flag = protestant_country
 
-# Inventions
-#bottling_process = yes
-modern_winemaking = yes
-
-ruling_party = BNG_conservative
+ruling_party = ALS_conservative
 upper_house = {
 	fascist = 0
-	liberal = 11
-	conservative = 73
-	reactionary = 16
+	liberal = 30
+	conservative = 55
+	reactionary = 15
 	anarcho_liberal = 0
 	socialist = 0
 	communist = 0

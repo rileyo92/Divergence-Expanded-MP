@@ -1,18 +1,17 @@
-capital = 498
+capital = 749
 primary_culture = catalan
-culture = basque
 culture = maltese
 culture = south_italian
+culture = central_italian
 religion = catholic
-government = prussian_constitutionalism
+government = hms_government
 plurality = 0.0
 nationalvalue = nv_liberty
-literacy = 0.24
+literacy = 0.17
 civilized = yes
 
-
-#GreaterPowers = prestige
-prestige = 45
+is_releasable_vassal = no
+prestige = 30
 
 # Political reforms
 slavery = no_slavery
@@ -39,7 +38,7 @@ child_labor = child_labor_legal
 citizens_rights = culture_voting_only
 border_policy = quota_immigration
 
-ruling_party = AAA_conservative_1
+ruling_party = AAA_conservative_5
 last_election = 1834.1.1
 upper_house = {
 	fascist = 0
@@ -73,7 +72,6 @@ early_classical_theory_and_critique = 1
 freedom_of_trade = 1
 guild_based_production = 1
 piston_steam_engine = 1
-mechanical_production = 1
 mechanized_mining = 1
 basic_chemistry = 1
 
@@ -83,7 +81,3 @@ basic_chemistry = 1
 # Starting Consciousness
 consciousness = 3
 nonstate_consciousness = 1
-
-schools = commerce_tech_school
-
-oob = "ARA_oob.txt"
