@@ -8,6 +8,7 @@ country_event = { #Congress of Gran Colombia
 	option = {
 		name = "600007.A"
 		set_country_flag = clm_arcadia_focus
+		2172 = { life_rating = 10 }
 	}
 	option = {
 		name = "600007.B"
@@ -15,6 +16,7 @@ country_event = { #Congress of Gran Colombia
 		primary_culture = granadan
 		add_accepted_culture = mexican
 		capital = 2254
+		2254 = { life_rating = 10 }
 	}
 	option = {
 		name = "600007.C"
@@ -22,10 +24,9 @@ country_event = { #Congress of Gran Colombia
 		primary_culture = central_american
 		add_accepted_culture = mexican
 		capital = 2191
+		2191 = { life_rating = 10 }
 		INC = { all_core = { remove_core = CLM } }
 		INC = { all_core = { remove_core = GRA } }
-		INC = { all_core = { remove_core = QUI } }
-		INC = { all_core = { remove_core = ARE } }
 		any_owned = {
 			limit = {
 				OR = {
