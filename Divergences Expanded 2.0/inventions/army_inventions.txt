@@ -1400,24 +1400,27 @@ gas_attack_capability = {
 }
 
 gas_defense_capability = {
-	limit = {
-		military_directionism = 1
-	}
+	limit = { military_directionism = 1 }
 	chance = {
 		base = 0
-		chance = {
-			modifier = {
-				factor = -100
-				NOT = { year = 1905 }
-			}
-			modifier = {
-				factor = 100
-				year = 1905
+		modifier = {
+			factor = 5
+			invention = gas_attack_capability
+		}
+		modifier = {
+			factor = 5
+			war = yes
+			war_countries = { invention = gas_attack_capability }
+		}
+		modifier = {
+			factor = 6
+			any_neighbor_country = {
+				invention = gas_defense_capability
 			}
 		}
 	}
 	effect = {
-		gas_defense = yes
+		soldier_to_pop_loss = 0.03
 	}
 }
 
