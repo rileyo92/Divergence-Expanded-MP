@@ -37,7 +37,7 @@ leader = {
 
 army = {
 	name = "Ejército de Andagoya"
-	location = 2253
+	location = 2201
    	regiment = {
 		name= "1. Brigada de Infantería"
 		type = infantry
@@ -89,7 +89,7 @@ army = {
 
 army = {
 	name = "Ejército de Liberación"
-	location = 2295
+	location = 2191
 	regiment = {
 		name= "1. División de Infantería"
 		type = infantry
@@ -130,7 +130,7 @@ army = {
 
 army = {
 	name = "Ejército del Norte"
-	location = 2148
+	location = 137
 	regiment = {
 		name= "1.Division Cos"
 		type = infantry
@@ -148,13 +148,13 @@ army = {
 		type = infantry
 		home = 2164
 	}
-	
+
 	regiment = {
 		name= "4.Division Cos"
 		type = infantry
 		home = 2302
 	}
-	
+
 	regiment = {
 		name= "5.Division Cos"
 		type = artillery
@@ -165,7 +165,7 @@ army = {
 
 army = {
 	name = "Activo Oajaca"
-	location = 2177
+	location = 90
 	regiment = {
 		name= "1.Oajaca y Tlaxcala"
 		type = infantry
@@ -188,7 +188,7 @@ army = {
 
 army = {
 	name = "Ejército de la Revolución"
-	location = 2174
+	location = 2172
 	regiment = {
 		name= "1.Division Comonfort"
 		type = infantry

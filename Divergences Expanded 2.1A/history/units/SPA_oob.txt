@@ -90,24 +90,24 @@ army = {
 		name= "2. Granaderos del Rey"
 		type = infantry
 		home = 474
-	}     
-	
+	}
+
 	regiment = {
 		name= "6. Brigada de Infantería 'La Granja'"
 		type = infantry
 		home = 487
 	}
-  
+
 	regiment = {
 		name= "2. Granaderos del Rey"
 		type = dragoon
 		home = 518
 	}
 }
-  
+
 army = {
-	name = "Ejército Colombian" 
-	location = 516 
+	name = "Ejército Colombian"
+	location = 2254
 
 	regiment = {
 		name= "1. Brigada de Infantería 'El Ramillete'"
@@ -123,33 +123,51 @@ army = {
 
 	regiment = {
 		name= "3. Brigada de Infantería"
-		type = artillery
+		type = infantry
 		home = 477
-	}        
+	}
 
 	regiment = {
 		name= "3. infantryia Real"
 		type = infantry
 		home = 474
-	}   
+	}
 
 	regiment = {
 		name= "1. Granaderos del Rey"
 		type = hussar
 		home = 518
 	}
-  
+
 	regiment = {
 		name= "3. Granaderos del Rey"
 		type = dragoon
 		home = 518
+	}
+
+	regiment = {
+		name= "1. Real Cuerpo de Artillería"
+		type = artillery
+		home = 489
+	}
+
+	regiment = {
+		name= "2. Real Cuerpo de Artillería"
+		type = artillery
+		home = 509
+	}
+
+	regiment = {
+		name= "3. Real Cuerpo de Artillería"
+		type = artillery
+		home = 481
 	}
 }
 
 army = {
 	name = "Ejército del Rabat"
 	location = 1685
-	
+
 	regiment = {
 		name= "4. Brigada de Infantería 'San Jorge'"
 		type = infantry
@@ -161,13 +179,13 @@ army = {
 		type = infantry
 		home = 487
 	}
-	
+
 	regiment = {
 		name= "5. Brigada de Infantería"
 		type = infantry
 		home = 487
 	}
-  
+
 
 	regiment = {
 		name= "9. Brigada de Infantería"
@@ -234,28 +252,47 @@ army = {
 	}
 }
 
-army = { 
+army = {
 
-	name = "Ejercito del Angoya" 
-	location = 2210 
-
-
-
+	name = "Ejercito del Angoya"
+	location = 2204
 	regiment = {
 		name= "1. Brigada de Infantería"
 		type = infantry
 		home = 521
 	}
 
-		regiment = {
+	regiment = {
 		name= "2. Brigada de Infantería"
 		type = infantry
 		home = 521
 	}
+
+	regiment = {
+		name= "3. Brigada de Infantería"
+		type = infantry
+		home = 482
+	}
+
+	regiment = {
+		name= "1. Brigada de húsar"
+		type = hussar
+		home = 483
+	}
+
+	regiment = {
+		name= "1. Brigada de Coracero"
+		type = cuirassier
+		home = 488
+	}
 }
+
+
+
+
 army = {
 	name = "Ejército del Habana"
-	location = 477
+	location = 2209
 
 	regiment = {
 		name= "4. Brigada de Infantería 'San Jorge'"
@@ -268,19 +305,19 @@ army = {
 		type = infantry
 		home = 1685
 	}
-	
+
 	regiment = {
 		name= "5. Brigada de Infantería"
 		type = infantry
 		home = 1685
-	}            
-	
+	}
+
 	regiment = {
 		name= "5. Brigada de Infantería"
 		type = infantry
 		home = 2209
-	}           
-	
+	}
+
 	regiment = {
 		name= "8. Brigada de Infantería 'La Granja'"
 		type = hussar
@@ -291,7 +328,7 @@ army = {
 army = {
 	name = "Ejército del Rangoon"
 	location = 1330
-	
+
 	regiment = {
 		name= "4. Brigada de Infantería 'San Jorge'"
 		type = infantry
@@ -322,32 +359,32 @@ navy = {
 		name= "San Pablo"
 		type = manowar
 	}
-	
+
 	ship = {
 		name = "Alerta"
 		type = manowar
 	}
-	
+
 	ship = {
 		name = "San Fernando"
 		type = manowar
 	}
-	
+
 	ship = {
 		name = "Legazpi"
 		type = manowar
 	}
-	
+
 	ship = {
 		name = "Santiago"
 		type = manowar
 	}
-	
+
 	ship = {
 		name = "Hespérides"
 		type = manowar
 	}
-	
+
 	ship = {
 		name = "Centinela"
 		type = manowar
@@ -362,17 +399,17 @@ navy = {
 		name= "Rex"
 		type = manowar
 	}
-	
+
 	ship = {
 		name = "Leon"
 		type = manowar
 	}
-	
+
 	ship = {
 		name = "Galicia"
 		type = manowar
 	}
-	
+
 	ship = {
 		name = "Santa Angelika"
 		type = manowar
@@ -417,22 +454,22 @@ navy = {
 		name= "Santa Sabina"
 		type = frigate
 	}
-	
+
 	ship = {
 		name = "Victoria"
 		type = frigate
 	}
-	
+
 	ship = {
 		name = "Isla de Cuba"
 		type = frigate
 	}
-	
+
 	ship = {
 		name = "Cristóbal Colón"
 		type = frigate
 	}
-	
+
 	ship = {
 		name = "Nuestra Señora del Patrocinio"
 		type = frigate
@@ -457,27 +494,27 @@ navy = {
 		name= "Taza"
 		type = frigate
 	}
-	
+
 	ship = {
 		name = "Orion"
 		type = frigate
 	}
-	
+
 	ship = {
 		name = "Pisces"
 		type = frigate
 	}
-	
+
 	ship = {
 		name = "Mare"
 		type = frigate
 	}
-	
+
 	ship = {
 		name = "Hainan"
 		type = frigate
 	}
-	
+
 	ship = {
 		name = "India"
 		type = frigate
@@ -502,17 +539,17 @@ navy = {
 		name= "Purepecha"
 		type = frigate
 	}
-	
+
 	ship = {
 		name = "Toreador"
 		type = frigate
 	}
-	
+
 	ship = {
 		name = "Villareal"
 		type = frigate
 	}
-	
+
 
 
 	ship = {
@@ -529,7 +566,7 @@ navy = {
 		name= "3a Flotilla de Transporte"
 		type = clipper_transport
 	}
-	
+
 	ship = {
 		name= "1b Flotilla de Transporte"
 		type = clipper_transport
@@ -549,7 +586,7 @@ navy = {
 		name= "Juan"
 		type = manowar
 	}
-  
+
   ship = {
 		name= "Lisboa"
 		type = manowar
@@ -564,42 +601,42 @@ navy = {
 		name= "Castilla"
 		type = manowar
 	}
-	
+
 	ship = {
 		name = "Almeria"
 		type = manowar
 	}
-	
+
 	ship = {
 		name = "Euskadia"
 		type = manowar
 	}
-	
+
 	ship = {
 		name = "Etruria"
 		type = manowar
 	}
-  
+
   ship = {
 		name = "Coabana"
 		type = frigate
 	}
-	
+
 	ship = {
 		name = "Sebastian"
 		type = frigate
 	}
-	
+
 	ship = {
 		name = "Padre"
 		type = frigate
 	}
-	
+
 	ship = {
 		name = "Christo Redendor"
 		type = frigate
 	}
-	
+
 	ship = {
 		name = "Magdalena"
 		type = frigate
@@ -619,32 +656,32 @@ navy = {
 		name= "Isabella"
 		type = manowar
 	}
-	
+
 	ship = {
 		name = "Quechua"
 		type = manowar
 	}
-	
+
 	ship = {
 		name = "Andrea"
 		type = frigate
 	}
-	
+
 	ship = {
 		name = "Navarre"
 		type = frigate
 	}
-	
+
 	ship = {
 		name = "Maghreb"
 		type = frigate
 	}
-	
+
 	ship = {
 		name = "Algiers"
 		type = frigate
 	}
-	
+
 	ship = {
 		name = "Pacific"
 		type = frigate
@@ -672,49 +709,49 @@ navy = {
 	ship = {
 		name= "5a Flotilla de Transporte"
 		type = clipper_transport
-	}   
+	}
 
 	ship = {
 		name= "6a Flotilla de Transporte"
 		type = clipper_transport
-	}  
+	}
 
 	ship = {
 		name= "7a Flotilla de Transporte"
 		type = clipper_transport
-	}  
-  
+	}
+
 }
 
 navy = {
 	name = "Armada del India"
 	location = 1303
-	
+
 	ship = {
 		name = "Deus"
 		type = frigate
 	}
-	
+
 	ship = {
 		name = "Antillea"
 		type = frigate
 	}
-	
+
 	ship = {
 		name = "Mayapan"
 		type = frigate
 	}
-	
+
 	ship = {
 		name = "Yucatan"
 		type = frigate
 	}
-	
+
 	ship = {
 		name = "Mejico"
 		type = frigate
 	}
-	
+
 	ship = {
 		name= "1a Flotilla de Transporte"
 		type = clipper_transport
