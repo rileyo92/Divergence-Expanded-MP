@@ -5,12 +5,4 @@ add_core = LST
 add_core = PLA
 trade_goods = cattle
 life_rating = 40
-fort = 1 #Remember the Alamo!
-
-1835.1.1 = {
-	controller = SPA
-}
-
-1837.1.1 = {
-	controller = CLM
-}
+fort = 1 
