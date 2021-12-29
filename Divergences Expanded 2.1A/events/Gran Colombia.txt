@@ -8,39 +8,24 @@ country_event = { #Congress of Gran Colombia
 	option = {
 		name = "600007.A"
 		set_country_flag = clm_arcadia_focus
+		primary_culture = mexican
+		add_accepted_culture = central_american
+		capital = 2172
 		2172 = { life_rating = 10 }
 	}
 	option = {
 		name = "600007.B"
 		set_country_flag = clm_ameriga_focus
 		primary_culture = granadan
-		add_accepted_culture = mexican
+		add_accepted_culture = central_american
 		capital = 2254
 		2254 = { life_rating = 10 }
 	}
 	option = {
 		name = "600007.C"
 		set_country_flag = clm_stability_focus
-		primary_culture = central_american
-		add_accepted_culture = mexican
-		capital = 2191
 		2191 = { life_rating = 10 }
 		INC = { all_core = { remove_core = CLM } }
 		INC = { all_core = { remove_core = GRA } }
-		any_owned = {
-			limit = {
-				OR = {
-					is_core = INC
-					is_core = DIN
-					is_core = AZT
-					is_core = YUC
-					is_core = TAP
-				}
-			}
-			add_province_modifer = {
-				name = minority_rights_guarenteed
-				duration = -1
-			}
-		}
 	}
 }

@@ -24,9 +24,7 @@ political_decisions = {
 				militancy = 2
       	consciousness = 4
 			}
-			add_accepted_culture = lusitanian
-			add_accepted_culture = central_american
-			add_accepted_culture = granadan
+			add_accepted_culture = caribeno
 			government = democracy
 			political_reform = state_equal_weight
 			political_reform = universal_weighted_voting
@@ -151,7 +149,7 @@ political_decisions = {
       modifier = { factor = 0 badboy = 0.8 }
   	}
 	}
-	
+
 	#Ameriga Focus
 	clm_secure_guiana = {
 		potential = {
