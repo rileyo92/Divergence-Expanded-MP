@@ -1,6 +1,6 @@
-owner = MOD
-controller = MOD
-add_core = MOD
+owner = GEN
+controller = GEN
+add_core = GEN
 add_core = ITA
 trade_goods = timber
 life_rating = 35

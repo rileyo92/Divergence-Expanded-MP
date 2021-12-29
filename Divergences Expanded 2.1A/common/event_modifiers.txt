@@ -2567,7 +2567,7 @@ rgo_changed = {
 
 minority_rights_guarenteed = {
 	assimilation_rate = -1
-	icon = 18
+	icon = 16
 }
 
 assimilation_boost_small = {
