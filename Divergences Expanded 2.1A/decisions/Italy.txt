@@ -31,7 +31,7 @@ political_decisions = {
 				all_core = {
 					OR = {
 						owned_by = THIS
-						vassal_of = THIS
+						owner = { vassal_of = THIS }
 					}
 				}
 			}
@@ -112,7 +112,6 @@ political_decisions = {
 		}
 		effect = {
 			set_country_flag = emilia_lom
-			MOD_739 = { add_core = THIS }
 			PAP_741 = { add_core = THIS }
 		}
 	}

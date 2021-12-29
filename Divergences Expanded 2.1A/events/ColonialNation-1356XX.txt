@@ -717,3 +717,80 @@ country_event = {
 		relation = { who = FROM value = -100 }
 	}
 }
+
+# Guiana Purchase 1/3
+country_event = {
+	id = 600008
+	title = "600008.T"
+	desc = "600008.D"
+	picture = "administration"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "600008.A"
+		money = 150000
+		GUY = {
+			all_core = {
+					remove_core = THIS
+			}
+		}
+		any_owned = {
+			limit = {
+				is_core = GUY
+			}
+			secede_province = FROM
+		}
+		FROM = { country_event = 600009 }
+		ai_chance = {
+			factor = 75
+		}
+	}
+
+	option = {
+		name = "600008.B"
+		FROM = { country_event = 600010 }
+		ai_chance = {
+			factor = 25
+		}
+	}
+}
+
+#Guiana Purchase 2/3
+country_event = {
+	id = 600009
+	title = "600009.T"
+	desc = "600009.D"
+	picture = "administration"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "600009.A"
+		prestige = 5
+		money = -150000
+		GUY = {
+			all_core = {
+					add_core = THIS
+				}
+			}
+		relation = { who = FROM value = 50 }
+		any_pop = { consciousness = -1 }
+	}
+}
+
+# Guiana Purchase 3/3
+country_event = {
+	id = 600010
+	title = "600010.T"
+	desc = "600010.D"
+	picture = "administration"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "600010.A"
+		relation = { who = FROM value = -100 }
+		set_country_flag = refused_GUY
+	}
+}

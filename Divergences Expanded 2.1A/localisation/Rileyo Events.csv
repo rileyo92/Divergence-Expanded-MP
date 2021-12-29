@@ -138,3 +138,13 @@ CONGR18.D;The reconquest and integration of the spanish colonies back under the 
 600007.A;Pursue Dominance over Arcadia;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 600007.B;Pursue Dominance over Ameriga;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 600007.C;Centralise and Integrate the lands we already control;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+600008.T;The Purchase of Guiana?;;;;;;;;;;;;;
+600008.D;Stating Guiana's Proximity to them, we have been approached to sell Guiana. Shall We?;;;;;;;;;;;;;
+600008.A;Let's do it, it's worthless anyway;;;;;;;;;;;;;
+600008.B;Guiana is too valuable to sell;;;;;;;;;;;;;
+600009.T;They Agree!;;;;;;;;;;;;;
+600009.D;They has agreed to sell us Guiana!;;;;;;;;;;;;;
+600009.A;Great!;;;;;;;;;;;;;
+600010.T;They have refused!;;;;;;;;;;;;;
+600010.D;They has declined our request to purchase Guiana;;;;;;;;;;;;;
+600010.A;What a shame;;;;;;;;;;;;;

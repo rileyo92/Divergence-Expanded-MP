@@ -212,6 +212,7 @@ political_decisions = {
 			owns = 2436
 		}
 		effect = {
+			set_country_flag = dominate_ameriga
 			badboy = 5
 			AMA_2 = { add_core = THIS }
 			AMA_4 = { add_core = THIS }

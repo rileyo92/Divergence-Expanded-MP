@@ -10,19 +10,18 @@ athesia_purchase = {
         has_country_flag = nbg_manifest_destiny
       }
       tag = ARC
-      AND = {
-        tag = CLM
-        OR = {
-          has_country_flag = clm_plantagenia_focus
-          has_country_flag = clm_liberty_focus
-        }
-      }
+      tag = CLM
+      tag = GRA
+      tag = UCA
+      tag = LST
+      tag = MEX
       AND = {
         OR = {
+          tag = AMA
           tag = AZL
           tag = HBE
         }
-        ENG_1979 = { owned_by = THIS }
+        2240 = { owned_by = THIS }
       }
       AND = {
         tag = UBD
@@ -34,7 +33,7 @@ athesia_purchase = {
       }
       AND = {
         tag = DNG
-        accepted_culture = lusitanian
+        137 = { owned_by = THIS }
       }
       tag = HIS
     }
@@ -48,6 +47,11 @@ athesia_purchase = {
           owned_by = VIN
           owned_by = ARC
           owned_by = CLM
+          owned_by = LST
+          owned_by = MEX
+          owned_by = GRA
+          owned_by = UCA
+          owned_by = AMA
           owned_by = AZL
           owned_by = INC
           owned_by = UBD
@@ -133,12 +137,17 @@ habana_purchase = {
       }
       tag = ARC
       tag = CLM
+      tag = GRA
+      tag = UCA
+      tag = LST
+      tag = MEX
       AND = {
         OR = {
+          tag = AMA
           tag = AZL
           tag = HBE
         }
-        ENG_1979 = {owned_by = THIS}
+        2240 = { owned_by = THIS }
       }
       AND = {
         tag = UBD
@@ -150,7 +159,7 @@ habana_purchase = {
       }
       AND = {
         tag = DNG
-        accepted_culture = lusitanian
+        137 = { owned_by = THIS }
       }
     }
     NOT = { CUB = { exists = yes } }
@@ -163,6 +172,11 @@ habana_purchase = {
           owned_by = VIN
           owned_by = ARC
           owned_by = CLM
+          owned_by = LST
+          owned_by = MEX
+          owned_by = GRA
+          owned_by = UCA
+          owned_by = AMA
           owned_by = AZL
           owned_by = INC
           owned_by = UBD
@@ -208,16 +222,18 @@ ayiti_purchase = {
         has_country_flag = nbg_manifest_destiny
       }
       tag = ARC
-      AND = {
-        tag = CLM
-        has_country_flag = clm_liberty_focus
-      }
+      tag = CLM
+      tag = GRA
+      tag = UCA
+      tag = LST
+      tag = MEX
       AND = {
         OR = {
+          tag = AMA
           tag = AZL
           tag = HBE
         }
-        ENG_1979 = {owned_by = THIS}
+        2240 = { owned_by = THIS }
       }
       AND = {
         tag = UBD
@@ -229,7 +245,7 @@ ayiti_purchase = {
       }
       AND = {
         tag = DNG
-        accepted_culture = lusitanian
+        137 = { owned_by = THIS }
       }
       tag = HIS
     }
@@ -243,6 +259,11 @@ ayiti_purchase = {
           owned_by = VIN
           owned_by = ARC
           owned_by = CLM
+          owned_by = LST
+          owned_by = MEX
+          owned_by = GRA
+          owned_by = UCA
+          owned_by = AMA
           owned_by = AZL
           owned_by = INC
           owned_by = UBD
@@ -283,16 +304,18 @@ jamaica_purchase = {
       tag = PLA
       tag = NBG
       tag = ARC
-      AND = {
-        tag = CLM
-        has_country_flag = clm_liberty_focus
-      }
+      tag = CLM
+      tag = GRA
+      tag = UCA
+      tag = LST
+      tag = MEX
       AND = {
         OR = {
+          tag = AMA
           tag = AZL
           tag = HBE
         }
-        ENG_1979 = {owned_by = THIS}
+        2240 = { owned_by = THIS }
       }
       AND = {
         tag = UBD
@@ -318,6 +341,11 @@ jamaica_purchase = {
           owned_by = VIN
           owned_by = ARC
           owned_by = CLM
+          owned_by = LST
+          owned_by = MEX
+          owned_by = GRA
+          owned_by = UCA
+          owned_by = AMA
           owned_by = AZL
           owned_by = INC
           owned_by = UBD
@@ -366,7 +394,7 @@ buy_falklands = {
           tag = AZL
           tag = INC
         }
-      accepted_culture = beornian
+        accepted_culture = beornian
       }
     }
     NOT = {
@@ -407,7 +435,7 @@ purchase_greenland = {
     OR = {
       tag = ARC
       tag = VIN
-      }
+    }
     NOT = { has_country_flag = arc_greenland }
   }
   allow = {
@@ -418,6 +446,79 @@ purchase_greenland = {
   effect = {
     SCA = { country_event = 500001 }
     set_country_flag = arc_greenland
+  }
+}
+
+guiana_purchase = {
+  picture = map_caribbean
+  potential = {
+    OR = {
+      tag = PLA
+      AND = {
+        tag = NBG
+        has_country_flag = nbg_manifest_destiny
+      }
+      tag = ARC
+      tag = CLM
+      tag = GRA
+      tag = UCA
+      tag = LST
+      tag = MEX
+      tag = AMA
+      tag = AZL
+      tag = HBE
+      AND = {
+        tag = UBD
+        has_country_flag = master_of_the_antille
+      }
+      tag = HIS
+    }
+    NOT = { GUY = { exists = yes } }
+    NOT = { has_country_flag = guiana_purchase }
+    NOT = {
+      2240 = {
+        OR = {
+          owned_by = PLA
+          owned_by = NBG
+          owned_by = VIN
+          owned_by = ARC
+          owned_by = CLM
+          owned_by = LST
+          owned_by = MEX
+          owned_by = GRA
+          owned_by = UCA
+          owned_by = AMA
+          owned_by = AZL
+          owned_by = INC
+          owned_by = UBD
+          owned_by = HBE
+          owned_by = DNG
+          owned_by = HIS
+        }
+      }
+    }
+  }
+
+  allow = {
+    war = no
+    money = 150000
+    OR = {
+      rank = 14
+      tag = UBD
+    }
+    2240 = {
+      owner = {
+        war = no
+        relation = { who = THIS value = 100 }
+      }
+    }
+  }
+
+  effect = {
+    set_country_flag = guiana_purchase
+    2240 = {
+      owner = { country_event = 600008 }
+    }
   }
 }
 
@@ -435,13 +536,20 @@ purchase_greenland = {
 	     tag = CUB
 	     tag = SFJ
        tag = JAM
+       tag = AMA
 	     tag = AZL
 	     tag = UBD
        tag = CLM
+       tag = LST
+       tag = MEX
+       tag = UCA
+       tag = GRA
        tag = INC
        tag = HBE
        tag = DNG
        tag = HIS
+       tag = VEN
+       tag = ITA
 	  }
 	  NOT = { accepted_culture = athesian }
     OR = {
@@ -483,18 +591,26 @@ purchase_greenland = {
 	 potential = {
 	  CUB = { exists = no }
 	  OR = {
-	     tag = PLA
+       tag = PLA
        tag = NBG
-	     tag = CLM
 	     tag = ARC
-	     tag = ATS
+	     tag = CUB
 	     tag = SFJ
+       tag = JAM
+       tag = AMA
 	     tag = AZL
 	     tag = UBD
-       tag = JAM
+       tag = CLM
+       tag = LST
+       tag = MEX
+       tag = UCA
+       tag = GRA
        tag = INC
        tag = HBE
        tag = DNG
+       tag = HIS
+       tag = POR
+       tag = SPA
 	  }
 	  NOT = { accepted_culture = caribeno }
     owns = 2209
@@ -535,19 +651,26 @@ purchase_greenland = {
 	   NOT = { SFJ = { exists = yes } }
 	   OR = {
 	     tag = PLA
-	     tag = NBG
        tag = VIN
-  	   tag = ARC
-       tag = CLM
-	     tag = ATS
+       tag = NBG
+	     tag = ARC
 	     tag = CUB
+	     tag = SFJ
+       tag = JAM
+       tag = AMA
 	     tag = AZL
 	     tag = UBD
-       tag = JAM
+       tag = CLM
+       tag = LST
+       tag = MEX
+       tag = UCA
+       tag = GRA
        tag = INC
        tag = HBE
        tag = DNG
        tag = HIS
+       tag = SCA
+       tag = NSE
 	   }
 	   NOT = { accepted_culture = ayitian }
      owns = 2213
@@ -579,6 +702,58 @@ purchase_greenland = {
 			}
 			HAI_2213 = { add_core = THIS }
 		    }
+	   }
+	}
+
+  accepting_guianas = {
+	 potential = {
+	   NOT = { GUY = { exists = yes } }
+	   OR = {
+	     tag = PLA
+       tag = NBG
+	     tag = ARC
+	     tag = CUB
+	     tag = SFJ
+       tag = JAM
+       tag = AMA
+	     tag = AZL
+	     tag = UBD
+       tag = CLM
+       tag = LST
+       tag = MEX
+       tag = UCA
+       tag = GRA
+       tag = HBE
+       tag = HIS
+       tag = GEN
+       tag = ITA
+	   }
+	   NOT = { accepted_culture = guianan }
+     owns = 2240
+	}
+
+	allow = {
+	OR = {
+	government = democracy
+	government = hms_government
+	}
+	OR = {
+	citizenship_policy = full_citizenship
+	citizenship_policy = limited_citizenship
+		}
+	citizens_rights = all_voting_pops
+	nationalism_n_imperialism = 1
+	}
+
+	effect = {
+	add_accepted_culture = guianan
+	set_country_flag = guianan_culture
+	any_pop = {
+	limit = { culture = guianan }
+		militancy = -3
+			}
+	ENG_1979 = { add_core = THIS }
+  BRZ_2408 = { add_core = THIS }
 	   }
 	}
 }
