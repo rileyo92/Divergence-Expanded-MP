@@ -14,34 +14,12 @@ political_decisions = {
 		effect = {
 			prestige = 20
 			capital = 2302
-			CLM = { remove_core = 2304 }
-			CLM = { remove_core = 2578 }
-			CLM = { remove_core = 2303 }
-			CLM = { remove_core = 2297 }
-			CLM = { remove_core = 2299 }
-			CLM = { remove_core = 2301 }
-			CLM = { remove_core = 2302 }
-			GRA = { remove_core = 2304 }
-			GRA = { remove_core = 2578 }
-			GRA = { remove_core = 2303 }
-			GRA = { remove_core = 2297 }
-			GRA = { remove_core = 2299 }
-			GRA = { remove_core = 2301 }
-			GRA = { remove_core = 2302 }
-			ARE = { remove_core = 2304 }
-			ARE = { remove_core = 2578 }
-			ARE = { remove_core = 2303 }
-			ARE = { remove_core = 2297 }
-			ARE = { remove_core = 2299 }
-			ARE = { remove_core = 2301 }
-			ARE = { remove_core = 2302 }
-			QUI = { remove_core = 2304 }
-			QUI = { remove_core = 2578 }
-			QUI = { remove_core = 2303 }
-			QUI = { remove_core = 2297 }
-			QUI = { remove_core = 2299 }
-			QUI = { remove_core = 2301 }
-			QUI = { remove_core = 2302 }
+			INC = {
+				all_core = {
+					remove_core = CLM
+					remove_core = GRA
+				}
+			}
 		}
 	}
 
@@ -49,57 +27,24 @@ political_decisions = {
 		picture = Incas
 		potential = {
 			tag = INC
-			capital = 2302
 			NOT = { has_country_flag = empire_del_inca }
 			NOT = { has_global_flag = Hispanic_Andes }
 		}
 		allow = {
 			NOT = { war = yes }
-			INC = { all_core = { owned_by = THIS } }
+			owns = 2302
+			owns = 2295
+			owns = 2279
 		}
 		effect = {
 			prestige = 20
 			set_global_flag = death_toGRC
-			2247 = { add_core = THIS }
-			2248 = { add_core = THIS }
-			2249 = { add_core = THIS }
-			2250 = { add_core = THIS }
-			2260 = { add_core = THIS }
-			2261 = { add_core = THIS }
-			2262 = { add_core = THIS }
-			2263 = { add_core = THIS }
-			2286 = { add_core = THIS }
-			2287 = { add_core = THIS }
-			2288 = { add_core = THIS }
-			2289 = { add_core = THIS }
-			2401 = { add_core = THIS }
-			CLM = { remove_core = 2290 }
-			CLM = { remove_core = 2291 }
-			CLM = { remove_core = 2292 }
-			CLM = { remove_core = 2293 }
-			CLM = { remove_core = 2294 }
-			CLM = { remove_core = 2295 }
-			CLM = { remove_core = 2296 }
-			CLM = { remove_core = 2298 }
-			CLM = { remove_core = 2300 }
-			GRA = { remove_core = 2290 }
-			GRA = { remove_core = 2291 }
-			GRA = { remove_core = 2292 }
-			GRA = { remove_core = 2293 }
-			GRA = { remove_core = 2294 }
-			GRA = { remove_core = 2295 }
-			GRA = { remove_core = 2296 }
-			GRA = { remove_core = 2298 }
-			GRA = { remove_core = 2300 }
-			QUI = { remove_core = 2290 }
-			QUI = { remove_core = 2291 }
-			QUI = { remove_core = 2292 }
-			QUI = { remove_core = 2293 }
-			QUI = { remove_core = 2294 }
-			QUI = { remove_core = 2295 }
-			QUI = { remove_core = 2296 }
-			QUI = { remove_core = 2298 }
-			QUI = { remove_core = 2300 }
+			PEU_2289 = { add_core = INC }
+			ECU_2279 = { add_core = INC }
+			CLM_2262 = { add_core = INC }
+			CLM_2259 = { add_core = INC }
+			CLM_2247 = { add_core = INC }
+			CLM_2251 = { add_core = INC }
 			set_country_flag = empire_del_inca
 			add_country_modifier = {
 				name = empire_del_inca
@@ -112,7 +57,6 @@ political_decisions = {
 		picture = Incas
 		potential = {
 			tag = INC
-			capital = 2302
 			has_country_flag = empire_del_inca
 			NOT = { has_country_flag = empire_del_inca_2 }
 			NOT = { has_global_flag = Hispanic_Andes }
@@ -141,41 +85,141 @@ political_decisions = {
 		}
 	}
 
-	inc_conquer_beornia = {
+	empire_inca_3 = {
 		picture = Incas
 		potential = {
 			tag = INC
-			not = { has_country_flag = inc_invade_beornia }
+			has_country_flag = empire_del_inca_2
+			NOT = { has_country_flag = empire_del_inca_3 }
+		}
+		allow = {
+			INC = {
+				all_core = {
+					owned_by = THIS
+				}
+			}
+			revolution_n_counterrevolution = 1
+			is_greater_power = yes
+		}
+		effect = {
+			set_country_flag = empire_del_inca_3
+			add_accepted_culture = afro_latino
+			add_accepted_culture = afro_frankish
+			add_accepted_culture = afro_germanic
+			add_accepted_culture = afro_south_african
+		}
+	}
+
+	inc_save_patagonia = {
+		picture = Incas
+		potential = {
+			tag = INC
+			NOT = { has_country_flag = inc_invade_beornia }
 		}
 		allow = {
 			war = no
 			state_n_government = 1
-			OR = {
-				has_global_flag = NAN_cone
-				nationalism_n_imperialism = 1
-			}
-			HBE = { exists = no }
+			owns = 2390
+			owns = 2395
 		}
 		effect = {
-			badboy = 15
 			set_country_flag = inc_invade_beornia
-			NAN = { country_event = 500021 }
-			casus_belli = {
-				target = NAN
-				type = conquest
-				months = 24
-			}
-		  war = {
-				target = NAN
-				attacker_goal = {
-					casus_belli = conquest
-				}
-			}
+			SA_6 = { add_core = INC }
+			NAN_5 = { add_core = INC }
+			SA_9 = { add_core = INC }
+			NAN_4 = { add_core = INC }
+			NAN_2355 = { add_core = INC }
 		}
-		ai_will_do = {
-    	factor = 1
-      modifier = { factor = 0 badboy = 0.4 }
-  	}
+	}
+
+	inc_save_guarani = {
+		picture = Incas
+		potential = {
+			tag = INC
+			NOT = { has_country_flag = save_guarani }
+		}
+		allow = {
+			war = no
+			nationalism_n_imperialism = 1
+			owns = 2365
+			owns = 2379
+		}
+		effect = {
+			set_country_flag = save_guarani
+			AVA = { all_core = { add_core = INC } }
+			add_accepted_culture = guarani
+		}
+	}
+
+	inc_save_amazon = {
+		picture = Incas
+		potential = {
+			tag = INC
+			has_country_flag = save_guarani
+			NOT = { has_country_flag = save_amazon }
+		}
+		allow = {
+			war = no
+			nationalism_n_imperialism = 1
+			owns = 2286
+			owns = 2300
+			owns = 2320
+		}
+		effect = {
+			set_country_flag = save_amazon
+			TAP = { all_core = { add_core = INC } }
+			add_accepted_culture = amazonian_native
+		}
+	}
+
+	inc_save_the_natives = {
+		picture = Incas
+		potential = {
+			tag = INC
+			has_country_flag = save_amazon
+			NOT = { has_country_flag = save_natives }
+		}
+		allow = {
+			revolution_n_counterrevolution = 1
+			is_greater_power = yes
+		}
+		effect = {
+			set_country_flag = save_natives
+			add_accepted_culture = zapotec
+			add_accepted_culture = mayan
+			add_accepted_culture = nahua
+			add_accepted_culture = tarascan
+			add_accepted_culture = rohnnst
+			add_accepted_culture = cherokee
+			add_accepted_culture = inuit
+			add_accepted_culture = native_american_minor
+			add_accepted_culture = iroquois
+			add_accepted_culture = algonquin
+			add_accepted_culture = apache
+		}
+	}
+
+	inc_protect_pacific = {
+		picture = Incas
+		potential = {
+			tag = INC
+			has_country_flag = empire_del_inca
+			NOT = { has_country_flag = protect_polynesia }
+		}
+		allow = {
+			revolution_n_counterrevolution = 1
+			is_greater_power = yes
+		}
+		effect = {
+			set_country_flag = protect_polynesia
+			add_accepted_culture = polynesian
+			add_accepted_culture = melanesian
+			add_accepted_culture = micronesian
+			add_accepted_culture = maori
+			add_accepted_culture = aborigine
+			2285 = { add_core = INC }
+			2336 = { add_core = INC }
+		}
 	}
 
 	inc_integrate_beornia = {
@@ -209,27 +253,7 @@ political_decisions = {
 		}
 	}
 
-	empire_inca_3 = {
-		picture = Incas
-		potential = {
-			tag = INC
-			has_country_flag = empire_del_inca_2
-			NOT = { has_country_flag = empire_del_inca_3 }
-		}
-		allow = {
-			INC = {
-				all_core = {
-					owned_by = THIS
-				}
-			}
-			revolution_n_counterrevolution = 1
-			is_greater_power = yes
-		}
-		effect = {
-			country_event = 500022
-			set_country_flag = empire_del_inca_3
-		}
-	}
+
 
 	inca_beornia_border_treaty = {
 		picture = treaty_signing

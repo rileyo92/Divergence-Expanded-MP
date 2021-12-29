@@ -1763,6 +1763,17 @@ austronesian = {
 		last_names = { Tsiranana Ramanantsoa Ratsimandrava Andriamahazo Ratsiraka
 		}
 	}
+
+	dayak = {
+		color = {0 35 65}
+		first_names = { Shahabuddin Randa Riayat Abdullah Jaafar Safiuddin Muhammad Ali Al-Mukammal Ismail Muabidin Tuanku Yusuf Idris Jalil Isandar Aziz
+
+		}
+
+		last_names = { "Raja Inu" al-Marhum "Raja Ahmad" "Riayat Shah" al-Khairat Muadzam Bendahara Aadzam Murshidul
+
+		}
+	}
 	union = NUS
 }
 
@@ -1780,18 +1791,7 @@ southeast_asian = {
 		}
 		radicalism = 5
 	}
-
-	dayak = {
-		color = {0 35 65}
-		first_names = { Shahabuddin Randa Riayat Abdullah Jaafar Safiuddin Muhammad Ali Al-Mukammal Ismail Muabidin Tuanku Yusuf Idris Jalil Isandar Aziz
-
-		}
-
-		last_names = { "Raja Inu" al-Marhum "Raja Ahmad" "Riayat Shah" al-Khairat Muadzam Bendahara Aadzam Murshidul
-
-		}
-	}
-
+	
 	khmer = {
 		color = {220 86 34}
 		first_names = { Ang Sisowath Norodom Pok Satha Thommo
