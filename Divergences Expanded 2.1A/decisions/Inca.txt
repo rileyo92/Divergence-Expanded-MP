@@ -222,39 +222,6 @@ political_decisions = {
 		}
 	}
 
-	inc_integrate_beornia = {
-		potential = {
-			tag = INC
-			has_country_flag = inc_invade_beornia
-			NOT = { has_country_flag = integrate_nan_inc }
-		}
-		allow = {
-			nationalism_n_imperialism = 1
-			HBE = { exists = no }
-			NAN = { exists = no }
-			NAN = {
-				all_core = {
-					OR = {
-						owned_by = THIS
-						empty = yes
-						province_id = 2131
-					}
-				}
-			}
-		}
-		effect = {
-			add_accepted_culture = beornian
-			set_country_flag = integrate_nan_inc
-			NAN = {
-				all_core = {
-					add_core = THIS
-				}
-			}
-		}
-	}
-
-
-
 	inca_beornia_border_treaty = {
 		picture = treaty_signing
 		potential = {
