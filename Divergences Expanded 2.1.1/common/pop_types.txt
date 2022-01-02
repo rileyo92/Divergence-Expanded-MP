@@ -689,7 +689,7 @@ colonialmigration_chance =
 #general emigration chance - Base chance +1%
 emigration_chance =
 {
-	factor = 0.5
+	factor = 0.6
 
 ###Positive Factors for Emigration (bad)###
 
@@ -1016,14 +1016,30 @@ emigration_chance =
 	}
 
 	modifier = {
-	   factor = -0.5
+	   factor = -0.6
 		 culture = nanfaren
 	}
 
 	modifier = {
-	   factor = -0.5
+	   factor = -0.6
 		 culture = beifaren
 	}
+
+	modifier = {
+	   factor = -0.6
+		 culture = yue
+	}
+
+	modifier = {
+	   factor = -0.6
+		 culture = min
+	}
+
+	modifier = {
+	   factor = -0.6
+		 culture = hakka
+	}
+	
 }
 #general assimilation mtth, same for all pops
 assimilation_chance = {
