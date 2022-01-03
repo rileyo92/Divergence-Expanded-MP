@@ -4,6 +4,7 @@ leader = {
 	date = 1836.1.1
 	personality = defence_1.1
 	background = attack_1.1
+}
 
 leader = {
 	name = "Gjerasim Avram"
@@ -15,7 +16,7 @@ leader = {
 
 
 army = {
-	name = "Stratós Makedonia"
+	name = "Stratos Makedonia"
 	location = 805
 	regiment = {
 		name= "1. Taxiarchia Pezikou"
@@ -60,6 +61,3 @@ army = {
 	}
 
 }
-
-
-
