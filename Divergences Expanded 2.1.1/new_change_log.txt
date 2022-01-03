@@ -288,8 +288,9 @@
 #Made Ceylon 32LR from 35LR
 #Reworked GC and Incan Decisions
 #Combat Width Increases after 1920 and 1925
-#Immigration Reworked 
+#Immigration Reworked
 #Removed choose Trade Policy decision
 #Gas Attack nerfed to +2 from +3
 #Gas Defence no longer negates gas attack, instead gives military hospitals
 #Return Home decisions now remove new_world_nation flag
+#Removed Tripoli War
