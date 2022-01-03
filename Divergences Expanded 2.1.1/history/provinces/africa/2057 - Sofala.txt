@@ -3,5 +3,4 @@ controller = SCA
 trade_goods = tobacco
 life_rating = 40
 colonial = 1
-add_core = ZIM
 naval_base = 1
