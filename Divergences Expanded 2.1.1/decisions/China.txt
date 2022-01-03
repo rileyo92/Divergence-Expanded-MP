@@ -325,6 +325,7 @@ political_decisions = {
 			}
 			capital = 1604
 			set_country_flag = return_to_china
+			clr_country_flag = new_world_nation
   	}
   	ai_will_do = {
 			factor = 1

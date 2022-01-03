@@ -299,6 +299,7 @@ political_decisions = {
 			add_accepted_culture = beornian
 			add_accepted_culture = anglois
 			add_accepted_culture = welsh
+			clr_country_flag = new_world_nation
 			capital = 300
 		}
 	}

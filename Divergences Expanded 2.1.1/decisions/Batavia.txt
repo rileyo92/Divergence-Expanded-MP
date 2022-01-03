@@ -19,6 +19,7 @@ political_decisions = {
 				add_accepted_culture = boer
 				capital = 375
 				set_country_flag = boer_netherlands
+				clr_country_flag = new_world_nation
 			}
 		}
 

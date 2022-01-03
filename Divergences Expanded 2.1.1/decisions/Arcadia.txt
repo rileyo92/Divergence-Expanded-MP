@@ -78,6 +78,7 @@ political_decisions = {
 		}
 		effect = {
 			set_country_flag = returned_home
+			clr_country_flag = new_world_nation
 			add_accepted_culture = scandinavian
 			add_accepted_culture = icelandic
 			DEN_251 = { add_core = THIS } #Greenland
@@ -282,6 +283,7 @@ political_decisions = {
 			add_accepted_culture = burgundian
 			capital = 387
 			set_country_flag = septiman_netherlands
+			clr_country_flag = new_world_nation
 			BEL_387 = { add_core = BEL } #Flanders
 			BUR_390 = { add_core = BEL } #Brabant
 			BEL_394 = { add_core = BEL } #Wallonie
@@ -438,6 +440,7 @@ political_decisions = {
 			primary_culture = anglois
 			add_accepted_culture = plantagenian
 			capital = 425
+			clr_country_flag = new_world_nation
 		}
 	}
 
@@ -624,7 +627,6 @@ political_decisions = {
 			}
 		}
 		effect = {
-			add_accepted_culture = lusitanian
 			set_country_flag = arc_dng_claimed_lusitania
 			badboy = 7.5
 			LST = { all_core = { add_core = THIS } }

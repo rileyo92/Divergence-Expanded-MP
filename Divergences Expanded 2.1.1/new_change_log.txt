@@ -278,3 +278,18 @@
 #Lusitania decision for Arcadia moved to revolutions and counterrevolutions (was mass politics)
 #Reworked starting global naval bases
 #Pontic Greek added as a new culture
+#
+# 2.1.1
+#
+#Rework of Starting Situation of Gran Colombian War of Independance
+#Cleaned up Cores of releasables in GC
+#Made Guiana a Genoese Colony
+#Made Manchuria 30LR from 35LR
+#Made Ceylon 32LR from 35LR
+#Reworked GC and Incan Decisions
+#Combat Width Increases after 1920 and 1925
+#Immigration Reworked 
+#Removed choose Trade Policy decision
+#Gas Attack nerfed to +2 from +3
+#Gas Defence no longer negates gas attack, instead gives military hospitals
+#Return Home decisions now remove new_world_nation flag
