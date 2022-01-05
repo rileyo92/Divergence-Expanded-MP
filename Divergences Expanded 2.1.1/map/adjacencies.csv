@@ -228,13 +228,14 @@ From;To;Type;Through;Data;Comment
 2710;2711;impassable;0;0;Southern Baltic-Oresund
 2772;2773;impassable;0;0;Aegean-Marmara
 2774;2773;impassable;0;0;Gulf of Varna-Marmara
-2712;2711;land;372;0;Danish Sound Toll
-2710;2711;land;372;0;Danish Sound Toll
-2772;2773;land;859;0;Dardanelles
-2774;2773;land;860;0;Golden Horn
+
 #
 # The canals
 #
 2711;2721;canal;369;1;Kiel Canal
 2781;2769;canal;1755;2;Suez Canal
 2968;3001;canal;1723;3;Panama Canal
+2712;2711;canal;372;4;Danish Sound Toll
+2710;2711;canal;372;5;Danish Sound Toll
+2772;2773;canal;859;6;Dardanelles
+2774;2773;canal;860;7;Golden Horn
