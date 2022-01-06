@@ -37,11 +37,11 @@ dragoon = {
 
 
 	#Land Abilties
-	reconnaissance = 1
-	attack = 5
+	reconnaissance = 2
+	attack = 6
 	defence = 3
 	discipline = 1.0
 	support = 0.0
-	maneuver = 3
+	maneuver = 4
 
 }
