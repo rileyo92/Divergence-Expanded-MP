@@ -306,3 +306,6 @@
 #Removed more events
 #Nerfed Japanese and Korean literacy to 30%
 #Map Edits in Bosphorous, Denmark, Libya and Burma
+#Buffed Cavalry units but not Cavalry the unit
+#Last two arty tecks now give 1 attack instead of 0.5
+#Plane starting attack increased
