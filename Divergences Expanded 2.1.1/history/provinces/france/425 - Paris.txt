@@ -41,3 +41,4 @@ state_building = {
 		upgrade = yes
 	}
 }
+terrain = urban

@@ -2,6 +2,6 @@ owner = ARA
 controller = ARA
 add_core = MGH
 trade_goods = grain
-life_rating = 40
+life_rating = 35
 colonial = 2
 naval_base = 1
