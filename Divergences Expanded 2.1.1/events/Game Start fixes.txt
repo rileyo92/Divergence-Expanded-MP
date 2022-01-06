@@ -112,7 +112,6 @@ country_event = { #Chinese pop Nerf
 			tag = MCK
 			tag = MIG
 			tag = TNG
-			tag = DAI
 		}
 		NOT = { has_country_flag = chinese_economic_compensation }
 	}
