@@ -2,9 +2,9 @@ capital = 1624
 primary_culture = korean
 religion = mahayana
 government = absolute_monarchy
-plurality = 0.0
+plurality = 15.0
 nationalvalue = nv_order
-literacy = 0.38
+literacy = 0.30
 civilized = yes
 prestige = 5
 
@@ -24,7 +24,7 @@ work_hours = no_work_hour_limit
 safety_regulations = no_safety
 health_care = no_health_care
 unemployment_subsidies = no_subsidies
-pensions = no_pensions 
+pensions = no_pensions
 school_reforms = no_schools
 
 # New Reforms
@@ -75,22 +75,6 @@ consciousness = 0
 nonstate_consciousness = 0
 
 # Inventions
-#bottling_process = yes
 modern_winemaking = yes
 
 oob = "KOR_oob.txt"
-1861.1.1 = {
-	oob = "/1861/KOR_oob.txt"
-	literacy = 0.09
-	non_state_culture_literacy = 0.05
-
-	foreign_weapons = yes_foreign_weapons
-	foreign_officers = yes_foreign_officers
-	admin_reform = yes_admin_reform
-	land_reform = yes_land_reform
-
-	# Technologies
-	flintlock_rifles = 1
-	military_staff_system = 1
-}
-
