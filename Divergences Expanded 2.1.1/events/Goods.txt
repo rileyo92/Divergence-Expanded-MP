@@ -2,7 +2,7 @@
 #        GOLD EVENTS        #
 #############################
 province_event = {
-	
+
 	id = 1100
 
 	trigger = {
@@ -18,7 +18,7 @@ province_event = {
 			province_id = 2153			# Durango
 			province_id = 2157			# Culiacan
 			province_id = 2179			# Acapulco
-			#province_id = 2323			# La Serena
+			province_id = 2323			# La Serena
 			province_id = 2575			# Ipoh
 			#province_id = 1659			# Kobe
 			province_id = 2142			# Chihuahua
@@ -44,12 +44,12 @@ province_event = {
 			duration = 730
 		}
 		owner = {
-			random_owned = { 
-				limit = { 
+			random_owned = {
+				limit = {
 					owner = {
 						NOT = { has_country_modifier = gold_rush_country }
-						OR = { 
-							capital_scope = { continent = north_america } 
+						OR = {
+							capital_scope = { continent = north_america }
 							capital_scope = { continent = south_america }
 							primary_culture = australian
 						}
@@ -62,7 +62,7 @@ province_event = {
 }
 
 province_event = {
-	
+
 	id = 1101
 
 	trigger = {
@@ -73,7 +73,8 @@ province_event = {
 			province_id = 104			# San Francisco
 			province_id = 3				# Kenai
 			province_id = 90			# San Diego
-			province_id = 695			# Königsberg
+			province_id = 695			# Konigsberg
+			province_id = 84			# San Francisco
 			province_id = 2470			# Port Macquaire Australia
 			province_id = 2471			# Bathurst Australia
 			province_id = 2472			# Eden Australia
@@ -81,7 +82,7 @@ province_event = {
 			province_id = 2481			# Swan Hill Australia
 			province_id = 1084			# Utchan
 			province_id = 2645			# Bodaybo, Russia
-			#province_id = 2058			# Moyo, Mozambique
+			province_id = 2058			# Moyo, Mozambique
 		}
 		not = { trade_goods = precious_metal }
 		not = { trade_goods = oil }
@@ -118,11 +119,11 @@ province_event = {
 		owner = { random_owned = { limit = { province_id = 695 } remove_province_modifier = gold_rush } }
 		owner = {
 			random_owned = {
-				limit = { 
+				limit = {
 					owner = {
 						NOT = { has_country_modifier = gold_rush_country }
-						OR = { 
-							capital_scope = { continent = north_america } 
+						OR = {
+							capital_scope = { continent = north_america }
 							capital_scope = { continent = south_america }
 							primary_culture = australian
 						}
@@ -135,7 +136,7 @@ province_event = {
 }
 
 province_event = {
-	
+
 	id = 1103
 
 	trigger = {
@@ -152,7 +153,7 @@ province_event = {
 		not = { trade_goods = precious_metal }
 		NOT = { year = 1920 }
 	}
-	
+
 	fire_only_once = yes
 
 	mean_time_to_happen =  {
@@ -186,8 +187,8 @@ province_event = {
 				limit = {
 					owner = {
 						NOT = { has_country_modifier = gold_rush_country }
-						OR = { 
-							capital_scope = { continent = north_america } 
+						OR = {
+							capital_scope = { continent = north_america }
 							capital_scope = { continent = south_america }
 							primary_culture = australian
 						}
@@ -202,22 +203,22 @@ province_event = {
 #Witwatersrand Gold Rush
 province_event = {
 	id = 1139
-	
+
 	trigger = {
 		year = 1886
 		province_id = 2106
 		NOT = { trade_goods = precious_metal }
 	}
-	
+
 	fire_only_once = yes
-	
+
 	mean_time_to_happen = {
 		months = 12
 	}
-	
+
 	title = "EVTNAME1139"
 	desc = "EVTDESC1139"
-	
+
 	option = {
 		name = "EVTOPTA1139"
 		trade_goods = precious_metal
@@ -245,26 +246,26 @@ country_event = {
 	news_desc_medium = "EVTDESC1140_NEWS_MEDIUM"
 	news_desc_short = "EVTDESC1140_NEWS_SHORT"
 	picture = "goldrush"
-	
+
 	fire_only_once = yes
-	
+
 	trigger = {
 		year = 1874
 		has_country_flag = custers_expedition_sent
 	}
-	
+
 	mean_time_to_happen = {
 		months = 5
 	}
-	
+
 	option  ={
 		name = "EVTOPTA1140"
 		random_owned = {
 			limit = {
 				owner = {
 					NOT = { has_country_modifier = gold_rush_country }
-					OR = { 
-						capital_scope = { continent = north_america } 
+					OR = {
+						capital_scope = { continent = north_america }
 						capital_scope = { continent = south_america }
 						primary_culture = australian
 					}
@@ -283,7 +284,7 @@ country_event = {
 }
 
 province_event = {
-	
+
 	id = 1104
 
 	trigger = {
@@ -321,7 +322,7 @@ province_event = {
 				2495 = { change_province_name = "Oodnadatta" life_rating = -5}
 			}
 		}
-		owner = { 
+		owner = {
 			random_owned = {
 				limit = { owner = { owns = 2496 2496 = { life_rating = 20 } } }
 				2496 = { change_province_name = "Yalata" life_rating = -5}
@@ -334,7 +335,7 @@ province_event = {
 #        DIAMOND EVENTS        #
 ################################
 province_event = {
-	
+
 	id = 1105
 
 	trigger = {
@@ -367,7 +368,7 @@ province_event = {
 }
 
 province_event = {
-	
+
 	id = 1106
 
 	trigger = {
@@ -404,7 +405,7 @@ province_event = {
 #        RUBBER EVENTS        #
 ###############################
 province_event = {
-	
+
 	id = 1107
 
 	trigger = {
@@ -433,7 +434,7 @@ province_event = {
 			province_id = 1923
 			province_id = 1321
 			province_id = 1398
-			#province_id = 1421
+			province_id = 1421
 			province_id = 1985
 			province_id = 1406
 			province_id = 1318
@@ -480,7 +481,7 @@ province_event = {
 }
 
 province_event = {
-	
+
 	id = 1108
 
 	trigger = {
@@ -1321,7 +1322,7 @@ province_event = {
 			province_id = 1167		# Abu Dhabi
 			province_id = 1163		# Qatif
 			province_id = 2270		# Maracaibo
-			province_id = 1170		# Nizwa 
+			province_id = 1170		# Nizwa
 		}
 		not = { trade_goods = oil }
 		NOT = { has_province_modifier = switched_production }
