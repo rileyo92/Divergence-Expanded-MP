@@ -74,4 +74,19 @@ political_decisions = {
 			set_global_flag = panama_canal_built
 		}
 	}
+
+	build_sound_tolls = {
+		potential = {
+			NOT = { has_global_flag = sound_tolls_built_fix }
+			tag = DUA
+		}
+		allow = {}
+		effect = {
+			set_global_flag = sound_tolls_built_fix
+			enable_canal = 4
+			enable_canal = 5
+			enable_canal = 6
+			enable_canal = 7
+		}
+	}
 }
