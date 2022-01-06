@@ -1,7 +1,6 @@
 controller = GEN
 owner = GEN
 add_core = MDR
-#add_core = TRA
 add_core = DRA
 trade_goods = precious_goods
 life_rating = 40

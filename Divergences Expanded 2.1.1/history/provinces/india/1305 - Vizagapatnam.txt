@@ -1,9 +1,8 @@
 owner = HYD
 controller = HYD
-#add_core = VIJ
 add_core = ADR
 add_core = ORI
 add_core = HYD
 add_core = DRA
 trade_goods = tobacco
-life_rating = 32
+life_rating = 30

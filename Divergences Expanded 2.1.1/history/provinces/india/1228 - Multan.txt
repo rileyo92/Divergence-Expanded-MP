@@ -3,4 +3,4 @@ controller = SIN
 add_core = PNJ
 add_core = HND
 trade_goods = cattle
-life_rating = 32
+life_rating = 30

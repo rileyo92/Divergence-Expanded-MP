@@ -3,5 +3,4 @@ controller = SCA
 add_core = MLD
 trade_goods = fish
 life_rating = 30
-colonial = 1
-terrain = small_island
+colonial = 2

@@ -5,4 +5,4 @@ add_core = DRA
 add_core = VIJ
 add_core = BHO
 trade_goods = cotton
-life_rating = 32
+life_rating = 30
