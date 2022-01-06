@@ -321,6 +321,12 @@ political_decisions = {
 					NOT = { has_country_flag = levantines }
 				}
 			}
+			NOT = {
+				AND = {
+					tag = EGY
+					NOT = { has_country_flag = egypt_arabia }
+				}
+			}
 		}
 		allow = {
 			NOT = { part_of_sphere = yes }
@@ -357,6 +363,7 @@ political_decisions = {
 			add_accepted_culture = berber
 			add_accepted_culture = sudanese
 			add_accepted_culture = druze
+			remove_accepted_culture = coptic
 			all_core = {
 				add_core = UAR
 			}
