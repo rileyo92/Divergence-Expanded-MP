@@ -100,3 +100,40 @@ country_event = {
 		}
 	}
 }
+
+country_event = { #Chinese pop Nerf
+	id = 776405
+	title = "Chinese Pop Nerf"
+	desc = "In order to preserve balance and game stability, China's starting pops shall be reduced"
+
+	trigger = {
+		OR = {
+			tag = TAI
+			tag = MCK
+			tag = MIG
+			tag = TNG
+			tag = DAI
+		}
+		NOT = { has_country_flag = chinese_economic_compensation }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "Oh Well"
+		set_country_flag = chinese_economic_compensation
+		any_owned = {
+			limit = {
+				OR = {
+					is_core = CHI
+					is_core = MNG
+				}
+			}
+			any_pop = {
+				reduce_pop = 0.20
+			}
+		}
+	}
+}
