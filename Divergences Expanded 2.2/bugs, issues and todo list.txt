@@ -4,7 +4,6 @@
 #
 ##To-do List
 #
-#Bug Fix Events for Scandi which trigger if they choose an expansion path and loses land in certain places which makes you lose accepted pop
 #Clean up China CB's again probably
 #Clean up useless files from HPM/PDM Ports
 #
@@ -66,3 +65,4 @@
 #3 Transfer Puppet CB's (Minor 0 Infamy, Normal 2.5 Infamy, Major 5 Infamy)
 #
 #Note: Becuase of Chance of Discovery being changed to 100%, these infamy amounts will change to accomodate the fact that you will no longer get lucky
+#

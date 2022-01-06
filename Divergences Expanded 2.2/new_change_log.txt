@@ -293,3 +293,16 @@
 #Gas Attack nerfed to +2 from +3
 #Gas Defence no longer negates gas attack, instead gives military hospitals
 #Return Home decisions now remove new_world_nation flag
+#
+# 2.2
+#
+#Added Straights and Canals to Copenhagen and Bosphorous
+#Nerfed India LR to 30 from 32
+#Day one event will now remove 20% of China's pops
+#Nerfed North Africa LR to 30 from 35
+#Nerfed Pop growth inventions in Medicine tech
+#Added decisions for Egypt thanks to Zedphyr
+#Added Strait between Kiel and Copenhagen
+#Removed more events
+#Nerfed Japanese and Korean literacy to 30%
+#Map Edits in Bosphorous, Denmark, Libya and Burma

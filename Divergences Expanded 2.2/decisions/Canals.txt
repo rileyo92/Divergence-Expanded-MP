@@ -78,7 +78,7 @@ political_decisions = {
 	build_sound_tolls = {
 		potential = {
 			NOT = { has_global_flag = sound_tolls_built_fix }
-			tag = DUA
+			tag = DNG
 		}
 		allow = {}
 		effect = {

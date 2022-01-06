@@ -5,5 +5,5 @@
 #Thanks to the Napoleon Legacy team for letting me use their flags for Confederation of the Rhine
 #Thanks to the HFM:Expanded team for letting me use their flags for Zapadoslavia
 #Thanks to Nurse_Reno for letting me use their migration/emigration/assimilation mechanics from Igor_PUIR
-#
+#Thanks to Zephyr for working on decisions for Egypt and a few bug fixes
 #
