@@ -73,4 +73,6 @@ mechanical_production = 1
 consciousness = 0
 nonstate_consciousness = 0
 
+decision = build_sound_tolls
+
 oob = "DNG_oob.txt"
