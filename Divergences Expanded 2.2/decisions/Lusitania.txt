@@ -1,0 +1,29 @@
+political_decisions = {
+
+	LST_recognized = {
+		potential = {
+			tag = LST
+			NOT = { has_country_flag = LST_recognized }
+			LST = {
+				all_core = {
+					owned_by = THIS
+				}
+			}
+		}
+		allow = {
+			war = no
+			is_vassal = no
+			OR = {
+				is_greater_power = yes
+				truce_with = MEX
+			}
+		}
+		effect = {
+			set_country_flag = LST_recognized
+			any_owned = {
+				limit = { is_core = THIS }
+				remove_core = MEX
+			}
+		}
+	}
+}
