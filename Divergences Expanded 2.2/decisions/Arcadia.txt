@@ -1,6 +1,7 @@
 political_decisions = {
 	#Vinland decisions
 	vin_manifest_destiny = {
+		picture = vinland
 		potential = {
 			tag = VIN
 			NOT = { has_country_flag = vin_manifest_destiny }
@@ -58,6 +59,7 @@ political_decisions = {
 	}
 
 	return_to_scandi = {
+		picture = reform_kalmar
 		potential = {
 			tag = VIN
 			NOT = { has_country_flag = returned_home }
@@ -100,6 +102,7 @@ political_decisions = {
 	}
 
 	form_north_sea_empire_vin = {
+		picture = reform_kalmar
 		potential = {
 			tag = VIN
 			has_country_flag = returned_home
@@ -191,6 +194,7 @@ political_decisions = {
 
 	#Belgium Confederacy decisions
 	nbg_manifest_destiny = { # Seven Republics
+		picture = SevenRep
 		potential = {
 			tag = NBG
 			NOT = { has_country_flag = nbg_manifest_destiny }
@@ -265,6 +269,7 @@ political_decisions = {
 	}
 
 	reform_netherlands_belgium = {
+		picture = become_belgium
 		potential = {
 			tag = NBG
 		}
@@ -292,6 +297,7 @@ political_decisions = {
 	}
 
 	belgium_integrate_dutch = {
+		picture = become_belgium
 		potential = {
 			tag = BEL
 			NOT = { has_country_flag = integrate_dutch_bel }
@@ -421,6 +427,7 @@ political_decisions = {
 	}
 
 	form_triple_monarchy = {
+		picture = apanage
 		potential = {
 			tag = PLA
 		}
@@ -525,6 +532,7 @@ political_decisions = {
 	}
 
 	annex_qingqiu_arc = {
+		picture = USA_annex_california
 		potential = {
 			tag = ARC
 			NOT = { has_country_flag = vinland_arc }
@@ -553,6 +561,7 @@ political_decisions = {
 	}
 
 	annex_plantagenia_arc = {
+		picture = Plantagenia
 		potential = {
 			tag = ARC
 			has_country_flag = vinlandic_arcadia
@@ -576,6 +585,7 @@ political_decisions = {
 	}
 
 	annex_mexico_arc = {
+		picture = Manifest_Destiny_ARC
 		potential = {
 			tag = ARC
 			has_country_flag = plantagenian_arcadia
@@ -634,34 +644,6 @@ political_decisions = {
 		ai_will_do = {
     	factor = 1
       modifier = { factor = 0 badboy = 0.7 }
-  	}
-	}
-
-  ###################################################################
-
-	Western_border_treaty = {
-		picture = Manifest_Destiny_ARC
-		potential = {
-			tag = ARC
-			NOT = { DNG = { rank = 8 } }
-			NOT = { has_country_flag = manifest_destiny_arc }
-			NOT = { has_country_flag = qingqiu_arc }
-			has_country_flag = panarcadianism
-		}
-		allow = {
-			DNG = { NOT = { war = yes }}
-			NOT = { war = yes }
-			money = 1000000
-		}
-		effect = {
-			prestige = 5
-			badboy = 10
-			country_event = 333470
-			set_country_flag = manifest_destiny_arc
-		}
-		ai_will_do = {
-    	factor = 1
-      modifier = { factor = 0 badboy = 0.6 }
   	}
 	}
 }
