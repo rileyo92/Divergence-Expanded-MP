@@ -7,7 +7,7 @@ rail_focus = { #Now called Colonial Policy
 			is_colonial = yes
 		}
 	}
-	
+
 	encourage_agriculture = {
 		farm_rgo_eff = 0.5
 		pop_militancy_modifier = 0.01
@@ -27,7 +27,7 @@ rail_focus = { #Now called Colonial Policy
 			}
 		}
 	}
-	
+
 	encourage_mining = {
 		mine_rgo_eff = 0.5
 		pop_militancy_modifier = 0.01
@@ -47,7 +47,7 @@ rail_focus = { #Now called Colonial Policy
 			}
 		}
 	}
-	
+
 	encourage_business = {
 		local_RGO_throughput = 0.5
 		immigrant_attract = 0.25
@@ -66,7 +66,7 @@ rail_focus = { #Now called Colonial Policy
 			}
 		}
 	}
-	
+
 	militancy_appeasement = {
 		pop_militancy_modifier = -0.5
 		local_RGO_throughput = -0.1
@@ -76,7 +76,7 @@ rail_focus = { #Now called Colonial Policy
 			is_overseas = yes
 		}
 	}
-	
+
 	consciousness_appeasement = {
 		pop_consciousness_modifier = -0.5
 		icon = 7
@@ -96,7 +96,7 @@ immigration_focus = {
 			owner = { number_of_states = 2 }
 		}
 	}
-	
+
 	emigration_focus = {
 		immigrant_push = 0.15
 		icon = 9
@@ -124,7 +124,7 @@ diplomatic_focus = {
 		icon = 10
 		has_flashpoint = yes
 		own_provinces = no
-		
+
 		flashpoint_tension = 0.15
 
 		limit = {
@@ -140,25 +140,25 @@ diplomatic_focus = {
 
 promotion_focus = {
 	promote_aristocrats = {
-		aristocrats = 0.20 #20% more likely to become artisans
+		aristocrats = 0.25 #25% more likely to become artisans
 		icon = 11
 		outliner_show_as_percent = yes
-		
+
 		limit = {
-			owner = { NOT = { government = proletarian_dictatorship } ai = no } 
+			owner = { NOT = { government = proletarian_dictatorship } ai = no }
 			NOT = { state_scope = { any_owned_province = { NOT = { controlled_by = THIS } } } }
 		}
 	}
 
 	promote_artisans = {
-		artisans = 0.20 #20% more likely to become this type
+		artisans = 0.25 #25% more likely to become this type
 		icon = 12
 		outliner_show_as_percent = yes
 		limit = { owner = { ai = no } NOT = { state_scope = { any_owned_province = { NOT = { controlled_by = THIS } } } } }
 	}
 
 	promote_bureaucrats = {
-		bureaucrats = 0.20 #20% more likely to become this type
+		bureaucrats = 0.25 #20% more likely to become this type
 		icon = 13
 		outliner_show_as_percent = yes
 		limit = {
@@ -176,24 +176,24 @@ promotion_focus = {
 	}
 
 	promote_capitalists = {
-		capitalists = 0.20 #20% more likely to become this type
+		capitalists = 0.25 #25% more likely to become this type
 		icon = 14
 		outliner_show_as_percent = yes
-		limit = { 
-			owner = { NOT = { government = proletarian_dictatorship } civilized = yes } 
+		limit = {
+			owner = { NOT = { government = proletarian_dictatorship } civilized = yes }
 			NOT = { state_scope = { any_owned_province = { NOT = { controlled_by = THIS } } } }
 			NOT = { has_province_modifier = irish_oppression }
 			NOT = { state_scope = { capitalists = 0.007 } }
 			is_colonial = no
 		}
 	}
-	
+
 	promote_clergymen = {
-		clergymen = 0.20 #20% more likely to become this type
+		clergymen = 0.25 #25% more likely to become this type
 		icon = 15
 		outliner_show_as_percent = yes
 		limit = {
-			NOT = { state_scope = { any_owned_province = { NOT = { controlled_by = THIS } } } } 
+			NOT = { state_scope = { any_owned_province = { NOT = { controlled_by = THIS } } } }
 			NOT = { has_province_modifier = irish_oppression }
 			NOT = { state_scope = { clergymen = 0.041 } }
 			OR = {
@@ -204,7 +204,7 @@ promotion_focus = {
 	}
 
 	promote_clerks = {
-		clerks = 0.20 #20% more likely to become this type
+		clerks = 0.25 #25% more likely to become this type
 		icon = 16
 		outliner_show_as_percent = yes
 		limit = {
@@ -221,7 +221,7 @@ promotion_focus = {
 	}
 
 	promote_craftsmen = {
-		craftsmen = 0.20 #20% more likely to become this type
+		craftsmen = 0.25 #25% more likely to become this type
 		icon = 17
 		outliner_show_as_percent = yes
 		limit = {
@@ -234,7 +234,7 @@ promotion_focus = {
 	}
 
 	promote_farmers = {
-		farmers =	 0.20 #20% more likely to become this type
+		farmers = 0.25 #25% more likely to become this type
 		icon = 18
 		outliner_show_as_percent = yes
 		limit = {
@@ -243,24 +243,24 @@ promotion_focus = {
 			work_available = { worker = farmers }
 		}
 	}
-	
+
 	promote_labourers = {
-		labourers = 0.20 #20% more likely to become this type
+		labourers = 0.25 #25% more likely to become this type
 		icon = 19
 		outliner_show_as_percent = yes
 		limit = {
 			owner = { ai = no }
-			NOT = { state_scope = { any_owned_province = { NOT = { controlled_by = THIS } } } } 
+			NOT = { state_scope = { any_owned_province = { NOT = { controlled_by = THIS } } } }
 			work_available = { worker = labourers }
 		}
 	}
 
 	promote_officers = {
-		officers = 0.20 #20% more likely to become this type
+		officers = 0.25 #25% more likely to become this type
 		icon = 20
 		outliner_show_as_percent = yes
 		limit = {
-			owner = { ai = no } 
+			owner = { ai = no }
 			NOT = { state_scope = { any_owned_province = { NOT = { controlled_by = THIS } } } }
 			NOT = { has_province_modifier = irish_oppression }
 			NOT = { state_scope = { officers = 0.002 } }
@@ -272,7 +272,7 @@ promotion_focus = {
 	}
 
 	promote_soldiers = {
-		soldiers = 0.20 #20% more likely to become this type
+		soldiers = 0.25 #25% more likely to become this type
 		icon = 21
 		outliner_show_as_percent = yes
 		limit = {
@@ -296,8 +296,8 @@ production_focus = {
 		barrels = 50
 		automobiles = 50
 		icon = 22
-		limit = { 
-			year = 1880 
+		limit = {
+			year = 1880
 			civilized = yes
 			NOT = { state_scope = { any_owned_province = { NOT = { controlled_by = THIS } } } }
 			NOT = { owner = { economic_policy = planned_economy } }
@@ -312,7 +312,7 @@ production_focus = {
 		electric_gear = 50
 		icon = 23
 		limit = {
-			year = 1880 
+			year = 1880
 			civilized = yes
 			NOT = { state_scope = { any_owned_province = { NOT = { controlled_by = THIS } } } }
 			NOT = { owner = { economic_policy = planned_economy } }
@@ -326,7 +326,7 @@ production_focus = {
 		oil = 50
 		icon = 24
 		limit = {
-			year = 1880 
+			year = 1880
 			civilized = yes
 			NOT = { state_scope = { any_owned_province = { NOT = { controlled_by = THIS } } } }
 			NOT = { owner = { economic_policy = planned_economy } }
@@ -339,7 +339,7 @@ production_focus = {
 		steamer_convoy = 50
 		clipper_convoy = 50
 		icon = 25
-		limit = { 
+		limit = {
 			#civilized = yes
 			state_scope = { any_owned_province = { port = yes } }
 			NOT = { state_scope = { any_owned_province = { NOT = { controlled_by = THIS } } } }
@@ -355,7 +355,7 @@ production_focus = {
 		fabric = 15
 		dye = 15
 		icon = 26
-		limit = { 
+		limit = {
 			#civilized = yes
 			NOT = { state_scope = { any_owned_province = { NOT = { controlled_by = THIS } } } }
 			NOT = { owner = { economic_policy = planned_economy } }
@@ -370,7 +370,7 @@ production_focus = {
 		furniture = 40
 		lumber = 40
 		icon = 27
-		limit = { 
+		limit = {
 		#	civilized = yes
 			NOT = { state_scope = { any_owned_province = { NOT = { controlled_by = THIS } } } }
 			NOT = { owner = { economic_policy = planned_economy } }
@@ -426,8 +426,8 @@ production_focus = {
 	encourage_rail = {
 		railroads = 0.75 #Capitalists 50% more likely to choose railroads
 		icon = 31
-		limit = { 
-			owner = { ai = no }  
+		limit = {
+			owner = { ai = no }
 			NOT = { owner = { economic_policy = planned_economy } }
 			NOT = { state_scope = { any_owned_province = { NOT = { controlled_by = THIS } } } }
 			NOT = { has_province_modifier = irish_oppression }
@@ -438,43 +438,43 @@ production_focus = {
 party_loyalty_focus = {
 	fascist_focus = {
 		ideology = fascist
-		loyalty_value = 0.003 # By that much pops will be more loyal
+		loyalty_value = 0.01 # By that much pops will be more loyal
 		icon = 32
 	}
-	
+
 	reactionary_focus = {
 		ideology = reactionary
-		loyalty_value = 0.003 # By that much pops will be more loyal
+		loyalty_value = 0.01 # By that much pops will be more loyal
 		icon = 33
 	}
-	
+
 	conservative_focus = {
 		ideology = conservative
-		loyalty_value = 0.003 # By that much pops will be more loyal
+		loyalty_value = 0.01 # By that much pops will be more loyal
 		icon = 34
 	}
-	
+
 	socialist_focus = {
 		ideology = socialist
-		loyalty_value = 0.003 # By that much pops will be more loyal
+		loyalty_value = 0.01 # By that much pops will be more loyal
 		icon = 35
 	}
-	
+
 	communist_focus = {
 		ideology = communist
-		loyalty_value = 0.003 # By that much pops will be more loyal
+		loyalty_value = 0.01 # By that much pops will be more loyal
 		icon = 36
 	}
-	
+
 	liberal_focus = {
 		ideology = liberal
-		loyalty_value = 0.003 # By that much pops will be more loyal
+		loyalty_value = 0.01 # By that much pops will be more loyal
 		icon = 37
 	}
-	
+
 	anarcho_liberal_focus = {
 		ideology = anarcho_liberal
-		loyalty_value = 0.003 # By that much pops will be more loyal
+		loyalty_value = 0.01 # By that much pops will be more loyal
 		icon = 38
 	}
 }

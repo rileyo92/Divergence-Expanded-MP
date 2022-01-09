@@ -320,18 +320,6 @@ migration_chance =
 		}
 	}
 
-#If pop group meets at least 99% of its life needs, then -1% chance to migrate to another state.
-#	modifier = {
-#		factor = -1.0
-#		life_needs = 0.99
-#	}
-#
-#If pop group meets at least 99% of its everyday needs, then -1% chance to migrate to another state.
-#	modifier = {
-#		factor = -1.0
-#		everyday_needs = 0.99
-#	}
-
 #If pop group meets at least 10%/20%/30%/40%/50%/60%/70%/80%/90%/99% of its luxury needs, then -0.05% chance to migrate to another state per threshold.	(-0.5% total)
 	group = {
 		modifier = {
@@ -469,14 +457,6 @@ migration_chance =
 		}
 	}
 
-#If pop group is in a state that has a factory, then -0.3% chance to migrate to another state.
-#	modifier = {
-#		factor = -0.3
-#		state_scope = {
-#			has_factories = yes
-#		}
-#	}
-
 ###Special Factors###
 
 #If pop group is not an accepted culture or a primary culture, then -10% chance to migrate to another state. DO NOT DELETE.
@@ -504,9 +484,8 @@ migration_chance =
 }
 
 #general colonial migration mtth, same for all pops
-colonialmigration_chance =
-{
-	factor = 0.25
+colonialmigration_chance = {
+	factor = 0.20
 
 #If pop group doesn't obtain 10%/20%/30%/40%/50%/60%/70%/80%/90%/99% of their life needs, then 0.05% chance to migrate to a colony for each threshold. (0.5% total)
 	group = {
@@ -601,18 +580,6 @@ colonialmigration_chance =
 		}
 	}
 
-#If pop group meets at least 99% of its life needs, then -0.25% chance to migrate to a colony.	(-0.25% total)
-#	modifier = {
-#		factor = -0.25
-#		life_needs = 0.99
-#	}
-#
-#If pop group meets at least 99% of its everyday needs, then -0.25% chance to migrate to a colony.	(-0.25% total)
-#	modifier = {
-#		factor = -0.25
-#		everyday_needs = 0.99
-#	}
-
 #If pop group meets at least 10%/20%/30%/40%/50%/60%/70%/80%/90%/99% of its luxury needs, then -0.05% chance to migrate to a colony per threshold.	(-0.5% total)
 	group = {
 		modifier = {
@@ -657,14 +624,6 @@ colonialmigration_chance =
 		}
 	}
 
-#If pop group is in a state that has a factory, then -0.3% chance to migrate to another state.
-#	modifier = {
-#		factor = -0.3
-#		state_scope = {
-#			has_factories = yes
-#		}
-#	}
-
 ###Special Factors###
 
 #If pop group is is in a state and is not an accepted culture or a primary culture, then -10% chance to migrate to a colony. DO NOT DELETE.
@@ -687,8 +646,7 @@ colonialmigration_chance =
 }
 
 #general emigration chance - Base chance +1%
-emigration_chance =
-{
+emigration_chance = {
 	factor = 0.6
 
 ###Positive Factors for Emigration (bad)###
@@ -1010,7 +968,7 @@ emigration_chance =
 	}
 
 	modifier = {
-		factor = -0.4
+		factor = -0.3
 		is_accepted_culture = no
 		NOT = { culture = irish }
 	}
@@ -1039,7 +997,7 @@ emigration_chance =
 	   factor = -0.6
 		 culture = hakka
 	}
-	
+
 }
 #general assimilation mtth, same for all pops
 assimilation_chance = {
@@ -1050,12 +1008,9 @@ assimilation_chance = {
 	modifier = {
 		factor = -1000
 		OR = {
-			AND = {
-				has_pop_culture = afro_american
-				country = {
-					is_culture_group = american_cultures
-				}
-			}
+			has_pop_culture = afro_latino
+			has_pop_culture = afro_frankish
+			has_pop_culture = afro_germanic
 			OR = {
 				state_scope = { is_colonial = yes }
 				country = {
@@ -1746,129 +1701,9 @@ assimilation_chance = {
 			has_culture_core = no
 		}
 	}
-#EQUALITY NATIONAL VALUE BONUS - 50% more base assimilation rate for nations with the equality national value. (0.000198 + base)(new rate = 0.000594)
-	group = {
-		modifier = {
-			factor = 5
-			country = {
-				nationalvalue = nv_equality
-			}
-		}
-		modifier = {
-			factor = -4.95
-			has_culture_core = no
-			country = {
-				nationalvalue = nv_equality
-			}
-		}
-	}
-
 }
 
 #general conversion mtth, same for all pops
-conversion_chance =
-{
+conversion_chance = {
 	factor = 0
-
-#	group = {
-#		modifier = {
-#			factor = 0.05
-#			literacy = 0.4
-#		}
-#		modifier = {
-#			factor = 0.05
-#			literacy = 0.5
-#		}
-#		modifier = {
-#			factor = 0.05
-#			literacy = 0.6
-#		}
-#	}
-#
-#
-#	group = {
-#		modifier = {
-#			factor = 0.2
-#			not = { luxury_needs = 0.9 }
-#		}
-#		modifier = {
-#			factor = 0.2
-#			not = { luxury_needs = 0.7 }
-#		}
-#		modifier = {
-#			factor = 0.2
-#			not = { luxury_needs = 0.5 }
-#		}
-#	}
-#
-#	modifier = {
-#		factor = -10
-#		has_pop_religion = jewish
-#	}
-#
-#	modifier = {
-#		factor = 3
-#		has_pop_religion = animist
-#		location = { continent = africa }
-#	}
-#
-#	group = {
-#		modifier = {
-#			factor = 0.5
-#			not = { life_needs = 0.9 }
-#		}
-#		modifier = {
-#			factor = 0.5
-#			not = { life_needs = 0.8 }
-#		}
-#		modifier = {
-#			factor = 0.5
-#			not = { life_needs = 0.7 }
-#		}
-#	}
-#
-#	modifier = {
-#		factor = 0.15
-#		not = { culture = this }
-#	}
-#
-#	modifier = {
-#		factor = -5
-#		OR = {
-#			is_primary_culture = yes
-#			is_accepted_culture = yes
-#		}
-#	}
-#
-#	modifier = {
-#		factor = 3
-#		country = { religious_policy = moralism }
-#	}
-#	modifier = {
-#		factor = 1.01
-#		country = { religious_policy = pluralism }
-#	}
-#	modifier = {
-#		factor = -3
-#		country = { religious_policy = pro_atheism }
-#	}
-#	modifier = {
-#		factor = -1
-#		country = { religious_policy = secularized }
-#	}
-#
-#	group = {
-#		modifier = {
-#			factor = 0.05
-#			unemployment = 0.1
-#		}
-#		modifier = {
-#			factor = 0.05
-#			unemployment = 0.2
-#		}
-#		modifier = {
-#			factor = 0.05
-#			unemployment = 0.3
-#		}
-#	}
 }
