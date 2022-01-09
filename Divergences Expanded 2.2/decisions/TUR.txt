@@ -369,7 +369,6 @@ political_decisions = {
 		effect = {
 			add_accepted_culture = misri
 			add_accepted_culture = bedouin
-			add_accepted_culture = maghrebi
 			MGH = { all_core = { add_core = THIS } }
 			TUN = { all_core = { add_core = THIS } }
 		}
