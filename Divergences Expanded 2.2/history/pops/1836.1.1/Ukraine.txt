@@ -1,11 +1,11 @@
 #Bukovina Region (164000) #See Romania.txt for balance of region 
-#under the rule of Austria in 1836  
-#Cernauti (164000/41000 POPS)  
+#under the rule of Austria in 1836
+#Cernauti (164000/41000 POPS)
 662 = {
 	clergymen = {
 		culture = romanian
 		religion = orthodox
-		size = 75 
+		size = 75
 	}
 
 	artisans = {
@@ -24,19 +24,19 @@
 	farmers = {
 		culture = romanian
 		religion = orthodox
-		size = 9425 
+		size = 9425
 	}
 
 	clergymen = {
 		culture = ruthenian
 		religion = orthodox
-		size = 200   
+		size = 200
 	}
 
 	artisans = {
 		culture = ruthenian
 		religion = orthodox
-		size = 1100 
+		size = 1100
 	}
 
 	soldiers = {
@@ -49,37 +49,37 @@
 	farmers = {
 		culture = ruthenian
 		religion = orthodox
-		size = 19600   
+		size = 19600
 	}
 
 	aristocrats = {
 		culture = polish
 		religion = catholic
-		size = 700    
+		size = 700
 	}
 
 	bureaucrats = {
 		culture = polish
 		religion = catholic
-		size = 30 
+		size = 30
 	}
 
 	officers = {
 		culture = polish
 		religion = catholic
-		size = 60  
+		size = 60
 	}
 
 	clergymen = {
 		culture = polish
 		religion = catholic
-		size = 50 
+		size = 50
 	}
 
 	artisans = {
 		culture = polish
 		religion = catholic
-		size = 300 
+		size = 300
 	}
 
 	soldiers = {
@@ -96,52 +96,52 @@
 	}
 
 	bureaucrats = {
-		culture = south_german
+		culture = lower_danubian
 		religion = catholic
 		size = 35
 	}
 
 	officers = {
-		culture = south_german
+		culture = lower_danubian
 		religion = catholic
-		size = 40  
+		size = 40
 	}
 
 	clergymen = {
-		culture = south_german
+		culture = lower_danubian
 		religion = catholic
-		size = 50 
+		size = 50
 	}
 
 	artisans = {
-		culture = south_german
+		culture = lower_danubian
 		religion = catholic
-		size = 200  
+		size = 200
 	}
 
 	soldiers = {
-		culture = south_german
+		culture = lower_danubian
 		religion = catholic
 		size= 25
 
 	}
 
 	farmers = {
-		culture = south_german
+		culture = lower_danubian
 		religion = catholic
-		size = 2650   
+		size = 2650
 	}
 
 	clergymen = {
 		culture = ashkenazi
 		religion = jewish
-		size = 50    
+		size = 50
 	}
 
 	artisans = {
 		culture = ashkenazi
 		religion = jewish
-		size = 600   
+		size = 600
 	}
 
 	soldiers = {
@@ -154,29 +154,29 @@
 	farmers = {
 		culture = ashkenazi
 		religion = jewish
-		size = 2325      
+		size = 2325
 	}
 }
-#Bessarabia Region (332000) #see Moldova.txt for balance of Region  
-#under the rule of Russia in 1836 
-#Ismail (332000/83000 POPS)  
+#Bessarabia Region (332000) #see Moldova.txt for balance of Region
+#under the rule of Russia in 1836
+#Ismail (332000/83000 POPS)
 678 = {
 	farmers = {
 		culture = gypsy
 		religion = orthodox
 		size = 100
 	}
-	
+
 	aristocrats = {
 		culture = romanian
 		religion = orthodox
-		size = 2100 
+		size = 2100
 	}
 
 	clergymen = {
 		culture = romanian
 		religion = orthodox
-		size = 600 
+		size = 600
 	}
 
 	artisans = {
@@ -195,19 +195,19 @@
 	farmers = {
 		culture = romanian
 		religion = orthodox
-		size = 53800 
+		size = 53800
 	}
 
 	clergymen = {
 		culture = ashkenazi
 		religion = jewish
-		size = 75    
+		size = 75
 	}
 
 	artisans = {
 		culture = ashkenazi
 		religion = jewish
-		size = 1400  
+		size = 1400
 	}
 
 	soldiers = {
@@ -220,13 +220,13 @@
 	farmers = {
 		culture = ashkenazi
 		religion = jewish
-		size = 5450     
+		size = 5450
 	}
 
 	clergymen = {
 		culture = bulgarian
 		religion = orthodox
-		size = 50 
+		size = 50
 	}
 
 	artisans = {
@@ -251,7 +251,7 @@
 	clergymen = {
 		culture = ruthenian
 		religion = orthodox
-		size = 100 
+		size = 100
 	}
 
 	artisans = {
@@ -270,19 +270,19 @@
 	farmers = {
 		culture = ruthenian
 		religion = orthodox
-		size = 9300 
+		size = 9300
 	}
 
 	clergymen = {
 		culture = turkish #gagauz
 		religion = orthodox
-		size = 50   
+		size = 50
 	}
 
 	artisans = {
 		culture = turkish
 		religion = orthodox
-		size = 150  
+		size = 150
 	}
 
 	soldiers = {
@@ -295,23 +295,23 @@
 	farmers = {
 		culture = turkish
 		religion = orthodox
-		size = 2775 
+		size = 2775
 	}
 }
 #Felvidek Region (856000) #see Hungary.txt and Slovakia.txt for balance of Region
-#under the rule of Austria in 1836  
+#under the rule of Austria in 1836
 #Uzgorod (856000/214000 POPS) #Part of Ukraine today
 950 = {
 	clergymen = {
 		culture = ruthenian
 		religion = orthodox
-		size = 850  
+		size = 850
 	}
 
 	artisans = {
 		culture = ruthenian
 		religion = orthodox
-		size = 4600 
+		size = 4600
 	}
 
 	soldiers = {
@@ -324,13 +324,13 @@
 	farmers = {
 		culture = ruthenian
 		religion = orthodox
-		size = 85650  
+		size = 85650
 	}
 
 	clergymen = {
 		culture = slovak
 		religion = catholic
-		size = 150 
+		size = 150
 	}
 
 	artisans = {
@@ -355,19 +355,19 @@
 	aristocrats = {
 		culture = hungarian
 		religion = catholic
-		size = 4250  
+		size = 4250
 	}
 
 	clergymen = {
 		culture = hungarian
 		religion = catholic
-		size = 425  
+		size = 425
 	}
 
 	artisans = {
 		culture = hungarian
 		religion = catholic
-		size = 2150 
+		size = 2150
 	}
 
 	soldiers = {
@@ -380,19 +380,19 @@
 	farmers = {
 		culture = hungarian
 		religion = catholic
-		size = 35725  
+		size = 35725
 	}
 
 	clergymen = {
 		culture = hungarian
 		religion = protestant
-		size = 400  
+		size = 400
 	}
 
 	artisans = {
 		culture = hungarian
 		religion = protestant
-		size = 2250 
+		size = 2250
 	}
 
 	soldiers = {
@@ -405,19 +405,19 @@
 	farmers = {
 		culture = hungarian
 		religion = protestant
-		size =  38950   
+		size =  38950
 	}
 
 	clergymen = {
 		culture = ashkenazi
 		religion = jewish
-		size = 75  
+		size = 75
 	}
 
 	artisans = {
 		culture = ashkenazi
 		religion = jewish
-		size = 800 
+		size = 800
 	}
 
 	soldiers = {
@@ -430,44 +430,44 @@
 	farmers = {
 		culture = ashkenazi
 		religion = jewish
-		size = 3075    
+		size = 3075
 	}
 
 	clergymen = {
-		culture = south_german
+		culture = lower_danubian
 		religion = catholic
-		size = 25  
+		size = 25
 	}
 
 	artisans = {
-		culture = south_german
+		culture = lower_danubian
 		religion = catholic
-		size = 75 
+		size = 75
 	}
 
 	soldiers = {
-		culture = south_german
+		culture = lower_danubian
 		religion = catholic
 		size= 25
 
 	}
 
 	farmers = {
-		culture = south_german
+		culture = lower_danubian
 		religion = catholic
-		size = 875  
+		size = 875
 	}
 
 	clergymen = {
 		culture = romanian
 		religion = orthodox
-		size = 125  
+		size = 125
 	}
 
 	artisans = {
 		culture = romanian
 		religion = orthodox
-		size = 750 
+		size = 750
 	}
 
 	soldiers = {
@@ -483,9 +483,9 @@
 		size = 13975
 	}
 }
-#Galicia Region (2576000) #see Poland.txt for balance of region 
+#Galicia Region (2576000) #see Poland.txt for balance of region
 #under the rule of Austria in 1836
-#Lvov (660000/165000 POPS) #now part of Ukraine 
+#Lvov (660000/165000 POPS) #now part of Ukraine
 702 = {
 	artisans = {
 		culture = ruthenian
@@ -568,37 +568,37 @@
 	}
 
 	clergymen = {
-		culture = south_german
+		culture = lower_danubian
 		religion = catholic
 		size = 50
 	}
 
 	artisans = {
-		culture = south_german
+		culture = lower_danubian
 		religion = catholic
 		size = 100
 	}
 
 	soldiers = {
-		culture = south_german
+		culture = lower_danubian
 		religion = catholic
 		size= 25
 
 	}
 
 	farmers = {
-		culture = south_german
+		culture = lower_danubian
 		religion = catholic
 		size = 1825
 	}
-	
+
 	serfs = {
 		culture = gypsy
 		religion = orthodox
 		size = 1000
 	}
 }
-#Stryi (404000/101000 POPS) #now part of Ukraine  
+#Stryi (404000/101000 POPS) #now part of Ukraine
 951 = {
 	clergymen = {
 		culture = ruthenian
@@ -682,31 +682,31 @@
 	}
 
 	clergymen = {
-		culture = south_german
+		culture = lower_danubian
 		religion = catholic
 		size = 20
 	}
 
 	artisans = {
-		culture = south_german
+		culture = lower_danubian
 		religion = catholic
 		size = 50
 	}
 
 	soldiers = {
-		culture = south_german
+		culture = lower_danubian
 		religion = catholic
 		size= 10
 
 	}
 
 	farmers = {
-		culture = south_german
+		culture = lower_danubian
 		religion = catholic
 		size = 920
 	}
 }
-#Ternopil (1136000/284000 POPS) #now part of Ukraine  
+#Ternopil (1136000/284000 POPS) #now part of Ukraine
 952 = {
 	clergymen = {
 		culture = ruthenian
@@ -790,31 +790,31 @@
 	}
 
 	clergymen = {
-		culture = south_german
+		culture = lower_danubian
 		religion = catholic
 		size = 20
 	}
 
 	artisans = {
-		culture = south_german
+		culture = lower_danubian
 		religion = catholic
 		size = 50
 	}
 
 	soldiers = {
-		culture = south_german
+		culture = lower_danubian
 		religion = catholic
 		size= 10
 
 	}
 
 	farmers = {
-		culture = south_german
+		culture = lower_danubian
 		religion = catholic
 		size = 920
 	}
 }
-#Stanislavov (376000/94000 POPS) #now part of Ukraine  
+#Stanislavov (376000/94000 POPS) #now part of Ukraine
 953 = {
 	artisans = {
 		culture = ruthenian
@@ -884,30 +884,30 @@
 	}
 
 	clergymen = {
-		culture = south_german
+		culture = lower_danubian
 		religion = catholic
 		size = 20
 	}
 
 	artisans = {
-		culture = south_german
+		culture = lower_danubian
 		religion = catholic
 		size = 50
 	}
 
 	soldiers = {
-		culture = south_german
+		culture = lower_danubian
 		religion = catholic
 		size= 10
 
 	}
 
 	farmers = {
-		culture = south_german
+		culture = lower_danubian
 		religion = catholic
 		size = 920
 	}
-	
+
 	serfs = {
 		culture = gypsy
 		religion = orthodox
@@ -1119,26 +1119,26 @@
 	}
 
 	clergymen = {
-		culture = south_german
+		culture = lower_danubian
 		religion = catholic
 		size = 25
 	}
 
 	artisans = {
-		culture = south_german
+		culture = lower_danubian
 		religion = catholic
 		size = 100
 	}
 
 	soldiers = {
-		culture = south_german
+		culture = lower_danubian
 		religion = catholic
 		size= 25
 
 	}
 
 	farmers = {
-		culture = south_german
+		culture = lower_danubian
 		religion = catholic
 		size = 850
 	}
@@ -1342,7 +1342,7 @@
 		religion = orthodox
 		size = 10000
 	}
-	
+
 	artisans = {
 		culture = ruthenian
 		religion = orthodox
@@ -1836,7 +1836,7 @@
 		religion = orthodox
 		size = 6500
 	}
-	
+
 	artisans = {
 		culture = ruthenian
 		religion = orthodox

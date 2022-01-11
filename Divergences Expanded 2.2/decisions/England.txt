@@ -111,6 +111,7 @@ political_decisions = {
 			add_accepted_culture = scottish
 			add_accepted_culture = welsh
 			add_accepted_culture = irish
+			add_accepted_culture = icelandic
 		}
 	}
 
@@ -173,7 +174,7 @@ political_decisions = {
 		288 = { change_province_name = "Nottingville" }
 		289 = { change_province_name = "Leicestre" }
 		290 = { change_province_name = "Lindre" }
-		304 = { change_province_name = "ïsle de Man" }
+		304 = { change_province_name = "ï¿½sle de Man" }
 		clr_global_flag = North_ENL_renamed
 		}
 	}
@@ -227,6 +228,43 @@ political_decisions = {
 		301 = { change_province_name = "Cantorbery" }
 		302 = { change_province_name = "Hantone"}
 		clr_global_flag = South_ENL_renamed
+		}
+	}
+
+	form_north_sea_empire_eng = {
+		picture = reform_kalmar
+		potential = {
+			tag = ENG
+			NOT = { NSE = { exists = yes } }
+		}
+		allow = {
+			revolution_n_counterrevolution = 1
+			owns = 252
+			owns = 310
+			owns = 313
+			owns = 305
+			owns = 367
+			owns = 372
+			owns = 267
+			owns = 269
+			owns = 281
+			owns = 290
+		}
+		effect = {
+			primary_culture = icelandic
+			add_accepted_culture = scottish
+			add_accepted_culture = english
+			add_accepted_culture = scandinavian
+			ENG_266 = { add_core = NSE } #Highlands
+			ENG_271 = { add_core = NSE } #Lowlands
+			ENG_280 = { add_core = NSE } #North-East England
+			ENG_277 = { add_core = NSE } #North-West England
+			ENG_291 = { add_core = NSE } #Eastern Counties
+			ENG_300 = { add_core = NSE } #Ile de Londres
+			ENG_301 = { add_core = NSE } #South-East England
+			change_tag = NSE
+			prestige = 50
+			capital = 281
 		}
 	}
 }

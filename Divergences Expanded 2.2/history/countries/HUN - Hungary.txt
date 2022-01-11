@@ -1,6 +1,7 @@
 capital = 641
 primary_culture = hungarian
 culture = slovak
+culture = lower_danubian
 religion = catholic
 government = absolute_monarchy
 plurality = 0.0
@@ -25,7 +26,7 @@ work_hours = no_work_hour_limit
 safety_regulations = no_safety
 health_care = no_health_care
 unemployment_subsidies = no_subsidies
-pensions = no_pensions 
+pensions = no_pensions
 school_reforms = no_schools
 
 # New Reforms
@@ -82,4 +83,3 @@ consciousness = 3
 nonstate_consciousness = 1
 
 oob = "HUN_oob.txt"
-

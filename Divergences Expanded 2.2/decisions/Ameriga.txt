@@ -2,6 +2,7 @@ political_decisions = {
 
 	#Amazonie
 	Manifest_destiny_AMADEM = {
+		picture = Manifest_Destiny_ARC
 		potential = {
 			tag = AMA
 			NOT = { has_country_flag = AMALOT }
@@ -30,6 +31,7 @@ political_decisions = {
 	}
 
 	return_to_france_ama = {
+		picture = apanage
 		potential = {
 			tag = AMA
 		}
@@ -50,6 +52,7 @@ political_decisions = {
 	}
 
 	Ameriga_AMA = {
+		picture = of_state_n_government
 		potential = {
 			tag = AMA
     	NOT = { exists = AZL }
@@ -113,6 +116,7 @@ political_decisions = {
 
 	#Lotharingia
 	Manifest_destiny_LOT = {
+		picture = Manifest_Destiny_ARC
 		potential = {
 			tag = LOT
 			NOT = { has_country_flag = LOT_AMG }
@@ -159,6 +163,7 @@ political_decisions = {
 	}
 
 	Ameriga_LOT = {
+		picture = of_state_n_government
 		potential = {
 			tag = LOT
 			has_country_flag = LOT_AMG

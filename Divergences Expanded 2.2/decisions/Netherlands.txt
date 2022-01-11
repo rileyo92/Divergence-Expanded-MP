@@ -43,6 +43,8 @@ political_decisions = {
     potential = {
       tag = NET
       NOT = { has_country_flag = greater_dutch_union }
+      NOT = { has_country_flag = wesser_push }
+      NOT = { has_country_flag = rhine_push }
     }
     allow = {
       revolution_n_counterrevolution = 1
@@ -55,5 +57,48 @@ political_decisions = {
       BTV = { all_core = { add_core = THIS } }
       NBG = { all_core = { add_core = THIS } }
     }
+  }
+
+  dutch_push_to_the_wesser = {
+    potential = {
+      tag = NET
+      NOT = { has_country_flag = greater_dutch_union }
+      NOT = { has_country_flag = wesser_push }
+      NOT = { has_country_flag = rhine_push }
+    }
+    allow = {
+      revolution_n_counterrevolution = 1
+      owns = 543
+      owns = 540
+    }
+    effect = {
+      set_country_flag = wesser_push
+      add_accepted_culture = north_german
+      HAN_534 = { add_core = NET } #East Frisia
+      PRU_581 = { add_core = NET } #Westfalen
+      HAM_528 = { add_core = NET } #Hannover
+      HAN_532 = { add_core = NET } #Luneburg
+    }
+  }
+
+  dutch_advance_along_rhine = {
+   potential = {
+     tag = NET
+     NOT = { has_country_flag = greater_dutch_union }
+     NOT = { has_country_flag = wesser_push }
+     NOT = { has_country_flag = rhine_push }
+   }
+   allow = {
+     revolution_n_counterrevolution = 1
+     owns = 577
+   }
+   effect = {
+     set_country_flag = rhine_push
+     add_accepted_culture = rheinish
+     PRU_572 = { add_core = NET } #Rheinland
+     PRU_575 = { add_core = NET } #Nordrhein
+     BRG_573 = { add_core = NET } #Saarbrucken
+     HES_2560 = { add_core = NET } #Mainz
+   }
   }
 }

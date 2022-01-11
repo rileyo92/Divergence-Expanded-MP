@@ -31,8 +31,7 @@ political_decisions = {
 		}
 
 		effect = {
-			primary_culture = south_german
-			add_accepted_culture = rheinish
+			add_accepted_culture = south_german
 			add_accepted_culture = swiss
 			prestige = 10
 			any_country = {
@@ -134,6 +133,7 @@ political_decisions = {
 				tag = SWI
 				tag = BAD
 				tag = WUR
+				tag = BAV
 			}
 			NOT = { has_country_flag = stem_duchy }
 		}
@@ -149,7 +149,7 @@ political_decisions = {
 			WUR_589 = { add_core = THIS }
 			FRM_564 = { add_core = THIS }
 			add_accepted_culture = south_german
-			add_accepted_culture = rheinish
+			add_accepted_culture = swiss
 		}
 	}
 }

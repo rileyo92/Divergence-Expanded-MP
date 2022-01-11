@@ -571,13 +571,13 @@
 	}
 
   craftsmen = {
-		culture = rheinish
+		culture = swiss
 		religion = protestant
 		size = 1000
 	}
 
   clerks = {
-		culture = rheinish
+		culture = swiss
 		religion = protestant
 		size = 200
 	}
@@ -596,44 +596,44 @@
 	}
 
 	aristocrats = {
-		culture = rheinish
+		culture = swiss
 		religion = protestant
 		size = 250
 	}
 
 	officers = {
-		culture = rheinish
+		culture = swiss
 		religion = protestant
 		size = 80
 	}
 
 	bureaucrats = {
-		culture = rheinish
+		culture = swiss
 		religion = protestant
 		size = 150
 	}
 
 	clergymen = {
-		culture = rheinish
+		culture = swiss
 		religion = protestant
 		size = 250
 	}
 
 	artisans = {
-		culture = rheinish
+		culture = swiss
 		religion = protestant
 		size = 8500
 	}
 
 	soldiers = {
-		culture = rheinish
+		culture = swiss
 		religion = protestant
 		size= 275
 
 	}
 
 	farmers = {
-		culture = rheinish
+		culture = swiss
 		religion = protestant
 		size = 49495
 	}
@@ -690,26 +690,26 @@
 	}
 
 	clergymen = {
-		culture = rheinish
+		culture = swiss
 		religion = protestant
 		size = 300
 	}
 
 	artisans = {
-		culture = rheinish
+		culture = swiss
 		religion = protestant
 		size = 3000
 	}
 
 	soldiers = {
-		culture = rheinish
+		culture = swiss
 		religion = protestant
 		size= 350
 
 	}
 
 	farmers = {
-		culture = rheinish
+		culture = swiss
 		religion = protestant
 		size = 47600
 	}
@@ -824,25 +824,25 @@
 	}
 
 	aristocrats = {
-		culture = rheinish
+		culture = swiss
 		religion = protestant
 		size = 300
 	}
 
 	clergymen = {
-		culture = rheinish
+		culture = swiss
 		religion = protestant
 		size = 350
 	}
 
 	artisans = {
-		culture = rheinish
+		culture = swiss
 		religion = protestant
 		size = 6000
 	}
 
 	soldiers = {
-		culture = rheinish
+		culture = swiss
 		religion = protestant
 		size= 300
 
@@ -894,26 +894,26 @@
 	}
 
 	clergymen = {
-		culture = rheinish
+		culture = swiss
 		religion = protestant
 		size = 50
 	}
 
 	artisans = {
-		culture = rheinish
+		culture = swiss
 		religion = protestant
 		size = 1525
 	}
 
 	soldiers = {
-		culture = rheinish
+		culture = swiss
 		religion = protestant
 		size= 25
 
 	}
 
 	labourers = {
-		culture = rheinish
+		culture = swiss
 		religion = protestant
 		size = 1400
 	}
@@ -952,26 +952,26 @@
 	}
 
 	clergymen = {
-		culture = rheinish
+		culture = swiss
 		religion = protestant
 		size = 50
 	}
 
 	artisans = {
-		culture = rheinish
+		culture = swiss
 		religion = protestant
 		size = 1225
 	}
 
 	soldiers = {
-		culture = rheinish
+		culture = swiss
 		religion = protestant
 		size= 25
 
 	}
 
 	labourers = {
-		culture = rheinish
+		culture = swiss
 		religion = protestant
 		size = 700
 	}

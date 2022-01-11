@@ -43,6 +43,7 @@ political_decisions = {
 			add_accepted_culture = rheinish
 			add_accepted_culture = pomeranian
 			add_accepted_culture = swiss
+			add_accepted_culture = lower_danubian
 			any_country = {
 				limit = {
 					is_culture_group = germanic

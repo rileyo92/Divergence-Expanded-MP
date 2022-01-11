@@ -3077,55 +3077,55 @@
 #Mannheim (261000/65250 POPS)
 569 = {
 	aristocrats = {
-		culture = rheinish
+		culture = swiss
 		religion = catholic
 		size = 200
 	}
 
 	clergymen = {
-		culture = rheinish
+		culture = swiss
 		religion = catholic
 		size = 150
 	}
 
 	artisans = {
-		culture = rheinish
+		culture = swiss
 		religion = catholic
 		size = 750
 	}
 
 	soldiers = {
-		culture = rheinish
+		culture = swiss
 		religion = catholic
 		size= 150
 	}
 
 	farmers = {
-		culture = rheinish
+		culture = swiss
 		religion = catholic
 		size = 23750
 	}
 
 	clergymen = {
-		culture = rheinish
+		culture = swiss
 		religion = protestant
 		size = 400
 	}
 
 	artisans = {
-		culture = rheinish
+		culture = swiss
 		religion = protestant
 		size = 2500
 	}
 
 	soldiers = {
-		culture = rheinish
+		culture = swiss
 		religion = protestant
 		size= 500
 	}
 
 	farmers = {
-		culture = rheinish
+		culture = swiss
 		religion = protestant
 		size = 36600
 	}
@@ -4333,19 +4333,19 @@
 #Karlsruhe (632000/158000 POPS)
 586 = {
 	aristocrats = {
-		culture = rheinish
+		culture = swiss
 		religion = protestant
 		size = 1600
 	}
 
 	bureaucrats = {
-		culture = rheinish
+		culture = swiss
 		religion = protestant
 		size = 700
 	}
 
 	officers = {
-		culture = rheinish
+		culture = swiss
 		religion = protestant
 		size = 350
 	}
@@ -4363,19 +4363,19 @@
 	}
 
 	clergymen = {
-		culture = rheinish
+		culture = swiss
 		religion = protestant
 		size = 1575
 	}
 
 	artisans = {
-		culture = rheinish
+		culture = swiss
 		religion = protestant
 		size = 7900
 	}
 
 	soldiers = {
-		culture = rheinish
+		culture = swiss
 		religion = protestant
 		size= 1575
 
@@ -4390,32 +4390,32 @@
 #Freiburg (244000/61000 POPS)
 587 = {
 	aristocrats = {
-		culture = rheinish
+		culture = swiss
 		religion = protestant
 		size = 600
 	}
 
 	clergymen = {
-		culture = rheinish
+		culture = swiss
 		religion = protestant
 		size = 650
 	}
 
 	artisans = {
-		culture = rheinish
+		culture = swiss
 		religion = protestant
 		size = 3050
 	}
 
 	soldiers = {
-		culture = rheinish
+		culture = swiss
 		religion = protestant
 		size= 1025
 
 	}
 
 	farmers = {
-		culture = rheinish
+		culture = swiss
 		religion = protestant
 		size = 55675
 	}
@@ -4423,31 +4423,31 @@
 #Konstanz (164000/41000 POPS)
 588 = {
 	aristocrats = {
-		culture = rheinish
+		culture = swiss
 		religion = protestant
 		size = 350
 	}
 
 	clergymen = {
-		culture = rheinish
+		culture = swiss
 		religion = protestant
 		size = 450
 	}
 
 	artisans = {
-		culture = rheinish
+		culture = swiss
 		religion = protestant
 		size = 2050
 	}
 
 	soldiers = {
-		culture = rheinish
+		culture = swiss
 		religion = protestant
 		size= 425
 	}
 
 	farmers = {
-		culture = rheinish
+		culture = swiss
 		religion = protestant
 		size = 37725
 	}
@@ -4457,68 +4457,68 @@
 #Stuttgart (676000/169000 POPS)
 589 = {
 	aristocrats = {
-		culture = south_german
+		culture = swiss
 		religion = protestant
 		size = 1500
 	}
 
 	bureaucrats = {
-		culture = south_german
+		culture = swiss
 		religion = protestant
 		size = 850
 	}
 
 	officers = {
-		culture = south_german
+		culture = swiss
 		religion = protestant
 		size = 450
 	}
 
 	clergymen = {
-		culture = south_german
+		culture = swiss
 		religion = protestant
 		size = 1500
 	}
 
 	artisans = {
-		culture = south_german
+		culture = swiss
 		religion = protestant
 		size = 9500
 	}
 
 	soldiers = {
-		culture = south_german
+		culture = swiss
 		religion = protestant
 		size= 7000
 	}
 
 	farmers = {
-		culture = south_german
+		culture = swiss
 		religion = protestant
 		size = 81200
 	}
 
 	clergymen = {
-		culture = rheinish
+		culture = swiss
 		religion = catholic
 		size = 175
 	}
 
 	artisans = {
-		culture = rheinish
+		culture = swiss
 		religion = catholic
 		size = 1500
 	}
 
 	soldiers = {
-		culture = rheinish
+		culture = swiss
 		religion = catholic
 		size= 150
 
 	}
 
 	farmers = {
-		culture = rheinish
+		culture = swiss
 		religion = catholic
 		size = 65175
 	}
@@ -4526,49 +4526,49 @@
 #Heilbronn (340000/85000 POPS)
 590 = {
 	aristocrats = {
-		culture = south_german
+		culture = swiss
 		religion = protestant
 		size = 850
 	}
 
 	clergymen = {
-		culture = south_german
+		culture = swiss
 		religion = protestant
 		size = 825
 	}
 
 	artisans = {
-		culture = south_german
+		culture = swiss
 		religion = protestant
 		size = 4250
 	}
 
 	soldiers = {
-		culture = south_german
+		culture = swiss
 		religion = protestant
 		size= 850
 	}
 
 	farmers = {
-		culture = south_german
+		culture = swiss
 		religion = protestant
 		size = 55025
 	}
 
 	clergymen = {
-		culture = rheinish
+		culture = swiss
 		religion = catholic
 		size = 200
 	}
 
 	artisans = {
-		culture = rheinish
+		culture = swiss
 		religion = catholic
 		size = 1500
 	}
 
 	farmers = {
-		culture = rheinish
+		culture = swiss
 		religion = catholic
 		size = 24200
 	}
@@ -4577,32 +4577,32 @@
 #Tubingen (292000/73000 POPS)
 591 = {
 	aristocrats = {
-		culture = rheinish
+		culture = swiss
 		religion = protestant
 		size = 400
 	}
 
 	clergymen = {
-		culture = rheinish
+		culture = swiss
 		religion = protestant
 		size = 700
 	}
 
 	artisans = {
-		culture = rheinish
+		culture = swiss
 		religion = protestant
 		size = 3650
 	}
 
 	soldiers = {
-		culture = rheinish
+		culture = swiss
 		religion = protestant
 		size= 700
 
 	}
 
 	farmers = {
-		culture = rheinish
+		culture = swiss
 		religion = protestant
 		size = 67550
 	}
@@ -4664,64 +4664,64 @@
 #Ulm (408000/102000 POPS)
 593 = {
 	clergymen = {
-		culture = rheinish
+		culture = swiss
 		religion = protestant
 		size = 100
 	}
 
 	artisans = {
-		culture = rheinish
+		culture = swiss
 		religion = protestant
 		size = 550
 	}
 
 	soldiers = {
-		culture = rheinish
+		culture = swiss
 		religion = protestant
 		size= 3000
 
 	}
 
 	soldiers = {
-		culture = rheinish
+		culture = swiss
 		religion = protestant
 		size= 1000
 
 	}
 
 	farmers = {
-		culture = rheinish
+		culture = swiss
 		religion = protestant
 		size = 36350
 	}
 
 	aristocrats = {
-		culture = south_german
+		culture = swiss
 		religion = catholic
 		size = 900
 	}
 
 	clergymen = {
-		culture = south_german
+		culture = swiss
 		religion = catholic
 		size = 925
 	}
 
 	artisans = {
-		culture = south_german
+		culture = swiss
 		religion = catholic
 		size = 4550
 	}
 
 	soldiers = {
-		culture = south_german
+		culture = swiss
 		religion = catholic
 		size= 900
 
 	}
 
 	farmers = {
-		culture = south_german
+		culture = swiss
 		religion = catholic
 		size = 53750
 	}
@@ -4730,44 +4730,44 @@
 #Sigmaringen (61000/15250 POPS)
 594 = {
 	aristocrats = {
-		culture = rheinish
+		culture = swiss
 		religion = protestant
 		size = 150
 	}
 
 	bureaucrats = {
-		culture = rheinish
+		culture = swiss
 		religion = protestant
 		size = 20
 	}
 
 	officers = {
-		culture = rheinish
+		culture = swiss
 		religion = protestant
 		size = 15
 	}
 
 	clergymen = {
-		culture = rheinish
+		culture = swiss
 		religion = protestant
 		size = 150
 	}
 
 	artisans = {
-		culture = rheinish
+		culture = swiss
 		religion = protestant
 		size = 775
 	}
 
 	soldiers = {
-		culture = rheinish
+		culture = swiss
 		religion = protestant
 		size= 1000
 
 	}
 
 	farmers = {
-		culture = rheinish
+		culture = swiss
 		religion = protestant
 		size = 13140
 	}

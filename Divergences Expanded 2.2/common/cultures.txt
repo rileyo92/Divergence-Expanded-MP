@@ -4,7 +4,7 @@
 germanic = {
 	leader = european
 	unit = EuropeanGC
-	north_german = {
+	north_german = { #Elbian
 		color = { 90 60 60 }
 		first_names = { Adelbert Adolf Albrecht Alexander Alfred August Bernhard Burkhard Dieter
 		Eduard Edwin Erwin Erich Ernst Florian Franz Friedrich Fritz Georg Gnther
@@ -21,7 +21,7 @@ germanic = {
 		"von Wrangel" "von Zieten" "zur Lippe" "von Roon" }
 	}
 
-	pomeranian = {
+	pomeranian = { #Balten
 		color = { 0 49 83 }
 		first_names = { Adelbert Adolf Albrecht Alexander Alfred August Bernhard Burkhard Dieter
 		Eduard Edwin Erwin Erich Ernst Florian Franz Friedrich Fritz Georg Gnther
@@ -38,8 +38,8 @@ germanic = {
 		"von Wrangel" "von Zieten" "zur Lippe" "von Roon" }
 	}
 
-	south_german = {
-		color = { 140 110 110 } #{ 110 80 80 }
+	south_german = { #Upper Danubian
+		color = { 140 110 110 }
 		first_names = { Adolf Albrecht Alexander Alfons Alois Anton Arthur Bernhard Christian
 		Edmund Eduard Engelbert Ernst Erwin Ferdinand Franz Friedrich Gebhard Gerhard Gottfried
 		Gnther Gustav Heinrich Hermann Horst Jakob Joachim Johann Joseph
@@ -53,7 +53,22 @@ germanic = {
 		"von Kobratin" "von Schnburg" "von Tegetthoff" "von Uchatius" "von Wittelsbach" "von Wrttemberg" "von Zahringen" Wagner Wittmann "zu Hohenlohe" }
 	}
 
-	rheinish = {
+	lower_danubian = { #Lower Danubian
+		color = { 50 80 80 }
+		first_names = { Adolf Albrecht Alexander Alfons Alois Anton Arthur Bernhard Christian
+		Edmund Eduard Engelbert Ernst Erwin Ferdinand Franz Friedrich Gebhard Gerhard Gottfried
+		Gnther Gustav Heinrich Hermann Horst Jakob Joachim Johann Joseph
+		Julius Karl Konrad Kurt Leonhard Leopold Lorenz Lothar Ludwig Maximilian
+		Michael Otto Reinhold Rudolf Stefan Theodor Viktor Walter Werner Wilhelm }
+
+		last_names = { Beck-Rzikowsky Blos Dankl Eisner Geiss Goering Hainisch Haus Held Hellpach
+		Hoffmann Hummel Khler Mergenthaler Miklas Remmele Schmitt Schobber Seitz Steeb
+		Stolzer Trunk "von Baden" "von Benedek" "von Bhm-Ermolli" "von Brudermann" "von Clam-Gallas" "von der Tann" "von Dietrich" "von Gablenz"
+		"von Grnne" "von Habsburg" "von Hartmann" "von Haynau" "von Hess" "von Hohenhausen" "d'Aspre von Hoobreuk" "von Hortstein" "von Htzendorf" "von Kirbach"
+		"von Kobratin" "von Schnburg" "von Tegetthoff" "von Uchatius" "von Wittelsbach" "von Wrttemberg" "von Zahringen" Wagner Wittmann "zu Hohenlohe" }
+	}
+
+	rheinish = { #Rheinish
 		color = { 0 96 36 }
 		first_names = { Adelbert Adolf Albrecht Alexander Alfred August Bernhard Burkhard Dieter
 		Eduard Edwin Erwin Erich Ernst Florian Franz Friedrich Fritz Georg Gnther
@@ -69,6 +84,17 @@ germanic = {
 		"von Reuter" "von Richthofen" "von Sachsen-Altenburg" "von Sachsen-Coburg-Gotha" "von Sachsen-Meiningen"
 		"von Sachsen-Weimar-Eisenach" "von Schlieffen" "von Schwarzburg" "von Spee" "von Tirpitz" "von Waldeck und Pyrmont" "von Wettin"
 		"von Wrangel" "von Zieten" "zur Lippe" "von Roon" }
+	}
+
+	swiss = { #Swabian
+		color = { 213 43 30}
+		first_names = { Adolf Alexander Eduard Ernst Franz Hans Johann Josef Konstantin Martin
+		Melchior Robert Rudolf Ulrich Wilhelm Augusto Enrico Flavio Giuseppe Vincenzo
+		Antoine Charles Emmanuel Guillaume Gustave Henri Hugo Louis Marc Paul }
+
+		last_names = { Brenner Deucher Funk Haab Herzog Knsel Munzinger Nff Schneider Siegwart-Mller
+		"von Donatz" "von Salis-Soglio" "von Steiger" "von Tavel" Wille Celio Cotti Fogliardi Motta Zeni
+		Ador Calonder Chaudet Comtesse "de Prangins" Dufour Fornerod Guisan Ruchet Ruchonnet }
 	}
 	union = GER
 }
@@ -208,21 +234,6 @@ beneluxian = {
 		Fallon Fendius Figeys Fleury-Dubay Fleussu Forgeur Frison Fuchs Gendebien Goffint Henry "Huysman d'Annecroix" Jacques Joos Jottrand
 		Lahure Lardinois "le Cocq" "le Hon" Lebeau Leclercq Lefebvre Leman Malou Marcq Marlet Masbourg Nagelmackers Nalinne Nothomb
 		Orban Ptillon Picquet Pirmez Pirson Raikem Roeser Rogier Rouen Rouppe Seron Thonus Thorn "van Snick" Wahis Wangerme Wyvekens Zoude }
-	}
-}
-
-pan_swiss = {
-	leader = european
-	unit = EuropeanGC
-	swiss = {
-		color = { 213 43 30}
-		first_names = { Adolf Alexander Eduard Ernst Franz Hans Johann Josef Konstantin Martin
-		Melchior Robert Rudolf Ulrich Wilhelm Augusto Enrico Flavio Giuseppe Vincenzo
-		Antoine Charles Emmanuel Guillaume Gustave Henri Hugo Louis Marc Paul }
-
-		last_names = { Brenner Deucher Funk Haab Herzog Knsel Munzinger Nff Schneider Siegwart-Mller
-		"von Donatz" "von Salis-Soglio" "von Steiger" "von Tavel" Wille Celio Cotti Fogliardi Motta Zeni
-		Ador Calonder Chaudet Comtesse "de Prangins" Dufour Fornerod Guisan Ruchet Ruchonnet }
 	}
 }
 
@@ -1791,7 +1802,7 @@ southeast_asian = {
 		}
 		radicalism = 5
 	}
-	
+
 	khmer = {
 		color = {220 86 34}
 		first_names = { Ang Sisowath Norodom Pok Satha Thommo

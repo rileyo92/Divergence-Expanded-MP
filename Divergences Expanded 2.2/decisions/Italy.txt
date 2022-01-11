@@ -328,6 +328,96 @@ political_decisions = {
 		}
 	}
 
+	escape_to_greece_ven = {
+		potential = {
+			tag = VEN
+			834 = {
+				OR = {
+					owned_by = THIS
+					owner = { vassal_of = THIS }
+				}
+			}
+		}
+		allow = {
+			NOT = { owns = 729 }
+		}
+		effect = {
+			any_country = {
+				limit = {
+					tag = GRE
+					vassal_of = THIS
+				}
+				annex_to = THIS
+			}
+			GRE = { all_core = { remove_core = VEN } }
+			change_tag = GRE
+			VEN = {
+				all_core = {
+					limit = {
+						OR = {
+							is_core = TIR
+							is_core = SLO
+							is_core = CRO
+						}
+					}
+					remove_core = VEN
+				}
+			}
+			GRE = {
+				all_core = {
+					limit = { is_core = VEN }
+					remove_core = GRE
+				}
+				primary_culture = greek
+				add_accepted_culture = pontic
+				add_accepted_culture = venetian
+			}
+			badboy = -5
+			SLO = {
+				all_core = {
+					limit = {
+						owned_by = THIS
+					}
+					secede_province = SLO
+				}
+				add_accepted_culture = venetian
+			}
+			CRO = {
+				all_core = {
+					limit = {
+						owned_by = THIS
+					}
+					secede_province = CRO
+				}
+				add_accepted_culture = venetian
+			}
+			TIR = {
+				all_core = {
+					limit = {
+						owned_by = THIS
+					}
+					secede_province = TIR
+				}
+			}
+			VEN = {
+				all_core = {
+					limit = {
+						owned_by = THIS
+					}
+					secede_province = VEN
+				}
+			}
+			ITA = {
+				all_core = {
+					limit = {
+						owned_by = THIS
+					}
+					secede_province = VEN
+				}
+			}
+		}
+	}
+
 	#Forming Italy
 	north_italian_league = {
 		potential = {
@@ -421,7 +511,10 @@ political_decisions = {
 
 	central_italian_union = {
 		potential = {
-			primary_culture = central_italian
+			OR = {
+				primary_culture = central_italian
+				primary_culture = south_italian
+			}
 			NOT = { has_country_flag = central_italy }
 		}
 		allow = {
@@ -435,14 +528,32 @@ political_decisions = {
 			set_country_flag = central_italy
 			add_accepted_culture = north_italian
 			add_accepted_culture = south_italian
-			PAP_741 = { add_core = THIS }
-			TUS_744 = { add_core = THIS }
-			PAP_752 = { add_core = THIS }
-			MOD_739 = { add_core = THIS }
-			SIC_754 = { add_core = THIS }
-			SIC_753 = { add_core = THIS }
-			ARA_759 = { add_core = THIS }
-			VEN_730 = { add_core = THIS }
+			PAP_741 = { add_core = THIS } #Emilia-Romanga
+			TUS_744 = { add_core = THIS } #Toscana
+			PAP_752 = { add_core = THIS } #Lazio
+			SIC_754 = { add_core = THIS } #Naples
+			SIC_753 = { add_core = THIS } #Puglia
+			ARA_759 = { add_core = THIS } #Calabria
+			GEN_724 = { add_core = THIS } #Liguria
+		}
+	}
+
+	push_to_the_alps = {
+		potential = {
+			has_country_flag = central_italy
+			NOT = { has_country_flag = alps_push }
+		}
+		allow = {
+			owns = 724
+			owns = 738
+			owns = 739
+			owns = 742
+		}
+		effect = {
+			set_country_flag = alps_push
+			SAR_720 = { add_core = THIS } #Piedmont
+			AUS_726 = { add_core = THIS } #Lombardia
+			VEN_730 = { add_core = THIS }	#Po Valley
 		}
 	}
 

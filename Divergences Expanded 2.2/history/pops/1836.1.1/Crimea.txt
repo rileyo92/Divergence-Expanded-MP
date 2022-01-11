@@ -82,19 +82,19 @@
 	}
 
 	clergymen = {
-		culture = south_german
+		culture = lower_danubian
 		religion = catholic
 		size = 30
 	}
 
 	artisans = {
-		culture = south_german
+		culture = lower_danubian
 		religion = catholic
 		size = 150
 	}
 
 	farmers = {
-		culture = south_german
+		culture = lower_danubian
 		religion = catholic
 		size = 1770
 	}
@@ -193,19 +193,19 @@
 	}
 
 	clergymen = {
-		culture = south_german
+		culture = lower_danubian
 		religion = catholic
 		size = 50
 	}
 
 	artisans = {
-		culture = south_german
+		culture = lower_danubian
 		religion = catholic
 		size = 125
 	}
 
 	farmers = {
-		culture = south_german
+		culture = lower_danubian
 		religion = catholic
 		size = 1800
 	}
@@ -398,19 +398,19 @@
 	}
 
 	clergymen = {
-		culture = south_german
+		culture = lower_danubian
 		religion = catholic
 		size = 75
 	}
 
 	artisans = {
-		culture = south_german
+		culture = lower_danubian
 		religion = catholic
 		size = 225
 	}
 
 	farmers = {
-		culture = south_german
+		culture = lower_danubian
 		religion = catholic
 		size = 2625
 	}
@@ -570,19 +570,19 @@
 	}
 
 	clergymen = {
-		culture = south_german
+		culture = lower_danubian
 		religion = catholic
 		size = 50
 	}
 
 	artisans = {
-		culture = south_german
+		culture = lower_danubian
 		religion = catholic
 		size = 750
 	}
 
 	farmers = {
-		culture = south_german
+		culture = lower_danubian
 		religion = catholic
 		size = 1175
 	}
@@ -767,19 +767,19 @@
 	}
 
 	clergymen = {
-		culture = south_german
+		culture = lower_danubian
 		religion = catholic
 		size = 50
 	}
 
 	artisans = {
-		culture = south_german
+		culture = lower_danubian
 		religion = catholic
 		size = 150
 	}
 
 	farmers = {
-		culture = south_german
+		culture = lower_danubian
 		religion = catholic
 		size = 2775
 	}
@@ -1250,19 +1250,19 @@
 	}
 
 	clergymen = {
-		culture = south_german
+		culture = lower_danubian
 		religion = catholic
 		size = 25
 	}
 
 	artisans = {
-		culture = south_german
+		culture = lower_danubian
 		religion = catholic
 		size = 75
 	}
 
 	farmers = {
-		culture = south_german
+		culture = lower_danubian
 		religion = catholic
 		size = 875
 	}

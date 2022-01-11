@@ -217,6 +217,7 @@ political_decisions = {
 			add_accepted_culture = ruthenian
 			add_accepted_culture = gypsy
 			add_accepted_culture = ashkenazi
+			add_accepted_culture = lower_danubian
 		}
 	}
 

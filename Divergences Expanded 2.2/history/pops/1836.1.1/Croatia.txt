@@ -1,6 +1,6 @@
 #Friuli-Istria Region (188000) #see Italy.txt for balance of region
 #under the rule of Austria in 1836
-#Pola (188000/47000 POPS) #now part of Croatia 
+#Pola (188000/47000 POPS) #now part of Croatia
 770 = {
 	aristocrats = {
 		culture = venetian
@@ -129,32 +129,32 @@
 	}
 
 	bureaucrats = {
-		culture = south_german
+		culture = lower_danubian
 		religion = catholic
 		size = 550
 	}
 
 	clergymen = {
-		culture = south_german
+		culture = lower_danubian
 		religion = catholic
 		size = 75
 	}
 
 	artisans = {
-		culture = south_german
+		culture = lower_danubian
 		religion = catholic
 		size = 300
 	}
 
 	soldiers = {
-		culture = south_german
+		culture = lower_danubian
 		religion = catholic
 		size= 75
 
 	}
 
 	farmers = {
-		culture = south_german
+		culture = lower_danubian
 		religion = catholic
 		size = 6500
 	}
@@ -521,19 +521,19 @@
 	}
 }
 #Baranya Region (180000) #see Hungary.txt for balance of Region
-#under the rule of Austria in 1836  
-#Osijek (180000/45000 POPS) 
+#under the rule of Austria in 1836
+#Osijek (180000/45000 POPS)
 779 = {
 	clergymen = {
 		culture = croat
 		religion = catholic
-		size = 250 
+		size = 250
 	}
 
 	artisans = {
 		culture = croat
 		religion = catholic
-		size = 1300  
+		size = 1300
 	}
 
 	soldiers = {
@@ -546,25 +546,25 @@
 	farmers = {
 		culture = croat
 		religion = catholic
-		size = 14505   
+		size = 14505
 	}
-	
+
 	serfs = {
 		culture = croat
 		religion = catholic
-		size = 9670   
-	}	
+		size = 9670
+	}
 
 	clergymen = {
 		culture = serb
 		religion = orthodox
-		size = 50  
+		size = 50
 	}
 
 	artisans = {
 		culture = serb
 		religion = orthodox
-		size = 350 
+		size = 350
 	}
 
 	soldiers = {
@@ -577,19 +577,19 @@
 	farmers = {
 		culture = serb
 		religion = orthodox
-		size = 3900   
+		size = 3900
 	}
-	
+
 	serfs = {
 		culture = serb
 		religion = orthodox
-		size = 2600   
-	}	
+		size = 2600
+	}
 
 	aristocrats = {
 		culture = hungarian
 		religion = catholic
-		size = 550 
+		size = 550
 	}
 
 	clergymen = {
@@ -616,51 +616,51 @@
 		religion = catholic
 		size = 3015
 	}
-	
+
 	serfs = {
 		culture = hungarian
 		religion = catholic
 		size = 2010
-	}	
+	}
 
 	aristocrats = {
-		culture = south_german
+		culture = lower_danubian
 		religion = catholic
-		size = 350  
+		size = 350
 	}
 
 	clergymen = {
-		culture = south_german
+		culture = lower_danubian
 		religion = catholic
-		size = 50 
+		size = 50
 	}
 
 	artisans = {
-		culture = south_german
+		culture = lower_danubian
 		religion = catholic
-		size = 350 
+		size = 350
 	}
 
 	soldiers = {
-		culture = south_german
+		culture = lower_danubian
 		religion = catholic
 		size= 50
 
 	}
 
 	farmers = {
-		culture = south_german
+		culture = lower_danubian
 		religion = catholic
-		size = 3180 
+		size = 3180
 	}
-	
+
 	serfs = {
-		culture = south_german
+		culture = lower_danubian
 		religion = catholic
-		size = 2120 
-	}	
+		size = 2120
+	}
 }
-#Dalmatia Region (320000) #see Montenegro.txt for balance of region 
+#Dalmatia Region (320000) #see Montenegro.txt for balance of region
 #under the rule of Austria in 1836
 #Split (140000/35000 POPS)
 780 = {
@@ -891,8 +891,8 @@
 	}
 
 }
-#Banat-Bacska Region (104000) #See Serbia.txt and Romania.txt for balance of region 
-#under the rule of Austria in 1836  
+#Banat-Bacska Region (104000) #See Serbia.txt and Romania.txt for balance of region
+#under the rule of Austria in 1836
 #Vukovar (104000/26000 POPS) #part of Croatia today
 793 = {
 	clergymen = {
@@ -904,7 +904,7 @@
 	artisans = {
 		culture = croat
 		religion = catholic
-		size = 800 
+		size = 800
 	}
 
 	soldiers = {
@@ -917,13 +917,13 @@
 	farmers = {
 		culture = croat
 		religion = catholic
-		size = 14875  
+		size = 14875
 	}
 
 	clergymen = {
 		culture = serb
 		religion = orthodox
-		size = 75  
+		size = 75
 	}
 
 	artisans = {
@@ -942,37 +942,37 @@
 	farmers = {
 		culture = serb
 		religion = orthodox
-		size = 7475 
+		size = 7475
 	}
 
 	aristocrats = {
-		culture = south_german
+		culture = lower_danubian
 		religion = catholic
-		size = 50  
+		size = 50
 	}
 
 	clergymen = {
-		culture = south_german
+		culture = lower_danubian
 		religion = catholic
-		size = 40   
+		size = 40
 	}
 
 	artisans = {
-		culture = south_german
+		culture = lower_danubian
 		religion = catholic
-		size = 100   
+		size = 100
 	}
 
 	soldiers = {
-		culture = south_german
+		culture = lower_danubian
 		religion = catholic
 		size= 25
 
 	}
 
 	farmers = {
-		culture = south_german
+		culture = lower_danubian
 		religion = catholic
-		size = 1785 
+		size = 1785
 	}
 }
