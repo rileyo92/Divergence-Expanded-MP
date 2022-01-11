@@ -595,7 +595,7 @@ social_science = {
 	cost = 18000
 
 	colonial_migration = 0.05
-	education_efficiency = 0.1
+	education_efficiency = 0.2
 
 	ai_chance = {
 		factor = 1.05
@@ -639,7 +639,8 @@ social_alienation = {
 	cost = 21600
 
 	colonial_migration = 0.05
-	education_efficiency = 0.1
+	education_efficiency = 0.2
+	max_national_focus = 1
 	ai_chance = {
 		factor = 1.05
 		modifier = {
@@ -879,7 +880,7 @@ revolution_n_counterrevolution = {
 	year = 1870
 	cost = 18000
 
-	max_national_focus = 2
+	max_national_focus = 1
 	diplomatic_points = 0.25
 	ai_chance = {
 		factor = 20

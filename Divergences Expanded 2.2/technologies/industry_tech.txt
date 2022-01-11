@@ -1316,6 +1316,8 @@ basic_chemistry = {
 	cost = 3600
 
 	activate_building = fertilizer_factory
+	pop_growth = 0.0001
+	soldier_to_pop_loss = 0.005
 	ai_chance = {
 		factor = 10
 		modifier = {
@@ -1361,6 +1363,7 @@ inorganic_chemistry = {
 	cost = 10800
 
 	supply_limit = 0.25
+	soldier_to_pop_loss = 0.005
 
 	ai_chance = {
 		factor = 5
@@ -1424,6 +1427,8 @@ organic_chemistry = {
 	cost = 14400
 
 	supply_limit = 0.25
+	pop_growth = 0.0001
+	soldier_to_pop_loss = 0.005
 
 	ai_chance = {
 		factor = 5
@@ -1468,6 +1473,7 @@ electricity = {
 	cost = 18000
 
 	supply_limit = 0.50
+	soldier_to_pop_loss = 0.005
 	ai_chance = {
 		factor = 5
 		modifier = {
@@ -1512,6 +1518,8 @@ synthetic_polymers = {
 	cost = 21600
 
 	supply_limit = 0.50
+	pop_growth = 0.0001
+	soldier_to_pop_loss = 0.005
 	ai_chance = {
 		factor = 1.1
 		modifier = {

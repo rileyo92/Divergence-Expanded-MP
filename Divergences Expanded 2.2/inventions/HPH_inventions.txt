@@ -49,7 +49,7 @@ barbed_wire_defense = {
 		}
 	}
 }
-		
+
 helmet_mass_production = {
 	limit = { indirect_artillery_fire = 1 } #1900
 	chance = {
@@ -68,7 +68,7 @@ helmet_mass_production = {
 		}
 	}
 	effect = {
-		soldier_to_pop_loss = 0.01
+		soldier_to_pop_loss = 0.005
 		infantry = {
 			defence = 0.5
 		}
@@ -98,6 +98,6 @@ camouflage_uniforms = {
 		}
 	}
 	effect = {
-		soldier_to_pop_loss = 0.01
+		soldier_to_pop_loss = 0.005
 	}
 }

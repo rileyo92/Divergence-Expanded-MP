@@ -29,6 +29,9 @@ post_napoleonic_army_doctrine = {
 		irregular = {
 			defence = 1
 		}
+		army_base = {
+			supply_consumption = 0.05
+		}
 	}
 }
 #strategic_mobility
@@ -69,6 +72,9 @@ field_fortifications = {
 		}
 		irregular = {
 			defence = 1
+		}
+		army_base = {
+			supply_consumption = 0.05
 		}
 	}
 }
@@ -485,8 +491,8 @@ tank_exploits = {
 		tank = {
 			attack = 2
 			defence = 4
-			supply_consumption = 1
-			siege = 1
+			supply_consumption = 0.5
+			siege = 2
 		}
 	}
 }
@@ -536,8 +542,6 @@ firepower_vs_mobility = {
 		}
 		army_base = {
 			maximum_speed = 1
-		}
-		army_base = {
 			supply_consumption = 0.05
 		}
 	}
@@ -545,7 +549,7 @@ firepower_vs_mobility = {
 grand_battle_plan_vs_superior_firepower = {
 	limit = { modern_army_doctrine = 1 }
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 1
 			invention = pragmatism
@@ -558,6 +562,18 @@ grand_battle_plan_vs_superior_firepower = {
 	effect = {
 		army_base = {
 			default_organisation = 10
+		}
+		infantry = {
+			maneuver = 1
+		}
+		irregular = {
+			maneuver = 1
+		}
+		artillery = {
+			maneuver = 1
+		}
+		guard = {
+			maneuver = 1
 		}
 		morale = 0.5
 	}
@@ -589,9 +605,9 @@ human_wave_vs_spearhead = {
 			defence = 1
 		}
 		tank = {
-			attack = 1
+			attack = 3
 			defence = 1
-			siege = 1
+			siege = 2
 			maximum_speed = 1
 		}
 		cuirassier = {
@@ -702,31 +718,31 @@ breech_loaded_rifle_armament = {
 	effect = {
 		infantry = {
 			attack = 1
-			supply_consumption = 0.20
+			supply_consumption = 0.10
 		}
 		guard = {
 			attack = 1
-			supply_consumption = 0.20
+			supply_consumption = 0.10
 		}
 		engineer = {
 			attack = 1
-			supply_consumption = 0.20
+			supply_consumption = 0.10
 		}
 		dragoon = {
 			attack = 1
-			supply_consumption = 0.20
+			supply_consumption = 0.10
 		}
 		hussar = {
 			attack = 1
-			supply_consumption = 0.20
+			supply_consumption = 0.10
 		}
 		cavalry = {
 			attack = 0.5
-			supply_consumption = 0.20
+			supply_consumption = 0.10
 		}
 		irregular = {
 			attack = 0.5
-			supply_consumption = 0.20
+			supply_consumption = 0.10
 		}
 	}
 }
@@ -755,12 +771,8 @@ machine_gun_armament = {
 			defence = 4
 			supply_consumption = 0.20
 		}
-		cuirassier = {
-			defence = 1
-			supply_consumption = 0.20
-		}
 		dragoon = {
-			defence = 2
+			defence = 3
 			supply_consumption = 0.20
 		}
 		hussar = {
@@ -843,25 +855,21 @@ bolt_action_rifle_armament = {
 			attack = 1
 			supply_consumption = 0.20
 		}
-		cuirassier = {
-			attack = 1
-			supply_consumption = 0.20
-		}
 		dragoon = {
 			attack = 1
-			supply_consumption = 0.20
+			supply_consumption = 0.10
 		}
 		hussar = {
 			attack = 1
-			supply_consumption = 0.20
+			supply_consumption = 0.10
 		}
 		cavalry = {
 			attack = 0.5
-			supply_consumption = 0.20
+			supply_consumption = 0.10
 		}
 		irregular = {
 			attack = 0.5
-			supply_consumption = 0.20
+			supply_consumption = 0.10
 		}
 	}
 }
@@ -945,7 +953,7 @@ interwar_cavalry = {
 rear_area_dumps = {
 	limit = { modern_divisional_structure = 1 }
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 3
 			combustion_engine = 1
@@ -997,9 +1005,9 @@ tankette = {
 	}
 	effect = {
 		tank = {
-			attack = 3
-			defence = 1
-			support = 0.15
+			attack = 5
+			defence = 4
+			support = 0.50
 			supply_consumption = 0.5
 		}
 	}
@@ -1019,9 +1027,9 @@ light_tank = {
 	}
 	effect = {
 		tank = {
-			attack = 3
-			defence = 1
-			support = 0.15
+			attack = 5
+			defence = 4
+			support = 0.50
 			supply_consumption = 0.5
 		}
 	}
@@ -1029,7 +1037,7 @@ light_tank = {
 armoured_cars = {
 	limit = { heavy_armament_dunno = 1 }
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 2
 			invention = tractors
@@ -1046,7 +1054,8 @@ armoured_cars = {
 	effect = {
 		tank = {
 			maximum_speed = 1
-			supply_consumption = 0.5
+			discipline = 0.5
+			supply_consumption = 0.25
 		}
 	}
 }
@@ -1109,7 +1118,7 @@ light_artillery = {
 	}
 	effect = {
 		artillery = {
-			attack = 0.1
+			attack = 0.5
 			support = 0.1
 			supply_consumption = 0.25
 		}
@@ -1130,7 +1139,7 @@ medium_artillery = {
 	}
 	effect = {
 		artillery = {
-			attack = 0.1
+			attack = 1
 			support = 0.1
 			supply_consumption = 0.25
 		}
@@ -1151,7 +1160,7 @@ heavy_artillery = {
 	}
 	effect = {
 		artillery = {
-			attack = 0.1
+			attack = 1
 			support = 0.1
 			supply_consumption = 0.25
 		}
@@ -1203,7 +1212,7 @@ telegraph_coordination = {
 	effect = {
 		army_base = {
 			default_organisation = 5
-			supply_consumption = 0.10
+			supply_consumption = -0.10
 		}
 	}
 }
@@ -1267,7 +1276,7 @@ ammunition_area_effect_calculations = {
 	effect = {
 		army_base = {
 			default_organisation = 2.5
-			supply_consumption = 0.05
+			supply_consumption = -0.05
 		}
 	}
 }
@@ -1288,7 +1297,7 @@ empirical_combat_efficiency_matrix = {
 	effect = {
 		army_base = {
 			default_organisation = 2.5
-			supply_consumption = 0.05
+			supply_consumption = -0.05
 		}
 	}
 }
@@ -1309,7 +1318,7 @@ combat_loss_evaluation_schemata = {
 	effect = {
 		army_base = {
 			default_organisation = 2.5
-			supply_consumption = 0.05
+			supply_consumption = -0.05
 		}
 	}
 }
@@ -1331,7 +1340,7 @@ pre_planned_depot_systems = {
 	effect = {
 		army_base = {
 			default_organisation = 2.5
-			supply_consumption = 0.05
+			supply_consumption = -0.05
 		}
 	}
 }
@@ -1352,7 +1361,7 @@ logistical_calculations = {
 	effect = {
 		army_base = {
 			default_organisation = 2.5
-			supply_consumption = 0.05
+			supply_consumption = -0.05
 		}
 	}
 }
@@ -1373,7 +1382,7 @@ replenishment_transport_organisation = {
 	effect = {
 		army_base = {
 			default_organisation = 2.5
-			supply_consumption = 0.05
+			supply_consumption = -0.05
 		}
 	}
 }
@@ -1420,7 +1429,7 @@ gas_defense_capability = {
 		}
 	}
 	effect = {
-		soldier_to_pop_loss = 0.03
+		soldier_to_pop_loss = 0.02
 	}
 }
 
@@ -1458,7 +1467,7 @@ army_military_political_decision_making = {
 	effect = {
 		army_base = {
 			default_organisation = 2.5
-			supply_consumption = 0.05
+			supply_consumption = -0.05
 		}
 	}
 }
@@ -1479,7 +1488,7 @@ army_local_military_government = {
 	effect = {
 		army_base = {
 			default_organisation = 2.5
-			supply_consumption = 0.05
+			supply_consumption = -0.05
 		}
 	}
 }
@@ -1505,8 +1514,7 @@ early_interwar_bombers = {
 	}
 	effect = {
 		plane = {
-			attack = 1
-			defence = 0.5
+			attack = 2
 			support = 1
 		}
 	}
@@ -1526,8 +1534,7 @@ late_interwar_bombers = {
 	}
 	effect = {
 		plane = {
-			attack = 1
-			defence = 0.5
+			attack = 3
 			support = 1
 		}
 	}
@@ -1564,7 +1571,7 @@ late_interwar_fighters = {
 	effect = {
 		plane = {
 			attack = 1
-			defence = 0.2
+			defence = 1.8
 		}
 	}
 }
@@ -1589,6 +1596,7 @@ t_air_superiority = {
 		plane = {
 			attack = 1
 			defence = 0.6
+			discipline = 0.45
 			default_organisation = 5
 		}
 	}
@@ -1612,8 +1620,8 @@ flying_circus_doctrine = {
 	}
 	effect = {
 		plane = {
-			attack = 0.5
-			defence = 0.5
+			attack = 1
+			defence = 0.9
 			default_organisation = 5
 		}
 	}
@@ -1688,6 +1696,7 @@ operational_destruction_doctrine = {
 	effect = {
 		plane = {
 			attack = 0.5
+			discipline = 0.45
 			support = 1
 			default_organisation = 5
 		}

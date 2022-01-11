@@ -1565,7 +1565,7 @@ rhetoric_of_hate = {
 	}
 	effect = {
 		war_exhaustion = -0.05
-		soldier_to_pop_loss = 0.01
+		soldier_to_pop_loss = 0.005
 	}
 }
 nostalgic_romanticism = {
