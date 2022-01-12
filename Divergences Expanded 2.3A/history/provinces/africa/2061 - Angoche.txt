@@ -2,4 +2,4 @@ owner = SCA
 controller = SCA
 trade_goods = tobacco
 life_rating = 30
-colonial = 1
+colonial = 2

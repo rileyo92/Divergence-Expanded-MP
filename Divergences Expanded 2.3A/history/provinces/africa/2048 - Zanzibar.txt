@@ -1,7 +1,12 @@
 owner = SPA
 controller = SPA
 add_core = ZAN
-colonial = 1
+colonial = 2
 naval_base = 2
 trade_goods = precious_goods
 life_rating = 40
+1836.1.2 = {
+  owner = ZAN
+  controller = ZAN
+  colonial = 0
+}

@@ -4,3 +4,8 @@ add_core = EGY
 add_core = CYR
 trade_goods = grain
 life_rating = 10
+1836.1.2 = {
+  owner = CYR
+  controller = CYR
+  remove_core = EGY
+}

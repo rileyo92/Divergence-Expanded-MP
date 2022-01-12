@@ -2,7 +2,9 @@ owner = ADA
 controller = ADA
 add_core = ETH
 add_core = ADA
-add_core = AMT
 trade_goods = cotton
 terrain = semidesert
 life_rating = 30
+1836.1.2 = {
+  remove_core = ETH
+}

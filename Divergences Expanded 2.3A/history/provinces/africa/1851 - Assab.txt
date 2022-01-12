@@ -1,8 +1,12 @@
-owner = AMT
-controller = AMT
+owner = ETH
+controller = ETH
 add_core = AMT
 add_core = ETH
-add_core = ERI
 trade_goods = fruit
 terrain = desert
 life_rating = 35
+1836.1.2 = {
+  owner = AMT
+  controller = AMT
+  remove_core = ETH
+}

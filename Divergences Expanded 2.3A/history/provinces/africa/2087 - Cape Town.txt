@@ -7,3 +7,8 @@ trade_goods = fruit
 life_rating = 40
 colonial = 2
 naval_base = 2
+1836.1.2 = {
+  owner = LWE
+  controller = LWE
+  colonial = 0
+}

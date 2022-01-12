@@ -6,3 +6,8 @@ add_core = SAF
 trade_goods = wool
 life_rating = 35
 terrain = mountain
+1836.1.2 = {
+  owner = LWE
+  controller = LWE
+  colonial = 0
+}

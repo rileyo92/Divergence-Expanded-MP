@@ -2,6 +2,5 @@ owner = ADW
 controller = ADW
 add_core = ADW
 add_core = SOK
-add_core = KAN
 trade_goods = cattle
 life_rating = 30

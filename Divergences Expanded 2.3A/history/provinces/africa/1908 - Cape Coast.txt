@@ -3,5 +3,10 @@ controller = SCA
 add_core = ASH
 trade_goods = coffee
 life_rating = 40
-colonial = 1
+colonial = 2
 naval_base = 1
+1836.1.2 = {
+  owner = ASH
+  controller = ASH
+  colonial = 0
+}

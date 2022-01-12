@@ -3,5 +3,10 @@ controller = GEN
 add_core = NRI
 trade_goods = grain
 life_rating = 30
-colonial = 1
+colonial = 2
 naval_base = 1
+1836.1.2 = {
+  owner = NRI
+  controller = NRI
+  colonial = 0
+}

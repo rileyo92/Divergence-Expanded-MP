@@ -5,3 +5,8 @@ add_core = ICL
 trade_goods = wool
 terrain = small_island
 life_rating = 30
+1836.1.2 = {
+  owner = ICL
+  controller = ICL
+  remove_core = SCA
+}

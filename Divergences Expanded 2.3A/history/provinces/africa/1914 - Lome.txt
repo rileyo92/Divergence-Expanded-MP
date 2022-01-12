@@ -3,4 +3,9 @@ controller = VEN
 add_core = ASH
 trade_goods = fish
 life_rating = 40
-colonial = 1
+colonial = 2
+1836.1.2 = {
+  owner = ASH
+  controller = ASH
+  colonial = 0
+}

@@ -6,3 +6,8 @@ life_rating = 30
 terrain = semidesert
 colonial = 2
 naval_base = 1
+1836.1.2 = {
+  owner = MGH
+  controller = MGH
+  colonial = 0
+}

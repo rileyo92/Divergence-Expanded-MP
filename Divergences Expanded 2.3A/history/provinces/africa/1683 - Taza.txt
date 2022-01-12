@@ -4,3 +4,8 @@ add_core = MGH
 trade_goods = fruit
 life_rating = 30
 colonial = 2
+1836.1.2 = {
+  owner = MGH
+  controller = MGH
+  colonial = 0
+}
