@@ -4,9 +4,10 @@ culture = slovak
 culture = lower_danubian
 religion = catholic
 government = absolute_monarchy
-plurality = 0.0
+plurality = 15.0
 nationalvalue = nv_order
-literacy = 0.25
+literacy = 0.35
+non_state_culture_literacy = 0.15
 civilized = yes
 prestige = 15
 

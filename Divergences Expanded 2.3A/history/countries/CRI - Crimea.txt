@@ -2,9 +2,10 @@ capital = 967
 primary_culture = crimean
 religion = sunni
 government = absolute_monarchy
-plurality = 0.02
+plurality = 10.0
 nationalvalue = nv_order
-literacy = 0.1
+literacy = 0.20
+non_state_culture_literacy = 0.15
 
 ruling_party = AAA_conservative_1
 upper_house = {

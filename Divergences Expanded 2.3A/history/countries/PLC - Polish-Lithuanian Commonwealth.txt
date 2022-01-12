@@ -1,12 +1,13 @@
-capital = 706 #Krakow
+capital = 706 #Warsaw
 primary_culture = polish
 culture = lithuanian
 culture = ashkenazi
 religion = catholic
 government = hms_government
-plurality = 0.5
+plurality = 15.0
 nationalvalue = nv_equality
-literacy = 0.5
+literacy = 0.45
+non_state_culture_literacy = 0.25
 civilized = yes
 is_releasable_vassal = no
 prestige = 15
@@ -27,7 +28,7 @@ work_hours = no_work_hour_limit
 safety_regulations = no_safety
 health_care = no_health_care
 unemployment_subsidies = no_subsidies
-pensions = no_pensions 
+pensions = no_pensions
 school_reforms = no_schools
 
 #New Reforms

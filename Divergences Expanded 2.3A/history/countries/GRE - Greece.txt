@@ -3,9 +3,9 @@ primary_culture = greek
 culture = pontic_greek
 religion = orthodox
 government = democracy
-plurality = 25.0
+plurality = 15.0
 nationalvalue = nv_order
-literacy = 0.24
+literacy = 0.25
 civilized = yes
 prestige = 5
 

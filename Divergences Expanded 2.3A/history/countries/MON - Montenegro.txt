@@ -2,10 +2,10 @@ capital = 2583
 primary_culture = serb
 religion = orthodox
 government = theocracy
-plurality = 25.0
+plurality = 10.0
 nationalvalue = nv_autocracy
-literacy = 0.1
-non_state_culture_literacy = 0.01
+literacy = 0.20
+non_state_culture_literacy = 0.20
 civilized = yes
 prestige = 1
 

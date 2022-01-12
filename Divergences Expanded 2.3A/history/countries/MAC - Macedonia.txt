@@ -5,9 +5,9 @@ culture = sephardic
 culture = pontic_greek
 religion = orthodox
 government = absolute_monarchy
-plurality = 0.0
+plurality = 10.0
 nationalvalue = nv_order
-literacy = 0.22
+literacy = 0.20
 civilized = yes
 prestige = 5
 

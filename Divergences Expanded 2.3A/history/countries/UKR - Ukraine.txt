@@ -2,9 +2,10 @@ capital = 958
 primary_culture = ruthenian
 religion = orthodox
 government = absolute_monarchy
-plurality = 0.02
+plurality = 10.0
 nationalvalue = nv_autocracy
-literacy = 0.15
+literacy = 0.25
+non_state_culture_literacy = 0.60
 civilized = yes
 
 
@@ -24,7 +25,7 @@ work_hours = no_work_hour_limit
 safety_regulations = no_safety
 health_care = no_health_care
 unemployment_subsidies = no_subsidies
-pensions = no_pensions 
+pensions = no_pensions
 school_reforms = no_schools
 
 #New Reforms
