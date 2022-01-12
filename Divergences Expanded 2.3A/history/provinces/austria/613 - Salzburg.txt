@@ -12,3 +12,7 @@ state_building = {
 	building = ammunition_factory
 	upgrade = yes
 }
+1836.1.2 = {
+  remove_core = BAV
+	remove_core = AUS
+}
