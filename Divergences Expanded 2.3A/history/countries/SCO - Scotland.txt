@@ -3,9 +3,9 @@ primary_culture = scottish
 culture = icelandic
 religion = protestant
 government = hms_government
-plurality = 0.1
+plurality = 25.0
 nationalvalue = nv_order
-literacy = 0.55
+literacy = 0.70
 civilized = yes
 
 
@@ -51,11 +51,4 @@ upper_house = {
 govt_flag = {
 	government = absolute_monarchy
 	flag = theocracy
-}
-
-
-1861.1.1 = {
-# Technologies
-
-#Inventions
 }

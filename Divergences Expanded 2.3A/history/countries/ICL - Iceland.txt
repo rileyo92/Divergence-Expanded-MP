@@ -2,9 +2,9 @@ capital = 252
 primary_culture = icelandic
 religion = protestant
 government = democracy
-plurality = 0.5
+plurality = 25.0
 nationalvalue = nv_liberty
-literacy = 0.87
+literacy = 0.70
 civilized = yes
 
 
@@ -45,10 +45,4 @@ upper_house = {
 	anarcho_liberal = 2
 	socialist = 3
 	communist = 0
-}
-
-1861.1.1 = {
-# Technologies
-
-#Inventions
 }

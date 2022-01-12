@@ -3,9 +3,9 @@ primary_culture = breton
 culture = anglois
 religion = catholic
 government = hms_government
-plurality = 0.1
+plurality = 20.0
 nationalvalue = nv_equality
-literacy = 0.6
+literacy = 0.5
 civilized = yes
 
 
@@ -25,7 +25,7 @@ work_hours = no_work_hour_limit
 safety_regulations = no_safety
 health_care = no_health_care
 unemployment_subsidies = no_subsidies
-pensions = no_pensions 
+pensions = no_pensions
 school_reforms = no_schools
 
 #New Reforms

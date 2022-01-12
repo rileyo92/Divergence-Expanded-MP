@@ -4,9 +4,9 @@ culture = french
 culture = north_italian
 religion = catholic
 government = prussian_constitutionalism
-plurality = 5
+plurality = 15.0
 nationalvalue = nv_equality
-literacy = 0.5
+literacy = 0.40
 civilized = yes
 
 set_country_flag = provencal_start
