@@ -5,3 +5,9 @@ add_core = CLC
 add_core = KUR
 trade_goods = wool
 life_rating = 35
+1836.1.2 = {
+  owner = CLC
+  controller = CLC
+  remove_core = TUR
+  remove_core = KUR
+}

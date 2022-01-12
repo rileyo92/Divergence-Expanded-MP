@@ -4,3 +4,8 @@ add_core = TUR
 add_core = ARM
 trade_goods = wool
 life_rating = 35
+1836.1.2 = {
+  owner = ARM
+  controller = ARM
+  remove_core = TUR
+}

@@ -6,3 +6,9 @@ add_core = LBN
 trade_goods = iron
 life_rating = 35
 terrain = hills
+1836.1.2 = {
+  owner = LBN
+  controller = LBN
+  remove_core = SYR
+  remove_core = TUR
+}

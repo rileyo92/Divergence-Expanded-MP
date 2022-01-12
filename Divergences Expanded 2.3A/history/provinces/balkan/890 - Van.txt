@@ -6,3 +6,8 @@ add_core = KUR
 add_core = ARY
 trade_goods = iron
 life_rating = 35
+1836.1.2 = {
+  owner = KUR
+  controller = KUR
+  remove_core = TUR
+}

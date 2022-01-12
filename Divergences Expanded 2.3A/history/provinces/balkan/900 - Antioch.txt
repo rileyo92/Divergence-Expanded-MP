@@ -5,3 +5,9 @@ add_core = HTY
 add_core = SYR
 trade_goods = fruit
 life_rating = 40
+1836.1.2 = {
+  owner = HTY
+  controller = HTY
+  remove_core = SYR
+  remove_core = TUR
+}

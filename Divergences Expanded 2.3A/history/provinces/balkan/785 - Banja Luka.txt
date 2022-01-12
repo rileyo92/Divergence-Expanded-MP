@@ -5,3 +5,8 @@ add_core = BOS
 add_core = YUG
 trade_goods = fruit
 life_rating = 35
+1836.1.2 = {
+  owner = BOS
+  controller = BOS
+  remove_core = CRO
+}

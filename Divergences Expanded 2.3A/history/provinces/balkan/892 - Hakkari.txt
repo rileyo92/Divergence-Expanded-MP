@@ -6,3 +6,8 @@ add_core = KUR
 add_core = ARM
 trade_goods = fruit
 life_rating = 35
+1836.1.2 = {
+  owner = ARY
+  controller = ARY
+  remove_core = TUR
+}
