@@ -4,4 +4,10 @@ add_core = VIN
 add_core = NUN
 trade_goods = fish
 life_rating = 10
-colonial = 1
+colonial = 2
+1836.1.2 = {
+  owner = NUN
+  controller = NUN
+  remove_core = VIN
+  colonial = 0
+}

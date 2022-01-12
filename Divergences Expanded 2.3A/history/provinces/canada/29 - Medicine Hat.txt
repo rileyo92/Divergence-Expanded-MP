@@ -5,3 +5,8 @@ add_core = UZB
 trade_goods = fruit
 terrain = desert
 life_rating = 15
+1836.1.2 = {
+  owner = UZB
+  controller = UZB
+  remove_core = CHG
+}

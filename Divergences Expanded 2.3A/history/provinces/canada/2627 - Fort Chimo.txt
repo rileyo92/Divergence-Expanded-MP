@@ -2,7 +2,12 @@ owner = VIN
 controller = VIN
 add_core = VIN
 add_core = NUN
-add_core = ANI
 trade_goods = coal
 life_rating = 10
-colonial = 1
+colonial = 2
+1836.1.2 = {
+  owner = NUN
+  controller = NUN
+  remove_core = VIN
+  colonial = 0
+}
