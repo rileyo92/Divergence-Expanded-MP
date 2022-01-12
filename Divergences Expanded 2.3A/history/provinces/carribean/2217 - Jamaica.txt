@@ -4,3 +4,8 @@ add_core = JAM
 trade_goods = sulphur
 life_rating = 40
 colonial = 2
+1836.1.2 = {
+  owner = JAM
+  controller = JAM
+  colonial = 0
+}

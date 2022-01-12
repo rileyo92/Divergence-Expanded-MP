@@ -8,7 +8,7 @@ terrain = new_world_plains
 1835.1.1 = {
 	controller = SPA
 }
-
-1837.1.1 = {
-	controller = CLM
+1836.1.2 = {
+	controller = GRA
+	owner = GRA
 }

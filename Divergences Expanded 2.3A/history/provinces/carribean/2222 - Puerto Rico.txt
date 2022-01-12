@@ -4,3 +4,8 @@ add_core = SFJ
 trade_goods = coffee
 life_rating = 40
 colonial = 2
+1836.1.2 = {
+  owner = SFJ
+  controller = SFJ
+  colonial = 0
+}

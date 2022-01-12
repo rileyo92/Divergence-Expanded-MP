@@ -5,3 +5,8 @@ trade_goods = tobacco
 life_rating = 40
 naval_base = 1
 colonial = 2
+1836.1.2 = {
+  owner = CUB
+  controller = CUB
+  colonial = 0
+}

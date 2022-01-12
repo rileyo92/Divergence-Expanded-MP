@@ -5,3 +5,8 @@ trade_goods = coffee
 naval_base = 1
 colonial = 2
 life_rating = 40
+1836.1.2 = {
+  owner = SFJ
+  controller = SFJ
+  colonial = 0
+}
