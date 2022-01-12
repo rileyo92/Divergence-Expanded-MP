@@ -3,3 +3,7 @@ controller = JAP
 add_core = KOR
 trade_goods = grain
 life_rating = 35
+1836.1.2 = {
+  owner = KOR
+  controller = KOR
+}

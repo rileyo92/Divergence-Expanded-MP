@@ -4,3 +4,8 @@ add_core = BUR
 add_core = KCH
 trade_goods = tropical_wood
 life_rating = 35
+1836.1.2 = {
+  owner = KCH
+  controller = KCH
+  remove_core = BUR
+}

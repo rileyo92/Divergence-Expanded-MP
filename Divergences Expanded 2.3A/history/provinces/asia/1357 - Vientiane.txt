@@ -1,8 +1,13 @@
 owner = DAI
 controller = DAI
-#add_core = SIA
 add_core = LUA
 add_core = DAI
 add_core = CAM
 trade_goods = grain
 life_rating = 40
+1836.1.2 = {
+  owner = LUA
+  controller = LUA
+  remove_core = CAM
+  remove_core = DAI
+}

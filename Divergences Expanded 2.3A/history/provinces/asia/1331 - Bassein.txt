@@ -4,3 +4,8 @@ add_core = BUR
 colonial = 2
 trade_goods = fish
 life_rating = 35
+1836.1.2 = {
+  owner = BUR
+  controller = BUR
+  colonial = 0
+}
