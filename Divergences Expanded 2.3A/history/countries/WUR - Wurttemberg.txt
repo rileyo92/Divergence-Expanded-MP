@@ -1,6 +1,5 @@
 capital = 589
-primary_culture = south_german
-culture = rheinish
+primary_culture = swiss
 religion = catholic
 government = absolute_monarchy
 plurality = 30.0

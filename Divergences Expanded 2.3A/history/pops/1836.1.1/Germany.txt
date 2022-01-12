@@ -4382,7 +4382,7 @@
 	}
 
 	farmers = {
-		culture = rheinish
+		culture = swiss
 		religion = protestant
 		size = 144050
 	}
