@@ -18,13 +18,13 @@ country_event = { #Vinlandic Literacy Nerf
 				NOT = { has_pop_culture = vinlander }
         NOT = { has_pop_culture = afro_germanic }
 			}
-			literacy = -0.55
+			literacy = -0.60
 		}
     any_pop = {
 			limit = {
 				has_pop_culture = afro_germanic
 			}
-			literacy = -0.35
+			literacy = -0.40
 		}
 	}
 }

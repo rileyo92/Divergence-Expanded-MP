@@ -2,11 +2,10 @@ capital = 729
 primary_culture = venetian
 religion = catholic
 government = merchant_republic
-plurality = 0.1
+plurality = 15.0
 nationalvalue = nv_productivity
-literacy = 0.4
+literacy = 0.35
 civilized = yes
-
 
 # Political reforms
 slavery = yes_slavery
@@ -82,9 +81,3 @@ nonstate_consciousness = 1
 schools = commerce_tech_school
 
 oob = "VEN_oob.txt"
-
-1861.1.1 = {
-# Technologies
-
-#Inventions
-}

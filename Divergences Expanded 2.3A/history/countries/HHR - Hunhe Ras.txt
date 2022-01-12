@@ -69,7 +69,6 @@ mechanical_production = 1
 
 # Inventions
 
-
 # Starting Consciousness
 consciousness = 0
 nonstate_consciousness = 0

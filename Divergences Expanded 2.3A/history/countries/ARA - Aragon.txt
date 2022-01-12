@@ -5,7 +5,7 @@ culture = maltese
 culture = south_italian
 religion = catholic
 government = prussian_constitutionalism
-plurality = 0.2
+plurality = 15.0
 nationalvalue = nv_liberty
 literacy = 0.25
 civilized = yes
@@ -78,7 +78,6 @@ mechanized_mining = 1
 basic_chemistry = 1
 
 #Inventions
-#corvettes = yes
 
 # Starting Consciousness
 consciousness = 3

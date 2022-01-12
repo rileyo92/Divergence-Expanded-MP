@@ -3,9 +3,10 @@ primary_culture = north_italian
 culture = maltese
 religion = catholic
 government = merchant_republic
-plurality = 0.1
+plurality = 15.0
 nationalvalue = nv_order
-literacy = 0.38
+literacy = 0.35
+non_state_culture_literacy = 0.05
 civilized = yes
 
 
