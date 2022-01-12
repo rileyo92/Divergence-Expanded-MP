@@ -1,4 +1,3 @@
 add_core = GAN
 trade_goods = coal
 life_rating = 40
-colonial = 1

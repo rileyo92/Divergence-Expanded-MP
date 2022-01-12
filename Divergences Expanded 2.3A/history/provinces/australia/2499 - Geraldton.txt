@@ -2,4 +2,3 @@ add_core = GAN
 trade_goods = grain
 terrain = dryhills
 life_rating = 30
-colonial = 1

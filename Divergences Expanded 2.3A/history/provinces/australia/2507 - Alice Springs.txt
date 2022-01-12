@@ -2,4 +2,3 @@ add_core = GAN
 trade_goods = cattle
 terrain = semidesert
 life_rating = 30
-colonial = 1
