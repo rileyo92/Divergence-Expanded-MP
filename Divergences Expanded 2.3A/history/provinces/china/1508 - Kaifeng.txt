@@ -5,3 +5,8 @@ add_core = SHU
 add_core = CHI
 trade_goods = tea
 life_rating = 35
+1836.1.2 = {
+  owner = SHU
+  controller = SHU
+  remove_core = MCK
+}

@@ -4,3 +4,8 @@ add_core = CHG
 add_core = UGH
 trade_goods = sulphur
 life_rating = 35
+1836.1.2 = {
+  owner = UGH
+  controller = UGH
+  remove_core = CHG
+}

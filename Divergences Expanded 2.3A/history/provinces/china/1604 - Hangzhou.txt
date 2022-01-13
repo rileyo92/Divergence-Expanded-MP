@@ -7,3 +7,9 @@ add_core = HUI
 trade_goods = silk
 naval_base = 1
 life_rating = 40
+1836.1.2 = {
+  owner = HUI
+  controller = HUI
+  remove_core = MIG
+  remove_core = TNG
+}

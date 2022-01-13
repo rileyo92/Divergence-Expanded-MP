@@ -6,3 +6,6 @@ add_core = MIG
 trade_goods = cotton
 life_rating = 40
 naval_base = 1
+1836.1.2 = {
+  remove_core = MIG
+}

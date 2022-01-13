@@ -6,3 +6,9 @@ add_core = CHI
 add_core = HUI
 trade_goods = silk
 life_rating = 30
+1836.1.2 = {
+  owner = HUI
+  controller = HUI
+  remove_core = MIG
+  remove_core = TNG
+}

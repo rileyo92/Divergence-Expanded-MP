@@ -6,3 +6,9 @@ add_core = SHU
 add_core = CHI
 trade_goods = timber
 life_rating = 35
+1836.1.2 = {
+  owner = XBI
+  controller = XBI
+  remove_core = MCK
+  remove_core = SHU
+}

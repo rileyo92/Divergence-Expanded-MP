@@ -6,3 +6,9 @@ add_core = CHI
 add_core = GNG
 trade_goods = tea
 life_rating = 40
+1836.1.2 = {
+  owner = GNG
+  controller = GNG
+  remove_core = TAI
+  remove_core = TNG
+}

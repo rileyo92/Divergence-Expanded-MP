@@ -6,3 +6,8 @@ add_core = CHI
 add_core = TIB
 trade_goods = tea
 life_rating = 30
+1836.1.2 = {
+  owner = TIB
+  controller = TIB
+  remove_core = TAI
+}

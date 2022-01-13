@@ -6,3 +6,9 @@ add_core = GNG
 trade_goods = precious_goods
 life_rating = 40
 colonial = 2
+1836.1.2 = {
+  owner = GNG
+  controller = GNG
+  remove_core = TAI
+  colonial = 0
+}
