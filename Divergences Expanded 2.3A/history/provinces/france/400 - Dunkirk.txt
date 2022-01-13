@@ -7,3 +7,9 @@ trade_goods = fish
 life_rating = 35
 fort = 2
 naval_base = 2
+1836.1.2 = {
+  owner = FRA
+  controller = FRA
+  remove_core = BRG
+  remove_core = DUA
+}

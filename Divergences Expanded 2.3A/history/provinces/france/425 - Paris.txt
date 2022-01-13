@@ -41,4 +41,8 @@ state_building = {
 		upgrade = yes
 	}
 }
-terrain = urban
+1836.1.2 = {
+  owner = FRA
+  controller = FRA
+  remove_core = DUA
+}

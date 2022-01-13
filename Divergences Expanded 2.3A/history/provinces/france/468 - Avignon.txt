@@ -5,3 +5,6 @@ add_core = PRV
 add_core = ARP
 trade_goods = sulphur
 life_rating = 35
+1836.1.2 = {
+  remove_core = OCC
+}

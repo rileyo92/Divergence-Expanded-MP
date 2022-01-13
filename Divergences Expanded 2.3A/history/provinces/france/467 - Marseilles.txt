@@ -10,3 +10,6 @@ state_building = {
 	building = clipper_shipyard
 	upgrade = yes
 }
+1836.1.2 = {
+  remove_core = OCC
+}

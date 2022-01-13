@@ -29,3 +29,8 @@ state_building = {
 	building = explosives_factory
 	upgrade = yes
 }
+1836.1.2 = {
+  owner = FRA
+  controller = FRA
+  remove_core = BRG
+}

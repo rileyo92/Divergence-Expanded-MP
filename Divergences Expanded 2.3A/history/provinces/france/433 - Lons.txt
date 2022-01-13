@@ -5,3 +5,8 @@ add_core = LRR
 fort = 1
 trade_goods = grain
 life_rating = 35
+1836.1.2 = {
+  owner = LRR
+  controller = LRR
+  remove_core = BRG
+}

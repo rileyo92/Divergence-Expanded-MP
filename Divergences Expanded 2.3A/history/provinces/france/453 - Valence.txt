@@ -6,3 +6,9 @@ add_core = OCC
 add_core = ARP
 trade_goods = fruit
 life_rating = 35
+1836.1.2 = {
+  owner = PRV
+  controller = PRV
+  remove_core = DUA
+	remove_core = OCC
+}

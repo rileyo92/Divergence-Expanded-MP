@@ -10,3 +10,8 @@ state_building = {
 	building = winery
 	upgrade = yes
 }
+1836.1.2 = {
+  owner = OCC
+  controller = OCC
+  remove_core = DUA
+}

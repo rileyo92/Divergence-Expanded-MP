@@ -4,3 +4,8 @@ add_core = BRG
 add_core = LRR
 trade_goods = dye
 life_rating = 35
+1836.1.2 = {
+  owner = LRR
+  controller = LRR
+  remove_core = BRG
+}
