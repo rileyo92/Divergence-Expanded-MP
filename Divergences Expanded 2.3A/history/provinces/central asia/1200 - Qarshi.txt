@@ -5,3 +5,8 @@ add_core = UZB
 trade_goods = wool
 life_rating = 35
 terrain = dryhills
+1836.1.2 = {
+  owner = UZB
+  controller = UZB
+  remove_core = CHG
+}

@@ -6,3 +6,8 @@ add_core = PER
 add_core = KUR
 trade_goods = wool
 life_rating = 35
+1836.1.2 = {
+  owner = KUR
+  controller = KUR
+  remove_core = IRQ
+}

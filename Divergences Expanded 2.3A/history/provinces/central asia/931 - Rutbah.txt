@@ -1,3 +1,5 @@
+owner = IRQ
+controller = IRQ
 add_core = IRQ
 add_core = NEJ
 trade_goods = sulphur

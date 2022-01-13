@@ -7,3 +7,10 @@ add_core = SYR
 trade_goods = grain
 life_rating = 35
 terrain = desert
+1836.1.2 = {
+  owner = PLS
+  controller = PLS
+  remove_core = TUR
+  remove_core = SYR
+  remove_core = EGY
+}

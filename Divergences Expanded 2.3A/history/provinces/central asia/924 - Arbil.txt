@@ -5,6 +5,10 @@ add_core = NEJ
 add_core = KUR
 add_core = HTY
 add_core = ASY
-add_core = SRN
 trade_goods = wool
 life_rating = 35
+1836.1.2 = {
+  owner = ASY
+  controller = ASY
+  remove_core = IRQ
+}

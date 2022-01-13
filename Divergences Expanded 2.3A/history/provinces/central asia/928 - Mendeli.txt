@@ -5,3 +5,8 @@ add_core = NEJ
 add_core = KUR
 trade_goods = grain
 life_rating = 35
+1836.1.2 = {
+  owner = KUR
+  controller = KUR
+  remove_core = IRQ
+}

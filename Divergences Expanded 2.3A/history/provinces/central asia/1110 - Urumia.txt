@@ -3,6 +3,9 @@ controller = AZB
 add_core = KUR
 add_core = ARY
 add_core = AZB
-add_core = ARM
 trade_goods = wool
 life_rating = 35
+1836.1.2 = {
+  owner = KUR
+  controller = KUR
+}

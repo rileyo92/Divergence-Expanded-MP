@@ -1,6 +1,12 @@
 owner = AFG
 controller = AFG
-add_core = PNJ
 add_core = AFG
+add_core = KAS
+add_core = HND
 trade_goods = grain
-life_rating = 35
+life_rating = 30
+1836.1.2 = {
+  owner = KAS
+  controller = KAS
+  remove_core = AFG
+}

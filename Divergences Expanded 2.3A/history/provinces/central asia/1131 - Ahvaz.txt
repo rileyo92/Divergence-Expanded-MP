@@ -1,8 +1,13 @@
 owner = IRQ
-controller = IRQ             
+controller = IRQ
 add_core = ARY
 add_core = IRQ
 add_core = PER
 add_core = ZND
 trade_goods = grain
 life_rating = 35
+1836.1.2 = {
+  owner = ZND
+  controller = ZND
+  remove_core = IRQ
+}

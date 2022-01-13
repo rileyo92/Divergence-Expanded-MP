@@ -4,10 +4,11 @@ add_core = TUR
 add_core = ARY
 add_core = KUR
 add_core = ARM
+add_core = ASY
 trade_goods = fruit
 life_rating = 35
 1836.1.2 = {
-  owner = ARY
-  controller = ARY
+  owner = ASY
+  controller = ASY
   remove_core = TUR
 }

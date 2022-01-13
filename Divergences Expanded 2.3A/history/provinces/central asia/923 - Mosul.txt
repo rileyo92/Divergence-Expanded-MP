@@ -7,3 +7,10 @@ add_core = HTY
 add_core = ASY
 trade_goods = sulphur
 life_rating = 40
+1836.1.2 = {
+  owner = ASY
+  controller = ASY
+  remove_core = IRQ
+  remove_core = SYR
+  remove_core = EGY
+}

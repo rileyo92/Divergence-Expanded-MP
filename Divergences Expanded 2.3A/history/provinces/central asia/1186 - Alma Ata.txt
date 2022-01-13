@@ -4,3 +4,8 @@ add_core = CHG
 add_core = KZH
 trade_goods = grain
 life_rating = 35
+1836.1.2 = {
+  owner = KZH
+  controller = KZH
+  remove_core = CHG
+}

@@ -6,3 +6,8 @@ add_core = ARY
 add_core = BLC
 trade_goods = fruit
 life_rating = 40
+1836.1.2 = {
+  owner = BLC
+  controller = BLC
+  remove_core = ZND
+}

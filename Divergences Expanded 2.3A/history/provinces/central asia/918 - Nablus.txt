@@ -6,3 +6,10 @@ add_core = PLS
 add_core = SYR
 trade_goods = fruit
 life_rating = 35
+1836.1.2 = {
+  owner = PLS
+  controller = PLS
+  remove_core = TUR
+  remove_core = SYR
+  remove_core = EGY
+}
