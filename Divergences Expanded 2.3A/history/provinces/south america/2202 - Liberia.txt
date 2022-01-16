@@ -4,3 +4,7 @@ add_core = UCA
 add_core = CLM
 trade_goods = fruit
 life_rating = 35
+1836.1.2 = {
+	owner = UCA
+	controller = UCA
+}

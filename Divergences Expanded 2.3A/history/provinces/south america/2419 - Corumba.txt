@@ -5,3 +5,10 @@ add_core = AVA
 trade_goods = tropical_wood
 terrain = savanna
 life_rating = 35
+colonial = 2
+1836.1.2 = {
+	owner = AVA
+	controller = AVA
+	remove_core = LOT
+  colonial = 0
+}

@@ -5,3 +5,8 @@ trade_goods = fruit
 terrain = plains
 life_rating = 35
 colonial = 2
+1836.1.2 = {
+	owner = GUY
+	controller = GUY
+  colonial = 0
+}

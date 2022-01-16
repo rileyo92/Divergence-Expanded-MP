@@ -4,7 +4,8 @@ add_core = TUR
 add_core = KUR
 trade_goods = grain
 life_rating = 35
-1861.1.1 = {
-	owner = TUR
-	controller = TUR
+1836.1.2 = {
+	owner = KUR
+	controller = KUR
+	remove_core = TUR
 }

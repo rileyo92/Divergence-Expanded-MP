@@ -4,3 +4,7 @@ owner = CLM
 add_core = UCA
 trade_goods = fish
 life_rating = 35
+1836.1.2 = {
+	owner = UCA
+	controller = UCA
+}

@@ -8,6 +8,5 @@ trade_goods = timber
 1836.1.2 = {
   owner = AZT
   controller = AZT
-  remove_core = CLM
   remove_core = MEX
 }

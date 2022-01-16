@@ -10,5 +10,4 @@ trade_goods = cattle
   owner = LST
   controller = LST
   remove_core = PLA
-  remove_core = CLM
 }

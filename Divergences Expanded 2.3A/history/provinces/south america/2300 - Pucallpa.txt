@@ -2,4 +2,3 @@ add_core = TAP
 trade_goods = wool
 terrain = jungle
 life_rating = 15
-colonial = 1

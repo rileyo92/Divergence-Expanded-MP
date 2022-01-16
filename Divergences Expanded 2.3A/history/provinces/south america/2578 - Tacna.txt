@@ -9,7 +9,9 @@ life_rating = 20
 1835.1.1 = {
 	controller = SPA
 }
-
-1837.1.1 = {
-	controller = CLM
+1836.1.2 = {
+	owner = INC
+	controller = INC
+	remove_core = CLM
+  remove_core = GRA
 }

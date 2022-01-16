@@ -7,7 +7,7 @@ life_rating = 35
 1835.1.1 = {
 	controller = SPA
 }
-
-1837.1.1 = {
-	controller = CLM
+1836.1.2 = {
+	owner = UCA
+	controller = UCA
 }

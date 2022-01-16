@@ -10,7 +10,10 @@ colonial = 2
 1835.1.1 = {
 	controller = SPA
 }
-
-1837.1.1 = {
-	controller = CLM
+1836.1.2 = {
+	owner = TAP
+	controller = TAP
+	remove_core = GRA
+	remove_core = CLM
+	colonial = 0
 }
