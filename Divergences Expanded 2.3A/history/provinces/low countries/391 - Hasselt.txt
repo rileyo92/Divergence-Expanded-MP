@@ -4,3 +4,8 @@ add_core = BRG
 add_core = FLA
 trade_goods = coal
 life_rating = 35
+1836.1.2 = {
+  owner = FLA
+  controller = FLA
+  remove_core = BRG
+}

@@ -4,3 +4,8 @@ add_core = BRG
 add_core = LUX
 trade_goods = coal
 life_rating = 40
+1836.1.2 = {
+  owner = LUX
+  controller = LUX
+  remove_core = BRG
+}

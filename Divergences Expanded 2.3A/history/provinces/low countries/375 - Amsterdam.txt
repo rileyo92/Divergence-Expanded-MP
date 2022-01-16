@@ -14,3 +14,8 @@ state_building = {
 	building = canned_food_factory
 	upgrade = yes
 }
+1836.1.2 = {
+  owner = NET
+  controller = NET
+  remove_core = BRG
+}

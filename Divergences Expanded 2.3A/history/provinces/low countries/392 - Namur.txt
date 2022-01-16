@@ -19,3 +19,8 @@ state_building = {
 	building = furniture_factory
 	upgrade = yes
 }
+1836.1.2 = {
+  owner = WLL
+  controller = WLL
+  remove_core = BRG
+}
