@@ -11,3 +11,8 @@ state_building = {
 	building = winery
 	upgrade = yes
 }
+1836.1.2 = {
+	owner = POR
+	controller = POR
+	remove_core = SPA
+}

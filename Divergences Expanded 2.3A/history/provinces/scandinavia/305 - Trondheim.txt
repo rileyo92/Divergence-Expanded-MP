@@ -2,6 +2,5 @@ owner = SCA
 controller = SCA
 add_core = SCA
 trade_goods = timber
-terrain = montane_tundra
 naval_base = 1
 life_rating = 40
