@@ -4,3 +4,8 @@ add_core = CLM
 add_core = MEX
 trade_goods = coal
 life_rating = 35
+1836.1.2 = {
+  owner = MEX
+  controller = MEX
+  remove_core = CLM
+}

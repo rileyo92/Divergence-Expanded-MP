@@ -6,3 +6,9 @@ add_core = AZT
 trade_goods = grain
 life_rating = 40
 fort = 1
+1836.1.2 = {
+  owner = AZT
+  controller = AZT
+  remove_core = CLM
+  remove_core = MEX
+}
