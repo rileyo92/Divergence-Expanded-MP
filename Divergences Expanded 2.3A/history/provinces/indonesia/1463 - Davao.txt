@@ -4,4 +4,9 @@ add_core = SUL
 add_core = TON
 trade_goods = iron
 life_rating = 35
-colonial = 1
+colonial = 2
+1836.1.2 = {
+  owner = SUL
+  controller = SUL
+  colonial = 0
+}

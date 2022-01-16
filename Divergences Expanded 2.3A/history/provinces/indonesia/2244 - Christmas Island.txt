@@ -1,6 +1,6 @@
 owner = SPA
 controller = SPA
-colonial = 1
+colonial = 2
 trade_goods = fish
 life_rating = 30
 terrain = coral_island
