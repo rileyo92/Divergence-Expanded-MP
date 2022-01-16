@@ -6,3 +6,8 @@ add_core = MUG
 trade_goods = grain
 naval_base = 1
 life_rating = 30
+1836.1.2 = {
+  owner = ORI
+  controller = ORI
+  remove_core = MUG
+}

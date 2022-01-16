@@ -2,8 +2,11 @@ owner = BRG
 controller = BRG
 add_core = HYD
 add_core = DRA
-add_core = TRA
-add_core = ADR
 trade_goods = grain
 life_rating = 30
 colonial = 2
+1836.1.2 = {
+  owner = HYD
+  controller = HYD
+  colonial = 0
+}

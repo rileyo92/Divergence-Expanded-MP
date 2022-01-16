@@ -3,6 +3,8 @@ controller = BEN
 add_core = BEN
 add_core = BUR
 add_core = HND
-add_core = ASM
 trade_goods = grain
 life_rating = 30
+1836.1.2 = {
+  remove_core = BUR
+}

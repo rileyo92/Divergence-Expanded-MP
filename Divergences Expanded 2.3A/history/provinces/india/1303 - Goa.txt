@@ -6,4 +6,10 @@ add_core = BHO
 trade_goods = fish
 naval_base = 1
 life_rating = 40
-colonial = 1
+colonial = 2
+1836.1.2 = {
+  owner = BHO
+  controller = BHO
+  remove_core = VIJ
+  colonial = 0
+}

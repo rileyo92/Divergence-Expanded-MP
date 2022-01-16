@@ -24,3 +24,8 @@ state_building = {
 	building = small_arms_factory
 	upgrade = yes
 }
+1836.1.2 = {
+	owner = SIL
+	controller = SIL
+	remove_core = BOH
+}

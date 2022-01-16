@@ -27,3 +27,8 @@ state_building = {
 	building = paper_mill
 	upgrade = yes
 }
+1836.1.2 = {
+	owner = BRN
+	controller = BRN
+	remove_core = BOH
+}

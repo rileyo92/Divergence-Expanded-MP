@@ -6,7 +6,6 @@ add_core = GER
 trade_goods = cattle
 life_rating = 40
 naval_base = 2
-
 state_building = {
 	level = 2
 	building = clipper_shipyard
@@ -21,4 +20,9 @@ state_building = {
 	level = 2
 	building = paper_mill
 	upgrade = yes
+}
+1836.1.2 = {
+	owner = HOL
+	controller = HOL
+	remove_core = SCA
 }

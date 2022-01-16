@@ -11,18 +11,22 @@ state_building = {
 	upgrade = yes
 }
 state_building = {
-	level = 2 
+	level = 2
 	building = regular_clothes_factory
 	upgrade = yes
 }
 state_building = {
-	level = 2 
+	level = 2
 	building = furniture_factory
 	upgrade = yes
 }
-
 state_building = {
-	level = 2 
+	level = 2
 	building = liquor_distillery
 	upgrade = yes
+}
+1836.1.2 = {
+	owner = SAX
+	controller = SAX
+	remove_core = BOH
 }

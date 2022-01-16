@@ -2,7 +2,11 @@ owner = MUG
 controller = MUG
 add_core = ORI
 add_core = HND
-#add_core = VIJ
 add_core = MUG
 trade_goods = grain
 life_rating = 30
+1836.1.2 = {
+  owner = ORI
+  controller = ORI
+  remove_core = MUG
+}

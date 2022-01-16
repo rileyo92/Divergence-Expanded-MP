@@ -5,3 +5,8 @@ add_core = BRN
 add_core = GER
 trade_goods = fruit
 life_rating = 40
+1836.1.2 = {
+	owner = BRN
+	controller = BRN
+	remove_core = BOH
+}

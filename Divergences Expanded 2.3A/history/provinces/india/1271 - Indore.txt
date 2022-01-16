@@ -5,3 +5,8 @@ add_core = GWA
 add_core = HND
 trade_goods = opium
 life_rating = 30
+1836.1.2 = {
+  owner = GWA
+  controller = GWA
+  remove_core = MUG
+}

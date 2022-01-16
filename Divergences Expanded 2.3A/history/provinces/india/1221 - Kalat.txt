@@ -1,8 +1,12 @@
 owner = SIN
 controller = SIN
 add_core = SIN
-add_core = KAL
 add_core = ARY
 add_core = BLC
 trade_goods = wool
 life_rating = 30
+1836.1.2 = {
+	owner = BLC
+	controller = BLC
+  remove_core = SIN
+}

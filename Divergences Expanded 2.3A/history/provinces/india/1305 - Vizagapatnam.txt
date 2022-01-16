@@ -1,6 +1,5 @@
 owner = HYD
 controller = HYD
-add_core = ADR
 add_core = ORI
 add_core = HYD
 add_core = DRA

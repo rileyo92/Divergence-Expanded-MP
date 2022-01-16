@@ -5,3 +5,8 @@ add_core = HND
 add_core = MUG
 trade_goods = opium
 life_rating = 30
+1836.1.2 = {
+  owner = BUN
+  controller = BUN
+  remove_core = MUG
+}

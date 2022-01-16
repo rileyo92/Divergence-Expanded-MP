@@ -6,3 +6,8 @@ add_core = POM
 add_core = GER
 trade_goods = cattle
 life_rating = 40
+1836.1.2 = {
+	owner = BRN
+	controller = BRN
+	remove_core = BOH
+}
