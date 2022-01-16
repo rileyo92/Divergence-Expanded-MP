@@ -5,3 +5,8 @@ add_core = SRD
 add_core = ITA
 trade_goods = grain
 life_rating = 35
+1836.1.2 = {
+  owner = SRD
+  controller = SRD
+  remove_core = ARA
+}

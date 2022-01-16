@@ -7,3 +7,9 @@ add_core = SYC
 trade_goods = fish
 naval_base = 2
 life_rating = 40
+1836.1.2 = {
+  owner = SYC
+  controller = SYC
+  remove_core = SIC
+  remove_core = ARA
+}

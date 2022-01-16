@@ -6,7 +6,7 @@ add_core = KZH
 trade_goods = coal
 life_rating = 35
 1836.1.2 = {
-  owner = KZB
-  controller = KZB
+  owner = KZH
+  controller = KZH
   remove_core = CHG
 }

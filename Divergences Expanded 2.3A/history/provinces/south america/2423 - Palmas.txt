@@ -1,7 +1,6 @@
 owner = AMA
 controller = AMA
 add_core = AMA
-add_core = TAP
 add_core = EQN
 trade_goods = fruit
 life_rating = 35
@@ -11,7 +10,7 @@ state_building = {
 	upgrade = yes
 }
 1836.1.2 = {
-	owner = TAP
-	controller = TAP
+	owner = EQN
+	controller = EQN
 	remove_core = AMA
 }

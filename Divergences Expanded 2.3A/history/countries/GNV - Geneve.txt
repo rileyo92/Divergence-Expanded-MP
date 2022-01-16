@@ -2,7 +2,6 @@ capital = 607
 primary_culture = burgundian
 culture = provencal
 culture = swiss
-culture = north_italian
 religion = protestant
 government = absolute_monarchy
 plurality = 0.0

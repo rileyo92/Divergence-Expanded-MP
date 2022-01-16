@@ -5,5 +5,7 @@ add_core = NBG
 trade_goods = coal
 life_rating = 35
 1836.1.2 = {
-  remove_core = NBG
+  owner = NBG
+  controller = NBG
+  remove_core = PLA
 }

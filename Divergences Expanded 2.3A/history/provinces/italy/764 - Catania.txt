@@ -6,3 +6,9 @@ add_core = SIC
 add_core = SYC
 trade_goods = sulphur
 life_rating = 40
+1836.1.2 = {
+  owner = SYC
+  controller = SYC
+  remove_core = SIC
+  remove_core = ARA
+}

@@ -3,7 +3,7 @@ name = "Colombian War of Independence"
 1832.5.2 = {
 	add_attacker = SPA
 	add_defender = CLM
-	
+
 	# actor
 	# receiver
 	# casus_belli - cb type
@@ -19,10 +19,9 @@ name = "Colombian War of Independence"
 		actor = CLM
 		receiver = SPA
 	}
-
 }
 
-1837.10.3 = {
+1836.1.2 = {
 	rem_attacker = SPA
 	rem_defender = CLM
 }

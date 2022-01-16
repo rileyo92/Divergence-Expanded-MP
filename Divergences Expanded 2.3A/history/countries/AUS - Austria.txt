@@ -1,5 +1,6 @@
 capital = 619
 primary_culture = south_german
+culture = lower_danubian
 religion = catholic
 government = absolute_monarchy
 plurality = 30.0

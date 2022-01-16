@@ -5,3 +5,8 @@ add_core = KZH
 add_core = TAR
 trade_goods = opium
 life_rating = 35
+1836.1.2 = {
+  owner = KZH
+  controller = KZH
+  remove_core = NOG
+}

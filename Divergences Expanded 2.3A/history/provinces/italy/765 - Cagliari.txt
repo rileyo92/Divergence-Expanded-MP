@@ -11,3 +11,8 @@ state_building = {
 	building = glass_factory
 	upgrade = yes
 }
+1836.1.2 = {
+  owner = SRD
+  controller = SRD
+  remove_core = ARA
+}
