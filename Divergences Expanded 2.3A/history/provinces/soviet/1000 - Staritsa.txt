@@ -5,3 +5,6 @@ add_core = MUS
 add_core = NOV
 trade_goods = timber
 life_rating = 35
+1836.1.2 = {
+  remove_core = NOV
+}

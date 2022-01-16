@@ -3,6 +3,13 @@ controller = MUS
 add_core = RUS
 add_core = MUS
 add_core = NOG
-add_core = SIB
+add_core = NOV
 trade_goods = grain
 life_rating = 40
+1836.1.2 = {
+  owner = NOG
+  controller = NOG
+  remove_core = MUS
+  remove_core = SIB
+  remove_core = NOV
+}

@@ -4,3 +4,8 @@ add_core = SCA
 add_core = LAT
 trade_goods = grain
 life_rating = 35
+1836.1.2 = {
+	owner = LAT
+	controller = LAT
+	remove_core = SCA
+}

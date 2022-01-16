@@ -1,8 +1,7 @@
-owner = ABU
-controller = ABU
+owner = ZND
+controller = ZND
 add_core = PER
 add_core = ARY
-add_core = ABU
-add_core = NEJ
+add_core = ZND
 trade_goods = fish
 life_rating = 40

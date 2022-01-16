@@ -4,3 +4,8 @@ add_core = DAG
 add_core = AZB
 trade_goods = grain
 life_rating = 35
+1836.1.2 = {
+  owner = DAG
+  controller = DAG
+  remove_core = AZB
+}

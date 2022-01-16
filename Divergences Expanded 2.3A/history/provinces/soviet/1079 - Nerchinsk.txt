@@ -1,6 +1,11 @@
 owner = CHG
-controller = CHG 
+controller = CHG
 add_core = CHG
 add_core = MGL
 trade_goods = grain
 life_rating = 35
+1836.1.2 = {
+  owner = MGL
+  controller = MGL
+  remove_core = CHG
+}

@@ -5,3 +5,8 @@ add_core = AIN
 trade_goods = fish
 life_rating = 30
 terrain = mountain
+1836.1.2 = {
+  owner = AIN
+  controller = AIN
+  remove_core = JAP
+}

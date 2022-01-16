@@ -7,3 +7,10 @@ add_core = SIB
 add_core = URA
 trade_goods = coal
 life_rating = 40
+1836.1.2 = {
+  owner = URA
+  controller = URA
+  remove_core = SIB
+  remove_core = NOV
+  remove_core = MUS
+}

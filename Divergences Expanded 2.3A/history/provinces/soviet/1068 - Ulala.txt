@@ -1,6 +1,11 @@
 owner = CHG
-controller = CHG   
+controller = CHG
 add_core = CHG
 add_core = TNT
 trade_goods = coal
 life_rating = 35
+1836.1.2 = {
+  owner = TNT
+  controller = TNT
+  remove_core = CHG
+}

@@ -9,3 +9,7 @@ state_building = {
 	building = fabric_factory
 	upgrade = yes
 }
+1836.1.2 = {
+	owner = POL
+	controller = POL
+}

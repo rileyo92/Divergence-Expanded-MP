@@ -5,3 +5,8 @@ add_core = NOV
 add_core = URA
 trade_goods = fish
 life_rating = 35
+1836.1.2 = {
+  owner = URA
+  controller = URA
+  remove_core = NOV
+}

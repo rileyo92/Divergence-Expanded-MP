@@ -5,3 +5,6 @@ add_core = NOV
 add_core = PSV
 trade_goods = cattle
 life_rating = 40
+1836.1.2 = {
+  remove_core = NOV
+}

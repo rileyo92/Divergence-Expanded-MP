@@ -6,3 +6,8 @@ add_core = TAR
 add_core = RUS
 trade_goods = cattle
 life_rating = 35
+1836.1.2 = {
+  owner = KZH
+  controller = KZH
+  remove_core = NOG
+}

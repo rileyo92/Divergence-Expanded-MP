@@ -1,8 +1,12 @@
-owner = OMA
-controller = OMA
-add_core = OMA
+owner = SIN
+controller = SIN
+add_core = SIN
 add_core = BLC
-add_core = MAK
 trade_goods = fish
 terrain = mountain
 life_rating = 35
+1836.1.2 = {
+  owner = BLC
+  controller = BLC
+  remove_core = SIN
+}
