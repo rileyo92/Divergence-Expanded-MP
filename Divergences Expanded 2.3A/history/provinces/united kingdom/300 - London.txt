@@ -40,3 +40,8 @@ state_building = {
 	building = fabric_factory
 	upgrade = yes
 }
+1836.1.2 = {
+  owner = ENL
+  controller = ENL
+  remove_core = DUA
+}

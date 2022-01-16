@@ -5,3 +5,8 @@ add_core = ENL
 trade_goods = iron
 naval_base = 1
 life_rating = 35
+1836.1.2 = {
+  owner = ENL
+  controller = ENL
+  remove_core = DUA
+}

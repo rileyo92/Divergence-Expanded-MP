@@ -19,3 +19,8 @@ state_building = {
 	building = clipper_shipyard
 	upgrade = yes
 }
+1836.1.2 = {
+  owner = ENL
+  controller = ENL
+  remove_core = DUA
+}

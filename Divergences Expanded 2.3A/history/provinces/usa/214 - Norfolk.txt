@@ -5,3 +5,6 @@ add_core = PLA
 trade_goods = tobacco
 life_rating = 35
 naval_base = 1
+1836.1.2 = {
+  remove_core = PLA
+}

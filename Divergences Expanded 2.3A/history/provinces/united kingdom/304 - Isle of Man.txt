@@ -2,7 +2,11 @@ owner = SCA
 controller = SCA
 add_core = SCA
 add_core = SCO
-add_core = ENL
 trade_goods = fish
 life_rating = 30
 terrain = small_island
+1836.1.2 = {
+  owner = SCO
+  controller = SCO
+  remove_core = SCA
+}

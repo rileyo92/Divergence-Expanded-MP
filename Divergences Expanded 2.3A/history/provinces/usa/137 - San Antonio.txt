@@ -5,4 +5,9 @@ add_core = LST
 add_core = PLA
 trade_goods = cattle
 life_rating = 40
-fort = 1 
+fort = 1
+1836.1.2 = {
+  owner = LST
+  controller = LST
+  remove_core = PLA
+}

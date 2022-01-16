@@ -5,3 +5,9 @@ add_core = VIN
 add_core = CHE
 trade_goods = grain
 life_rating = 35
+1836.1.2 = {
+  owner = CHE
+  controller = CHE
+  remove_core = PLA
+  remove_core = VIN
+}

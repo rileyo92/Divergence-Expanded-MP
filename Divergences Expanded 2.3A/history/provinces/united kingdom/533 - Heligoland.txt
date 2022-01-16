@@ -6,3 +6,8 @@ add_core = GER
 trade_goods = fish
 life_rating = 30
 terrain = small_island
+1836.1.2 = {
+  owner = HOL
+  controller = HOL
+  remove_core = SCA
+}

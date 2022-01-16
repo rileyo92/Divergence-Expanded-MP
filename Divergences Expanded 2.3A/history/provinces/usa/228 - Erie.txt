@@ -5,3 +5,9 @@ add_core = IRO
 add_core = VIN
 trade_goods = timber
 life_rating = 35
+1836.1.2 = {
+  owner = IRO
+  controller = IRO
+  remove_core = VIN
+  remove_core = NBG
+}

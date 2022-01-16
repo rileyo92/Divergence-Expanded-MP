@@ -1,6 +1,12 @@
 owner = SPA
 controller = SPA
 add_core = SPA
+add_core = NAV
 add_core = IBR
 trade_goods = iron
 life_rating = 35
+1836.1.2 = {
+  owner = NAV
+  controller = NAV
+  remove_core = SPA
+}

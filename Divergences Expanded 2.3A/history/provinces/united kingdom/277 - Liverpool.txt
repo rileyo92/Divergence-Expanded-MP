@@ -26,3 +26,8 @@ state_building = {
 	upgrade = yes
 }
 naval_base = 2
+1836.1.2 = {
+  owner = ENL
+  controller = ENL
+  remove_core = DUA
+}

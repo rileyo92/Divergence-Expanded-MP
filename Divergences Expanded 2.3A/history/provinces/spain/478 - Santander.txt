@@ -1,7 +1,13 @@
 owner = SPA
 controller = SPA
 add_core = SPA
+add_core = NAV
 add_core = IBR
 naval_base = 1
 trade_goods = fish
 life_rating = 40
+1836.1.2 = {
+  owner = NAV
+  controller = NAV
+  remove_core = SPA
+}
