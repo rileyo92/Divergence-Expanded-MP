@@ -18,7 +18,6 @@ WSF   = "countries/Zapadoslavia.txt"
 
 ##DoD
 ADA		= "countries/Adal.txt"
-ADR		= "countries/Andhra.txt"       #Releasable in India
 ADW		= "countries/Adamawa.txt"
 AFS		= "countries/Afsharid.txt"     #Turkmenistan
 AIN		= "countries/Ainu.txt"         #Japan/Siberia
@@ -257,7 +256,6 @@ SLS		= "countries/Silesia.txt"
 WES		= "countries/Westfalen.txt"
 
 #Russia
-AKH		= "countries/Astrakhan.txt"
 ALT		= "countries/Altai Republic.txt"
 CPL		= "countries/Congress Poland.txt"
 DON		= "countries/Cossackia.txt"
@@ -307,7 +305,6 @@ RAJ		= "countries/Rajputana.txt"
 SRI		= "countries/Sri Lanka.txt"
 
 #Africa
-AGC		= "countries/Angoche.txt"
 ANG		= "countries/Angola.txt"
 ARO		= "countries/Aro.txt"
 ASH		= "countries/Ashanti.txt"

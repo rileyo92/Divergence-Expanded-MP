@@ -58,8 +58,11 @@ private_banks = 1
 # Inventions
 
 # Unciv Reforms
-foreign_training = yes_foreing_training
+foreign_weapons = yes_foreign_weapons
+foreign_naval_officers = yes_foreign_naval_officers
 foreign_officers = yes_foreign_officers
+foreign_navies = yes_foreign_navies
+foreign_artillery = yes_foreign_artillery
 
 # Starting Consciousness
 consciousness = 0
