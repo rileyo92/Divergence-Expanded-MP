@@ -2,9 +2,10 @@ capital = 2239
 primary_culture = guarani
 religion = animist
 government = feudal_monarchy
-plurality = 0.05
+plurality = 5
 nationalvalue = nv_tradition
-literacy = 0.03
+literacy = 0.1
+civilized = yes
 
 # Political reforms
 slavery = yes_slavery
@@ -31,16 +32,22 @@ child_labor = child_labor_legal
 citizens_rights = primary_culture_only
 border_policy = closed_borders
 
-# Level_2
 # Technologies
-early_classical_theory_and_critique = 1
+post_napoleonic_thought = 1
+flintlock_rifles = 1
+bronze_muzzle_loaded_artillery = 1
+army_command_principle = 1
+post_nelsonian_thought = 1
+the_command_principle = 1
+private_banks = 1
+no_standard = 1
+guild_based_production = 1
+classicism_n_early_romanticism = 1
 late_enlightenment_philosophy = 1
-
-# Inventions
-
-# Unciv Reforms
-admin_reform = yes_admin_reform
-
+enlightenment_thought = 1
+piston_steam_engine = 1
+basic_chemistry = 1
+mechanical_production = 1
 
 ruling_party = AAA_conservative_3
 upper_house = {

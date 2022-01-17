@@ -1,11 +1,12 @@
 capital = 2447
 primary_culture = lotharian
 culture = amazonian
+culture = afro_frankish
 religion = protestant
 government = democracy
-plurality = 0.0
+plurality = 20.0
 nationalvalue = nv_liberty
-literacy = 0.38
+literacy = 0.45
 civilized = yes
 prestige = 5
 

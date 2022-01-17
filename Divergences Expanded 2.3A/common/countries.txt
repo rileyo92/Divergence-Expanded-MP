@@ -28,7 +28,6 @@ AMT		= "countries/Amatsa.txt"
 ANI		= "countries/Anishinabe.txt"	 #Cree/Ojibwe/Chipewan/Odawa
 ARI		= "countries/AragonItaly.txt"
 ARC		= "countries/Arcadia.txt"
-ARE		= "countries/Arequipa.txt"
 ARU		= "countries/Araucania.txt"
 ARY		= "countries/Aryanam.txt"      #Persian Formable
 ASK		= "countries/Astrakhan.txt"
@@ -223,8 +222,6 @@ UNM		= "countries/New Mexico.txt"
 UOR		= "countries/Oregon.txt"
 
 #Europe
-ALS		= "countries/Elsass.txt"
-ATR		= "countries/Asturias.txt"
 BAN		= "countries/Banat.txt"
 BKV		= "countries/Bukovina.txt"
 BRT		= "countries/Brittany.txt"
@@ -306,9 +303,7 @@ SRI		= "countries/Sri Lanka.txt"
 
 #Africa
 ANG		= "countries/Angola.txt"
-ARO		= "countries/Aro.txt"
 ASH		= "countries/Ashanti.txt"
-AWS		= "countries/Awsa.txt"
 AZA		= "countries/Azande.txt"
 BEN		= "countries/Bengal.txt"
 BRD		= "countries/Urundi.txt"

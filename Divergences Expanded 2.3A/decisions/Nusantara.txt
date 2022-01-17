@@ -6,6 +6,7 @@ political_decisions = {
 		}
 		allow = {
 			JOH = { all_core = { owned_by = THIS } }
+			owns = 1352
 		}
 		effect = {
 			set_country_flag = malay_peninsular
@@ -17,6 +18,7 @@ political_decisions = {
 			BRU = { all_core = { add_core = THIS } }
 			KLM = { all_core = { add_core = THIS } }
 			KTI = { all_core = { add_core = THIS } }
+			PLM = { all_core = { add_core = THIS } }
 			1352 = { add_core = THIS }
 			1354 = { add_core = THIS }
 			1397 = { add_core = THIS }
@@ -30,6 +32,7 @@ political_decisions = {
 		}
 		allow = {
 			ATJ = { all_core = { owned_by = THIS } }
+			PLM = { all_core = { owned_by = THIS } }
 		}
 		effect = {
 			set_country_flag = sumatra
@@ -89,6 +92,7 @@ political_decisions = {
 		}
 		allow = {
 			JAV = { all_core = { owned_by = THIS } }
+			owns = 1438
 		}
 		effect = {
 			set_country_flag = java

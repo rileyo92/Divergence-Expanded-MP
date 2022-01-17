@@ -1,0 +1,24 @@
+army = {
+	name = "National Armenian Army"
+	location = 1098
+	regiment = {
+		name= "1. Armenian infantry"
+		type = infantry
+		home = 1098
+	}
+  regiment = {
+    name = "1. Reverse Janissary"
+    type = infantry
+		home = 888
+  }
+  regiment = {
+    name = "2. Reverse Janissary"
+    type = infantry
+		home = 888
+  }
+  regiment = {
+    name = "3. Reverse Janissary"
+    type = infantry
+		home = 885
+  }
+}

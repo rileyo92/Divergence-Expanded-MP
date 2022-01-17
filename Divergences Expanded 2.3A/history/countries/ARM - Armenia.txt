@@ -2,7 +2,7 @@ capital = 1098
 primary_culture = armenian
 religion = orthodox
 government = absolute_monarchy
-plurality = 0.10
+plurality = 5
 nationalvalue = nv_order
 literacy = 0.10
 civilized = yes
@@ -33,6 +33,22 @@ penal_system = capital_punishment
 child_labor = child_labor_legalcitizens_rights = primary_culture_only
 border_policy = open_borders
 
+# Technologies
+post_napoleonic_thought = 1
+flintlock_rifles = 1
+bronze_muzzle_loaded_artillery = 1
+army_command_principle = 1
+post_nelsonian_thought = 1
+the_command_principle = 1
+private_banks = 1
+no_standard = 1
+guild_based_production = 1
+classicism_n_early_romanticism = 1
+late_enlightenment_philosophy = 1
+enlightenment_thought = 1
+piston_steam_engine = 1
+mechanical_production = 1
+
 set_country_flag = orthodox_country
 
 ruling_party = AAA_conservative_5
@@ -47,9 +63,3 @@ upper_house = {
 }
 
 oob = "ARM_oob.txt"
-
-1861.1.1 = {
-# Technologies
-
-#Inventions
-}

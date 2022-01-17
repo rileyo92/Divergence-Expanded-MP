@@ -55,17 +55,17 @@ bronze_muzzle_loaded_artillery = 1
 no_standard = 1
 military_staff_system = 1
 introspectionism = 1
-army_command_principle = 1
 flintlock_rifles = 1
-post_napoleonic_thought = 1
 
 # Inventions
 
 # Unciv Reforms
+foreign_artillery = yes_foreign_artillery
 admin_reform = yes_admin_reform
 army_schools = yes_army_schools
 finance_reform = yes_finance_reform
 foreign_training = yes_foreign_training
+foreign_officers = yes_foreign_officers
 
 
 # Starting Consciousness
