@@ -2,6 +2,7 @@ owner = BRG
 controller = BRG
 add_core = BRG
 add_core = FRA
+add_core = LRR
 trade_goods = fruit
 life_rating = 40
 state_building = {
@@ -20,7 +21,7 @@ state_building = {
 	upgrade = yes
 }
 1836.1.2 = {
-  owner = FRA
-  controller = FRA
+  owner = LRR
+  controller = LRR
   remove_core = BRG
 }

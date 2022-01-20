@@ -1,6 +1,5 @@
 owner = BRG
 controller = BRG
-add_core = DUA
 add_core = FRA
 add_core = BRG
 trade_goods = fish
@@ -10,5 +9,4 @@ fort = 1
   owner = FRA
   controller = FRA
   remove_core = BRG
-  remove_core = DUA
 }
