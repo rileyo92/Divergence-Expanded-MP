@@ -253,7 +253,6 @@ SLS		= "countries/Silesia.txt"
 WES		= "countries/Westfalen.txt"
 
 #Russia
-ALT		= "countries/Altai Republic.txt"
 CPL		= "countries/Congress Poland.txt"
 DON		= "countries/Cossackia.txt"
 IZH		= "countries/Ingria.txt"
