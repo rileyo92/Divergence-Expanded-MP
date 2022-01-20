@@ -7,7 +7,7 @@
 		religion = catholic
 		size = 750
 	}
-	
+
 	officers = {
 		culture = irish
 		religion = catholic
@@ -25,7 +25,7 @@
 		religion = catholic
 		size = 60
 	}
-	
+
 	clergymen = {
 		culture = irish
 		religion = catholic
@@ -47,7 +47,7 @@
 	farmers = {
 		culture = irish
 		religion = catholic
-		size = 73428
+		size = 81430
 	}
 
 	aristocrats = {
@@ -89,7 +89,7 @@
 	farmers = {
 		culture = anglois
 		religion = catholic
-		size = 49447
+		size = 41450
 	}
 }
 #Londonderry (524000/131000 POPS)
@@ -115,7 +115,7 @@
 	farmers = {
 		culture = irish
 		religion = catholic
-		size = 92576
+		size = 94575
 	}
 
 	aristocrats = {
@@ -139,7 +139,7 @@
 	farmers = {
 		culture = anglois
 		religion = catholic
-		size = 22674
+		size = 20675
 	}
 }
 #Armagh (274000/68500 POPS)
@@ -162,10 +162,10 @@
 		size = 2100
 	}
 
-	labourers = {
+	farmers = {
 		culture = irish
 		religion = catholic
-		size = 57688
+		size = 59670
 	}
 
 	aristocrats = {
@@ -186,13 +186,13 @@
 		size = 400
 	}
 
-	labourers = {
+	farmers = {
 		culture = anglois
 		religion = catholic
-		size = 15312
+		size = 13310
 	}
 }
-#Donegal (508000/127000 POPS) 
+#Donegal (508000/127000 POPS)
 257 = {
 	aristocrats = {
 		culture = irish
@@ -356,9 +356,9 @@
 		size = 17490
 	}
 }
-#Munster Region - 2244000 
+#Munster Region - 2244000
 #under rule of Britain 1836
-#Cork (890000/224000 POPS) 
+#Cork (890000/224000 POPS)
 260 = {
 	aristocrats = {
 		culture = irish
@@ -389,7 +389,7 @@
 		religion = catholic
 		size = 4500
 	}
-	
+
 	soldiers = {
 		culture = irish
 		religion = catholic
@@ -399,7 +399,7 @@
 	farmers = {
 		culture = irish
 		religion = catholic
-		size = 127110
+		size = 132110
 	}
 
 	aristocrats = {
@@ -441,7 +441,7 @@
 	farmers = {
 		culture = anglois
 		religion = catholic
-		size = 56490
+		size = 51490
 	}
 }
 #Limerick (818000/204500 POPS)
@@ -544,7 +544,7 @@
 		size = 22900
 	}
 }
-#Leinster Region - 1836000 
+#Leinster Region - 1836000
 #under rule of Britain 1836
 #Dublin (860000/215000 POPs)
 263 = {
@@ -601,7 +601,7 @@
 		religion = catholic
 		size = 26000
 	}
-	
+
 	artisans = {
 		culture = anglois
 		religion = catholic
@@ -611,13 +611,13 @@
 	farmers = {
 		culture = irish
 		religion = catholic
-		size = 84000
+		size = 96000
 	}
 
 	farmers = {
 		culture = anglois
 		religion = catholic
-		size = 70375
+		size = 58375
 	}
 }
 #Kildare (532000/133000 POPs)

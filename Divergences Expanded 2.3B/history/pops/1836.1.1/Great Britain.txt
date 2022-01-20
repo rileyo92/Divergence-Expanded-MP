@@ -572,13 +572,13 @@
 	labourers = {
 		culture = welsh
 		religion = catholic
-		size = 27107
+		size = 47100
 	}
 
 	aristocrats = {
 		culture = anglois
 		religion = catholic
-		size = 326
+		size = 325
 	}
 
 	bureaucrats = {
@@ -608,7 +608,7 @@
 	labourers = {
 		culture = anglois
 		religion = catholic
-		size = 35155
+		size = 25155
 	}
 
 	craftsmen = {
@@ -644,7 +644,7 @@
 	labourers = {
 		culture = english
 		religion = protestant
-		size = 17201
+		size = 7200
 	}
 }
 #Cardigan (168000/42000 POPS)
@@ -676,13 +676,13 @@
 	farmers = {
 		culture = welsh
 		religion = catholic
-		size = 21598
+		size = 24600
 	}
 
 	farmers = {
 		culture = anglois
 		religion = catholic
-		size = 17227
+		size = 14225
 	}
 }
 #Llandrindod (182000/45500 POPS)
@@ -867,10 +867,10 @@
 		size = 4500
 	}
 
-	labourers = {
+	farmers = {
 		culture = english
 		religion = catholic
-		size = 70447
+		size = 80440
 	}
 
 	labourers = {
@@ -936,7 +936,7 @@
 	farmers = {
 		culture = anglois
 		religion = catholic
-		size = 60633
+		size = 50630
 	}
 }
 #Manchester (744000/186000 POPS)
@@ -1665,10 +1665,10 @@
 		size = 1800
 	}
 
-	labourers = {
+	farmers = {
 		culture = english
 		religion = catholic
-		size = 38296
+		size = 42300
 	}
 
 	labourers = {
@@ -1695,10 +1695,10 @@
 		size = 3200
 	}
 
-	labourers = {
+	farmers = {
 		culture = anglois
 		religion = catholic
-		size = 22329
+		size = 18330
 	}
 }
 #Shrewsbury (316000/79000 POPS)
@@ -2171,22 +2171,16 @@
 		size = 3000
 	}
 
-	labourers = {
+	farmers = {
 		culture = english
 		religion = catholic
-		size = 32397
+		size = 46400
 	}
 
-	labourers = {
-		culture = english
-		religion = protestant
-		size = 10000
-	}
-
-	labourers = {
+	farmers = {
 		culture = anglois
 		religion = catholic
-		size = 26103
+		size = 22100
 	}
 }
 #Ipswich (676000/169000 POPS)
@@ -2218,31 +2212,25 @@
 	artisans = {
 		culture = english
 		religion = catholic
-		size = 2500
+		size = 4500
 	}
 
 	artisans = {
 		culture = anglois
 		religion = catholic
-		size = 6000
+		size = 4000
 	}
 
-	labourers = {
+	farmers = {
 		culture = english
 		religion = catholic
-		size = 73300
+		size = 103300
 	}
 
-	labourers = {
-		culture = english
-		religion = protestant
-		size = 20000
-	}
-
-	labourers = {
+	farmers = {
 		culture = anglois
 		religion = catholic
-		size = 60000
+		size = 50400
 	}
 }
 #Chelmsford (276000/69000 POPS)
@@ -2275,31 +2263,25 @@
 	artisans = {
 		culture = english
 		religion = catholic
-		size = 2500
+		size = 3500
 	}
 
 	artisans = {
 		culture = anglois
 		religion = catholic
-		size = 5000
+		size = 4000
 	}
 
 	labourers = {
 		culture = english
 		religion = catholic
-		size = 17860
-	}
-
-	labourers = {
-		culture = english
-		religion = protestant
-		size = 10000
+		size = 30860
 	}
 
 	labourers = {
 		culture = anglois
 		religion = catholic
-		size = 26000
+		size = 23000
 	}
 
 }
@@ -2339,7 +2321,7 @@
 	labourers = {
 		culture = anglois
 		religion = catholic
-		size = 36994
+		size = 32000
 	}
 
 	aristocrats = {
@@ -2375,7 +2357,7 @@
 	farmers = {
 		culture = english
 		religion = catholic
-		size = 29631
+		size = 35630
 	}
 }
 #St. Albans (312000/78000 POPS)
@@ -2425,19 +2407,13 @@
 	labourers = {
 		culture = english
 		religion = catholic
-		size = 25000
-	}
-
-	labourers = {
-		culture = english
-		religion = protestant
-		size = 11326
+		size = 44000
 	}
 
 	labourers = {
 		culture = anglois
 		religion = catholic
-		size = 40942
+		size = 32940
 	}
 }
 #Cornwall-Dorset Region : 2032000
@@ -2515,7 +2491,7 @@
 		size = 2000
 	}
 
-	farmers = {
+	labourers = {
 		culture = english
 		religion = protestant
 		size = 30000
@@ -2569,7 +2545,7 @@
 		size = 3000
 	}
 
-	farmers = {
+	labourers = {
 		culture = english
 		religion = catholic
 		size = 14655
@@ -2604,19 +2580,13 @@
 	labourers = {
 		culture = anglois
 		religion = catholic
-		size = 48000
+		size = 41000
 	}
 
 	labourers = {
 		culture = english
 		religion = catholic
-		size = 23300
-	}
-
-	labourers = {
-		culture = english
-		religion = protestant
-		size = 10015
+		size = 40300
 	}
 
 	aristocrats = {
@@ -2669,10 +2639,10 @@
 		size = 8400
 	}
 
-	labourers = {
+	farmers = {
 		culture = anglois
 		religion = catholic
-		size = 37625
+		size = 32625
 	}
 
 	aristocrats = {
@@ -2699,16 +2669,10 @@
 		size = 3600
 	}
 
-	labourers = {
+	farmers = {
 		culture = english
 		religion = catholic
-		size = 17825
-	}
-
-	labourers = {
-		culture = english
-		religion = protestant
-		size = 10000
+		size = 32825
 	}
 }
 #Plymouth (812000/203000 POPS)
@@ -2731,10 +2695,10 @@
 		size = 3800
 	}
 
-	labourers = {
+	farmers = {
 		culture = anglois
 		religion = catholic
-		size = 81700
+		size = 67700
 	}
 
 	aristocrats = {
@@ -2770,7 +2734,7 @@
 	farmers = {
 		culture = breton
 		religion = catholic
-		size = 42980
+		size = 56980
 	}
 
 }
@@ -2831,10 +2795,10 @@
 		size = 20000
 	}
 
-	labourers = {
+	farmers = {
 		culture = anglois
 		religion = catholic
-		size = 77548
+		size = 66550
 	}
 
 	clerks = {
@@ -2864,7 +2828,7 @@
 	artisans = {
 		culture = irish
 		religion = catholic
-		size = 6213
+		size = 6210
 	}
 
 	aristocrats = {
@@ -2924,13 +2888,7 @@
 	farmers = {
 		culture = english
 		religion = catholic
-		size = 66000
-	}
-
-	farmers = {
-		culture = english
-		religion = protestant
-		size = 6171
+		size = 83000
 	}
 
 	craftsmen = {
@@ -2981,7 +2939,7 @@
 	labourers = {
 		culture = anglois
 		religion = catholic
-		size = 54109
+		size = 44110
 	}
 
 	aristocrats = {
@@ -3008,18 +2966,11 @@
 		size = 100
 	}
 
-	farmers = {
+	labourers = {
 		culture = english
 		religion = catholic
-		size = 33516
+		size = 46515
 	}
-
-	farmers = {
-		culture = english
-		religion = protestant
-		size = 3000
-	}
-
 }
 #Brighton (404000/101000 POPS)
 302 = {
@@ -3047,10 +2998,10 @@
 		size= 1000
 	}
 
-	labourers = {
+	farmers = {
 		culture = anglois
 		religion = catholic
-		size = 49383
+		size = 40380
 	}
 
 	aristocrats = {
@@ -3080,13 +3031,7 @@
 	farmers = {
 		culture = english
 		religion = catholic
-		size = 37000
-	}
-
-	farmers = {
-		culture = english
-		religion = protestant
-		size = 1117
+		size = 47100
 	}
 }
 #Southampton (332000/83000 POPS)
@@ -3121,10 +3066,10 @@
 		size = 5100
 	}
 
-	labourers = {
+	farmers = {
 		culture = anglois
 		religion = catholic
-		size = 44745
+		size = 38745
 	}
 
 	aristocrats = {
@@ -3166,7 +3111,7 @@
 	farmers = {
 		culture = english
 		religion = catholic
-		size = 28255
+		size = 34255
 	}
 
 }
