@@ -1706,19 +1706,37 @@
 	aristocrats = {
 		culture = english
 		religion = catholic
-		size = 260
+		size = 160
+	}
+
+	aristocrats = {
+		culture = welsh
+		religion = catholic
+		size = 100
 	}
 
 	clergymen = {
 		culture = english
 		religion = catholic
-		size = 250
+		size = 150
+	}
+
+	clergymen = {
+		culture = welsh
+		religion = catholic
+		size = 100
 	}
 
 	artisans = {
 		culture = english
 		religion = catholic
-		size = 1250
+		size = 750
+	}
+
+	artisans = {
+		culture = welsh
+		religion = catholic
+		size = 500
 	}
 
 	labourers = {
@@ -1728,15 +1746,9 @@
 	}
 
 	labourers = {
-		culture = english
+		culture = welsh
 		religion = catholic
-		size = 18000
-	}
-
-	labourers = {
-		culture = english
-		religion = protestant
-		size = 10000
+		size = 28000
 	}
 
 	aristocrats = {
@@ -1757,7 +1769,7 @@
 		size = 3000
 	}
 
-	farmers = {
+	labourers = {
 		culture = anglois
 		religion = catholic
 		size = 4720
@@ -2746,25 +2758,19 @@
 	farmers = {
 		culture = english
 		religion = catholic
-		size = 71412
-	}
-
-	farmers = {
-		culture = english
-		religion = protestant
-		size = 4558
+		size = 61412
 	}
 
 	artisans = {
-		culture = welsh
+		culture = breton
 		religion = catholic
 		size = 1300
 	}
 
 	farmers = {
-		culture = welsh
+		culture = breton
 		religion = catholic
-		size = 27980
+		size = 42980
 	}
 
 }
