@@ -1,27 +1,27 @@
-#Macedonia Region (192000) #see Greece.txt and Macedonia.txt for balance of region 
-#under the rule of Ottoman Empire in 1836  
-#Petrich (192000/48000 POPS) #now part of Bulgaria 
+#Macedonia Region (192000) #see Greece.txt and Macedonia.txt for balance of region
+#under the rule of Ottoman Empire in 1836
+#Petrich (192000/48000 POPS) #now part of Bulgaria
 808 = {
 	aristocrats = {
-		culture = turkish
+		culture = bosniak
 		religion = sunni
 		size = 1100
 	}
 
 	clergymen = {
-		culture = turkish
+		culture = bosniak
 		religion = sunni
 		size = 200
 	}
 
 	artisans = {
-		culture = turkish
+		culture = bosniak
 		religion = sunni
 		size = 1500
 	}
 
 	farmers = {
-		culture = turkish
+		culture = bosniak
 		religion = sunni
 		size = 15700
 	}
@@ -49,37 +49,37 @@
 #Sofia (260000/65000 POPS)
 809 = {
 	aristocrats = {
-		culture = turkish
+		culture = bosniak
 		religion = sunni
 		size = 1450
 	}
 
 	bureaucrats = {
-		culture = turkish
+		culture = bosniak
 		religion = sunni
 		size = 400
 	}
 
 	officers = {
-		culture = turkish
+		culture = bosniak
 		religion = sunni
 		size = 300
 	}
 
 	clergymen = {
-		culture = turkish
+		culture = bosniak
 		religion = sunni
 		size = 225
 	}
 
 	artisans = {
-		culture = turkish
+		culture = bosniak
 		religion = sunni
 		size = 2500
 	}
 
 	farmers = {
-		culture = turkish
+		culture = bosniak
 		religion = sunni
 		size = 15125
 	}
@@ -101,7 +101,7 @@
 		religion = orthodox
 		size = 38425
 	}
-	
+
 	soldiers = {
 		culture = bulgarian
 		religion = orthodox
@@ -136,32 +136,32 @@
 #Vidin (124000/31000 POPS)
 810 = {
 	aristocrats = {
-		culture = turkish
+		culture = bosniak
 		religion = sunni
 		size = 650
 	}
 
 	clergymen = {
-		culture = turkish
+		culture = bosniak
 		religion = sunni
 		size = 75
 	}
 
 	artisans = {
-		culture = turkish
+		culture = bosniak
 		religion = sunni
 		size = 800
 	}
 
 	soldiers = {
-		culture = turkish
+		culture = bosniak
 		religion = sunni
 		size= 500
 
 	}
 
 	farmers = {
-		culture = turkish
+		culture = bosniak
 		religion = sunni
 		size = 1125
 	}
@@ -199,30 +199,30 @@
 #Ruse (188000/47000 POPS)
 811 = {
 	aristocrats = {
-		culture = turkish
+		culture = bosniak
 		religion = sunni
 		size = 1050
 	}
 
 	clergymen = {
-		culture = turkish
+		culture = bosniak
 		religion = sunni
 		size = 100
 	}
 
 	artisans = {
-		culture = turkish
+		culture = bosniak
 		religion = sunni
 		size = 850
 	}
 
 	soldiers = {
-		culture = turkish
+		culture = bosniak
 		religion = sunni
 		size= 1000
 
 	}
-	
+
 	soldiers = {
 		culture = bulgarian
 		religion = orthodox
@@ -231,7 +231,7 @@
 	}
 
 	farmers = {
-		culture = turkish
+		culture = bosniak
 		religion = sunni
 		size = 5250
 	}
@@ -269,32 +269,32 @@
 #Pleven (196000/49000 POPS)
 812 = {
 	aristocrats = {
-		culture = turkish
+		culture = bosniak
 		religion = sunni
 		size = 875
 	}
 
 	clergymen = {
-		culture = turkish
+		culture = bosniak
 		religion = sunni
 		size = 100
 	}
 
 	artisans = {
-		culture = turkish
+		culture = bosniak
 		religion = sunni
 		size = 1350
 	}
 
 	soldiers = {
-		culture = turkish
+		culture = bosniak
 		religion = sunni
 		size= 1000
 
 	}
 
 	farmers = {
-		culture = turkish
+		culture = bosniak
 		religion = sunni
 		size = 6675
 	}
@@ -316,7 +316,7 @@
 		religion = orthodox
 		size = 37650
 	}
-	
+
 	soldiers = {
 		culture = bulgarian
 		religion = orthodox
@@ -327,32 +327,32 @@
 #Shumen (144000/36000 POPS)
 813 = {
 	aristocrats = {
-		culture = turkish
+		culture = bosniak
 		religion = sunni
 		size = 650
 	}
 
 	clergymen = {
-		culture = turkish
+		culture = bosniak
 		religion = sunni
 		size = 125
 	}
 
 	artisans = {
-		culture = turkish
+		culture = bosniak
 		religion = sunni
 		size = 950
 	}
 
 	soldiers = {
-		culture = turkish
+		culture = bosniak
 		religion = sunni
 		size= 1100
 
 	}
 
 	farmers = {
-		culture = turkish
+		culture = bosniak
 		religion = sunni
 		size = 9275
 	}
@@ -378,32 +378,32 @@
 #Varna (220000/55000 POPS)
 814 = {
 	aristocrats = {
-		culture = turkish
+		culture = bosniak
 		religion = sunni
 		size = 1300
 	}
 
 	clergymen = {
-		culture = turkish
+		culture = bosniak
 		religion = sunni
 		size = 175
 	}
 
 	artisans = {
-		culture = turkish
+		culture = bosniak
 		religion = sunni
 		size = 2100
 	}
 
 	soldiers = {
-		culture = turkish
+		culture = bosniak
 		religion = sunni
 		size= 2000
 
 	}
 
 	farmers = {
-		culture = turkish
+		culture = bosniak
 		religion = sunni
 		size = 12425
 	}
@@ -425,7 +425,7 @@
 		religion = orthodox
 		size = 35875
 	}
-	
+
 	soldiers = {
 		culture = bulgarian
 		religion = orthodox
@@ -603,7 +603,7 @@
 		religion = orthodox
 		size = 11475
 	}
-	
+
 	soldiers = {
 		culture = bulgarian
 		religion = orthodox
@@ -688,14 +688,14 @@
 	}
 
 }
-#Dobruja Region (84000) #see Romania.txt for balance of Region  
-#under the rule of the Ottoman Empire in 1836 
-#Silistre (84000/21000 POPS) #now part of Bulgaria  
+#Dobruja Region (84000) #see Romania.txt for balance of Region
+#under the rule of the Ottoman Empire in 1836
+#Silistre (84000/21000 POPS) #now part of Bulgaria
 818 = {
 	clergymen = {
 		culture = bulgarian
 		religion = orthodox
-		size = 50 
+		size = 50
 	}
 
 	artisans = {
@@ -716,11 +716,11 @@
 		size= 250
 
 	}
-	
+
 	clergymen = {
 		culture = romanian
 		religion = orthodox
-		size = 75 
+		size = 75
 	}
 
 	artisans = {
@@ -732,13 +732,13 @@
 	farmers = {
 		culture = romanian
 		religion = orthodox
-		size = 4725 
+		size = 4725
 	}
 
 	aristocrats = {
 		culture = turkish
 		religion = sunni
-		size = 400 
+		size = 400
 	}
 
 	clergymen = {
@@ -763,6 +763,6 @@
 	farmers = {
 		culture = turkish
 		religion = sunni
-		size = 4100  
+		size = 4100
 	}
 }

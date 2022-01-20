@@ -1,4 +1,4 @@
-#Bukovina Region (164000) #See Romania.txt for balance of region 
+#Bukovina Region (164000) #See Romania.txt for balance of region
 #under the rule of Austria in 1836
 #Cernauti (164000/41000 POPS)
 662 = {
@@ -271,31 +271,6 @@
 		culture = ruthenian
 		religion = orthodox
 		size = 9300
-	}
-
-	clergymen = {
-		culture = turkish #gagauz
-		religion = orthodox
-		size = 50
-	}
-
-	artisans = {
-		culture = turkish
-		religion = orthodox
-		size = 150
-	}
-
-	soldiers = {
-		culture = turkish
-		religion = orthodox
-		size= 25
-
-	}
-
-	farmers = {
-		culture = turkish
-		religion = orthodox
-		size = 2775
 	}
 }
 #Felvidek Region (856000) #see Hungary.txt and Slovakia.txt for balance of Region

@@ -1,5 +1,5 @@
-owner = PRU
-controller = PRU
+owner = PLC
+controller = PLC
 add_core = PLC
 add_core = PRU
 add_core = POL

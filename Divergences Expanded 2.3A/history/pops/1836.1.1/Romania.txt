@@ -2737,44 +2737,44 @@
 	}
 
 	aristocrats = {
-		culture = turkish
+		culture = bulgarian
 		religion = sunni
 		size = 650
 	}
 
 	bureaucrats = {
-		culture = turkish
+		culture = bulgarian
 		religion = sunni
 		size = 75
 	}
 
 	officers = {
-		culture = turkish
+		culture = bulgarian
 		religion = sunni
 		size = 35
 	}
 
 	clergymen = {
-		culture = turkish
+		culture = bulgarian
 		religion = sunni
 		size = 75
 	}
 
 	artisans = {
-		culture = turkish
+		culture = bulgarian
 		religion = sunni
 		size = 1100
 	}
 
 	soldiers = {
-		culture = turkish
+		culture = bulgarian
 		religion = sunni
 		size= 1100
 
 	}
 
 	farmers = {
-		culture = turkish
+		culture = bulgarian
 		religion = sunni
 		size = 4165
 	}
@@ -2812,50 +2812,50 @@
 	}
 
 	aristocrats = {
-		culture = turkish
+		culture = bulgarian
 		religion = sunni
 		size = 150
 	}
 
 	clergymen = {
-		culture = turkish
+		culture = bulgarian
 		religion = sunni
 		size = 50
 	}
 
 	artisans = {
-		culture = turkish
+		culture = bulgarian
 		religion = sunni
 		size = 200
 	}
 
 	soldiers = {
-		culture = turkish
+		culture = bulgarian
 		religion = sunni
 		size= 1100
 
 	}
 
 	farmers = {
-		culture = turkish
+		culture = bulgarian
 		religion = sunni
 		size = 600
 	}
 
 	clergymen = {
-		culture = ruthenian
+		culture = bulgarian
 		religion = orthodox
 		size = 25
 	}
 
 	artisans = {
-		culture = ruthenian
+		culture = bulgarian
 		religion = orthodox
 		size = 150
 	}
 
 	farmers = {
-		culture = ruthenian
+		culture = bulgarian
 		religion = orthodox
 		size = 2825
 	}

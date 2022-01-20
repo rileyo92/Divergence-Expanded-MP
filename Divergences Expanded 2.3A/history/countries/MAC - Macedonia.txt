@@ -1,6 +1,7 @@
 capital = 805
 primary_culture = greek
 culture = bulgarian
+culture = bosniak
 culture = sephardic
 culture = pontic_greek
 religion = orthodox

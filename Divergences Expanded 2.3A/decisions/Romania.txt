@@ -213,11 +213,10 @@ political_decisions = {
 		}
 		effect = {
 			set_country_flag = minorities_integrated
-			add_accepted_culture = hungarian
-			add_accepted_culture = ruthenian
 			add_accepted_culture = gypsy
-			add_accepted_culture = ashkenazi
 			add_accepted_culture = lower_danubian
+			add_accepted_culture = hungarian
+			add_accepted_culture = ashkenazi
 		}
 	}
 

@@ -1,7 +1,11 @@
-owner = MOL
-controller = MOL
-add_core = MOL
-add_core = ROM
+owner = PLC
+controller = PLC
+add_core = PLC
+add_core = POL
 add_core = RUT
 trade_goods = fruit
 life_rating = 35
+1836.1.2 = {
+  owner = POL
+  controller = POL
+}
