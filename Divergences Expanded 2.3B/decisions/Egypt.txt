@@ -188,7 +188,7 @@ political_decisions = {
 		}
 	}
 
-	egypt_exploit_minorties {
+	egypt_exploit_minorties = {
 		potential = {
 			has_country_flag = defy_turks
 			tag = EGY

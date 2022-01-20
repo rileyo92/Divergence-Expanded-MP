@@ -92,12 +92,6 @@ political_decisions = {
 			DEN_367 = { add_core = THIS } #Jylland
 			HOL_369 = { add_core = THIS } #Holstein
 			DEN_334 = { add_core = THIS } #Skane
-			any_country = {
-				limit = {
-					tag = SCA
-				}
-				country_event = SCAVIN001
-			}
 		}
 	}
 
