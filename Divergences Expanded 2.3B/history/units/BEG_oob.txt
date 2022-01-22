@@ -1,0 +1,15 @@
+army = {
+	name = "Army of Berg"
+	location = 578
+	regiment = {
+		name= "1. Dusseldorf Regiment"
+		type = infantry
+		home = 578
+	}
+
+	regiment = {
+		name= "1. Siegburg Regiment"
+		type = infantry
+		home = 2561
+	}
+}

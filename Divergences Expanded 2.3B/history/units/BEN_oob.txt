@@ -2,8 +2,8 @@ leader = {
 	name = "Kelath Narayanan"
 	type = land
 	date = 1836.1.1
-	personality = defence_1.1
-	background = attack_1.1
+	personality = active_p
+	background = old_school
 }
 
 army = {
@@ -63,13 +63,121 @@ army = {
 		home = 1251
 	}
 
-	regiment = {
+	regiment = {	
 		name= "1.Royal Artillery"
 		type = artillery
 		home = 1251
 	}
 }
-
+army = {
+	name = "Army of Bardwan"
+	location = 1253
+	regiment = {
+		name= "1.Infantry Regiment"
+		type = infantry
+		home = 1253
+	}
+	regiment = {
+		name= "1.Infantry Regiment"
+		type = irregular
+		home = 1253
+	}
+	regiment = {
+		name= "1.Infantry Regiment"
+		type = artillery
+		home = 1253
+	}
+}
+	army = {
+	name = "Army of Jessore"
+	location = 1256
+	regiment = {
+		name= "1.Infantry Regiment"
+		type = infantry
+		home = 1256
+	}
+	regiment = {
+		name= "1.Infantry Regiment"
+		type = irregular
+		home = 1256
+	}
+	regiment = {
+		name= "1.Infantry Regiment"
+		type = cavalry
+		home = 1256
+	}
+}
+army = {
+	name = "Army of Darjeeling"
+	location = 1252
+	regiment = {
+		name= "1.Infantry Regiment"
+		type = infantry
+		home = 1252
+	}
+	regiment = {
+		name= "1.Irregular Regiment"
+		type = irregular
+		home = 1252
+	}	
+}
+army = {
+	name = "Army of Rajshahi"
+	location = 1255
+	regiment = {
+		name= "2.Artillery Regiment"
+		type = infantry
+		home = 1255
+	}
+	regiment = {
+		name= "1.Artillery Regiment"
+		type = artillery
+		home = 1255
+	}
+	regiment = {
+		name= "1.Irregular Regiment"
+		type = irregular
+		home = 1255
+	}
+}
+army = {
+	name = "Army of Dacca"
+	location = 1254
+	regiment = {
+		name= "1.Artillery Regiment"
+		type = artillery
+		home = 1254
+	}
+	regiment = {
+		name= "2.Irregular Regiment"
+		type = irregular
+		home = 1254
+	}
+	regiment = {
+		name= "1.Irregular Regiment"
+		type = irregular
+		home = 1254
+	}
+}
+army = {
+	name = "Army of Chittagong"
+	location = 1257
+	regiment = {
+		name= "1.Cavalry Regiment"
+		type = cavalry
+		home = 1257
+	}
+	regiment = {
+		name= "2.Irregular Regiment"
+		type = irregular
+		home = 1257
+	}
+	regiment = {
+		name= "1.Irregular Regiment"
+		type = irregular
+		home = 1257
+	}
+}
 
 
 navy = {

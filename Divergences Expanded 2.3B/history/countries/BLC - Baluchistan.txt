@@ -5,8 +5,7 @@ religion = sunni
 government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_tradition
-literacy = 0.02
-is_releasable_vassal = no
+literacy = 0.05
 
 # Political reforms
 slavery = no_slavery
@@ -34,7 +33,7 @@ penal_system = capital_punishment
 child_labor = child_labor_legalcitizens_rights = primary_culture_only
 border_policy = open_borders
 
-ruling_party = KAL_conservative
+ruling_party = MAK_conservative
 upper_house = {
 	fascist = 0
 	liberal = 15
