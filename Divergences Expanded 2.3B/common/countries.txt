@@ -158,7 +158,6 @@ PNB		="countries/Pernambuco.txt"
 FIU		="countries/Fiume.txt"
 SYC		="countries/Sicily.txt"
 MDV		="countries/Moldova.txt"
-CRT		="countries/Corrientes.txt"
 SBA		="countries/Buenos Aires.txt"
 ARC		="countries/Argentine Conf.txt"
 LHJ		="countries/Lahej.txt"
@@ -175,13 +174,11 @@ QNG		="countries/Qing China.txt"
 MGH		="countries/Maghreb.txt"
 
 #HPM Africa
-CMS		="countries/Comoros.txt"
 EQG		="countries/Equatorial Guinea.txt"
 
 #Latin America
 
 CHP		= "countries/Champa.txt"
-CEQ		= "countries/Equador Confederation.txt"
 ENT		= "countries/Entre Rios.txt"
 GCO		= "countries/Gran Colombia.txt"
 GUY		= "countries/Guyana.txt"
@@ -213,7 +210,6 @@ UOR		= "countries/Oregon.txt"
 
 #Europe
 BRT		= "countries/Brittany.txt"
-CRS		= "countries/Corsica.txt"
 DLM		= "countries/Dalmatia.txt"
 ENL		= "countries/England.txt"
 GLC		= "countries/Galicia.txt"
@@ -240,7 +236,6 @@ SLS		= "countries/Silesia.txt"
 WES		= "countries/Westfalen.txt"
 
 #Russia
-CPL		= "countries/Congress Poland.txt"
 DON		= "countries/Cossackia.txt"
 IZH		= "countries/Ingria.txt"
 KAZ 	= "countries/Kazakhstan.txt"
@@ -292,11 +287,7 @@ BEN		= "countries/Bengal.txt"
 BRD		= "countries/Urundi.txt"
 BSH		= "countries/Basotho.txt"
 BUG		= "countries/Buganda.txt"
-CAR		= "countries/Central African Republic.txt"
-CGO		= "countries/Congo-Brazzaville.txt"
-CHD		= "countries/Chad.txt"
 CLA		= "countries/Calabar.txt"
-CMR		= "countries/Cameroon.txt"
 CYR		= "countries/Cyrenaica.txt"
 DAH		= "countries/Dahomey.txt"
 DAM		= "countries/Damagaram.txt"
@@ -388,7 +379,6 @@ SWK		= "countries/Sarawak.txt"
 SZC		= "countries/Sichuan.txt"
 
 # Japan
-CHO		= "countries/Choshu.txt"
 KAG		= "countries/Kaga.txt"
 RYU		= "countries/Ryukyu.txt"
 SAT		= "countries/Satsuma.txt"
