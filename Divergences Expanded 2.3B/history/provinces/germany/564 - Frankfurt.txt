@@ -3,5 +3,5 @@ controller = FRM
 add_core = FRM
 add_core = GER
 trade_goods = fruit
-life_rating = 40
+life_rating = 45
 fort = 1
