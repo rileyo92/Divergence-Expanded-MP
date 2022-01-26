@@ -2076,7 +2076,6 @@ indirect_artillery_fire = {
 	unciv_military = yes
 	artillery = {
 		attack = 1
-		defence = 1
 		support = 0.5
 		supply_consumption = 0.3
 	}
@@ -2214,7 +2213,6 @@ heavy_armament_dunno = {
 	unciv_military = yes
 	artillery = {
 		attack = 1
-		defence = 1
 		support = 0.5
 		supply_consumption = 0.3
 	}

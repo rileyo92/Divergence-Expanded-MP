@@ -33,16 +33,16 @@ barbed_wire_defense = {
 	}
 	effect = {
 		infantry = {
-			defence = 0.5
+			defence = 1
 		}
 		guard = {
-			defence = 0.5
+			defence = 1
 		}
 		engineer = {
-			defence = 0.5
+			defence = 1
 		}
 		artillery = {
-			defence = 1
+			defence = 0.5
 		}
 		irregular = {
 			defence = 0.5
