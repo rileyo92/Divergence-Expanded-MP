@@ -366,7 +366,6 @@ italian = {
 		last_names = { Anfora Barberini-Colonna Bonaccorsi Caraga Cattaneo Chigi Clary Colonna "de Liguori" "de Riseis"
 		"della Rovere" "di Borbone della Due Sicilia" Diaz Ferrari Filangieri Gironda Gravina Grifeo Lanza Lombardo
 		Lunardi Molinelli Orsini Ottaviani Pironti Scammacca Torlonia Turrisi Vernazza Zunica }
-		radicalism = 10
 	}
 
 	maltese = {
@@ -376,7 +375,6 @@ italian = {
 
 		last_names = { Abela Adami Azzopardi Boffa Borg Buhagiar Cassar Farrugia Frendo Gonzi
 		Howard Mifsud Mintoff Mizzi Muscat Olivier Puli Pullicino Strickland Vella }
-		primary = MLT
 	}
 
 	venetian = {
@@ -392,21 +390,6 @@ italian = {
 		"di Savoia-Aosta" Emo Fanti Fara Filomarino Garibaldi Giardino Govone "La Mrmora" Mambretti
 		Menabrea Orengo "Pacoret de Saint Bon" Pallavicino Pecori-Giraldi "Pellion di Persano" Pelloux Perruchetti Pianelli Porro
 		Presbitero Ramorino Ricotti-Magnani Sacchi Saletta Sanna Solari "Thaon di Revel" Vaccari Zupelli }
-	}
-
-	catalan = {
-		color = {220 110 30}
-		first_names = { Albert Alexandre Alfons Alfonso Andrs Andreu Antoni Carles Cassi Dalmau
-		David Eduard Enric Enrique Federico Felip Fernando Ferran Francesc Gaspar
-		Gerard Isaac Jacint Jaume Joan Jordi Jos Josep Juan Lloren
-		Lluis Manel Manuel Marc Miquel Narcs Pasqual Pau Pedro Pere
-		Pompeu Rafael Rafel Ramon Ricardo Salvador Sergi Valnt Victor Xavier }
-
-		last_names = { Albniz Almirall Bacard Batet Berenguer Borrs Borrell Cadafall Carner Casals
-		Casanova Castell Claramunt Cucala Cugat Despujol Domnech Escotet Fabra Fages
-		"Folc de Cardona" Gumer Irla Llauder Maci Maragall Margall "Milans del Bosch" Mir Mompou
-		Montaner Moragues Moret Nebot Nin Oller Prat Prim Puig Riba
-		Roig Sala Saliquet Savalls Serra Sor Tristany Verdaguer Virigili Vives }
 	}
 	union = ITA
 }
@@ -464,6 +447,21 @@ iberian = {
 		Maroto Mrquez Martnez-Campos Maura Menndez Miaja Milln-Astray Mina Mola Muoz
 		Narvez O'Donnell Ortega Pava Prez "Primo de Rivera" "Queipo de Llano" Rodrguez Rojo Ruiz
 		Sanjurjo Serrano Silvestre Topete Valds Varela Villapol Villar Weyler Yage }
+	}
+
+	catalan = {
+		color = {220 110 30}
+		first_names = { Albert Alexandre Alfons Alfonso Andrs Andreu Antoni Carles Cassi Dalmau
+		David Eduard Enric Enrique Federico Felip Fernando Ferran Francesc Gaspar
+		Gerard Isaac Jacint Jaume Joan Jordi Jos Josep Juan Lloren
+		Lluis Manel Manuel Marc Miquel Narcs Pasqual Pau Pedro Pere
+		Pompeu Rafael Rafel Ramon Ricardo Salvador Sergi Valnt Victor Xavier }
+
+		last_names = { Albniz Almirall Bacard Batet Berenguer Borrs Borrell Cadafall Carner Casals
+		Casanova Castell Claramunt Cucala Cugat Despujol Domnech Escotet Fabra Fages
+		"Folc de Cardona" Gumer Irla Llauder Maci Maragall Margall "Milans del Bosch" Mir Mompou
+		Montaner Moragues Moret Nebot Nin Oller Prat Prim Puig Riba
+		Roig Sala Saliquet Savalls Serra Sor Tristany Verdaguer Virigili Vives }
 	}
 }
 
@@ -558,7 +556,6 @@ south_slavic = {
 		Obrenovic Ojdanic Panic Paskas Pavkovic Pesic Petrovic Popovic Putnik Radulovic
 		Rasic Sijan Simovic Sokolovic Stepanovic Vasiljevic Veric Vojvodic Vukotic Zivkovic
 		}
-		radicalism = 15
 	}
 
 	bulgarian = {
@@ -576,7 +573,6 @@ south_slavic = {
 		Pakov Petrov Radev Saksokoburggotski Savov Sirakov Solarov Stoyanov Tenev Todorov
 		Tsaklev Valkov Valnarov Vasilev Vazov Velchev Zafirov Zhekov Zlatarev Zlatev
 		}
-		radicalism = 10
 	}
 
 	slovene = {
@@ -633,7 +629,6 @@ pan_albanian = {
 		Koculi Konica Konushevci Kosturi Kota Logoreci Merlika-Kruja Mitrovica Mula Noli
 		"Pash Prmeti" "Pash Tepelena" "Pash Toptani" Poga "Qemal Bej" Shahini Skiroi Thai Troja Xoxe
 		}
-		radicalism = 15
 	}
 }
 
@@ -655,7 +650,6 @@ pan_romanian = {
 		Ionascu Ionescu Ionitiu Koslinski Lahovary Lupescu Mardarescu Murgescu Poenaru Prezan
 		Salajan Samsonovici Schitiu Scodrea Slaniceanu Steflea Tatarascu Tenescu Vaitoianu Zottu
 		}
-		radicalism = 10
 	}
 	union = ROM
 }
@@ -677,7 +671,6 @@ hungarian_culture_group = {
 		Joseffy Katona Kaufman Kler Kiss Knezich Kogutowicz Lahner Lzr Leiningen-Westerburg
 		Lichtenstein Liszt Mikszth Molnr Nagy-Sndor sterreicher Ottinger Perczel Poeltenberg Remnyi
 		Rohr Schweidel Szchenyi Szemere Szlvic Tersztyansky Trk Varga Vcsey "von Benedek" }
-		radicalism = 5
 	}
 }
 
@@ -702,13 +695,13 @@ west_slavic = {
 	}
 	ruthenian = {
 		color = {130 150 85}
-                first_names = { Alexei Andrei Anton Arkadiy Borys Dmitro Fyodor Hryhoriy Ivan Lavr Leonid Lev
-                Mikhail Mykola Nikita  Oleksandr Pavel Petro Roman Semyon Sergiy Valeriy
-                Viktor Volodimir Vladislav Yuriy }
+      first_names = { Alexei Andrei Anton Arkadiy Borys Dmitro Fyodor Hryhoriy Ivan Lavr Leonid Lev
+      Mikhail Mykola Nikita  Oleksandr Pavel Petro Roman Semyon Sergiy Valeriy
+      Viktor Volodimir Vladislav Yuriy }
 
-                last_names = { Bezruchko Chernyakhovsky Dyachenko Gamula Grigoriev Hrekov Ivanenko Ivanov
-                Kapustiansky Kondratenko Leshchenko Leshchinskiy "Omelianovych-Pavlenko"
-                Paskevich Petliura Radchenko Shevchenko Skoropadskyi Stefaniv Tymoshenko Vitovsky }
+      last_names = { Bezruchko Chernyakhovsky Dyachenko Gamula Grigoriev Hrekov Ivanenko Ivanov
+      Kapustiansky Kondratenko Leshchenko Leshchinskiy "Omelianovych-Pavlenko"
+      Paskevich Petliura Radchenko Shevchenko Skoropadskyi Stefaniv Tymoshenko Vitovsky }
     }
 }
 
@@ -729,7 +722,6 @@ czecho_slovak_culture_group = {
 		Mik Morvec Nemecek Neruda Novcek Novotn Popper Radeck Rokytansk Safrik
 		Safrnek Schack Schubert Skoda Skuhersk Smetana Snejdrek Suk Svoboda Syrov
 		Tomsek Tyl Vitsek "von Mittrowitz-Nettolitzky" Vorisek Wankel Weber Zbrt Zvr Zoubek }
-		radicalism = 5
 	}
 
 	slovak = {
@@ -860,7 +852,6 @@ levantine = {
 		Plastiras Sapountzakis Sarafis Smolenskis Sofoulis Soutsos Spyromilios Staikopoulos Stanotas "tes Elladas"
 		Trikoupis Tsakalotos Tsolakoglou Typaldos-Alfonsatos Tzavelas Vassos Venizelos Voulgaris Zaimis Zymvrakakis
 		}
-		radicalism = 10
 	}
 
 	pontic_greek = {
@@ -878,7 +869,6 @@ levantine = {
 		Plastiras Sapountzakis Sarafis Smolenskis Sofoulis Soutsos Spyromilios Staikopoulos Stanotas "tes Elladas"
 		Trikoupis Tsakalotos Tsolakoglou Typaldos-Alfonsatos Tzavelas Vassos Venizelos Voulgaris Zaimis Zymvrakakis
 		}
-		radicalism = 10
 	}
 
 	georgian = {
@@ -913,7 +903,6 @@ levantine = {
 		Mkhitarian Mussiniants Pahlevanian Peleshyan Safrazpekian Sahakiam Sarksyan Sekoyan Shadunts Shahsuvarian
 		Tavakyalian Tchartichian Tcholakhian Ter-Sarkayan Terzian Tigraniants Tigranov Toshian Varapetian Vartanian
 		}
-		radicalism = 5
 	}
 
 	assyrian = {
@@ -931,7 +920,6 @@ levantine = {
 		Mkhitarian Mussiniants Pahlevanian Peleshyan Safrazpekian Sahakiam Sarksyan Sekoyan Shadunts Shahsuvarian
 		Tavakyalian Tchartichian Tcholakhian Ter-Sarkayan Terzian Tigraniants Tigranov Toshian Varapetian Vartanian
 		}
-		radicalism = 5
 	}
 
 	syriac = {
@@ -1012,7 +1000,6 @@ semitic = {
 			"ibn Muhammad" "ibn Mustafa" "ibn Salim"
 			"ibn Umar" "ibn Uthman" "ibn Yusuf" Sayyid
 		}
-		radicalism = 15
 	}
 
 	misri = {
@@ -1214,7 +1201,6 @@ north_caucasian_group = {
 		last_names = {
 			Mollah Bek Aghwrbiy Alijiqwe Dzune Gushina Gushipsa Dzadzoo Hatsiqua Jirandiqua Mashiqua Naly Nartby Shoomaqua Tsikira Zhambora
 		}
-		radicalism = 10
 		}
 
 		dagestani = {
@@ -1226,7 +1212,6 @@ north_caucasian_group = {
 		last_names = {
 			Awaral Gamzatov Mussayassul Aliev Murad "Ma'arulal" "X'indalal" Andis Didoi Anchikh Bagulal Bezhta Archin Chamalal Hinukhs Ratsitl Godoberi Khvarshi Rachabalda Karata Tokita Tindi Akhvakh Botlikh Hunzib al-Shishani Dargwa Kumyk Lezgiyar Tabasaran Lak Nogai Aghul Rutul al-Tsakhur Muhammad Hotso Bamat Gadzhiyev Fazu Gamzatovna
 		}
-		radicalism = 25
 		}
 
 		circassian = {
@@ -1238,7 +1223,6 @@ north_caucasian_group = {
 		last_names = {
 			Neghwey al-Shishani Shapsug Zhaney Temirgoy Natukhai Syupako Abadzehs Kerzedzh Kuytsuk Khatirame Birdzh Cherch Ubykhs Mamkhegh Kabarday Cherkess Hatuqwai Bzhedug Kabardi Adyghe
 		}
-		radicalism = 20
 		}
 	}
 
@@ -1309,7 +1293,6 @@ iranian = {
 		last_names = {
 			Khan Tajik Emomali Shohmurod Rahbar Ghoib Fayzullo Sabouri Furmuli Badakhshi Baghlani Mazari Panjsheri Kabuli Herati Kohistani
 			}
-		radicalism = 10
 	}
 
 	pashtun = {
@@ -1321,8 +1304,6 @@ iranian = {
 		last_names = {
 			Khan Ghilzai Adamkhel Afridi Sarbanri Abdali Yusufzai Omarkhel Pashtun Dilazak Atcha Babar Burki Bangash Bannuchi Chamkanni "Daulat Khel" "isa Khel" Davi Durrani Edo-Khel Gandapur Gujjar "Hafiz Khel" Jadoon Jahangiri Kakakhel Khakwani Kakar Kakazai Khalil Kharoti Khattak Khudiadadzai Khulozai Kuchelai Kuchis Kundi Lodhi Mian "Maghdud Khel" "Mahmud Khel" Tanoli Malik Mughal "Mahsud Khel" Mamund Manduri Marwat Mashwanis Mohamedzai Mohmand Mullagori Niazi Noorzai Orakzai Popalzai Qazi Shinwari Sadozai Salarzai Sarbans Shilmani Sulemani Shirani Sumbal Suri Swati Tareen Tarkani Tahirkheli Tokhi Turkhel "Umar Khel" Umarzai "Uthman khel" Wur "Yousafzai" "Yusaf Khel"
 		}
-		radicalism = 35
-
 	}
 
 	baluchi = {
@@ -1353,7 +1334,6 @@ iranian = {
 		first_names = { Amberline Belcher Baul Bavol Bersh Beval Bidshika Brishen Camlo Chik Cam Chaine Chal  Chavula Danior Dukker Durriken Durril Dangerfield Garridan Gillie Guibran Goliath Gilderoy Hezekiah Jal Javert Jibben Jivin Ker Lel Lennor Lendar Lensar Mander Merripen Mestipen  Major Nehemiah Pal Pattin Pias Pov Rye Stiggur Shadrack Silvanus Tas Tobar Tobbar Tawno Tem Terkari Vandlo Wen Wesh Yarb }
 
 		last_names = { Petulengro Vardo-mescro Chumomisto Gry Balorengre Purrum Bedra-kero Camlo Mokkado Baremescre Baryor Beshaley Kaulo }
-		radicalism = 1
 	}
 
 	ossetian = {
@@ -1458,7 +1438,6 @@ central_asian = {
 		last_names = {
                Dzasa Wangyal Shatra Lungshar Rinpoche Chphel Shakabpa Tashi
 		}
-		radicalism = 10
 	}
 
 	nepali = {
@@ -1664,7 +1643,6 @@ south_asian = {
 		last_names = { "ur Rahman" Bhatti Tiwana Qaim Kunwar "Bachittar Singh" Shekha
 
 		}
-		radicalism = 10
 	}
 
 	sindi = {
