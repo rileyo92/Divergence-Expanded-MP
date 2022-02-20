@@ -585,8 +585,10 @@ political_decisions = {
 				all_core = {
 					OR = {
 						owned_by = THIS
-						owner = { in_sphere = THIS }
-						vassal_of = THIS
+						owner = {
+							in_sphere = THIS
+							vassal_of = THIS
+						}
 						is_core = ARP
 						is_core = SRD
 						is_core = SYC
