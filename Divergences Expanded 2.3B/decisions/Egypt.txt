@@ -211,7 +211,7 @@ political_decisions = {
 		}
 	}
 
-	egypt_turk_1 {
+	egypt_turk_1 = {
 		potential = {
 			has_country_flag = exploit_minorities
 			tag = EGY
@@ -232,7 +232,7 @@ political_decisions = {
 		}
 	}
 
-	egypt_turk_2 {
+	egypt_turk_2 = {
 		potential = {
 			has_country_flag = turk_1
 			tag = EGY

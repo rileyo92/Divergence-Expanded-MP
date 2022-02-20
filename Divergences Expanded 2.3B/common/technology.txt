@@ -112,16 +112,6 @@ schools ={
 		unciv_military_modifier = -0.05
 	}
 
-	mercantile_tech_school = {
-		army_tech_research_bonus = -0.10
-		commerce_tech_research_bonus = 0.20
-		culture_tech_research_bonus = 0
-		industry_tech_research_bonus = 0.10
-		navy_tech_research_bonus = 0.10
-		unciv_economic_modifier = -0.25
-		unciv_military_modifier = -0.05
-	}
-
 	prussian_tech_school = {
 		army_tech_research_bonus = 0.15
 		commerce_tech_research_bonus = 0
