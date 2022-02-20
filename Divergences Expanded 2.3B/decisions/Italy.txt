@@ -429,7 +429,7 @@ political_decisions = {
 		}
 		allow = {
 			state_n_government = 1
-			SAR_720 = {
+			720 = {
 					owner = {
 						OR = {
 							tag = THIS
@@ -438,7 +438,7 @@ political_decisions = {
 						}
 				  }
 			}
-			PAP_741 = {
+			724 = {
 					owner = {
 						OR = {
 							tag = THIS
@@ -447,7 +447,7 @@ political_decisions = {
 						}
 					}
 			}
-			MOD_739 = {
+			738 = {
 					owner = {
 						OR = {
 							tag = THIS
@@ -456,7 +456,7 @@ political_decisions = {
 						}
 					}
 			}
-			AUS_726 = {
+			739 = {
 					owner = {
 						OR = {
 							tag = THIS
@@ -465,7 +465,16 @@ political_decisions = {
 						}
 					}
 			}
-			GEN_724 = {
+			726 = {
+					owner = {
+						OR = {
+							tag = THIS
+							in_sphere = THIS
+							vassal_of = THIS
+						}
+					}
+			}
+			742 = {
 					owner = {
 						OR = {
 							tag = THIS
