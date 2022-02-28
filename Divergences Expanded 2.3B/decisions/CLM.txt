@@ -347,7 +347,6 @@ political_decisions = {
 				limit = { culture = mexican }
 				literacy = 0.05
 			}
-			social_reform = public
 			scaled_militancy = {
 				issue = moralism
 				factor = 3

@@ -74,27 +74,6 @@ political_decisions = {
 		}
 	}
 
-	ibn_saud = {
-		potential = {
-			has_global_flag = arab_revolt_has_begun
-			NOT = { has_country_flag = ibn_saud }
-			tag = NEJ
-		}
-
-		allow = {
-			government = absolute_monarchy
-		}
-
-		effect = {
-			set_country_flag = ibn_saud
-			define_general = {
-				name = "Ibn Saud"
-				personality = brilliant
-				background = eccentric_genius
-			}
-		}
-	}
-
 	the_holy_city = {
 	picture = the_holy_city
 		potential = {
@@ -335,8 +314,12 @@ political_decisions = {
 				all_core = {
 					OR = {
 						owned_by = THIS
-						in_sphere = THIS
-						vassal_of = THIS
+						owner = {
+							OR = {
+								in_sphere = THIS
+								vassal_of = THIS
+							}
+						}
 						empty = yes
 					}
 				}
@@ -346,8 +329,12 @@ political_decisions = {
 					OR = {
 						owned_by = THIS
 						empty = yes
-						in_sphere = THIS
-						vassal_of = THIS
+						owner = {
+							OR = {
+								in_sphere = THIS
+								vassal_of = THIS
+							}
+						}
 					}
 				}
 			}

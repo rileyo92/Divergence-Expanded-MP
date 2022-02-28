@@ -76,7 +76,7 @@ political_decisions = {
 		  remove_accepted_culture = mashriqi
 		  add_accepted_culture = nubian
 		  add_accepted_culture = sudanese
-			add_accepted_culture = toubou
+			add_accepted_culture = teda
 		}
 	}
 

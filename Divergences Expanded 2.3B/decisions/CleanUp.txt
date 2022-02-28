@@ -21,10 +21,10 @@ political_decisions = {
 				NOT = { has_country_modifier = religious_minority_oppression }
 			}
 		}
-		
+
 		allow = {
 		}
-		
+
 		effect = {
 			TUR = {
 				any_pop = {
@@ -38,27 +38,27 @@ political_decisions = {
 		}
 		ai_will_do = { factor = 1 }
 	}
-	
+
 	sanctions_lifted = {
 		potential = {
 			is_disarmed = yes
 			has_recently_lost_war = yes
 			OR = {
-				has_country_modifier = kinda_bad_badboy 
-				has_country_modifier = bad_badboy 
+				has_country_modifier = kinda_bad_badboy
+				has_country_modifier = bad_badboy
 			}
 		}
-			
+
 		allow = { war = no }
 
 		effect = {
 			remove_country_modifier = kinda_bad_badboy
 			remove_country_modifier = bad_badboy
 		}
-		
+
 		ai_will_do = { factor = 1 }
 	}
-	
+
 	medicine_flags = {
 		potential = {
 			ai = yes
@@ -74,7 +74,7 @@ political_decisions = {
 					NOT = { has_country_flag = medicine_invented }
 					medicine = 1
 				}
-				any_greater_power = { 
+				any_greater_power = {
 					ai = no
 					NOT = { has_country_flag = germs_invented }
 					invention = germ_theory
@@ -84,7 +84,7 @@ political_decisions = {
 					NOT = { has_country_flag = germs_invented }
 					invention = germ_theory
 				}
-				any_greater_power = { 
+				any_greater_power = {
 					ai = no
 					NOT = { has_country_flag = gaslights_invented }
 					invention = gaslights
@@ -94,7 +94,7 @@ political_decisions = {
 					NOT = { has_country_flag = gaslights_invented }
 					invention = gaslights
 				}
-				any_greater_power = { 
+				any_greater_power = {
 					ai = no
 					NOT = { has_country_flag = electricity_invented }
 					electricity = 1
@@ -122,10 +122,10 @@ political_decisions = {
 				}
 			}
 		}
-		
+
 		allow = {
 		}
-		
+
 		effect = {
 			random_owned = {
 				limit = { owner = { NOT = { has_country_flag = medicine_invented } medicine = 1 } }
@@ -160,7 +160,7 @@ political_decisions = {
 				set_country_flag = electricity_invented
 			}
 		}
-		
+
 		ai_will_do = { factor = 1 }
 	}
 
@@ -185,10 +185,10 @@ political_decisions = {
 				}
 			}
 		}
-		
+
 		allow = {
 		}
-		
+
 		effect = {
 			random_owned = {
 				limit = {
@@ -237,7 +237,7 @@ political_decisions = {
 		}
 		ai_will_do = { factor = 1 }
 	}
-	
+
 	missing_government_flags = {
 		potential = {
 			ai = yes
@@ -271,10 +271,10 @@ political_decisions = {
 				}
 			}
 		}
-		
+
 		allow = {
 		}
-		
+
 		effect = {
 			clr_country_flag = theocratic_government
 			clr_country_flag = communist_gov
@@ -419,7 +419,7 @@ political_decisions = {
 		}
 		ai_will_do = { factor = 1 }
 	}
-	
+
 	enabling_crisis = {
 		potential = {
 			ai = yes
@@ -431,16 +431,16 @@ political_decisions = {
 				any_greater_power = { revolution_n_counterrevolution = 1 }
 			}
 		}
-		
+
 		allow = {
 		}
-		
+
 		effect = {
 			set_global_flag = revolution_n_counter_researched
 		}
 		ai_will_do = { factor = 1 }
 	}
-	
+
 	slave_pop_growth = {
 		potential = {
 			ai = yes
@@ -466,10 +466,10 @@ political_decisions = {
 				}
 			}
 		}
-		
+
 		allow = {
 		}
-		
+
 		effect = {
 			random_owned = {
 				limit = {
@@ -479,7 +479,7 @@ political_decisions = {
 						any_owned_province = { has_pop_type = slaves NOT = { slaves = 0.75 } }
 					}
 				}
-				
+
 				owner = {
 					any_pop = {
 						limit = { type = slaves NOT = { location = { slaves = 0.75 } } }
@@ -512,7 +512,7 @@ political_decisions = {
 					any_pop = { limit = { type = slaves } literacy = -0.1 }
 				}
 			}
-			
+
 			any_country = {
 				limit = {
 					NOT = { has_country_modifier = slave_growth }
@@ -549,34 +549,6 @@ political_decisions = {
 				}
 				any_pop = { limit = { type = slaves } literacy = -0.1 }
 			}
-		}
-		ai_will_do = { factor = 1 }
-	}
-	
-	release_bukovina = {
-		potential = {
-			owns = 662
-			owns = 663
-			OR = {
-				tag = AUS
-				tag = KUK
-			}
-			NOT = { owns = 660 }	
-			NOT = { owns = 661 }
-			NOT = { owns = 953 }
-			NOT = { owns = 952 }
-			BKV = { exists = no }
-		}
-		
-		allow = {
-			war = no
-		}
-		
-		effect = {
-			release_vassal = BKV
-			diplomatic_influence = { who = BKV value = 400 }
-			relation = { who = BKV value = 400 }
-			create_alliance = BKV
 		}
 		ai_will_do = { factor = 1 }
 	}
@@ -622,7 +594,7 @@ political_decisions = {
 			}
 		}
 		allow = { }
-		
+
 		effect = {
 			any_country = {
 				limit = {
@@ -654,7 +626,7 @@ political_decisions = {
 			}
 		}
 	}
-	
+
 	native_assimilation_act_ended = {
 		picture = native_assimilation_act
 		potential = {
@@ -677,10 +649,10 @@ political_decisions = {
 				}
 			}
 		}
-	
+
 		allow = {
 		}
-		
+
 		effect = {
 			random_owned = {
 				limit = {
@@ -699,11 +671,11 @@ political_decisions = {
 				clr_country_flag = native_assimilation_enacted
 			}
 		}
-		
+
 		ai_will_do = { factor = 1 }
 	}
-	
-	
+
+
 	modern_central_banking_system_flag = {
 		potential = {
 			ai = yes
@@ -725,10 +697,10 @@ political_decisions = {
 				}
 			}
 		}
-		
+
 		allow = {
 		}
-		
+
 		effect = {
 			random_owned = {
 				limit = { owner = { NOT = { has_country_flag = modern_central_bank_system_invented } modern_central_bank_system = 1 } }
@@ -739,11 +711,11 @@ political_decisions = {
 				set_country_flag = modern_central_bank_system_invented
 			}
 		}
-		
+
 		ai_will_do = { factor = 1 }
 	}
-	
-	
+
+
 	pay_owed_steamers = {
 		potential = {
 			ai = yes
@@ -756,7 +728,7 @@ political_decisions = {
 				check_variable = { which = owed_cash_money value = 1 }
 			}
 		}
-		
+
 		allow = {
 			OR = {
 				AND = {
@@ -785,9 +757,9 @@ political_decisions = {
 				}
 			}
 		}
-		
+
 		effect = {
-		
+
 			random_owned = {
 				limit = {
 					owner = {
@@ -800,7 +772,7 @@ political_decisions = {
 					change_variable = { which = owed_ammunition value = -1 }
 				}
 			}
-		
+
 			random_owned = {
 				limit = {
 					owner = {
@@ -813,7 +785,7 @@ political_decisions = {
 					change_variable = { which = owed_small_arms value = -1 }
 				}
 			}
-			
+
 			random_owned = {
 				limit = {
 					owner = {
@@ -826,7 +798,7 @@ political_decisions = {
 					change_variable = { which = owed_steamers value = -4 }
 				}
 			}
-			
+
 			random_owned = {
 				limit = {
 					owner = {
@@ -839,7 +811,7 @@ political_decisions = {
 					change_variable = { which = owed_steamers value = -4 }
 				}
 			}
-		
+
 			random_owned = {
 				limit = {
 					owner = {
@@ -852,7 +824,7 @@ political_decisions = {
 					change_variable = { which = owed_steamers value = -2 }
 				}
 			}
-			
+
 			random_owned = {
 				limit = {
 					owner = {
@@ -865,7 +837,7 @@ political_decisions = {
 					change_variable = { which = owed_artillery value = -4 }
 				}
 			}
-			
+
 			random_owned = {
 				limit = {
 					owner = {
@@ -878,7 +850,7 @@ political_decisions = {
 					change_variable = { which = owed_artillery value = -4 }
 				}
 			}
-			
+
 			random_owned = {
 				limit = {
 					owner = {
@@ -891,7 +863,7 @@ political_decisions = {
 					change_variable = { which = owed_artillery value = -2 }
 				}
 			}
-			
+
 			random_owned = {
 				limit = {
 					owner = {
@@ -904,7 +876,7 @@ political_decisions = {
 					change_variable = { which = owed_canned_food value = -4 }
 				}
 			}
-			
+
 			random_owned = {
 				limit = {
 					owner = {
@@ -917,7 +889,7 @@ political_decisions = {
 					change_variable = { which = owed_canned_food value = -2 }
 				}
 			}
-			
+
 			random_owned = {
 				limit = {
 					owner = {
@@ -930,7 +902,7 @@ political_decisions = {
 					change_variable = { which = owed_cash_money value = -50 }
 				}
 			}
-			
+
 			random_owned = {
 				limit = {
 					owner = {
@@ -944,10 +916,10 @@ political_decisions = {
 				}
 			}
 		}
-		
+
 		ai_will_do = { factor = 1 }
 	}
-	
+
 	monthly_substate_payment = {
 		potential = {
 			ai = yes
@@ -961,7 +933,7 @@ political_decisions = {
 				}
 			}
 		}
-		
+
 		allow = {
 			NOT = { has_country_modifier = monthly_payment_made }
 			OR = {
@@ -1010,7 +982,7 @@ political_decisions = {
 				}
 			}
 		}
-		
+
 		effect = {
 			random_owned = {
 				limit = { owner = { NOT = { total_pops = 750000 } } }
@@ -1019,7 +991,7 @@ political_decisions = {
 					overlord = { treasury = 500 }
 				}
 			}
-			
+
 			random_owned = {
 				limit = { owner = { total_pops = 750000 NOT = { total_pops = 1000000 } } }
 				owner = {
@@ -1027,7 +999,7 @@ political_decisions = {
 					overlord = { treasury = 750 }
 				}
 			}
-			
+
 			random_owned = {
 				limit = { owner = { total_pops = 1000000 NOT = { total_pops = 1250000 } } }
 				owner = {
@@ -1035,7 +1007,7 @@ political_decisions = {
 					overlord = { treasury = 1000 }
 				}
 			}
-			
+
 			random_owned = {
 				limit = { owner = { total_pops = 1250000 NOT = { total_pops = 1500000 } } }
 				owner = {
@@ -1043,7 +1015,7 @@ political_decisions = {
 					overlord = { treasury = 1250 }
 				}
 			}
-			
+
 			random_owned = {
 				limit = { owner = { total_pops = 1500000 NOT = { total_pops = 1750000 } } }
 				owner = {
@@ -1051,7 +1023,7 @@ political_decisions = {
 					overlord = { treasury = 1500 }
 				}
 			}
-			
+
 			random_owned = {
 				limit = { owner = { total_pops = 1750000 NOT = { total_pops = 2000000 } } }
 				owner = {
@@ -1059,7 +1031,7 @@ political_decisions = {
 					overlord = { treasury = 1750 }
 				}
 			}
-			
+
 			random_owned = {
 				limit = { owner = { total_pops = 2000000 NOT = { total_pops = 2250000 } } }
 				owner = {
@@ -1067,7 +1039,7 @@ political_decisions = {
 					overlord = { treasury = 2000 }
 				}
 			}
-			
+
 			random_owned = {
 				limit = { owner = { total_pops = 2250000 NOT = { total_pops = 2500000 } } }
 				owner = {
@@ -1075,7 +1047,7 @@ political_decisions = {
 					overlord = { treasury = 2250 }
 				}
 			}
-			
+
 			random_owned = {
 				limit = { owner = { total_pops = 2500000 } }
 				owner = {
@@ -1083,10 +1055,10 @@ political_decisions = {
 					overlord = { treasury = 2500 }
 				}
 			}
-			
+
 			random_owned = { limit = { owner = { is_substate = yes } } owner = { add_country_modifier = { name = monthly_payment_made duration = 25 } } }
 			random_owned = {
-				limit = { owner = { is_vassal = yes is_substate = no } } owner = { add_country_modifier = { name = monthly_payment_made duration = 50 } } 
+				limit = { owner = { is_vassal = yes is_substate = no } } owner = { add_country_modifier = { name = monthly_payment_made duration = 50 } }
 			}
 			random_owned = {
 				limit = { owner = { has_country_flag = counting_payments } }
@@ -1102,10 +1074,10 @@ political_decisions = {
 				}
 			}
 		}
-		
+
 		ai_will_do = { factor = 1 }
 	}
-	
+
 	player_owes_money = {
 		potential = {
 			ai = yes
@@ -1154,7 +1126,7 @@ political_decisions = {
 				}
 			}
 		}
-		
+
 		allow = {
 			OR = {
 				any_neighbor_country = {
@@ -1216,7 +1188,7 @@ political_decisions = {
 					}
 				}
 				any_neighbor_country = {
-					ai = no 
+					ai = no
 					money = 10000
 					check_variable = { which = owed_cash_money value = 1 }
 				}
@@ -1247,7 +1219,7 @@ political_decisions = {
 				}
 			}
 		}
-		
+
 		effect = {
 			any_country = {
 				limit = {
@@ -1271,7 +1243,7 @@ political_decisions = {
 						overlord = { treasury = 500 }
 					}
 				}
-				
+
 				random_owned = {
 					limit = { owner = { total_pops = 750000 NOT = { total_pops = 1000000 } } }
 					owner = {
@@ -1279,7 +1251,7 @@ political_decisions = {
 						overlord = { treasury = 750 }
 					}
 				}
-				
+
 				random_owned = {
 					limit = { owner = { total_pops = 1000000 NOT = { total_pops = 1250000 } } }
 					owner = {
@@ -1287,7 +1259,7 @@ political_decisions = {
 						overlord = { treasury = 1000 }
 					}
 				}
-				
+
 				random_owned = {
 					limit = { owner = { total_pops = 1250000 NOT = { total_pops = 1500000 } } }
 					owner = {
@@ -1295,7 +1267,7 @@ political_decisions = {
 						overlord = { treasury = 1250 }
 					}
 				}
-				
+
 				random_owned = {
 					limit = { owner = { total_pops = 1500000 NOT = { total_pops = 1750000 } } }
 					owner = {
@@ -1303,7 +1275,7 @@ political_decisions = {
 						overlord = { treasury = 1500 }
 					}
 				}
-				
+
 				random_owned = {
 					limit = { owner = { total_pops = 1750000 NOT = { total_pops = 2000000 } } }
 					owner = {
@@ -1311,7 +1283,7 @@ political_decisions = {
 						overlord = { treasury = 1750 }
 					}
 				}
-				
+
 				random_owned = {
 					limit = { owner = { total_pops = 2000000 NOT = { total_pops = 2250000 } } }
 					owner = {
@@ -1319,7 +1291,7 @@ political_decisions = {
 						overlord = { treasury = 2000 }
 					}
 				}
-				
+
 				random_owned = {
 					limit = { owner = { total_pops = 2250000 NOT = { total_pops = 2500000 } } }
 					owner = {
@@ -1327,7 +1299,7 @@ political_decisions = {
 						overlord = { treasury = 2250 }
 					}
 				}
-				
+
 				random_owned = {
 					limit = { owner = { total_pops = 2500000 } }
 					owner = {
@@ -1335,19 +1307,19 @@ political_decisions = {
 						overlord = { treasury = 2500 }
 					}
 				}
-				
+
 				random_owned = {
 					limit = { owner = { is_substate = yes } }
-					owner = { add_country_modifier = { name = monthly_payment_made duration = 25 } } 
+					owner = { add_country_modifier = { name = monthly_payment_made duration = 25 } }
 				}
 				random_owned = {
 					limit = { owner = { is_vassal = yes is_substate = no } }
-					owner = { add_country_modifier = { name = monthly_payment_made duration = 50 } } 
+					owner = { add_country_modifier = { name = monthly_payment_made duration = 50 } }
 				}
 			}
 			any_country = {
 				limit = {
-					ai = no 
+					ai = no
 					neighbour = THIS
 					money = 10000
 					check_variable = { which = owed_cash_money value = 1 }
@@ -1355,13 +1327,13 @@ political_decisions = {
 				treasury = -10000
 				change_variable = { which = owed_cash_money value = -10 }
 			}
-			
+
 			any_country = {
 				limit = {
-					ai = no 
+					ai = no
 					neighbour = THIS
 				}
-			
+
 				random_owned = {
 					limit = {
 						owner = {
@@ -1374,7 +1346,7 @@ political_decisions = {
 						change_variable = { which = owed_ammunition value = -1 }
 					}
 				}
-		
+
 				random_owned = {
 					limit = {
 						owner = {
@@ -1387,7 +1359,7 @@ political_decisions = {
 						change_variable = { which = owed_small_arms value = -1 }
 					}
 				}
-				
+
 				random_owned = {
 					limit = {
 						owner = {
@@ -1400,7 +1372,7 @@ political_decisions = {
 						change_variable = { which = owed_steamers value = -4 }
 					}
 				}
-				
+
 				random_owned = {
 					limit = {
 						owner = {
@@ -1413,7 +1385,7 @@ political_decisions = {
 						change_variable = { which = owed_steamers value = -4 }
 					}
 				}
-			
+
 				random_owned = {
 					limit = {
 						owner = {
@@ -1426,7 +1398,7 @@ political_decisions = {
 						change_variable = { which = owed_steamers value = -2 }
 					}
 				}
-				
+
 				random_owned = {
 					limit = {
 						owner = {
@@ -1439,7 +1411,7 @@ political_decisions = {
 						change_variable = { which = owed_artillery value = -4 }
 					}
 				}
-				
+
 				random_owned = {
 					limit = {
 						owner = {
@@ -1452,7 +1424,7 @@ political_decisions = {
 						change_variable = { which = owed_artillery value = -4 }
 					}
 				}
-				
+
 				random_owned = {
 					limit = {
 						owner = {
@@ -1465,7 +1437,7 @@ political_decisions = {
 						change_variable = { which = owed_artillery value = -2 }
 					}
 				}
-				
+
 				random_owned = {
 					limit = {
 						owner = {
@@ -1478,7 +1450,7 @@ political_decisions = {
 						change_variable = { which = owed_canned_food value = -4 }
 					}
 				}
-				
+
 				random_owned = {
 					limit = {
 						owner = {
@@ -1495,7 +1467,7 @@ political_decisions = {
 		}
 		ai_will_do = { factor = 1 }
 	}
-	
+
 	silver_mines_without_modifier = {
 		potential = {
 			ai = yes
@@ -1524,11 +1496,11 @@ political_decisions = {
 				}
 			}
 		}
-		
+
 		allow = {
-			
+
 		}
-		
+
 		effect = {
 			any_neighbor_country = {
 				any_owned = {
@@ -1547,10 +1519,10 @@ political_decisions = {
 				}
 			}
 		}
-		
+
 		ai_will_do = { factor = 1 }
 	}
-	
+
 	turn_off_vassal_payments = {
 		picture = vassal_payment
 		alert = no
@@ -1563,11 +1535,11 @@ political_decisions = {
 			NOT = { has_country_flag = vassals_dont_need_to_pay }
 			num_of_vassals_no_substates = 1
 		}
-		
+
 		allow = {
 			war = no
 		}
-		
+
 		effect = {
 			set_country_flag = vassals_dont_need_to_pay
 			any_country = {
@@ -1576,10 +1548,10 @@ political_decisions = {
 				relation = { who = THIS value = 100 }
 			}
 		}
-		
+
 		ai_will_do = { factor = 0 }
 	}
-	
+
 	turn_on_vassal_payments = {
 		picture = vassal_payment
 		alert = no
@@ -1588,23 +1560,23 @@ political_decisions = {
 			has_country_flag = vassals_dont_need_to_pay
 			num_of_vassals_no_substates = 1
 		}
-		
+
 		allow = {
 			war = no
 		}
-		
+
 		effect = {
 			clr_country_flag = vassals_dont_need_to_pay
 			any_country = {
 				limit = { vassal_of = THIS NOT = { is_substate = yes } }
-				clr_country_flag = exempt_from_vassal_contribution 
+				clr_country_flag = exempt_from_vassal_contribution
 				relation = { who = THIS value = -100 }
 			}
 		}
-		
+
 		ai_will_do = { factor = 0 }
 	}
-	
+
 	vassal_stop_paying_vassal_payments = {
 		picture = vassal_payment
 		potential = {
@@ -1612,17 +1584,17 @@ political_decisions = {
 			overlord = { has_country_flag = vassals_dont_need_to_pay }
 			NOT = { has_country_flag = exempt_from_vassal_contribution }
 		}
-		
+
 		allow = {
 			war = no
 		}
-		
+
 		effect = {
 			set_country_flag = exempt_from_vassal_contribution
 			overlord = { relation = { who = THIS value = 100 } }
 		}
-		
+
 		ai_will_do = { factor = 0 }
 	}
-	
+
 }

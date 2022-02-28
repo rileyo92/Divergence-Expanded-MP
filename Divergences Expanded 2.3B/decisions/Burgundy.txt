@@ -348,11 +348,7 @@ political_decisions = {
 			remove_accepted_culture = rheinish
 			add_accepted_culture = french
 			any_owned = {
-	      limit = {
-					OR = {
-						is_core = GER
-					}
-	      }
+	      limit = { is_core = GER }
 				remove_core = THIS
 			}
 			change_tag = FRA
@@ -398,8 +394,12 @@ political_decisions = {
 				all_core = {
 					OR = {
 						owned_by = THIS
-						owner = { in_sphere = THIS }
-						vassal_of = THIS
+						owner = {
+							OR = {
+								in_sphere = THIS
+								vassal_of = THIS
+							}
+						}
 						is_core = OLD
 						is_core = LIP
 					}

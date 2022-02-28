@@ -60,7 +60,6 @@ political_decisions = {
 		}
 		allow = {
 			medicine = 1
-			cheap_iron = 1
 			romanticism = 1
 		}
 		effect = {
@@ -207,7 +206,6 @@ political_decisions = {
 			SA_6 = { add_core = THIS add_core = NAN }
 			SA_9 = { add_core = THIS add_core = NAN }
 			ARG_2368 = { add_core = THIS add_core = NAN }
-			INC_2315 = { add_core = THIS add_core = NAN }
 			NAN_5 = { add_core = THIS add_core = NAN }
 			CHL_2322 = { add_core = THIS add_core = NAN }
 			INC_2389 = { add_core = THIS add_core = NAN }
@@ -325,7 +323,6 @@ political_decisions = {
 			ARU = { all_core = { add_core = HBE	} }
 			LOT = { all_core = { add_core = HBE	} }
 			GUY = { all_core = { add_core = HBE	} }
-			SA_5 = { add_core = HBE }
       change_tag = HBE
 			set_country_flag = holy_britannia
 		}
@@ -393,7 +390,7 @@ political_decisions = {
 	integrate_amazonie_nan = {
 		potential = {
 			has_country_flag = holy_britannia
-			has_accepted_culture = lotharian
+			has_country_flag = integrate_lotharingia_nan
 			NOT = { has_country_flag = integrate_ama_nan }
 		}
 		allow = {

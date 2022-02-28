@@ -158,7 +158,6 @@ political_decisions = {
 			war = no
 			medicine = 1
 			breech_loaded_rifles = 1
-			state_and_government = 1
 			iron_steamers = 1
 		}
 
@@ -172,34 +171,6 @@ political_decisions = {
 			factor = 1
 		}
 	}
-
-#Lotharingia
-	LOT_grand_chaco = {
-		picture = LOT_colony
-		potential = {
-			tag = LOT
-			owns = 2339
-			SA_5 = { empty = yes }
-			NOT = { rank = 16 }
-		}
-
-		allow = {
-			war = no
-			medicine = 1
-			invention = prophylaxis_against_malaria
-			early_railroad = 1
-		}
-
-		effect = {
-			prestige = 5
-			SA_5 = { secede_province = THIS }
-		}
-
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
 #Zhourao
 	GAN_wencheng = {
 		picture = GAN_colony
@@ -385,31 +356,6 @@ political_decisions = {
 	}
 
 #Qingqiu
-	DNG_yicheng = {
-		picture = DNG_colony
-		potential = {
-			tag = DNG
-			owns = 95
-			NA_6 = { empty = yes }
-			NOT = { rank = 16 }
-		}
-
-		allow = {
-			war = no
-			ideological_thought = 1
-			experimental_railroad = 1
-
-		}
-
-		effect = {
-			prestige = 5
-			NA_6 = { secede_province = THIS }
-		}
-
-		ai_will_do = {
-			factor = 1
-		}
-	}
 
 	DNG_haikou = {
 		picture = DNG_colony
@@ -423,7 +369,7 @@ political_decisions = {
 		allow = {
 			war = no
 			ideological_thought = 1
-			early_railroad_railroad = 1
+			early_railroad = 1
 
 		}
 
@@ -449,7 +395,7 @@ political_decisions = {
 		allow = {
 			war = no
 			ideological_thought = 1
-			early_railroad_railroad = 1
+			early_railroad = 1
 
 		}
 
@@ -476,7 +422,7 @@ political_decisions = {
 			war = no
 			medicine = 1
 			invention = prophylaxis_against_malaria
-			early_railroad_railroad = 1
+			early_railroad = 1
 		}
 
 		effect = {
