@@ -289,6 +289,7 @@ political_decisions = {
 			set_country_flag = Odon_treaty
 		}
 	}
+
 	#Ameriga Amazonie
 	Granada_border = {
 		potential = {
@@ -451,7 +452,6 @@ political_decisions = {
 		}
 		allow = {
 			is_greater_power = yes
-			political_thought = 1
 			war = no
 		}
 		effect = {
@@ -545,7 +545,7 @@ political_decisions = {
 			add_accepted_culture = afro_frankish
 			any_pop = {
 				limit = {
-			  	NOT = { culture = african_diaspora_cultures }
+			  	NOT = { culture = afro_frankish }
 			  }
 				militancy = 2
 			}
@@ -580,7 +580,6 @@ political_decisions = {
 				tag = GUY
 				tag = CAS
 				tag = QUI
-				tag = ARE
 				tag = ATS
 				accepted_culture = lusitanian
 				accepted_culture = granadan
@@ -607,7 +606,7 @@ political_decisions = {
 			add_accepted_culture = afro_latino
 			any_pop = {
 				limit = {
-		    	NOT = { culture = african_diaspora_cultures }
+		    	NOT = { culture = afro_latino }
 			  }
 			  militancy = 2
 			}
@@ -644,7 +643,7 @@ political_decisions = {
 			add_accepted_culture = afro_germanic
 			any_pop = {
 				limit = {
-		    	NOT = { culture = african_diaspora_cultures }
+		    	NOT = { culture = afro_germanic }
 			  }
 			  militancy = 2
 			}
