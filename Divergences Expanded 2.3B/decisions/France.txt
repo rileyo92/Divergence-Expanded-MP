@@ -51,7 +51,7 @@ political_decisions = {
 		}
 
 		allow = {
-			cheap_steel = 1
+			year = 1880
 		}
 
 		effect = {

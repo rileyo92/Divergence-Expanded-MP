@@ -58,7 +58,7 @@ political_decisions = {
 				primary_culture = catalan
 				add_accepted_culture = basque
 				add_accepted_culture = castilian
-				add_accepted_culture = sicilian
+				add_accepted_culture = maltese
 				remove_accepted_culture = south_italian
 			}
 			SPA_506 = { add_core = CAT } #Cartagena

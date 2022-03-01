@@ -14,7 +14,6 @@ political_decisions = {
 			prestige = 10
 			badboy = 7.5
 			PRU = { all_core = { add_core = THIS } }
-      LIT_698 = { add_core = THIS }
       add_accepted_culture = latvian
 			set_country_flag = baltic_claimed
 		}
@@ -41,7 +40,6 @@ political_decisions = {
 		}
 		effect = {
 			set_country_flag = lol_gg
-      LIT_698 = { add_core = THIS }
       RUS_360 = { add_core = THIS }
       947 = { add_core = THIS }
       938 = { add_core = THIS }
@@ -139,7 +137,6 @@ political_decisions = {
       PRU_546 = { add_core = BLT } #Hinterpommern
       PRU_690 = { add_core = BLT } #Westprussen
       PRU_546 = { add_core = BLT } #Ostprussen
-      LIT_698 = { add_core = BLT } #Memel
       RUS_360 = { add_core = BLT } #Lietuva
       RUS_354 = { add_core = BLT } #Latvia
       RUS_349 = { add_core = BLT } #Estonia
@@ -222,7 +219,6 @@ political_decisions = {
       RUS_1003 = { add_core = THIS } #Novgorod
       RUS_339 = { add_core = THIS } #Karelia
       RUS_981 = { add_core = THIS } #Arkhangelsk
-      RUS_2589 = { add_core = THIS } #Nayran-Maya
       RUS_990 = { add_core = THIS } #Galich
       any_country = {
 				limit = {

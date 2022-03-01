@@ -73,7 +73,6 @@ political_decisions = {
       PRU_546 = { add_core = BLT } #Hinterpommern
       PRU_690 = { add_core = BLT } #Westprussen
       PRU_546 = { add_core = BLT } #Ostprussen
-      LIT_698 = { add_core = BLT } #Memel
       RUS_360 = { add_core = BLT } #Lietuva
 			add_accepted_culture = pomeranian
 			add_accepted_culture = lithuanian
@@ -278,7 +277,6 @@ political_decisions = {
 			PLC_940 = { add_core = THIS } #Wilno
 			AUS_662 = { add_core = THIS } #Eastern Galicia
 			950 = { add_core = THIS } #Transcarpathia
-			MOL_662 = { add_core = THIS } #Bukovina
 			RUS_707 = { add_core = THIS } #Brest
 			RUS_676 = { add_core = THIS } #Budjak
 			RUS_965 = { add_core = THIS } #Odessa
@@ -303,7 +301,6 @@ political_decisions = {
 				add_accepted_culture = estonian
 				add_accepted_culture = latvian
 				set_country_flag = latvian_culture
-				LIT_698 = { add_core = THIS } #Memel
 				RUS_360 = { add_core = THIS } #Lietuva
 				PRU_695 = { add_core = THIS } #Ostprussen
 			}

@@ -44,7 +44,6 @@ political_decisions = {
 			   tag = VIJ
 			   tag = DRA
 			   tag = BHA
-			   tag = ADR
 			   tag = HYD
 			   tag = HND
 			   tag = TRA

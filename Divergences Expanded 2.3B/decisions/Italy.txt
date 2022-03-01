@@ -369,7 +369,7 @@ political_decisions = {
 					remove_core = GRE
 				}
 				primary_culture = greek
-				add_accepted_culture = pontic
+				add_accepted_culture = pontic_greek
 				add_accepted_culture = venetian
 			}
 			badboy = -5
@@ -767,7 +767,6 @@ political_decisions = {
 			}
 			TUR_853 = { add_core = ITA }
 			MON_2582 = { add_core = ITA }
-			TUR_788 = { add_core = ITA }
 			AUS_771 = { add_core = ITA }
 			AUS_768 = { add_core = ITA }
 			BOS_783 = { add_core = ITA }
