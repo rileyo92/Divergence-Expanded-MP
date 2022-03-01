@@ -51,7 +51,6 @@ political_decisions = {
               vassal_of = THIS
             }
           }
-          }
         }
       }
       605 = {
@@ -73,7 +72,6 @@ political_decisions = {
               in_sphere = THIS
               vassal_of = THIS
             }
-          }
           }
         }
       }
