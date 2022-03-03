@@ -322,6 +322,7 @@ british = {
 		Moresby Mundy Napier "of Hannover" "of Saxe-Coburg-Gotha" Plummer Ragland Roberts Seaton Seymour
 		Smith Smith-Dorrien Stewart Thesiger Tyron Tyrwhitt Williams Windsor Wolseley Wood }
 	}
+	union = ENG
 }
 
 italian = {
@@ -1260,6 +1261,7 @@ tatar_group = {
 			Amirkhanov Faysi Gizzat Ibragimov Kamal Khusainov Tinchurin Tukay Yanbayev
 		}
 	}
+	union = TAR
 }
 
 iranian = {
@@ -2550,6 +2552,7 @@ latin_american = {
 		Reyes Robles Rocafuerte Rojas Salgar Santander Soublette Urbina Villegas Zalda
 		}
 	}
+	union = CLM
 }
 
 african_diaspora_cultures = {
