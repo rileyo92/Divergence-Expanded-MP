@@ -2,9 +2,10 @@ capital = 762
 primary_culture = maltese
 religion = catholic
 government = democracy
-plurality = 25.0
+plurality = 15.0
 nationalvalue = nv_liberty
 literacy = 0.25
+non_state_culture_literacy = 0.25
 civilized = yes
 prestige = 10
 

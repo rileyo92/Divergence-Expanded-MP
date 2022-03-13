@@ -535,6 +535,7 @@ political_decisions = {
 		effect = {
 			prestige = 5
 			set_country_flag = central_italy
+			add_accepted_culture = central_italian
 			add_accepted_culture = north_italian
 			add_accepted_culture = south_italian
 			PAP_741 = { add_core = THIS } #Emilia-Romanga
