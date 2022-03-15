@@ -76,7 +76,6 @@ mechanized_mining = 1
 basic_chemistry = 1
 
 #Inventions
-#corvettes = yes
 commerce_raiders = yes
 
 # Starting Consciousness

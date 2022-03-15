@@ -89,9 +89,7 @@ mechanized_mining = 1
 experimental_railroad = 1
 basic_chemistry = 1
 
-
 #Inventions
-#corvettes = yes
 precision_work = yes
 
 # Starting Consciousness

@@ -72,7 +72,6 @@ mechanized_mining = 1
 basic_chemistry = 1
 
 #Inventions
-#corvettes = yes
 commerce_raiders = yes
 
 schools = naval_tech_school
