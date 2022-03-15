@@ -1,7 +1,5 @@
 capital = 425
 primary_culture = french
-culture = provencal
-culture = breton
 religion = catholic
 government = absolute_monarchy
 plurality = 20.0

@@ -1,6 +1,5 @@
 capital = 848
 primary_culture = greek
-culture = venetian
 culture = turkish
 religion = orthodox
 government = absolute_monarchy

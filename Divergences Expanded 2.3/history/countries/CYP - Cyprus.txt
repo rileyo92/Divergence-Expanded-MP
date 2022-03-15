@@ -1,7 +1,6 @@
 capital = 855
 primary_culture = greek
 culture = venetian
-culture = turkish
 religion = orthodox
 government = democracy
 plurality = 0.05
