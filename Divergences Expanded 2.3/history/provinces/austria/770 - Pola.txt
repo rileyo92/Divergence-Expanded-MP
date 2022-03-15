@@ -2,11 +2,12 @@ owner = VEN
 controller = VEN
 add_core = VEN
 add_core = CRO
+add_core = DLM
 add_core = YUG
 trade_goods = grain
 life_rating = 35
 1836.1.2 = {
-  owner = CRO
-  controller = CRO
+  owner = DLM
+  controller = DLM
   remove_core = VEN
 }
