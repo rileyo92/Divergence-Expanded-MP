@@ -51,7 +51,6 @@ DIN		= "countries/Dine Bikeyah.txt" #Navajo
 DNG		= "countries/Dong Guo.txt"     #Qingqiu
 DRA		= "countries/Dravida.txt"      #Southern India Formable
 EQN		= "countries/Equinoxea.txt"
-ERI		= "countries/Eritrea.txt"      #Releasable in Africa
 FRI		= "countries/East Frisia.txt"
 FRR		= "countries/Ferrara.txt"
 FRT		= "countries/FranceItaly.txt"
@@ -140,7 +139,6 @@ TMR		="countries/Timor.txt"
 SLG		="countries/Selangor.txt"
 PRK		="countries/Perak.txt"
 PHG		="countries/Pahang.txt"
-FRO		="countries/Faroe.txt"
 NEH		="countries/Neuchatel Canton.txt"
 HBY		="countries/Hobyo.txt"
 QAT		="countries/Qatar.txt"
@@ -152,29 +150,22 @@ MKN		="countries/Mukriyan.txt"
 SRN		="countries/Soran.txt"
 LBG		="countries/Limburg.txt"
 PNB		="countries/Pernambuco.txt"
-FIU		="countries/Fiume.txt"
 SYC		="countries/Sicily.txt"
 MDV		="countries/Moldova.txt"
 SBA		="countries/Buenos Aires.txt"
 ARC		="countries/Argentine Conf.txt"
 LHJ		="countries/Lahej.txt"
-FDL		="countries/Fadhli.txt"
 KTH		="countries/Kathiri.txt"
 MHR		="countries/Mahra.txt"
 KML		="countries/Kumul.txt"
 SHK		="countries/Shilluk.txt"
 WRL 	="countries/Warsangali.txt"
-EZO		="countries/EzoRep.txt"
 QNG		="countries/Qing China.txt"
 MGH		="countries/Maghreb.txt"
-
-#HPM Africa
-EQG		="countries/Equatorial Guinea.txt"
 
 #Latin America
 
 CHP		= "countries/Champa.txt"
-ENT		= "countries/Entre Rios.txt"
 GCO		= "countries/Gran Colombia.txt"
 GUY		= "countries/Guyana.txt"
 LOS		= "countries/Los Altos.txt"
@@ -189,7 +180,6 @@ YUC		= "countries/Yucatan.txt"
 SFJ		= "countries/Sudurhafeyjar.txt"
 
 #North America
-FSA		= "countries/Free States of America.txt"
 GRN		= "countries/Greenland.txt"
 JAM		= "countries/Jamaica.txt"
 LSK		= "countries/Alaska.txt"
@@ -344,7 +334,6 @@ FJA		= "countries/Fuuta Jallon.txt"
 FUN		= "countries/Funj.txt"
 
 # Eastern Asia
-FJN		= "countries/Fujian.txt"
 GMJ		= "countries/Guominjun.txt"
 GNG		= "countries/Guangdong.txt"
 HNN		= "countries/Hunan.txt"
@@ -376,7 +365,6 @@ YZW		= "countries/Yonezawa.txt"
 
 # Australasia & the Pacific
 AOT     = "countries/Aotearoa.txt"
-FIJ		= "countries/Fiji.txt"
 SNZ     = "countries/South Island.txt"
 TGA		= "countries/Tonga.txt"
 
@@ -639,7 +627,6 @@ BAB		="countries/Babylonia.txt"
 TPG		="countries/Taiping.txt"
 
 ##EIC
-EIC		="countries/East India Company.txt"
 UTI		="countries/Utility Tag.txt"
 ##
 
