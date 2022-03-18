@@ -578,7 +578,6 @@ political_decisions = {
 				tag = ZAP
 				tag = SAN
 				tag = GUY
-				tag = CAS
 				tag = QUI
 				tag = ATS
 				accepted_culture = lusitanian

@@ -356,8 +356,10 @@ political_decisions = {
       set_country_flag = burgundian_integration
       add_accepted_culture = burgundian
       badboy = 10
-      LLR = { all_core = { add_core = DUA } }
-      BRG_607 = { add_core = THIS }
+      FRA_428 = { add_core = THIS } #Bourgogne
+      BUR_432 = { add_core = THIS } #Franche-Comte
+      FRA_411 = { add_core = THIS } #Lorraine
+      FRA_399 = { add_core = THIS } #Pas de Calais
     }
     ai_will_do = {
     	factor = 1

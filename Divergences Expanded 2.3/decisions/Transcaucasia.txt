@@ -114,16 +114,12 @@ political_decisions = {
 				is_greater_power = yes
 				is_secondary_power = yes
 			}
-			CHY = { exists = no }
 			DAG = { exists = no }
 			CIR = { exists = no }
 		}
 		effect = {
 			set_country_flag = claimed_north_caucasus
 			badboy = 5
-			CHY = {
-				all_core = { add_core = TCA }
-			}
 			CIR = {
 				all_core = { add_core = TCA }
 			}
@@ -136,7 +132,6 @@ political_decisions = {
 						OR = {
 							is_core = CIR
 							is_core = DAG
-							is_core = CHY
 						}
 					}
 					NOT = { tag = THIS }

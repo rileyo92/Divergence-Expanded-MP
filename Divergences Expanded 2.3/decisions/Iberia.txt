@@ -125,7 +125,6 @@ political_decisions = {
 				tag = ARA
 				tag = POR
 				tag = CAT
-				tag = GAL
 			}
 			NOT = { has_global_flag = iberian_union }
 			NOT = { has_global_flag = mancomunidad }
@@ -158,7 +157,6 @@ political_decisions = {
 						tag = ARA
 						tag = NAV
 						tag = POR
-						tag = GAL
 						tag = SPA
 					}
 					OR = {
