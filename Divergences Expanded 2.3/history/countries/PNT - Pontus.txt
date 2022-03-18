@@ -1,5 +1,6 @@
 capital = 882
-primary_culture = greek
+primary_culture = pontic_greek
+culture = greek
 religion = orthodox
 government = absolute_monarchy
 plurality = 0.0
@@ -24,7 +25,7 @@ work_hours = no_work_hour_limit
 safety_regulations = no_safety
 health_care = no_health_care
 unemployment_subsidies = no_subsidies
-pensions = no_pensions 
+pensions = no_pensions
 school_reforms = no_schools
 
 # New Reforms
@@ -35,7 +36,22 @@ child_labor = child_labor_legalcitizens_rights = primary_culture_only
 border_policy = open_borders
 
 set_country_flag = orthodox_country
-set_country_flag = unreleasable_country
+
+# Technologies
+post_napoleonic_thought = 1
+flintlock_rifles = 1
+bronze_muzzle_loaded_artillery = 1
+army_command_principle = 1
+post_nelsonian_thought = 1
+the_command_principle = 1
+private_banks = 1
+no_standard = 1
+guild_based_production = 1
+classicism_n_early_romanticism = 1
+late_enlightenment_philosophy = 1
+enlightenment_thought = 1
+piston_steam_engine = 1
+mechanical_production = 1
 
 ruling_party = GRE_conservative
 upper_house = {

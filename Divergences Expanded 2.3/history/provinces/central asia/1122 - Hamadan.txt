@@ -5,3 +5,8 @@ add_core = ARY
 add_core = PER
 trade_goods = fruit
 life_rating = 35
+1836.1.2 = {
+  owner = QAJ
+  controller = QAJ
+  remove_core = IRQ
+}
