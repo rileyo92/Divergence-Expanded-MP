@@ -99,10 +99,12 @@ country_event = {
 	option = {
 		name = "502001.A"
 		set_country_flag = tur_balkans
-		add_accepted_culture = bosniak
 		add_accepted_culture = albanian
+		add_accepted_culture = bulgarian
+		TUR_805 = { add_core = TUR } #East Macedonia
+		TUR_809 = { add_core = TUR } #Rumelia
 		ai_chance = {
-				factor = 45
+				factor = 40
 		}
 	}
 
@@ -111,7 +113,7 @@ country_event = {
 		set_country_flag = tur_arabia
 		capital = 876
 		ai_chance = {
-				factor = 45
+				factor = 30
 		}
 	}
 
@@ -123,6 +125,16 @@ country_event = {
 		add_accepted_culture = north_caucasian
 		ai_chance = {
 				factor = 10
+		}
+	}
+
+	option = {
+		name = "502001.E"
+		set_country_flag = tur_persia
+		capital = 876
+		add_accepted_culture = kurdish
+		ai_chance = {
+			factor =  20
 		}
 	}
 }

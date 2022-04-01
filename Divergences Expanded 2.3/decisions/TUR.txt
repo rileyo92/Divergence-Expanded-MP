@@ -222,7 +222,6 @@ political_decisions = {
 			add_accepted_culture = greek
 			add_accepted_culture = croat
 			add_accepted_culture = romanian
-			add_accepted_culture = georgian
 			set_country_flag = tanzimat_2
 		}
 	}
@@ -249,6 +248,7 @@ political_decisions = {
 			OR = {
 				has_country_flag = tur_turan
 				has_country_flag = tur_arabia
+				has_country_flag = tur_persia
 			}
 			NOT = { has_country_flag = reclaim_kurds }
 		}
@@ -323,7 +323,10 @@ political_decisions = {
 	reclaim_mesopotamia_tur = {
 		potential = {
 			tag = TUR
-			has_country_flag = tur_arabia
+			OR = {
+				has_country_flag = tur_arabia
+				has_country_flag = tur_persia
+			}
 			NOT = { has_country_flag = tur_invade_iraq }
 		}
 		allow = {
@@ -374,11 +377,29 @@ political_decisions = {
 		}
 	}
 
+	tur_arabian_integration_3 = {
+		potential = {
+			tag = TUR
+			has_country_flag = tur_arabia
+			NOT = { accepted_culture = maghrebi }
+		}
+		allow = {
+			mass_politics = 1
+		}
+		effect = {
+			add_accepted_culture = maghrebi
+			add_accepted_culture = berber
+		}
+	}
+
 	#Turania Focus
 	tur_caucasia_focus = {
 		potential = {
 			tag = TUR
-			has_country_flag = tur_turan
+			OR = {
+				has_country_flag = tur_turan
+				has_country_flag = tur_persia
+			}
 			NOT = { has_country_flag = tur_invade_caucass }
 		}
 		allow = {
@@ -395,6 +416,7 @@ political_decisions = {
 		potential = {
 			tag = TUR
 			has_country_flag = tur_invade_caucass
+			has_country_flag = tur_turan
 			NOT = { has_country_flag = tur_invade_tatarstan }
 		}
 		allow = {
@@ -445,6 +467,29 @@ political_decisions = {
 			add_accepted_culture = kirgiz
 			add_accepted_culture = oirat
 			add_accepted_culture = ugrian
+		}
+	}
+
+	#Persia Focus
+	tur_restore_persia = {
+		potential = {
+			tag = TUR
+			has_country_flag = tur_persia
+			NOT = { has_country_flag = turkish_persia }
+		}
+		allow = {
+			NOT = { war = yes }
+			owns = 1121
+      owns = 1135
+      owns = 1127
+			OR = { QAJ = { exists = no } tag = QAJ }
+			OR = { ZND = { exists = no } tag = ZND }
+		}
+		effect = {
+			change_tag = PER
+			set_country_flag = turkish_persia
+			add_accepted_culture = persian
+			add_accepted_culture = mashriqi
 		}
 	}
 }
