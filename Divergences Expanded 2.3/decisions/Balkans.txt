@@ -62,29 +62,12 @@ political_decisions = {
 		effect = {
 			set_country_flag = claimed_greater_serbia
 			prestige = 10
-			AUS_777 = { add_core = SER }
-      BOS_783 = { add_core = SER }
-			MON_2582 = { add_core = SER }
-			AUS_780 = { add_core = SER }
+			AUS_777 = { add_core = SER } #Slavonia
+      BOS_783 = { add_core = SER } #Bosnia
+			MON_2582 = { add_core = SER } #Montenegro
+			AUS_780 = { add_core = SER } #Dalmatia
 		}
 	}
-
-  integrate_mon_ser = {
-    picture = greater_serbia
-    potential = {
-      tag = SER
-      NOT = { has_country_flag = claimed_greater_serbia }
-      NOT = { has_country_flag = montenegro_ser }
-    }
-    allow = {
-      war = no
-      MON = { all_core = { owned_by = SER } }
-    }
-    effect = {
-      set_country_flag = montenegro_ser
-      MON = { all_core = { add_core = SER } }
-    }
-  }
 
   #Albania
   claim_greater_albania = {
@@ -100,10 +83,10 @@ political_decisions = {
 		}
 		effect = {
 			set_country_flag = claim_greater_albania
-			MON_2582 = { add_core = ALB }
-			TUR_803 = { add_core = ALB }
-      GRE_826 = { add_core = ALB }
-      GRE_837 = { add_core = ALB }
+			MON_2582 = { add_core = ALB } #Montenegro
+			TUR_803 = { add_core = ALB } #Southern Serbia
+      GRE_826 = { add_core = ALB } #Ionian Islands
+      GRE_837 = { add_core = ALB } #Epirus
 		}
 	}
 
@@ -179,12 +162,11 @@ political_decisions = {
 		effect = {
 			set_country_flag = greater_bulgaria_claimed
 			badboy = 10
-			TUR_859 = { add_core = BUL }
-			TUR_860 = { add_core = BUL }
-      TUR_819 = { add_core = BUL }
-      TUR_803 = { add_core = BUL }
-      TUR_674 = { add_core = BUL }
-      KOS_802 = { add_core = BUL }
+			TUR_859 = { add_core = BUL } #Eastern Thrace
+			TUR_860 = { add_core = BUL } #Constantinople
+      TUR_819 = { add_core = BUL } #West Macedonia
+      TUR_803 = { add_core = BUL } #Southern Serbia
+      KOS_802 = { add_core = BUL } #Kosovo
 		}
     ai_will_do = {
     	factor = 1
@@ -208,7 +190,7 @@ political_decisions = {
     }
     effect = {
       add_accepted_culture = greek
-      TUR_832 = { add_core = THIS }
+      TUR_832 = { add_core = THIS } #Thessalia
     }
   }
 
@@ -228,8 +210,8 @@ political_decisions = {
     }
     effect = {
       add_accepted_culture = albanian
-      TUR_853 = { add_core = THIS }
-      KOS_802 = { add_core = THIS }
+      TUR_853 = { add_core = THIS } #Albania
+      KOS_802 = { add_core = THIS } #Kosovo
     }
   }
 
@@ -255,11 +237,11 @@ political_decisions = {
     }
     effect = {
       add_accepted_culture = serb
-      KOS_802 = { add_core = THIS }
-      TUR_803 = { add_core = THIS }
-      SER_794 = { add_core = THIS }
-      AUS_777 = { add_core = THIS }
-      BOS = { all_core = { add_core = THIS } }
+      KOS_802 = { add_core = THIS } #Kosovo
+      TUR_803 = { add_core = THIS } #Southern Serbia
+      SER_794 = { add_core = THIS } #Northern Serbia
+      AUS_777 = { add_core = THIS } #Slavonia
+      BOS_783 = { add_core = THIS } #Bosnia
     }
   }
 
@@ -288,8 +270,8 @@ political_decisions = {
     }
     effect = {
       add_accepted_culture = turkish
-      TUR_869 = { add_core = THIS }
-      TUR_863 = { add_core = THIS }
+      TUR_869 = { add_core = THIS } #Asia Minor
+      TUR_863 = { add_core = THIS } #Bithynia
     }
   }
 
