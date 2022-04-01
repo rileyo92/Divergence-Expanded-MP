@@ -1,34 +1,34 @@
-#Macedonia Region (424000) #see Greece.txt and Bulgaria.txt for balance of region 
-#under the rule of Ottoman Empire in 1836  
-#Skopje (424000/106000 POPS) 
+#Macedonia Region (424000) #see Greece.txt and Bulgaria.txt for balance of region
+#under the rule of Ottoman Empire in 1836
+#Skopje (424000/106000 POPS)
 806 = {
 	aristocrats = {
-		culture = turkish
+		culture = bosniak
 		religion = sunni
 		size = 2450
 	}
 
 	clergymen = {
-		culture = turkish
+		culture = bosniak
 		religion = sunni
 		size = 325
 	}
 
 	artisans = {
-		culture = turkish
+		culture = bosniak
 		religion = sunni
 		size = 2000
 	}
 
 	soldiers = {
-		culture = turkish
+		culture = bosniak
 		religion = sunni
 		size= 3000
 
 	}
 
 	farmers = {
-		culture = turkish
+		culture = bosniak
 		religion = sunni
 		size = 25225
 	}
@@ -87,9 +87,9 @@
 		size = 275
 	}
 }
-#Monastir Region (268000) #see Greece.txt for balance of region 
-#under the rule of Ottoman Empire in 1836  
-#Bitola (268000/67000 POPS) 
+#Monastir Region (268000) #see Greece.txt for balance of region
+#under the rule of Ottoman Empire in 1836
+#Bitola (268000/67000 POPS)
 807 = {
 	clergymen = {
 		culture = bulgarian
@@ -110,44 +110,44 @@
 	}
 
 	aristocrats = {
-		culture = turkish
+		culture = bosniak
 		religion = sunni
 		size = 1500
 	}
 
 	bureaucrats = {
-		culture = turkish
+		culture = bosniak
 		religion = sunni
 		size = 225
 	}
 
 	officers = {
-		culture = turkish
+		culture = bosniak
 		religion = sunni
 		size = 175
 	}
 
 	clergymen = {
-		culture = turkish
+		culture = bosniak
 		religion = sunni
 		size = 50
 	}
 
 	artisans = {
-		culture = turkish
+		culture = bosniak
 		religion = sunni
 		size = 300
 	}
 
 	soldiers = {
-		culture = turkish
+		culture = bosniak
 		religion = sunni
 		size= 1100
 
 	}
 
 	farmers = {
-		culture = turkish
+		culture = bosniak
 		religion = sunni
 		size = 1975
 	}
