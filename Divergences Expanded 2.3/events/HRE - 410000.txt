@@ -1,4 +1,62 @@
 country_event = {
+
+	id = 410001
+	title = "HRE1.T"
+	desc = "HRE1.D"
+
+	is_triggered_only = yes
+
+	option = {
+	name = "410001.A"
+	any_country = {
+        			limit = {
+					NOT = { tag = KRL }
+        				OR = {
+        					primary_culture = rheinish
+        					primary_culture = north_german
+        					primary_culture = south_german
+							primary_culture = swiss
+        				}
+        				in_sphere = THIS
+        			}
+        			country_event = 410002
+        		}
+	any_owned = {
+		limit = { region = PRU_546 }
+		secede_province = POM
+		remove_core = THIS
+		}
+	any_owned = {
+		limit = { region = HOL_369 }
+		secede_province = HOL
+		}
+	any_owned = {
+		limit = { region = SCA_544 }
+		secede_province = POM
+		remove_core = THIS
+		}
+	BOH = { diplomatic_influence = { who = POM value = 200 } }
+	BOH = { diplomatic_influence = { who = HOL value = 200 } }
+
+	}
+
+}
+
+country_event = {
+        	id = 410002
+        	title = "410002.T"
+        	desc = "410002.D"
+
+        	is_triggered_only = yes
+
+        	option = {
+        		name = "410002.A"
+        		FROM = { diplomatic_influence = { who = THIS value = -200 } }
+        		BOH = { diplomatic_influence = { who = THIS value = 200 } }
+        	}
+}
+
+country_event = {
 	id = 410070
 	title = "BOHR.T"
 	desc = "BOHR.D"

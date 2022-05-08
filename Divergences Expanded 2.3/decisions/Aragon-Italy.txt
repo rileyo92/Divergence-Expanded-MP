@@ -11,11 +11,6 @@ political_decisions = {
 			state_n_government = 1
 			owns = 754 # Napoli
 			owns = 762 # Palermo
-			OR = {
-				government = absolute_monarchy
-				government = prussian_constitutionalism
-				government = hms_government
-			}
 			ITA = {
 				all_core = {
 					OR = {
@@ -43,10 +38,7 @@ political_decisions = {
 			}
 			capital = 749
 			add_accepted_culture = central_italian
-			749 = { add_core = THIS }
-			750 = { add_core = THIS }
-			751 = { add_core = THIS }
-			752 = { add_core = THIS }
+			PAP_752 = { add_core = THIS }
 			any_country = {
 				limit = {
 					OR = {
@@ -216,7 +208,7 @@ political_decisions = {
 		}
 		allow = {
 			all_core = { owned_by = THIS }
-			rank = 5
+			is_greater_power = yes
 			revolution_n_counterrevolution = 1
 		}
 		effect = {

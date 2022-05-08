@@ -91,7 +91,6 @@ political_decisions = {
 			allow = {
 				NOT = { war = yes }
 				NOT = { part_of_sphere = yes }
-				rank = 6
 				OR = {
 					AND = {
 						tag = MUS

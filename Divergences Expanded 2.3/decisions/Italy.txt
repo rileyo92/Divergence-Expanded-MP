@@ -135,7 +135,6 @@ political_decisions = {
 		allow = {
 			NOT = { war = yes }
 			government = democracy
-			rank = 30
 			ITA = {
 				exists = no
 			}

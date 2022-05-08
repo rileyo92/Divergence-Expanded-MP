@@ -5548,65 +5548,22 @@ hre_unification = {
 			NOT = { year = 1848 }
 		}
 		year = 1837
-		NOT = { is_our_vassal = THIS }
-		tag = SCA
-		is_greater_power = yes
+		NOT = {
+			is_our_vassal = THIS
+			vassal_of = THIS
+			in_sphere = THIS
+		}
 		OR = {
-			war_with = THIS
-			THIS = {
-				NOT = { has_country_modifier = no_more_war }
+			AND = {
+				any_owned_province = {
+					OR = {
+						region = PRU_546
+						region = SCA_544
+						region = HOL_369
+					}
+				}
 			}
 		}
-	}
-
-	po_remove_prestige = yes
-
-	on_po_accepted = {
-		country_event =	410001 # Nice event
-	}
-
-	tws_battle_factor = 2.0 # battle score twice that of opponent
-
-	war_name = UNIFICATION_HUMILIATE_NAME
-
-	on_add = {
-		move_issue_percentage = {
-			from = jingoism
-			to = pro_military
-			value = 0.1
-		}
-	}
-}
-
-hre_unification2 = {
-	sprite_index = 11
-	is_triggered_only = no
-	months = 12
-	crisis = no
-
-	badboy_factor = 1
-	prestige_factor = 1
-	peace_cost_factor = 25
-	penalty_factor = 1
-	always = yes
-
-	break_truce_prestige_factor = 1
-	break_truce_infamy_factor = 1
-	break_truce_militancy_factor = 1
-	truce_months = 12
-
-	good_relation_prestige_factor = 1
-	good_relation_infamy_factor = 1
-	good_relation_militancy_factor = 1
-
-	can_use = {
-		THIS ={
-			tag = BOH
-			is_greater_power = yes
-			NOT = { year = 1848 }
-		}
-		NOT = { is_our_vassal = THIS }
-		year = 1837
 		tag = BRG
 		is_greater_power = yes
 		OR = {

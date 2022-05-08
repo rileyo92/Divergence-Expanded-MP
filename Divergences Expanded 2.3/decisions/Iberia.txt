@@ -182,6 +182,7 @@ political_decisions = {
 		potential = {
 			tag = IBR
 			NOT = { has_country_flag = ibr_aragon_claims }
+			NOT = { has_country_flag = occitan_claims }
 		}
 		allow = {
 			SRD = {
@@ -220,6 +221,7 @@ political_decisions = {
 		potential = {
 			tag = IBR
 			NOT = { has_country_flag = ibr_integrating_napoli }
+			NOT = { has_country_flag = occitan_claims }
 		}
 		allow = {
 			revolution_n_counterrevolution = 1
@@ -262,6 +264,7 @@ political_decisions = {
 		potential = {
 			tag = IBR
 			NOT = { has_country_flag = occitans_integrated }
+			NOT = { has_country_flag = ibr_aragon_claims }
 			has_country_flag = occitan_claims
 		}
 		allow = {

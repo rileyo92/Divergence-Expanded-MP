@@ -330,7 +330,6 @@ political_decisions = {
 		picture = universidad_mexico
 		potential = {
 			tag = CLM
-			rank = 16
 			NOT = { has_country_flag = university_MEX }
 		}
 		allow = {

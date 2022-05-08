@@ -13,7 +13,8 @@ political_decisions = {
 		effect = {
 			prestige = 10
 			badboy = 7.5
-			PRU = { all_core = { add_core = THIS } }
+      PRU_695 = { add_core = THIS }
+			PRU_690 = { add_core = THIS }
       add_accepted_culture = latvian
 			set_country_flag = baltic_claimed
 		}
@@ -27,9 +28,9 @@ political_decisions = {
 		potential = {
 			tag = SCA
       NOT = { has_country_flag = north_sea_empire }
+      NOT = { has_country_flag = lol_gg }
 			has_country_flag = baltic_claimed
       accepted_culture = latvian
-			NOT = { has_country_flag = lol_gg }
 		}
 		allow = {
 			owns = 365
@@ -72,12 +73,12 @@ political_decisions = {
   integrate_pomeranians = {
 		potential = {
 			tag = SCA
-      owns = 544
-			owns = 369
 			NOT = { has_country_flag = north_integration }
 		}
 		allow = {
 			state_n_government = 1
+      owns = 544
+			owns = 369
 		}
 		effect = {
 			prestige = 20

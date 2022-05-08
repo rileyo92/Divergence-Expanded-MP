@@ -32,7 +32,6 @@ political_decisions = {
 		}
 		allow = {
 			SER = { vassal_of = THIS }
-			rank = 20
 			OR = {
 				year = 1850
 				780 = { owned_by = THIS }

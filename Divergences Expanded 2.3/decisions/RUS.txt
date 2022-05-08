@@ -432,14 +432,8 @@ political_decisions = {
 		}
 		allow = {
 			OR = {
-				AND = {
-					rank = 16
-					NOT = { SCA = { is_greater_power = yes } }
-				}
-				AND = {
-					rank = 16
-					year = 1845
-				}
+				NOT = { SCA = { is_greater_power = yes } }
+				year = 1845
 				is_greater_power = yes
 			}
 		}

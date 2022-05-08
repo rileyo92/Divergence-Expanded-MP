@@ -48,7 +48,6 @@ political_decisions = {
     }
     allow = {
       revolution_n_counterrevolution = 1
-      rank = 12
     }
     effect = {
       add_accepted_culture = boer

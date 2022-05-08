@@ -182,7 +182,6 @@ political_decisions = {
 		allow = {
 			NOT = { war = yes }
 			NOT = { is_vassal = yes }
-			rank = 20
 			THIS = { all_core = { owned_by = THIS } }
 		}
 		effect = {
@@ -256,7 +255,6 @@ political_decisions = {
 		allow = {
 			NOT = { war = yes }
 			NOT = { is_vassal = yes }
-			rank = 20
 			NUS = {
 				all_core = {
 					OR = {
