@@ -1261,7 +1261,6 @@ tatar_group = {
 			Amirkhanov Faysi Gizzat Ibragimov Kamal Khusainov Tinchurin Tukay Yanbayev
 		}
 	}
-	union = TAR
 }
 
 iranian = {

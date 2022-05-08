@@ -8,7 +8,7 @@ country_event = {
 	news_desc_medium = "EVTDESC60000_NEWS_MEDIUM"
 	news_desc_short = "EVTDESC60000_NEWS_SHORT"
 	picture = "communist_crowd"
-	
+
 	trigger = {
 		is_vassal = no
 		civilized = yes
@@ -24,7 +24,7 @@ country_event = {
 			average_militancy = 5
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 12
 		modifier = {
@@ -76,7 +76,7 @@ country_event = {
 	news_desc_medium = "EVTDESC60010_NEWS_MEDIUM"
 	news_desc_short = "EVTDESC60010_NEWS_SHORT"
 	picture = "Fascist"
-	
+
 	trigger = {
 		is_vassal = no
 		civilized = yes
@@ -94,7 +94,7 @@ country_event = {
 			average_militancy = 5
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 180
 		modifier = {
@@ -164,7 +164,7 @@ country_event = {
 	news_desc_medium = "EVTDESC60020_NEWS_MEDIUM"
 	news_desc_short = "EVTDESC60020_NEWS_SHORT"
 	picture = "election"
-	
+
 	trigger = {
 		is_vassal = no
 		civilized = yes
@@ -179,7 +179,7 @@ country_event = {
 			average_militancy = 5
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 24
 		modifier = {
@@ -235,7 +235,7 @@ country_event = {
 	news_desc_medium = "EVTDESC60030_NEWS_MEDIUM"
 	news_desc_short = "EVTDESC60030_NEWS_SHORT"
 	picture = "Fascist"
-	
+
 	trigger = {
 		is_vassal = no
 		civilized = yes
@@ -250,7 +250,7 @@ country_event = {
 			average_militancy = 5
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 12
 		modifier = {
@@ -300,7 +300,7 @@ country_event = {
 	news_desc_medium = "EVTDESC60050_NEWS_MEDIUM"
 	news_desc_short = "EVTDESC60050_NEWS_SHORT"
 	picture = "senate_debate"
-	
+
 	trigger = {
 		OR = {
 			government = proletarian_dictatorship
@@ -314,7 +314,7 @@ country_event = {
 		NOT = { political_parties = underground_parties }
 		NOT = { upper_house_composition = party_appointed }
 	}
-	
+
 	mean_time_to_happen = {
 		months = 1
 	}
@@ -346,20 +346,20 @@ country_event = {
 	title = "EVTNAME60040"
 	desc = "EVTDESC60040"
 	picture = "Monarchy"
-	
+
 	trigger = {
 		OR = {
 			government = hms_government
 			government = prussian_constitutionalism
 		}
-		civilized = yes	
+		civilized = yes
 		vote_franschise = none_voting
 	}
-	
+
 	mean_time_to_happen = {
 		months = 1
 	}
-	
+
 	option = {
 		name = "EVTOPTA60040"
 		clr_country_flag = everywhere_genocide_only
@@ -389,20 +389,20 @@ country_event = {
 	news_desc_medium = "EVTDESC60060_NEWS_MEDIUM"
 	news_desc_short = "EVTDESC60060_NEWS_SHORT"
 	picture = "Monarchy"
-	
+
 	trigger = {
 		OR = {
 			government = feudal_monarchy
 			government = absolute_monarchy
 		}
-		NOT = { vote_franschise = none_voting }		
-		civilized = yes	
+		NOT = { vote_franschise = none_voting }
+		civilized = yes
 	}
-	
+
 	mean_time_to_happen = {
 		months = 1
 	}
-	
+
 	option = {
 		name = "EVTNAME60060"
 		clr_country_flag = everywhere_genocide_only
@@ -433,7 +433,7 @@ country_event = {
 	news_desc_medium = "EVTDESC60070_NEWS_MEDIUM"
 	news_desc_short = "EVTDESC60070_NEWS_SHORT"
 	picture = "Monarchy"
-	
+
 	trigger = {
 		government = prussian_constitutionalism
 		OR = {
@@ -446,11 +446,11 @@ country_event = {
 			vote_franschise = universal_voting
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 1
 	}
-	
+
 	option = {
 		name = "EVTOPTA60070"
 		clr_country_flag = everywhere_genocide_only
@@ -481,13 +481,13 @@ country_event = {
 	news_desc_medium = "EVTDESC60080_NEWS_MEDIUM"
 	news_desc_short = "EVTDESC60080_NEWS_SHORT"
 	picture = "communist_crowd"
-	
+
 	trigger = {
 		OR = {
 			government = democracy
 			government = merchant_republic
 		}
-		vote_franschise = none_voting		
+		vote_franschise = none_voting
 		OR = {
 			ruling_party_ideology = conservative
 			ruling_party_ideology = reactionary
@@ -496,7 +496,7 @@ country_event = {
 		}
 		civilized = yes
 	}
-	
+
 	mean_time_to_happen = {
 		months = 1
 	}
@@ -530,7 +530,7 @@ country_event = {
 	news_desc_medium = "EVTDESC60080_NEWS_MEDIUM"
 	news_desc_short = "EVTDESC60080_NEWS_SHORT"
 	picture = "communist_crowd"
-	
+
 	trigger = {
 		OR = {
 			government = democracy
@@ -540,7 +540,7 @@ country_event = {
 		ruling_party_ideology = anarcho_liberal
 		civilized = yes
 	}
-	
+
 	mean_time_to_happen = {
 		months = 1
 	}
@@ -574,7 +574,7 @@ country_event = {
 	news_desc_medium = "EVTDESC60080_NEWS_MEDIUM"
 	news_desc_short = "EVTDESC60080_NEWS_SHORT"
 	picture = "communist_crowd"
-	
+
 	trigger = {
 		OR = {
 			government = democracy
@@ -584,7 +584,7 @@ country_event = {
 		ruling_party_ideology = communist
 		civilized = yes
 	}
-	
+
 	mean_time_to_happen = {
 		months = 1
 	}
@@ -618,7 +618,7 @@ country_event = {
 	news_desc_medium = "EVTDESC60080_NEWS_MEDIUM"
 	news_desc_short = "EVTDESC60080_NEWS_SHORT"
 	picture = "communist_crowd"
-	
+
 	trigger = {
 		OR = {
 			government = democracy
@@ -628,11 +628,11 @@ country_event = {
 		ruling_party_ideology = fascist
 		civilized = yes
 	}
-	
+
 	mean_time_to_happen = {
 		months = 1
 	}
-	
+
 	major = yes
 	option = {
 		name = "EVT60110OPTA"
@@ -659,7 +659,7 @@ country_event = {
 	title = "EVTNAME60120"
 	desc = "EVTDESC60120"
 	picture = "greatpowers"
-	
+
 	trigger = {
 		ai = yes
 		war = no
@@ -702,14 +702,14 @@ country_event = {
 			tag = UBD
 			tag = INO
 			tag = IRE
-			tag = ARA 
+			tag = ARA
 			tag = CAT
 		}
 		NOT = { has_country_flag = post_colonial_country }
 	}
-	
+
 	mean_time_to_happen = { months = 12 }
-	
+
 	option = {
 		name = "EVTOPTA60120"
 		sphere_owner = { country_event = 60130 }
@@ -722,9 +722,9 @@ country_event = {
 	title = "EVTNAME60130"
 	desc = "EVTDESC60130"
 	picture = "greatpowers"
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA60130"
 		prestige = 5
@@ -741,7 +741,7 @@ country_event = {
 			factor = 95
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTB60130"
 		clr_country_flag = crown_from_the_gutter
@@ -769,7 +769,7 @@ country_event = {
 	title = "EVTNAME60140"
 	desc = "EVTDESC60140"
 	picture = "Administration"
-	
+
 	trigger = {
 		civilized = yes
 		upper_house_composition = party_appointed
@@ -778,11 +778,11 @@ country_event = {
 			ruling_party_ideology = socialist
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 1
 	}
-	
+
 	option = {
 		name = "EVTOPTA60140"
 		political_reform = appointed
@@ -794,7 +794,7 @@ country_event = {
 	title = "EVTNAME60141"
 	desc = "EVTDESC60141"
 	picture = "communist_congress"
-	
+
 	trigger = {
 		civilized = yes
 		trade_unions = no_trade_unions
@@ -807,11 +807,11 @@ country_event = {
 			ruling_party_ideology = socialist
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 1
 	}
-	
+
 	option = {
 		name = "EVTOPTA60141"
 		political_reform = state_controlled
@@ -823,17 +823,17 @@ country_event = {
 	title = "EVTNAME60150"
 	desc = "EVTDESC60150"
 	picture = "Unite"
-	
+
 	trigger = {
 		has_country_modifier = female_suffrage
 		NOT = { vote_franschise = universal_weighted_voting }
 		NOT = {	vote_franschise = universal_voting }
 	}
-	
+
 	mean_time_to_happen = {
 		months = 1
 	}
-	
+
 	option = {
 		name = "EVTOPTA60150"
 		war_exhaustion = 5
@@ -848,7 +848,7 @@ country_event = {
 	title = "EVTNAME60165"
 	desc = "EVTDESC60165"
 	picture = "bankruptcy"
-	
+
 	trigger = {
 		ai = yes
 		civilized = yes
@@ -866,11 +866,11 @@ country_event = {
 			has_country_modifier = emergency_tax_measures2
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 1
 	}
-	
+
 	option = {
 		name = "EVT60165OPTA"
 		add_country_modifier = {
@@ -885,18 +885,18 @@ country_event = {
 	title = "EVTNAME60166"
 	desc = "EVTDESC60166"
 	picture = "bankruptcy"
-	
+
 	trigger = {
 		ai = yes
 		civilized = yes
 		has_country_modifier = emergency_tax_measures1
 		NOT = { money = 10 }
 	}
-	
+
 	mean_time_to_happen = {
 		months = 6
 	}
-	
+
 	option = {
 		name = "EVT60165OPTA"
 		remove_country_modifier = emergency_tax_measures1
@@ -911,8 +911,8 @@ country_event = {
 	id = 60167
 	title = "EVTNAME60167"
 	desc = "EVTDESC60167"
-	picture = "bankruptcy"	
-	
+	picture = "bankruptcy"
+
 	trigger = {
 		OR = {
 			has_country_modifier = emergency_tax_measures1
@@ -923,7 +923,7 @@ country_event = {
 			money = 1000
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 1
 		modifier = {
@@ -931,7 +931,7 @@ country_event = {
 			ai = no
 		}
 	}
-	
+
 	option = {
 		name = "EVT60167OPTA"
 		remove_country_modifier = emergency_tax_measures1
@@ -944,9 +944,9 @@ country_event = {
 	id = 6016807
 	title = "EVTNAME6016807"
 	desc = "EVTDESC6016807"
-		
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		any_owned = {
 			limit = {
@@ -954,15 +954,15 @@ country_event = {
 				NOT = { province_id = 464 }
 				NOT = { province_id = 460 }
 			}
-			assimilate = yes 
+			assimilate = yes
 		}
 	}
-	
+
 	option = {
 		name = "EVT6016807PTA"
 		annex_to = FRA
 	}
-	
+
 }
 
 #Totalitarian modifiers in a non totalitarian regime
@@ -971,7 +971,7 @@ country_event = {
 	title = "EVTNAME6016809"
 	desc = "EVTDESC6016809"
 	picture = "greatpowers"
-		
+
 	trigger = {
 		NOT = { government = fascist_dictatorship }
 		NOT = { government = proletarian_dictatorship }
@@ -984,7 +984,7 @@ country_event = {
 	}
 
 	mean_time_to_happen = { days = 1 }
-	
+
 	option = {
 		name = "EVT6016809PTA"
 			remove_country_modifier = totalitarian_system
@@ -1000,7 +1000,7 @@ country_event = {
 	title = "EVTNAME6016811"
 	desc = "EVTDESC6016811"
 	picture = "deliberation"
-		
+
 	trigger = {
 		year = 1890
 		OR = {
@@ -1014,9 +1014,9 @@ country_event = {
 			government = fascist_dictatorship
 		}
 	}
-	
+
 	mean_time_to_happen = { days = 1 }
-	
+
 	option = {
 		name = "EVT6016811OPTA"
 		remove_country_modifier = international_zone_modifier
@@ -1030,9 +1030,9 @@ country_event = {
 	title = "EVTNAME6016812"
 	desc = "EVTDESC6016812"
 	picture = "ironclad_warship"
-		
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVT6016812OPTA"
 		random_owned = { limit = { has_building = naval_base is_core = THIS } sub_unit = { type = ironclad value = current } }
@@ -1049,7 +1049,7 @@ country_event = {
 	title = "EVTNAME6016813"
 	desc = "EVTDESC6016813"
 	picture = "communist_crowd"
-		
+
 	trigger = {
 		government = theocracy
 		NOT = { tag = MON }
@@ -1066,1660 +1066,9 @@ country_event = {
 	}
 
 	mean_time_to_happen = { months = 1 }
-	
+
 	option = {
 		name = "EVT6016813OPTA"
 		government = absolute_monarchy
 	}
 }
-
-
-#Party Loyalty cleanup
-country_event = {
-	id = 6016814
-	title = "EVTNAME6016814"
-	desc = "EVTDESC6016814"
-		
-	is_triggered_only = yes
-
-	option = {
-		name = "EVT6016814OPTA"
-		#USA
-		USA = {
-			210 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -12
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -15
-				}
-			}
-			232 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -12
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -13
-				}
-			}
-			213 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -12
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -13
-				}
-			}
-			220 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -12
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -13
-				}
-			}
-			221 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -12
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -13
-				}
-			}
-			139 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -20
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -10
-				}
-			}
-			169 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -20
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -5
-				}
-			}
-			170 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -20
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -5
-				}
-			}
-			171 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -20
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -5
-				}
-			}
-			172 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -20
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -5
-				}
-			}
-			173 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -20
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -10
-				}
-			}
-			178 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -20
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -5
-				}
-			}
-			179 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -20
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -5
-				}
-			}
-			180 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -20
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -5
-				}
-			}
-			181 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -20
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -5
-				}
-			}
-			182 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -20
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -7
-				}
-			}
-			184 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -20
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -5
-				}
-			}
-			185 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -20
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -5
-				}
-			}
-			186 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -20
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -5
-				}
-			}
-			189 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -20
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -5
-				}
-			}
-			190 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -20
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -5
-				}
-			}
-			191 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -20
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -5
-				}
-			}
-			195 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -20
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -5
-				}
-			}
-			198 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -20
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -5
-				}
-			}
-			204 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -20
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -5
-				}
-			}
-			206 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -20
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -5
-				}
-				party_loyalty = {
-					ideology = reactionary
-					loyalty_value = -5
-				}
-			}
-			209 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -20
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -5
-				}
-			}
-			212 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -20
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -5
-				}
-			}
-			217 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -20
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -10
-				}
-			}
-			219 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -20
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -5
-				}
-			}
-			222 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -20
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -5
-				}
-			}
-			231 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -20
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -5
-				}
-			}
-			236 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -20
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -5
-				}
-			}
-			237 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -20
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -10
-				}
-			}
-			244 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -20
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -5
-				}
-			}
-			245 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -20
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -5
-				}
-			}
-			246 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -20
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -5
-				}
-			}
-			2555 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -20
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -5
-				}
-			}
-			2556 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -20
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -5
-				}
-			}
-			183 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -17
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -5
-				}
-			}
-			239 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -12
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -17
-				}
-			}
-			147 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -12
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -15
-				}
-			}
-			148 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -12
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -15
-				}
-			}
-			149 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -12
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -15
-				}
-			}
-			150 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -12
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -15
-				}
-			}
-			165 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -12
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -15
-				}
-			}
-			166 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -12
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -15
-				}
-			}
-			167 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -12
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -15
-				}
-			}
-			168 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -12
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -15
-				}
-			}
-			174 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -12
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -15
-				}
-			}
-			175 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -12
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -15
-				}
-			}
-			176 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -12
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -15
-				}
-			}
-			187 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -12
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -15
-				}
-			}
-			188 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -15
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -5
-				}
-			}
-			192 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -12
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -15
-				}
-			}
-			194 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -12
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -15
-				}
-			}
-			196 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -12
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -15
-				}
-			}
-			197 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -12
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -15
-				}
-			}
-			200 = {
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -15
-				}
-			}
-			205 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -15
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -5
-				}
-				party_loyalty = {
-					ideology = reactionary
-					loyalty_value = -5
-				}
-			}
-			207 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -12
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -15
-				}
-			}
-			208 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -12
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -15
-				}
-			}
-			229 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -15
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -5
-				}
-			}
-			230 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -15
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -5
-				}
-			}
-			243 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -15
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -5
-				}
-			}
-			233 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -12
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -12
-				}
-			}
-			234 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -12
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -12
-				}
-			}
-			235 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -12
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -12
-				}
-			}
-			238 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -12
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -12
-				}
-			}
-			240 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -12
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -12
-				}
-			}
-			241 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -45
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -7
-				}
-			}
-			242 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -12
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -12
-				}
-			}
-			247 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -12
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -12
-				}
-			}
-			248 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -12
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -12
-				}
-			}
-			249 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -12
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -12
-				}
-			}
-			140 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -12
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -12
-				}
-			}
-			141 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -12
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -12
-				}
-			}
-			142 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -12
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -12
-				}
-			}
-			143 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -12
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -12
-				}
-			}
-			144 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -12
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -12
-				}
-			}
-			145 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -12
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -12
-				}
-			}
-			146 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -12
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -12
-				}
-			}
-			163 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -12
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -12
-				}
-			}
-			177 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -12
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -12
-				}
-			}
-			199 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -12
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -5
-				}
-			}
-			201 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -12
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -12
-				}
-			}
-			211 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -12
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -12
-				}
-			}
-			214 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -12
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -12
-				}
-			}
-			215 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -12
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -12
-				}
-			}
-			216 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -12
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -12
-				}
-			}
-			218 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -12
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -12
-				}
-			}
-			223 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -10
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -10
-				}
-			}
-			224 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -12
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -12
-				}
-			}
-			226 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -12
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -12
-				}
-			}
-			227 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -12
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -12
-				}
-			}
-			164 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -10
-				}
-			}
-			193 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -10
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -5
-				}
-			}
-			225 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -10
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -10
-				}
-			}
-			228 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -10
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -10
-				}
-			}
-			202 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -5
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -5
-				}
-			}
-			60 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -25
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -25
-				}
-			}
-			2146 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -40
-				}
-			}
-			2627 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -25
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -25
-				}
-			}
-		}
-		
-		#UK
-		ENG = {
-			266 = {
-					party_loyalty = {
-						ideology = conservative
-						loyalty_value = -17
-					}
-					party_loyalty = {
-						ideology = liberal
-						loyalty_value = -12
-					}
-				}
-				267 = {
-					party_loyalty = {
-						ideology = conservative
-						loyalty_value = -17
-					}
-					party_loyalty = {
-						ideology = liberal
-						loyalty_value = -12
-					}
-				}
-				272 = {
-					party_loyalty = {
-						ideology = conservative
-						loyalty_value = -17
-					}
-					party_loyalty = {
-						ideology = liberal
-						loyalty_value = -12
-					}
-				}
-				273 = {
-					party_loyalty = {
-						ideology = conservative
-						loyalty_value = -17
-					}
-					party_loyalty = {
-						ideology = liberal
-						loyalty_value = -12
-					}
-				}
-				274 = {
-					party_loyalty = {
-						ideology = conservative
-						loyalty_value = -17
-					}
-					party_loyalty = {
-						ideology = liberal
-						loyalty_value = -12
-					}
-				}
-				276 = {
-					party_loyalty = {
-						ideology = conservative
-						loyalty_value = -17
-					}
-					party_loyalty = {
-						ideology = liberal
-						loyalty_value = -12
-					}
-				}
-				278 = {
-					party_loyalty = {
-						ideology = conservative
-						loyalty_value = -17
-					}
-					party_loyalty = {
-						ideology = liberal
-						loyalty_value = -12
-					}
-				}
-				285 = {
-					party_loyalty = {
-						ideology = conservative
-						loyalty_value = -17
-					}
-					party_loyalty = {
-						ideology = liberal
-						loyalty_value = -12
-					}
-				}
-				291 = {
-					party_loyalty = {
-						ideology = conservative
-						loyalty_value = -17
-					}
-					party_loyalty = {
-						ideology = liberal
-						loyalty_value = -12
-					}
-				}
-				293 = {
-					party_loyalty = {
-						ideology = conservative
-						loyalty_value = -17
-					}
-					party_loyalty = {
-						ideology = liberal
-						loyalty_value = -12
-					}
-				}
-				294 = {
-					party_loyalty = {
-						ideology = conservative
-						loyalty_value = -17
-					}
-					party_loyalty = {
-						ideology = liberal
-						loyalty_value = -12
-					}
-					party_loyalty = {
-						ideology = reactionary
-						loyalty_value = -5
-					}
-				}
-				295 = {
-					party_loyalty = {
-						ideology = conservative
-						loyalty_value = -17
-					}
-					party_loyalty = {
-						ideology = liberal
-						loyalty_value = -12
-					}
-				}
-				296 = {
-					party_loyalty = {
-						ideology = conservative
-						loyalty_value = -12
-					}
-					party_loyalty = {
-						ideology = liberal
-						loyalty_value = -17
-					}
-				}
-				297 = {
-					party_loyalty = {
-						ideology = conservative
-						loyalty_value = -17
-					}
-					party_loyalty = {
-						ideology = liberal
-						loyalty_value = -12
-					}
-				}
-				270 = {
-					party_loyalty = {
-						ideology = conservative
-						loyalty_value = -2
-					}
-					party_loyalty = {
-						ideology = liberal
-						loyalty_value = -20
-					}
-				}
-				1724 = {
-					party_loyalty = {
-						ideology = liberal
-						loyalty_value = -20
-					}
-				}
-				275 = {
-					party_loyalty = {
-						ideology = conservative
-						loyalty_value = -20
-					}
-					party_loyalty = {
-						ideology = liberal
-						loyalty_value = -10
-					}
-				}
-				298 = {
-					party_loyalty = {
-						ideology = conservative
-						loyalty_value = -12
-					}
-					party_loyalty = {
-						ideology = liberal
-						loyalty_value = -17
-					}
-				}
-				303 = {
-					party_loyalty = {
-						ideology = conservative
-						loyalty_value = -17
-					}
-					party_loyalty = {
-						ideology = liberal
-						loyalty_value = -12
-					}
-				}
-				254 = {
-					party_loyalty = {
-						ideology = conservative
-						loyalty_value = -20
-					}
-					party_loyalty = {
-						ideology = liberal
-						loyalty_value = -5
-					}
-				}
-				255 = {
-					party_loyalty = {
-						ideology = conservative
-						loyalty_value = -20
-					}
-					party_loyalty = {
-						ideology = liberal
-						loyalty_value = -5
-					}
-				}
-				256 = {
-					party_loyalty = {
-						ideology = conservative
-						loyalty_value = -20
-					}
-					party_loyalty = {
-						ideology = liberal
-						loyalty_value = -5
-					}
-				}
-				257 = {
-					party_loyalty = {
-						ideology = conservative
-						loyalty_value = -20
-					}
-					party_loyalty = {
-						ideology = liberal
-						loyalty_value = -5
-					}
-				}
-				258 = {
-					party_loyalty = {
-						ideology = liberal
-						loyalty_value = -20
-					}
-				}
-				259 = {
-					party_loyalty = {
-						ideology = liberal
-						loyalty_value = -20
-					}
-				}
-				260 = {
-					party_loyalty = {
-						ideology = liberal
-						loyalty_value = -20
-					}
-				}
-				261 = {
-					party_loyalty = {
-						ideology = liberal
-						loyalty_value = -20
-					}
-				}
-				262 = {
-					party_loyalty = {
-						ideology = liberal
-						loyalty_value = -20
-					}
-				}
-				263 = {
-					party_loyalty = {
-						ideology = liberal
-						loyalty_value = -20
-					}
-				}
-				264 = {
-					party_loyalty = {
-						ideology = conservative
-						loyalty_value = -10
-					}
-					party_loyalty = {
-						ideology = liberal
-						loyalty_value = -20
-					}
-				}
-				265 = {
-					party_loyalty = {
-						ideology = liberal
-						loyalty_value = -20
-					}
-				}
-				268 = {
-					party_loyalty = {
-						ideology = conservative
-						loyalty_value = -5
-					}
-					party_loyalty = {
-						ideology = liberal
-						loyalty_value = -20
-					}
-				}
-				269 = {
-					party_loyalty = {
-						ideology = conservative
-						loyalty_value = -5
-					}
-					party_loyalty = {
-						ideology = liberal
-						loyalty_value = -20
-					}
-				}
-				271 = {
-					party_loyalty = {
-						ideology = conservative
-						loyalty_value = -5
-					}
-					party_loyalty = {
-						ideology = liberal
-						loyalty_value = -20
-					}
-				}
-				277 = {
-					party_loyalty = {
-						ideology = conservative
-						loyalty_value = -20
-					}
-					party_loyalty = {
-						ideology = liberal
-						loyalty_value = -5
-					}
-				}
-				279 = {
-					party_loyalty = {
-						ideology = conservative
-						loyalty_value = -20
-					}
-					party_loyalty = {
-						ideology = liberal
-						loyalty_value = -10
-					}
-				}
-				280 = {
-					party_loyalty = {
-						ideology = conservative
-						loyalty_value = -5
-					}
-					party_loyalty = {
-						ideology = liberal
-						loyalty_value = -20
-					}
-				}
-				281 = {
-					party_loyalty = {
-						ideology = conservative
-						loyalty_value = -10
-					}
-					party_loyalty = {
-						ideology = liberal
-						loyalty_value = -20
-					}
-				}
-				282 = {
-					party_loyalty = {
-						ideology = liberal
-						loyalty_value = -20
-					}
-				}
-				283 = {
-					party_loyalty = {
-						ideology = liberal
-						loyalty_value = -20
-					}
-				}
-				288 = {
-					party_loyalty = {
-						ideology = conservative
-						loyalty_value = -20
-					}
-					party_loyalty = {
-						ideology = liberal
-						loyalty_value = -10
-					}
-				}
-				289 = {
-					party_loyalty = {
-						ideology = conservative
-						loyalty_value = -20
-					}
-					party_loyalty = {
-						ideology = liberal
-						loyalty_value = -10
-					}
-				}
-				290 = {
-					party_loyalty = {
-						ideology = conservative
-						loyalty_value = -5
-					}
-					party_loyalty = {
-						ideology = liberal
-						loyalty_value = -20
-					}
-				}
-				299 = {
-					party_loyalty = {
-						ideology = conservative
-						loyalty_value = -5
-					}
-					party_loyalty = {
-						ideology = liberal
-						loyalty_value = -20
-					}
-				}
-				300 = {
-					party_loyalty = {
-						ideology = conservative
-						loyalty_value = -5
-					}
-					party_loyalty = {
-						ideology = liberal
-						loyalty_value = -20
-					}
-				}
-				301 = {
-					party_loyalty = {
-						ideology = conservative
-						loyalty_value = -20
-					}
-					party_loyalty = {
-						ideology = liberal
-						loyalty_value = -5
-					}
-				}
-				284 = {
-					party_loyalty = {
-						ideology = conservative
-						loyalty_value = -15
-					}
-					party_loyalty = {
-						ideology = liberal
-						loyalty_value = -15
-					}
-				}
-				286 = {
-					party_loyalty = {
-						ideology = conservative
-						loyalty_value = -15
-					}
-					party_loyalty = {
-						ideology = liberal
-						loyalty_value = -15
-					}
-				}
-				287 = {
-					party_loyalty = {
-						ideology = conservative
-						loyalty_value = -15
-					}
-					party_loyalty = {
-						ideology = liberal
-						loyalty_value = -5
-					}
-				}
-				292 = {
-					party_loyalty = {
-						ideology = conservative
-						loyalty_value = -15
-					}
-					party_loyalty = {
-						ideology = liberal
-						loyalty_value = -5
-					}
-				}
-				302 = {
-					party_loyalty = {
-						ideology = conservative
-						loyalty_value = -6
-					}
-					party_loyalty = {
-						ideology = liberal
-						loyalty_value = -10
-					}
-				}
-		}
-		#Portugal
-		POR = {
-			521 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -25
-				}
-			}
-		}
-		#Uruguay
-		URU = {
-			2344 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -30
-				}
-			}
-			2345 = {
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -25
-				}
-			}
-			2347 = {
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -25
-				}
-			}
-			2346 = {
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -25
-				}
-			}
-		}
-		#Switzerland
-		SWI = {
-			603 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -30
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -1
-				}
-			}
-			604 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -25
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -1
-				}
-			}
-			605 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -30
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -1
-				}
-			}
-			607 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -25
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -1
-				}
-			}
-			608 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -30
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -1
-				}
-			}
-			609 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -5
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -20
-				}
-			}
-			606 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -5
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -20
-				}
-			}
-			2568 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -2
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -20
-				}
-			}
-			611 = {
-				party_loyalty = {
-					ideology = liberal
-					loyalty_value = -15
-				}
-				party_loyalty = {
-					ideology = conservative
-					loyalty_value = -20
-				}
-			}
-		}
-	}
-}
-
