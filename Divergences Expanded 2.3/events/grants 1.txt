@@ -6,67 +6,65 @@
 
 country_event = {
 
-	
+
 	id = 100000
-	
+
 	title = "Aid Requested"
-	
+
 	desc = "We have requested aid from foreign powers. We can only hope they respond kindly."
-	
-	is_triggered_only = yes	
-	
-	allow_multiple_instances = yes	
+
+	is_triggered_only = yes
+
+	allow_multiple_instances = yes
 
 	option = {
-	
+
 		name = "It is out of our hands."
 
 		any_country = {
-		
+
 			limit = {
 			
-	            NOT = { has_country_modifier = bad_debter }		
-			
 				has_country_flag = will_give_grants
-			
+
 				ai = no
-			
+
 				money = 10000
-		
+
 			}
-		
+
 			country_event = {id = 100001 days = 0}
-	
-		}	
-	
-		ai_chance = {factor = 100} 
-	
-	}	
+
+		}
+
+		ai_chance = {factor = 100}
+
+	}
 
 }
 
 
 country_event = {
-	
+
 id = 100002
-	
+
 	title = "$FROMCOUNTRY$ Grants Aid"
-	
+
 	desc = "$FROMCOUNTRY$ has decided to give us aid on the order of thousands of pounds."
-	
-	allow_multiple_instances = yes		
-	
+
+	allow_multiple_instances = yes
+
 	is_triggered_only = yes
 	option = {
-	
+
 		name = "Great!"
-	
-		ai_chance = {factor = 100} 
-	
-		FROM = { country_event = {id = 100013 days = 0}}	
-	
+
+		ai_chance = {factor = 100}
+
+		FROM = { country_event = {id = 100013 days = 0}}
+
 		FROM = { country_event = {id = 100003 days = 0}}
-	
+
 	}
 
 }
@@ -85,17 +83,17 @@ country_event = {
 	option = {
 
 		name = "Great!"
-	
+
 		ai_chance = {factor = 100}
-		 
+
 FROM = {
 
 		country_event = {id = 100003 days = 0}
 
 		country_event = {id = 100005 days = 0}
-			
+
 		}
-	
+
 	}
 
 }
@@ -111,17 +109,17 @@ country_event = {
 
 	is_triggered_only = yes
 	allow_multiple_instances = yes
-		
+
 	option = {
-	
+
 			name = "Great!"
-			
+
 	ai_chance = {factor = 100}
-	 
+
 		FROM = {
 			country_event = {id = 100005 days = 0}
-	
- 
+
+
 			country_event = {id = 100007 days = 0}
 
 		}
@@ -139,14 +137,14 @@ country_event = {
 
 	is_triggered_only = yes
 	desc = "$FROMCOUNTRY$ has decided to give us aid on the order of millions of pounds."
-	
+
 	allow_multiple_instances = yes
-		
+
 	option = {
 
 			name = "Great!"
 	ai_chance = {factor = 100}
- 
+
 			FROM = {
 			country_event = {id = 100007 days = 0}
 
@@ -157,4 +155,3 @@ country_event = {
 	}
 
 }
-
