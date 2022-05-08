@@ -22,6 +22,11 @@ political_decisions = {
 					add_core = THIS
 				}
 			}
+			EQN = {
+				all_core = {
+					add_core = THIS
+				}
+			}
 			set_country_flag = AMALOT
 		}
 		ai_will_do = {
@@ -78,6 +83,24 @@ political_decisions = {
 					}
 		   	}
 			}
+			EQN = {
+		    OR = {
+		     	exists = no
+			 		vassal_of = THIS
+			 		in_sphere = THIS
+				}
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+			     		OR = {
+								in_sphere = THIS
+					 			vassal_of = THIS
+							}
+						}
+					}
+		   	}
+			}
 		 	AMA = {
 		   	all_core = {
 					OR = {
@@ -100,7 +123,10 @@ political_decisions = {
 			add_accepted_culture = lotharian
 			any_country = {
 				limit = {
-      		tag = LOT
+					OR = {
+      			tag = LOT
+						tag = EQN
+					}
 				  OR = {
 						in_sphere = THIS
 						vassal_of = THIS
@@ -131,6 +157,11 @@ political_decisions = {
 		effect = {
 			badboy = 15
 			AMA = {
+				all_core = {
+					add_core = THIS
+				}
+			}
+			EQN = {
 				all_core = {
 					add_core = THIS
 				}
@@ -188,6 +219,24 @@ political_decisions = {
 					}
 		 		}
 		 }
+		 EQN = {
+			 OR = {
+				 exists = no
+				 vassal_of = THIS
+				 in_sphere = THIS
+			 }
+			 all_core = {
+				 OR = {
+					 owned_by = THIS
+					 owner = {
+						 OR = {
+							 in_sphere = THIS
+							 vassal_of = THIS
+						 }
+					 }
+				 }
+			 }
+		}
 		 LOT = {
 		   all_core = {
 					OR = {
@@ -211,7 +260,10 @@ political_decisions = {
 			LOT = { all_core = { remove_core = LOT	} }
 			any_country = {
 				limit = {
-       		tag = AMA
+					OR = {
+       			tag = AMA
+						tag = EQN
+					}
 				  OR = {
 						in_sphere = THIS
 						vassal_of = THIS
