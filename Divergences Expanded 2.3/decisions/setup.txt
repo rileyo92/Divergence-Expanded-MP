@@ -1,36 +1,94 @@
 political_decisions = {
 
-	disable_options = {
-		alert = no
+	global_setup = {
 		potential = {
-			ai = no
-			has_country_flag = country_looking_through_options
-			NOT = { year = 1837 }
+			ai = yes
+			NOT = { has_global_flag = global_setup_done }
 		}
 
-		allow = {
-		}
+		allow = {}
 
 		effect = {
-			clr_global_flag = looking_through_options
-			clr_country_flag = country_looking_through_options
-		}
-	}
+			set_global_flag = global_setup_done
 
-	option_disable_anarcho_liberals = {
-		alert = no
-		potential = {
-			ai = no
-			has_country_flag = country_looking_through_options
-			NOT = { year = 1837 }
-			NOT = { has_global_flag = anarcho_liberals_disabled }
-		}
+			#chinese pop nerf
+			any_country = {
+				limit = {
+					OR = {
+						tag = TAI
+						tag = MCK
+						tag = MIG
+						tag = TNG
+					}
+				}
+				any_owned = {
+					limit = {
+						OR = {
+							is_core = CHI
+							is_core = MNG
+						}
+					}
+					any_pop = {
+						reduce_pop = 0.80
+					}
+				}
+			}
 
-		allow = {
-		}
+			#literacy adjustments
+			any_country = {
+				limit = {
+					tag = BRG
+				}
+				any_pop = {
+					limit = {
+						has_pop_culture = rheinish
+						}
+					literacy = 0.40
+				}
+			}
+			any_country = {
+				limit = {
+					tag = SCA
+				}
+				any_pop = {
+					limit = {
+						has_pop_culture = pomeranian
+						}
+					literacy = 0.60
+				}
+			}
+			any_country = {
+				limit = {
+					tag = AMA
+				}
+				any_pop = {
+					limit = {
+						has_pop_culture = lotharian
+					}
+					literacy = 0.30
+				}
+			}
+			any_country = {
+				limit = {
+					tag = VIN
+				}
+				any_pop = {
+					limit = {
+						NOT = { has_pop_culture = vinlander }
+						NOT = { has_pop_culture = afro_germanic }
+					}
+					literacy = -0.60
+				}
+				any_pop = {
+					limit = {
+						has_pop_culture = afro_germanic
+					}
+					literacy = -0.40
+				}
+			}
 
-		effect = {
-			set_global_flag = anarcho_liberals_disabled
+			#enables cleanup
+			country_event = 477877789
 		}
 	}
 
@@ -49,41 +107,5 @@ political_decisions = {
 		effect = {
 			set_global_flag = revolution_n_counter_researched
 		}
-	}
-
-	option_disable_bankruptcy_events = {
-		alert = no
-		potential = {
-			ai = no
-			has_country_flag = country_looking_through_options
-			NOT = { year = 1837 }
-			NOT = { has_country_flag = bankruptcy_events_disabled }
-		}
-
-		allow = {
-		}
-
-		effect = {
-			set_country_flag = bankruptcy_events_disabled
-			any_country = { limit = { ai = no } set_country_flag = bankruptcy_events_disabled }
-		}
-	}
-
-	option_disable_DVG_badboy = {
-		alert = no
-		potential = {
-			ai = no
-			has_country_flag = country_looking_through_options
-			NOT = { year = 1837 }
-			NOT = { has_global_flag = DVG_infamy }
-		}
-
-		allow = {
-		}
-
-		effect = {
-			set_global_flag = DVG_infamy
-		}
-
 	}
 }
