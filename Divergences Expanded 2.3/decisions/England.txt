@@ -1,3 +1,5 @@
+#Decisions for Ireland, Scotland, Wales, England and Great Britain
+
 political_decisions = {
 	create_british_empire = {
 		picture = British_islands

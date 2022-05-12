@@ -1,3 +1,5 @@
+#Decisions for Ethiopia, Somalia
+
 political_decisions = {
 
 	unite_ethiopia_1 = {
@@ -33,7 +35,7 @@ political_decisions = {
 			capital = 1859
 		}
 	}
-	
+
 	unite_ethiopia_2 = {
 		potential = {
 			tag = ETH

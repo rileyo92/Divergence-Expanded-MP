@@ -1,3 +1,5 @@
+#Decisions for Batavia and Vyrland/Cape
+
 political_decisions = {
 		return_home_BTV = {
 			potential = {

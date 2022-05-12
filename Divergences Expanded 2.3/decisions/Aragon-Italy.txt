@@ -1,3 +1,5 @@
+#Decisions for Aragon-Italy
+
 political_decisions = {
 	merge_the_crowns_ari = {
 		potential = {

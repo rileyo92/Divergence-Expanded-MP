@@ -1,3 +1,5 @@
+#Decisions for Equinoxia, Amazonie, Lotharingia and Ameriga
+
 political_decisions = {
 
 	#Amazonie

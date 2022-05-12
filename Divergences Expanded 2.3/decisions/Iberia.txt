@@ -1,3 +1,5 @@
+#Decisions for Portugal, Spain, Aragon, Navarra, Catalonia, Iberia, Hispanic Commonwealth
+
 political_decisions = {
 	#Aragon
 	establish_greater_aragon = {

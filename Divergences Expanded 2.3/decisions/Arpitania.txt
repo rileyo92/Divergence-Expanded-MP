@@ -1,3 +1,5 @@
+#Decisions for Lorraine and Arpitania
+
 political_decisions = {
   become_arpitania = {
     potential = {

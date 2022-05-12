@@ -1,3 +1,5 @@
+#Decisions for Hungary, Slovakia
+
 political_decisions = {
 	holy_crown_HUN = {
 		picture = hungary

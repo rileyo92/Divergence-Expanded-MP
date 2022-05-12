@@ -1,3 +1,5 @@
+#Decisions for Vinland, Belgium, Plantagenia, Arcadia and Athesia
+
 political_decisions = {
 	#Vinland decisions
 	vin_manifest_destiny = {

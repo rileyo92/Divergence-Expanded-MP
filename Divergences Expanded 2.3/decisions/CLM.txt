@@ -1,3 +1,5 @@
+#Decisions for Lusitania, Mexico, Salvador, Granada, Kuba and Gran Colombia
+
 political_decisions = {
 
 	Congress_CLM = {

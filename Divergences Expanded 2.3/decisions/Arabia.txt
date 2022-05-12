@@ -1,3 +1,5 @@
+#Decisions for Maghreb, Egypt, Arabia
+
 political_decisions = {
 	#Maghreb
 	#restore_al_andalus = {
