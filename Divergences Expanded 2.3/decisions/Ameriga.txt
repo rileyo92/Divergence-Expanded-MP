@@ -19,17 +19,16 @@ political_decisions = {
 		effect = {
 			badboy = 15
 			set_global_flag = Amerigue
-			LOT = {
-				all_core = {
-					add_core = THIS
-				}
-			}
-			EQN = {
-				all_core = {
-					add_core = THIS
-				}
-			}
 			set_country_flag = AMALOT
+			LOT_1 = { add_core = AMA } #Cote du Cafe
+			LOT_2 = { add_core = AMA } #Nouvelle Alsace
+			LOT_3 = { add_core = AMA } #Marches Oust
+			LOT_4 = { add_core = AMA } #Lorraine Atlantique
+			LOT_5 = { add_core = AMA } #Bourgogne-dul-Sud
+			LOT_6 = { add_core = AMA } #Transfleuve
+			LOT_2458 = { add_core = AMA } #Sermoise-sur-Odon
+			AMA_1 = { add_core = AMA } #Cappadoca
+			AMA_2410 = { add_core = AMA } #Bectoucan
 		}
 		ai_will_do = {
     	factor = 1
@@ -67,61 +66,19 @@ political_decisions = {
 		}
 		allow = {
 			nationalism_n_imperialism = 1
-      LOT = {
-		    OR = {
-		     	exists = no
-			 		vassal_of = THIS
-			 		in_sphere = THIS
-				}
-				all_core = {
-					OR = {
-						owned_by = THIS
-						owner = {
-			     		OR = {
-								in_sphere = THIS
-					 			vassal_of = THIS
-							}
-						}
-					}
-		   	}
-			}
-			EQN = {
-		    OR = {
-		     	exists = no
-			 		vassal_of = THIS
-			 		in_sphere = THIS
-				}
-				all_core = {
-					OR = {
-						owned_by = THIS
-						owner = {
-			     		OR = {
-								in_sphere = THIS
-					 			vassal_of = THIS
-							}
-						}
-					}
-		   	}
-			}
-		 	AMA = {
-		   	all_core = {
-					OR = {
-						owned_by = THIS
-						owner = {
-					  	OR = {
-							 	in_sphere = THIS
-							 	vassal_of = THIS
-							}
-						}
-					}
-				}
-		   }
-		 }
+      owns = 2447
+			owns = 2450
+			owns = 2463
+			owns = 2344
+			owns = 2436
+			owns = 2431
+			owns = 2424
+			owns = 2339
 		effect = {
 			prestige = 20
 			change_tag = AZL
 			capital = 2447
-			LOT = { all_core = { add_core = AZL } }
+			2447 = { life_rating = 5 }
 			add_accepted_culture = lotharian
 			any_country = {
 				limit = {
@@ -158,16 +115,14 @@ political_decisions = {
 		}
 		effect = {
 			badboy = 15
-			AMA = {
-				all_core = {
-					add_core = THIS
-				}
-			}
-			EQN = {
-				all_core = {
-					add_core = THIS
-				}
-			}
+			LOT_1 = { add_core = LOT } #Cote du Cafe
+			AMA_1 = { add_core = LOT } #Cappadoca
+			AMA_2 = { add_core = LOT } #France Antartique
+			AMA_3 = { add_core = LOT } #Monts-Diamants
+			AMA_4 = { add_core = LOT } #Cote de Sucre
+			AMA_2410 = { add_core = LOT } #Bectoucan
+			LOT_3 = { add_core = LOT } #Marches Oust
+			LOT_6 = { add_core = LOT } #Transfleuve
 			set_country_flag = LOT_AMG
 		}
 		ai_will_do = {
@@ -203,63 +158,21 @@ political_decisions = {
 		}
 		allow = {
 			nationalism_n_imperialism = 1
-      AMA = {
-		  	OR = {
-		    	exists = no
-			 		vassal_of = THIS
-			 		in_sphere = THIS
-				}
-				all_core = {
-					OR = {
-						owned_by = THIS
-						owner = {
-							OR = {
-								in_sphere = THIS
-							  vassal_of = THIS
-						 	}
-						}
-					}
-		 		}
-		 }
-		 EQN = {
-			 OR = {
-				 exists = no
-				 vassal_of = THIS
-				 in_sphere = THIS
-			 }
-			 all_core = {
-				 OR = {
-					 owned_by = THIS
-					 owner = {
-						 OR = {
-							 in_sphere = THIS
-							 vassal_of = THIS
-						 }
-					 }
-				 }
-			 }
-		}
-		 LOT = {
-		   all_core = {
-					OR = {
-						owned_by = THIS
-						owner = {
-							OR = {
-					   		in_sphere = THIS
-							  vassal_of = THIS
-						  }
-						}
-					}
-		   }
-		  }
+			owns = 2447
+			owns = 2450
+			owns = 2463
+			owns = 2344
+			owns = 2436
+			owns = 2431
+			owns = 2424
+			owns = 2339
 		}
 		effect = {
 			prestige = 20
 			change_tag = AZL
 			capital = 2447
-			AMA = { all_core = { add_core = AZL } }
+			2447 = { life_rating = 5 }
 			add_accepted_culture = amazonian
-			LOT = { all_core = { remove_core = LOT	} }
 			any_country = {
 				limit = {
 					OR = {
