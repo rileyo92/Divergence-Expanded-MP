@@ -11,8 +11,6 @@ political_decisions = {
 		allow = {
 			NOT = { war = yes }
 			state_n_government = 1
-			owns = 754 # Napoli
-			owns = 762 # Palermo
 			ITA = {
 				all_core = {
 					OR = {
@@ -46,57 +44,34 @@ political_decisions = {
 					OR = {
 						primary_culture = south_italian
 						primary_culture = north_italian
+						primary_culture = central_italian
 						primary_culture = maltese
 					}
 					OR = {
 					    in_sphere = THIS
 					    vassal_of = THIS
-						}
+					}
 					NOT = {
 						tag = THIS
-						tag = ATS
 					}
 				}
 				country_event = 333458
 			}
-			any_country = {
-			   any_owned = {
+			ITA = {
+				all_core = {
 					limit = {
-						is_core = ITA
+						NOT = { is_core = ARP }
 					}
 					add_core = ARI
 				}
 			}
-	    any_owned = {
-				limit = {
-					is_core = ITA
-				}
-				add_core = ARI
-			}
-			any_country = {
-				any_owned = {
-					limit = {
-						is_core = ARA
-					}
-					remove_core = ARA
-				}
-			}
-			random_country = {
-				limit = {
-					ai = yes
-					OR = {
-						tag = RAP
-						tag = HAW
-					}
-				}
-				country_event = 124101
-			}
-			any_owned = {
-				limit = {
-					is_core = ARA
-				}
-				remove_core = ARA
-			}
+			ARA = { all_core = { add_core = ARI } }
+			ARA = { all_core = { remove_core = ARA } }
+			SPA_498 = { add_core = CAT } #Catalonia
+			SPA_492 = { add_core = CAT } #Aragon
+			SPA_503 = { add_core = CAT } #Valencia
+			464 = { add_core = CAT } #Pepinya
+			502 = { add_core = CAT } #Balearic Islands
 		}
 	}
 
@@ -106,22 +81,13 @@ political_decisions = {
 			NOT = { has_country_flag = italian_integration }
 		}
 		allow = {
-			ITA = {
-				all_core = {
-					OR = {
-						owned_by = THIS
-						is_core = ARP
-						NOT = {
-							OR = {
-								culture = north_italian
-								culture = central_italian
-								culture = south_italian
-							}
-						}
-					}
-				}
-			}
 			nationalism_n_imperialism = 1
+			owns = 739
+			owns = 738
+			owns = 742
+			owns = 724
+			owns = 720
+			owns = 726
 		}
 		effect = {
 			prestige = 5
@@ -136,6 +102,13 @@ political_decisions = {
 			}
 			any_pop = {
 				limit = {
+					has_pop_culture = central_italian
+				}
+				militancy = -2
+				consciousness = 2
+			}
+			any_pop = {
+				limit = {
 					has_pop_culture = south_italian
 				}
 				militancy = -2
@@ -144,6 +117,13 @@ political_decisions = {
 			any_pop = {
 				limit = {
 					has_pop_culture = catalan
+				}
+				militancy = 2
+				consciousness = 2
+			}
+			any_pop = {
+				limit = {
+					has_pop_culture = basque
 				}
 				militancy = 2
 				consciousness = 2
@@ -165,6 +145,7 @@ political_decisions = {
 			NOT = { has_country_flag = venetia_ARI }
 		}
 		allow = {
+			revolution_n_counterrevolution = 1
 			ITA = {
 				all_core = {
 					OR = {
@@ -178,7 +159,6 @@ political_decisions = {
 					}
 				}
 			}
-			revolution_n_counterrevolution = 1
 		}
 		effect = {
 			set_country_flag = venetia_ARI
@@ -225,6 +205,7 @@ political_decisions = {
 			FRA_467 = { add_core = THIS }
 			FRA_461 = { add_core = THIS }
 			FRA_1700 = { add_core = THIS }
+			SAR_466 = { add_core = THIS } #Savoie
 			add_accepted_culture = provencal
 			any_country = {
 				limit = {
