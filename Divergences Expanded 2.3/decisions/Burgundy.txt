@@ -315,6 +315,7 @@ political_decisions = {
 		effect = {
 			set_country_flag = BRG_rhein
 			add_accepted_culture = rheinish
+			add_accepted_culture = swiss
 			badboy = 7.5
 			PRU_575 = { add_core = THIS }
 			HES_566 = { add_core = THIS }

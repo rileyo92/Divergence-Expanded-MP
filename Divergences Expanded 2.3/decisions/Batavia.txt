@@ -221,6 +221,7 @@ political_decisions = {
 			prestige = -15
 			set_country_flag = baastards_SAF
 			add_accepted_culture = afro_south_african
+			add_accepted_culture = khoisan
 			any_pop = {
 				limit = { is_primary_culture = boer }
 				militancy = 2

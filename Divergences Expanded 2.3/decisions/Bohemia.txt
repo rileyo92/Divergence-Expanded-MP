@@ -1,73 +1,7 @@
-#Decisions for Bohemia, Elbians, Silesia 
+#Decisions for Bohemia, Elbians, Silesia
 
 political_decisions = {
-	bridge_over_salzach = {
-		potential = {
-			DUA = {
-				OR = {
-					government = hms_government
-					government = prussian_constitutionalism
-					government = absolute_monarchy
-				}
-			}
-			OR = {
-				government = hms_government
-				government = prussian_constitutionalism
-				government = absolute_monarchy
-			}
-			NOT = { has_global_flag = salzachrefused }
-			NOT = { has_global_flag = salzach }
-			NOT = { has_country_flag = salzachongoing }
-			tag = BOH
 
-			is_greater_power = yes
-			DUA = {
-				is_greater_power = yes
-			}
-			ITA = {
-				exists = no
-			}
-			ARI = {
-				exists = no
-			}
-			GER = {
-				exists = no
-			}
-			SGF = {
-				exists = no
-			}
-
-			NOT = { truce_with = DUA }
-			NOT = { war_with = DUA }
-		}
-
-		allow = {
-			NOT = { war = yes }
-			NOT = { is_vassal = yes }
-			relation = { who = DUA value = 20 }
-			NOT = {
-				ARA = {
-					is_greater_power = yes
-				}
-			}
-		}
-		effect = {
-			set_country_flag = salzachongoing
-			relation = {
-				who = BRG
-				value = -100
-			}
-			relation = {
-				who = SCA
-				value = -100
-			}
-			relation = {
-				who = ARA
-				value = -100
-			}
-			DUA = {
-				country_event = 598000
-			}
-		}
-	}
+	#Bohemia
+	
 }

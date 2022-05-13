@@ -9,52 +9,32 @@ political_decisions = {
 			NOT = { has_country_flag = vin_manifest_destiny }
 		}
 		allow = {
-			all_core = {
-				owned_by = THIS
-			}
 			state_n_government = 1
+			all_core = { owned_by = THIS }
+			owns = 46
+			owns = 236
+			owns = 247
+			owns = 178
+			owns = 173
+			owns = 163
+			owns = 159
+			owns = 228
 		}
 		effect = {
 			set_country_flag = vin_manifest_destiny
-			NA_30 = {
-				add_core = VIN
-			}
-			NA_15 = {
-				add_core = VIN
-			}
-			NA_14 = {
-				add_core = VIN
-			}
-			NA_13 = {
-				add_core = VIN
-			}
-			NA_11 = {
-				add_core = VIN
-			}
-			NA_10 = {
-				add_core = VIN
-			}
-			NA_17 = {
-				add_core = VIN
-			}
-			NBG_6 = {
-				add_core = VIN
-			}
-			NBG_4 = {
-				add_core = VIN
-			}
-			DNG_4 = {
-				add_core = VIN
-			}
-			NBG_1 = {
-				add_core = VIN
-			}
-			NA_9 = {
-				add_core = VIN
-			}
-			NA_12 = {
-				add_core = VIN
-			}
+			NA_30 = { add_core = VIN }
+			NA_15 = { add_core = VIN }
+			NA_14 = { add_core = VIN }
+			NA_13 = { add_core = VIN }
+			NA_11 = { add_core = VIN }
+			NA_10 = { add_core = VIN }
+			NA_17 = { add_core = VIN }
+			NBG_6 = { add_core = VIN }
+			NBG_4 = { add_core = VIN }
+			DNG_4 = { add_core = VIN }
+			NBG_1 = { add_core = VIN }
+			NA_9 = { add_core = VIN }
+			NA_12 = { add_core = VIN }
 			NBG_2 = { add_core = VIN }
 			add_accepted_culture = rohnnst
 		}
@@ -196,67 +176,37 @@ political_decisions = {
 			NOT = { has_country_flag = nbg_manifest_destiny }
 		}
 		allow = {
+			state_n_government = 1
 			all_core = {
 				owned_by = THIS
 			}
-			state_n_government = 1
+			owns = 228
+			owns = 236
+			owns = 248
+			owns = 185
+			owns = 207
+			owns = 178
 		}
 		effect = {
 			set_country_flag = nbg_manifest_destiny
-			NA_16 = {
-				add_core = NBG
-			}
-			PLA_3 = {
-				add_core = NBG
-			}
-			PLA_4 = {
-				add_core = NBG
-			}
-			PLA_5 = {
-				add_core = NBG
-			}
-			PLA_6 = {
-				add_core = NBG
-			}
-			PLA_7 = {
-				add_core = NBG
-			}
-			PLA_8 = {
-				add_core = NBG
-			}
-			PLA_9 = {
-				add_core = NBG
-			}
-			NA_1 = {
-				add_core = NBG
-			}
-			NA_2 = {
-				add_core = NBG
-			}
-			VIN_9 = {
-				add_core = NBG
-			}
-			VIN_2 = {
-				add_core = NBG
-			}
-			VIN_3 = {
-				add_core = NBG
-			}
-			VIN_6 = {
-				add_core = NBG
-			}
-			VIN_60 = {
-				add_core = NBG
-			}
-			VIN_5 = {
-				add_core = NBG
-			}
-			VIN_1 = {
-				add_core = NBG
-			}
-			VIN_10 = {
-				add_core = NBG
-			}
+			NA_16 = { add_core = NBG }
+			PLA_3 = { add_core = NBG }
+			PLA_4 = { add_core = NBG }
+			PLA_5 = { add_core = NBG }
+			PLA_6 = { add_core = NBG }
+			PLA_7 = { add_core = NBG }
+			PLA_8 = { add_core = NBG }
+			PLA_9 = { add_core = NBG }
+			NA_1 = { add_core = NBG }
+			NA_2 = { add_core = NBG }
+			VIN_9 = { add_core = NBG }
+			VIN_2 = { add_core = NBG }
+			VIN_3 = { add_core = NBG }
+			VIN_6 = { add_core = NBG }
+			VIN_60 = { add_core = NBG }
+			VIN_5 = { add_core = NBG }
+			VIN_1 = { add_core = NBG }
+			VIN_10 = { add_core = NBG }
 			VIN_71 = { add_core = NBG }
 			VIN_163 = { add_core = NBG }
 			VIN_2595 = { add_core = NBG }
@@ -374,43 +324,30 @@ political_decisions = {
 			NOT = { has_country_flag = pla_manifest_destiny }
 		}
 		allow = {
+			state_n_government = 1
 			all_core = {
 				owned_by = THIS
 			}
-			state_n_government = 1
+			owns = 193
+			owns = 196
+			owns = 198
+			owns = 191
+			owns = 163
+			owns = 218
+			owns = 180
+			owns = 212
 		}
 		effect = {
 			set_country_flag = pla_manifest_destiny
-			NBG_4 = {
-				add_core = PLA
-			}
-			NA_8 = {
-				add_core = PLA
-			}
-			NA_16 = {
-				add_core = PLA
-			}
-			NA_109 = {
-				add_core = PLA
-			}
-			MEX_103 = {
-				add_core = PLA
-			}
-			NA_5 = {
-				add_core = PLA
-			}
-			NA_15 = {
-				add_core = PLA
-			}
-			TEX_132 = {
-				add_core = PLA
-			}
-			MEX_2142 = {
-				add_core = PLA
-			}
-			MEX_90 = {
-				add_core = PLA
-			}
+			NA_8 = { add_core = PLA }
+			NA_16 = { add_core = PLA }
+			NA_109 = { add_core = PLA }
+			MEX_103 = { add_core = PLA }
+			NA_5 = { add_core = PLA }
+			NA_15 = { add_core = PLA }
+			TEX_132 = { add_core = PLA }
+			MEX_2142 = { add_core = PLA }
+			MEX_90 = { add_core = PLA }
 			NBG_4 = { add_core = PLA }
 		}
 	}
@@ -435,6 +372,7 @@ political_decisions = {
 			change_tag = TRP
 			primary_culture = anglois
 			add_accepted_culture = plantagenian
+			DUA = { add_accepted_culture = plantagenian }
 			capital = 425
 			clr_country_flag = new_world_nation
 		}
