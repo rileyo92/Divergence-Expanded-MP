@@ -11,30 +11,46 @@ political_decisions = {
 		effect = {
 			set_global_flag = global_setup_done
 
-			#chinese pop nerf
-			any_country = {
+			#chinese pop nerfs
+			any_pop = {
+				limit = {
+					has_pop_culture = beifaren
+				}
+				reduce_pop = 0.60
+			}
+
+			any_pop = {
 				limit = {
 					OR = {
-						tag = TAI
-						tag = MCK
-						tag = MIG
-						tag = TNG
+						has_pop_culture = manchu
+						has_pop_culture = hakka
+						has_pop_culture = min
+						has_pop_culture = zhuang
+						has_pop_culture = yue
 					}
 				}
-				any_owned = {
-					limit = {
-						OR = {
-							is_core = CHI
-							is_core = MNG
-						}
-					}
-					any_pop = {
-						reduce_pop = 0.75
-					}
-				}
+				reduce_pop = 0.80
 			}
 
 			#literacy adjustments
+			any_country = {
+				limit = {
+					tag = VIN
+				}
+				any_pop = {
+					limit = {
+						NOT = { has_pop_culture = vinlander }
+						NOT = { has_pop_culture = afro_germanic }
+					}
+					literacy = -0.60
+				}
+				any_pop = {
+					limit = {
+						has_pop_culture = afro_germanic
+					}
+					literacy = -0.40
+				}
+			}
 			any_country = {
 				limit = {
 					tag = BRG
@@ -68,27 +84,6 @@ political_decisions = {
 					literacy = 0.30
 				}
 			}
-			any_country = {
-				limit = {
-					tag = VIN
-				}
-				any_pop = {
-					limit = {
-						NOT = { has_pop_culture = vinlander }
-						NOT = { has_pop_culture = afro_germanic }
-					}
-					literacy = -0.60
-				}
-				any_pop = {
-					limit = {
-						has_pop_culture = afro_germanic
-					}
-					literacy = -0.40
-				}
-			}
-
-			#enables cleanup
-			country_event = 477877789
 		}
 	}
 

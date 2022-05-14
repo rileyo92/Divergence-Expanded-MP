@@ -1,7 +1,7 @@
-owner = ALH
-controller = ALH
+owner = ABU
+controller = ABU
+add_core = ABU
 add_core = NEJ
-add_core = ALH
 trade_goods = fish
 life_rating = 35
 terrain = semidesert

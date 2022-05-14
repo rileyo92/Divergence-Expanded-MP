@@ -1976,14 +1976,6 @@ chinese = {
 		}
 	}
 
-	nanfaren = {
-		color = {181 106 106}
-		first_names = { Wang Li Zhang Liu Chen Huang Liang Luo Kwong Hsia Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu
-		}
-		last_names = { Zhao Wu Sun Ma Hu Peng Dong Ye L Tian Jiang Wei Ting Shen Fang Jin Qiu
-		}
-	}
-
 	hakka = {
 		color = {89 63 24}
 		first_names = { Hong Feng Shi Li Chen Liu Qiu Sun Soong Liao Xue Zhang Xie Wu Shu Tsai Deng Zhen Huang Ye Yang
