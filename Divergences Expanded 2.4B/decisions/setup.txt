@@ -12,24 +12,28 @@ political_decisions = {
 			set_global_flag = global_setup_done
 
 			#chinese pop nerfs
-			any_pop = {
-				limit = {
-					has_pop_culture = beifaren
+			any_country = {
+				any_pop = {
+					limit = {
+						has_pop_culture = beifaren
+					}
+					reduce_pop = 0.60
 				}
-				reduce_pop = 0.60
 			}
 
-			any_pop = {
-				limit = {
-					OR = {
-						has_pop_culture = manchu
-						has_pop_culture = hakka
-						has_pop_culture = min
-						has_pop_culture = zhuang
-						has_pop_culture = yue
+			any_country = {
+				any_pop = {
+					limit = {
+						OR = {
+							has_pop_culture = manchu
+							has_pop_culture = hakka
+							has_pop_culture = min
+							has_pop_culture = zhuang
+							has_pop_culture = yue
+						}
 					}
+					reduce_pop = 0.80
 				}
-				reduce_pop = 0.80
 			}
 
 			#literacy adjustments
@@ -84,6 +88,8 @@ political_decisions = {
 					literacy = 0.30
 				}
 			}
+			#enables cleanup
+			country_event = 477877789
 		}
 	}
 
