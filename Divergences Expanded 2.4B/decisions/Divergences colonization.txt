@@ -149,7 +149,6 @@ political_decisions = {
 			owns = 2410
 			owns = 2421
 			owns = 2423
-			SA_2 = { empty = yes }
 			SA_3 = { empty = yes }
 			NOT = { rank = 16 }
 		}
@@ -163,7 +162,6 @@ political_decisions = {
 
 		effect = {
 			prestige = 5
-			SA_2 = { secede_province = THIS }
 			SA_3 = { secede_province = THIS }
 		}
 

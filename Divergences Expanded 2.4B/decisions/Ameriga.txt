@@ -74,6 +74,7 @@ political_decisions = {
 			owns = 2431
 			owns = 2424
 			owns = 2339
+		}
 		effect = {
 			prestige = 20
 			change_tag = AZL

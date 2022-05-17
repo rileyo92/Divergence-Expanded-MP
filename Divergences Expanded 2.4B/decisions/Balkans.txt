@@ -85,8 +85,6 @@ political_decisions = {
 		effect = {
 			set_country_flag = claim_greater_albania
 			MON_2582 = { add_core = ALB } #Montenegro
-			TUR_803 = { add_core = ALB } #Southern Serbia
-      GRE_826 = { add_core = ALB } #Ionian Islands
       GRE_837 = { add_core = ALB } #Epirus
 		}
 	}
@@ -166,7 +164,6 @@ political_decisions = {
 			TUR_859 = { add_core = BUL } #Eastern Thrace
 			TUR_860 = { add_core = BUL } #Constantinople
       TUR_819 = { add_core = BUL } #West Macedonia
-      TUR_803 = { add_core = BUL } #Southern Serbia
       KOS_802 = { add_core = BUL } #Kosovo
 		}
     ai_will_do = {
@@ -239,7 +236,6 @@ political_decisions = {
     effect = {
       add_accepted_culture = serb
       KOS_802 = { add_core = THIS } #Kosovo
-      TUR_803 = { add_core = THIS } #Southern Serbia
       SER_794 = { add_core = THIS } #Northern Serbia
       AUS_777 = { add_core = THIS } #Slavonia
       BOS_783 = { add_core = THIS } #Bosnia

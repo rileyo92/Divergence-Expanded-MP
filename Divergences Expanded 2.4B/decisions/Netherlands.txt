@@ -76,7 +76,6 @@ political_decisions = {
       HAN_534 = { add_core = NET } #East Frisia
       PRU_581 = { add_core = NET } #Westfalen
       HAM_528 = { add_core = NET } #Hannover
-      HAN_532 = { add_core = NET } #Luneburg
     }
   }
 
@@ -97,7 +96,6 @@ political_decisions = {
      PRU_572 = { add_core = NET } #Rheinland
      PRU_575 = { add_core = NET } #Nordrhein
      BRG_573 = { add_core = NET } #Saarbrucken
-     HES_2560 = { add_core = NET } #Mainz
    }
   }
 }

@@ -42,9 +42,6 @@ peace_order = {
 treaty_port_casus_belli
 war_reparations
 become_independent
-dismantle_cb
-dismantle_cb_add
-dismantle_cb_add_new
 colonial_competition
 acquire_all_cores
 acquire_core_state
@@ -86,7 +83,6 @@ china_acquire_state
 china_acquire_state_2
 china_conquest
 acquire_state
-acquire_any_state
 acquire_substate_region
 take_capital
 colonial_conquest
@@ -329,13 +325,6 @@ colonial_reconquest_cb = {
 				}
 			}
 			OR = {
-				AND = {
-				THIS = {
-					tag = NET
-					has_country_flag = conquest_of_jambi
-				}
-				tag = DJA
-				}
 				AND = {
 				THIS = {
 					tag = NET
@@ -1128,17 +1117,14 @@ free_peoples = {
 			FROM = { tag = PLC }
 			FROM = { tag = TPG }
 			FROM = { tag = POL }
-			FROM = { tag = CPL }
 			FROM = { tag = QNG }
 			FROM = { tag = CHI }
 			FROM = { tag = CSA }
 			FROM = { tag = USA }
 			FROM = { tag = KAM }
 			FROM = { tag = KAZ }
-			FROM = { tag = BDK }
 			FROM = { tag = SIB }
 			FROM = { tag = YAK }
-			FROM = { tag = ALT }
 			FROM = { tag = URA }
 			FROM = { tag = MCK }
 			FROM = { tag = XIN }
@@ -1190,7 +1176,6 @@ free_peoples = {
 				exists = no
 				NOT = {
 					tag = CAT
-					tag = BSQ
 					tag = UKR
 					tag = KDS
 					tag = IRQ
@@ -1200,10 +1185,6 @@ free_peoples = {
 			AND = {
 				owns = 498
 				FROM = { tag = CAT }
-			}
-			AND = {
-				owns = 492
-				FROM = { tag = BSQ }
 			}
 			AND = {
 				owns = 958
@@ -1345,7 +1326,6 @@ free_peoples = {
 					OR = {
 						region = PRU_701
 						region = RUS_706
-						region = RUS_715
 						region = AUS_702
 					}
 				}
@@ -1375,10 +1355,6 @@ free_peoples = {
 			AND = {
 				any_owned_province = { region = TUR_853 }
 				FROM = { tag = ALB }
-			}
-			AND = {
-				any_owned_province = { region = TUR_788 }
-				FROM = { tag = BOS }
 			}
 			AND = {
 				any_owned_province = { region = RUS_360 }
@@ -5397,7 +5373,6 @@ colonial_conquest = {
 			OR = {
 				region = POR_2060
 				region = POR_2053
-				region = POR_2054
 				region = POR_2049
 			}
 		}
@@ -5418,7 +5393,6 @@ colonial_conquest = {
 					OR = {
 						region = POR_2060
 						region = POR_2053
-						region = POR_2054
 						region = POR_2049
 					}
 				}
@@ -5456,13 +5430,10 @@ colonial_conquest = {
 							OR = {
 								region = POR_2060
 								region = POR_2053
-								region = POR_2054
 								region = POR_2049
 							}
 						}
 						add_core = MOZ
-						remove_core = GAZ
-						remove_core = AGC
 						remove_core = ZUL
 						remove_core = SHO
 					}
@@ -5665,7 +5636,6 @@ annex_india_AI = {
      tag = LFG
      tag = MKS
      tag = SIA
-     tag = PAT
      tag = KLM
      tag = KTI
      tag = SUL
@@ -5779,7 +5749,6 @@ annex_india_full_AI = {
      tag = LFG
      tag = MKS
      tag = SIA
-     tag = PAT
      tag = KLM
      tag = KTI
      tag = SUL

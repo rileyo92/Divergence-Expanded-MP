@@ -81,7 +81,6 @@ political_decisions = {
     effect = {
       add_accepted_culture = swiss
       set_country_flag = arp_conquer_swiss
-      SWI_605 = { add_core = THIS }
       SWI_603 = { add_core = THIS }
       any_country = {
         limit = {

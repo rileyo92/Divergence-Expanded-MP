@@ -827,19 +827,3 @@ country_event = {
 		}
 	}
 }
-
-#Generic Annex Puppet event
-country_event = {
-	id = annexpuppet
-	title = "annexpuppet.T"
-	desc = "annexpuppet.D"
-
-	is_triggered_only = yes
-
-	option = {
-		name = "annexpuppet.A"
-		FROM = {
-			inherit = THIS
-		}
-	}
-}

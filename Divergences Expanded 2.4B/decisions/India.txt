@@ -130,7 +130,6 @@ political_decisions = {
 			BUR_1330 = { add_core = BHA }
 			BUR_1334 = { add_core = BHA }
 			BUR_1339 = { add_core = BHA }
-			BHU_1329 = { add_core = BHA }
 			BUR_1257 = { add_core = BHA }
 			2128 = { add_core = BHA }
 			1338 = { add_core = BHA }

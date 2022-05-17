@@ -148,7 +148,6 @@ political_decisions = {
 			remove_country_modifier = tungning_nerf
   		change_tag = CHI
   		add_accepted_culture = beifaren
-  		add_accepted_culture = nanfaren
 			any_country = {
 				limit = {
 					OR = {
@@ -204,7 +203,6 @@ political_decisions = {
   		prestige = 30
   		change_tag = CHI
   		add_accepted_culture = beifaren
-  		add_accepted_culture = nanfaren
 			any_country = {
 				limit = {
 					OR = {
@@ -258,7 +256,6 @@ political_decisions = {
   		prestige = 30
   		change_tag = CHI
   		add_accepted_culture = beifaren
-  		add_accepted_culture = nanfaren
 			any_country = {
 				limit = {
 					OR = {
@@ -313,7 +310,6 @@ political_decisions = {
   		prestige = 30
   		change_tag = CHI
 			add_accepted_culture = beifaren
-			add_accepted_culture = nanfaren
 			any_country = {
 				limit = {
 					OR = {
@@ -371,7 +367,6 @@ political_decisions = {
   		prestige = 30
   		change_tag = CHI
 			add_accepted_culture = beifaren
-			add_accepted_culture = nanfaren
 			any_country = {
 				limit = {
 					OR = {
@@ -475,7 +470,7 @@ political_decisions = {
 		effect = {
 			prestige = 30
 			change_tag = CHI
-			add_accepted_culture = nanfaren
+			add_accepted_culture = beifaren
 			add_accepted_culture = hakka
 			any_country = {
 				limit = {
@@ -512,7 +507,6 @@ political_decisions = {
 			CHI_2608 = { add_core = THIS }
 			CHI_1465 = { add_core = THIS }
 			CHI_2562 = { add_core = THIS }
-			add_accepted_culture = nanfaren
 			add_accepted_culture = hui
 			set_country_flag = restoration_of_yuan
 		}
@@ -721,7 +715,6 @@ political_decisions = {
 		effect = {
 			badboy = 15
 			NEP_1327 = { add_core = THIS }
-			BHU_1329 = { add_core = THIS }
 			PAN_1224 = { add_core = THIS }
 			CHI_1597 = { add_core = THIS }
 			CHI_1532 = { add_core = THIS }
@@ -788,7 +781,6 @@ political_decisions = {
 			CHI_1532 = { add_core = THIS }
 			CHI_1557 = { add_core = THIS }
 			JAP_1678 = { add_core = THIS }
-			add_accepted_culture = nanfaren
 			add_accepted_culture = ainu
 			set_country_flag = jung_gug
 		}
