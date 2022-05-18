@@ -188,7 +188,7 @@ country_event = {
 			change_variable = { which = owed_cash_money value = -10 }
 		}
 
-		CLN = { country_event = { id = 477877787 days = 1 } }
+		RAP = { country_event = { id = 477877787 days = 1 } }
 	}
 }
 
@@ -213,7 +213,7 @@ country_event = {
             }
             any_state  = { flashpoint_tension = -100 }
         }
-		#make CLN unable to be interacted with by ai
+		#make RAP unable to be interacted with by ai
 		any_country = {
 			limit = {
 				exists = yes
@@ -686,7 +686,7 @@ country_event = {
 			}
 		}
 
-		CLN = { country_event = { id = 477877790 days = 30 } }
+		RAP = { country_event = { id = 477877790 days = 30 } }
 	}
 }
 
@@ -828,7 +828,7 @@ country_event = {
 			}
 		}
 
-		CLN = { country_event = { id = 477877791 days = 365 } }
+		RAP = { country_event = { id = 477877791 days = 365 } }
 	}
 }
 
@@ -867,7 +867,7 @@ country_event = {
 
 	option = {
 		name = "Cleanup Setup"
-		CLN = {
+		RAP = {
 			country_event = 477877787
 			country_event = 477877790
 			country_event = 477877791
