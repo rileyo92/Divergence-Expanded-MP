@@ -450,9 +450,6 @@ political_decisions = {
 			FRA_1097 = {
 				add_core = JAP
 			}
-			SA_7 = {
-				add_core = JAP
-			}
 			HAW_658 = {
 				add_core = JAP
 			}

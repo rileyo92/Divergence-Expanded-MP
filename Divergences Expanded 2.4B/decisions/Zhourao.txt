@@ -162,9 +162,6 @@ political_decisions = {
 			FRA_1097 = {
 				add_core = GAN
 			}
-			SA_7 = {
-				add_core = GAN
-			}
 			HAW_658 = {
 				add_core = GAN
 			}

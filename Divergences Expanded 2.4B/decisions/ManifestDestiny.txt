@@ -100,9 +100,6 @@ political_decisions = {
 			FRA_1097 = {
 				add_core = DNG
 			}
-			SA_7 = {
-				add_core = DNG
-			}
 		}
 	}
 
