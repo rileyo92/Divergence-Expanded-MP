@@ -2,7 +2,6 @@
 
 # Special countries...
 REB 	= 	"countries/rebels.txt"
-CLN   =   "countries/Cleanup.txt"
 
 #Rileyo Additions/reuse
 
