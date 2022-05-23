@@ -1,6 +1,16 @@
-owner = EGY
-controller = EGY
+owner = TUR
+controller = TUR
+add_core = TUR
 add_core = EGY
+add_core = PLS
+add_core = SYR
 trade_goods = fruit
 life_rating = 30
 terrain = semidesert
+1836.1.2 = {
+  owner = PLS
+  controller = PLS
+  remove_core = TUR
+  remove_core = SYR
+  remove_core = EGY
+}

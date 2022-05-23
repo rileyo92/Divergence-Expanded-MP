@@ -1,6 +1,6 @@
 capital = 1166
-primary_culture = khaliji
-culture = bedouin
+primary_culture = bedouin
+culture = maghrebi
 religion = ibadi
 government = absolute_monarchy
 plurality = 0.0

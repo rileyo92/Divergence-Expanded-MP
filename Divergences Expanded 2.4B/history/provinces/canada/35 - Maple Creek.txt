@@ -1,4 +1,5 @@
 add_core = DNG
+add_core = HHR
 trade_goods = grain
 terrain = steppe
 life_rating = 30

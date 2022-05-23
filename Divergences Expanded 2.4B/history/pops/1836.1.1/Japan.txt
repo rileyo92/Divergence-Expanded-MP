@@ -777,20 +777,20 @@
         culture = japanese
         religion = mahayana
         size = 25525
-    } 
+    }
 
 	craftsmen = {
         culture = japanese
         religion = mahayana
 		size = 3000
 	}
-  
+
   capitalists = {
         culture = japanese
         religion = mahayana
 		size = 85
 	}
-  
+
   clerks = {
         culture = japanese
         religion = mahayana
@@ -1036,13 +1036,13 @@
         religion = mahayana
 		size = 3000
 	}
-  
+
   capitalists = {
         culture = japanese
         religion = mahayana
 		size = 85
 	}
-  
+
   clerks = {
         culture = japanese
         religion = mahayana
@@ -1905,7 +1905,7 @@
 }
 #Ryukyu Region (272000)
 #tributary state to Japan in 1836
-#Okinawa (192000/48000 POPS)  #ryukyuan represented by japanese 
+#Okinawa (192000/48000 POPS)  #ryukyuan represented by japanese
 1678 = {
 	aristocrats = {
 		culture = japanese
@@ -1950,31 +1950,31 @@
 	}
 
 	bureaucrats = {
-		culture = nanfaren
+		culture = beifaren
 		religion = shinto
 		size = 5
 	}
 
 	clergymen = {
-		culture = nanfaren
+		culture = beifaren
 		religion = shinto
 		size = 75
 	}
 
 	artisans = {
-		culture = nanfaren
+		culture = beifaren
 		religion = shinto
 		size = 200
 	}
 
 	soldiers = {
-		culture = nanfaren
+		culture = beifaren
 		religion = shinto
 		size = 2050
 	}
 
 	farmers = {
-		culture = nanfaren
+		culture = beifaren
 		religion = shinto
 		size = 3670
 	}

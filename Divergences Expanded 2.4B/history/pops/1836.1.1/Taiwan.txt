@@ -1,39 +1,39 @@
 #Taiwan Region (2980000) 
-#under the rule of China in 1836  
-#Tainan (1452000/363000 POPS) #now part of Taiwan   
+#under the rule of China in 1836
+#Tainan (1452000/363000 POPS) #now part of Taiwan
 1485 = {
 	aristocrats = {
-		culture = nanfaren
+		culture = beifaren
 		religion = mahayana
 		size = 1525
 	}
 
 	clergymen = {
-		culture = nanfaren
+		culture = beifaren
 		religion = mahayana
 		size = 1325
 	}
 
 	artisans = {
-		culture = nanfaren
+		culture = beifaren
 		religion = mahayana
 		size = 6600
 	}
 
 	soldiers = {
-		culture = nanfaren
+		culture = beifaren
 		religion = mahayana
 		size = 1325
 	}
 
 	farmers = {
-		culture = nanfaren
+		culture = beifaren
 		religion = mahayana
 		size = 121225
-	}	
+	}
 
 	slaves = {
-		culture = nanfaren
+		culture = beifaren
 		religion = mahayana
 		size = 20000
 	}
@@ -82,54 +82,54 @@
 		culture = micronesian
 		religion = animist
 		size = 18150
-	}	
+	}
 }
-#Taitung (67k - 268k) #now part of Taiwan  
+#Taitung (67k - 268k) #now part of Taiwan
 2562 = {
 	farmers = {
 		culture = micronesian
 		religion = animist
 		size = 17000
 	}
-	
+
 	slaves = {
 		culture = micronesian
 		religion = animist
 		size = 20000
 	}
-	
+
 	soldiers = {
 		culture = micronesian
 		religion = animist
 		size = 5000
 	}
-	
+
 	aristocrats = {
 		culture = micronesian
 		religion = animist
 		size = 1000
 	}
-	
+
 	aristocrats = {
-		culture = nanfaren
+		culture = beifaren
 		religion = mahayana
 		size = 150
 	}
-	
+
 	clergymen = {
-		culture = nanfaren
+		culture = beifaren
 		religion = mahayana
 		size = 100
 	}
 
 	artisans = {
-		culture = nanfaren
+		culture = beifaren
 		religion = mahayana
 		size = 750
 	}
 
 	soldiers = {
-		culture = nanfaren
+		culture = beifaren
 		religion = mahayana
 		size = 1300
 	}
@@ -144,25 +144,25 @@
 #Penghu (15K - 60 K POPS) #british trade post 1836 - old cocos island
 2406 = {
 	aristocrats = {
-		culture = nanfaren
+		culture = beifaren
 		religion = mahayana
 		size = 150
 	}
-	
+
 	clergymen = {
-		culture = nanfaren
+		culture = beifaren
 		religion = mahayana
 		size = 100
 	}
 
 	artisans = {
-		culture = nanfaren
+		culture = beifaren
 		religion = mahayana
 		size = 750
 	}
 
 	soldiers = {
-		culture = nanfaren
+		culture = beifaren
 		religion = mahayana
 		size = 1300
 	}
@@ -178,43 +178,43 @@
 #Taipei (1452000/363000 POPS) formerly 2681 - Kikkiaki in Russia.txt
 2681 = {
 	aristocrats = {
-		culture = nanfaren
+		culture = beifaren
 		religion = mahayana
 		size = 1500
 	}
 
 	bureaucrats = {
-		culture = nanfaren
+		culture = beifaren
 		religion = mahayana
 		size = 450
 	}
 
 	officers = {
-		culture = nanfaren
+		culture = beifaren
 		religion = mahayana
 		size = 750
 	}
 
 	clergymen = {
-		culture = nanfaren
+		culture = beifaren
 		religion = mahayana
 		size = 1225
 	}
 
 	artisans = {
-		culture = nanfaren
+		culture = beifaren
 		religion = mahayana
 		size = 6150
 	}
 
 	soldiers = {
-		culture = nanfaren
+		culture = beifaren
 		religion = mahayana
 		size = 1300
 	}
 
 	farmers = {
-		culture = nanfaren
+		culture = beifaren
 		religion = mahayana
 		size = 110625
 	}
@@ -255,4 +255,3 @@
 		size = 220200
 	}
 }
-
