@@ -974,27 +974,22 @@ emigration_chance = {
 	}
 
 	modifier = {
-	   factor = -0.6
-		 culture = nanfaren
-	}
-
-	modifier = {
-	   factor = -0.6
+	   factor = -0.5
 		 culture = beifaren
 	}
 
 	modifier = {
-	   factor = -0.6
+	   factor = -0.5
 		 culture = yue
 	}
 
 	modifier = {
-	   factor = -0.6
+	   factor = -0.5
 		 culture = min
 	}
 
 	modifier = {
-	   factor = -0.6
+	   factor = -0.5
 		 culture = hakka
 	}
 

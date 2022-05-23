@@ -360,7 +360,6 @@ country_migration_target =
 			THIS = { culture = ganguan }
 			THIS = { culture = tionghoa }
 			THIS = { culture = beifaren }
-			THIS = { culture = nanfaren }
 			THIS = { culture = hakka }
 			THIS = { culture = min }
 			THIS = { culture = yue }
@@ -402,7 +401,6 @@ country_migration_target =
 		OR = {
 			THIS = { culture = korean }
 			THIS = { culture = beifaren }
-			THIS = { culture = nanfaren }
 			THIS = { culture = manchu }
 			THIS = { culture = min }
 			THIS = { culture = yue }
@@ -1024,7 +1022,6 @@ promote_to =
 			factor = -100
 			AND = {
 				OR = {
-					culture = nanfaren
 					culture = beifaren
 					culture = yue
 					culture = min
