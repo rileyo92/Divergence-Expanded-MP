@@ -11,12 +11,6 @@ literacy = 0.06
 non_state_culture_literacy = 0.01
 civilized = no
 
-1836.1.2 = {
-	remove_accepted_culture = assamese
-	remove_accepted_culture = manipuri
-	remove_accepted_culture = bihari
-}
-
 # Political reforms
 slavery = no_slavery
 upper_house_composition = appointed
