@@ -14277,7 +14277,7 @@
 
 }
 
-# Gï¿½vle
+# Gävle
 317 = {
     unit = {
         x = 3056.000000
@@ -14372,7 +14372,7 @@
 
 }
 
-# ï¿½stersund
+# Östersund
 319 = {
     unit = {
         x = 3027.000000
@@ -14433,7 +14433,7 @@
 
 }
 
-# Umeï¿½
+# Umeå
 320 = {
     unit = {
         x = 3102.000000
@@ -14504,7 +14504,7 @@
 
 }
 
-# Luleï¿½
+# Luleå
 321 = {
     unit = {
         x = 3130.000000
@@ -14720,7 +14720,7 @@
 
 }
 
-# Norrkï¿½ping
+# Norrköping
 325 = {
     unit = {
         x = 3052.000000
@@ -14762,7 +14762,7 @@
 
 }
 
-# Vï¿½sterï¿½s
+# Västerås
 326 = {
     unit = {
         x = 3062.000000
@@ -14843,7 +14843,7 @@
 
 }
 
-# ï¿½rebro
+# Örebro
 327 = {
     unit = {
         x = 3040.000000
@@ -14962,7 +14962,7 @@
 
 }
 
-# Gï¿½teborg
+# Göteborg
 329 = {
     unit = {
         x = 2988.000000
@@ -15019,7 +15019,7 @@
 
 }
 
-# Borï¿½s
+# Borås
 330 = {
     unit = {
         x = 3011.000000
@@ -15166,7 +15166,7 @@
 
 }
 
-# Vï¿½xjï¿½
+# Växjö
 333 = {
     unit = {
         x = 3031.000000
@@ -15204,7 +15204,7 @@
 
 }
 
-# Malmï¿½
+# Malmö
 334 = {
     unit = {
         x = 3013.000000
@@ -16179,7 +16179,7 @@
 
 }
 
-# ï¿½sel
+# Ösel
 353 = {
     unit = {
         x = 3159.000000
@@ -28189,7 +28189,7 @@
 
 }
 
-# Resicabï¿½nya
+# Resicabánya
 653 = {
     text_position = {
         x = 3150.808333
@@ -29827,7 +29827,7 @@
 
 }
 
-# Kï¿½nigsberg
+# Königsberg
 695 = {
     unit = {
         x = 3133.000000
@@ -94060,7 +94060,7 @@
 
 }
 
-# Leï¿½n
+# León
 2199 = {
     unit = {
         x = 1459.000000
@@ -96234,7 +96234,7 @@
 
 }
 
-# Ibaguï¿½
+# Ibagué
 2248 = {
     text_position = {
         x = 1633.000000
@@ -102124,7 +102124,7 @@
 
 }
 
-# Neuquï¿½n
+# Neuquén
 2391 = {
     text_position = {
         x = 1718.000000
@@ -116221,7 +116221,7 @@
 
 }
 
-# Vï¿½nern
+# Vänern
 2703 = {
     unit = {
         x = 3016.000000
@@ -116237,7 +116237,7 @@
     text_scale = 2.200000
 }
 
-# Vï¿½ttern
+# Vättern
 2704 = {
     text_position = {
         x = 3031.899902
@@ -116264,7 +116264,7 @@
     text_scale = 3.099999
 }
 
-# ï¿½lands Hav
+# Ålands Hav
 2706 = {
     unit = {
         x = 3115.000000
@@ -116341,7 +116341,7 @@
     text_scale = 3.099999
 }
 
-# ï¿½resund
+# Öresund
 2711 = {
     unit = {
         x = 2986.000000
@@ -116373,7 +116373,7 @@
     text_scale = 3.099999
 }
 
-# Peipsi Jï¿½rv
+# Peipsi Järv
 2713 = {
     unit = {
         x = 3233.000000
@@ -124506,7 +124506,7 @@
 
 }
 
-# Lake Hjï¿½lmaren
+# Lake Hjälmaren
 3312 = {
     text_position = {
         x = 3056.900000
@@ -124537,7 +124537,7 @@
 
 }
 
-# Lake Storsjï¿½n
+# Lake Storsjön
 3314 = {
     text_position = {
         x = 3044.350000
@@ -124568,7 +124568,7 @@
 
 }
 
-# Lake Oulujï¿½rvi
+# Lake Oulujärvi
 3316 = {
     text_position = {
         x = 3232.950000
@@ -124584,7 +124584,7 @@
 
 }
 
-# Lake Pï¿½ijï¿½nne
+# Lake Päijänne
 3317 = {
     text_position = {
         x = 3223.800000
@@ -124630,7 +124630,7 @@
 
 }
 
-# Lake Pyhï¿½jï¿½rvi
+# Lake Pyhäjärvi
 3320 = {
     text_position = {
         x = 3182.175000
