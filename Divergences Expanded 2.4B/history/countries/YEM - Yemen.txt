@@ -1,5 +1,5 @@
 capital = 1178
-primary_culture = maghrebi
+primary_culture = khaliji
 culture = bedouin
 religion = sunni
 government = absolute_monarchy
@@ -61,3 +61,4 @@ oob = "YEM_oob.txt"
 1861.1.1 = {
 	oob = "/1861/YEM_oob.txt"
 }
+

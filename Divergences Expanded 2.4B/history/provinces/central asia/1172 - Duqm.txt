@@ -1,5 +1,3 @@
-owner = OMA
-controller = OMA
 add_core = OMA
 add_core = NEJ
 trade_goods = fish

@@ -1,4 +1,4 @@
-capital = 1026
+capital = 1058
 primary_culture = ugrian
 culture = novgorodian
 culture = russian

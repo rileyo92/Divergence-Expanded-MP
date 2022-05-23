@@ -2,7 +2,3 @@ add_core = AVA
 trade_goods = fish
 terrain = savanna
 life_rating = 15
-1836.1.2 = {
-  owner = AVA
-  controller = AVA
-}

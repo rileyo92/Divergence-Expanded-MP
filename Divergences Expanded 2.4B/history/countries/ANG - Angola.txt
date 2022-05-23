@@ -1,6 +1,10 @@
 capital = 1999
 primary_culture = bakongo
 culture = ovimbundu
+culture = kavango
+culture = lunda
+culture = herero
+culture = chokwe
 religion = catholic
 government = presidential_dictatorship
 plurality = 0.0

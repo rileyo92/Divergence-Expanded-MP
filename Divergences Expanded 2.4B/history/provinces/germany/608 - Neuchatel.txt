@@ -8,7 +8,7 @@ trade_goods = coal
 life_rating = 35
 1836.1.2 = {
 	owner = GNV
-	controller = GNV
+	controller = GNC
 	remove_core = BRG
   remove_core = SWI
 }

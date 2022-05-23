@@ -1,5 +1,3 @@
-owner = YEM
-controller = YEM
 add_core = YEM
 add_core = NEJ
 trade_goods = opium

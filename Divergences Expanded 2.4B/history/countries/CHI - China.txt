@@ -1,5 +1,6 @@
 capital = 1612
 primary_culture = beifaren
+culture = nanfaren
 culture = manchu
 culture = hakka
 culture = miao

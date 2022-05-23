@@ -1,6 +1,3 @@
 add_core = VIN
 trade_goods = timber
 life_rating = 35
-1836.1.2 = {
-  remove_core = VIN
-}
