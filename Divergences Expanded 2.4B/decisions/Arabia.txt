@@ -1,58 +1,6 @@
 #Decisions for Maghreb, Egypt, Arabia
 
 political_decisions = {
-	#Maghreb
-	#restore_al_andalus = {
-	#	potential = {
-	#		tag = MGH
-	#	}
-	#	allow = {
-	#		civilized = yes
-	#		owns = 509
-	#		owns = 513
-	#		owns = 507
-	#	}
-	#	effect = {
-	#	}
-	#}
-
-	#secure_tunis_maghreb = {
-	#	potential = {
-	#		tag = MGH
-	#	}
-	#	allow = {
-	#		owns = 1725
-	#		owns = 1730
-	#	}
-	#	effect = {
-	#	}
-	#}
-
-	#Tunisia
-	#dominate_maghreb_tunis = {
-	#	potential = {
-	#		tag = TUN
-	#	}
-	#	allow = {
-	#		owns = 1708
-	#		owns = 1700
-	#		owns = 1704
-	#	}
-	#	effect = {
-	#	}
-	#}
-
-	#reclaim_cyrenaica = {
-	#	potential = {
-	#		tag = TUN
-	#	}
-	#	allow = {
-	#		owns = 1735
-	#	}
-	#	effect = {
-	#	}
-	#}
-
 	secularize_society = {
 		picture = the_holy_city
 		potential = {
