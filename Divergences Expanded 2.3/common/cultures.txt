@@ -2556,20 +2556,6 @@ african_diaspora_cultures = {
 	leader = african
 	is_overseas = no
 	unit = AfricanGC
-	kreol = {
-		color = { 63 32 10 }
-		first_names = { Alexis Andr Antnor Antoine Augustin Balthazar Beaubrun Cligny Charlemagne Charles
-			Cincinnatus Dants Demesvar Denys Emmanuel Eugne Fabre Faustin Florvil Franois
-			Guillaume Hannibal Henri Jacques Jean Jean-Baptiste Jean-Louis Jean-Pierre Jonathas Joseph
-			Lon Louis Louis-Eugne Louis-Joseph Lysius Michel Monpoint Nissage Nord Oreste
-			Philippe Pierre Simon Stnio Sylvain Tandred Thomas Timolen Tirsias Vilbrum }
-
-			last_names = { Alexis Ardouin Auguste Bellegarde Boisrond-Canal Bonnet Borno Boyer Brutus Christophe
-			Conz Dartiguenave Delorme Dessalines Domingue Firmin Geffrad Granville Guerrier Hyppolite
-			Iginac Janvier Jeune Lafontant Laleau Leconte Lgitime Legouaze Lon Lhrisson
-			Madiou Pralte Pierrot Planchet Price Price-Mars Rich Rigaud Rivire-Hrard Roumain
-			Roy Saget Salnave Salomon Sam Simon Soulouque Thodore Vincent Zamor }
-	}
 
 	afro_latino = {
 		color = {12 83 12}
@@ -2594,6 +2580,36 @@ african_diaspora_cultures = {
 	}
 
 	afro_frankish = {
+		color = {24 44 49}
+		first_names = { Alexis Andr Antnor Antoine Augustin Balthazar Beaubrun Cligny Charlemagne Charles
+		Cincinnatus Dants Demesvar Denys Emmanuel Eugne Fabre Faustin Florvil Franois
+		Guillaume Hannibal Henri Jacques Jean Jean-Baptiste Jean-Louis Jean-Pierre Jonathas Joseph
+		Lon Louis Louis-Eugne Louis-Joseph Lysius Michel Monpoint Nissage Nord Oreste
+		Philippe Pierre Simon Stnio Sylvain Tandred Thomas Timolen Tirsias Vilbrum  }
+
+		last_names = { Alexis Ardouin Auguste Bellegarde Boisrond-Canal Bonnet Borno Boyer Brutus Christophe
+		Conz Dartiguenave Delorme Dessalines Domingue Firmin Geffrad Granville Guerrier Hyppolite
+		Iginac Janvier Jeune Lafontant Laleau Leconte Lgitime Legouaze Lon Lhrisson
+		Madiou Pralte Pierrot Planchet Price Price-Mars Rich Rigaud Rivire-Hrard Roumain
+		Roy Saget Salnave Salomon Sam Simon Soulouque Thodore Vincent Zamor }
+	}
+
+	afro_arcadian = {
+		color = {24 44 49}
+		first_names = { Alexis Andr Antnor Antoine Augustin Balthazar Beaubrun Cligny Charlemagne Charles
+		Cincinnatus Dants Demesvar Denys Emmanuel Eugne Fabre Faustin Florvil Franois
+		Guillaume Hannibal Henri Jacques Jean Jean-Baptiste Jean-Louis Jean-Pierre Jonathas Joseph
+		Lon Louis Louis-Eugne Louis-Joseph Lysius Michel Monpoint Nissage Nord Oreste
+		Philippe Pierre Simon Stnio Sylvain Tandred Thomas Timolen Tirsias Vilbrum  }
+
+		last_names = { Alexis Ardouin Auguste Bellegarde Boisrond-Canal Bonnet Borno Boyer Brutus Christophe
+		Conz Dartiguenave Delorme Dessalines Domingue Firmin Geffrad Granville Guerrier Hyppolite
+		Iginac Janvier Jeune Lafontant Laleau Leconte Lgitime Legouaze Lon Lhrisson
+		Madiou Pralte Pierrot Planchet Price Price-Mars Rich Rigaud Rivire-Hrard Roumain
+		Roy Saget Salnave Salomon Sam Simon Soulouque Thodore Vincent Zamor }
+	}
+
+	afro_amerigan = {
 		color = {24 44 49}
 		first_names = { Alexis Andr Antnor Antoine Augustin Balthazar Beaubrun Cligny Charlemagne Charles
 		Cincinnatus Dants Demesvar Denys Emmanuel Eugne Fabre Faustin Florvil Franois

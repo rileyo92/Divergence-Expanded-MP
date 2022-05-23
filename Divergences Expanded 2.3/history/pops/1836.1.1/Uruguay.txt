@@ -1,4 +1,4 @@
-#Uruguay Region (200000)  
+#Uruguay Region (200000)
 #Under rule of Uruguay 1836
 #Montevideo (112000/28000 POPS)
 2344 = {
@@ -52,32 +52,32 @@
 	}
 
 	clergymen = {
-		culture = afro_frankish
+		culture = afro_amerigan
 		religion = protestant
 		size = 150
 	}
 
 	artisans = {
-		culture = afro_frankish
+		culture = afro_amerigan
 		religion = protestant
 		size = 4250
 	}
 
 	soldiers = {
-		culture = afro_frankish
+		culture = afro_amerigan
 		religion = protestant
 		size= 1050
 
 	}
 
 	farmers = {
-		culture = afro_frankish
+		culture = afro_amerigan
 		religion = protestant
 		size = 5150
 	}
 
 	slaves = {
-		culture = afro_frankish
+		culture = afro_amerigan
 		religion = protestant
 		size = 23500
 	}
@@ -94,8 +94,8 @@
 		culture = lotharian
 		religion = protestant
 		size = 20
-	}	
-	
+	}
+
 	clergymen = {
 		culture = lotharian
 		religion = protestant
@@ -122,7 +122,7 @@
 	}
 
 	slaves = {
-		culture = afro_frankish
+		culture = afro_amerigan
 		religion = protestant
 		size = 3240
 	}
@@ -167,32 +167,32 @@
 	}
 
 	clergymen = {
-		culture = afro_frankish
+		culture = afro_amerigan
 		religion = protestant
 		size = 15
 	}
 
 	artisans = {
-		culture = afro_frankish
+		culture = afro_amerigan
 		religion = protestant
 		size = 50
 	}
 
 	soldiers = {
-		culture = afro_frankish
+		culture = afro_amerigan
 		religion = protestant
 		size= 10
 
 	}
 
 	farmers = {
-		culture = afro_frankish
+		culture = afro_amerigan
 		religion = protestant
 		size = 325
 	}
 
 	slaves = {
-		culture = afro_frankish
+		culture = afro_amerigan
 		religion = protestant
 		size = 8300
 	}
@@ -237,32 +237,32 @@
 	}
 
 	clergymen = {
-		culture = afro_frankish
+		culture = afro_amerigan
 		religion = protestant
 		size = 50
 	}
 
 	artisans = {
-		culture = afro_frankish
+		culture = afro_amerigan
 		religion = protestant
 		size = 150
 	}
 
 	soldiers = {
-		culture = afro_frankish
+		culture = afro_amerigan
 		religion = protestant
 		size= 25
 
 	}
 
 	farmers = {
-		culture = afro_frankish
+		culture = afro_amerigan
 		religion = protestant
 		size = 775
 	}
 
 	slaves = {
-		culture = afro_frankish
+		culture = afro_amerigan
 		religion = protestant
 		size = 4200
 	}

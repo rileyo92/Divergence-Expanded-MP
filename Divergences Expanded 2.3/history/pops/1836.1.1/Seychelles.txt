@@ -21,31 +21,31 @@
     }
 
 	aristocrats = {
-		culture = kreol
+		culture = afro_germanic
 		religion = catholic
 		size = 30
 	}
-	
+
 	soldiers = {
-		culture = kreol
+		culture = afro_germanic
 		religion = catholic
 		size = 30
 	}
-	
+
 	clergymen = {
-		culture = kreol
+		culture = afro_germanic
 		religion = catholic
 		size = 30
 	}
 
 	artisans = {
-		culture = kreol
+		culture = afro_germanic
 		religion = catholic
 		size = 75
 	}
 
 	farmers = {
-		culture = kreol
+		culture = afro_germanic
 		religion = catholic
 		size = 1175
 	}

@@ -3396,25 +3396,25 @@
 	}
 
 	clergymen = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 125
 	}
 
 	artisans = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 1650
 	}
 
 	farmers = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 18325
 	}
 
 	slaves = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 30000
 	}
@@ -3464,25 +3464,25 @@
 	}
 
 	clergymen = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 60
 	}
 
 	artisans = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 1125
 	}
 
 	farmers = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 1000
 	}
 
 	slaves = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 14875
 	}
@@ -3520,25 +3520,25 @@
 	}
 
 	clergymen = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 15
 	}
 
 	artisans = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 320
 	}
 
 	farmers = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 2600
 	}
 
 	slaves = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 13700
 	}
@@ -3588,25 +3588,25 @@
 	}
 
 	clergymen = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 30
 	}
 
 	artisans = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 500
 	}
 
 	farmers = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 200
 	}
 
 	slaves = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 12350
 	}
@@ -3659,25 +3659,25 @@
 	}
 
 	clergymen = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 50
 	}
 
 	artisans = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 135
 	}
 
 	farmers = {
-		culture= afro_frankish
+		culture= afro_arcadian
 		religion = catholic
 		size = 15
 	}
 
 	slaves = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 8800
 	}
@@ -3710,7 +3710,7 @@
 	}
 
 	slaves = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 6400
 	}
@@ -3832,25 +3832,25 @@
 	}
 
 	clergymen = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 25
 	}
 
 	artisans = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 100
 	}
 
 	farmers = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 25
 	}
 
 	slaves = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 3250
 	}
@@ -4462,13 +4462,13 @@
 	}
 
 	clergymen = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 25
 	}
 
 	slaves = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 3200
 	}
@@ -4501,13 +4501,13 @@
 	}
 
 	clergymen = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 10
 	}
 
 	slaves = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 2900
 	}
@@ -4540,25 +4540,25 @@
 	}
 
 	clergymen = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 15
 	}
 
 	artisans = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 110
 	}
 
 	farmers = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 875
 	}
 
 	slaves = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 2200
 	}
@@ -4662,25 +4662,25 @@
 	}
 
 	clergymen = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 25
 	}
 
 	artisans = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 150
 	}
 
 	farmers = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 1825
 	}
 
 	slaves = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 3300
 	}
@@ -5420,25 +5420,25 @@
 	}
 
 	clergymen = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 15
 	}
 
 	artisans = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 85
 	}
 
 	farmers = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 1900
 	}
 
 	slaves = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 1900
 	}
@@ -5527,25 +5527,25 @@
 	}
 
 	clergymen = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 60
 	}
 
 	artisans = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 400
 	}
 
 	farmers = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 700
 	}
 
 	slaves = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 3500
 	}
@@ -5627,25 +5627,25 @@
 	}
 
 	clergymen = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 40
 	}
 
 	artisans = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 300
 	}
 
 	farmers = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 850
 	}
 
 	slaves = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 6250
 	}
@@ -5709,25 +5709,25 @@
 	}
 
 	clergymen = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 60
 	}
 
 	artisans = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 700
 	}
 
 	farmers = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 700
 	}
 
 	slaves = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 5500
 	}
@@ -5791,25 +5791,25 @@
 	}
 
 	clergymen = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 50
 	}
 
 	artisans = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 350
 	}
 
 	farmers = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 100
 	}
 
 	slaves = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 7500
 	}
@@ -5905,25 +5905,25 @@
 	}
 
 	clergymen = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 75
 	}
 
 	artisans = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 850
 	}
 
 	farmers = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 325
 	}
 
 	slaves = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 9700
 	}
@@ -5993,25 +5993,25 @@
 	}
 
 	clergymen = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 50
 	}
 
 	artisans = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 350
 	}
 
 	farmers = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 100
 	}
 
 	slaves = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 7500
 	}
@@ -6074,25 +6074,25 @@
 	}
 
 	clergymen = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 105
 	}
 
 	artisans = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 600
 	}
 
 	farmers = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 850
 	}
 
 	slaves = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 6075
 	}
@@ -6155,25 +6155,25 @@
 	}
 
 	clergymen = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 50
 	}
 
 	artisans = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 350
 	}
 
 	farmers = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 400
 	}
 
 	slaves = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 5200
 	}
@@ -6232,25 +6232,25 @@
 	}
 
 	clergymen = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 25
 	}
 
 	artisans = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 300
 	}
 
 	farmers = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 25
 	}
 
 	slaves = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 17650
 	}
@@ -6289,25 +6289,25 @@
 	}
 
 	clergymen = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 25
 	}
 
 	artisans = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 250
 	}
 
 	farmers = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 25
 	}
 
 	slaves = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 5700
 	}
@@ -6364,25 +6364,25 @@
 	}
 
 	clergymen = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 25
 	}
 
 	artisans = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 150
 	}
 
 	farmers = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 25
 	}
 
 	slaves = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 12800
 	}
@@ -6435,25 +6435,25 @@
 	}
 
 	clergymen = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 25
 	}
 
 	artisans = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 450
 	}
 
 	farmers = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 25
 	}
 
 	slaves = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 13500
 	}
@@ -6492,25 +6492,25 @@
 	}
 
 	clergymen = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 25
 	}
 
 	artisans = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 575
 	}
 
 	farmers = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 50
 	}
 
 	slaves = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 5300
 	}
@@ -6585,25 +6585,25 @@
 	}
 
 	clergymen = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 25
 	}
 
 	artisans = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 300
 	}
 
 	farmers = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 25
 	}
 
 	slaves = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 12650
 	}
@@ -6656,25 +6656,25 @@
 	}
 
 	clergymen = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 10
 	}
 
 	artisans = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 80
 	}
 
 	farmers = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 10
 	}
 
 	slaves = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 3900
 	}
@@ -6881,25 +6881,25 @@
 	}
 
 	clergymen = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 25
 	}
 
 	artisans = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 550
 	}
 
 	farmers = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 25
 	}
 
 	slaves = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 5400
 	}
@@ -6969,25 +6969,25 @@
 	}
 
 	clergymen = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 65
 	}
 
 	artisans = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 575
 	}
 
 	farmers = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 310
 	}
 
 	slaves = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 8900
 	}
@@ -7026,25 +7026,25 @@
 	}
 
 	clergymen = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 125
 	}
 
 	artisans = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 1475
 	}
 
 	farmers = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 4025
 	}
 
 	slaves = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 10475
 	}
@@ -7083,25 +7083,25 @@
 	}
 
 	clergymen = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 15
 	}
 
 	artisans = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 325
 	}
 
 	farmers = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 10
 	}
 
 	slaves = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 11650
 	}
@@ -7178,25 +7178,25 @@
 	}
 
 	clergymen = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 150
 	}
 
 	artisans = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 3675
 	}
 
 	farmers = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 10510
 	}
 
 	slaves = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 15300
 	}
@@ -7247,25 +7247,25 @@
 	}
 
 	clergymen = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 45
 	}
 
 	artisans = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 500
 	}
 
 	farmers = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 425
 	}
 
 	slaves = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 12450
 	}
@@ -7324,25 +7324,25 @@
 	}
 
 	clergymen = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 125
 	}
 
 	artisans = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 1325
 	}
 
 	farmers = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 2050
 	}
 
 	slaves = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 14600
 	}
@@ -7417,25 +7417,25 @@
 	}
 
 	clergymen = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 50
 	}
 
 	artisans = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 450
 	}
 
 	farmers = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 100
 	}
 
 	slaves = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 9400
 	}
@@ -7492,25 +7492,25 @@
 	}
 
 	clergymen = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 125
 	}
 
 	artisans = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 1550
 	}
 
 	farmers = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 1025
 	}
 
 	slaves = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 8400
 	}
@@ -7549,25 +7549,25 @@
 	}
 
 	clergymen = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 25
 	}
 
 	artisans = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 500
 	}
 
 	farmers = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 25
 	}
 
 	slaves = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 13450
 	}
@@ -7606,25 +7606,25 @@
 	}
 
 	clergymen = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 50
 	}
 
 	artisans = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 500
 	}
 
 	farmers = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 150
 	}
 
 	slaves = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 7300
 	}
@@ -7741,31 +7741,31 @@
 	}
 
 	clergymen = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = protestant
 		size = 325
 	}
 
 	artisans = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = protestant
 		size = 3400
 	}
 
 	farmers = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = protestant
 		size = 2125
 	}
 
 	soldiers = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = protestant
 		size = 400
 	}
 
 	slaves = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = protestant
 		size = 18000
 	}
@@ -7822,25 +7822,25 @@
 	}
 
 	clergymen = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = protestant
 		size = 75
 	}
 
 	artisans = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = protestant
 		size = 550
 	}
 
 	farmers = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = protestant
 		size = 625
 	}
 
 	slaves = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = protestant
 		size = 9750
 	}
@@ -7897,25 +7897,25 @@
 	}
 
 	clergymen = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = protestant
 		size = 175
 	}
 
 	artisans = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = protestant
 		size = 2650
 	}
 
 	farmers = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = protestant
 		size = 3400
 	}
 
 	slaves = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = protestant
 		size = 16875
 	}
@@ -7985,25 +7985,25 @@
 	}
 
 	clergymen = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = protestant
 		size = 50
 	}
 
 	artisans = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = protestant
 		size = 500
 	}
 
 	farmers = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = protestant
 		size = 225
 	}
 
 	slaves = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = protestant
 		size = 14225
 	}
@@ -8042,25 +8042,25 @@
 	}
 
 	clergymen = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = protestant
 		size = 50
 	}
 
 	artisans = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = protestant
 		size = 350
 	}
 
 	farmers = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = protestant
 		size = 250
 	}
 
 	slaves = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = protestant
 		size = 8400
 	}
@@ -8099,25 +8099,25 @@
 	}
 
 	clergymen = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 25
 	}
 
 	artisans = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 650
 	}
 
 	farmers = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 50
 	}
 
 	slaves = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 8275
 	}
@@ -8198,25 +8198,25 @@
 	}
 
 	clergymen = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = protestant
 		size = 75
 	}
 
 	artisans = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = protestant
 		size = 500
 	}
 
 	farmers = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = protestant
 		size = 1425
 	}
 
 	slaves = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = protestant
 		size = 11000
 	}
@@ -8255,25 +8255,25 @@
 	}
 
 	clergymen = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 75
 	}
 
 	artisans = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 500
 	}
 
 	farmers = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 2425
 	}
 
 	slaves = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = catholic
 		size = 7000
 	}
@@ -8356,25 +8356,25 @@
 	}
 
 	clergymen = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = protestant
 		size = 325
 	}
 
 	artisans = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = protestant
 		size = 2300
 	}
 
 	farmers = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = protestant
 		size = 1875
 	}
 
 	slaves = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = protestant
 		size = 24600
 	}
@@ -8413,25 +8413,25 @@
 	}
 
 	clergymen = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = protestant
 		size = 200
 	}
 
 	artisans = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = protestant
 		size = 1300
 	}
 
 	farmers = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = protestant
 		size = 1900
 	}
 
 	slaves = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = protestant
 		size = 19000
 	}
@@ -8470,25 +8470,25 @@
 	}
 
 	clergymen = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = protestant
 		size = 50
 	}
 
 	artisans = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = protestant
 		size = 300
 	}
 
 	farmers = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = protestant
 		size = 2650
 	}
 
 	slaves = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = protestant
 		size = 6000
 	}
@@ -8541,25 +8541,25 @@
 	}
 
 	clergymen = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = protestant
 		size = 50
 	}
 
 	artisans = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = protestant
 		size = 300
 	}
 
 	farmers = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = protestant
 		size = 150
 	}
 
 	slaves = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = protestant
 		size = 7500
 	}
@@ -8636,25 +8636,25 @@
 	}
 
 	clergymen = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = protestant
 		size = 50
 	}
 
 	artisans = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = protestant
 		size = 2000
 	}
 
 	farmers = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = protestant
 		size = 2950
 	}
 
 	slaves = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = protestant
 		size = 13540
 	}
@@ -8823,7 +8823,7 @@
 	}
 
 	slaves = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = protestant
 		size = 12340
 	}
@@ -8862,25 +8862,25 @@
 	}
 
 	clergymen = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = protestant
 		size = 50
 	}
 
 	artisans = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = protestant
 		size = 150
 	}
 
 	farmers = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = protestant
 		size = 2800
 	}
 
 	slaves = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = protestant
 		size = 13450
 	}
@@ -8966,19 +8966,19 @@
 	}
 
 	clergymen = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = protestant
 		size = 50
 	}
 
 	artisans = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = protestant
 		size = 200
 	}
 
 	farmers = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = protestant
 		size = 3750
 	}
@@ -9050,13 +9050,13 @@
 	}
 
 	clergymen = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = protestant
 		size = 60
 	}
 
 	slaves = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = protestant
 		size = 8700
 	}
@@ -9115,13 +9115,13 @@
 	}
 
 	clergymen = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = protestant
 		size = 75
 	}
 
 	artisans = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = protestant
 		size = 4925
 	}
@@ -9456,19 +9456,19 @@
 	}
 
 	clergymen = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = protestant
 		size = 25
 	}
 
 	artisans = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = protestant
 		size = 500
 	}
 
 	farmers = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = protestant
 		size = 1475
 	}
@@ -9533,19 +9533,19 @@
 	}
 
 	clergymen = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = protestant
 		size = 25
 	}
 
 	artisans = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = protestant
 		size = 500
 	}
 
 	farmers = {
-		culture = afro_frankish
+		culture = afro_arcadian
 		religion = protestant
 		size = 475
 	}

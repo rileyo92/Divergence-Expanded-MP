@@ -147,32 +147,32 @@
 	}
 
 	clergymen = {
-		culture = afro_frankish
+		culture = afro_amerigan
 		religion = protestant
 		size = 50
 	}
 
 	artisans = {
-		culture = afro_frankish
+		culture = afro_amerigan
 		religion = protestant
 		size = 250
 	}
 
 	soldiers = {
-		culture = afro_frankish
+		culture = afro_amerigan
 		religion = protestant
 		size= 50
 
 	}
 
 	farmers = {
-		culture = afro_frankish
+		culture = afro_amerigan
 		religion = protestant
 		size = 450
 	}
 
 	slaves = {
-		culture = afro_frankish
+		culture = afro_amerigan
 		religion = protestant
 		size = 4500
 	}

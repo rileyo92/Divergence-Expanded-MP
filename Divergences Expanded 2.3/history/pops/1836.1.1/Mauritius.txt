@@ -45,25 +45,25 @@
     }
 
 	clergymen = {
-		culture = kreol
+		culture = afro_latino
 		religion = catholic
 		size = 125
 	}
 
 	artisans = {
-		culture = kreol
+		culture = afro_latino
 		religion = catholic
 		size = 1100
 	}
 
 	soldiers = {
-		culture = kreol
+		culture = afro_latino
 		religion = catholic
 		size = 250
 	}
 
 	farmers = {
-		culture = kreol
+		culture = afro_latino
 		religion = catholic
 		size = 22375
 	}
@@ -71,7 +71,7 @@
 #Diego Garcia (700/175 POPS) #remains under British Rule
 2128 = {
 	farmers = {
-		culture = kreol
+		culture = afro_frankish
 		religion = catholic
 		size = 175
 	}
