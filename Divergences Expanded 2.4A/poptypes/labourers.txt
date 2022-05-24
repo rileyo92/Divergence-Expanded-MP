@@ -1018,7 +1018,7 @@ promote_to =
 	soldiers = {
 		factor = 0.01
 		modifier = {
-			factor = -100
+			factor = -200
 			OR = {
 				AND = {
 					state_scope = {
@@ -1196,10 +1196,6 @@ promote_to =
 		}
 
 		group = {
-			modifier = {
-				factor = -2
-				soldiers = 0.005
-			}
 			modifier = {
 				factor = -2
 				soldiers = 0.01
