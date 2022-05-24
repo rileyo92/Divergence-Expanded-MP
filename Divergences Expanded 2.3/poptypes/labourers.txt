@@ -360,7 +360,6 @@ country_migration_target =
 			THIS = { culture = ganguan }
 			THIS = { culture = tionghoa }
 			THIS = { culture = beifaren }
-			THIS = { culture = nanfaren }
 			THIS = { culture = hakka }
 			THIS = { culture = min }
 			THIS = { culture = yue }
@@ -402,7 +401,6 @@ country_migration_target =
 		OR = {
 			THIS = { culture = korean }
 			THIS = { culture = beifaren }
-			THIS = { culture = nanfaren }
 			THIS = { culture = manchu }
 			THIS = { culture = min }
 			THIS = { culture = yue }
@@ -1017,22 +1015,70 @@ promote_to =
 			}
 		}
 	}
-	soldiers =
-	{
+	soldiers = {
 		factor = 0.01
 		modifier = {
 			factor = -100
-			AND = {
-				OR = {
-					culture = nanfaren
-					culture = beifaren
-					culture = yue
-					culture = min
-					is_culture_group = south_asian
+			OR = {
+				AND = {
+					state_scope = {
+						soldiers = 0.05
+					}
+					NOT = { revanchism = 0.05 }
 				}
-				state_scope = {
-					total_pops = 2000000
-					soldiers = 0.04
+				AND = {
+					state_scope = {
+						soldiers = 0.055
+					}
+					NOT = { revanchism = 0.10 }
+				}
+				AND = {
+					state_scope = {
+						soldiers = 0.06
+					}
+					NOT = { revanchism = 0.15 }
+				}
+				AND = {
+					state_scope = {
+						soldiers = 0.065
+					}
+					NOT = { revanchism = 0.2 }
+				}
+				AND = {
+					state_scope = {
+						soldiers = 0.07
+					}
+					NOT = { revanchism = 0.25 }
+				}
+				AND = {
+					state_scope = {
+						soldiers = 0.075
+					}
+					NOT = { revanchism = 0.3 }
+				}
+				AND = {
+					state_scope = {
+						soldiers = 0.08
+					}
+					NOT = { revanchism = 0.35 }
+				}
+				AND = {
+					state_scope = {
+						soldiers = 0.085
+					}
+					NOT = { revanchism = 0.4 }
+				}
+				AND = {
+					state_scope = {
+						soldiers = 0.09
+					}
+					NOT = { revanchism = 0.45 }
+				}
+				AND = {
+					state_scope = {
+						soldiers = 0.1
+					}
+					NOT = { revanchism = 0.5 }
 				}
 			}
 		}
@@ -1105,6 +1151,50 @@ promote_to =
 				military_spending = 0.99
 			}
 		}
+
+		group = {
+			modifier = {
+				factor = 2
+				revanchism = 0.05
+			}
+			modifier = {
+				factor = 2
+				revanchism = 0.1
+			}
+			modifier = {
+				factor = 2
+				revanchism = 0.15
+			}
+			modifier = {
+				factor = 2
+				revanchism = 0.2
+			}
+			modifier = {
+				factor = 2
+				revanchism = 0.25
+			}
+			modifier = {
+				factor = 2
+				revanchism = 0.3
+			}
+			modifier = {
+				factor = 2
+				revanchism = 0.35
+			}
+			modifier = {
+				factor = 2
+				revanchism = 0.4
+			}
+			modifier = {
+				factor = 2
+				revanchism = 0.45
+			}
+			modifier = {
+				factor = 2
+				revanchism = 0.5
+			}
+		}
+
 		group = {
 			modifier = {
 				factor = -2
@@ -1143,8 +1233,48 @@ promote_to =
 				soldiers = 0.045
 			}
 			modifier = {
-				factor = -100
+				factor = -2
 				soldiers = 0.05
+			}
+			modifier = {
+				factor = -2
+				soldiers = 0.055
+			}
+			modifier = {
+				factor = -2
+				soldiers = 0.06
+			}
+			modifier = {
+				factor = -2
+				soldiers = 0.065
+			}
+			modifier = {
+				factor = -2
+				soldiers = 0.07
+			}
+			modifier = {
+				factor = -2
+				soldiers = 0.075
+			}
+			modifier = {
+				factor = -2
+				soldiers = 0.08
+			}
+			modifier = {
+				factor = -2
+				soldiers = 0.085
+			}
+			modifier = {
+				factor = -2
+				soldiers = 0.09
+			}
+			modifier = {
+				factor = -2
+				soldiers = 0.095
+			}
+			modifier = {
+				factor = -100
+				soldiers = 0.1
 			}
 		}
 	}

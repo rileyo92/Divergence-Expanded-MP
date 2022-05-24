@@ -514,22 +514,17 @@ political_decisions = {
   }
 
 	#Slave Acceptance
-	afro_french_slave_citizens = {
+	afro_arcadian_slave_citizens = {
 	picture = acceptation_afro
 		potential = {
 			OR = {
 				tag = PLA
 				tag = NBG
 				tag = ARC
-				tag = AMA
-				tag = LOT
-				tag = AZL
-				accepted_culture = amazonian
 				accepted_culture = plantagenian
-				accepted_culture = lotharian
 				accepted_culture = septiman
 			}
-			NOT = { accepted_culture = afro_frankish }
+			NOT = { accepted_culture = afro_arcadian }
 		}
 		allow = {
 			NOT = { war = yes }
@@ -542,16 +537,55 @@ political_decisions = {
 			invention = national_fraternity
 		}
 		effect = {
-			add_accepted_culture = afro_frankish
+			add_accepted_culture = afro_arcadian
 			any_pop = {
 				limit = {
-			  	NOT = { culture = afro_frankish }
+			  	NOT = { culture = afro_arcadian }
 			  }
 				militancy = 2
 			}
 			any_pop = {
 				limit = {
-			  	culture = afro_frankish
+			  	culture = afro_arcadian
+				}
+        consciousness = 2
+			}
+		}
+	}
+
+	afro_amerigan_slave_citizens = {
+	picture = acceptation_afro
+		potential = {
+			OR = {
+				tag = AMA
+				tag = LOT
+				tag = AZL
+				accepted_culture = amazonian
+				accepted_culture = lotharian
+			}
+			NOT = { accepted_culture = afro_amerigan }
+		}
+		allow = {
+			NOT = { war = yes }
+			slavery = no_slavery
+			OR = {
+			   citizenship_policy = full_citizenship
+			   citizenship_policy = limited_citizenship
+			}
+			citizens_rights = all_voting_pops
+			invention = national_fraternity
+		}
+		effect = {
+			add_accepted_culture = afro_amerigan
+			any_pop = {
+				limit = {
+			  	NOT = { culture = afro_amerigan }
+			  }
+				militancy = 2
+			}
+			any_pop = {
+				limit = {
+			  	culture = afro_amerigan
 				}
         consciousness = 2
 			}

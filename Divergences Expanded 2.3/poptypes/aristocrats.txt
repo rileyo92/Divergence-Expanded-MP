@@ -373,7 +373,6 @@ country_migration_target = {
 			THIS = { culture = ganguan }
 			THIS = { culture = tionghoa }
 			THIS = { culture = beifaren }
-			THIS = { culture = nanfaren }
 			THIS = { culture = hakka }
 			THIS = { culture = min }
 			THIS = { culture = yue }
@@ -442,7 +441,7 @@ country_migration_target = {
 			THIS = { culture = apache }
 		}
 	}
-	
+
 	modifier = { #Very Large Bias: Afro American and African to Vryland/Cape
 		factor = 2.0
 		primary_culture = afro_south_african

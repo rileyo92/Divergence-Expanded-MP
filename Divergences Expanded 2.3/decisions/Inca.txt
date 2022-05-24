@@ -178,6 +178,8 @@ political_decisions = {
 			add_accepted_culture = afro_frankish
 			add_accepted_culture = afro_germanic
 			add_accepted_culture = afro_south_african
+			add_accepted_culture = afro_amerigan
+			add_accepted_culture = afro_arcadian
 		}
 	}
 

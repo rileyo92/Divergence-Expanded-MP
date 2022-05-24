@@ -392,7 +392,6 @@ country_migration_target =
 			THIS = { culture = ganguan }
 			THIS = { culture = tionghoa }
 			THIS = { culture = beifaren }
-			THIS = { culture = nanfaren }
 			THIS = { culture = hakka }
 			THIS = { culture = min }
 			THIS = { culture = yue }
@@ -434,7 +433,6 @@ country_migration_target =
 		OR = {
 			THIS = { culture = korean }
 			THIS = { culture = beifaren }
-			THIS = { culture = nanfaren }
 			THIS = { culture = manchu }
 			THIS = { culture = min }
 			THIS = { culture = yue }
@@ -671,8 +669,69 @@ promote_to =
 	farmers = { #and labourers
 		factor = 0.01
 		modifier = {
-			factor = 5.0
-			soldiers = 0.03
+			factor = 50
+			OR = {
+				AND = {
+					state_scope = {
+						soldiers = 0.051
+					}
+					NOT = { revanchism = 0.05 }
+				}
+				AND = {
+					state_scope = {
+						soldiers = 0.056
+					}
+					NOT = { revanchism = 0.10 }
+				}
+				AND = {
+					state_scope = {
+						soldiers = 0.061
+					}
+					NOT = { revanchism = 0.15 }
+				}
+				AND = {
+					state_scope = {
+						soldiers = 0.066
+					}
+					NOT = { revanchism = 0.2 }
+				}
+				AND = {
+					state_scope = {
+						soldiers = 0.071
+					}
+					NOT = { revanchism = 0.25 }
+				}
+				AND = {
+					state_scope = {
+						soldiers = 0.076
+					}
+					NOT = { revanchism = 0.3 }
+				}
+				AND = {
+					state_scope = {
+						soldiers = 0.081
+					}
+					NOT = { revanchism = 0.35 }
+				}
+				AND = {
+					state_scope = {
+						soldiers = 0.086
+					}
+					NOT = { revanchism = 0.4 }
+				}
+				AND = {
+					state_scope = {
+						soldiers = 0.091
+					}
+					NOT = { revanchism = 0.45 }
+				}
+				AND = {
+					state_scope = {
+						soldiers = 0.101
+					}
+					NOT = { revanchism = 0.5 }
+				}
+			}
 		}
 		modifier = {
 			factor = 5.0
@@ -689,14 +748,6 @@ promote_to =
 			}
 		}
 	}
-#	labourers =
-#	{
-#		factor = 0.01
-#		modifier = {
-#			factor = 1.4
-#			not = { military_spending = 0.35 }
-#		}
-#	}
 
 	craftsmen = {
 		factor = 0.01
@@ -768,6 +819,71 @@ promote_to =
 					work_available = {
 						worker = craftsmen
 					}
+				}
+			}
+		}
+		modifier = {
+			factor = 50
+			OR = {
+				AND = {
+					state_scope = {
+						soldiers = 0.051
+					}
+					NOT = { revanchism = 0.05 }
+				}
+				AND = {
+					state_scope = {
+						soldiers = 0.056
+					}
+					NOT = { revanchism = 0.10 }
+				}
+				AND = {
+					state_scope = {
+						soldiers = 0.061
+					}
+					NOT = { revanchism = 0.15 }
+				}
+				AND = {
+					state_scope = {
+						soldiers = 0.066
+					}
+					NOT = { revanchism = 0.2 }
+				}
+				AND = {
+					state_scope = {
+						soldiers = 0.071
+					}
+					NOT = { revanchism = 0.25 }
+				}
+				AND = {
+					state_scope = {
+						soldiers = 0.076
+					}
+					NOT = { revanchism = 0.3 }
+				}
+				AND = {
+					state_scope = {
+						soldiers = 0.081
+					}
+					NOT = { revanchism = 0.35 }
+				}
+				AND = {
+					state_scope = {
+						soldiers = 0.086
+					}
+					NOT = { revanchism = 0.4 }
+				}
+				AND = {
+					state_scope = {
+						soldiers = 0.091
+					}
+					NOT = { revanchism = 0.45 }
+				}
+				AND = {
+					state_scope = {
+						soldiers = 0.101
+					}
+					NOT = { revanchism = 0.5 }
 				}
 			}
 		}
