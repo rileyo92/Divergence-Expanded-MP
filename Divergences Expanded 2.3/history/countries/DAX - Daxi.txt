@@ -1,6 +1,6 @@
 capital = 1578
 primary_culture = hui
-culture = nanfaren
+culture = beifaren
 culture = yi
 religion = mahayana
 government = absolute_monarchy

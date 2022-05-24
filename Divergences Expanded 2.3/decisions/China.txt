@@ -146,7 +146,6 @@ political_decisions = {
 			remove_country_modifier = tungning_nerf
   		change_tag = CHI
   		add_accepted_culture = beifaren
-  		add_accepted_culture = nanfaren
 			any_country = {
 				limit = {
 					OR = {
@@ -202,7 +201,6 @@ political_decisions = {
   		prestige = 30
   		change_tag = CHI
   		add_accepted_culture = beifaren
-  		add_accepted_culture = nanfaren
 			any_country = {
 				limit = {
 					OR = {
@@ -256,7 +254,6 @@ political_decisions = {
   		prestige = 30
   		change_tag = CHI
   		add_accepted_culture = beifaren
-  		add_accepted_culture = nanfaren
 			any_country = {
 				limit = {
 					OR = {
@@ -311,7 +308,6 @@ political_decisions = {
   		prestige = 30
   		change_tag = CHI
 			add_accepted_culture = beifaren
-			add_accepted_culture = nanfaren
 			any_country = {
 				limit = {
 					OR = {
@@ -369,7 +365,6 @@ political_decisions = {
   		prestige = 30
   		change_tag = CHI
 			add_accepted_culture = beifaren
-			add_accepted_culture = nanfaren
 			any_country = {
 				limit = {
 					OR = {
@@ -473,7 +468,7 @@ political_decisions = {
 		effect = {
 			prestige = 30
 			change_tag = CHI
-			add_accepted_culture = nanfaren
+			add_accepted_culture = beifaren
 			add_accepted_culture = hakka
 			any_country = {
 				limit = {
@@ -510,7 +505,6 @@ political_decisions = {
 			CHI_2608 = { add_core = THIS }
 			CHI_1465 = { add_core = THIS }
 			CHI_2562 = { add_core = THIS }
-			add_accepted_culture = nanfaren
 			add_accepted_culture = hui
 			set_country_flag = restoration_of_yuan
 		}
@@ -692,7 +686,6 @@ political_decisions = {
 			}
 			JOH = { all_core = { add_core = THIS } }
 			CHI_2562 = { add_core = THIS }
-			add_accepted_culture = beifaren
 			add_accepted_culture = shan
 			add_accepted_culture = thai
 			add_accepted_culture = kachin
@@ -786,7 +779,6 @@ political_decisions = {
 			CHI_1532 = { add_core = THIS }
 			CHI_1557 = { add_core = THIS }
 			JAP_1678 = { add_core = THIS }
-			add_accepted_culture = nanfaren
 			add_accepted_culture = ainu
 			set_country_flag = jung_gug
 		}

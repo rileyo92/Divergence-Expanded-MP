@@ -1,5 +1,5 @@
 capital = 1602
-primary_culture = nanfaren
+primary_culture = beifaren
 religion = mahayana
 government = absolute_monarchy
 plurality = 0.0
@@ -21,7 +21,7 @@ work_hours = no_work_hour_limit
 safety_regulations = no_safety
 health_care = no_health_care
 unemployment_subsidies = no_subsidies
-pensions = no_pensions 
+pensions = no_pensions
 school_reforms = no_schools
 
 # New Reforms
@@ -70,4 +70,3 @@ flintlock_rifles = 1
 modern_winemaking = yes
 
 }
-

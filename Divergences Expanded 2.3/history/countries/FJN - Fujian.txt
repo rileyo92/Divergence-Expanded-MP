@@ -1,6 +1,6 @@
 capital = 1482
 primary_culture = min
-culture = nanfaren
+culture = beifaren
 religion = mahayana
 government = absolute_monarchy
 plurality = 0.0
@@ -72,4 +72,3 @@ military_staff_system = 1
 modern_winemaking = yes
 
 }
-
