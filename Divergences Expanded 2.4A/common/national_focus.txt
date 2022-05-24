@@ -128,10 +128,6 @@ diplomatic_focus = {
 		flashpoint_tension = 0.15
 
 		limit = {
-			owner = {
-				has_global_flag = revolution_n_counter_researched
-				is_vassal = no
-			}
 			is_core = THIS
 			THIS = { is_greater_power = no }
 		}
@@ -163,7 +159,6 @@ promotion_focus = {
 		outliner_show_as_percent = yes
 		limit = {
 			NOT = { state_scope = { any_owned_province = { NOT = { controlled_by = THIS } } } }
-			NOT = { has_province_modifier = irish_oppression }
 			NOT = { state_scope = { bureaucrats = 0.040 } }
 			state_scope = { any_owned_province = { any_pop = { OR = { is_accepted_culture = yes is_primary_culture = yes } } } }
 			OR = {
@@ -182,7 +177,6 @@ promotion_focus = {
 		limit = {
 			owner = { NOT = { government = proletarian_dictatorship } civilized = yes }
 			NOT = { state_scope = { any_owned_province = { NOT = { controlled_by = THIS } } } }
-			NOT = { has_province_modifier = irish_oppression }
 			NOT = { state_scope = { capitalists = 0.007 } }
 			is_colonial = no
 		}
@@ -194,7 +188,6 @@ promotion_focus = {
 		outliner_show_as_percent = yes
 		limit = {
 			NOT = { state_scope = { any_owned_province = { NOT = { controlled_by = THIS } } } }
-			NOT = { has_province_modifier = irish_oppression }
 			NOT = { state_scope = { clergymen = 0.041 } }
 			OR = {
 				is_colonial = no
@@ -210,7 +203,6 @@ promotion_focus = {
 		limit = {
 			civilized = yes
 			NOT = { state_scope = { any_owned_province = { NOT = { controlled_by = THIS } } } }
-			NOT = { has_province_modifier = irish_oppression }
 			work_available = { worker = clerks }
 			NOT = { state_scope = { is_colonial = yes } }
 			OR = {
@@ -262,7 +254,6 @@ promotion_focus = {
 		limit = {
 			owner = { ai = no }
 			NOT = { state_scope = { any_owned_province = { NOT = { controlled_by = THIS } } } }
-			NOT = { has_province_modifier = irish_oppression }
 			NOT = { state_scope = { officers = 0.002 } }
 			OR = {
 				NOT = { state_scope = { is_colonial = yes } }
@@ -277,13 +268,9 @@ promotion_focus = {
 		outliner_show_as_percent = yes
 		limit = {
 			NOT = { state_scope = { any_owned_province = { NOT = { controlled_by = THIS } } } }
-			NOT = { state_scope = { soldiers = 0.05 } }
+			NOT = { state_scope = { soldiers = 0.1 } }
 			OR = {
-				NOT = { state_scope = { is_colonial = yes } }
-				owner = { has_country_flag = colonial_armies }
-			}
-			OR = {
-				NOT = { state_scope = { soldiers = 0.048 } }
+				NOT = { state_scope = { soldiers = 0.05 } }
 				owner = { ai = no }
 			}
 		}
@@ -301,7 +288,6 @@ production_focus = {
 			civilized = yes
 			NOT = { state_scope = { any_owned_province = { NOT = { controlled_by = THIS } } } }
 			NOT = { owner = { economic_policy = planned_economy } }
-			NOT = { has_province_modifier = irish_oppression }
 			is_colonial = no
 		}
 	}
@@ -316,7 +302,6 @@ production_focus = {
 			civilized = yes
 			NOT = { state_scope = { any_owned_province = { NOT = { controlled_by = THIS } } } }
 			NOT = { owner = { economic_policy = planned_economy } }
-			NOT = { has_province_modifier = irish_oppression }
 			is_colonial = no
 		}
 	}
@@ -330,7 +315,6 @@ production_focus = {
 			civilized = yes
 			NOT = { state_scope = { any_owned_province = { NOT = { controlled_by = THIS } } } }
 			NOT = { owner = { economic_policy = planned_economy } }
-			NOT = { has_province_modifier = irish_oppression }
 			is_colonial = no
 		}
 	}
@@ -344,7 +328,6 @@ production_focus = {
 			state_scope = { any_owned_province = { port = yes } }
 			NOT = { state_scope = { any_owned_province = { NOT = { controlled_by = THIS } } } }
 			NOT = { owner = { economic_policy = planned_economy } }
-			NOT = { has_province_modifier = irish_oppression }
 			is_colonial = no
 		}
 	}
@@ -359,7 +342,6 @@ production_focus = {
 			#civilized = yes
 			NOT = { state_scope = { any_owned_province = { NOT = { controlled_by = THIS } } } }
 			NOT = { owner = { economic_policy = planned_economy } }
-			NOT = { has_province_modifier = irish_oppression }
 			is_colonial = no
 		}
 	}
@@ -374,7 +356,6 @@ production_focus = {
 		#	civilized = yes
 			NOT = { state_scope = { any_owned_province = { NOT = { controlled_by = THIS } } } }
 			NOT = { owner = { economic_policy = planned_economy } }
-			NOT = { has_province_modifier = irish_oppression }
 			is_colonial = no
 		}
 	}
@@ -388,7 +369,6 @@ production_focus = {
 		#	civilized = yes
 			NOT = { state_scope = { any_owned_province = { NOT = { controlled_by = THIS } } } }
 			NOT = { owner = { economic_policy = planned_economy } }
-			NOT = { has_province_modifier = irish_oppression }
 			is_colonial = no
 		}
 	}
@@ -405,7 +385,6 @@ production_focus = {
 		#	civilized = yes
 			NOT = { state_scope = { any_owned_province = { NOT = { controlled_by = THIS } } } }
 			NOT = { owner = { economic_policy = planned_economy } }
-			NOT = { has_province_modifier = irish_oppression }
 			is_colonial = no
 		}
 	}
@@ -419,7 +398,6 @@ production_focus = {
 		#	civilized = yes
 			NOT = { state_scope = { any_owned_province = { NOT = { controlled_by = THIS } } } }
 			NOT = { owner = { economic_policy = planned_economy } }
-			NOT = { has_province_modifier = irish_oppression }
 			is_colonial = no
 		}
 	}
@@ -430,7 +408,6 @@ production_focus = {
 			owner = { ai = no }
 			NOT = { owner = { economic_policy = planned_economy } }
 			NOT = { state_scope = { any_owned_province = { NOT = { controlled_by = THIS } } } }
-			NOT = { has_province_modifier = irish_oppression }
 		}
 	}
 }

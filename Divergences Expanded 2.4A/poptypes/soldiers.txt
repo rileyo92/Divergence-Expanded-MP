@@ -669,7 +669,7 @@ promote_to =
 	farmers = { #and labourers
 		factor = 0.01
 		modifier = {
-			factor = 200
+			factor = 80
 			OR = {
 				AND = {
 					state_scope = {
@@ -823,7 +823,7 @@ promote_to =
 			}
 		}
 		modifier = {
-			factor = 200
+			factor = 20
 			OR = {
 				AND = {
 					state_scope = {
