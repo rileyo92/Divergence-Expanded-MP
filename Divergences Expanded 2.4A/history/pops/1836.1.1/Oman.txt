@@ -1,46 +1,46 @@
 #Uman Region (116000) #see Trucial States.txt for balance of region  
-#under the rule of Oman in 1836  
-#Muscat (32000/8000 POPS)   
+#under the rule of Oman in 1836
+#Muscat (32000/8000 POPS)
 1166 = {
 	aristocrats = {
-		culture = khaliji
+		culture = mashriqi
 		religion = ibadi
 		size = 150
 	}
 
 	bureaucrats = {
-		culture = khaliji
+		culture = mashriqi
 		religion = ibadi
 		size = 25
 	}
 
 	officers = {
-		culture = khaliji
+		culture = mashriqi
 		religion = ibadi
 		size = 50
 	}
 
 	clergymen = {
-		culture = khaliji
+		culture = mashriqi
 		religion = ibadi
 		size = 50
 	}
 
 	artisans = {
-		culture = khaliji
+		culture = mashriqi
 		religion = ibadi
 		size = 400
 	}
 
 	soldiers = {
-		culture = khaliji
+		culture = mashriqi
 		religion = ibadi
 		size= 3000
 
 	}
 
 	soldiers = {
-		culture = khaliji
+		culture = mashriqi
 		religion = ibadi
 		size= 1000
 
@@ -120,7 +120,7 @@
 		size = 2000
 	}
 }
-#Suhar (16000/4000 POPS)   
+#Suhar (16000/4000 POPS)
 1169 = {
 	aristocrats = {
 		culture = bedouin
@@ -153,7 +153,7 @@
 		size = 3625
 	}
 }
-#Nizwa (24000/6000 POPS)   
+#Nizwa (24000/6000 POPS)
 1170 = {
 	aristocrats = {
 		culture = bedouin
@@ -211,7 +211,7 @@
 		size = 925
 	}
 }
-#Sur (24000/6000 POPS)   
+#Sur (24000/6000 POPS)
 1171 = {
 	aristocrats = {
 		culture = bedouin
@@ -294,7 +294,7 @@
 		size = 1100
 	}
 }
-#Duqm (20000/5000 POPS)   
+#Duqm (20000/5000 POPS)
 1172 = {
 	aristocrats = {
 		culture = bedouin
@@ -345,42 +345,42 @@
 		size = 925
 	}
 }
-#Hadramaut Region (36000) #see Yemen.txt for balance of region  
-#under the rule of Oman in 1836  
-#Salalah (20000/5000 POPS)   
+#Hadramaut Region (36000) #see Yemen.txt for balance of region
+#under the rule of Oman in 1836
+#Salalah (20000/5000 POPS)
 1174 = {
 	aristocrats = {
-		culture = khaliji
+		culture = mashriqi
 		religion = ibadi
 		size = 65
 	}
 
 	bureaucrats = {
-		culture = khaliji
+		culture = mashriqi
 		religion = ibadi
 		size = 5
 	}
 
 	officers = {
-		culture = khaliji
+		culture = mashriqi
 		religion = ibadi
 		size = 5
 	}
 
 	clergymen = {
-		culture = khaliji
+		culture = mashriqi
 		religion = ibadi
 		size = 75
 	}
 
 	artisans = {
-		culture = khaliji
+		culture = mashriqi
 		religion = ibadi
 		size = 250
 	}
 
 	soldiers = {
-		culture = khaliji
+		culture = mashriqi
 		religion = ibadi
 		size= 1000
 
@@ -437,7 +437,7 @@
 		religion = ibadi
 		size = 100
 	}
-	
+
 	farmers = {
 		culture = bedouin
 		religion = ibadi
@@ -449,7 +449,7 @@
 		religion = sunni
 		size = 730
 	}
-	
+
 	farmers = {
 		culture = baluchi
 		religion = sunni
@@ -488,19 +488,19 @@
 		religion = ibadi
 		size = 300
 	}
-	
+
 	farmers = {
 		culture = baluchi
 		religion = sunni
 		size = 600
 	}
-	
+
 	slaves = {
 		culture = forest_bantu
 		religion = animist
 		size = 100
 	}
-	
+
 	farmers = {
 		culture = baluchi
 		religion = shiite

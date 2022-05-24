@@ -3,44 +3,44 @@
 #Mecca (196000/49000 POPS)
 1151 = {
 	aristocrats = {
-		culture = khaliji
+		culture = mashriqi
 		religion = sunni
 		size = 400
 	}
 
 	bureaucrats = {
-		culture = khaliji
+		culture = mashriqi
 		religion = sunni
 		size = 100
 	}
 
 	officers = {
-		culture = khaliji
+		culture = mashriqi
 		religion = sunni
 		size = 125
 	}
 
 	clergymen = {
-		culture = khaliji
+		culture = mashriqi
 		religion = sunni
 		size = 375
 	}
 
 	artisans = {
-		culture = khaliji
+		culture = mashriqi
 		religion = sunni
 		size = 6500
 	}
 
 	soldiers = {
-		culture = khaliji
+		culture = mashriqi
 		religion = sunni
 		size= 1000
 
 	}
 
 	farmers = {
-		culture = khaliji
+		culture = mashriqi
 		religion = sunni
 		size = 18500
 	}
@@ -85,32 +85,32 @@
 #Jidda (100000/25000 POPS)
 1152 = {
 	aristocrats = {
-		culture = khaliji
+		culture = mashriqi
 		religion = sunni
 		size = 350
 	}
 
 	clergymen = {
-		culture = khaliji
+		culture = mashriqi
 		religion = sunni
 		size = 175
 	}
 
 	artisans = {
-		culture = khaliji
+		culture = mashriqi
 		religion = sunni
 		size = 4500
 	}
 
 	soldiers = {
-		culture = khaliji
+		culture = mashriqi
 		religion = sunni
 		size= 1000
 
 	}
 
 	farmers = {
-		culture = khaliji
+		culture = mashriqi
 		religion = sunni
 		size = 21025
 	}
@@ -155,32 +155,32 @@
 #Medina (80000/20000 POPS)
 1153 = {
 	aristocrats = {
-		culture = khaliji
+		culture = mashriqi
 		religion = sunni
 		size = 250
 	}
 
 	clergymen = {
-		culture = khaliji
+		culture = mashriqi
 		religion = sunni
 		size = 150
 	}
 
 	artisans = {
-		culture = khaliji
+		culture = mashriqi
 		religion = sunni
 		size = 1500
 	}
 
 	soldiers = {
-		culture = khaliji
+		culture = mashriqi
 		religion = sunni
 		size= 1000
 
 	}
 
 	farmers = {
-		culture = khaliji
+		culture = mashriqi
 		religion = sunni
 		size = 12100
 	}
@@ -258,32 +258,32 @@
 #Abha (56000/14000 POPS)
 1155 = {
 	aristocrats = {
-		culture = khaliji
+		culture = mashriqi
 		religion = sunni
 		size = 100
 	}
 
 	clergymen = {
-		culture = khaliji
+		culture = mashriqi
 		religion = sunni
 		size = 50
 	}
 
 	artisans = {
-		culture = khaliji
+		culture = mashriqi
 		religion = sunni
 		size = 300
 	}
 
 	soldiers = {
-		culture = khaliji
+		culture = mashriqi
 		religion = sunni
 		size= 1000
 
 	}
 
 	farmers = {
-		culture = khaliji
+		culture = mashriqi
 		religion = sunni
 		size = 4550
 	}
@@ -565,7 +565,7 @@
 		size = 7525
 	}
 }
-#Bahrain Region (204000) #see Gulf States.txt for balance of region  
+#Bahrain Region (204000) #see Gulf States.txt for balance of region
 #under the rule of Nejd in 1836
 #Qatif (92000/23000 POPS)
 1163 = {
@@ -642,7 +642,7 @@
 		religion = shiite
 		size = 18675
 	}
-	
+
 	slaves = {
 		culture = kefficho
 		religion = animist

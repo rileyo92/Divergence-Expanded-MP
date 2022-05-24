@@ -1,5 +1,5 @@
 capital = 1166
-primary_culture = khaliji
+primary_culture = mashriqi
 culture = bedouin
 religion = ibadi
 government = absolute_monarchy
