@@ -17,16 +17,7 @@ political_decisions = {
 					limit = {
 						has_pop_culture = beifaren
 					}
-					reduce_pop = 0.55
-				}
-			}
-
-			any_country = {
-				any_pop = {
-					limit = {
-						has_pop_culture = nanfaren
-					}
-					reduce_pop = 0.55
+					reduce_pop = 0.50
 				}
 			}
 
@@ -34,14 +25,119 @@ political_decisions = {
 				any_pop = {
 					limit = {
 						OR = {
-							has_pop_culture = manchu
 							has_pop_culture = hakka
 							has_pop_culture = min
-							has_pop_culture = zhuang
 							has_pop_culture = yue
 						}
 					}
-					reduce_pop = 0.75
+					reduce_pop = 0.65
+				}
+			}
+
+			#New World/Chinese minors pop buffs
+			any_country = {
+				any_pop = {
+					limit = {
+						OR = {
+							has_pop_culture = plantagenian
+							has_pop_culture = afro_arcadian
+							has_pop_culture = granadan
+							has_pop_culture = afro_latino
+						}
+					}
+					reduce_pop = 1.1
+				}
+			}
+
+			any_country = {
+				any_pop = {
+					limit = {
+						OR = {
+							has_pop_culture = qingqiuan
+							has_pop_culture = lusitanian
+							has_pop_culture = quechua
+							has_pop_culture = zhuang
+						}
+					}
+					reduce_pop = 1.2
+				}
+			}
+
+			any_country = {
+				any_pop = {
+					limit = {
+						OR = {
+							has_pop_culture = athesian
+							has_pop_culture = guianan
+							has_pop_culture = caribeno
+							has_pop_culture = ayitian
+							has_pop_culture = mexican
+							has_pop_culture = amazonian
+							has_pop_culture = lotharian
+							has_pop_culture = afro_amerigan
+						}
+					}
+					reduce_pop = 1.5
+				}
+			}
+
+			any_country = {
+				any_pop = {
+					limit = {
+						OR = {
+							has_pop_culture = aimara
+						}
+					}
+					reduce_pop = 1.6
+				}
+			}
+
+			any_country = {
+				any_pop = {
+					limit = {
+						OR = {
+							has_pop_culture = central_american
+							has_pop_culture = beornian
+							has_pop_culture = hui
+							has_pop_culture = yi
+						}
+					}
+					reduce_pop = 2.0
+				}
+			}
+
+			any_country = {
+				any_pop = {
+					limit = {
+						OR = {
+							has_pop_culture = kaiganese
+							has_pop_culture = ganguan
+						}
+					}
+					reduce_pop = 2.5
+				}
+			}
+
+			any_country = {
+				any_pop = {
+					limit = {
+						OR = {
+							has_pop_culture = boer
+							has_pop_culture = miao
+						}
+					}
+					reduce_pop = 3
+				}
+			}
+
+			any_country = {
+				any_pop = {
+					limit = {
+						OR = {
+							has_pop_culture = tionghoa
+						}
+					}
+					reduce_pop = 5
 				}
 			}
 
