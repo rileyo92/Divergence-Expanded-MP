@@ -124,6 +124,7 @@ political_decisions = {
 						OR = {
 							has_pop_culture = boer
 							has_pop_culture = miao
+							has_pop_culture = afro_south_african
 						}
 					}
 					reduce_pop = 3
