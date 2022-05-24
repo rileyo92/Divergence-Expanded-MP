@@ -343,7 +343,6 @@ political_decisions = {
 		effect = {
 			prestige = 20
 			add_accepted_culture = bedouin
-			add_accepted_culture = khaliji
 			add_accepted_culture = mashriqi
 			add_accepted_culture = misri
 			add_accepted_culture = maghrebi

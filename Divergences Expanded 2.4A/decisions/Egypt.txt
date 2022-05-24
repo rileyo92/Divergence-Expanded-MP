@@ -39,7 +39,6 @@ political_decisions = {
 		effect = {
 		  NEJ = { all_core = { add_core = THIS } }
 		  set_country_flag = egypt_arabia
-		  add_accepted_culture = khaliji
 		}
 	}
 
@@ -113,7 +112,6 @@ political_decisions = {
 				YEM_1412 = { add_core = THIS }
 				YEM_1173 = { add_core = THIS }
 				add_accepted_culture = somali
-				add_accepted_culture = khaliji
 		}
 	}
 
@@ -159,7 +157,7 @@ political_decisions = {
 		potential = {
 			has_country_flag = levant_claim
 			tag = EGY
-			NOT = { accepted_culture = khaliji }
+			NOT = { accepted_culture = druze }
 		}
 		allow = {
 			SYR = {
@@ -175,7 +173,6 @@ political_decisions = {
 			set_country_flag = defy_turks
 			add_accepted_culture = syriac
 			add_accepted_culture = druze
-			add_accepted_culture = khaliji
 			HDJ = {
 				all_core = {
 					add_core = EGY

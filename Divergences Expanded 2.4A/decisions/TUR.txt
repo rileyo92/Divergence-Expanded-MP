@@ -352,7 +352,6 @@ political_decisions = {
 		}
 		effect = {
 			add_accepted_culture = mashriqi
-			add_accepted_culture = khaliji
 		}
 	}
 
