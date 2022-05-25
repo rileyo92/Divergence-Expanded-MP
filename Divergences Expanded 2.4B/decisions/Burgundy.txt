@@ -308,11 +308,12 @@ political_decisions = {
 			owns = 572
 			owns = 576
 			owns = 397
-			nationalism_n_imperialism = 1
+			revolution_n_counterrevolution = 1
 		}
 		effect = {
 			set_country_flag = BRG_rhein
 			add_accepted_culture = rheinish
+			add_accepted_culture = swiss
 			badboy = 7.5
 			PRU_575 = { add_core = THIS }
 			HES_566 = { add_core = THIS }
@@ -410,8 +411,10 @@ political_decisions = {
 					OR = {
 						owned_by = THIS
 						owner = {
-							in_sphere = THIS
-							vassal_of = THIS
+							OR = {
+								in_sphere = THIS
+								vassal_of = THIS
+							}
 						}
 						is_core = AUS
 					}
