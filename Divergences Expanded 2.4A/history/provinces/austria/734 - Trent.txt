@@ -1,11 +1,5 @@
 owner = VEN
 controller = VEN
 add_core = VEN
-add_core = TIR
 trade_goods = grain
 life_rating = 35
-1836.1.2 = {
-  owner = TIR
-  controller = TIR
-  remove_core = VEN
-}

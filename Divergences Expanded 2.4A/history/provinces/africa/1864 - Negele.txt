@@ -1,2 +1,9 @@
+owner = ADA
+controller = ADA
+add_core = ETH
+add_core = ADA
 trade_goods = grain
-life_rating = 10
+life_rating = 35
+1836.1.2 = {
+  remove_core = ETH
+}

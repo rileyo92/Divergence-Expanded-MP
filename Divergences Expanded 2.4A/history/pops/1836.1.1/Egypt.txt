@@ -25,7 +25,7 @@
 		religion = sunni
 		size = 10000
 	}
-	
+
 	artisans = {
 		culture = north_caucasian
 		religion = sunni
@@ -68,31 +68,31 @@
 		religion = sunni
 		size = 10000
 	}
-	
+
 	artisans = {
 		culture = misri
 		religion = sunni
 		size = 10000
 	}
-	
+
 	artisans = {
 		culture = misri
 		religion = sunni
 		size = 10000
 	}
-	
+
 	artisans = {
 		culture = misri
 		religion = sunni
 		size = 10000
 	}
-	
+
 	artisans = {
 		culture = misri
 		religion = sunni
 		size = 10000
 	}
-	
+
 	artisans = {
 		culture = misri
 		religion = sunni
@@ -209,7 +209,7 @@
 		religion = sunni
 		size = 10000
 	}
-	
+
 	artisans = {
 		culture = north_caucasian
 		religion = sunni
@@ -240,19 +240,19 @@
 		religion = sunni
 		size = 10000
 	}
-	
+
 	artisans = {
 		culture = misri
 		religion = sunni
 		size = 10000
 	}
-	
+
 	artisans = {
 		culture = misri
 		religion = sunni
 		size = 10000
 	}
-	
+
 	artisans = {
 		culture = misri
 		religion = sunni
@@ -622,7 +622,7 @@
 		religion = sunni
 		size = 10000
 	}
-	
+
 	artisans = {
 		culture = misri
 		religion = sunni
@@ -897,32 +897,32 @@
 #Al Arish (16000/4000 POPS)
 1756 = {
 	aristocrats = {
-		culture = misri
+		culture = mashriqi
 		religion = sunni
 		size = 25
 	}
 
 	clergymen = {
-		culture = misri
+		culture = mashriqi
 		religion = sunni
 		size = 50
 	}
 
 	artisans = {
-		culture = misri
+		culture = mashriqi
 		religion = sunni
 		size = 1100
 	}
 
 	soldiers = {
-		culture = misri
+		culture = mashriqi
 		religion = sunni
 		size= 25
 
 	}
 
 	farmers = {
-		culture = misri
+		culture = mashriqi
 		religion = sunni
 		size = 1800
 	}
@@ -961,32 +961,32 @@
 #Sharm al Shaykh (12000/3000 POPS)
 1757 = {
 	aristocrats = {
-		culture = misri
+		culture = mashriqi
 		religion = sunni
 		size = 15
 	}
 
 	clergymen = {
-		culture = misri
+		culture = mashriqi
 		religion = sunni
 		size = 25
 	}
 
 	artisans = {
-		culture = misri
+		culture = mashriqi
 		religion = sunni
 		size = 250
 	}
 
 	soldiers = {
-		culture = misri
+		culture = mashriqi
 		religion = sunni
 		size= 10
 
 	}
 
 	farmers = {
-		culture = misri
+		culture = mashriqi
 		religion = sunni
 		size = 900
 	}
@@ -1680,7 +1680,7 @@
 		size = 1850
 	}
 }
-#Red Sea Region (44000) #see Sudan.txt for balance of the region  
+#Red Sea Region (44000) #see Sudan.txt for balance of the region
 #under the rule of Egypt in 1836
 #Qusayr (12000/3000 POPS)
 1770 = {

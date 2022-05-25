@@ -4463,25 +4463,25 @@
 #Perpignan (164000/41000 POPS)
 464 = {
 	aristocrats = {
-		culture = provencal
+		culture = catalan
 		religion = protestant
 		size = 100
 	}
 
 	clergymen = {
-		culture = provencal
+		culture = catalan
 		religion = protestant
 		size = 125
 	}
 
 	artisans = {
-		culture = provencal
+		culture = catalan
 		religion = protestant
 		size = 1250
 	}
 
 	farmers = {
-		culture = provencal
+		culture = catalan
 		religion = protestant
 		size = 11375
 	}

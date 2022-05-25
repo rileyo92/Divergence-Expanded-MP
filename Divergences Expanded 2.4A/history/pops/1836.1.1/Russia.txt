@@ -683,26 +683,25 @@
 #Kandalasksha (7200/1800 POPS)
 983 = {
 	clergymen = {
-		culture = novgorodian
+		culture = finnish
 		religion = orthodox
 		size = 25
 	}
 
 	artisans = {
-		culture = novgorodian
+		culture = finnish
 		religion = orthodox
 		size = 75
 	}
 
 	soldiers = {
-		culture = novgorodian
+		culture = finnish
 		religion = orthodox
 		size= 15
-
 	}
 
 	farmers = {
-		culture = novgorodian
+		culture = finnish
 		religion = orthodox
 		size = 1335
 	}
@@ -722,25 +721,25 @@
 #Kostomuksha (20000/5000 POPS)
 984 = {
 	clergymen = {
-		culture = novgorodian
+		culture = finnish
 		religion = orthodox
 		size = 50
 	}
 
 	artisans = {
-		culture = novgorodian
+		culture = finnish
 		religion = orthodox
 		size = 1300
 	}
 
 	soldiers = {
-		culture = novgorodian
+		culture = finnish
 		religion = orthodox
 		size= 25
 	}
 
 	farmers = {
-		culture = novgorodian
+		culture = finnish
 		religion = orthodox
 		size = 2425
 	}
@@ -816,13 +815,13 @@
 #Kola (2200/550 POPS)
 2587 = {
 	clergymen = {
-		culture = novgorodian
+		culture = finnish
 		religion = orthodox
 		size = 5
 	}
 
 	farmers = {
-		culture = novgorodian
+		culture = finnish
 		religion = orthodox
 		size = 295
 	}
