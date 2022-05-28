@@ -90,8 +90,6 @@ From;To;Type;Through;Data;Comment
 2406;1485;sea;2825;0;Penghu - Taiwan Strait
 1071;1142;sea;2787;0;Bandar abbhas - Homuz Strait
 1071;1141;sea;2787;0;Lengeh - Homuz Strait
-
-
 1162;1165;sea;2788;0;Bahrain Strait
 1309;1322;sea;2794;0;Palk Strait #Ceylon-S India
 1310;1322;sea;2794;0;Palk Strait #Ceylon-S India
@@ -137,10 +135,7 @@ From;To;Type;Through;Data;Comment
 1437;1436;sea;2810;0;Bulon-Kendari Strait
 1435;1425;sea;2812;0;Palu-Tarakan Strait
 1644;1089;sea;2839;0;Nemuru-Etorofu Strait
-
-
 1679;1678;sea;2845;0;Amari-Okinawa Strait
-
 1661;2589;sea;2829;0;Nagasaki-Tsushima Strait
 1645;12;sea;2841;0;Niigata-Sado Strait
 1678;2681;sea;2845;0;Okinawa-Taipai Strait
@@ -222,12 +217,6 @@ From;To;Type;Through;Data;Comment
 2654;2673;impassable;0;0;Yenisei-Yakut
 2655;2673;impassable;0;0;Yenisei-Yakut
 2675;2651;impassable;0;0;Yenisei-Yakut
-
-#Sea Experiments
-2712;2711;impassable;0;0;Kattegat-Oresund
-2710;2711;impassable;0;0;Southern Baltic-Oresund
-2772;2773;impassable;0;0;Aegean-Marmara
-2774;2773;impassable;0;0;Gulf of Varna-Marmara
 
 #
 # The canals
