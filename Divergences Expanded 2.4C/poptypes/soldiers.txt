@@ -675,59 +675,53 @@ promote_to =
 					state_scope = {
 						soldiers = 0.051
 					}
-					NOT = { revanchism = 0.05 }
+					NOT = { revanchism = 0.1 }
 				}
 				AND = {
 					state_scope = {
 						soldiers = 0.056
 					}
-					NOT = { revanchism = 0.10 }
+					NOT = { revanchism = 0.15 }
 				}
 				AND = {
 					state_scope = {
 						soldiers = 0.061
 					}
-					NOT = { revanchism = 0.15 }
+					NOT = { revanchism = 0.2 }
 				}
 				AND = {
 					state_scope = {
 						soldiers = 0.066
 					}
-					NOT = { revanchism = 0.2 }
+					NOT = { revanchism = 0.25 }
 				}
 				AND = {
 					state_scope = {
 						soldiers = 0.071
 					}
-					NOT = { revanchism = 0.25 }
+					NOT = { revanchism = 0.3 }
 				}
 				AND = {
 					state_scope = {
 						soldiers = 0.076
 					}
-					NOT = { revanchism = 0.3 }
+					NOT = { revanchism = 0.35 }
 				}
 				AND = {
 					state_scope = {
 						soldiers = 0.081
 					}
-					NOT = { revanchism = 0.35 }
+					NOT = { revanchism = 0.4 }
 				}
 				AND = {
 					state_scope = {
 						soldiers = 0.086
 					}
-					NOT = { revanchism = 0.4 }
-				}
-				AND = {
-					state_scope = {
-						soldiers = 0.091
-					}
 					NOT = { revanchism = 0.45 }
 				}
 				AND = {
 					state_scope = {
-						soldiers = 0.101
+						soldiers = 0.091
 					}
 					NOT = { revanchism = 0.5 }
 				}
@@ -829,59 +823,53 @@ promote_to =
 					state_scope = {
 						soldiers = 0.051
 					}
-					NOT = { revanchism = 0.05 }
+					NOT = { revanchism = 0.1 }
 				}
 				AND = {
 					state_scope = {
 						soldiers = 0.056
 					}
-					NOT = { revanchism = 0.10 }
+					NOT = { revanchism = 0.15 }
 				}
 				AND = {
 					state_scope = {
 						soldiers = 0.061
 					}
-					NOT = { revanchism = 0.15 }
+					NOT = { revanchism = 0.2 }
 				}
 				AND = {
 					state_scope = {
 						soldiers = 0.066
 					}
-					NOT = { revanchism = 0.2 }
+					NOT = { revanchism = 0.25 }
 				}
 				AND = {
 					state_scope = {
 						soldiers = 0.071
 					}
-					NOT = { revanchism = 0.25 }
+					NOT = { revanchism = 0.3 }
 				}
 				AND = {
 					state_scope = {
 						soldiers = 0.076
 					}
-					NOT = { revanchism = 0.3 }
+					NOT = { revanchism = 0.35 }
 				}
 				AND = {
 					state_scope = {
 						soldiers = 0.081
 					}
-					NOT = { revanchism = 0.35 }
+					NOT = { revanchism = 0.4 }
 				}
 				AND = {
 					state_scope = {
 						soldiers = 0.086
 					}
-					NOT = { revanchism = 0.4 }
-				}
-				AND = {
-					state_scope = {
-						soldiers = 0.091
-					}
 					NOT = { revanchism = 0.45 }
 				}
 				AND = {
 					state_scope = {
-						soldiers = 0.101
+						soldiers = 0.091
 					}
 					NOT = { revanchism = 0.5 }
 				}
