@@ -1,4 +1,4 @@
-name = "Ethiopian Civil War"
+name = "War of Adali Independence"
 
 1835.10.2 = {
 	add_attacker = ETH
@@ -11,7 +11,7 @@ name = "Ethiopian Civil War"
 	# state_province_id - target state capital
 
 	war_goal = {
-		casus_belli = civil_war
+		casus_belli = conquest
 		actor = ETH
 		receiver = ADA
 	}
