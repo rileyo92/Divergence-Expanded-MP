@@ -1144,43 +1144,43 @@ promote_to =
 
 		group = {
 			modifier = {
-				factor = 2
+				factor = 1
 				revanchism = 0.05
 			}
 			modifier = {
-				factor = 2
+				factor = 1
 				revanchism = 0.1
 			}
 			modifier = {
-				factor = 2
+				factor = 1
 				revanchism = 0.15
 			}
 			modifier = {
-				factor = 2
+				factor = 1
 				revanchism = 0.2
 			}
 			modifier = {
-				factor = 2
+				factor = 1
 				revanchism = 0.25
 			}
 			modifier = {
-				factor = 2
+				factor = 1
 				revanchism = 0.3
 			}
 			modifier = {
-				factor = 2
+				factor = 1
 				revanchism = 0.35
 			}
 			modifier = {
-				factor = 2
+				factor = 1
 				revanchism = 0.4
 			}
 			modifier = {
-				factor = 2
+				factor = 1
 				revanchism = 0.45
 			}
 			modifier = {
-				factor = 2
+				factor = 1
 				revanchism = 0.5
 			}
 		}
