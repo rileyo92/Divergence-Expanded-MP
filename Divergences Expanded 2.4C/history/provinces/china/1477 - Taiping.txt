@@ -1,6 +1,6 @@
-owner = MIG
-controller = MIG
-add_core = MIG
+owner = TAI
+controller = TAI
+add_core = TAI
 add_core = TNG
 add_core = CHI
 add_core = HUI
@@ -10,5 +10,5 @@ life_rating = 40
   owner = HUI
   controller = HUI
   remove_core = TNG
-  remove_core = MIG
+  remove_core = TAI
 }

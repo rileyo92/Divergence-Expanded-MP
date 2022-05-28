@@ -1,6 +1,6 @@
-owner = TAI
-controller = TAI
-add_core = TAI
+owner = MCK
+controller = MCK
+add_core = MCK
 add_core = SHU
 add_core = CHI
 trade_goods = grain
@@ -8,5 +8,5 @@ life_rating = 30
 1836.1.2 = {
   owner = SHU
   controller = SHU
-  remove_core = TAI
+  remove_core = MCK
 }

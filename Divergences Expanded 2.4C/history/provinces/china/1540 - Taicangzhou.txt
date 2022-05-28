@@ -1,7 +1,7 @@
-owner = MIG
-controller = MIG
+owner = MCK
+controller = MCK
 add_core = TNG
-add_core = MIG
+add_core = MCK
 add_core = CHI
 add_core = HUI
 trade_goods = fish
@@ -9,6 +9,6 @@ life_rating = 30
 1836.1.2 = {
   owner = HUI
   controller = HUI
-  remove_core = MIG
+  remove_core = MCK
   remove_core = TNG
 }

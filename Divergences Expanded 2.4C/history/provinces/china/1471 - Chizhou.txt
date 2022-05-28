@@ -1,6 +1,4 @@
-owner = TAI
-controller = TAI
-add_core = TAI
+owner = MIG
 add_core = MIG
 add_core = CHI
 add_core = HUI
@@ -9,6 +7,5 @@ life_rating = 30
 1836.1.2 = {
   owner = HUI
   controller = HUI
-  remove_core = TAI
   remove_core = MIG
 }

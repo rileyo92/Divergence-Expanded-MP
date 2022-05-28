@@ -943,7 +943,7 @@ CHI_1611 = { 1611 1610 1609 1607 1604 1605 } #Zhejiang
 
 CHI_1539 = { 1541 1540 1543 } #Central Jiangsu
 
-CHI_1476 = { 1476 1536 1542 1543 }
+CHI_1476 = { 1476 1536 1542 } #Northern Jiangsu
 
 MIN_1 = { 2221 1544 1537 1539 } #Southern Jiangsu
 
