@@ -51,9 +51,6 @@ political_decisions = {
 			NET_1430 = {
 				add_core = GAN
 			}
-			NET_1433 = {
-				add_core = GAN
-			}
 			NET_1449 = {
 				add_core = GAN
 			}
@@ -117,9 +114,6 @@ political_decisions = {
 			add_accepted_culture = dayak
 			add_accepted_culture = micronesian
 			add_accepted_culture = polynesian
-			NET_1419 = {
-				add_core = GAN
-			}
 			NET_1421 = {
 				add_core = GAN
 			}

@@ -28,7 +28,6 @@ political_decisions = {
 			POR_2003 = { add_core = GRQ }
 			POR_1999 = { add_core = GRQ }
 			BEL_1977 = { add_core = GRQ }
-			SHO_2071 = { add_core = GRQ }
 			TRN_2108 = { add_core = GRQ }
 			ORA_2103 = { add_core = GRQ }
 			ENG_2092 = { add_core = GRQ }

@@ -56,7 +56,6 @@ political_decisions = {
 			TUR_869 = { add_core = THIS }
 			TUR_863 = { add_core = THIS }
 			TUR_884 = { add_core = THIS }
-			TUR_881 = { add_core = THIS }
 			set_country_flag = macedi_idea
 			capital = 860
 		}

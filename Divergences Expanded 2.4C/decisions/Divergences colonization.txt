@@ -149,7 +149,6 @@ political_decisions = {
 			owns = 2410
 			owns = 2421
 			owns = 2423
-			SA_2 = { empty = yes }
 			SA_3 = { empty = yes }
 			NOT = { rank = 16 }
 		}
@@ -163,7 +162,6 @@ political_decisions = {
 
 		effect = {
 			prestige = 5
-			SA_2 = { secede_province = THIS }
 			SA_3 = { secede_province = THIS }
 		}
 
@@ -428,33 +426,6 @@ political_decisions = {
 		effect = {
 			prestige = 5
 			NA_14 = { secede_province = THIS }
-		}
-
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	DNG_tangwan = {
-		picture = DNG_colony
-		potential = {
-			tag = DNG
-			owns = 16
-			NA_13 = { empty = yes }
-			NOT = { rank = 16 }
-		}
-
-		allow = {
-			war = no
-			medicine = 1
-			breech_loaded_rifles = 1
-			revolution_n_counterrevolution = 1
-			iron_railroad = 1
-		}
-
-		effect = {
-			prestige = 5
-			NA_13 = { secede_province = THIS }
 		}
 
 		ai_will_do = {

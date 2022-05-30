@@ -92,7 +92,6 @@ political_decisions = {
 			AUS_768 = { add_core = THIS }
 			AUS_736 = { add_core = THIS }
 			SER_794 = { add_core = THIS }
-			TUR_803 = { add_core = THIS }
 			MON_2582 = { add_core = THIS }
 		}
 	}
@@ -140,7 +139,6 @@ political_decisions = {
 			TUR_819 = { add_core = THIS }
 			TUR_805 = { add_core = THIS }
 			TUR_859 = { add_core = THIS }
-			GRE_826 = { add_core = THIS }
 			TUR_859 = { add_core = GRE }
 		}
 	}
@@ -224,7 +222,6 @@ political_decisions = {
 			remove_accepted_culture = ruthenian
 			AUS_619 = { add_core = DNB }
 			AUS_613	= { add_core = DNB }
-			AUS_612	= { add_core = DNB }
 			BAV_599	= { add_core = DNB }
 			BAV_595	= { add_core = DNB }
 			WUR_589	= { add_core = DNB }

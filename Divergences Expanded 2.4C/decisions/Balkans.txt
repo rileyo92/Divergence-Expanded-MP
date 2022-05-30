@@ -101,8 +101,6 @@ political_decisions = {
 		effect = {
 			set_country_flag = claim_greater_albania
 			MON_2582 = { add_core = ALB }
-			TUR_803 = { add_core = ALB }
-      GRE_826 = { add_core = ALB }
       GRE_837 = { add_core = ALB }
 		}
 	}
@@ -182,7 +180,6 @@ political_decisions = {
 			TUR_859 = { add_core = BUL }
 			TUR_860 = { add_core = BUL }
       TUR_819 = { add_core = BUL }
-      TUR_803 = { add_core = BUL }
       TUR_674 = { add_core = BUL }
       KOS_802 = { add_core = BUL }
 		}
@@ -256,7 +253,6 @@ political_decisions = {
     effect = {
       add_accepted_culture = serb
       KOS_802 = { add_core = THIS }
-      TUR_803 = { add_core = THIS }
       SER_794 = { add_core = THIS }
       AUS_777 = { add_core = THIS }
       BOS = { all_core = { add_core = THIS } }

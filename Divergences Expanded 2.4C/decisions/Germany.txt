@@ -214,7 +214,6 @@ political_decisions = {
 			PRU_546 = { add_core = CAE }	#Hinterpommern
 			SCA_544 = { add_core = CAE }	#Mecklenburg
 			HOL_369 = { add_core = CAE }	#Holstein
-			HAN_532 = { add_core = CAE }	#Luneburg
 			HAM_528 = { add_core = CAE }	#Hanover
 			SAX_1 = { add_core = CAE }		#Thuringia
 			PRU_581 = { add_core = CAE }  #Westfalen
@@ -288,11 +287,10 @@ political_decisions = {
 		effect = {
 			set_country_flag = rheinish_acc
 			add_accepted_culture = rheinish
-			HES_566 = { add_core = THIS } 	#Hessen
+			HES_566 = { add_core = THIS } #Hessen
 			PRU_575 = { add_core = THIS }	#Nordrhein
 			PRU_572 = { add_core = THIS }	#Rhineland
 			BRG_573 = { add_core = THIS }	#Saarbucken
-			HES_2560 = { add_core = THIS }	#Mainz
 			FRM_564 = { add_core = THIS }	#Palatinate
 			580 = { add_core = THIS }
 			581 = { add_core = THIS }
@@ -320,7 +318,6 @@ political_decisions = {
 			PRU_575 = { add_core = CAE }	#Nordrhein
 			PRU_572 = { add_core = CAE }	#Rhineland
 			BRG_573 = { add_core = CAE }	#Saarbucken
-			HES_2560 = { add_core = CAE }	#Mainz
 			FRM_564 = { add_core = CAE }	#Palatinate
 		}
   }
@@ -354,7 +351,6 @@ political_decisions = {
 			PRU_546 = { add_core = CAE }	#Hinterpommern
 			SCA_544 = { add_core = CAE }	#Mecklenburg
 			HOL_369 = { add_core = CAE }	#Holstein
-			HAN_532 = { add_core = CAE }	#Luneburg
 			HAM_528 = { add_core = CAE }	#Hanover
 			SAX_1 = { add_core = CAE }		#Thuringia
 			PRU_581 = { add_core = CAE }  #Westfalen

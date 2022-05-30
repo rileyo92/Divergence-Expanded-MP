@@ -23,9 +23,6 @@ political_decisions = {
 			NA_14 = {
 				add_core = VIN
 			}
-			NA_13 = {
-				add_core = VIN
-			}
 			NA_11 = {
 				add_core = VIN
 			}
@@ -598,7 +595,6 @@ political_decisions = {
 	}
 
 	conquer_lusitania = {
-		picture = "lusitania"
 		potential = {
 			OR = {
 				AND = {

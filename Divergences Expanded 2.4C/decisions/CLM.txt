@@ -190,8 +190,6 @@ political_decisions = {
 		effect = {
 			BRZ_2408 = { add_core = THIS }
 			AMA_1 = { add_core = THIS }
-			AMA_2410 = { add_core = THIS }
-			SA_2 = { add_core = THIS }
 			SA_3 = { add_core = THIS }
 			SA_1 = { add_core = THIS }
 			set_country_flag = secure_the_amazon
@@ -217,7 +215,6 @@ political_decisions = {
 			AMA_2 = { add_core = THIS }
 			AMA_4 = { add_core = THIS }
 			AMA_3 = { add_core = THIS }
-			AMA_5 = { add_core = THIS }
 			LOT_1 = { add_core = THIS }
 		}
 		ai_will_do = {

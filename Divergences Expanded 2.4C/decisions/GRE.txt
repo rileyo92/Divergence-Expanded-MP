@@ -208,7 +208,6 @@ political_decisions = {
 			TUR_863 = { remove_core = TUR }
 			TUR_869 = { remove_core = TUR }
 			EGY_843 = { remove_core = TUR }
-			VEN_848 = { remove_core = TUR }
 			TUR_855 = { remove_core = TUR }
 			add_country_modifier = {
 				name = enosis_modifier

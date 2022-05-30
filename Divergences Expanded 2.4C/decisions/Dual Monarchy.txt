@@ -356,7 +356,7 @@ political_decisions = {
       set_country_flag = burgundian_integration
       add_accepted_culture = burgundian
       badboy = 10
-      LLR = { all_core = { add_core = DUA } }
+      LRR = { all_core = { add_core = DUA } }
       BRG_607 = { add_core = THIS }
     }
     ai_will_do = {

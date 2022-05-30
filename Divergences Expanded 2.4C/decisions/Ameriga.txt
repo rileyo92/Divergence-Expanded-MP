@@ -108,7 +108,6 @@ political_decisions = {
 				}
 				country_event = 333458
 			}
-			SA_2 = { add_core = THIS } #Proche Amazonie
 			SA_3 = { add_core = THIS } #Amazonie Inferior
 			SA_2318 = { add_core = THIS } #Gran Chaco
 		}
@@ -219,7 +218,6 @@ political_decisions = {
 				}
 				country_event = 333458
 			}
-			SA_2 = { add_core = THIS } #Proche Amazonie
 			SA_3 = { add_core = THIS } #Amazonie Inferior
 			SA_2318 = { add_core = THIS } #Gran Chaco
 		}

@@ -84,9 +84,7 @@ political_decisions = {
 			any_country = {
 				any_pop = {
 					limit = {
-						OR = {
-							has_pop_culture = aimara
-						}
+						has_pop_culture = aimara
 					}
 					reduce_pop = 1.6
 				}
@@ -134,9 +132,7 @@ political_decisions = {
 			any_country = {
 				any_pop = {
 					limit = {
-						OR = {
-							has_pop_culture = tionghoa
-						}
+						has_pop_culture = tionghoa
 					}
 					reduce_pop = 5
 				}

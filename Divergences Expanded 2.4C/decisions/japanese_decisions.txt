@@ -331,7 +331,6 @@ political_decisions = {
 			badboy = 10
 			CHI_1 = { add_core = THIS }
 			CHI_2 = { add_core = THIS }
-			CHI_1614 = { add_core = THIS }
 			CHI_1618 = { add_core = THIS }
 			add_accepted_culture = korean
 			set_country_flag = into_china_proper

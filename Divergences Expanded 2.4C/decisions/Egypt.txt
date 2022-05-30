@@ -109,7 +109,6 @@ political_decisions = {
 			  ETH = { all_core = { add_core = EGY } }
 			  AJU = { all_core = { add_core = EGY } }
 				HDJ_1151 = { add_core = THIS }
-				YEM_1412 = { add_core = THIS }
 				YEM_1173 = { add_core = THIS }
 				add_accepted_culture = somali
 		}
@@ -202,7 +201,6 @@ political_decisions = {
 			TUR_894 = { add_core = THIS }
 			TUR_873 = { add_core = THIS }
 			TUR_876 = { add_core = THIS }
-			TUR_881 = { add_core = THIS }
 			add_accepted_culture = kurdish
 			add_accepted_culture = assyrian
 		}
@@ -246,7 +244,6 @@ political_decisions = {
 			add_accepted_culture = turkish
 			EGY_843 = { add_core = THIS }
 			TUR_855 = { add_core = THIS }
-			VEN_848 = { add_core = THIS }
 		}
 	}
 }

@@ -81,7 +81,6 @@ political_decisions = {
 			SUL = { all_core = { add_core = THIS } }
 			JAV = { all_core = { add_core = THIS } }
 			NET_1430 = { add_core = THIS }
-			NET_1433 = { add_core = THIS }
 		}
 	}
 

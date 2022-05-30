@@ -165,8 +165,6 @@ political_decisions = {
 		effect = {
 			add_accepted_culture = venetian
 			AUS_729 = { add_core = THIS }
-			VEN_730 = { add_core = THIS }
-			734 = { add_core = THIS }
 		}
 	}
 }

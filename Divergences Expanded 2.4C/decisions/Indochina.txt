@@ -15,7 +15,6 @@ political_decisions = {
 			add_accepted_culture = shan
 			add_accepted_culture = assamese
 			add_accepted_culture = asian_minor
-			ENG_1352 = { add_core = THIS }
 			ENG_1252 = { add_core = THIS }
 			ENG_1251 = { add_core = THIS }
 			SIA_1355 = { add_core = THIS }
@@ -109,7 +108,6 @@ political_decisions = {
 					add_core = THIS
 				}
 			}
-			ENG_1392 = { add_core = THIS }
 			ENG_1386 = { add_core = THIS }
 			CHI_1601 = { add_core = THIS }
 		}
@@ -206,7 +204,6 @@ political_decisions = {
 			add_accepted_culture = zhuang
 			add_accepted_culture = asian_minor
 			ENG_1386 = { add_core = THIS }
-			ENG_1392 = { add_core = THIS }
 			CHI_1601 = { add_core = THIS }
 			1503 = { add_core = THIS }
 			1504 = { add_core = THIS }
@@ -293,7 +290,6 @@ political_decisions = {
 			LFG = { all_core = { add_core = THIS } }
 			NET_1423 = { add_core = THIS }
 			ENG_1386 = { add_core = THIS }
-			ENG_1392 = { add_core = THIS }
 		}
 	}
 

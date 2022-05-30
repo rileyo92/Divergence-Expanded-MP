@@ -27,7 +27,6 @@ political_decisions = {
 						region = NET_1414
 						region = NET_1421
 						region = NET_1416
-						region = NET_1419
 					}
 				}
 				add_core = IND
@@ -75,7 +74,6 @@ political_decisions = {
 						region = NET_1414
 						region = NET_1421
 						region = NET_1416
-						region = NET_1419
 						}
 					}
 					remove_core = IND
