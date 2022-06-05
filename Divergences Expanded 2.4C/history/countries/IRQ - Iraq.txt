@@ -4,10 +4,11 @@ culture = bedouin
 culture = kurdish
 culture = persian
 religion = sunni
-government = absolute_monarchy
+government = prussian_constitutionalism
 plurality = 0.0
-nationalvalue = nv_tradition
+nationalvalue = nv_order
 literacy = 0.28
+civilized = yes
 
 # Political reforms
 slavery = no_slavery
@@ -25,15 +26,16 @@ work_hours = no_work_hour_limit
 safety_regulations = no_safety
 health_care = no_health_care
 unemployment_subsidies = no_subsidies
-pensions = no_pensions
+pensions = no_pensions 
 school_reforms = no_schools
 
 # New Reforms
 conscription = mandatory_service
 debt_law = peonage
 penal_system = capital_punishment
-child_labor = child_labor_legalcitizens_rights = primary_culture_only
-border_policy = closed_borders
+child_labor = child_labor_legal
+citizens_rights = primary_culture_only
+border_policy = open_borders
 
 ruling_party = AAA_conservative_5
 last_election = 1834.1.1
@@ -48,16 +50,14 @@ upper_house = {
 }
 
 set_country_flag = sunni_country
-schools = unciv_tech_school
 
-foreign_artillery = yes_foreign_artillery
-foreign_weapons = yes_foreign_weapons
-foreign_training = yes_foreign_training
-admin_reform = yes_admin_reform
-land_reform = yes_land_reform
 
 # Technologies
 flintlock_rifles = 1
 bronze_muzzle_loaded_artillery = 1
+basic_chemistry = 1
+piston_steam_engine = 1
+late_enlightenment_philosophy = 1
+enlightenment_thought = 1
 
 oob = "IRQ_oob.txt"

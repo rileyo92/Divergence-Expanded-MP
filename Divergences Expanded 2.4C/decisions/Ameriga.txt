@@ -38,7 +38,7 @@ political_decisions = {
 		allow = {
 			owns = 425
 			owns = 418
-			owns = 428
+			owns = 438
 			owns = 443
 		}
 		effect = {
@@ -288,13 +288,13 @@ political_decisions = {
 		}
 	}
 
-	#Ameriga Amazonie
+	#Ameriga Granada
 	Granada_border = {
 		potential = {
 			tag = AZL
 			has_country_flag = guyana_claim
 			NOT = { has_country_flag = granada_claim }
-			primary_culture = amazonian
+			NOT = { has_country_flag = incan_invasion }
 		}
 		allow = {
 			nationalism_n_imperialism = 1
@@ -348,10 +348,7 @@ political_decisions = {
 		potential = {
 			OR = {
 				tag = LOT
-				AND = {
-					tag = AZL
-					has_country_flag = LOT_AMG
-				}
+				tag = AZL
 			}
 			NOT = { accepted_culture = guarani }
 		}
@@ -369,13 +366,7 @@ political_decisions = {
 
 	integrate_amazonian_natives_lot = {
 		potential = {
-			OR = {
-				tag = LOT
-				AND = {
-					tag = AZL
-					has_country_flag = LOT_AMG
-				}
-			}
+			tag = AZL
 			NOT = { accepted_culture = amazonian_native }
 		}
 		allow = {
@@ -393,7 +384,7 @@ political_decisions = {
 	invade_inca_LOT = {
 		potential = {
 			tag = AZL
-			primary_culture = lotharian
+			NOT = { has_country_flag = granada_claim }
 			NOT = { has_country_flag = incan_invasion }
 		}
 		allow = {

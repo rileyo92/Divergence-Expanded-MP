@@ -7,51 +7,50 @@ political_decisions = {
 			NOT = { has_country_flag = vin_manifest_destiny }
 		}
 		allow = {
-			all_core = {
-				owned_by = THIS
-			}
 			state_n_government = 1
+			owns = 247
+			owns = 237
+			owns = 46
+			owns = 173
+			owns = 178
+			owns = 163
+			owns = 159
+			owns = 50
+			owns = 65
+			owns = 68
 		}
 		effect = {
 			set_country_flag = vin_manifest_destiny
-			NA_30 = {
-				add_core = VIN
-			}
-			NA_15 = {
-				add_core = VIN
-			}
-			NA_14 = {
-				add_core = VIN
-			}
-			NA_11 = {
-				add_core = VIN
-			}
-			NA_10 = {
-				add_core = VIN
-			}
-			NA_17 = {
-				add_core = VIN
-			}
-			NBG_6 = {
-				add_core = VIN
-			}
-			NBG_4 = {
-				add_core = VIN
-			}
-			DNG_4 = {
-				add_core = VIN
-			}
-			NBG_1 = {
-				add_core = VIN
-			}
-			NA_9 = {
-				add_core = VIN
-			}
-			NA_12 = {
-				add_core = VIN
-			}
-			NBG_2 = { add_core = VIN }
+			VIN_6 = { add_core = VIN } #Markland
+			VIN_60 = { add_core = VIN } #Tollvikland
+			VIN_10 = { add_core = VIN } #Helluland
+			VIN_2595 = { add_core = VIN } #Nunavut
+			NA_9 = { add_core = VIN } #Torsmark
+			NA_12 = { add_core = VIN } #Odensmark
+			NA_36 = { add_core = VIN } #Finnjon
+			NA_30 = { add_core = VIN } #Rohhnst
+			NA_14 = { add_core = VIN } #Xindu
+			NA_11 = { add_core = VIN } #Gurentonosu
+			NA_10 = { add_core = VIN } #Kita
+			NA_17 = { add_core = VIN } #Kaigan
+			DNG_4 = { add_core = VIN } #Xiazhou
+			NA_15 = { add_core = VIN } #Linghu
+			NA_8 = { add_core = VIN } #Tjorin
+			VIN_1 = { add_core = VIN } #Travadale
+			VIN_9 = { add_core = VIN } #Kristiana
+			VIN_163 = { add_core = VIN } #Tobol
+			VIN_175 = { add_core = VIN } #Flattsjo
+			VIN_7 = { add_core = VIN } #Nye Trondelag
+			NBG_6 = { add_core = VIN } #Nouvelle Lorraine
+			NBG_3 = { add_core = VIN } #Flandre Superior
+			NBG_7 = { add_core = VIN } #Carolina
+			NBG_247 = { add_core = VIN } #Nouvelle Wallonie
+			NBG_2 = { add_core = VIN } #Philippa
+			NBG_1 = { add_core = VIN } #Nouvelle Flanders
+			NBG_4 = { add_core = VIN } #Haute Valoisie
 			add_accepted_culture = rohnnst
+			add_accepted_culture = iroquois
+			add_accepted_culture = algonquin
 		}
 	}
 
@@ -65,7 +64,7 @@ political_decisions = {
 			OR = {
 				AND = {
 					owns = 367
-					owns = 371
+					owns = 334
 					owns = 372
 				}
 				AND = {
@@ -191,71 +190,49 @@ political_decisions = {
 			NOT = { has_country_flag = nbg_manifest_destiny }
 		}
 		allow = {
-			all_core = {
-				owned_by = THIS
-			}
+			owns = 248
+			owns = 247
+			owns = 243
+			owns = 224
+			owns = 236
+			owns = 46
+			owns = 173
+			owns = 178
+			owns = 218
+			owns = 185
+			owns = 214
+			owns = 207
 			state_n_government = 1
 		}
 		effect = {
 			set_country_flag = nbg_manifest_destiny
-			NA_16 = {
-				add_core = NBG
-			}
-			PLA_3 = {
-				add_core = NBG
-			}
-			PLA_4 = {
-				add_core = NBG
-			}
-			PLA_5 = {
-				add_core = NBG
-			}
-			PLA_6 = {
-				add_core = NBG
-			}
-			PLA_7 = {
-				add_core = NBG
-			}
-			PLA_8 = {
-				add_core = NBG
-			}
-			PLA_9 = {
-				add_core = NBG
-			}
-			NA_1 = {
-				add_core = NBG
-			}
-			NA_2 = {
-				add_core = NBG
-			}
-			VIN_9 = {
-				add_core = NBG
-			}
-			VIN_2 = {
-				add_core = NBG
-			}
-			VIN_3 = {
-				add_core = NBG
-			}
-			VIN_6 = {
-				add_core = NBG
-			}
-			VIN_60 = {
-				add_core = NBG
-			}
-			VIN_5 = {
-				add_core = NBG
-			}
-			VIN_1 = {
-				add_core = NBG
-			}
-			VIN_10 = {
-				add_core = NBG
-			}
-			VIN_71 = { add_core = NBG }
-			VIN_163 = { add_core = NBG }
-			VIN_2595 = { add_core = NBG }
-			VIN_175 = { add_core = NBG }
+			NBG_247 = { add_core = NBG } #Nouvelle Wallonie
+			VIN_2 = { add_core = NBG } #Osterland
+			VIN_71 = { add_core = NBG } #Ny Jelling
+			VIN_5 = { add_core = NBG } #Kroneland
+			VIN_60 = { add_core = NBG } #Tollvikland
+			VIN_6 = { add_core = NBG } #Markland
+			VIN_3 = { add_core = NBG } #Vinland
+			NBG_7 = { add_core = NBG } #Carolina
+			NBG_3 = { add_core = NBG } #Flandre Superior
+			VIN_4 = { add_core = NBG } #Storsjoarna
+			VIN_10 = { add_core = NBG } #Helluland
+			VIN_1 = { add_core = NBG } #Travalde
+			VIN_9 = { add_core = NBG } #Kristiana
+			VIN_175 = { add_core = NBG } #Flattsjo
+			VIN_163 = { add_core = NBG } #Tobol
+			VIN_7 = { add_core = NBG } #Nye Trondelag
+			PLA_9 = { add_core = NBG } #Pays de Illinois
+			PLA_5 = { add_core = NBG } #Tuskgi
+			NA_1 = { add_core = NBG } #Messippi Superior
+			PLA_7 = { add_core = NBG } #Nouvelle France
+			PLA_8 = { add_core = NBG } #Messippi
+			PLA_6 = { add_core = NBG } #Alibamon
+			PLA_3 = { add_core = NBG } #Charlesie
+			NA_16 = { add_core = NBG } #Athesia
+			PLA_4 = { add_core = NBG } #Pays Cherokis
+			PLA_2 = { add_core = NBG } #Leonie
+			PLA_1 = { add_core = NBG } #Nouvelle Leinstre
 		}
 	}
 
@@ -369,44 +346,48 @@ political_decisions = {
 			NOT = { has_country_flag = pla_manifest_destiny }
 		}
 		allow = {
-			all_core = {
-				owned_by = THIS
-			}
+			owns = 193
+			owns = 196
+			owns = 201
+			owns = 188
+			owns = 170
+			owns = 163
+			owns = 180
+			owns = 185
+			owns = 218
+			owns = 207
+			owns = 132
 			state_n_government = 1
 		}
 		effect = {
 			set_country_flag = pla_manifest_destiny
-			NBG_4 = {
-				add_core = PLA
-			}
-			NA_8 = {
-				add_core = PLA
-			}
-			NA_16 = {
-				add_core = PLA
-			}
-			NA_109 = {
-				add_core = PLA
-			}
-			MEX_103 = {
-				add_core = PLA
-			}
-			NA_5 = {
-				add_core = PLA
-			}
-			NA_15 = {
-				add_core = PLA
-			}
-			TEX_132 = {
-				add_core = PLA
-			}
-			MEX_2142 = {
-				add_core = PLA
-			}
-			MEX_90 = {
-				add_core = PLA
-			}
-			NBG_4 = { add_core = PLA }
+			PLA_8 = { add_core = PLA } #Messippi
+			PLA_6 = { add_core = PLA } #Alibamon
+			NA_16 = { add_core = PLA } #Athesia
+			PLA_4 = { add_core = PLA } #Pays Cherokis
+			PLA_5 = { add_core = PLA } #Tuskgi
+			PLA_1 = { add_core = PLA } #Nouvelle Lorraine
+			PLA_9 = { add_core = PLA } #Pays de Illinois
+			NBG_5 = { add_core = PLA } #Basse Valoisie
+			NBG_4 = { add_core = PLA } #Haute Valoisie
+			NBG_3 = { add_core = PLA } #Flandre Superior
+			NBG_1 = { add_core = PLA } #Nouvelle Flanders
+			NBG_2 = { add_core = PLA } #Philippa
+			VIN_7 = { add_core = PLA } #Nye Trondelag
+			VIN_163 = { add_core = PLA } #Tobol
+			VIN_9 = { add_core = PLA } #Kristiana
+			VIN_1 = { add_core = PLA } #Travalde
+			NA_2 = { add_core = PLA } #Terres-Rouges
+			NA_8 = { add_core = PLA } #Tjorin
+			NA_7 = { add_core = PLA } #Terres-Maha
+			NA_4 = { add_core = PLA } #Terres-Cau
+			NA_3 = { add_core = PLA } #Nouvelle Lancastre
+			TEX_132 = { add_core = PLA } #Lusitania
+			NA_109 = { add_core = PLA } #Laofeng
+			NA_5 = { add_core = PLA } #Yulin
+			MEX_103 = { add_core = PLA } #Terres Vermelhas
+			MEX_90 = { add_core = PLA } #California
+			MEX_2142 = { add_core = PLA } #Tejas
 		}
 	}
 
@@ -421,7 +402,7 @@ political_decisions = {
 			owns = 436
 			owns = 300
 			owns = 297
-			owns = 291
+			owns = 303
 		}
 		effect = {
 			PLA = { all_core = { add_core = DUA } }

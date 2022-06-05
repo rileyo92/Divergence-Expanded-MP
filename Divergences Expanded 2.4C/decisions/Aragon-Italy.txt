@@ -43,10 +43,7 @@ political_decisions = {
 			}
 			capital = 749
 			add_accepted_culture = central_italian
-			749 = { add_core = THIS }
-			750 = { add_core = THIS }
-			751 = { add_core = THIS }
-			752 = { add_core = THIS }
+			PAP_752 = { add_core = THIS } #Lazio
 			any_country = {
 				limit = {
 					OR = {

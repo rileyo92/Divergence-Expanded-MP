@@ -21,7 +21,7 @@ work_hours = no_work_hour_limit
 safety_regulations = no_safety
 health_care = no_health_care
 unemployment_subsidies = no_subsidies
-pensions = no_pensions 
+pensions = no_pensions
 school_reforms = no_schools
 # New Reforms
 conscription = four_year_draft
@@ -41,6 +41,12 @@ set_country_flag = new_world_nation
 
 # Unciv Reforms
 admin_reform = yes_admin_reform
+army_schools = yes_army_schools
+foreign_weapons = yes_foreign_weapons
+foreign_training = yes_foreign_training
+military_constructions = yes_military_constructions
+foreign_officers = yes_foreign_officers
+land_reform = yes_land_reform
 
 
 ruling_party = AAA_conservative_1
