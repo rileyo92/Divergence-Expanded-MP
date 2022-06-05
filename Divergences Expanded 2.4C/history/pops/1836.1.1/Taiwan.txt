@@ -74,12 +74,12 @@
 		size = 165000
 	}
 	farmers = {
-		culture = micronesian
+		culture = polynesian
 		religion = mahayana
 		size = 18150
 	}
 	farmers = {
-		culture = micronesian
+		culture = polynesian
 		religion = animist
 		size = 18150
 	}
@@ -87,25 +87,25 @@
 #Taitung (67k - 268k) #now part of Taiwan
 2562 = {
 	farmers = {
-		culture = micronesian
+		culture = polynesian
 		religion = animist
 		size = 17000
 	}
 
 	slaves = {
-		culture = micronesian
+		culture = polynesian
 		religion = animist
 		size = 20000
 	}
 
 	soldiers = {
-		culture = micronesian
+		culture = polynesian
 		religion = animist
 		size = 5000
 	}
 
 	aristocrats = {
-		culture = micronesian
+		culture = polynesian
 		religion = animist
 		size = 1000
 	}
