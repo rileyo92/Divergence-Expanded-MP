@@ -31,3 +31,7 @@
 #Khaliji into Mashriqi
 #Micronesian into Melanesian
 #North and South Han into Han
+#Kreol into Afro-Latino/Afro-Frankish/Afro-Germanic
+#Afro Frankish split into Afro-Frankish, Afro-Arcadian and Afro-Amerigan
+#Micronesian into Polynesian
+#Dabubian Split into Lower and Upper Danubian

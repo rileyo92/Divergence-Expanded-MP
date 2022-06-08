@@ -309,3 +309,51 @@
 #Buffed Cavalry units but not Cavalry the unit
 #Last two arty tecks now give 1 attack instead of 0.5
 #Plane starting attack increased
+#
+# 2.3
+#
+#Made Political National focuses increase loyalty by 0.01 (was 0.003)
+#Swapped South German to Lower Danubian from Romania's Integrate Minorities
+#Added unique path for Amazonian and Lotharingian Amerigas
+#Added Return home decisions for Amazonie and Lotharingia
+#Added Zombie's Alstalt changes for Aircraft, Buffed Tanks more, adjusted supply consumption from inventions
+#Added Lower Danubian Culture, Hungary starts with it accepted
+#Added Fall of X decisions for Burgundy, Aragon. Venice
+#Added decisions for Netherlands, France
+#Added North Sea formable for British nations
+#Rebalanced Literacy Rates and pluralism across Europe
+#Restyled Swiss culture as Swabian, expanded to Baden and Wurrtemburg
+#Added Shattered Bookmark
+#Mil-Industry Complex naval tech malus -5% > -10%
+#Merchant Marine army tech malus -5% > -10%, culture tech malus removed, industry tech bonus of +5% added
+#Industry tech school army tech malus -5% > -10%, commerce tech bonus +10% > +15%, naval tech malus -10% > -5%
+#Avantgarde tech school army tech malus removed, commerce tech bonus removed, industry tech bonus +5% changed to malus -10%
+#Commerce tech school commerce tech bonus +15% > +20%, culture tech bonus removed, industry tech bonus +5% > +10%, naval tech malus removed
+#Bosniaks culure expanded to replace most of the turkish in the balkans
+#Reworked DM's pops to better represent the Anglois pops
+#Removed DM's cores on Pas de Calais
+#Soldier pop deaths from combat base reduced by 4%
+#Added more middling Generals in traits
+#LR's in germany nerfed to 38LR from 40LR
+#Artillery Defence nerfed even more
+#
+# 2.4
+#
+#Pop nerf and buff reworked based on culture, not tags
+#Han pop nerfed set to -50%
+#Yue, Min, Hakka pop nerf set to -35%
+#Plantagenian, Afro-Arcadian, Granadan and Afro-Latino pop buff set to +10%
+#Qingqiuan, Lusitanian, Quecha, Zhuang pop buff set to +20%
+#Athesian, Guianan, Caribeno, Ayitian, Mexican, Amazonian, Lotharingian and Afro-Amerigan pop buff set at +50%
+#Aimara pop buff set at +60%
+#Central American, Beornian, Hui and Yi pop buff set at +100%
+#Kaiganese, Ganguan (Zhourao) pop buff set at +150%
+#Boer, Miao, Baastards pop buff set at +200%
+#Lanfang pop buff set to +400%
+#Merged Kreol, Khaliji, South Han, Micronesian, central italian cultures but split Afro-Frankish
+#Added a revanchist catch-up mechanic to solider pop promotion
+#Complete State Rework, reducing number of states across the world except Korea where it increased by 2
+#Removed Terrain Imposing a restriction on port building
+#Removed the special straights due to issues with naval invasions
+#Wargoals reset to Vanilla Wargoals
+#Made Arcadian decisions make more sense in shattered world
