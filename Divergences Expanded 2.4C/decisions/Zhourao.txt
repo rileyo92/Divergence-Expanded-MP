@@ -112,7 +112,6 @@ political_decisions = {
 			badboy = 10
 			add_accepted_culture = javan
 			add_accepted_culture = dayak
-			add_accepted_culture = micronesian
 			add_accepted_culture = polynesian
 			NET_1421 = {
 				add_core = GAN

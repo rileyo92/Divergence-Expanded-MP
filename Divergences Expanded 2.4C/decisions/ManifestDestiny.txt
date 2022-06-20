@@ -75,7 +75,6 @@ political_decisions = {
 		effect = {
 			set_country_flag = dng_pacific
 			add_accepted_culture = polynesian
-			add_accepted_culture = micronesian
 			HAW_658 = {
 				add_core = DNG
 			}

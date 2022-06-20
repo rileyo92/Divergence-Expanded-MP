@@ -457,7 +457,6 @@ political_decisions = {
 			add_accepted_culture = dayak
 			add_accepted_culture = moluccan
 			add_accepted_culture = melanesian
-			add_accepted_culture = micronesian
 			add_accepted_culture = polynesian
 			add_accepted_culture = tionghoa
 			set_country_flag = co_prosperity

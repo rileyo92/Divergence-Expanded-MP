@@ -285,7 +285,6 @@ political_decisions = {
 			set_country_flag = protect_polynesia
 			add_accepted_culture = polynesian
 			add_accepted_culture = melanesian
-			add_accepted_culture = micronesian
 			add_accepted_culture = maori
 			add_accepted_culture = aborigine
 			2285 = { add_core = INC }

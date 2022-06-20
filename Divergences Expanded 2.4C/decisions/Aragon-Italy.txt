@@ -42,7 +42,6 @@ political_decisions = {
 				annex_to = THIS
 			}
 			capital = 749
-			add_accepted_culture = central_italian
 			PAP_752 = { add_core = THIS } #Lazio
 			any_country = {
 				limit = {
@@ -117,7 +116,6 @@ political_decisions = {
 						NOT = {
 							OR = {
 								culture = north_italian
-								culture = central_italian
 								culture = south_italian
 							}
 						}
